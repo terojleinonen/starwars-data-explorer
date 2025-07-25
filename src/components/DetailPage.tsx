@@ -21,7 +21,7 @@ const Details: React.FC<{ item: { [key: string]: any }, theme: string }> = ({ it
 
   // Helper function to check if a key should be hidden
   const shouldHideKey = (key: string): boolean => {
-    const hiddenKeys = ['url', 'created', 'edited'];
+    const hiddenKeys = ['url', 'created', 'edited', 'name', 'title'];
     return hiddenKeys.includes(key.toLowerCase());
   };
 
