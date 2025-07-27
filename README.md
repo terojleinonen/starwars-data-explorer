@@ -58,7 +58,7 @@ To get started with the Star Wars Data Explorer, follow these steps:
 
 ## Acknowledgments
 
-Data provided by [SWAPI](https://swapi.dev). Not affiliated with Lucasfilm or Disney.
+Data provided by [SWAPI](https://swapi.info). Not affiliated with Lucasfilm or Disney.
 
 ## License
 
