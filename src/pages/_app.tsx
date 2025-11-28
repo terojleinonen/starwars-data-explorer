@@ -1,43 +1,58 @@
-import { AppProps } from 'next/app';
-import { useEffect, useState } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import '../styles/globals.css';
+// FILE: App.tsx
+// App routing + theme management + navbar + LandingPage integration
 
-const MyApp = ({ Component, pageProps }: AppProps) => {
-  const [theme, setTheme] = useState('light');
+"use client";
+
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import { FilmsPage, PeoplePage, PlanetsPage, SpeciesPage, VehiclesPage, StarshipsPage } from "@/components/pages";
+import LandingPage from "../components/LandingPage";
+import DetailsPage from "../components/DetailsPage";
+
+import "../../styles/globals.css";
+
+const App: React.FC = () => {
+  const [theme, setTheme] = useState<"light" | "dark">("dark");
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    // Check if the user prefers dark mode
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const systemTheme = prefersDarkMode ? 'dark' : 'light';
-    setTheme(systemTheme);
-    document.body.className = `body-${systemTheme}`;
-
-    // Listen for changes in system theme preference
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    const handleChange = (e: MediaQueryListEvent) => {
-      const newTheme = e.matches ? 'dark' : 'light';
-      setTheme(newTheme);
-      document.body.className = `body-${newTheme}`;
-    };
-
-    // Add event listener for theme changes
-    mediaQuery.addEventListener('change', handleChange);
-
-    // Clean up
-    return () => {
-      mediaQuery.removeEventListener('change', handleChange);
-    };
+    setMounted(true);
+    const savedTheme = (localStorage.getItem("theme") as "light" | "dark") || "dark";
+    setTheme(savedTheme);
+    document.documentElement.classList.add(savedTheme);
   }, []);
 
+  useEffect(() => {
+    if (!mounted) return;
+    document.documentElement.classList.remove("light", "dark");
+    document.documentElement.classList.add(theme);
+    localStorage.setItem("theme", theme);
+  }, [theme, mounted]);
+
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
+  };
+
+  if (!mounted) return null;
+
   return (
-    <>
-      <Navbar theme={theme} />
-      <Component {...pageProps} theme={theme} />
-      <Footer theme={theme} />
-    </>
+    <Router>
+      <Navbar theme={theme} toggleTheme={toggleTheme} />
+      <Routes>
+        <Route path="/" element={<LandingPage theme={theme} />} />
+        <Route path="/films" element={<FilmsPage theme={theme} />} />
+        <Route path="/people" element={<PeoplePage theme={theme} />} />
+        <Route path="/planets" element={<PlanetsPage theme={theme} />} />
+        <Route path="/species" element={<SpeciesPage theme={theme} />} />
+        <Route path="/vehicles" element={<VehiclesPage theme={theme} />} />
+        <Route path="/starships" element={<StarshipsPage theme={theme} />} /> 
+        <Route path="/:category/:id" element={<DetailsPage theme={theme} />} />
+        {/* fallback */}
+        <Route path="*" element={<LandingPage theme={theme} />} />
+      </Routes>
+    </Router>
   );
 };
 
-export default MyApp;
+export default App;

@@ -1,8 +1,9 @@
+// FILE: index.tsx
+// App entrypoint for super-premium SWAPI app
+
 import React from "react";
-import Home from "../components/Home";
+import App from "./_app";
 
-const IndexPage = ({ theme }: { theme: string }) => {
-  return <Home theme={theme} />;
-};
-
-export default IndexPage;
+export default function Home() {
+  return <App />;
+}

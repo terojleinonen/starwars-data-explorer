@@ -1,0 +1,129 @@
+/* FILE: PlanetHeader.css
+   Styling for VisionOS-style PlanetHeader component
+*/
+
+.planet-header-container {
+  position: relative;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.planet-backlight {
+  position: absolute;
+  right: -8rem;
+  top: -8rem;
+  width: 26rem;
+  height: 26rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, #1e3a8a 0%, transparent 60%);
+  filter: blur(60px);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.planet-sphere {
+  position: absolute;
+  right: -3rem;
+  top: -3rem;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.planet-sphere-base {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #fafafa, transparent 58%);
+}
+
+.planet-sphere-overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: conic-gradient(from 230deg, #020617, transparent 40%, #1d4ed8 70%);
+  mix-blend-mode: overlay;
+  opacity: 0.8;
+  animation: overlayPulse 11s ease-in-out infinite;
+}
+
+@keyframes overlayPulse {
+  0% { opacity: 0.65; }
+  50% { opacity: 0.85; }
+  100% { opacity: 0.65; }
+}
+
+.planet-glow {
+  position: absolute;
+  right: -3rem;
+  top: -3rem;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.planet-glow-inner {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 40%, #38bdf8, transparent 60%);
+  mix-blend-mode: screen;
+  filter: blur(30px);
+  animation: glowPulse 7s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0% { opacity: 0.55; }
+  50% { opacity: 0.75; }
+  100% { opacity: 0.55; }
+}
+
+.planet-header-text {
+  position: relative;
+  z-index: 10;
+  max-width: 38rem;
+}
+
+.planet-header-title {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.summary-stack-container {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 14rem;
+  pointer-events: none;
+}
+
+/* Glass card styles */
+.glass-card {
+  position: relative;
+  height: 4rem;
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.65);
+  overflow: hidden;
+  transform-style: preserve-3d;
+}
+
+.glassCardFront, .glassCardBack {
+  position: absolute;
+  inset: 0;
+  padding: 0.5rem 0.75rem;
+  backface-visibility: hidden;
+}
+
+.glass-card-back {
+  transform: rotateY(180deg);
+}

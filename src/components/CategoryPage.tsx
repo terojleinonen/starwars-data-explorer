@@ -1,114 +1,144 @@
-import React, { useEffect, useState } from "react";
-import { useRouter } from "next/router";
-import Link from "next/link";
-import { motion } from "framer-motion";
+// FILE: CategoryPage.tsx
+// Super-premium category grid page using SWAPI
 
-export interface CategoryPageProps {
-  category?: string | string[];
-  theme: string;
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+
+interface CategoryPageProps {
+  theme: "light" | "dark";
 }
 
-const CategoryPage = ({ theme }: CategoryPageProps) => {
-  const router = useRouter();
-  const { category } = router.query;
-  type Item = {
-    name?: string;
-    title?: string;
-    url?: string;
-    episode_id?: number;
-    [key: string]: any;
-  };
-  
-  const [data, setData] = useState<Item[]>([]);
+const API_BASE = "https://swapi.info/api";
 
-  // Mapping film titles to poster images
-  const getFilmPoster = (item: Item): string | null => {
-    if (category !== 'films') return null;
-    
-    const episodeId = item.episode_id;
-    if (episodeId && episodeId >= 1 && episodeId <= 6) {
-      return `/images/posters/episode-${episodeId}.svg`;
-    }
-    
-    // Fallback mapping by title if episode_id is not available
-    const title = item.title?.toLowerCase() || '';
-    if (title.includes('phantom menace')) return '/images/posters/episode-1.svg';
-    if (title.includes('attack of the clones')) return '/images/posters/episode-2.svg';
-    if (title.includes('revenge of the sith')) return '/images/posters/episode-3.svg';
-    if (title.includes('new hope')) return '/images/posters/episode-4.svg';
-    if (title.includes('empire strikes back')) return '/images/posters/episode-5.svg';
-    if (title.includes('return of the jedi')) return '/images/posters/episode-6.svg';
-    
-    return null;
-  };
+const CategoryPage: React.FC<CategoryPageProps> = ({ theme }) => {
+  const { category } = useParams();
+  const [items, setItems] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (category) {
-      fetch(`https://swapi.info/api/${category}`)
-        .then((res) => res.json())
-        .then((res) => setData(Array.isArray(res) ? res : res.results || []))
-        .catch(() => {});
-    }
+    if (!category) return;
+    const fetchData = async () => {
+      setLoading(true);
+      setError(null);
+      try {
+        const res = await fetch(`${API_BASE}/${category}`);
+        if (!res.ok) throw new Error("Failed to fetch SWAPI list");
+        const json = await res.json();
+        setItems(json.results || []);
+      } catch (err: any) {
+        setError(err.message || "Unknown error");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
   }, [category]);
 
+  const isDark = theme === "dark";
+  const title =
+    (category && category.charAt(0).toUpperCase() + category.slice(1)) ||
+    "Category";
+
   return (
-    <motion.div
-      className={`category-root ${theme}`}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-    >
-      <div className="category-container">
-        <h2 className={`category-title ${theme}`}>{category}</h2>
-        <div className="category-list">
-          {data && data.length > 0 ? (
-            data.map((item, idx) => {
-              const id = item.url?.split("/").filter(Boolean).pop();
-              const posterUrl = getFilmPoster(item);
-              const isFilm = category === 'films';
-              
-              return (
-                <motion.div
-                  key={idx}
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.3, delay: idx * 0.03 }}
-                  className={`category-card ${theme} ${isFilm ? 'film-card' : ''}`}
-                >
-                  <Link
-                    href={`/${category}/${id}`}
-                    className={`category-card-link ${theme} ${isFilm ? 'film-card-link' : ''}`}
-                    style={isFilm && posterUrl ? {
-                      backgroundImage: `url(${posterUrl})`,
-                      backgroundSize: 'cover',
-                      backgroundPosition: 'center',
-                      backgroundRepeat: 'no-repeat'
-                    } : {}}
-                  >
-                    <div className={`card-content ${isFilm ? 'film-content-overlay' : ''}`}>
-                      <h3 className={`category-card-title ${theme}`}>{item.name || item.title}</h3>
-                      {isFilm && item.episode_id && (
-                        <p className={`episode-number ${theme}`}>Episode {item.episode_id}</p>
-                      )}
-                      <p className={`category-card-desc ${theme}`}>
-                        {isFilm ? 'Click to explore' : 'Click for details'}
-                      </p>
-                    </div>
-                    {isFilm && (
-                      <div className="film-overlay"></div>
-                    )}
-                  </Link>
-                </motion.div>
-              );
-            })
-          ) : (
-            <div className={`category-empty ${theme}`}>
-              <p>No data found for this category.</p>
+    <div className="px-4 pb-16 pt-6 sm:px-8">
+      <div className="mx-auto max-w-6xl">
+        {/* Header band (simple version – PlanetHeader is for detail view) */}
+        <div
+          className={`mb-8 overflow-hidden rounded-3xl border px-5 py-6 sm:px-8 sm:py-8 ${
+            isDark
+              ? "border-slate-700/80 bg-slate-950/80 backdrop-blur-xl"
+              : "border-slate-200 bg-slate-50/80 backdrop-blur-xl"
+          }`}
+        >
+          <div className="flex flex-col gap-3 md:flex-row md:items-baseline md:justify-between">
+            <div className="space-y-2">
+              <div className="text-[0.65rem] uppercase tracking-[0.4em] text-sky-400/80">
+                SWAPI · Category
+              </div>
+              <h1 className="text-2xl font-semibold tracking-wide sm:text-3xl md:text-4xl">
+                {title}
+              </h1>
+              <p className="max-w-xl text-xs text-slate-400 sm:text-sm">
+                Browse all {title.toLowerCase()} records exposed via SWAPI. Select a
+                record to open a full starship-grade detail console.
+              </p>
             </div>
-          )}
+            <div className="mt-2 text-[0.65rem] uppercase tracking-[0.3em] text-slate-400">
+              Total records:{" "}
+              {loading ? "…" : items.length ? items.length : "No data"}
+            </div>
+          </div>
+        </div>
+
+        {/* Status messages */}
+        {loading && (
+          <div className="mb-4 text-sm text-slate-400">
+            Retrieving records from SWAPI…
+          </div>
+        )}
+        {error && (
+          <div className="mb-4 rounded-2xl border border-red-500/40 bg-red-950/50 px-4 py-3 text-sm text-red-100">
+            Transmission error: {error}
+          </div>
+        )}
+
+        {/* Grid */}
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {!loading &&
+            !error &&
+            items.map((item, idx) => {
+              const id =
+                item.url?.split("/").filter(Boolean).pop() ?? String(idx);
+              const name =
+                item.name || item.title || `Record ${id}`;
+
+              // A tiny helper summary
+              const secondary =
+                item.model ||
+                item.classification ||
+                item.director ||
+                item.climate ||
+                item.gender ||
+                item.starship_class ||
+                "";
+
+              return (
+                <Link
+                  key={id}
+                  to={`/${category}/${id}`}
+                  className={`group block rounded-2xl border px-4 py-4 sm:px-5 sm:py-5 transition-transform duration-200 hover:-translate-y-1 hover:shadow-2xl ${
+                    isDark
+                      ? "border-slate-700/80 bg-slate-900/80 hover:border-sky-400/70"
+                      : "border-slate-200 bg-slate-50/80 hover:border-sky-500/60"
+                  }`}
+                >
+                  <div className="mb-2 flex items-center justify-between gap-2">
+                    <div className="text-[0.65rem] uppercase tracking-[0.3em] text-slate-400">
+                      Record
+                    </div>
+                    <div className="text-[0.65rem] text-slate-400">
+                      ID: {id}
+                    </div>
+                  </div>
+                  <div className="mb-1 text-base font-semibold tracking-wide sm:text-lg">
+                    {name}
+                  </div>
+                  {secondary && (
+                    <div className="mb-1 text-xs text-slate-400 group-hover:text-slate-200">
+                      {secondary}
+                    </div>
+                  )}
+                  <div className="mt-2 text-[0.7rem] uppercase tracking-[0.25em] text-sky-400/90">
+                    Open detail console →
+                  </div>
+                </Link>
+              );
+            })}
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
