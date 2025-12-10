@@ -1,0 +1,113 @@
+/* FILE: CategoryHeader.module.css */
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  border-radius: 26px;
+  margin-bottom: 32px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  animation: fadeIn 0.6s ease both;
+}
+
+/* Soft fade motion */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Overlay glass gradient */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255,255,255,0.15),
+    rgba(0,0,0,0.35)
+  );
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  z-index: 1;
+}
+
+/* Text */
+.title {
+  position: absolute;
+  z-index: 2;
+  bottom: 24px;
+  left: 32px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+/* LIGHT/DARK MODE */
+
+.light .overlay {
+  background: linear-gradient(
+    to bottom right,
+    rgba(255,255,255,0.4),
+    rgba(30,30,50,0.2)
+  );
+}
+
+.dark .overlay {
+  background: linear-gradient(
+    to bottom right,
+    rgba(10,10,20,0.4),
+    rgba(0,0,0,0.55)
+  );
+}
+
+/* CATEGORY BACKGROUNDS */
+
+/* 1) FILMS — holofilm strip */
+.films {
+  background-image: url("/headers/films-header.jpg");
+}
+
+/* 2) PEOPLE — holographic face silhouettes / data grid */
+.people {
+  background-image: url("/headers/people-header.jpg");
+}
+
+/* 3) PLANETS — planetary horizon */
+.planets {
+  background-image: url("/headers/planets-header.jpg");
+}
+
+/* 4) SPECIES — biotech / DNA abstract */
+.species {
+  background-image: url("/headers/species-header.jpg");
+}
+
+/* 5) VEHICLES — mechanical blueprint */
+.vehicles {
+  background-image: url("/headers/vehicles-header.jpg");
+}
+
+/* 6) STARSHIPS — fleet command holo schematic */
+.starships {
+  background-image: url("/headers/starships-header.jpg");
+}
+
+/* OPTIONAL: fallback if image missing */
+.wrapper:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 30% 40%,
+    rgba(255,255,255,0.15),
+    transparent 70%
+  );
+}

@@ -1,0 +1,205 @@
+/* FILE: LandingPage.module.css */
+
+/* === Cinematic Background Gradient === */
+.landingBg {
+  background: linear-gradient(
+    to bottom,
+    #0b1d38 0%,
+    #132b4b 25%,
+    #2e4f6b 50%,
+    #6c8da5 75%,
+    #bcd0df 100%
+  );
+  position: relative;
+  overflow: visible;
+  /* Soft vignette for depth */
+  box-shadow: inset 0 0 180px rgba(0,0,0,0.35);
+}
+
+/* === Planet Hero === */
+.planetWrapper {
+  position: absolute;
+  top: clamp(-150px, -12vw, -40px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(70vw, 600px);
+  height: min(70vw, 600px);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.planet {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.45));
+  position: relative;
+  z-index: 2;
+}
+
+.planetGlow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 50% 60%,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(80, 140, 200, 0.7) 35%,
+    rgba(20, 60, 120, 0.45) 60%,
+    rgba(0, 0, 0, 0) 80%
+  );
+  filter: blur(120px);
+  z-index: 1;
+  opacity: 0.85;
+}
+
+/* === Glass Panel === */
+.landingPanel {
+  position: relative;
+  z-index: 5;
+  max-width: 860px;
+  margin: 260px auto 0 auto;
+  padding: clamp(32px, 4vw, 56px);
+  background: rgba(255, 255, 255, 0.42);
+  border-radius: 28px;
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  backdrop-filter: blur(28px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.25),
+    0 0 120px rgba(255, 255, 255, 0.25) inset,
+    0 0 40px rgba(255, 255, 255, 0.15) inset;
+}
+
+
+/* === Typography === */
+.landingTitle {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  text-align: center;
+  color: #111827;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.landingSubtitle {
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  opacity: 0.75;
+  text-align: center;
+  margin-bottom: clamp(28px, 4vw, 48px);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* === Category Grid === */
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: clamp(16px, 2vw, 32px);
+  margin-top: clamp(24px, 3vw, 40px);
+}
+
+.categoryCard {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 22px;
+  padding: clamp(18px, 2.5vw, 28px);
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #111827;
+  transition: 0.35s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+
+.categoryCard:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+}
+
+.categoryCard h3 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.categoryCard p {
+  font-size: 1rem;
+  opacity: 0.75;
+}
+
+/* === Footer === */
+.landingFooter {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0.65;
+}
+
+/* === Animation === */
+.fadeInSlow {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInSlow 1.2s ease forwards;
+}
+
+@keyframes fadeInSlow {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === Dark Mode Overrides === */
+:global(.dark) .landingBg {
+  background: linear-gradient(
+    to bottom,
+    #020912 0%,
+    #0b1a2e 25%,
+    #12263f 50%,
+    #1f3a52 75%,
+    #4a6277 100%
+  );
+}
+
+:global(.dark) .landingPanel {
+  background: rgba(20, 25, 35, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.55),
+    0 0 50px rgba(255, 255, 255, 0.06) inset;
+  color: #e5e7eb;
+}
+
+:global(.dark) .landingTitle {
+  color: #f3f4f6;
+}
+
+:global(.dark) .landingSubtitle {
+  color: #d1d5db;
+  opacity: 0.8;
+}
+
+:global(.dark) .categoryCard {
+  background: rgba(25, 32, 45, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #f9fafb;
+}
+
+:global(.dark) .categoryCard:hover {
+  background: rgba(30, 38, 55, 0.8);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+:global(.dark) .landingFooter {
+  color: #9ca3af;
+  opacity: 0.7;
+}
+/* END OF FILE */
