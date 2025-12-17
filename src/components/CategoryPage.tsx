@@ -29,7 +29,7 @@ const CategoryPage: React.FC<Props> = ({ theme, type, title }) => {
         {data.map((item) => {
         const id = item.url.split("/").filter(Boolean).pop();
         return (
-          <Link key={id} to={`/${type}/${id}`} className={styles.card}>
+          <Link key={id} to={`/${type}/${id}`} className={styles["holo-card"]}>
             <h3>{getItemLabel(item)}</h3>
           </Link>
         );

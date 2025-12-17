@@ -9,38 +9,10 @@ import {
   Color,
   Group,
 } from "three";
+import { HolographicTitle } from "../HolographicTitle";
 
 interface Props {
   theme: "light" | "dark";
-}
-
-/**
- * A procedural "human silhouette"-like shape created from a simple outline.
- * This is abstract enough that it is NOT identifiable as a real human,
- * but visually communicates "people" or "sentient profiles."
- */
-function createSilhouetteGeometry(): BufferGeometry {
-  // Outline of a generic humanoid head + shoulders (abstract, low-poly)
-  const points = [
-    // Head
-    -0.4, 0.6, 0,
-    -0.3, 0.8, 0,
-    0.3, 0.8, 0,
-    0.4, 0.6, 0,
-    0.4, 0.2, 0,
-    -0.4, 0.2, 0,
-
-    // Neck + shoulders
-    -0.25, 0.2, 0,
-    -0.5, -0.2, 0,
-    0.5, -0.2, 0,
-    0.25, 0.2, 0,
-  ];
-
-  const geo = new BufferGeometry();
-  geo.setAttribute("position", new Float32BufferAttribute(points, 3));
-  geo.setDrawRange(0, points.length / 3);
-  return geo;
 }
 
 export const PeopleHeader: React.FC<Props> = ({ theme }) => {
@@ -84,13 +56,11 @@ export const PeopleHeader: React.FC<Props> = ({ theme }) => {
 
   return (
     <group ref={groupRef} scale={2.2}>
-      {/* Holographic silhouette */}
-      <mesh
-        ref={silhouetteRef}
-        geometry={createSilhouetteGeometry()}
-        material={mat}
+      <HolographicTitle
+        text="People"
+        color={theme === "dark" ? "#38bdf8" : "#2563eb"}
+        position={[0, -1.5, 0]}
       />
-
       {/* Ambient hologram fill */}
       <ambientLight intensity={0.35} />
 

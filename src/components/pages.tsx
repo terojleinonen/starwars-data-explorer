@@ -5,7 +5,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useSwapi, SwapiListResponse, SwapiItem } from "./useSwapi";
-import { CategoryHeader } from "./CategoryHeader";
 import styles from "./pages.module.css";
 import { HoloHeader } from "./HoloHeader";
 
@@ -44,7 +43,7 @@ const ListGrid: React.FC<{
   category: string;
 }> = ({ items, category }) => {
   return (
-    <div className={styles.grid}>
+    <div className={styles.listGrid}>
       {items.map((item, index) => {
         const url = safe(item.url);
         const idFromUrl = url.split("/").filter(Boolean).pop();
@@ -67,7 +66,7 @@ const ListGrid: React.FC<{
           <Link
             key={`${category}-${id}`}
             to={`/${category}/${id}`}
-            className={styles.card}>
+            className={`${styles.holoCard} ${styles.card}`}>
             <div className={styles.cardHeader}>
               <span className={styles.recordHeader}>Record</span>
               <span>ID: {id}</span>
@@ -97,7 +96,13 @@ const ListGrid: React.FC<{
 
 const PageWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <div className={styles.pageWrapper}>
-    {children}
+    {/* Background grid */}
+    <div className={styles.holoGrid} />
+
+    {/* Page content */}
+    <div className={styles.pageContent}>
+      {children}
+    </div>
   </div>
 );
 

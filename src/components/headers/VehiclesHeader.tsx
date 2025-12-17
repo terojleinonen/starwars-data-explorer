@@ -9,6 +9,7 @@ import {
   Color,
   Group,
 } from "three";
+import { HolographicTitle } from "../HolographicTitle";
 
 interface Props {
   theme: "light" | "dark";
@@ -67,44 +68,12 @@ export const VehiclesHeader: React.FC<Props> = ({ theme }) => {
   });
 
   return (
-    <group ref={groupRef} scale={1.8}>
-      {/* Main chassis */}
-      <mesh material={mat} position={[0, 0, 0]}>
-        <boxGeometry args={[2.2, 0.4, 0.8]} />
-      </mesh>
-
-      {/* Canopy */}
-      <mesh material={mat} position={[0, 0.35, 0]}>
-        <boxGeometry args={[0.9, 0.3, 0.6]} />
-      </mesh>
-
-      {/* Left engine pod */}
-      <mesh material={mat} position={[-1.4, -0.1, 0]} rotation={[0, Math.PI / 2, 0]}>
-        <cylinderGeometry args={[0.25, 0.25, 1.2, 24]} />
-      </mesh>
-
-      {/* Right engine pod */}
-      <mesh material={mat} position={[1.4, -0.1, 0]} rotation={[0, Math.PI / 2, 0]}>
-        <cylinderGeometry args={[0.25, 0.25, 1.2, 24]} />
-      </mesh>
-
-      {/* Front fins */}
-      <mesh material={mat} position={[0, -0.2, 0.6]}>
-        <boxGeometry args={[1.8, 0.1, 0.4]} />
-      </mesh>
-
-      {/* Rear fins */}
-      <mesh material={mat} position={[0, -0.2, -0.6]}>
-        <boxGeometry args={[1.6, 0.1, 0.3]} />
-      </mesh>
-
-      {/* Hover pads */}
-      <mesh material={mat} position={[-0.8, -0.45, 0]}>
-        <boxGeometry args={[0.6, 0.15, 0.6]} />
-      </mesh>
-      <mesh material={mat} position={[0.8, -0.45, 0]}>
-        <boxGeometry args={[0.6, 0.15, 0.6]} />
-      </mesh>
+    <group ref={groupRef} scale={1.4}>
+      <HolographicTitle
+        text="Vehicles"
+        color={theme === "dark" ? "#7dd3fc" : "#0284c7"}
+        position={[0, -1.5, 0]}
+      />
 
       {/* Lights */}
       <ambientLight intensity={0.4} />

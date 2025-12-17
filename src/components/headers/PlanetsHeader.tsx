@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import { Color, Mesh, BackSide } from "three";
-
+import { HolographicTitle } from "../HolographicTitle";
 interface Props {
   theme: "light" | "dark";
 }
@@ -27,26 +27,11 @@ export const PlanetsHeader: React.FC<Props> = ({ theme }) => {
 
   return (
     <>
-      {/* Procedural planet */}
-      <mesh ref={planet}>
-        <sphereGeometry args={[1.4, 96, 96]} />
-        <meshStandardMaterial
-          color={baseColor}
-          roughness={0.7}
-          metalness={0.1}
-        />
-      </mesh>
-
-      {/* Atmospheric glow */}
-      <mesh ref={atmosphere} scale={1.15}>
-        <sphereGeometry args={[1.4, 64, 64]} />
-        <meshBasicMaterial
-          transparent
-          opacity={0.35}
-          color={glowColor}
-          side={BackSide}
-        />
-      </mesh>
+      <HolographicTitle
+        text="Planets"
+        color={theme === "dark" ? "#3b82f6" : "#2563eb"}
+        position={[0, -2, 0]}
+      />
 
       {/* Lighting */}
       <ambientLight intensity={0.4} />

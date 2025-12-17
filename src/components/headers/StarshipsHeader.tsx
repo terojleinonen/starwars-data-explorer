@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import { MeshBasicMaterial, Color, Mesh } from "three";
+import { HolographicTitle } from "../HolographicTitle";
 
 interface Props {
   theme: "light" | "dark";
@@ -29,25 +30,11 @@ export const StarshipsHeader: React.FC<Props> = ({ theme }) => {
 
   return (
     <group ref={group} scale={1.3}>
-      {/* Body */}
-      <mesh material={mat}>
-        <boxGeometry args={[2, 0.3, 0.6]} />
-      </mesh>
-
-      {/* Wing Left */}
-      <mesh material={mat} position={[-1.2, 0, 0]}>
-        <boxGeometry args={[1.2, 0.15, 0.4]} />
-      </mesh>
-
-      {/* Wing Right */}
-      <mesh material={mat} position={[1.2, 0, 0]}>
-        <boxGeometry args={[1.2, 0.15, 0.4]} />
-      </mesh>
-
-      {/* Cockpit */}
-      <mesh material={mat} position={[0, 0.2, 0]}>
-        <boxGeometry args={[0.6, 0.3, 0.4]} />
-      </mesh>
+      <HolographicTitle
+        text="Starships"
+        color={theme === "dark" ? "#60a5fa" : "#2563eb"}
+        position={[0, -1.5, 0]}
+      /> 
 
       {/* Light */}
       <ambientLight intensity={0.4} />

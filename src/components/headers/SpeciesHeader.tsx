@@ -11,6 +11,7 @@ import {
   LineBasicMaterial,
   PointsMaterial,
 } from "three";
+import { HolographicTitle } from "../HolographicTitle";
 
 interface Props {
   theme: "light" | "dark";
@@ -123,56 +124,12 @@ export const SpeciesHeader: React.FC<Props> = ({ theme }) => {
   ------------------------------------------------------- */
   return (
     <group ref={groupRef} scale={1.7}>
-      {/* Strand A */}
-      <lineSegments
-        geometry={
-          (() => {
-            const g = new BufferGeometry();
-            g.setAttribute(
-              "position",
-              new Float32BufferAttribute(strandA, 3)
-            );
-            return g;
-          })()
-        }
-        material={strandMat}
+      
+      <HolographicTitle
+        text="Species"
+        color={theme === "dark" ? "#a78bfa" : "#7c3aed"}
+        position={[0, -1.5, 0]}
       />
-
-      {/* Strand B */}
-      <lineSegments
-        geometry={
-          (() => {
-            const g = new BufferGeometry();
-            g.setAttribute(
-              "position",
-              new Float32BufferAttribute(strandB, 3)
-            );
-            return g;
-          })()
-        }
-        material={strandMat}
-      />
-
-      {/* Rungs */}
-      {rungs.map((r, i) => (
-        <lineSegments
-          key={i}
-          geometry={
-            (() => {
-              const g = new BufferGeometry();
-              g.setAttribute(
-                "position",
-                new Float32BufferAttribute(r, 3)
-              );
-              return g;
-            })()
-          }
-          material={rungMat}
-        />
-      ))}
-
-      {/* Floating particles */}
-      <points geometry={particleGeom} material={particleMat} />
 
       {/* Lighting */}
       <ambientLight intensity={0.4} />

@@ -8,6 +8,7 @@ interface NavbarProps {
 }
 
 const navItems = [
+  { label: "Home", path: "/" },
   { label: "Films", path: "/films" },
   { label: "People", path: "/people" },
   { label: "Planets", path: "/planets" },

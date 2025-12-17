@@ -50,7 +50,7 @@ export interface UseSwapiResult<T> {
 const swapiCache = new Map<string, unknown>();
 
 // Base URL for SWAPI
-const BASE_URL = "https://swapi.dev/api";
+const BASE_URL = "https://swapi.py4e.com/api";
 
 export function useSwapi<T extends SwapiData>(endpoint: string): UseSwapiResult<T> {
   const url = `${BASE_URL}/${endpoint}`;
