@@ -2,7 +2,7 @@
 // Premium upgraded VisionOS-style landing page with responsive 3D planet
 
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import styles from "./LandingPage.module.css";
 import ThreePlanet from "./ThreePlanet";
 
@@ -38,7 +38,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ theme }) => {
 
         <div className={styles.categoryGrid}>
           {categories.map((cat) => (
-            <Link key={cat.title} to={cat.path} className={styles.categoryCard}>
+            <Link key={cat.title} href={cat.path} className={styles.categoryCard}>
               <h3>{cat.title}</h3>
               <p>{cat.desc}</p>
             </Link>

@@ -1,9 +1,11 @@
 // FILE: pages.tsx
-// Super-premium upgraded SWAPI category pages with glass cards, 
-// VisionOS-style layout, and py4e → swapi.dev fallback support.
+// Super-premium upgraded SWAPI category pages
+// – holographic grid
+// – scroll-reactive lighting
+// – viewport-activated data slabs
 
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { useSwapi, SwapiListResponse, SwapiItem } from "./useSwapi";
 import styles from "./pages.module.css";
 import { HoloHeader } from "./HoloHeader";
@@ -13,29 +15,107 @@ interface CategoryPageProps {
 }
 
 /* -----------------------------------------------
-   Shared helpers
+   Utilities
 ----------------------------------------------- */
 
-// Safe formatting
 const safe = (v: unknown): string => {
   if (v === undefined || v === null) return "—";
   if (typeof v === "string" || typeof v === "number") return String(v);
   return "—";
 };
 
-// Unified display name for ANY SWAPI item
 const getLabel = (item: SwapiItem): string =>
   (item as any).name ??
   (item as any).title ??
   "Unknown";
 
-// Fallback-friendly list request
-const useCategoryList = (endpoint: string) => {
-  return useSwapi<SwapiListResponse<SwapiItem>>(endpoint);
+/* -----------------------------------------------
+   Scroll-reactive lighting hook
+----------------------------------------------- */
+
+const clamp01 = (n: number) => Math.max(0, Math.min(1, n));
+
+const useScrollFX = () => {
+  const ref = React.useRef<HTMLDivElement | null>(null);
+
+  React.useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    let raf = 0;
+
+    const onScroll = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        const y = window.scrollY || 0;
+        const h = Math.max(1, window.innerHeight);
+        const t = clamp01(y / (h * 1.2));
+
+        el.style.setProperty("--gridOpacity", String(0.18 + t * 0.18));
+        el.style.setProperty("--contentGlow", String(0.06 + t * 0.14));
+        el.style.setProperty("--titleFade", String(1 - t * 0.35));
+      });
+    };
+
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, []);
+
+  return ref;
 };
 
 /* -----------------------------------------------
-   Premium ListGrid (cards)
+   Viewport-entry activation hook
+----------------------------------------------- */
+
+const useRevealOnView = () => {
+  const ref = React.useRef<HTMLAnchorElement | null>(null);
+
+  React.useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          el.classList.add("isVisible");
+          io.disconnect();
+        }
+      },
+      { threshold: 0.15 }
+    );
+
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+
+  return ref;
+};
+
+/* -----------------------------------------------
+   Layout wrapper
+----------------------------------------------- */
+
+const PageWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const fxRef = useScrollFX();
+
+  return (
+    <div ref={fxRef} className={styles.pageWrapper}>
+      <div className={styles.holoGrid} />
+      <div className={styles.pageContent}>{children}</div>
+    </div>
+  );
+};
+
+/* -----------------------------------------------
+   Card grid
 ----------------------------------------------- */
 
 const ListGrid: React.FC<{
@@ -46,9 +126,7 @@ const ListGrid: React.FC<{
     <div className={styles.listGrid}>
       {items.map((item, index) => {
         const url = safe(item.url);
-        const idFromUrl = url.split("/").filter(Boolean).pop();
-        const id = idFromUrl || String(index + 1);
-
+        const id = url.split("/").filter(Boolean).pop() || String(index + 1);
         const label = getLabel(item);
 
         const secondary =
@@ -62,11 +140,15 @@ const ListGrid: React.FC<{
               ""
           ) || "—";
 
+        const revealRef = useRevealOnView();
+
         return (
           <Link
+            ref={revealRef}
             key={`${category}-${id}`}
-            to={`/${category}/${id}`}
-            className={`${styles.holoCard} ${styles.card}`}>
+            href={`/${category}/${id}`}
+            className={`${styles.holoCard} ${styles.card}`}
+          >
             <div className={styles.cardHeader}>
               <span className={styles.recordHeader}>Record</span>
               <span>ID: {id}</span>
@@ -75,14 +157,10 @@ const ListGrid: React.FC<{
             <div className={styles.title}>{label}</div>
 
             {secondary !== "—" && (
-              <div className={styles.secondary}>
-                {secondary}
-              </div>
+              <div className={styles.secondary}>{secondary}</div>
             )}
 
-            <div className={styles.openDetail}>
-              Open detail →
-            </div>
+            <div className={styles.openDetail}>Open detail →</div>
           </Link>
         );
       })}
@@ -91,28 +169,18 @@ const ListGrid: React.FC<{
 };
 
 /* -----------------------------------------------
-   Individual category pages
+   Category pages
 ----------------------------------------------- */
 
-const PageWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => (
-  <div className={styles.pageWrapper}>
-    {/* Background grid */}
-    <div className={styles.holoGrid} />
-
-    {/* Page content */}
-    <div className={styles.pageContent}>
-      {children}
-    </div>
-  </div>
-);
-
 export const FilmsPage: React.FC<CategoryPageProps> = ({ theme }) => {
-  const { data, loading, error } = useCategoryList("films");
+  const { data, loading, error } = useSwapi<SwapiListResponse<SwapiItem>>("films");
   const items = data?.results ?? [];
 
   return (
     <PageWrapper>
-      <HoloHeader category="films" theme={theme} />
+      <div className={styles.headerFade}>
+        <HoloHeader category="films" theme={theme} />
+      </div>
       {loading && <p className={styles.loading}>Loading film data…</p>}
       {error && <p className={styles.error}>Transmission error: {error}</p>}
       {!loading && !error && <ListGrid items={items} category="films" />}
@@ -121,12 +189,15 @@ export const FilmsPage: React.FC<CategoryPageProps> = ({ theme }) => {
 };
 
 export const PeoplePage: React.FC<CategoryPageProps> = ({ theme }) => {
-  const { data, loading, error } = useCategoryList("people");
+  const { data, loading, error } =
+    useSwapi<SwapiListResponse<SwapiItem>>("people");
   const items = data?.results ?? [];
 
   return (
     <PageWrapper>
-      <HoloHeader category="people" theme={theme} />
+      <div className={styles.headerFade}>
+        <HoloHeader category="people" theme={theme} />
+      </div>
       {loading && <p className={styles.loading}>Loading character data…</p>}
       {error && <p className={styles.error}>Transmission error: {error}</p>}
       {!loading && !error && <ListGrid items={items} category="people" />}
@@ -135,12 +206,15 @@ export const PeoplePage: React.FC<CategoryPageProps> = ({ theme }) => {
 };
 
 export const PlanetsPage: React.FC<CategoryPageProps> = ({ theme }) => {
-  const { data, loading, error } = useCategoryList("planets");
+  const { data, loading, error } =
+    useSwapi<SwapiListResponse<SwapiItem>>("planets");
   const items = data?.results ?? [];
 
   return (
     <PageWrapper>
-      <HoloHeader category="planets" theme={theme} />
+      <div className={styles.headerFade}>
+        <HoloHeader category="planets" theme={theme} />
+      </div>
       {loading && <p className={styles.loading}>Loading planetary data…</p>}
       {error && <p className={styles.error}>Transmission error: {error}</p>}
       {!loading && !error && <ListGrid items={items} category="planets" />}
@@ -149,12 +223,15 @@ export const PlanetsPage: React.FC<CategoryPageProps> = ({ theme }) => {
 };
 
 export const SpeciesPage: React.FC<CategoryPageProps> = ({ theme }) => {
-  const { data, loading, error } = useCategoryList("species");
+  const { data, loading, error } =
+    useSwapi<SwapiListResponse<SwapiItem>>("species");
   const items = data?.results ?? [];
 
   return (
     <PageWrapper>
-      <HoloHeader category="species" theme={theme} />
+      <div className={styles.headerFade}>
+        <HoloHeader category="species" theme={theme} />
+      </div>
       {loading && <p className={styles.loading}>Loading species data…</p>}
       {error && <p className={styles.error}>Transmission error: {error}</p>}
       {!loading && !error && <ListGrid items={items} category="species" />}
@@ -163,12 +240,15 @@ export const SpeciesPage: React.FC<CategoryPageProps> = ({ theme }) => {
 };
 
 export const VehiclesPage: React.FC<CategoryPageProps> = ({ theme }) => {
-  const { data, loading, error } = useCategoryList("vehicles");
+  const { data, loading, error } =
+    useSwapi<SwapiListResponse<SwapiItem>>("vehicles");
   const items = data?.results ?? [];
 
   return (
     <PageWrapper>
-      <HoloHeader category="vehicles" theme={theme} />
+      <div className={styles.headerFade}>
+        <HoloHeader category="vehicles" theme={theme} />
+      </div>
       {loading && <p className={styles.loading}>Loading vehicle data…</p>}
       {error && <p className={styles.error}>Transmission error: {error}</p>}
       {!loading && !error && <ListGrid items={items} category="vehicles" />}
@@ -177,12 +257,15 @@ export const VehiclesPage: React.FC<CategoryPageProps> = ({ theme }) => {
 };
 
 export const StarshipsPage: React.FC<CategoryPageProps> = ({ theme }) => {
-  const { data, loading, error } = useCategoryList("starships");
+  const { data, loading, error } =
+    useSwapi<SwapiListResponse<SwapiItem>>("starships");
   const items = data?.results ?? [];
 
   return (
     <PageWrapper>
-      <HoloHeader category="starships" theme={theme} />
+      <div className={styles.headerFade}>
+        <HoloHeader category="starships" theme={theme} />
+      </div>
       {loading && <p className={styles.loading}>Loading starship data…</p>}
       {error && <p className={styles.error}>Transmission error: {error}</p>}
       {!loading && !error && <ListGrid items={items} category="starships" />}

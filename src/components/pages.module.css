@@ -1,19 +1,47 @@
 /* FILE: src/pages.module.css */
 
 /* Page layout */
+/* Scroll-reactive tuning (driven via CSS vars) */
 .pageWrapper {
+  /* defaults */
+  --gridOpacity: 0.20;
+  --contentGlow: 0.10;
+  --titleFade: 1;
+
   position: relative;
   min-height: 100vh;
   overflow: hidden;
 }
 
-.pageContent {
-  position: relative;
-  z-index: 10;
-  max-width: 72rem;
-  margin: 0 auto;
-  padding: 1.5rem 1rem 5rem;
+/* Grid layer uses scroll-driven opacity */
+.holoGrid::before {
+  opacity: var(--gridOpacity);
 }
+
+/* Optional: subtle ambient glow behind content */
+.pageContent::before {
+  content: "";
+  position: absolute;
+  inset: -80px -40px auto -40px;
+  height: 320px;
+  background: radial-gradient(
+    ellipse at top,
+    rgba(255, 200, 120, var(--contentGlow)),
+    rgba(0, 0, 0, 0)
+  );
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Header fades slightly as you scroll (apply to wrapper around HoloHeader) */
+.headerFade {
+  transform-origin: top center;
+  opacity: var(--titleFade);
+  transition: opacity 80ms linear;
+}
+/* =========================
+   Card Grid Styles
+   ========================= */
 
 /* Card grid */
 .listGrid {
@@ -185,4 +213,34 @@
 
 .holoCard:hover::before {
   opacity: 1;
+}
+
+/* =========================
+   Viewport activation
+   ========================= */
+
+.holoCard {
+  opacity: 0;
+  transform:
+    translateY(14px)
+    scale(0.98);
+  filter: brightness(0.85);
+}
+
+/* When card enters viewport */
+.holoCard.isVisible {
+  opacity: 1;
+  transform:
+    translateY(0)
+    scale(1);
+  filter: brightness(1);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease,
+    filter 0.6s ease;
+}
+
+/* Slightly stronger presence once activated */
+.holoCard.isVisible:hover {
+  filter: brightness(1.12);
 }

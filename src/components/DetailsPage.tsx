@@ -1,47 +1,90 @@
-// FILE: DetailsPage.tsx
+// FILE: src/components/DetailsPage.tsx
+// Strict, App Router–compatible SWAPI detail view
+
+"use client";
+
 import React from "react";
-import { useParams } from "react-router-dom";
-import { useSwapi } from "../hooks/useSwapi";
-import { SwapiType } from "./types/swapi-types";
-import styles from "./DetailsPage.module.css";
+import { useSwapi } from "@/hooks/useSwapi";
+import { isSwapiType, SwapiType } from "@/hooks/useSwapiTypes";
 
 interface DetailsPageProps {
   theme: "light" | "dark";
-  type: SwapiType;
+  type: string; // raw route param
+  id: string;
 }
 
-const DetailsPage: React.FC<DetailsPageProps> = ({ theme, type }) => {
-  const { id } = useParams();
-  const { data, loading, error } = useSwapi(type, id);
+const safe = (v: unknown): string => {
+  if (v === undefined || v === null) return "—";
+  if (typeof v === "string" || typeof v === "number") return String(v);
+  return "—";
+};
 
-  if (loading) return <div className={styles.loading}>Loading…</div>;
-  if (error || !data) return <div className={styles.loading}>Error loading data</div>;
+const DetailsPage: React.FC<DetailsPageProps> = ({ theme, type, id }) => {
+  // Validate and narrow category
+  if (!isSwapiType(type)) {
+    return (
+      <div className="mx-auto max-w-3xl p-6 opacity-70">
+        Unsupported category
+      </div>
+    );
+  }
 
-  const heading =
-    (data as any)?.name ??
-    (data as any)?.title ??
+  const swapiType: SwapiType = type;
+
+  const { data, loading, error } = useSwapi(swapiType, id);
+
+  if (loading) {
+    return (
+      <div className="mx-auto max-w-3xl p-6 opacity-70">
+        Loading record…
+      </div>
+    );
+  }
+
+  if (error || !data) {
+    return (
+      <div className="mx-auto max-w-3xl p-6 text-red-400">
+        Transmission error: {error ?? "Unknown error"}
+      </div>
+    );
+  }
+
+  const title =
+    (data as any).name ??
+    (data as any).title ??
     `Record ${id}`;
 
   return (
-    <div className={`${styles.pageWrapper} ${styles[theme]}`}>
-      <div className={styles.headerPanel}>
-        <h1>{heading}</h1>
-        <p>ID: {id}</p>
-      </div>
+    <div className="mx-auto max-w-4xl px-4 pb-24 pt-10">
+      <h1 className="mb-6 text-3xl font-semibold tracking-wide">
+        {title}
+      </h1>
 
-      <div className={styles.dataPanel}>
-        {Object.entries(data).map(([key, value]) => (
-          <div key={key} className={styles.row}>
-            <span className={styles.label}>{key}</span>
-            <span className={styles.value}>
-              {Array.isArray(value) ? `${value.length} items` : String(value)}
-            </span>
-          </div>
-        ))}
+      <div className="grid gap-4 sm:grid-cols-2">
+        {Object.entries(data).map(([key, value]) => {
+          if (
+            typeof value === "object" ||
+            Array.isArray(value) ||
+            key === "url"
+          ) {
+            return null;
+          }
+
+          return (
+            <div
+              key={key}
+              className="rounded-xl border border-white/10 bg-white/5 p-4"
+            >
+              <div className="mb-1 text-xs uppercase tracking-widest opacity-60">
+                {key.replace(/_/g, " ")}
+              </div>
+              <div className="text-sm">{safe(value)}</div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
 };
 
 export default DetailsPage;
-// FILE: DetailsPage.tsx
