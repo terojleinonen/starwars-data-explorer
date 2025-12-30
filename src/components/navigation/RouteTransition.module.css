@@ -1,0 +1,58 @@
+.wrapper {
+  position: relative;
+  min-height: 100vh;
+
+  animation: fadeIn 0.35s ease both;
+}
+
+.transitioning {
+  animation: fadeOut 0.22s ease both;
+}
+
+/* =========================
+   Animations
+========================= */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+.wrapper::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 40;
+
+  background:
+    radial-gradient(
+      120% 60% at 50% -10%,
+      rgba(var(--accent-rgb), 0.25),
+      transparent 60%
+    );
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.transitioning::before {
+  opacity: 1;
+}

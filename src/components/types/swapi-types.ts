@@ -9,6 +9,8 @@ export type SwapiType =
   | "vehicles"
   | "starships";
 
+  export type SwapiEntity = Film | Person | Planet | Species | Vehicle | Starship;
+
 /* ------------------------------------------
    CATEGORY INTERFACES
 ------------------------------------------- */

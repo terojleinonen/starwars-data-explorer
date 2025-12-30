@@ -1,0 +1,28 @@
+.table {
+  margin-top: 2.5rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: minmax(140px, 1fr) 2fr;
+  gap: 1rem;
+
+  padding: 0.65rem 0.8rem;
+  border-radius: 8px;
+
+  background: rgba(255,255,255,0.03);
+}
+
+.label {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.value {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}

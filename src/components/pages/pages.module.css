@@ -1,0 +1,267 @@
+/* FILE: src/pages.module.css */
+
+/* Page layout */
+/* Scroll-reactive tuning (driven via CSS vars) */
+.pageWrapper {
+  /* defaults */
+  --gridOpacity: 0.20;
+  --contentGlow: 0.10;
+  --titleFade: 1;
+
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Grid layer uses scroll-driven opacity */
+.holoGrid::before {
+  opacity: var(--gridOpacity);
+}
+
+/* Optional: subtle ambient glow behind content */
+.pageContent::before {
+  content: "";
+  position: absolute;
+  inset: -80px -40px auto -40px;
+  height: 320px;
+  background: radial-gradient(
+    ellipse at top,
+    rgba(255, 200, 120, var(--contentGlow)),
+    rgba(0, 0, 0, 0)
+  );
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Header fades slightly as you scroll (apply to wrapper around HoloHeader) */
+.headerFade {
+  transform-origin: top center;
+  opacity: var(--titleFade);
+  transition: opacity 80ms linear;
+}
+/* =========================
+   Card Grid Styles
+   ========================= */
+
+/* Card grid */
+.listGrid {
+  margin-top: 2rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.card {
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-panel);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+@keyframes fadeInItem {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  background: rgba(255, 255, 255, 0.55);
+  box-shadow: 
+    0 28px 60px rgba(0, 0, 0, 0.28),
+    inset 0 0 80px rgba(255, 255, 255, 0.35);
+}
+
+/* ---------------------------
+   Card Content
+--------------------------- */
+
+.recordHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  opacity: 0.7;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.secondary {
+  font-size: 0.8rem;
+  opacity: 0.65;
+  transition: opacity 0.25s ease;
+}
+
+.card:hover .secondary {
+  opacity: 1;
+}
+
+.openDetail {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #0284c7;
+  margin-top: 10px;
+}
+
+/* =========================
+   Background Holographic Grid
+   ========================= */
+
+.holoGrid {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.holoGrid::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background:
+    linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+  background-size: 64px 64px;
+  transform: perspective(1200px) rotateX(55deg);
+  animation: gridDrift 120s linear infinite;
+  opacity: 0.25;
+}
+
+@keyframes gridDrift {
+  from { transform: perspective(1200px) rotateX(55deg) translateY(0); }
+  to   { transform: perspective(1200px) rotateX(55deg) translateY(256px); }
+}
+
+/* =========================
+   Holographic Data Slabs
+   ========================= */
+
+.holoCard {
+  position: relative;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.12), rgba(255,255,255,0.02));
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow:
+    0 20px 50px rgba(0,0,0,0.35),
+    inset 0 0 0 1px rgba(255,255,255,0.08);
+  transition: transform .4s ease, box-shadow .4s ease;
+  overflow: hidden;
+}
+
+.holoCard::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    120deg,
+    transparent 30%,
+    rgba(255,200,120,0.35),
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity .4s ease;
+}
+
+.holoCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.03),
+    rgba(255,255,255,0.03) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  opacity: .35;
+}
+
+.holoCard:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow:
+    0 30px 80px rgba(0,0,0,0.5),
+    0 0 40px rgba(255,180,80,0.25);
+}
+
+.holoCard:hover::before {
+  opacity: 1;
+}
+
+/* =========================
+   Viewport activation
+   ========================= */
+
+.holoCard {
+  opacity: 0;
+  transform:
+    translateY(14px)
+    scale(0.98);
+  filter: brightness(0.85);
+}
+
+/* When card enters viewport */
+.holoCard.isVisible {
+  opacity: 1;
+  transform:
+    translateY(0)
+    scale(1);
+  filter: brightness(1);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease,
+    filter 0.6s ease;
+}
+
+/* Slightly stronger presence once activated */
+.holoCard.isVisible:hover {
+  filter: brightness(1.12);
+}
+
+.cardWrapper {
+  will-change: transform;
+}
+
+.card {
+  display: block;
+  border-radius: var(--radius-card);
+  background: var(--surface-glass);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-panel);
+  padding: 18px 18px 20px;
+  transition: box-shadow 0.25s ease;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+.card {
+  background: var(--surface-glass);
+  border: 1px solid var(--border-subtle);
+  -webkit-border-left: 2px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  border-left: 2px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.card:hover {
+  border-left-color: var(--accent);
+}
+

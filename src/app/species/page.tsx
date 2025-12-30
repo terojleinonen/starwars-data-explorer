@@ -1,8 +1,8 @@
 // FILE: app/species/page.tsx
 "use client";
 
-import { SpeciesPage } from "@/components/pages";
+import { SpeciesPage } from "@/components/pages/pages";
 
-export default function Films() {
+export default function Species() {
   return <SpeciesPage theme="dark" />;
 }

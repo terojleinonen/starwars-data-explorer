@@ -1,0 +1,156 @@
+/* ----------------------------------
+   ROOT
+---------------------------------- */
+
+.header {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-panel);
+  background: var(--surface-glass);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-panel);
+  text-align: center;
+  isolation: isolate;
+}
+
+/* ----------------------------------
+   SIZE VARIANTS
+---------------------------------- */
+
+.sm {
+  padding: 40px 20px 32px;
+}
+
+.md {
+  padding: 56px 24px 40px;
+}
+
+.lg {
+  padding: 72px 28px 52px;
+}
+
+.xl {
+  padding: 96px 32px 64px;
+}
+
+/* ----------------------------------
+   BACKGROUND GRID (SCI-FI, SUBTLE)
+---------------------------------- */
+
+.gridBg {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.04) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.04) 1px,
+      transparent 1px
+    );
+  background-size: 48px 48px;
+  -webkit-mask-image: radial-gradient(
+    circle at center,
+    black 0%,
+    transparent 75%
+  );
+  mask-image: radial-gradient(
+    circle at center,
+    black 0%,
+    transparent 75%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ----------------------------------
+   CATEGORY LABEL
+---------------------------------- */
+
+.category {
+  position: relative;
+  z-index: 2;
+  font-size: 0.7rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+/* ----------------------------------
+   BREADCRUMB / TITLE
+---------------------------------- */
+
+.breadcrumb {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.05;
+  color: var(--text-primary);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-text-wrap: balance;
+  text-wrap: balance;
+}
+
+/* Responsive title sizing */
+
+.sm .breadcrumb {
+  font-size: 1.6rem;
+}
+
+.md .breadcrumb {
+  font-size: 2rem;
+}
+
+.lg .breadcrumb {
+  font-size: 2.6rem;
+}
+
+.xl .breadcrumb {
+  font-size: clamp(2.8rem, 5vw, 3.6rem);
+}
+
+/* ----------------------------------
+   ACCENT GLOW (DEPTH CUE)
+---------------------------------- */
+
+.header::after {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background:
+    radial-gradient(
+      circle at 50% 30%,
+      var(--accent),
+      transparent 60%
+    );
+  opacity: 0.12;
+  filter: blur(120px);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ----------------------------------
+   ACCENT GLOW (CATEGORY-AWARE)
+---------------------------------- */
+
+.header::after {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background:
+    radial-gradient(
+      circle at 50% 30%,
+      var(--accent),
+      transparent 60%
+    );
+  opacity: 0.18;
+  filter: blur(120px);
+  pointer-events: none;
+  z-index: 1;
+}

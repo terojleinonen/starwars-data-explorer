@@ -1,0 +1,175 @@
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+}
+
+/* ----------------------------------
+   PRIMARY
+---------------------------------- */
+
+.primaryGrid {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.primaryCard {
+  padding: 22px 24px;
+  border-radius: var(--radius-panel);
+  background: var(--surface-glass);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-panel);
+}
+
+/* ----------------------------------
+   SECONDARY
+---------------------------------- */
+
+.secondaryGrid {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 14px;
+}
+
+.secondaryCard {
+  padding: 16px 18px;
+  border-radius: var(--radius-card);
+  background: var(--surface-glass);
+  border: 1px solid var(--border-subtle);
+}
+
+/* ----------------------------------
+   TEXT
+---------------------------------- */
+
+.key {
+  font-size: 0.7rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.value {
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.loading,
+.error {
+  padding: 80px 20px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* =========================
+   Stats section
+========================= */
+
+.statsSection {
+  margin-top: 2.5rem;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.4rem;
+}
+
+/* =========================
+   Stat card (Category-card DNA)
+========================= */
+
+.statCard {
+  position: relative;
+  padding: 1.25rem 1.4rem;
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,0.07),
+      rgba(255,255,255,0.02)
+    );
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+/* holo edge */
+.statCard::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+
+  background: linear-gradient(
+    120deg,
+    transparent 25%,
+    rgba(var(--accent-rgb), 0.45),
+    transparent 75%
+  );
+
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+/* inner depth */
+.statCard::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  pointer-events: none;
+
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.04),
+    inset 0 10px 20px rgba(255,255,255,0.02);
+}
+
+/* =========================
+   Hover
+========================= */
+
+.statCard:hover {
+  transform: translateY(-3px) scale(1.01);
+  border-color: rgba(var(--accent-rgb), 0.5);
+
+  box-shadow:
+    0 14px 42px rgba(0,0,0,0.45),
+    0 0 26px rgba(var(--accent-rgb), 0.35);
+}
+
+.statCard:hover::before {
+  opacity: 1;
+}
+
+/* =========================
+   Content
+========================= */
+
+.statLabel {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 0.4rem;
+}
+
+.statValue {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}

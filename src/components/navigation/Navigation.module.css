@@ -1,0 +1,76 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0,0,0,0.75),
+      rgba(0,0,0,0.4)
+    );
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+}
+
+.logo {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.links {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.link {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.55;
+
+  position: relative;
+}
+
+.link:hover {
+  opacity: 0.85;
+}
+
+.active {
+  opacity: 1;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -6px 0;
+  height: 2px;
+
+  background: rgba(var(--accent-rgb), 0.9);
+}
+
+.themeToggle {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+
+  color: var(--text-secondary);
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.themeToggle:hover {
+  background: rgba(var(--accent-rgb), 0.15);
+  color: var(--text-primary);
+}
