@@ -1,6 +1,14 @@
+/* =================================================
+   Opening Crawl – Cinematic Narrative Panel
+================================================= */
+
 .crawl {
   margin: 2.5rem 0;
 }
+
+/* -------------------------------------------------
+   Toggle button
+------------------------------------------------- */
 
 .toggle {
   all: unset;
@@ -25,6 +33,11 @@
     0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
+.toggle:focus-visible {
+  outline: 2px solid rgba(160, 200, 255, 0.9);
+  outline-offset: 2px;
+}
+
 .label {
   font-size: 0.75rem;
   letter-spacing: 0.25em;
@@ -37,20 +50,112 @@
   color: rgba(210, 225, 255, 0.7);
 }
 
-.panel {
-  margin-top: 1rem;
-  padding: 1.5rem 1.75rem;
+/* -------------------------------------------------
+   Crawl viewport
+------------------------------------------------- */
 
-  background: rgba(10, 15, 30, 0.8);
+.viewport {
+  position: relative;
+  overflow: hidden;
+
+  height: 260px;
+  margin-top: 1rem;
+
+  background: rgba(10, 15, 30, 0.85);
   border-radius: 12px;
 
   box-shadow:
     inset 0 0 0 1px rgba(120, 160, 255, 0.12);
 }
 
+/* -------------------------------------------------
+   Edge fades
+------------------------------------------------- */
+
+.fadeTop,
+.fadeBottom {
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 48px;
+  z-index: 2;
+}
+
+.fadeTop {
+  top: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 15, 30, 1),
+    rgba(10, 15, 30, 0)
+  );
+}
+
+.fadeBottom {
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(10, 15, 30, 1),
+    rgba(10, 15, 30, 0)
+  );
+}
+
+/* -------------------------------------------------
+   Crawl animation
+------------------------------------------------- */
+
+.crawlInner {
+  position: absolute;
+  width: 100%;
+  bottom: -100%;
+  padding: 2rem 2.5rem;
+
+  animation: crawlUp
+    var(--crawl-duration, 38s)
+    linear
+    forwards;
+}
+
 .text {
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  text-align: center;
+
   color: rgba(235, 240, 255, 0.95);
   white-space: pre-line;
+}
+
+/* -------------------------------------------------
+   Keyframes
+------------------------------------------------- */
+
+@keyframes crawlUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-160%);
+  }
+}
+
+/* -------------------------------------------------
+   Accessibility: reduced motion
+------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .crawlInner {
+    animation: none;
+    position: static;
+    transform: none;
+  }
+
+  .viewport {
+    height: auto;
+    overflow: visible;
+  }
+
+  .fadeTop,
+  .fadeBottom {
+    display: none;
+  }
 }

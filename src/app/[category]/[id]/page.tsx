@@ -28,37 +28,8 @@ export default async function Page({
 
   return (
     <DetailsPage
-      category={category}
-      data={data}
-      stats={[
-        {
-          label: "Created",
-          value: data.created,
-        },
-        {
-          label: "Edited",
-          value: data.edited,
-        },
-      ]}
-    >
-      <DetailsDataTable
-        data={data}
-        exclude={[
-          "name",
-          "title",
-          "opening_crawl",
-          "created",
-          "edited",
-          "url",
-          "films",
-          "people",
-          "vehicles",
-          "starships",
-          "species",
-        ]}
-      />
-
-      <RelatedRail data={data} />
-    </DetailsPage>
+    category={category}
+    data={data}
+    />
   );
 }

@@ -1,153 +1,107 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import styles from "./DetailsPage.module.css";
-import { cachedFetch } from "@/lib/swapiCache";
+import styles from "./CategoryPage.module.css";
+import HoloHeader from "@/components/HoloHeader/HoloHeader";
+import CategoryCard from "@/components/category/CategoryCard";
+import { useSwapi } from "@/hooks/useSwapi";
+import type { SwapiType } from "@/components/types/swapi-types";
 
-type Props = {
-  category: string;
-  id: string;
-};
+/* =========================
+   Types
+========================= */
 
-type SwapiRecord = {
+type SwapiItem = {
   name?: string;
   title?: string;
   url: string;
   [key: string]: unknown;
 };
 
-function isUrl(value: unknown): value is string {
-  return typeof value === "string" && value.startsWith("http");
+type Props = {
+  category: SwapiType;
+};
+
+/* =========================
+   Helpers
+========================= */
+
+function getIdFromUrl(url: string): string {
+  return url.split("/").filter(Boolean).pop()!;
 }
 
-function isPrimitive(
-  value: unknown
-): value is string | number {
+function getTitle(item: SwapiItem): string {
+  return item.name ?? item.title ?? "Unknown";
+}
+
+function getSecondary(item: SwapiItem): string | undefined {
   return (
-    typeof value === "string" ||
-    typeof value === "number"
+    (item.model as string) ??
+    (item.starship_class as string) ??
+    (item.climate as string) ??
+    (item.director as string) ??
+    (item.classification as string) ??
+    undefined
   );
 }
 
-export default function DetailsPage({ category, id }: Props) {
-  const [data, setData] = useState<SwapiRecord | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+/* =========================
+   Component
+========================= */
 
-  useEffect(() => {
-    let active = true;
+export default function CategoryPage({
+  category,
+}: Props) {
+  // ✅ CORRECT: no response generic
+  const { data, loading, error } = useSwapi(
+    category,
+    "1"
+  );
 
-    async function load() {
-      try {
-        setLoading(true);
-        const record = await cachedFetch<SwapiRecord>(
-          `https://swapi.py4e.com/api/${category}/${id}/`
-        );
-        if (active) {
-          setData(record);
-        }
-      } catch (err) {
-        if (active) {
-          setError("Failed to load galactic record.");
-        }
-      } finally {
-        if (active) {
-          setLoading(false);
-        }
-      }
-    }
-
-    load();
-    return () => {
-      active = false;
-    };
-  }, [category, id]);
-
-  if (loading) {
-    return (
-      <p className={styles.status}>
-        Loading galactic record…
-      </p>
-    );
-  }
-
-  if (error || !data) {
-    return (
-      <p className={styles.error}>
-        {error ?? "Record not found."}
-      </p>
-    );
-  }
-
-  const title =
-    data.name ?? data.title ?? "Galactic Record";
+  // ✅ Safe narrowing
+  const items: SwapiItem[] =
+    data && "results" in data && Array.isArray(data.results)
+      ? data.results
+      : [];
 
   return (
-    <section className={styles.page}>
-      {/* HEADER */}
-      <header className={styles.header}>
-        <span className={styles.eyebrow}>
-          {category.toUpperCase()}
-        </span>
-        <h1 className={styles.title}>{title}</h1>
-      </header>
+    <main className={styles.page}>
+      {/* ===== Header ===== */}
+      <HoloHeader category={category} />
 
-      {/* DETAILS GRID */}
-      <dl className={styles.grid}>
-        {Object.entries(data).map(([key, value]) => {
-          if (
-            key === "url" ||
-            key === "created" ||
-            key === "edited"
-          ) {
-            return null;
-          }
+      {/* ===== States ===== */}
+      {loading && (
+        <p className={styles.status}>
+          Loading records…
+        </p>
+      )}
 
-          if (Array.isArray(value)) {
-            if (value.length === 0) return null;
+      {error && (
+        <p className={styles.error}>
+          Transmission error.
+        </p>
+      )}
+
+      {/* ===== Card Grid ===== */}
+      {!loading && !error && (
+        <section className={styles.grid}>
+          {items.map((item) => {
+            const id = getIdFromUrl(item.url);
+            const title = getTitle(item);
+            const secondary =
+              getSecondary(item);
 
             return (
-              <div
-                key={key}
-                className={styles.row}
-              >
-                <dt>{formatLabel(key)}</dt>
-                <dd>
-                  {value
-                    .filter(isPrimitive)
-                    .join(", ")}
-                </dd>
-              </div>
+              <CategoryCard
+                key={id}
+                href={`/${category}/${id}`}
+                id={id}
+                title={title}
+                secondary={secondary}
+              />
             );
-          }
-
-          if (isPrimitive(value)) {
-            return (
-              <div
-                key={key}
-                className={styles.row}
-              >
-                <dt>{formatLabel(key)}</dt>
-                <dd>{value}</dd>
-              </div>
-            );
-          }
-
-          if (isUrl(value)) {
-            return null; // handled via RelatedRail later
-          }
-
-          return null;
-        })}
-      </dl>
-    </section>
+          })}
+        </section>
+      )}
+    </main>
   );
-}
-
-/* ---------- helpers ---------- */
-
-function formatLabel(key: string) {
-  return key
-    .replace(/_/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase());
 }

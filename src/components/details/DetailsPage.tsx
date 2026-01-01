@@ -7,6 +7,9 @@ import type { SwapiType } from "@/components/types/swapi-types";
 import HoloHeader from "@/components/HoloHeader/HoloHeader";
 import Breadcrumbs from "@/components/navigation/Breadcrumbs";
 import OpeningCrawl from "@/components/details/OpeningCrawl";
+import AttributesPanel from "./AttributesPanel";
+import RelatedRail from "./RelatedRail";
+
 
 import {
   getRecordMetaFromItem,
@@ -135,63 +138,10 @@ export default function DetailsPage({
       )}
 
       {/* ================= DETAILS GRID ================= */}
-      <dl className={styles.grid}>
-        {Object.entries(data).map(
-          ([key, value]) => {
-            // Exclude identity, meta & narrative
-            if (EXCLUDED_KEYS.has(key)) {
-              return null;
-            }
-
-            // 🚫 Relationships are rendered by RelatedRail
-            if (isUrl(value) || isUrlArray(value)) {
-              return null;
-            }
-
-            // Arrays of primitive values
-            if (Array.isArray(value)) {
-              if (value.length === 0)
-                return null;
-
-              return (
-                <div
-                  key={key}
-                  className={styles.row}
-                >
-                  <dt>
-                    {formatLabel(key)}
-                  </dt>
-                  <dd>
-                    {value
-                      .filter(isPrimitive)
-                      .join(", ")}
-                  </dd>
-                </div>
-              );
-            }
-
-            // Primitive scalar values
-            if (isPrimitive(value)) {
-              return (
-                <div
-                  key={key}
-                  className={styles.row}
-                >
-                  <dt>
-                    {formatLabel(key)}
-                  </dt>
-                  <dd>{value}</dd>
-                </div>
-              );
-            }
-
-            return null;
-          }
-        )}
-      </dl>
+      <AttributesPanel data={data} category={category}/>
 
       {/* ================= RELATIONS / EXTENSIONS ================= */}
-      {children}
+      <RelatedRail data={data} />
     </section>
   );
 }
