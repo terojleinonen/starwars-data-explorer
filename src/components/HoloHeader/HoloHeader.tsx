@@ -10,8 +10,18 @@ import type { SwapiType } from "@/components/types/swapi-types";
 export type HoloHeaderSize = "sm" | "md" | "lg" | "xl";
 
 export type HoloHeaderProps = {
-  category?: SwapiType; // ← IMPORTANT: optional
+  /** Category group (people, films, etc.) */
+  category?: SwapiType;
+
+  /** Primary title (record name / film title) */
+  title?: string;
+
+  /** Optional subtitle (director, model, etc.) */
+  subtitle?: string;
+
+  /** Optional breadcrumb-style context text */
   breadcrumb?: string;
+
   size?: HoloHeaderSize;
 };
 
@@ -41,24 +51,44 @@ const SIZE_CLASS: Record<HoloHeaderSize, string> = {
 
 export default function HoloHeader({
   category,
+  title,
+  subtitle,
   breadcrumb,
   size = "lg",
 }: HoloHeaderProps) {
-  const title =
-    (category && CATEGORY_TITLES[category]) ?? "Galactic Records";
+  const displayTitle =
+    title ??
+    (category && CATEGORY_TITLES[category]) ??
+    "Galactic Records";
 
-  const categoryLabel =
+  const displayCategory =
     category?.toUpperCase() ?? "ARCHIVES";
 
   return (
     <header className={`${styles.header} ${SIZE_CLASS[size]}`}>
+      {/* Optional breadcrumb / context */}
       {breadcrumb && (
-        <span className={styles.breadcrumb}>{breadcrumb}</span>
+        <span className={styles.breadcrumb}>
+          {breadcrumb}
+        </span>
       )}
 
-      <h2 className={styles.title}>{title}</h2>
+      {/* Primary title */}
+      <h1 className={styles.title}>
+        {displayTitle}
+      </h1>
 
-      <span className={styles.category}>{categoryLabel}</span>
+      {/* Optional subtitle (details pages) */}
+      {subtitle && (
+        <p className={styles.subtitle}>
+          {subtitle}
+        </p>
+      )}
+
+      {/* Category / group */}
+      <span className={styles.category}>
+        {displayCategory}
+      </span>
     </header>
   );
 }

@@ -54,3 +54,106 @@
   font-size: 14px;
   color: var(--text-primary);
 }
+
+.rail {
+  margin-top: 4rem;
+  padding: 2.5rem 2rem;
+
+  background: linear-gradient(
+    180deg,
+    rgba(20, 30, 60, 0.55),
+    rgba(10, 15, 30, 0.55)
+  );
+
+  border-radius: 16px;
+  box-shadow:
+    inset 0 0 0 1px rgba(120, 160, 255, 0.08),
+    0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.railHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  margin-bottom: 2rem;
+}
+
+.railTitle {
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(180, 210, 255, 0.85);
+}
+
+.railMeta {
+  font-size: 0.75rem;
+  color: rgba(160, 180, 220, 0.6);
+}
+
+.groups {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.group {
+  padding: 1.5rem 1.5rem 1.75rem;
+
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+
+  box-shadow:
+    inset 0 0 0 1px rgba(120, 160, 255, 0.06);
+}
+
+.heading {
+  margin-bottom: 1rem;
+
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: rgba(150, 190, 255, 0.75);
+}
+
+.list {
+  display: grid;
+  gap: 0.6rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+
+  text-decoration: none;
+  color: rgba(230, 240, 255, 0.9);
+
+  transition:
+    background 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
+}
+
+.link:hover {
+  background: rgba(120, 160, 255, 0.12);
+  box-shadow:
+    inset 0 0 0 1px rgba(120, 160, 255, 0.25);
+  transform: translateX(2px);
+}
+
+.title {
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+
+.subtitle {
+  font-size: 0.7rem;
+  color: rgba(170, 190, 230, 0.65);
+}

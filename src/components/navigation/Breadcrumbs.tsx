@@ -7,42 +7,33 @@ export type BreadcrumbItem = {
 };
 
 type Props = {
-  items: BreadcrumbItem[];
+  items?: BreadcrumbItem[];
 };
 
-export default function Breadcrumbs({ items }: Props) {
-  if (!items || items.length === 0) return null;
-
+export default function Breadcrumbs({
+  items,
+}: Props) {
   return (
     <nav
-      className={styles.breadcrumbs}
       aria-label="Breadcrumb"
       data-breadcrumbs
+      className={styles.breadcrumbs}
     >
-      <ol className={styles.list}>
-        {items.map((item, index) => {
-          const isLast = index === items.length - 1;
-
-          return (
-            <li key={index} className={styles.item}>
-              {item.href && !isLast ? (
-                <Link
-                  href={item.href}
-                  className={styles.link}
-                >
-                  {item.label}
-                </Link>
-              ) : (
-                <span
-                  className={styles.current}
-                  aria-current="page"
-                >
-                  {item.label}
-                </span>
-              )}
-            </li>
-          );
-        })}
+      <ol>
+        {items?.map((item, index) => (
+          <li key={index}>
+            {item.href ? (
+              <Link
+                href={item.href}
+                data-nav-label={item.label}
+              >
+                {item.label}
+              </Link>
+            ) : (
+              <span>{item.label}</span>
+            )}
+          </li>
+        ))}
       </ol>
     </nav>
   );

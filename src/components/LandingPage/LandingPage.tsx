@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import NavLink from "@/components/navigation/NavLink";
 import styles from "./LandingPage.module.css";
 
 import { useCategoryTheme } from "@/hooks/useCategoryTheme";
@@ -39,7 +39,7 @@ export default function LandingPage() {
           description="Cinematic records"
           href="/films"
         />
-        
+
         <CategoryCard
           title="People"
           description="Individuals and factions"
@@ -98,7 +98,11 @@ function CategoryCard({
   href,
 }: CategoryCardProps) {
   return (
-    <Link href={href} className={styles.card}>
+    <NavLink
+      href={href}
+      label={title}
+      className={styles.card}
+    >
       <div className={styles.cardSurface}>
         <span className={styles.cardTitle}>
           {title}
@@ -107,6 +111,6 @@ function CategoryCard({
           {description}
         </span>
       </div>
-    </Link>
+    </NavLink>
   );
 }

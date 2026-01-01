@@ -1,108 +1,220 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import styles from "./RelatedRail.module.css";
-import { cachedFetch, prefetch } from "@/lib/swapiCache";
 
-type RelatedItem = {
-  url: string;
-  id: string;
+import NavLink from "@/components/navigation/NavLink";
+import { cachedFetch } from "@/lib/swapiCache";
+import {
+  getRecordMetaFromItem,
+  type RecordMeta,
+} from "@/lib/recordMeta";
+import type { SwapiType } from "@/components/types/swapi-types";
+
+/* -----------------------------------------------
+   Types
+----------------------------------------------- */
+
+type RelatedGroup = {
   label: string;
+  items: RecordMeta[];
 };
 
 type Props = {
-  label: string;
-  category: string;
-  items?: unknown;
+  data: Record<string, unknown>;
 };
 
-function getIdFromUrl(url: string) {
-  const match = url.match(/\/(\d+)\/?$/);
-  return match ? match[1] : null;
+/* -----------------------------------------------
+   Helpers
+----------------------------------------------- */
+
+function isUrl(value: unknown): value is string {
+  return (
+    typeof value === "string" &&
+    value.startsWith("http")
+  );
 }
 
+function isUrlArray(
+  value: unknown
+): value is string[] {
+  return (
+    Array.isArray(value) &&
+    value.length > 0 &&
+    value.every(isUrl)
+  );
+}
+
+function getCategoryFromUrl(
+  url: string
+): SwapiType | null {
+  const parts = url.split("/").filter(Boolean);
+  return (parts[parts.length - 2] ??
+    null) as SwapiType | null;
+}
+
+function formatLabel(key: string) {
+  return key
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, (c) =>
+      c.toUpperCase()
+    );
+}
+
+/* -----------------------------------------------
+   RelatedRail
+----------------------------------------------- */
+
 export default function RelatedRail({
-  label,
-  category,
-  items,
+  data,
 }: Props) {
-  const [resolved, setResolved] = useState<RelatedItem[]>([]);
+  const [groups, setGroups] = useState<
+    RelatedGroup[]
+  >([]);
+
+  const selfUrl =
+  typeof data.url === "string"
+    ? data.url
+    : null;
+
 
   useEffect(() => {
     let active = true;
 
-    if (!Array.isArray(items) || items.length === 0) {
-      setResolved([]);
-      return;
-    }
-
     async function load() {
-      const results: RelatedItem[] = [];
+      const grouped: Record<
+        string,
+        RecordMeta[]
+      > = {};
 
-      if (!Array.isArray(items)) return;
+      for (const [key, value] of Object.entries(
+        data
+      )) {
+        const urls: string[] = [];
 
-      for (const url of items) {
-        if (typeof url !== "string") continue;
+        if (selfUrl && value === selfUrl) {
+          continue;
+        }
 
-        const id = getIdFromUrl(url);
-        if (!id) continue;
+        // Array relations (films, characters, etc.)
+        if (isUrlArray(value)) {
+          urls.push(...value);
+        }
 
-        try {
-          const record = await cachedFetch<any>(url);
+        // Single relation (homeworld)
+        if (isUrl(value)) {
+          urls.push(value);
+        }
 
-          const label =
-            record?.name ??
-            record?.title ??
-            "Unknown";
+        if (urls.length === 0) continue;
 
-          results.push({
-            url,
-            id,
-            label,
-          });
-        } catch {
-          /* ignore broken relations */
+        for (const url of urls) {
+          try {
+            const record =
+              await cachedFetch<any>(url);
+
+            const category =
+              getCategoryFromUrl(url);
+            if (!category) continue;
+
+            const meta =
+              getRecordMetaFromItem(
+                record,
+                category,
+                "—"
+              );
+
+            // Guard against invalid records
+            if (
+              !meta.title ||
+              meta.title === "Unknown record"
+            ) {
+              continue;
+            }
+
+            if (!grouped[key]) {
+              grouped[key] = [];
+            }
+
+            grouped[key].push(meta);
+          } catch {
+            // Ignore broken relations
+          }
         }
       }
 
-      if (active) {
-        setResolved(results);
-      }
+      if (!active) return;
+
+      const result: RelatedGroup[] =
+        Object.entries(grouped).map(
+          ([key, items]) => ({
+            label: formatLabel(key),
+            items,
+          })
+        );
+
+      setGroups(result);
     }
 
     load();
     return () => {
       active = false;
     };
-  }, [items]);
+  }, [data]);
 
-  if (resolved.length === 0) return null;
+  if (groups.length === 0) return null;
 
   return (
     <section className={styles.rail}>
-      <h2 className={styles.heading}>{label}</h2>
+      <header className={styles.railHeader}>
+        <h2 className={styles.railTitle}>
+          Connected Systems
+        </h2>
+        <span className={styles.railMeta}>
+          {groups.length} groups
+        </span>
+      </header>
 
-      <ul className={styles.list}>
-        {resolved.map((item) => (
-          <li key={item.url}>
-            <Link
-              href={{
-               pathname: `/${category}/${item.id}`,
-              query: {
-                fromLabel: label,
-                fromHref: `/${category}`,
-              },
-            }}
-              className={styles.link}
-            >
-              <span className={styles.label}>
-                {item.label}
-              </span>
-            </Link>
-          </li>
+      <div className={styles.groups}>
+        {groups.map((group) => (
+          <div
+            key={group.label}
+            className={styles.group}
+          >
+            <h3 className={styles.heading}>
+              {group.label}
+            </h3>
+
+            <ul className={styles.list}>
+              {group.items.map((meta) => (
+                <li key={meta.id}>
+                  <NavLink
+                    href={`/${meta.category}/${meta.id}`}
+                    label={meta.title}
+                    className={styles.link}
+                  >
+                    <span
+                      className={styles.title}
+                    >
+                      {meta.title}
+                    </span>
+
+                    {meta.subtitle && (
+                      <span
+                        className={
+                          styles.subtitle
+                        }
+                      >
+                        {meta.subtitle}
+                      </span>
+                    )}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }

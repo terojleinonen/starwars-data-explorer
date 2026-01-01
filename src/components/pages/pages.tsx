@@ -5,15 +5,12 @@
 // – viewport-activated data slabs
 
 import React from "react";
-import Link from "next/link";
+import NavLink from "../navigation/NavLink";
 import { useSwapi, SwapiListResponse, SwapiItem } from "../useSwapi";
+import { SwapiType } from "../types/swapi-types";
 import styles from "./pages.module.css";
 import  HoloHeader  from "../HoloHeader/HoloHeader";
 import { motion } from "framer-motion";
-
-interface CategoryPageProps {
-  theme: "light" | "dark";
-}
 
 /* -----------------------------------------------
    Utilities
@@ -25,10 +22,42 @@ const safe = (v: unknown): string => {
   return "—";
 };
 
-const getLabel = (item: SwapiItem): string =>
-  (item as any).name ??
-  (item as any).title ??
-  "Unknown";
+type RecordMeta = {
+  id: string;
+  title: string;
+  subtitle?: string;
+};
+
+const getRecordMeta = (
+  item: SwapiItem,
+  fallbackId: string
+): RecordMeta => {
+  const url =
+    typeof item.url === "string"
+      ? item.url
+      : "";
+
+  const id =
+    url.split("/").filter(Boolean).pop() ??
+    fallbackId;
+
+  return {
+    id,
+    title:
+      (item as any).name ??
+      (item as any).title ??
+      "Unknown",
+    subtitle:
+      safe(
+        item.model ??
+          item.classification ??
+          item.director ??
+          item.climate ??
+          item.gender ??
+          item.starship_class
+      ) || undefined,
+  };
+};
 
 /* -----------------------------------------------
    Scroll-reactive lighting hook
@@ -73,34 +102,6 @@ const useScrollFX = () => {
 };
 
 /* -----------------------------------------------
-   Viewport-entry activation hook
------------------------------------------------ */
-
-const useRevealOnView = () => {
-  const ref = React.useRef<HTMLAnchorElement | null>(null);
-
-  React.useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    const io = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          el.classList.add("isVisible");
-          io.disconnect();
-        }
-      },
-      { threshold: 0.15 }
-    );
-
-    io.observe(el);
-    return () => io.disconnect();
-  }, []);
-
-  return ref;
-};
-
-/* -----------------------------------------------
    Layout wrapper
 ----------------------------------------------- */
 
@@ -121,56 +122,51 @@ const PageWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
 const ListGrid: React.FC<{
   items: SwapiItem[];
-  category: string;
+  category: SwapiType;
 }> = ({ items, category }) => {
   return (
     <div className={styles.listGrid}>
       {items.map((item, index) => {
-        const url = typeof item.url === "string" ? item.url : "";
-        const idFromUrl = url.split("/").filter(Boolean).pop();
-        const id = idFromUrl ?? String(index + 1);
-
-        const label = getLabel(item);
-
-        const secondary =
-         safe(
-          item.model ??
-          item.classification ??
-          item.director ??
-          item.climate ??
-          item.gender ??
-          item.starship_class ??
-          ""
-        ) || "—";
+        const meta = getRecordMeta(
+          item,
+          String(index + 1)
+        );
 
         return (
           <motion.div
-            key={`${category}-${id}`}
-            layoutId={`card-${category}-${id}`}
+            key={`${category}-${meta.id}`}
+            layoutId={`card-${category}-${meta.id}`}
             className={styles.cardWrapper}
           >
-          <Link
-            href={`/${category}/${id}`}
-            className={styles.card}
-          >
-        <div className={styles.cardHeader}>
-         <span className={styles.recordHeader}>Record</span>
-          <span>ID: {id}</span>
-        </div>
+            <NavLink
+              href={`/${category}/${meta.id}`}
+              label={meta.title} // ✅ navigation contract
+              className={styles.card}
+            >
+              <div className={styles.cardHeader}>
+                <span className={styles.recordHeader}>
+                  Record
+                </span>
+                <span>ID: {meta.id}</span>
+              </div>
 
-        <div className={styles.title}>{label}</div>
+              <div className={styles.title}>
+                {meta.title}
+              </div>
 
-        {secondary !== "—" && (
-          <div className={styles.secondary}>{secondary}</div>
-        )}
+              {meta.subtitle && (
+                <div className={styles.secondary}>
+                  {meta.subtitle}
+                </div>
+              )}
 
-        <div className={styles.openDetail}>Open detail →</div>
-      </Link>
-      </motion.div>
-  );
-
-
-    })}
+              <div className={styles.openDetail}>
+                Open detail →
+              </div>
+            </NavLink>
+          </motion.div>
+        );
+      })}
     </div>
   );
 };
@@ -179,104 +175,88 @@ const ListGrid: React.FC<{
    Category pages
 ----------------------------------------------- */
 
-export const FilmsPage: React.FC<CategoryPageProps> = () => {
-  const { data, loading, error } = useSwapi<SwapiListResponse<SwapiItem>>("films");
-  const items = data?.results ?? [];
-
-  return (
-    <PageWrapper>
-      <div className={styles.headerFade}>
-        <HoloHeader category="films"/>
-      </div>
-      {loading && <p className={styles.loading}>Loading film data…</p>}
-      {error && <p className={styles.error}>Transmission error: {error}</p>}
-      {!loading && !error && <ListGrid items={items} category="films" />}
-    </PageWrapper>
-  );
+type GenericCategoryProps = {
+  category: SwapiType;
+  loadingText: string;
 };
 
-export const PeoplePage: React.FC<CategoryPageProps> = () => {
+const CategoryPage: React.FC<GenericCategoryProps> = ({
+  category,
+  loadingText,
+}) => {
   const { data, loading, error } =
-    useSwapi<SwapiListResponse<SwapiItem>>("people");
+    useSwapi<SwapiListResponse<SwapiItem>>(
+      category
+    );
+
   const items = data?.results ?? [];
 
   return (
     <PageWrapper>
       <div className={styles.headerFade}>
-        <HoloHeader category="people" />
+        <HoloHeader category={category} />
       </div>
-      {loading && <p className={styles.loading}>Loading character data…</p>}
-      {error && <p className={styles.error}>Transmission error: {error}</p>}
-      {!loading && !error && <ListGrid items={items} category="people" />}
+
+      {loading && (
+        <p className={styles.loading}>
+          {loadingText}
+        </p>
+      )}
+
+      {error && (
+        <p className={styles.error}>
+          Transmission error: {error}
+        </p>
+      )}
+
+      {!loading && !error && (
+        <ListGrid
+          items={items}
+          category={category}
+        />
+      )}
     </PageWrapper>
   );
 };
 
-export const PlanetsPage: React.FC<CategoryPageProps> = () => {
-  const { data, loading, error } =
-    useSwapi<SwapiListResponse<SwapiItem>>("planets");
-  const items = data?.results ?? [];
+export const FilmsPage = () => (
+  <CategoryPage
+    category="films"
+    loadingText="Loading film data…"
+  />
+);
 
-  return (
-    <PageWrapper>
-      <div className={styles.headerFade}>
-        <HoloHeader category="planets" />
-      </div>
-      {loading && <p className={styles.loading}>Loading planetary data…</p>}
-      {error && <p className={styles.error}>Transmission error: {error}</p>}
-      {!loading && !error && <ListGrid items={items} category="planets" />}
-    </PageWrapper>
-  );
-};
+export const PeoplePage = () => (
+  <CategoryPage
+    category="people"
+    loadingText="Loading character data…"
+  />
+);
 
-export const SpeciesPage: React.FC<CategoryPageProps> = () => {
-  const { data, loading, error } =
-    useSwapi<SwapiListResponse<SwapiItem>>("species");
-  const items = data?.results ?? [];
+export const PlanetsPage = () => (
+  <CategoryPage
+    category="planets"
+    loadingText="Loading planetary data…"
+  />
+);
 
-  return (
-    <PageWrapper>
-      <div className={styles.headerFade}>
-        <HoloHeader category="species" />
-      </div>
-      {loading && <p className={styles.loading}>Loading species data…</p>}
-      {error && <p className={styles.error}>Transmission error: {error}</p>}
-      {!loading && !error && <ListGrid items={items} category="species" />}
-    </PageWrapper>
-  );
-};
+export const SpeciesPage = () => (
+  <CategoryPage
+    category="species"
+    loadingText="Loading species data…"
+  />
+);
 
-export const VehiclesPage: React.FC<CategoryPageProps> = () => {
-  const { data, loading, error } =
-    useSwapi<SwapiListResponse<SwapiItem>>("vehicles");
-  const items = data?.results ?? [];
+export const VehiclesPage = () => (
+  <CategoryPage
+    category="vehicles"
+    loadingText="Loading vehicle data…"
+  />
+);
 
-  return (
-    <PageWrapper>
-      <div className={styles.headerFade}>
-        <HoloHeader category="vehicles" />
-      </div>
-      {loading && <p className={styles.loading}>Loading vehicle data…</p>}
-      {error && <p className={styles.error}>Transmission error: {error}</p>}
-      {!loading && !error && <ListGrid items={items} category="vehicles" />}
-    </PageWrapper>
-  );
-};
-
-export const StarshipsPage: React.FC<CategoryPageProps> = () => {
-  const { data, loading, error } =
-    useSwapi<SwapiListResponse<SwapiItem>>("starships");
-  const items = data?.results ?? [];
-
-  return (
-    <PageWrapper>
-      <div className={styles.headerFade}>
-        <HoloHeader category="starships"/>
-      </div>
-      {loading && <p className={styles.loading}>Loading starship data…</p>}
-      {error && <p className={styles.error}>Transmission error: {error}</p>}
-      {!loading && !error && <ListGrid items={items} category="starships" />}
-    </PageWrapper>
-  );
-};
-// FILE: pages.tsx
+export const StarshipsPage = () => (
+  <CategoryPage
+    category="starships"
+    loadingText="Loading starship data…"
+  />
+);

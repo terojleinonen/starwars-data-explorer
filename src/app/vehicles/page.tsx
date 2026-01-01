@@ -4,5 +4,5 @@
 import { VehiclesPage } from "@/components/pages/pages";
 
 export default function Vehicles() {
-  return <VehiclesPage theme="dark" />;
+  return <VehiclesPage />;
 }

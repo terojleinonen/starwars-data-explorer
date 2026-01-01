@@ -19,9 +19,9 @@ export default function Navigation() {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.logo}>
-        <Link href="/">Galactic Archives</Link>        
-      </div>
+      <Link href="/" data-nav-label="Home">
+        Galactic Archives
+      </Link>
 
       <div className={styles.links}>
         {CATEGORIES.map((cat) => {

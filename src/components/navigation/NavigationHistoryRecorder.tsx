@@ -19,11 +19,20 @@ export default function NavigationHistoryRecorder() {
       const link = target.closest("a");
       if (!link) return;
 
-      const href = link.getAttribute("href");
-      if (!href || href.startsWith("http")) return;
+      // Ignore UI controls (back arrow, etc.)
+      if (
+        link.hasAttribute("data-back-arrow") ||
+        link.hasAttribute("data-ignore-nav")
+      ) {
+        return;
+      }
 
+      const href = link.getAttribute("href");
       const label =
-        link.textContent?.trim() || "Unknown";
+        link.getAttribute("data-nav-label");
+
+      // Only record links that declare intent
+      if (!href || !label) return;
 
       const raw =
         sessionStorage.getItem(STORAGE_KEY);

@@ -4,5 +4,5 @@
 import { StarshipsPage } from"@/components/pages/pages";
 
 export default function Starships() {
-  return <StarshipsPage theme="dark" />;
+  return <StarshipsPage />;
 }

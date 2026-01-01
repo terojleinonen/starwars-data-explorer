@@ -4,5 +4,5 @@
 import { SpeciesPage } from "@/components/pages/pages";
 
 export default function Species() {
-  return <SpeciesPage theme="dark" />;
+  return <SpeciesPage />;
 }

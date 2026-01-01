@@ -4,5 +4,5 @@
 import { PeoplePage } from "@/components/pages/pages";
 
 export default function People() {
-  return <PeoplePage theme="dark" />;
+  return <PeoplePage />;
 }

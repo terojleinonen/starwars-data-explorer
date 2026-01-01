@@ -4,5 +4,5 @@
 import { FilmsPage } from "@/components/pages/pages";
 
 export default function Films() {
-  return <FilmsPage theme="dark" />;
+  return <FilmsPage />;
 }

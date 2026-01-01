@@ -54,3 +54,41 @@
   background: rgba(var(--accent-rgb), 0.6);
   border-radius: 2px;
 }
+
+.breadcrumbs ol {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumbs li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumbs li::after {
+  content: "/";
+  opacity: 0.4;
+}
+
+.breadcrumbs li:last-child::after {
+  content: "";
+}
+
+.breadcrumbs a {
+  color: rgba(200, 220, 255, 0.85);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs span {
+  color: rgba(255, 255, 255, 0.95);
+}

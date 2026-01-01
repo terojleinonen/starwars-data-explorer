@@ -44,8 +44,9 @@ export default function BreadcrumbsHistoryEnhancer() {
 
       if (item.href && item.label !== "…") {
         const a = document.createElement("a");
-        a.href = item.href;
-        a.textContent = item.label;
+          a.href = item.href;
+          a.textContent = item.label;
+          a.setAttribute("data-nav-label", item.label)
         li.appendChild(a);
       } else {
         li.textContent = item.label;

@@ -4,5 +4,5 @@
 import { PlanetsPage } from "@/components/pages/pages";
 
 export default function Planets() {
-  return <PlanetsPage theme="dark" />;
+  return <PlanetsPage />;
 }
