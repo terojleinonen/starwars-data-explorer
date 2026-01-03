@@ -1,0 +1,35 @@
+/* =================================================
+   Record Grid
+   - Layout only
+   - No surfaces, no colors
+================================================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(260px, 1fr)
+  );
+
+  gap: 2rem;
+  align-items: stretch;
+}
+
+/* Slight stagger feel without JS */
+.grid > * {
+  will-change: transform, opacity;
+}
+
+/* Responsive tuning */
+
+@media (max-width: 1024px) {
+  .grid {
+    gap: 1.6rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid {
+    gap: 1.3rem;
+  }
+}
