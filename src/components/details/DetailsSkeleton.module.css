@@ -1,0 +1,49 @@
+.rail {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+.heading {
+  width: 22%;
+  height: 0.8rem;
+  border-radius: 4px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.category {
+  width: 64px;
+  height: 0.65rem;
+}
+
+.label {
+  width: 55%;
+  height: 0.85rem;
+}
+
+/* Subtle pulse only */
+@keyframes pulse {
+  0% { opacity: 0.85; }
+  50% { opacity: 1; }
+  100% { opacity: 0.85; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rail {
+    animation: none;
+  }
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import HoloHeader from "@/components/HoloHeader/HoloHeader";
-import PageSurface from "@/components/layout/PageSurface";
+import PageWrapper from "../layout/PageWrapper";
 import RecordGrid from "@/components/records/RecordGrid";
 import { useSwapi } from "@/components/useSwapi";
 import { SwapiType } from "@/components/types/swapi-types";
@@ -23,7 +23,7 @@ export default function CategoryPage({
   const items = data?.results ?? [];
 
   return (
-    <PageSurface>
+    <PageWrapper atmosphere={category}>
       <HoloHeader category={category} />
 
       {loading && (
@@ -44,6 +44,6 @@ export default function CategoryPage({
           category={category}
         />
       )}
-    </PageSurface>
+    </PageWrapper>
   );
 }

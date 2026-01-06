@@ -53,7 +53,7 @@ export default function BreadcrumbsHistoryEnhancer() {
       }
 
       if (index < visible.length - 1) {
-        li.insertAdjacentText("beforeend", " / ");
+        li.insertAdjacentText("beforeend", "");
       }
 
       ol.appendChild(li);

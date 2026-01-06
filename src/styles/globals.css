@@ -271,3 +271,33 @@ body::before {
     );
   z-index: -1;
 }
+
+
+
+:root {
+  --atmosphere-color: rgba(160, 180, 255, 0.16);
+}
+
+[data-atmosphere="films"] {
+  --atmosphere-color: rgba(255, 200, 120, 0.18);
+}
+
+[data-atmosphere="people"] {
+  --atmosphere-color: rgba(160, 180, 255, 0.16);
+}
+
+[data-atmosphere="planets"] {
+  --atmosphere-color: rgba(255, 170, 90, 0.18);
+}
+
+[data-atmosphere="starships"] {
+  --atmosphere-color: rgba(120, 200, 255, 0.18);
+}
+
+[data-atmosphere="vehicles"] {
+  --atmosphere-color: rgba(140, 190, 220, 0.16);
+}
+
+[data-atmosphere="species"] {
+  --atmosphere-color: rgba(160, 220, 180, 0.16);
+}

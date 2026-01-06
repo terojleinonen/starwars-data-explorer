@@ -1,156 +1,83 @@
-/* ----------------------------------
-   ROOT
----------------------------------- */
-
 .header {
   position: relative;
   overflow: hidden;
-  border-radius: var(--radius-panel);
-  background: var(--surface-glass);
-  border: 1px solid var(--border-subtle);
-  box-shadow: var(--shadow-panel);
-  text-align: center;
-  isolation: isolate;
 }
 
-/* ----------------------------------
-   SIZE VARIANTS
----------------------------------- */
+/* ===============================
+   Atmospheric glow plane
+================================ */
 
-.sm {
-  padding: 40px 20px 32px;
-}
-
-.md {
-  padding: 56px 24px 40px;
-}
-
-.lg {
-  padding: 72px 28px 52px;
-}
-
-.xl {
-  padding: 96px 32px 64px;
-}
-
-/* ----------------------------------
-   BACKGROUND GRID (SCI-FI, SUBTLE)
----------------------------------- */
-
-.gridBg {
+.glow {
   position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0.04) 1px,
-      transparent 1px
-    ),
-    linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.04) 1px,
-      transparent 1px
+  inset: -40% -20% auto -20%;
+  height: 220%;
+
+  background:
+    radial-gradient(
+      500px 240px at 50% 30%,
+      var(--atmosphere-color),
+      transparent 70%
     );
-  background-size: 48px 48px;
-  -webkit-mask-image: radial-gradient(
-    circle at center,
-    black 0%,
-    transparent 75%
-  );
-  mask-image: radial-gradient(
-    circle at center,
-    black 0%,
-    transparent 75%
-  );
+
+  opacity: 0.85;
+  filter: blur(18px);
   pointer-events: none;
   z-index: 0;
 }
 
-/* ----------------------------------
-   CATEGORY LABEL
----------------------------------- */
+/* ===============================
+   Content
+================================ */
+
+.inner {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+/* ===============================
+   Typography
+================================ */
+
+.title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+
+  color: rgba(235, 240, 255, 0.96);
+}
+
+.subtitle {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
 
 .category {
-  position: relative;
-  z-index: 2;
-  font-size: 0.7rem;
-  letter-spacing: 0.35em;
+  margin-top: 0.4rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--text-muted);
-  margin-bottom: 10px;
+  opacity: 0.55;
 }
 
-/* ----------------------------------
-   BREADCRUMB / TITLE
----------------------------------- */
+/* ===============================
+   Sizes
+================================ */
 
-.breadcrumb {
-  position: relative;
-  z-index: 2;
-  margin: 0;
-  font-weight: 600;
-  line-height: 1.05;
-  color: var(--text-primary);
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  -webkit-text-wrap: balance;
-  text-wrap: balance;
+.lg {
+  padding: 2.5rem 0 1.5rem;
 }
 
-/* Responsive title sizing */
-
-.sm .breadcrumb {
-  font-size: 1.6rem;
+.md {
+  padding: 2rem 0 1.2rem;
 }
 
-.md .breadcrumb {
-  font-size: 2rem;
-}
-
-.lg .breadcrumb {
-  font-size: 2.6rem;
-}
-
-.xl .breadcrumb {
-  font-size: clamp(2.8rem, 5vw, 3.6rem);
-}
-
-/* ----------------------------------
-   ACCENT GLOW (DEPTH CUE)
----------------------------------- */
-
-.header::after {
-  content: "";
-  position: absolute;
-  inset: -20%;
-  background:
-    radial-gradient(
-      circle at 50% 30%,
-      var(--accent),
-      transparent 60%
-    );
-  opacity: 0.12;
-  filter: blur(120px);
-  pointer-events: none;
-  z-index: 1;
-}
-
-/* ----------------------------------
-   ACCENT GLOW (CATEGORY-AWARE)
----------------------------------- */
-
-.header::after {
-  content: "";
-  position: absolute;
-  inset: -20%;
-  background:
-    radial-gradient(
-      circle at 50% 30%,
-      var(--accent),
-      transparent 60%
-    );
-  opacity: 0.18;
-  filter: blur(120px);
-  pointer-events: none;
-  z-index: 1;
+.sm {
+  padding: 1.5rem 0 1rem;
 }
