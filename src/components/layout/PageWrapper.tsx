@@ -5,7 +5,7 @@ import styles from "./PageWrapper.module.css";
 
 type Props = {
   children: ReactNode;
-  /** Optional category for atmospheric color */
+  /** category name, used for atmosphere */
   atmosphere?: string;
 };
 
@@ -19,10 +19,10 @@ export default function PageWrapper({
       data-atmosphere={atmosphere}
     >
       {/* ===============================
-         Visual environment layers
+         Background layers
       =============================== */}
 
-      <div className={styles.space} />
+      <div className={styles.background} />
       <div className={styles.atmosphere} />
       <div className={styles.grid} />
 

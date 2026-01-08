@@ -19,16 +19,6 @@
   justify-content: center;
 }
 
-.heroBackdrop {
-  background:
-    radial-gradient(
-      900px 420px at 50% 20%,
-      rgba(0,0,0,0.45),
-      rgba(0,0,0,0.85) 70%
-    );
-}
-
-
 .heroContent {
   position: relative;
   z-index: 1;
@@ -70,15 +60,6 @@
 .primaryAction {
   padding: 0.9rem 2.2rem;
   border-radius: 999px;
-
-  background:
-    linear-gradient(
-      180deg,
-      rgba(var(--accent-rgb), 0.9),
-      rgba(var(--accent-rgb), 0.6)
-    );
-
-  color: black;
   font-weight: 600;
   letter-spacing: 0.04em;
 
@@ -130,26 +111,6 @@
   padding: 1.8rem 1.6rem;
   border-radius: 18px;
 
-  background:
-    radial-gradient(
-      120% 140% at 0% 0%,
-      rgba(var(--accent-rgb), 0.22),
-      transparent 55%
-    ),
-    linear-gradient(
-      180deg,
-      rgba(255,255,255,0.09),
-      rgba(255,255,255,0.02)
-    );
-
-  border: 1px solid rgba(255,255,255,0.12);
-  -webkit-backdrop-filter: blur(14px);
-  backdrop-filter: blur(14px);
-
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    border-color 0.3s ease;
 }
 
 .cardSurface::before {
@@ -159,15 +120,6 @@
   border-radius: inherit;
   pointer-events: none;
 
-  background: linear-gradient(
-    120deg,
-    transparent 30%,
-    rgba(var(--accent-rgb), 0.55),
-    transparent 70%
-  );
-
-  opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .card:hover .cardSurface {

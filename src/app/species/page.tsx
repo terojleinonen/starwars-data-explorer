@@ -1,8 +1,11 @@
-// FILE: app/species/page.tsx
-"use client";
+import CategoryPage from "@/components/pages/CategoryPage";
 
-import { SpeciesPage } from "@/components/pages/pages";
-
-export default function Species() {
-  return <SpeciesPage />;
+export default function Page() {
+  return (
+    <CategoryPage
+      category="species"
+      title="Species"
+      subtitle="Biological classifications and lifeforms"
+    />
+  );
 }

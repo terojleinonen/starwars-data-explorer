@@ -1,8 +1,11 @@
-// FILE: app/starships/page.tsx
-"use client";
+import CategoryPage from "@/components/pages/CategoryPage";
 
-import { StarshipsPage } from"@/components/pages/pages";
-
-export default function Starships() {
-  return <StarshipsPage />;
+export default function Page() {
+  return (
+    <CategoryPage
+      category="starships"
+      title="Starships"
+      subtitle="Interstellar vessels and spacefaring craft"
+    />
+  );
 }

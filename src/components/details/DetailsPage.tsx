@@ -63,6 +63,7 @@ export default function DetailsPage({
               category={category}
               title={meta.title}
               subtitle={meta.subtitle}
+              size="lg"
             />
 
             {typeof data.opening_crawl ===

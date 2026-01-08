@@ -18,7 +18,7 @@ const CategoryPage = ({ category, loadingText }: Props) => {
 
   return (
     <PageWrapper>
-      <HoloHeader category={category} />
+      <HoloHeader category={category} title="" />
 
       {loading && <p className={styles.loading}>{loadingText}</p>}
       {error && <p className={styles.error}>Transmission error</p>}

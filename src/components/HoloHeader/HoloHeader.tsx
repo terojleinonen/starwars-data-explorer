@@ -3,31 +3,39 @@
 import styles from "./HoloHeader.module.css";
 import type { SwapiType } from "@/components/types/swapi-types";
 
-export type HoloHeaderSize = "sm" | "md" | "lg" | "xl";
+/* =========================
+   Types
+========================= */
+
+export type HoloHeaderSize = "sm" | "md" | "lg";
 
 export type HoloHeaderProps = {
-  category?: SwapiType;
-  title?: string;
+  /** Primary page anchor (REQUIRED for category pages) */
+  title: string;
+
+  /** Secondary contextual label (optional) */
   subtitle?: string;
+
+  /** Used only for atmosphere + metadata */
+  category?: SwapiType;
+
+  /** Explicit visual hierarchy */
   size?: HoloHeaderSize;
 };
 
-const SIZE_CLASS: Record<HoloHeaderSize, string> = {
-  sm: styles.sm,
-  md: styles.md,
-  lg: styles.lg,
-  xl: styles.xl,
-};
+/* =========================
+   Component
+========================= */
 
 export default function HoloHeader({
-  category,
   title,
   subtitle,
-  size = "lg",
+  category,
+  size = "md",
 }: HoloHeaderProps) {
   return (
     <header
-      className={`${styles.header} ${SIZE_CLASS[size]}`}
+      className={`${styles.header} ${styles[size]}`}
       data-category={category}
     >
       {/* Atmospheric glow */}
@@ -41,11 +49,9 @@ export default function HoloHeader({
           </span>
         )}
 
-        {title && (
-          <h1 className={styles.title}>
-            {title}
-          </h1>
-        )}
+        <h1 className={styles.title}>
+          {title}
+        </h1>
 
         {category && (
           <span className={styles.category}>

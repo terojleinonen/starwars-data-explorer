@@ -1,40 +1,6 @@
-/* =========================================================
-   GLOBAL RESET & BASE
-========================================================= */
-
-/* Background layer (never interactive) */
-#space-backdrop-root,
-#space-backdrop-root * {
-  pointer-events: none !important;
-}
-
-/* App layer (always interactive) */
-#app-root {
-  position: relative;
-  z-index: 1;
-  pointer-events: auto;
-}
-
-/* Navigation must always be above content */
-nav {
-  position: relative;
-  z-index: 10;
-  pointer-events: auto;
-}
-
-.nav,
-.navigation {
-  pointer-events: auto;
-}
-
-
-#space-backdrop-root {
-  pointer-events: none;
-}
-
-#app-root {
-  pointer-events: auto;
-}
+/* =========================================
+   Global Reset & Base
+========================================= */
 
 *,
 *::before,
@@ -44,260 +10,106 @@ nav {
 
 html,
 body {
-  padding: 0;
   margin: 0;
-  min-height: 100%;
+  padding: 0;
+}
+
+/* =========================================
+   Root Defaults (consume tokens ONLY)
+========================================= */
+
+html {
+  color-scheme: light dark;
 }
 
 body {
+  min-height: 100vh;
+
+  /* 👇 Background is token-driven */
+  background: linear-gradient(
+    180deg,
+    var(--bg-base-start),
+    var(--bg-base-end)
+  );
+
+  color: var(--text-body);
+
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    "Segoe UI", Roboto, Inter, sans-serif;
+
   line-height: 1.5;
-  background: black;
-  color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  transition:
+    background-color 0.25s ease,
+    color 0.2s ease;
 }
 
-/* =========================================================
-   ACCENT (fallback if not set by JS)
-========================================================= */
+/* =========================================
+   Typography
+========================================= */
 
-:root {
-  --accent-rgb: 120, 180, 255; /* default neutral blue */
-}
-
-/* =========================================================
-   NEUTRAL ANCHORS
-========================================================= */
-
-:root {
-  --neutral-light: rgb(245, 247, 252);
-  --neutral-dark: rgb(18, 20, 26);
-}
-
-/* =========================================================
-   AUTOMATIC CONTRAST TEXT SYSTEM (DARK)
-========================================================= */
-
-:root {
-  --text-primary: color-mix(
-    in srgb,
-    var(--neutral-light) 92%,
-    rgb(var(--accent-rgb)) 8%
-  );
-
-  --text-secondary: color-mix(
-    in srgb,
-    var(--neutral-light) 70%,
-    rgb(var(--accent-rgb)) 10%
-  );
-
-  --text-tertiary: color-mix(
-    in srgb,
-    var(--neutral-light) 50%,
-    rgb(var(--accent-rgb)) 6%
-  );
-
-  --text-muted: color-mix(
-    in srgb,
-    var(--neutral-light) 35%,
-    rgb(var(--accent-rgb)) 4%
-  );
-
-  --text-link: color-mix(
-    in srgb,
-    var(--neutral-light) 65%,
-    rgb(var(--accent-rgb)) 35%
-  );
-
-  --text-link-hover: color-mix(
-    in srgb,
-    var(--neutral-light) 85%,
-    rgb(var(--accent-rgb)) 15%
-  );
-}
-
-/* =========================================================
-   LIGHT THEME OVERRIDES
-========================================================= */
-
-[data-theme="light"] {
-  color-scheme: light;
-
-  --text-primary: color-mix(
-    in srgb,
-    var(--neutral-dark) 90%,
-    rgb(var(--accent-rgb)) 10%
-  );
-
-  --text-secondary: color-mix(
-    in srgb,
-    var(--neutral-dark) 70%,
-    rgb(var(--accent-rgb)) 12%
-  );
-
-  --text-tertiary: color-mix(
-    in srgb,
-    var(--neutral-dark) 55%,
-    rgb(var(--accent-rgb)) 8%
-  );
-
-  --text-muted: color-mix(
-    in srgb,
-    var(--neutral-dark) 40%,
-    rgb(var(--accent-rgb)) 6%
-  );
-
-  --text-link: color-mix(
-    in srgb,
-    var(--neutral-dark) 60%,
-    rgb(var(--accent-rgb)) 40%
-  );
-
-  --text-link-hover: color-mix(
-    in srgb,
-    var(--neutral-dark) 80%,
-    rgb(var(--accent-rgb)) 20%
-  );
-}
-
-/* =========================================================
-   GLOBAL TEXT + LINK RULES
-========================================================= */
-
-body {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 600;
   color: var(--text-primary);
 }
 
 p {
-  color: var(--text-secondary);
+  margin: 0;
+  color: var(--text-body);
 }
 
+small {
+  color: var(--text-muted);
+}
+
+/* =========================================
+   Links
+========================================= */
+
 a {
-  color: var(--text-link);
+  color: var(--link);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--text-link-hover);
+  color: var(--link-hover);
 }
 
-/* =========================================================
-   CINEMATIC SPACE BACKGROUND TOKENS
-========================================================= */
+/* =========================================
+   Focus & Accessibility
+========================================= */
 
-:root {
-  --bg-base-start: rgb(6, 8, 12);
-  --bg-base-end: rgb(2, 3, 6);
-
-  --bg-accent-opacity-strong: 0.28;
-  --bg-accent-opacity-soft: 0.12;
-  --bg-accent-blur: 40px;
-  --bg-accent-spread: 900px;
-
-  --bg-neutral-light-opacity: 0.08;
-  --bg-neutral-light-spread: 700px;
-  --bg-neutral-light-blur: 36px;
-
-  --bg-star-opacity-strong: 0.8;
-  --bg-star-opacity-soft: 0.45;
-  --bg-star-size-small: 1px;
-  --bg-star-size-large: 2px;
-
-  --bg-drift-duration: 140s;
-  --bg-drift-distance: 3%;
-
-  --bg-nebula-hue-range: 8deg;
-  --bg-nebula-hue-duration: 240s;
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
 }
 
-/* =========================================================
-   LIGHT THEME BACKGROUND OVERRIDES
-========================================================= */
+/* =========================================
+   Media Defaults
+========================================= */
 
-[data-theme="light"] {
-  --bg-base-start: rgb(248, 249, 252);
-  --bg-base-end: rgb(236, 238, 244);
-
-  --bg-accent-opacity-strong: 0.16;
-  --bg-accent-opacity-soft: 0.06;
-  --bg-accent-blur: 60px;
-  --bg-accent-spread: 1100px;
-
-  --bg-neutral-light-opacity: 0.35;
-  --bg-neutral-light-spread: 900px;
-  --bg-neutral-light-blur: 60px;
-
-  --bg-star-opacity-strong: 0.18;
-  --bg-star-opacity-soft: 0.12;
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* =========================================================
-   LANDING PAGE BACKGROUND BOOST
-========================================================= */
-
-.landing-hero {
-  --bg-accent-opacity-strong: 0.45;
-  --bg-accent-opacity-soft: 0.22;
-  --bg-accent-blur: 24px;   /* was 32px */
-  --bg-accent-spread: 1200px;
-
-  --bg-star-opacity-strong: 0.9;
-  --bg-star-opacity-soft: 0.6;
-}
-
-/* =========================================================
-   ACCESSIBILITY: REDUCED MOTION
-========================================================= */
+/* =========================================
+   Reduced Motion
+========================================= */
 
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.001ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.001ms !important;
+  * {
+    animation: none !important;
+    transition: none !important;
   }
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background:
-    radial-gradient(
-      circle at 50% 20%,
-      rgba(0, 255, 255, 0.4),
-      transparent 60%
-    );
-  z-index: -1;
-}
-
-
-
-:root {
-  --atmosphere-color: rgba(160, 180, 255, 0.16);
-}
-
-[data-atmosphere="films"] {
-  --atmosphere-color: rgba(255, 200, 120, 0.18);
-}
-
-[data-atmosphere="people"] {
-  --atmosphere-color: rgba(160, 180, 255, 0.16);
-}
-
-[data-atmosphere="planets"] {
-  --atmosphere-color: rgba(255, 170, 90, 0.18);
-}
-
-[data-atmosphere="starships"] {
-  --atmosphere-color: rgba(120, 200, 255, 0.18);
-}
-
-[data-atmosphere="vehicles"] {
-  --atmosphere-color: rgba(140, 190, 220, 0.16);
-}
-
-[data-atmosphere="species"] {
-  --atmosphere-color: rgba(160, 220, 180, 0.16);
 }

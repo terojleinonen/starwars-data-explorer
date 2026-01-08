@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 
 type Theme = "dark" | "light";
-
 const STORAGE_KEY = "theme";
 
 function getSystemTheme(): Theme {
@@ -12,22 +11,12 @@ function getSystemTheme(): Theme {
     : "light";
 }
 
-function getInitialTheme(): Theme {
-  if (typeof window === "undefined") return "dark";
-
-  const stored = localStorage.getItem(STORAGE_KEY) as Theme | null;
-  if (stored) return stored;
-
-  return getSystemTheme();
-}
-
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setTheme] = useState<Theme | null>(null);
   const [isManual, setIsManual] = useState(false);
 
-  // Apply theme to <html>
   function applyTheme(next: Theme) {
-    document.documentElement.dataset.theme = next;
+    document.documentElement.setAttribute("data-theme", next);
     setTheme(next);
   }
 
@@ -40,27 +29,31 @@ export default function ThemeToggle() {
     applyTheme(initial);
   }, []);
 
-  // Listen to OS theme changes
+  // Listen to OS changes
   useEffect(() => {
     const media = window.matchMedia("(prefers-color-scheme: dark)");
 
-    function handleChange() {
+    const handleChange = () => {
       if (!isManual) {
         applyTheme(getSystemTheme());
       }
-    }
+    };
 
     media.addEventListener("change", handleChange);
     return () => media.removeEventListener("change", handleChange);
   }, [isManual]);
 
-  // User toggle
   function toggleTheme() {
+    if (!theme) return;
+
     const next: Theme = theme === "dark" ? "light" : "dark";
     localStorage.setItem(STORAGE_KEY, next);
     setIsManual(true);
     applyTheme(next);
   }
+
+  // Avoid rendering wrong icon during hydration
+  if (!theme) return null;
 
   return (
     <button

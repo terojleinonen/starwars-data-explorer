@@ -1,8 +1,11 @@
-// FILE: app/people/page.tsx
-"use client";
+import CategoryPage from "@/components/pages/CategoryPage";
 
-import { PeoplePage } from "@/components/pages/pages";
-
-export default function People() {
-  return <PeoplePage />;
+export default function Page() {
+  return (
+    <CategoryPage
+      category="people"
+      title="People"
+      subtitle="Sentient records of the galaxy"
+    />
+  );
 }

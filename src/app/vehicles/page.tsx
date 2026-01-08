@@ -1,8 +1,11 @@
-// FILE: app/vehicles/page.tsx
-"use client";
+import CategoryPage from "@/components/pages/CategoryPage";
 
-import { VehiclesPage } from "@/components/pages/pages";
-
-export default function Vehicles() {
-  return <VehiclesPage />;
+export default function Page() {
+  return (
+    <CategoryPage
+      category="vehicles"
+      title="Vehicles"
+      subtitle="Atmospheric and ground transport systems"
+    />
+  );
 }

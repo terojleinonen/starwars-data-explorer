@@ -1,8 +1,11 @@
-// FILE: app/planets/page.tsx
-"use client";
+import CategoryPage from "@/components/pages/CategoryPage";
 
-import { PlanetsPage } from "@/components/pages/pages";
-
-export default function Planets() {
-  return <PlanetsPage />;
+export default function Page() {
+  return (
+    <CategoryPage
+      category="planets"
+      title="Planets"
+      subtitle="Worlds, systems, and environments"
+    />
+  );
 }

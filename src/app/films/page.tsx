@@ -1,8 +1,11 @@
-// FILE: app/films/page.tsx
-"use client";
+import CategoryPage from "@/components/pages/CategoryPage";
 
-import { FilmsPage } from "@/components/pages/pages";
-
-export default function Films() {
-  return <FilmsPage />;
+export default function Page() {
+  return (
+    <CategoryPage
+      category="films"
+      title="Films"
+      subtitle="Holofilm records and cinematic archives"
+    />
+  );
 }
