@@ -1,4 +1,4 @@
-import CategoryPage from "@/components/pages/CategoryPage";
+import CategoryPage from "@/components/category/CategoryPage";
 
 export default function Page() {
   return (

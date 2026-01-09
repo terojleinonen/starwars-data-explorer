@@ -2,6 +2,7 @@
 // Strict TypeScript SWAPI fetcher with caching, loading, error states.
 
 import { useEffect, useState } from "react";
+import type { SwapiItem } from "@/components/types/swapi-types";
 
 // ----- Strict SWAPI types -----
 export interface SwapiListResponse<T> {
@@ -13,30 +14,6 @@ export interface SwapiListResponse<T> {
 
 // Generic SWAPI item type
 export type SwapiData = Record<string, any>;
-
-// Represents a single item from the SWAPI, with all possible fields from various categories.
-export interface SwapiItem {
-  url: string;
-  name?: string;
-  title?: string;
-  model?: string;
-  classification?: string;
-  director?: string;
-  climate?: string;
-  gender?: string;
-  starship_class?: string;
-  height?: string;
-  mass?: string;
-  gravity?: string;
-  orbital_period?: string;
-  language?: string;
-  average_lifespan?: string;
-  max_atmosphering_speed?: string;
-  crew?: string;
-  hyperdrive_rating?: string;
-  release_date?: string;
-  episode_id?: number;
-}
 
 // Hook return structure
 export interface UseSwapiResult<T> {

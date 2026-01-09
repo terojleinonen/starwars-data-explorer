@@ -3,7 +3,7 @@
 import PageWrapper from "@/components/layout/PageWrapper";
 import RecordGrid from "@/components/records/RecordGrid";
 import HoloHeader from "@/components/HoloHeader/HoloHeader";
-import { useSwapi } from "@/components/useSwapi";
+import { useSwapi } from "@/hooks/useSwapi";
 import { SwapiType } from "@/components/types/swapi-types";
 import styles from "./CategoryPage.module.css";
 

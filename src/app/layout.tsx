@@ -14,10 +14,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <ThemeProvider>
           <Navigation />
-          <RouteTransition>         
-              <ThemeProvider>{children}</ThemeProvider>
-          </RouteTransition>
+          <RouteTransition>{children}</RouteTransition>
+        </ThemeProvider>
         <NavigationHistoryRecorder />
         <BreadcrumbsKeyboardEnhancer />
         <BreadcrumbsHistoryEnhancer />

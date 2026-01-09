@@ -1,5 +1,11 @@
-// FILE: swapi-types.ts
-// Strict TypeScript interfaces for all SWAPI categories.
+/* ============================================
+   SWAPI Core Types
+   Authoritative shared typing for the app
+============================================ */
+
+/* --------------------------------------------
+   Category union
+-------------------------------------------- */
 
 export type SwapiType =
   | "films"
@@ -9,88 +15,90 @@ export type SwapiType =
   | "vehicles"
   | "starships";
 
-  export type SwapiEntity = Film | Person | Planet | Species | Vehicle | Starship;
+/* --------------------------------------------
+   Base record (shared by all SWAPI entities)
+-------------------------------------------- */
 
-/* ------------------------------------------
-   CATEGORY INTERFACES
-------------------------------------------- */
+export interface SwapiItem {
+  url: string;
+  created?: string;
+  edited?: string;
+  name?: string;
+  title?: string;
+  model?: string;
+  classification?: string;
+  director?: string;
+  climate?: string;
+  gender?: string;
+  starship_class?: string;
+  height?: string;
+  mass?: string;
+  gravity?: string;
+  orbital_period?: string;
+  language?: string;
+  average_lifespan?: string;
+  max_atmosphering_speed?: string;
+  crew?: string;
+  hyperdrive_rating?: string;
+  release_date?: string;
+  episode_id?: number;
+  [key: string]: unknown;
+}
 
-export interface Film {
+/* --------------------------------------------
+   Generic SWAPI item
+   (intentionally loose – SWAPI is inconsistent)
+-------------------------------------------- */
+
+// SwapiItem is now the primary interface.
+// The old SwapiItem and SwapiBase are replaced.
+
+/* --------------------------------------------
+   List response
+-------------------------------------------- */
+
+export interface SwapiListResponse<T = SwapiItem> {
+  count: number;
+  next: string | null;
+  previous: string | null;
+  results: T[];
+}
+
+/* --------------------------------------------
+   Record metadata (UI-level abstraction)
+-------------------------------------------- */
+
+export type RecordMeta = {
+  id: string;
   title: string;
-  episode_id: number;
-  opening_crawl: string;
-  director: string;
-  producer: string;
-  release_date: string;
-  url: string;
+  subtitle?: string;
+  category: SwapiType;
+};
+
+/* --------------------------------------------
+   Helpers (shared logic, safe defaults)
+-------------------------------------------- */
+
+/**
+ * Extract numeric ID from SWAPI URL
+ */
+export function getIdFromUrl(
+  url: string,
+  fallback = "—"
+): string {
+  const match = url.match(/\/(\d+)\/?$/);
+  return match?.[1] ?? fallback;
 }
 
-export interface Person {
-  name: string;
-  height: string;
-  mass: string;
-  hair_color: string;
-  skin_color: string;
-  eye_color: string;
-  birth_year: string;
-  gender: string;
-  url: string;
+/**
+ * Resolve primary display label
+ */
+export function getRecordTitle(
+  item: SwapiItem
+): string {
+  return (
+    item.name ??
+    item.title ??
+    "Unknown"
+  );
 }
-
-export interface Planet {
-  name: string;
-  rotation_period: string;
-  orbital_period: string;
-  diameter: string;
-  climate: string;
-  gravity: string;
-  terrain: string;
-  population: string;
-  url: string;
-}
-
-export interface Species {
-  name: string;
-  classification: string;
-  designation: string;
-  average_height: string;
-  language: string;
-  url: string;
-}
-
-export interface Vehicle {
-  name: string;
-  model: string;
-  manufacturer: string;
-  cost_in_credits: string;
-  length: string;
-  crew: string;
-  passengers: string;
-  vehicle_class: string;
-  url: string;
-}
-
-export interface Starship {
-  name: string;
-  model: string;
-  manufacturer: string;
-  cost_in_credits: string;
-  crew: string;
-  passengers: string;
-  starship_class: string;
-  url: string;
-}
-
-/* ------------------------------------------
-   MAP CATEGORY → TYPE
-------------------------------------------- */
-
-export interface SwapiDataMap {
-  films: Film;
-  people: Person;
-  planets: Planet;
-  species: Species;
-  vehicles: Vehicle;
-  starships: Starship;
-}
-// FILE: swapi-types.ts

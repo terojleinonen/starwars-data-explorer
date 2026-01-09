@@ -43,21 +43,23 @@ export default function HoloHeader({
 
       {/* Content */}
       <div className={styles.inner}>
+          {category && (
+            <span className={styles.category}>
+              {category.toUpperCase()}
+            </span>
+          )}
+
+        <h1 className={styles.title}>
+          {title}
+        </h1>
+
         {subtitle && (
           <span className={styles.subtitle}>
             {subtitle}
           </span>
         )}
 
-        <h1 className={styles.title}>
-          {title}
-        </h1>
 
-        {category && (
-          <span className={styles.category}>
-            {category.toUpperCase()}
-          </span>
-        )}
       </div>
     </header>
   );
