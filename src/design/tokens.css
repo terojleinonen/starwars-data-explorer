@@ -3,6 +3,11 @@
 --------------------------------------- */
 
 :root {
+  /* page background */
+  --bg-base-start: #080c18;
+  --bg-base-end: #03060f;
+  --bg-highlight: rgba(20,38,78,0.35);
+
   /* surfaces */
   --surface-glass: rgba(15,23,42,0.55);
 
@@ -13,6 +18,10 @@
   --text-primary: rgba(255,255,255,0.95);
   --text-secondary: rgba(255,255,255,0.65);
   --text-muted: rgba(255,255,255,0.45);
+  --text-body: var(--text-secondary);
+  --link: var(--accent-primary);
+  --link-hover: var(--text-primary);
+  --focus: var(--accent-soft);
 
   /* accent */
   --accent-primary: #38bdf8;
@@ -27,6 +36,14 @@
   /* radii */
   --radius-card: 16px;
   --radius-panel: 28px;
+
+  /* category atmospheres */
+  --atm-films: rgba(251, 191, 36, 0.18);      /* amber */
+  --atm-people: rgba(56, 189, 248, 0.20);     /* cyan */
+  --atm-planets: rgba(34, 197, 94, 0.18);     /* green */
+  --atm-starships: rgba(99, 102, 241, 0.20);  /* indigo */
+  --atm-vehicles: rgba(249, 115, 22, 0.18);   /* orange */
+  --atm-species: rgba(168, 85, 247, 0.20);    /* violet */
 }
 
 /* ---------------------------------------
@@ -34,23 +51,40 @@
 --------------------------------------- */
 
 [data-theme="light"] {
-  /* surfaces */
-  --surface-glass: rgba(255,255,255,0.65);
+  /* page background */
+  --bg-base-start: #f1f5f9;
+  --bg-base-end: #e2e8f0;
+  --bg-highlight: rgba(200, 216, 239, 0.35);
+
+   /* surfaces */
+  --surface-glass: rgba(255, 255, 255, 0.85);
 
   /* borders */
-  --border-subtle: rgba(15,23,42,0.12);
+  --border-subtle: rgba(15, 23, 42, 0.18);
 
   /* text */
-  --text-primary: rgba(15,23,42,0.95);
-  --text-secondary: rgba(15,23,42,0.65);
-  --text-muted: rgba(15,23,42,0.45);
+  --text-primary: rgba(15, 23, 42, 0.96);
+  --text-secondary: rgba(15, 23, 42, 0.72);
+  --text-muted: rgba(15, 23, 42, 0.48);
+  --text-body: var(--text-secondary);
+  --link: var(--accent-primary);
+  --link-hover: var(--text-primary);
+  --focus: var(--accent-soft);
 
   /* accent */
-  --accent-primary: #0284c7;
-  --accent-soft: rgba(2,132,199,0.28);
-  --accent-glow: rgba(2,132,199,0.18);
+  --accent-primary: #0369a1; /* deeper than before */
+  --accent-soft: rgba(3, 105, 161, 0.22);
+  --accent-glow: rgba(3, 105, 161, 0.12);
 
   /* depth */
-  --shadow-panel: 0 16px 30px rgba(0,0,0,0.18);
-  --shadow-hover: 0 22px 46px rgba(0,0,0,0.25);
+  --shadow-panel: 0 10px 24px rgba(15, 23, 42, 0.14);
+  --shadow-hover: 0 16px 36px rgba(15, 23, 42, 0.20);
+
+  /* category atmospheres */
+  --atm-films: rgba(251, 191, 36, 0.10);
+  --atm-people: rgba(56, 189, 248, 0.10);
+  --atm-planets: rgba(34, 197, 94, 0.10);
+  --atm-starships: rgba(99, 102, 241, 0.10);
+  --atm-vehicles: rgba(249, 115, 22, 0.10);
+  --atm-species: rgba(168, 85, 247, 0.10);
 }

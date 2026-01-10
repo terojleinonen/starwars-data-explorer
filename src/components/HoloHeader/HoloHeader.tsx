@@ -38,17 +38,9 @@ export default function HoloHeader({
       className={`${styles.header} ${styles[size]}`}
       data-category={category}
     >
-      {/* Atmospheric glow */}
-      <div className={styles.glow} />
-
       {/* Content */}
       <div className={styles.inner}>
-          {category && (
-            <span className={styles.category}>
-              {category.toUpperCase()}
-            </span>
-          )}
-
+        
         <h1 className={styles.title}>
           {title}
         </h1>

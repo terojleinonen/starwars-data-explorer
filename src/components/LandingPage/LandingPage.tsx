@@ -1,85 +1,171 @@
 "use client";
 
+import PageWrapper from "@/components/layout/PageWrapper";
+
 import NavLink from "@/components/navigation/NavLink";
+
 import styles from "./LandingPage.module.css";
+
+
 
 import { useCategoryTheme } from "@/hooks/useCategoryTheme";
 
+
+
 /* =========================
+
    Landing Page
+
 ========================= */
 
+
+
 export default function LandingPage() {
+
   // neutral accent for landing
+
   useCategoryTheme("starships"); // blue-tech feel
 
+
+
   return (
-    <main className={`${styles.page} landing-hero`}>
-      {/* ================= HERO ================= */}
-      <section className={styles.hero}>
-        <div className={styles.heroBackdrop} />
 
-        <div className={styles.heroContent}>
-          <h1 className={styles.title}>
-            Explore the Galactic Archive
-          </h1>
+    <PageWrapper atmosphere="starships">
 
-          <p className={styles.subtitle}>
-            A cinematic, interactive index of people,
-            worlds, vessels and civilizations —
-            presented as a modern data console.
+      <main className={`${styles.page} landing-hero`}>
+
+        {/* ================= HERO ================= */}
+
+        <section className={styles.hero}>
+
+          <div className={styles.heroBackdrop} />
+
+
+
+          <div className={styles.heroContent}>
+
+            <h1 className={styles.title}>
+
+              Explore the Galactic Archive
+
+            </h1>
+
+
+
+            <p className={styles.subtitle}>
+
+              A cinematic, interactive index of people,
+
+              worlds, vessels and civilizations —
+
+              presented as a modern data console.
+
+            </p>
+
+          </div>
+
+        </section>
+
+
+
+        {/* ================= CATEGORIES ================= */}
+
+        <section className={styles.categories}>
+
+          <CategoryCard
+
+            title="Films"
+
+            description="Cinematic records"
+
+            href="/films"
+
+          />
+
+
+
+          <CategoryCard
+
+            title="People"
+
+            description="Individuals and factions"
+
+            href="/people"
+
+          />
+
+
+
+          <CategoryCard
+
+            title="Planets"
+
+            description="Worlds and environments"
+
+            href="/planets"
+
+          />
+
+
+
+          <CategoryCard
+
+            title="Starships"
+
+            description="Interstellar vessels"
+
+            href="/starships"
+
+          />
+
+
+
+          <CategoryCard
+
+            title="Vehicles"
+
+            description="Atmospheric & ground transport"
+
+            href="/vehicles"
+
+          />
+
+
+
+          <CategoryCard
+
+            title="Species"
+
+            description="Biological classifications"
+
+            href="/species"
+
+          />
+
+        </section>
+
+
+
+        {/* ================= FOOTER ================= */}
+
+        <footer className={styles.footer}>
+
+          <p>
+
+            Built as a frontend systems showcase —
+
+            focus on UX, performance, and interaction design.
+
           </p>
-        </div>
-      </section>
 
-      {/* ================= CATEGORIES ================= */}
-      <section className={styles.categories}>
-        <CategoryCard
-          title="Films"
-          description="Cinematic records"
-          href="/films"
-        />
+        </footer>
 
-        <CategoryCard
-          title="People"
-          description="Individuals and factions"
-          href="/people"
-        />
+      </main>
 
-        <CategoryCard
-          title="Planets"
-          description="Worlds and environments"
-          href="/planets"
-        />
+    </PageWrapper>
 
-        <CategoryCard
-          title="Starships"
-          description="Interstellar vessels"
-          href="/starships"
-        />
-
-        <CategoryCard
-          title="Vehicles"
-          description="Atmospheric & ground transport"
-          href="/vehicles"
-        />
-
-        <CategoryCard
-          title="Species"
-          description="Biological classifications"
-          href="/species"
-        />
-      </section>
-
-      {/* ================= FOOTER ================= */}
-      <footer className={styles.footer}>
-        <p>
-          Built as a frontend systems showcase —
-          focus on UX, performance, and interaction design.
-        </p>
-      </footer>
-    </main>
   );
+
 }
 
 /* =========================

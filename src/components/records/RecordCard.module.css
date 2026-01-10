@@ -5,33 +5,87 @@
 ================================================= */
 
 .cardWrapper {
-  height: 100%;
+  position: relative;
 }
 
-/* -------------------------------------------------
+/* --------------------------------
    Card surface
-------------------------------------------------- */
+-------------------------------- */
 
 .card {
-  display: flex;
-  flex-direction: column;
-  gap: 0.9rem;
+  position: relative;
+  display: block;
 
-  height: 100%;
-  padding: 1.2rem 1.3rem;
+  padding: 1rem 1.1rem;
 
-  border-radius: 16px;
-  text-decoration: none;
-  color: inherit;
+  background: var(--surface-glass);
+  -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
+  border-radius: var(--radius-card);
+
+  box-shadow: var(--shadow-panel);
+
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
 }
 
-/* -------------------------------------------------
+/* --------------------------------
+   Accent glow (hover only)
+-------------------------------- */
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+
+  border-radius: inherit;
+
+  background:
+    linear-gradient(
+      180deg,
+      var(--accent-glow),
+      transparent 60%
+    );
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+
+  pointer-events: none;
+}
+
+/* --------------------------------
    Hover / focus
-------------------------------------------------- */
+-------------------------------- */
 
 .card:hover,
 .card:focus-visible {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+}
+
+.card:hover::before,
+.card:focus-visible::before {
+  opacity: 1;
+}
+
+/* --------------------------------
+   CTA hint
+-------------------------------- */
+
+.cta {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.card:hover .cta {
+  color: var(--accent-primary);
+  transform: translateX(2px);
 }
 
 /* -------------------------------------------------

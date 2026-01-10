@@ -1,53 +1,69 @@
-.list {
+/* =========================================
+   Breadcrumbs
+========================================= */
+
+.breadcrumbs {
   display: flex;
-  gap: 8px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin: 0 0 1.25rem;
+  padding: 0.35rem 0;
+
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: var(--text-muted);
 }
 
-.item::after {
-  content: "/";
-  margin-left: 8px;
-  color: var(--text-tertiary);
+.breadcrumbs li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 
-.item:last-child::after {
-  content: "";
+/* -----------------------------------------
+   Individual item
+----------------------------------------- */
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
 }
+
+/* -----------------------------------------
+   Links
+----------------------------------------- */
 
 .link {
   color: var(--text-secondary);
   text-decoration: none;
+
+  transition:
+    color 0.18s ease,
+    text-shadow 0.18s ease;
 }
 
 .link:hover {
-  color: var(--text-primary);
+  color: var(--accent-primary);
+  text-shadow: 0 0 8px var(--accent-soft);
 }
+
+/* -----------------------------------------
+   Current page (last crumb)
+----------------------------------------- */
 
 .current {
   color: var(--text-primary);
   font-weight: 500;
 }
 
-.link:focus-visible {
-  outline: 2px solid rgba(var(--accent-rgb), 0.8);
-  outline-offset: 2px;
-}
-
-.breadcrumbs {
-  position: relative;
-}
-
-.breadcrumbs::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 48px;
-  height: 2px;
-  border-radius: 2px;
-}
+/* -----------------------------------------
+   List layout
+----------------------------------------- */
 
 .breadcrumbs ol {
   display: flex;
@@ -59,30 +75,69 @@
   margin: 0;
 }
 
-.breadcrumbs li {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
+/* -----------------------------------------
+   Separator between items
+----------------------------------------- */
 
-.breadcrumbs li::after {
+.item:not(:last-child)::after {
   content: "/";
-  opacity: 0.4;
+  margin-left: 0.5rem;
+
+  color: var(--text-muted);
+  opacity: 0.6;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
-.breadcrumbs li:last-child::after {
-  content: "";
+
+/* -----------------------------------------
+   Back arrow (optional)
+----------------------------------------- */
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+
+  margin-right: 0.75rem;
+
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+
+  color: var(--text-secondary);
+  cursor: pointer;
+
+  transition:
+    color 0.18s ease,
+    transform 0.18s ease;
 }
 
-.breadcrumbs a {
-  color: rgba(200, 220, 255, 0.85);
-  text-decoration: none;
+.back:hover {
+  color: var(--accent-primary);
+  transform: translateX(-2px);
 }
 
-.breadcrumbs a:hover {
-  text-decoration: underline;
+/* -----------------------------------------
+   Accessibility
+----------------------------------------- */
+
+.link:focus-visible,
+.back:focus-visible {
+  outline: 2px solid var(--accent-soft);
+  outline-offset: 2px;
 }
 
-.breadcrumbs span {
-  color: rgba(255, 255, 255, 0.95);
+/* -----------------------------------------
+   Responsive behavior
+----------------------------------------- */
+
+@media (max-width: 640px) {
+  .breadcrumbs {
+    flex-wrap: wrap;
+    row-gap: 0.35rem;
+  }
+
+  .item:not(:first-child)::before {
+    display: none;
+  }
 }

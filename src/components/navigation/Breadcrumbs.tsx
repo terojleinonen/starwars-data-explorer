@@ -21,16 +21,17 @@ export default function Breadcrumbs({
     >
       <ol>
         {items?.map((item, index) => (
-          <li key={index}>
+          <li key={index} className={styles.item}>
             {item.href ? (
               <Link
                 href={item.href}
                 data-nav-label={item.label}
+                className={styles.link}
               >
                 {item.label}
               </Link>
             ) : (
-              <span>{item.label}</span>
+              <span className={styles.current}>{item.label}</span>
             )}
           </li>
         ))}

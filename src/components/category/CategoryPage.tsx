@@ -48,7 +48,7 @@ export default function CategoryPage({
   } = useRecordQuery(items);
 
   return (
-    <PageWrapper>
+    <PageWrapper atmosphere={category}>
       {/* ================= HEADER ================= */}
       <div className={styles.header}>
         <HoloHeader category={category} title={title} subtitle={subtitle}/>
