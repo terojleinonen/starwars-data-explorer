@@ -3,55 +3,56 @@
 import styles from "./HoloHeader.module.css";
 import type { SwapiType } from "@/components/types/swapi-types";
 
-/* =========================
-   Types
-========================= */
-
 export type HoloHeaderSize = "sm" | "md" | "lg";
 
-export type HoloHeaderProps = {
-  /** Primary page anchor (REQUIRED for category pages) */
-  title: string;
-
-  /** Secondary contextual label (optional) */
-  subtitle?: string;
-
-  /** Used only for atmosphere + metadata */
+type Props = {
   category?: SwapiType;
-
-  /** Explicit visual hierarchy */
+  title?: string;
+  subtitle?: string;
   size?: HoloHeaderSize;
 };
 
-/* =========================
-   Component
-========================= */
+const CATEGORY_LABELS: Partial<Record<SwapiType, string>> = {
+  people: "Sentient Records",
+  planets: "Planetary Archives",
+  films: "Holofilm Library",
+  starships: "Starship Registry",
+  vehicles: "Vehicle Index",
+  species: "Species Codex",
+};
 
 export default function HoloHeader({
+  category,
   title,
   subtitle,
-  category,
-  size = "md",
-}: HoloHeaderProps) {
+  size = "lg",
+}: Props) {
   return (
     <header
       className={`${styles.header} ${styles[size]}`}
       data-category={category}
     >
-      {/* Content */}
-      <div className={styles.inner}>
-        
-        <h1 className={styles.title}>
-          {title}
-        </h1>
+      {/* atmospheric glow layer */}
+      <div className={styles.glow} aria-hidden />
 
-        {subtitle && (
-          <span className={styles.subtitle}>
-            {subtitle}
+      <div className={styles.inner}>
+        {category && (
+          <span className={styles.eyebrow}>
+            {CATEGORY_LABELS[category] ?? "Galactic Records"}
           </span>
         )}
 
+        {title && (
+          <h1 className={styles.title}>
+            {title}
+          </h1>
+        )}
 
+        {subtitle && (
+          <p className={styles.subtitle}>
+            {subtitle}
+          </p>
+        )}
       </div>
     </header>
   );

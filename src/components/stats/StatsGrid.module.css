@@ -1,0 +1,56 @@
+.section {
+  margin-top: 3rem;
+}
+
+/* ---------- heading ---------- */
+.heading {
+  margin-bottom: 1.25rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* ---------- grid ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.25rem;
+  max-width: 880px;
+}
+
+/* ---------- stat card ---------- */
+.card {
+  padding: 1.25rem 1.4rem;
+  border-radius: var(--radius-card);
+  background: var(--surface-glass);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-panel);
+  -webkit-backdrop-filter: blur(--blur-panel);
+  backdrop-filter: var(--blur-panel);
+}
+
+/* ---------- label ---------- */
+.label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--text-muted);
+}
+
+/* ---------- value ---------- */
+.value {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+/* ---------- unit ---------- */
+.unit {
+  margin-left: 0.35rem;
+  font-size: 0.75rem;
+  color: var(--accent-primary);
+  opacity: 0.85;
+}

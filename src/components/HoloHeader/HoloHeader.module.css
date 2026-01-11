@@ -1,105 +1,72 @@
 .header {
   position: relative;
-  margin: 0 0 2.5rem;
-  padding: 1.75rem 0 1.25rem;
-
-  display: flex;
-  justify-content: center;
-}
-
-.inner {
-  position: relative;
+  isolation: isolate;
+  padding: 4.5rem 1.5rem 3.5rem;
   text-align: center;
-  max-width: 900px;
+  overflow: hidden;
 }
 
-/* --------------------------------
-   Atmospheric glow
--------------------------------- */
-
-.inner::before {
-  content: "";
+/* ---------- glow layer ---------- */
+.glow {
   position: absolute;
   inset: -40% -20% auto -20%;
-  height: 200%;
+  height: 220px;
 
   background:
     radial-gradient(
-      50% 35% at 50% 35%,
+      circle at 50% 60%,
       var(--accent-glow),
       transparent 70%
     );
 
-  filter: blur(48px);
-  opacity: 0.85;
-
+  filter: blur(60px);
+  opacity: 0.8;
   pointer-events: none;
   z-index: 0;
 }
 
-/* --------------------------------
-   Title
--------------------------------- */
-
-.title {
+/* ---------- content ---------- */
+.inner {
   position: relative;
   z-index: 1;
-
-  font-size: clamp(2rem, 4vw, 3.2rem);
-  font-weight: 600;
-  letter-spacing: -0.02em;
-
-  color: var(--text-primary);
-
-  text-shadow:
-    0 0 12px var(--accent-soft);
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-/* --------------------------------
-   Subtitle (details page)
--------------------------------- */
+.eyebrow {
+  display: block;
+  font-size: 0.65rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
 
 .subtitle {
-  margin-top: 0.6rem;
-
-  font-size: 0.95rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
   color: var(--text-secondary);
 }
 
-/* --------------------------------
-   Sizes
--------------------------------- */
-
-.sm .title {
-  font-size: 1.4rem;
+/* ---------- size variants ---------- */
+.sm {
+  padding-top: 2.8rem;
+  padding-bottom: 2.2rem;
 }
 
-.md .title {
-  font-size: 1.9rem;
+.md {
+  padding-top: 3.6rem;
+  padding-bottom: 2.8rem;
 }
 
-.lg .title {
-  font-size: clamp(2rem, 4vw, 3.2rem);
-}
-
-.xl .title {
-  font-size: clamp(2.6rem, 5vw, 4rem);
-}
-
-/* --------------------------------
-   Reduced motion / contrast safety
--------------------------------- */
-
-@media (prefers-reduced-motion: reduce) {
-  .inner::before {
-    filter: blur(24px);
-  }
-}
-
-[data-theme="light"] .inner::before {
-  opacity: 0.55;
-  filter: blur(36px);
+.lg {
+  padding-top: 4.5rem;
+  padding-bottom: 3.5rem;
 }

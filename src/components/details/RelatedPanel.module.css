@@ -1,0 +1,22 @@
+.panel {
+  margin-top: 2.5rem;
+  max-width: 960px;
+}
+
+.heading {
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.content {
+  padding: 1.5rem;
+  border-radius: var(--radius-panel);
+  background: var(--surface-glass);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-panel);
+  -webkit-backdrop-filter: blur(--blur-panel);
+  backdrop-filter: var(--blur-panel);
+}
