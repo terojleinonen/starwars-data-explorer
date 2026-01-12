@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import "@/design/tokens.css"
 import { ThemeProvider } from "@/theme/ThemeProvider";
 import Navigation from "@/components/navigation/Navigation";
 import RouteTransition from "@/components/navigation/RouteTransition";

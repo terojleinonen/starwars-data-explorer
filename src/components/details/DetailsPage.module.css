@@ -1,78 +1,9 @@
 .page {
-  width: 100%;
-}
-
-/* =========================
-   Unified vertical rhythm
-========================= */
-
-.flow {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
-/* =========================
-   Section divider
-========================= */
-
-.divider {
-  height: 1px;
-  width: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(120, 160, 255, 0.25),
-    transparent
-  );
-  opacity: 0.6;
-}
-
-/* =========================
-   Section color planes
-========================= */
-
-.plane {
-  position: relative;
-  padding: 2.5rem 0;
-}
-
-.plane::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(
-      120% 100% at 50% 0%,
-      var(--atmosphere-color),
-      transparent 70%
-    );
-  opacity: 0.12;
-  pointer-events: none;
-  z-index: 0;
-}
-
-/* =========================
-   Plane variants
-========================= */
-
-.planeHero::before {
-  opacity: 0.22;
-}
-
-.planeNeutral::before {
-  opacity: 0.08;
-}
-
-.planeRecede::before {
-  opacity: 0.06;
-}
-
-/* =========================
-   Plane content safety
-========================= */
-
-.plane > * {
-  position: relative;
-  z-index: 1;
+.headerFade {
+  margin-bottom: 1rem;
 }

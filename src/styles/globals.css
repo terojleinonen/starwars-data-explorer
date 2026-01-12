@@ -1,8 +1,17 @@
-@import "../design/tokens.css";
+/* ======================================================
+   GLOBAL STYLES
+   Applies design tokens — no hardcoded colors
+====================================================== */
 
-/* =========================================
-   Global Reset & Base
-========================================= */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg-root);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
 
 *,
 *::before,
@@ -10,87 +19,53 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-/* =========================================
-   Root Defaults (consume tokens ONLY)
-========================================= */
-
-html {
-  color-scheme: light dark;
-}
-
-body {
-  color: var(--text-body);
-
-  font-family: system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Inter, sans-serif;
-}
-
-/* =========================================
-   Typography
-========================================= */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-p {
-  margin: 0;
-  color: var(--text-body);
-}
-
-small {
-  color: var(--text-muted);
-}
-
-/* =========================================
+/* --------------------------------------------------
    Links
-========================================= */
+-------------------------------------------------- */
 
 a {
-  color: var(--link);
+  color: var(--accent-primary);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--link-hover);
+  text-decoration: underline;
 }
 
-/* =========================================
-   Focus & Accessibility
-========================================= */
+/* --------------------------------------------------
+   Selection
+-------------------------------------------------- */
 
-:focus-visible {
-  outline: 2px solid var(--focus);
-  outline-offset: 2px;
+::selection {
+  background: var(--accent-soft);
+  color: var(--text-primary);
 }
 
-/* =========================================
-   Media Defaults
-========================================= */
+/* --------------------------------------------------
+   Buttons (base reset)
+-------------------------------------------------- */
 
-img,
-video {
-  max-width: 100%;
-  height: auto;
-  display: block;
+button {
+  font-family: inherit;
+  color: inherit;
 }
 
-/* =========================================
-   Reduced Motion
-========================================= */
+/* --------------------------------------------------
+   Panels / glass helpers
+-------------------------------------------------- */
+
+[data-glass] {
+  background: var(--surface-glass);
+  border: 1px solid var(--border-subtle);
+  -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
+  box-shadow: var(--shadow-panel);
+  border-radius: var(--radius-panel);
+}
+
+/* --------------------------------------------------
+   Motion safety
+-------------------------------------------------- */
 
 @media (prefers-reduced-motion: reduce) {
   * {

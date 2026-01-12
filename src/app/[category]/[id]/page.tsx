@@ -1,6 +1,4 @@
 import DetailsPage from "@/components/details/DetailsPage";
-import DetailsDataTable from "@/components/details/DetailsDataTable";
-import RelatedRail  from "@/components/details/RelatedRail";
 import type { SwapiType } from "@/components/types/swapi-types";
 
 type PageProps = {

@@ -1,24 +1,22 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import styles from "./RelatedRail.module.css";
-
-import NavLink from "@/components/navigation/NavLink";
 import { cachedFetch } from "@/lib/swapiCache";
-import {
-  getRecordMetaFromItem,
-  type RecordMeta,
-} from "@/lib/recordMeta";
 import type { SwapiType } from "@/components/types/swapi-types";
 
 /* -----------------------------------------------
    Types
 ----------------------------------------------- */
 
-type RelatedGroup = {
+type RelatedItem = {
+  id: string;
   label: string;
-  items: RecordMeta[];
+  category: SwapiType;
 };
+
+type GroupedItems = Partial<Record<SwapiType, RelatedItem[]>>;
 
 type Props = {
   data: Record<string, unknown>;
@@ -28,132 +26,78 @@ type Props = {
    Helpers
 ----------------------------------------------- */
 
-function isUrl(value: unknown): value is string {
-  return (
-    typeof value === "string" &&
-    value.startsWith("http")
-  );
-}
-
-function isUrlArray(
-  value: unknown
-): value is string[] {
+function isUrlArray(value: unknown): value is string[] {
   return (
     Array.isArray(value) &&
     value.length > 0 &&
-    value.every(isUrl)
+    value.every(
+      (v) => typeof v === "string" && v.startsWith("http")
+    )
   );
 }
 
-function getCategoryFromUrl(
-  url: string
-): SwapiType | null {
+function getCategoryFromUrl(url: string): SwapiType | null {
   const parts = url.split("/").filter(Boolean);
-  return (parts[parts.length - 2] ??
-    null) as SwapiType | null;
+  return (parts[parts.length - 2] as SwapiType) ?? null;
 }
 
-function formatLabel(key: string) {
-  return key
-    .replace(/_/g, " ")
-    .replace(/\b\w/g, (c) =>
-      c.toUpperCase()
-    );
+function getIdFromUrl(url: string): string | null {
+  const match = url.match(/\/(\d+)\/?$/);
+  return match?.[1] ?? null;
 }
 
 /* -----------------------------------------------
-   RelatedRail
+   Component
 ----------------------------------------------- */
 
-export default function RelatedRail({
-  data,
-}: Props) {
-  const [groups, setGroups] = useState<
-    RelatedGroup[]
-  >([]);
-
-  const selfUrl =
-  typeof data.url === "string"
-    ? data.url
-    : null;
-
+export default function RelatedRail({ data }: Props) {
+  const [groups, setGroups] = useState<GroupedItems>({});
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     let active = true;
 
     async function load() {
-      const grouped: Record<
-        string,
-        RecordMeta[]
-      > = {};
+      const grouped: GroupedItems = {};
 
-      for (const [key, value] of Object.entries(
-        data
-      )) {
-        const urls: string[] = [];
+      for (const value of Object.values(data)) {
+        if (!isUrlArray(value)) continue;
 
-        if (selfUrl && value === selfUrl) {
-          continue;
-        }
-
-        // Array relations (films, characters, etc.)
-        if (isUrlArray(value)) {
-          urls.push(...value);
-        }
-
-        // Single relation (homeworld)
-        if (isUrl(value)) {
-          urls.push(value);
-        }
-
-        if (urls.length === 0) continue;
-
-        for (const url of urls) {
+        for (const url of value) {
           try {
-            const record =
-              await cachedFetch<any>(url);
+            const record = await cachedFetch<any>(url);
+            const category = getCategoryFromUrl(url);
+            const id = getIdFromUrl(url);
 
-            const category =
-              getCategoryFromUrl(url);
-            if (!category) continue;
+            if (!category || !id) continue;
 
-            const meta =
-              getRecordMetaFromItem(
-                record,
-                category,
-                "—"
-              );
+            const label =
+              record.name ??
+              record.title ??
+              "Unknown";
 
-            // Guard against invalid records
-            if (
-              !meta.title ||
-              meta.title === "Unknown record"
-            ) {
-              continue;
-            }
-
-            if (!grouped[key]) {
-              grouped[key] = [];
-            }
-
-            grouped[key].push(meta);
+            grouped[category] ??= [];
+            grouped[category].push({
+              id,
+              label,
+              category,
+            });
           } catch {
-            // Ignore broken relations
+            /* ignore broken relations */
           }
         }
       }
 
       if (!active) return;
 
-      const result: RelatedGroup[] =
-        Object.entries(grouped).map(
-          ([key, items]) => ({
-            label: formatLabel(key),
-            items,
-          })
-        );
+      setGroups(grouped);
 
-      setGroups(result);
+      // auto-expand small groups
+      const autoExpanded: Record<string, boolean> = {};
+      for (const [key, items] of Object.entries(grouped)) {
+        autoExpanded[key] = items.length <= 6;
+      }
+      setExpanded(autoExpanded);
     }
 
     load();
@@ -162,59 +106,63 @@ export default function RelatedRail({
     };
   }, [data]);
 
-  if (groups.length === 0) return null;
+  const categories = Object.entries(groups);
+  if (categories.length === 0) return null;
 
   return (
-    <section className={styles.rail}>
-      <header className={styles.railHeader}>
-        <h2 className={styles.railTitle}>
-          Connected Systems
-        </h2>
-        <span className={styles.railMeta}>
-          {groups.length} groups
-        </span>
-      </header>
+    <div className={styles.container}>
+      {categories.map(([category, items]) => {
+        if (!items) return null;
 
-      <div className={styles.groups}>
-        {groups.map((group) => (
-          <div
-            key={group.label}
+        const isOpen = expanded[category];
+
+        return (
+          <section
+            key={category}
             className={styles.group}
           >
-            <h3 className={styles.heading}>
-              {group.label}
-            </h3>
+            <button
+              className={styles.groupHeader}
+              onClick={() =>
+                setExpanded((s) => ({
+                  ...s,
+                  [category]: !isOpen,
+                }))
+              }
+              aria-expanded={!!isOpen}
+            >
+              <span className={styles.groupTitle}>
+                {category}
+              </span>
 
-            <ul className={styles.list}>
-              {group.items.map((meta) => (
-                <li key={meta.id}>
-                  <NavLink
-                    href={`/${meta.category}/${meta.id}`}
-                    label={meta.title}
-                    className={styles.link}
-                  >
-                    <span
-                      className={styles.title}
+              <span className={styles.count}>
+                {items.length}
+              </span>
+
+              <span
+                className={`${styles.chevron} ${
+                  isOpen ? styles.open : ""
+                }`}
+              />
+            </button>
+
+            {isOpen && (
+              <ul className={styles.list}>
+                {items.map((item) => (
+                  <li key={`${category}-${item.id}`}>
+                    <Link
+                      href={`/${item.category}/${item.id}`}
+                      className={styles.link}
                     >
-                      {meta.title}
-                    </span>
-
-                    {meta.subtitle && (
-                      <span
-                        className={
-                          styles.subtitle
-                        }
-                      >
-                        {meta.subtitle}
-                      </span>
-                    )}
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </section>
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+        );
+      })}
+    </div>
   );
 }

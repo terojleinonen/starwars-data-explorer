@@ -10,7 +10,6 @@ import PageWrapper from "@/components/layout/PageWrapper";
 import HoloHeader from "@/components/HoloHeader/HoloHeader";
 import CategoryToolbar from "@/components/category/CategoryToolbar";
 import RecordGrid from "@/components/records/RecordGrid";
-
 import styles from "./CategoryPage.module.css";
 
 /* -----------------------------------------------
@@ -48,7 +47,7 @@ export default function CategoryPage({
   } = useRecordQuery(items);
 
   return (
-    <PageWrapper atmosphere={category}>
+    <PageWrapper category={category}>
       {/* ================= HEADER ================= */}
       <div className={styles.header}>
         <HoloHeader category={category} title={title} subtitle={subtitle}/>

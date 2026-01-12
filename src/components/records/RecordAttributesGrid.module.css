@@ -1,0 +1,66 @@
+.section {
+  margin-top: 2.5rem;
+}
+
+.heading {
+  margin-bottom: 1.25rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  gap: 1.1rem;
+  max-width: 960px;
+}
+
+/* base card */
+.card {
+  padding: 1.1rem 1.25rem;
+  border-radius: var(--radius-card);
+  background: var(--surface-glass);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-panel);
+  -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--text-muted);
+}
+
+/* primary stats */
+.primary {
+  outline: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.value {
+  font-size: 1.15rem;
+  font-weight: 550;
+  color: var(--text-primary);
+}
+
+.unit {
+  margin-left: 0.35rem;
+  font-size: 0.75rem;
+  color: var(--atmo-accent);
+  opacity: 0.9;
+}
+
+/* secondary attributes (same grid, smaller hierarchy) */
+.secondary {
+  opacity: 0.92;
+}
+
+.valueSmall {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}

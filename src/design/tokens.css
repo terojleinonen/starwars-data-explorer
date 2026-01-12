@@ -1,90 +1,129 @@
-/* ---------------------------------------
-   DEFAULT = DARK THEME
---------------------------------------- */
+/* ======================================================
+   DESIGN TOKENS
+   Authoritative color + surface system
+   Default = DARK THEME
+====================================================== */
 
 :root {
-  /* page background */
-  --bg-base-start: #080c18;
-  --bg-base-end: #03060f;
-  --bg-highlight: rgba(20,38,78,0.35);
+  /* --------------------------------------------------
+     Base backgrounds
+  -------------------------------------------------- */
+  --bg-root: #020617;          /* deep space blue-black */
+  --bg-elevated: #020617;
 
-  /* surfaces */
-  --surface-glass: rgba(15,23,42,0.55);
+  /* --------------------------------------------------
+     Glass / surfaces
+  -------------------------------------------------- */
+  --surface-glass: rgba(15, 23, 42, 0.55);
+  --surface-glass-strong: rgba(15, 23, 42, 0.75);
 
-  /* borders */
-  --border-subtle: rgba(148,163,184,0.22);
+  /* --------------------------------------------------
+     Borders & dividers
+  -------------------------------------------------- */
+  --border-subtle: rgba(148, 163, 184, 0.22);
 
-  /* text */
-  --text-primary: rgba(255,255,255,0.95);
-  --text-secondary: rgba(255,255,255,0.65);
-  --text-muted: rgba(255,255,255,0.45);
-  --text-body: var(--text-secondary);
-  --link: var(--accent-primary);
-  --link-hover: var(--text-primary);
-  --focus: var(--accent-soft);
+  /* --------------------------------------------------
+     Text
+  -------------------------------------------------- */
+  --text-primary: rgba(255, 255, 255, 0.96);
+  --text-secondary: rgba(255, 255, 255, 0.72);
+  --text-muted: rgba(255, 255, 255, 0.48);
 
-  /* accent */
+  /* --------------------------------------------------
+     Accent (brand)
+  -------------------------------------------------- */
   --accent-primary: #38bdf8;
-  --accent-soft: rgba(56,189,248,0.35);
-  --accent-glow: rgba(56,189,248,0.18);
+  --accent-soft: rgba(56, 189, 248, 0.35);
+  --accent-glow: rgba(56, 189, 248, 0.22);
 
-  /* depth */
+  /* --------------------------------------------------
+     Depth & motion
+  -------------------------------------------------- */
   --blur-panel: blur(18px);
-  --shadow-panel: 0 20px 40px rgba(0,0,0,0.35);
-  --shadow-hover: 0 26px 60px rgba(0,0,0,0.45);
+  --shadow-panel: 0 20px 40px rgba(0, 0, 0, 0.45);
+  --shadow-hover: 0 26px 60px rgba(0, 0, 0, 0.55);
 
-  /* radii */
+  /* --------------------------------------------------
+     Shape
+  -------------------------------------------------- */
   --radius-card: 16px;
   --radius-panel: 28px;
-
-  /* category atmospheres */
-  --atm-films: rgba(251, 191, 36, 0.18);      /* amber */
-  --atm-people: rgba(56, 189, 248, 0.20);     /* cyan */
-  --atm-planets: rgba(34, 197, 94, 0.18);     /* green */
-  --atm-starships: rgba(99, 102, 241, 0.20);  /* indigo */
-  --atm-vehicles: rgba(249, 115, 22, 0.18);   /* orange */
-  --atm-species: rgba(168, 85, 247, 0.20);    /* violet */
 }
 
-/* ---------------------------------------
+/* ======================================================
    LIGHT THEME OVERRIDES
---------------------------------------- */
+   Activated via: <html data-theme="light">
+====================================================== */
 
-[data-theme="light"] {
-  /* page background */
-  --bg-base-start: #f1f5f9;
-  --bg-base-end: #e2e8f0;
-  --bg-highlight: rgba(200, 216, 239, 0.35);
+:root[data-theme="light"] {
+  /* backgrounds */
+  --bg-root: #f8fafc;
+  --bg-elevated: #f1f5f9;
 
-   /* surfaces */
-  --surface-glass: rgba(255, 255, 255, 0.85);
+  /* glass */
+  --surface-glass: rgba(255, 255, 255, 0.72);
+  --surface-glass-strong: rgba(255, 255, 255, 0.88);
 
   /* borders */
-  --border-subtle: rgba(15, 23, 42, 0.18);
+  --border-subtle: rgba(15, 23, 42, 0.14);
 
   /* text */
-  --text-primary: rgba(15, 23, 42, 0.96);
-  --text-secondary: rgba(15, 23, 42, 0.72);
-  --text-muted: rgba(15, 23, 42, 0.48);
-  --text-body: var(--text-secondary);
-  --link: var(--accent-primary);
-  --link-hover: var(--text-primary);
-  --focus: var(--accent-soft);
+  --text-primary: rgba(15, 23, 42, 0.95);
+  --text-secondary: rgba(15, 23, 42, 0.65);
+  --text-muted: rgba(15, 23, 42, 0.45);
 
   /* accent */
-  --accent-primary: #0369a1; /* deeper than before */
-  --accent-soft: rgba(3, 105, 161, 0.22);
-  --accent-glow: rgba(3, 105, 161, 0.12);
+  --accent-primary: #0284c7;
+  --accent-soft: rgba(2, 132, 199, 0.28);
+  --accent-glow: rgba(2, 132, 199, 0.18);
 
   /* depth */
-  --shadow-panel: 0 10px 24px rgba(15, 23, 42, 0.14);
-  --shadow-hover: 0 16px 36px rgba(15, 23, 42, 0.20);
+  --shadow-panel: 0 16px 30px rgba(0, 0, 0, 0.18);
+  --shadow-hover: 0 22px 46px rgba(0, 0, 0, 0.25);
+}
 
-  /* category atmospheres */
-  --atm-films: rgba(251, 191, 36, 0.10);
-  --atm-people: rgba(56, 189, 248, 0.10);
-  --atm-planets: rgba(34, 197, 94, 0.10);
-  --atm-starships: rgba(99, 102, 241, 0.10);
-  --atm-vehicles: rgba(249, 115, 22, 0.10);
-  --atm-species: rgba(168, 85, 247, 0.10);
+/* ======================================================
+   CATEGORY ATMOSPHERE ACCENTS
+====================================================== */
+
+/* default (fallback) */
+:root {
+  --atmo-accent: var(--accent-primary);
+  --atmo-glow: var(--accent-glow);
+}
+
+/* Films — warm cinematic amber */
+:root[data-category="films"] {
+  --atmo-accent: #f59e0b;
+  --atmo-glow: rgba(245, 158, 11, 0.25);
+}
+
+/* People — neutral cyan */
+:root[data-category="people"] {
+  --atmo-accent: #38bdf8;
+  --atmo-glow: rgba(56, 189, 248, 0.25);
+}
+
+/* Planets — organic green */
+:root[data-category="planets"] {
+  --atmo-accent: #22c55e;
+  --atmo-glow: rgba(34, 197, 94, 0.25);
+}
+
+/* Starships — electric blue */
+:root[data-category="starships"] {
+  --atmo-accent: #60a5fa;
+  --atmo-glow: rgba(96, 165, 250, 0.25);
+}
+
+/* Vehicles — industrial slate */
+:root[data-category="vehicles"] {
+  --atmo-accent: #94a3b8;
+  --atmo-glow: rgba(148, 163, 184, 0.25);
+}
+
+/* Species — biological violet */
+:root[data-category="species"] {
+  --atmo-accent: #c084fc;
+  --atmo-glow: rgba(192, 132, 252, 0.25);
 }

@@ -1,72 +1,45 @@
 .header {
   position: relative;
-  isolation: isolate;
-  padding: 4.5rem 1.5rem 3.5rem;
-  text-align: center;
-  overflow: hidden;
+  padding-bottom: 1.5rem;
 }
 
-/* ---------- glow layer ---------- */
-.glow {
+/* atmospheric underline */
+.header::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+
+  width: 64%;
+  height: 1px;
+
+  transform: translateX(-50%);
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--atmo-accent),
+    transparent
+  );
+
+  opacity: 0.65;
+}
+
+/* soft glow behind header */
+.header::before {
+  content: "";
   position: absolute;
   inset: -40% -20% auto -20%;
-  height: 220px;
+  height: 160%;
 
   background:
     radial-gradient(
-      circle at 50% 60%,
-      var(--accent-glow),
-      transparent 70%
+      circle at center,
+      var(--atmo-glow),
+      transparent 65%
     );
 
+  opacity: 0.55;
   filter: blur(60px);
-  opacity: 0.8;
   pointer-events: none;
-  z-index: 0;
-}
-
-/* ---------- content ---------- */
-.inner {
-  position: relative;
-  z-index: 1;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.eyebrow {
-  display: block;
-  font-size: 0.65rem;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-  margin-bottom: 0.75rem;
-}
-
-.title {
-  font-size: clamp(2.4rem, 5vw, 3.8rem);
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  color: var(--text-primary);
-}
-
-.subtitle {
-  margin-top: 0.75rem;
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-}
-
-/* ---------- size variants ---------- */
-.sm {
-  padding-top: 2.8rem;
-  padding-bottom: 2.2rem;
-}
-
-.md {
-  padding-top: 3.6rem;
-  padding-bottom: 2.8rem;
-}
-
-.lg {
-  padding-top: 4.5rem;
-  padding-bottom: 3.5rem;
 }

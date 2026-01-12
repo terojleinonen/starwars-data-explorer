@@ -7,10 +7,8 @@ import type { SwapiType } from "@/components/types/swapi-types";
 import Breadcrumbs from "@/components/navigation/Breadcrumbs";
 import HoloHeader from "@/components/HoloHeader/HoloHeader";
 import OpeningCrawl from "@/components/details/OpeningCrawl";
-
+import RecordAttributesGrid from "@/components/records/RecordAttributesGrid";
 import DetailsTabs from "./DetailsTabs";
-import StatsGrid, { type StatValue } from "../stats/StatsGrid";
-import AttributesPanel from "./AttributesPanel";
 import RelatedRail from "./RelatedRail";
 import RelatedPanel from "./RelatedPanel";
 
@@ -50,50 +48,26 @@ export default function DetailsPage({ category, data }: Props) {
   const hasRelated = Object.values(data).some(isUrlArray);
 
   return (
-    <PageWrapper atmosphere={category}>
-      <section className={styles.page}>
-        {/* ================= BREADCRUMBS ================= */}
+    <PageWrapper category={category}>
+      <div className={styles.page}>
         <Breadcrumbs />
 
-        {/* ================= HOLO HEADER ================= */}
-        <div className={styles.headerFade}>
-          <HoloHeader
-            category={category}
-            title={meta.title}
-            subtitle={meta.subtitle}
-            size="lg"
-          />
-        </div>
+        <HoloHeader
+          category={category}
+          title={meta.title}
+          subtitle={meta.subtitle}
+          size="lg"
+        />
 
-        {/* ================= OPENING CRAWL ================= */}
         {typeof data.opening_crawl === "string" && (
           <OpeningCrawl text={data.opening_crawl} />
         )}
 
-        {/* ================= TABS ================= */}
         <DetailsTabs
           relatedReady={hasRelated}
           overview={
             <>
-              {/* ===== STATS ===== */}
-              <StatsGrid
-                stats={[
-                  { label: "Rotation Period", value: data.rotation_period as StatValue, unit: "h" },
-                  { label: "Orbital Period", value: data.orbital_period as StatValue, unit: "d" },
-                  { label: "Diameter", value: data.diameter as StatValue, unit: "km" },
-                  { label: "Climate", value: data.climate as StatValue },
-                  { label: "Gravity", value: data.gravity as StatValue },
-                  { label: "Terrain", value: data.terrain as StatValue },
-                  { label: "Surface Water", value: data.surface_water as StatValue, unit: "%" },
-                  { label: "Population", value: data.population as StatValue },
-                ]}
-              />
-
-              {/* ===== ATTRIBUTES ===== */}
-              <AttributesPanel
-                data={data}
-                category={category}
-              />
+              <RecordAttributesGrid category={category} data={data} />
             </>
           }
           related={
@@ -102,7 +76,7 @@ export default function DetailsPage({ category, data }: Props) {
             </RelatedPanel>
           }
         />
-      </section>
+      </div>
     </PageWrapper>
   );
 }

@@ -1,88 +1,77 @@
-
-.heading {
-  font-size: 14px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-tertiary);
-}
-
-.list {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(220px, 1fr)
-  );
-  list-style: none;
-}
-
-.link {
+.container {
   display: flex;
   flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* ---------- group ---------- */
+
+.group {
+  border-radius: var(--radius-panel);
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid var(--border-subtle);
+  -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
+}
+
+/* ---------- header ---------- */
+
+.groupHeader {
+  all: unset;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.85rem 1.2rem;
+  cursor: pointer;
+}
+
+.groupTitle {
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.count {
+  margin-left: 0.5rem;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+
+.chevron {
+  margin-left: auto;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--text-muted);
+  border-bottom: 2px solid var(--text-muted);
+  transform: rotate(-45deg);
+  transition: transform 0.2s ease;
+}
+
+.chevron.open {
+  transform: rotate(45deg);
+}
+
+/* ---------- list ---------- */
+
+.list {
+  padding: 0 1.2rem 1rem;
+  list-style: none;
+  margin: 0;
+}
+
+.list li {
+  margin-top: 0.4rem;
+}
+
+/* ---------- link ---------- */
+
+.link {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
   text-decoration: none;
 }
 
 .link:hover {
-  transform: translateY(-1px);
-}
-
-.category {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-tertiary);
-}
-
-.label {
-  font-size: 14px;
-  color: var(--text-primary);
-}
-
-.railHeader {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}
-
-.railTitle {
-  font-size: 0.85rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(180, 210, 255, 0.85);
-}
-
-.railMeta {
-  font-size: 0.75rem;
-  color: rgba(160, 180, 220, 0.6);
-}
-
-.groups {
-  display: grid;
-}
-
-.heading {
-  margin-bottom: 1rem;
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-}
-
-.list {
-  display: grid;
-  list-style: none;
-}
-
-.link {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-}
-
-.title {
-  font-size: 0.85rem;
-  line-height: 1.3;
-}
-
-.subtitle {
-  font-size: 0.7rem;
-  color: rgba(170, 190, 230, 0.65);
+  color: var(--accent-primary);
 }
