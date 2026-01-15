@@ -1,54 +1,145 @@
-.root {
+/* ======================================================
+   Page Wrapper
+   Owns:
+   - max page width
+   - atmospheric background
+   - scroll lighting variables
+====================================================== */
+
+.wrapper {
   position: relative;
   min-height: 100vh;
+
+  /* layout containment */
+  display: flex;
+  justify-content: center;
+
+  /* page padding */
+  padding:
+    clamp(64px, 8vh, 96px)
+    clamp(20px, 6vw, 64px)
+    120px;
+
   background: var(--bg-root);
   overflow-x: hidden;
 }
 
-/* atmospheric glow */
+/* ------------------------------------------------------
+   Page content width (CRITICAL FIX)
+------------------------------------------------------ */
+
+.content {
+  width: 100%;
+  max-width: 1240px; /* prevents overly wide layouts */
+  position: relative;
+  z-index: 1;
+}
+
+/* ------------------------------------------------------
+   Atmospheric layer (category-driven)
+------------------------------------------------------ */
+
 .atmosphere {
-  position: fixed;
-  inset: -30%;
+  position: absolute;
+  inset: -25%;
   pointer-events: none;
   z-index: 0;
 
-  background:
-    radial-gradient(
-      circle at 30% 20%,
-      var(--atmo-glow),
-      transparent 60%
-    ),
-    radial-gradient(
-      circle at 70% 65%,
-      var(--atmo-glow),
-      transparent 55%
-    );
-
-  filter: blur(140px);
-  opacity: 0.85;
+  filter: blur(var(--atmo-blur, 160px));
+  opacity: var(--atmo-opacity, 0.18);
 
   transition:
-    opacity 0.35s ease,
-    background 0.35s ease;
+    background 700ms ease,
+    opacity 500ms ease;
 }
 
-/* fade state */
-.fade {
-  opacity: 0.15;
+/* ------------------------------------------------------
+   CATEGORY → ATMOSPHERE MAPPING
+------------------------------------------------------ */
+
+/* People */
+[data-category="people"] .atmosphere {
+  background:
+    radial-gradient(
+      circle at 30% 25%,
+      var(--accent-people),
+      transparent 65%
+    );
 }
 
-/* content column */
-.content {
-  position: relative;
-  z-index: 1;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2.5rem 1.5rem 4rem;
+/* Planets */
+[data-category="planets"] .atmosphere {
+  background:
+    radial-gradient(
+      circle at 50% 30%,
+      var(--accent-planets),
+      transparent 70%
+    );
 }
 
-/* reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  .atmosphere {
-    transition: none;
+/* Films */
+[data-category="films"] .atmosphere {
+  background:
+    radial-gradient(
+      circle at 40% 25%,
+      var(--accent-films),
+      transparent 65%
+    );
+}
+
+/* Starships */
+[data-category="starships"] .atmosphere {
+  background:
+    radial-gradient(
+      circle at 60% 20%,
+      var(--accent-starships),
+      transparent 70%
+    );
+}
+
+/* Vehicles */
+[data-category="vehicles"] .atmosphere {
+  background:
+    radial-gradient(
+      circle at 50% 25%,
+      var(--accent-vehicles),
+      transparent 72%
+    );
+}
+
+/* Species */
+[data-category="species"] .atmosphere {
+  background:
+    radial-gradient(
+      circle at 45% 30%,
+      var(--accent-species),
+      transparent 68%
+    );
+}
+
+/* ------------------------------------------------------
+   Scroll-reactive lighting (optional, subtle)
+------------------------------------------------------ */
+
+.wrapper {
+  --gridOpacity: 0.18;
+  --contentGlow: 0.06;
+  --titleFade: 1;
+}
+
+/* ------------------------------------------------------
+   Responsive tuning
+------------------------------------------------------ */
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding:
+      56px
+      16px
+      96px;
+  }
+
+  .content {
+    max-width: 100%;
   }
 }

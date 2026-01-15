@@ -3,11 +3,19 @@
    Applies design tokens — no hardcoded colors
 ====================================================== */
 
+:root {
+  --grid-unit: 120px;
+}
+
+/* --------------------------------------------------
+   Colors
+-------------------------------------------------- */
+
 html,
 body {
   padding: 0;
   margin: 0;
-  background: var(--bg-root);
+  background-color: var(--bg-root);
   color: var(--text-primary);
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -73,3 +81,33 @@ button {
     transition: none !important;
   }
 }
+
+[data-category="people"]   { --category-accent: var(--accent-people); }
+[data-category="planets"]  { --category-accent: var(--accent-planets); }
+[data-category="films"]    { --category-accent: var(--accent-films); }
+[data-category="starships"]{ --category-accent: var(--accent-starships); }
+[data-category="vehicles"] { --category-accent: var(--accent-vehicles); }
+[data-category="species"]  { --category-accent: var(--accent-species); }
+
+:root {
+  /* category accents */
+  --accent-people:   #38bdf8;
+  --accent-films:    #facc15;
+  --accent-planets:  #22c55e;
+  --accent-starships:#818cf8;
+  --accent-vehicles: #fb7185;
+  --accent-species:  #34d399;
+
+  /* fallback */
+  --category-accent: var(--accent-people);
+}
+
+.light {
+  --accent-people:   #0284c7;
+  --accent-films:    #ca8a04;
+  --accent-planets:  #15803d;
+  --accent-starships:#4f46e5;
+  --accent-vehicles: #be123c;
+  --accent-species:  #047857;
+}
+

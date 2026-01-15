@@ -1,51 +1,25 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
-import type { ReactNode } from "react";
+import AtmosphereLayer from "./AtmosphereLayer";
+import CartographyBackground from "./CartographyBackground";
 import styles from "./PageWrapper.module.css";
 import type { SwapiType } from "@/components/types/swapi-types";
 
 type Props = {
-  children: ReactNode;
+  children: React.ReactNode;
   category?: SwapiType;
 };
 
-export default function PageWrapper({
-  children,
-  category,
-}: Props) {
-  const pathname = usePathname();
-  const [fade, setFade] = useState(false);
-  const [activeCategory, setActiveCategory] = useState(category);
-
-  useEffect(() => {
-    // start fade-out
-    setFade(true);
-
-    const timeout = setTimeout(() => {
-      // switch category mid-fade
-      setActiveCategory(category);
-      setFade(false);
-    }, 240); // short + subtle
-
-    return () => clearTimeout(timeout);
-  }, [pathname, category]);
-
+export default function PageWrapper({ children, category }: Props) {
   return (
     <div
-      className={styles.root}
-      data-category={activeCategory}
+      className={styles.wrapper}
+      data-category={category}
+      style={{
+        ["--category-accent" as any]: `var(--accent-${category ?? "people"})`,
+      }}
     >
-      <div
-        className={`${styles.atmosphere} ${
-          fade ? styles.fade : ""
-        }`}
-      />
-
-      <main className={styles.content}>
-        {children}
-      </main>
+      <CartographyBackground />
+      <AtmosphereLayer />
+      <main className={styles.content}>{children}</main>
     </div>
   );
 }

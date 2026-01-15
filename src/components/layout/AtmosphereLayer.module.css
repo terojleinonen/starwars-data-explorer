@@ -1,0 +1,51 @@
+.root {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* Each layer covers the viewport and uses category mapping via CSS variables */
+.layer {
+  position: absolute;
+  inset: -20%;
+  color: var(--category-accent);
+  opacity: 1;
+  transition: opacity 650ms ease, color 650ms ease;
+  will-change: opacity;
+}
+
+/* Default state */
+.steady {
+  opacity: 1;
+}
+
+/* Crossfade states */
+.incoming {
+  opacity: 1;
+}
+
+.outgoing {
+  opacity: 0;
+}
+
+/* SVG sizing */
+.svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Light theme: etched look */
+:global(html[data-theme="light"]) .layer {
+  opacity: 0.68;
+  mix-blend-mode: multiply;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .layer {
+    transition: none;
+  }
+}

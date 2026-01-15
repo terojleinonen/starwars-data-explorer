@@ -50,36 +50,56 @@
   --radius-panel: 28px;
 }
 
-/* ======================================================
+/* Active category accent (set by PageWrapper) */
+:root {
+  --category-accent: var(--accent-primary);
+  --category-accent-soft: var(--accent-soft);
+  --category-accent-glow: var(--accent-glow);
+}
+
+/* ---------------------------------------
    LIGHT THEME OVERRIDES
-   Activated via: <html data-theme="light">
-====================================================== */
+--------------------------------------- */
 
 :root[data-theme="light"] {
-  /* backgrounds */
-  --bg-root: #f8fafc;
-  --bg-elevated: #f1f5f9;
-
-  /* glass */
-  --surface-glass: rgba(255, 255, 255, 0.72);
-  --surface-glass-strong: rgba(255, 255, 255, 0.88);
+  /* surfaces */
+  --surface-glass: rgba(255, 255, 255, 0.92);
+  --bg-root: #F6F7FA;
+  --bg-panel: #FFFFFF;
+  --bg-elevated: #FBFCFE;
 
   /* borders */
-  --border-subtle: rgba(15, 23, 42, 0.14);
+  --border-subtle: rgba(15, 23, 42, 0.12);
+  --border-strong: rgba(15, 23, 42, 0.22);
 
   /* text */
-  --text-primary: rgba(15, 23, 42, 0.95);
-  --text-secondary: rgba(15, 23, 42, 0.65);
-  --text-muted: rgba(15, 23, 42, 0.45);
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
 
   /* accent */
-  --accent-primary: #0284c7;
-  --accent-soft: rgba(2, 132, 199, 0.28);
-  --accent-glow: rgba(2, 132, 199, 0.18);
+  --accent-primary: #1D4ED8;
+  --accent-soft: rgba(29, 78, 216, 0.14);
+  --accent-glow: rgba(29, 78, 216, 0.08);
 
   /* depth */
-  --shadow-panel: 0 16px 30px rgba(0, 0, 0, 0.18);
-  --shadow-hover: 0 22px 46px rgba(0, 0, 0, 0.25);
+  --blur-panel: blur(8px);
+  --shadow-panel: 0 8px 24px rgba(15, 23, 42, 0.08);
+  --shadow-hover: 0 14px 36px rgba(15, 23, 42, 0.12);
+
+  /* category accent hues (light mode tuned) */
+   --accent-people:    #B45309; /* amber-700 */
+   --accent-planets:   #0F766E; /* teal-700 */
+   --accent-films:     #6D28D9; /* violet-700 */
+   --accent-starships: #1D4ED8; /* blue-700 */
+   --accent-vehicles:  #374151; /* neutral slate */
+   --accent-species:   #065F46; /* emerald-700 */
+
+}
+
+:root[data-theme="light"] {
+  --atmo-opacity: 0.12;
+  --atmo-blur: 120px;
 }
 
 /* ======================================================

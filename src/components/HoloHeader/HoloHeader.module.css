@@ -1,6 +1,7 @@
 .header {
   position: relative;
   padding-bottom: 1.5rem;
+  text-align: center;
 }
 
 /* atmospheric underline */
@@ -15,13 +16,6 @@
 
   transform: translateX(-50%);
 
-  background: linear-gradient(
-    to right,
-    transparent,
-    var(--atmo-accent),
-    transparent
-  );
-
   opacity: 0.65;
 }
 
@@ -29,17 +23,44 @@
 .header::before {
   content: "";
   position: absolute;
-  inset: -40% -20% auto -20%;
-  height: 160%;
-
-  background:
-    radial-gradient(
-      circle at center,
-      var(--atmo-glow),
-      transparent 65%
-    );
-
-  opacity: 0.55;
-  filter: blur(60px);
+  inset: -40%;
+  background: radial-gradient(
+    circle at 50% 30%,
+    var(--category-accent),
+    transparent 60%
+  );
+  opacity: 0.18;
+  filter: blur(120px);
   pointer-events: none;
+  transition: opacity 400ms ease;
+}
+
+
+.title {
+  color: var(--text-primary);
+  text-shadow:
+    0 0 0 transparent,
+    0 8px 40px color-mix(
+      in srgb,
+      var(--category-accent) 35%,
+      transparent
+    );
+  transition: text-shadow 400ms ease;
+}
+
+.category {
+  color: var(--text-muted);
+  letter-spacing: 0.18em;
+  position: relative;
+}
+
+.category::after {
+  content: "";
+  display: block;
+  margin-top: 6px;
+  height: 2px;
+  width: 48px;
+  background: var(--category-accent);
+  border-radius: 999px;
+  opacity: 0.8;
 }

@@ -65,3 +65,11 @@
   background: rgba(var(--accent-rgb), 0.15);
   color: var(--text-primary);
 }
+
+.navLink[data-active="true"] {
+  color: var(--category-accent);
+}
+
+.navLink[data-active="true"]::after {
+  background: var(--category-accent);
+}

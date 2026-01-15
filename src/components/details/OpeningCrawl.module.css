@@ -22,7 +22,7 @@
 }
 
 .toggle:focus-visible {
-  outline: 2px solid rgba(160, 200, 255, 0.9);
+  outline: 2px solid var(--crawl-duration);
   outline-offset: 2px;
 }
 
@@ -30,12 +30,12 @@
   font-size: 0.75rem;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: rgba(210, 225, 255, 0.9);
+  color: var(--crawl-duration);
 }
 
 .icon {
   font-size: 1.1rem;
-  color: rgba(210, 225, 255, 0.7);
+  color: var(--crawl-duration)
 }
 
 /* -------------------------------------------------
@@ -70,8 +70,7 @@
   font-size: 0.95rem;
   line-height: 1.7;
   text-align: center;
-
-  color: rgba(235, 240, 255, 0.95);
+  color: var(--crawl-duration);
   white-space: pre-line;
 }
 

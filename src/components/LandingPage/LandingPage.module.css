@@ -1,157 +1,186 @@
-/* =========================
-   Page
-========================= */
+/* =====================================================
+   PAGE
+===================================================== */
 
 .page {
   position: relative;
   min-height: 100vh;
-  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-/* =========================
-   Hero
-========================= */
+/* =====================================================
+   HERO
+===================================================== */
 
 .hero {
   position: relative;
-  padding: clamp(5rem, 12vh, 8rem) 1.5rem 4rem;
-  display: flex;
-  justify-content: center;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: clamp(4rem, 8vw, 8rem) 1.5rem;
+}
+
+.heroBackdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+
+  /* subtle atmospheric grounding */
+  background:
+    radial-gradient(
+      60% 40% at 50% 30%,
+      color-mix(in oklab, var(--category-accent), transparent 82%),
+      transparent 70%
+    );
 }
 
 .heroContent {
   position: relative;
-  z-index: 1;
-  max-width: 880px;
+  z-index: 2;
+  max-width: 960px;
   text-align: center;
 }
 
-.landing-hero .stars {
-  opacity: 0.65;
-}
+/* =====================================================
+   TYPOGRAPHY
+===================================================== */
 
 .title {
-  font-size: clamp(2.4rem, 5vw, 3.6rem);
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  margin-bottom: 1rem;
+  font-size: clamp(2.6rem, 5vw, 3.6rem);
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
 }
 
 .subtitle {
-  max-width: 640px;
-  margin: 0 auto 2.4rem;
-
-  font-size: 1rem;
+  max-width: 56ch;
+  margin: 0 auto;
+  font-size: 1.05rem;
   line-height: 1.6;
-  opacity: 0.8;
+  color: var(--text-secondary);
 }
 
-/* =========================
-   Actions
-========================= */
-
-.actions {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.8rem;
-}
-
-.primaryAction {
-  padding: 0.9rem 2.2rem;
-  border-radius: 999px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-
-  box-shadow:
-    0 12px 40px rgba(var(--accent-rgb), 0.45);
-
-  transition: transform 0.2s ease;
-}
-
-.primaryAction:hover {
-  transform: translateY(-2px);
-}
-
-.hint {
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
-  opacity: 0.5;
-}
-
-.hint kbd {
-  font-family: inherit;
-  padding: 0.1rem 0.35rem;
-  border-radius: 4px;
-  background: rgba(255,255,255,0.12);
-}
-
-/* =========================
-   Categories
-========================= */
+/* =====================================================
+   CATEGORIES GRID
+===================================================== */
 
 .categories {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.6rem;
+  position: relative;
+  z-index: 2;
+  margin-top: clamp(3rem, 6vw, 4.5rem);
 
-  padding: 3rem clamp(1.5rem, 4vw, 4rem) 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
 }
 
-/* =========================
-   Category Card
-========================= */
+/* =====================================================
+   CATEGORY CARD
+===================================================== */
 
 .card {
   position: relative;
+  text-decoration: none;
+  color: inherit;
 }
 
 .cardSurface {
-  position: relative;
-  padding: 1.8rem 1.6rem;
-  border-radius: 18px;
+  height: 100%;
+  padding: 1.4rem 1.5rem;
 
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.35rem;
 
-.cardSurface::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  pointer-events: none;
+  background: var(--surface-glass);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-card);
+  -webkit-backdrop-filter: var(--blur-panel);
+  backdrop-filter: var(--blur-panel);
+  box-shadow: var(--shadow-panel);
 
-}
-
-.card:hover .cardSurface {
-  transform: translateY(-4px);
-  border-color: rgba(var(--accent-rgb), 0.6);
-}
-
-.card:hover .cardSurface::before {
-  opacity: 1;
+  transition:
+    transform 280ms ease,
+    box-shadow 280ms ease,
+    border-color 280ms ease;
 }
 
 .cardTitle {
-  display: block;
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-bottom: 0.4rem;
+  color: var(--text-muted);
 }
 
 .cardDesc {
-  font-size: 0.85rem;
-  opacity: 0.7;
+  font-size: 1.05rem;
+  font-weight: 520;
+  color: var(--text-primary);
 }
 
-/* =========================
-   Footer
-========================= */
+/* Hover (desktop only) */
+@media (hover: hover) {
+  .cardSurface:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--accent-soft);
+  }
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
 
 .footer {
-  padding: 2rem;
+  position: relative;
+  z-index: 2;
+  margin-top: auto;
+  padding: 2.5rem 1.5rem 2rem;
   text-align: center;
-  font-size: 0.75rem;
-  opacity: 0.4;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 1024px) {
+  .categories {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+  }
+
+  .categories {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+}
+
+/* =====================================================
+   LIGHT MODE TUNING
+===================================================== */
+
+:global(html[data-theme="light"]) .heroBackdrop {
+  background:
+    radial-gradient(
+      60% 40% at 50% 30%,
+      color-mix(in oklab, var(--category-accent), transparent 88%),
+      transparent 75%
+    );
 }

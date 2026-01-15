@@ -1,0 +1,82 @@
+.cartography {
+  position: fixed;
+  inset: -20%;
+  z-index: -2;
+  pointer-events: none;
+
+  opacity: 0.55;
+  transition:
+    opacity 600ms ease,
+    filter 600ms ease;
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ================= ORBITS ================= */
+
+.orbits ellipse {
+  fill: none;
+  stroke: var(--category-accent);
+  stroke-width: 0.6;
+  opacity: 0.22;
+}
+
+.orbitSoft {
+  stroke-dasharray: 3 6;
+  opacity: 0.18;
+}
+
+/* ================= PLANETS ================= */
+
+.planets circle {
+  opacity: 0.85;
+  transition: filter 600ms ease;
+}
+
+/* ================= STARS ================= */
+
+.stars circle {
+  fill: var(--category-accent);
+  opacity: 0.35;
+}
+
+/* ================= LIGHT MODE ================= */
+
+:global(html[data-theme="light"]) .cartography {
+  opacity: 0.32;
+  mix-blend-mode: multiply;
+  filter: contrast(1.05);
+}
+
+:global(html[data-theme="light"]) .orbits ellipse {
+  opacity: 0.18;
+}
+
+:global(html[data-theme="light"]) .orbitSoft {
+  opacity: 0.12;
+}
+
+:global(html[data-theme="light"]) .planets circle {
+  opacity: 0.45;
+  filter: saturate(0.75) brightness(0.95);
+}
+
+:global(html[data-theme="light"]) .stars circle {
+  opacity: 0.25;
+}
+
+/* ================= REDUCED MOTION ================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .cartography {
+    transition: none;
+  }
+
+  .planets circle {
+    transition: none;
+  }
+}
