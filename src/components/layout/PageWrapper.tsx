@@ -1,5 +1,6 @@
 import AtmosphereLayer from "./AtmosphereLayer";
 import CartographyBackground from "./CartographyBackground";
+import CRTOverlay from "./CRTOverlay";
 import styles from "./PageWrapper.module.css";
 import type { SwapiType } from "@/components/types/swapi-types";
 
@@ -18,8 +19,14 @@ export default function PageWrapper({ children, category }: Props) {
       }}
     >
       <CartographyBackground />
-      <AtmosphereLayer />
-      <main className={styles.content}>{children}</main>
+      <AtmosphereLayer category={category} />
+
+      {/* CRT only on landing */}
+      {category === undefined && <CRTOverlay />}
+
+      <main className={styles.content}>
+        {children}
+      </main>
     </div>
   );
 }

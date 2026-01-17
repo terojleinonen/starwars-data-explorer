@@ -1,6 +1,5 @@
 .wrapper {
   position: relative;
-  min-height: 100vh;
 
   animation: fadeIn 0.35s ease both;
 }

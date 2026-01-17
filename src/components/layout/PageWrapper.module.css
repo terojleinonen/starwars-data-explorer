@@ -1,125 +1,109 @@
 /* ======================================================
    Page Wrapper
    Owns:
-   - max page width
-   - atmospheric background
-   - scroll lighting variables
+   - viewport height
+   - clipping background layers
+   - provides a centered scroll container
 ====================================================== */
 
 .wrapper {
   position: relative;
-  min-height: 100vh;
-
-  /* layout containment */
-  display: flex;
-  justify-content: center;
-
-  /* page padding */
-  padding:
-    clamp(64px, 8vh, 96px)
-    clamp(20px, 6vw, 64px)
-    120px;
-
-  background: var(--bg-root);
-  overflow-x: hidden;
+  height: 100vh;     /* ONLY place that owns viewport height */
+  width: 100%;
+  overflow: hidden;  /* clips background safely */
 }
 
-/* ------------------------------------------------------
-   Page content width (CRITICAL FIX)
------------------------------------------------------- */
+/* ======================================================
+   Paint-only background (must not affect layout)
+====================================================== */
 
-.content {
-  width: 100%;
-  max-width: 1240px; /* prevents overly wide layouts */
+.background {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* ======================================================
+   Content surface (centers content + sits above background)
+====================================================== */
+
+.surface {
   position: relative;
   z-index: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-/* ------------------------------------------------------
-   Atmospheric layer (category-driven)
------------------------------------------------------- */
+/* ======================================================
+   Scroll container (the ONLY place that scrolls)
+====================================================== */
+
+.content {
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding-inline: clamp(16px, 4vw, 48px);
+  padding-top: 18px;
+  padding-bottom: 40px;
+}
+
+/* ======================================================
+   Atmosphere layer hook (inside background)
+====================================================== */
 
 .atmosphere {
   position: absolute;
-  inset: -25%;
-  pointer-events: none;
-  z-index: 0;
-
-  filter: blur(var(--atmo-blur, 160px));
-  opacity: var(--atmo-opacity, 0.18);
-
-  transition:
-    background 700ms ease,
-    opacity 500ms ease;
+  inset: 0;
+  opacity: 0.55;
 }
 
 /* ------------------------------------------------------
    CATEGORY → ATMOSPHERE MAPPING
+   NOTE: These selectors are OK in CSS Modules only if they
+   include a local class. We anchor them to .wrapper.
 ------------------------------------------------------ */
 
 /* People */
-[data-category="people"] .atmosphere {
-  background:
-    radial-gradient(
-      circle at 30% 25%,
-      var(--accent-people),
-      transparent 65%
-    );
+.wrapper[data-category="people"] .atmosphere {
+  background: radial-gradient(circle at 30% 25%, var(--accent-people), transparent 65%);
 }
 
 /* Planets */
-[data-category="planets"] .atmosphere {
-  background:
-    radial-gradient(
-      circle at 50% 30%,
-      var(--accent-planets),
-      transparent 70%
-    );
+.wrapper[data-category="planets"] .atmosphere {
+  background: radial-gradient(circle at 50% 30%, var(--accent-planets), transparent 70%);
 }
 
 /* Films */
-[data-category="films"] .atmosphere {
-  background:
-    radial-gradient(
-      circle at 40% 25%,
-      var(--accent-films),
-      transparent 65%
-    );
+.wrapper[data-category="films"] .atmosphere {
+  background: radial-gradient(circle at 40% 25%, var(--accent-films), transparent 65%);
 }
 
 /* Starships */
-[data-category="starships"] .atmosphere {
-  background:
-    radial-gradient(
-      circle at 60% 20%,
-      var(--accent-starships),
-      transparent 70%
-    );
+.wrapper[data-category="starships"] .atmosphere {
+  background: radial-gradient(circle at 60% 20%, var(--accent-starships), transparent 70%);
 }
 
 /* Vehicles */
-[data-category="vehicles"] .atmosphere {
-  background:
-    radial-gradient(
-      circle at 50% 25%,
-      var(--accent-vehicles),
-      transparent 72%
-    );
+.wrapper[data-category="vehicles"] .atmosphere {
+  background: radial-gradient(circle at 50% 25%, var(--accent-vehicles), transparent 72%);
 }
 
 /* Species */
-[data-category="species"] .atmosphere {
-  background:
-    radial-gradient(
-      circle at 45% 30%,
-      var(--accent-species),
-      transparent 68%
-    );
+.wrapper[data-category="species"] .atmosphere {
+  background: radial-gradient(circle at 45% 30%, var(--accent-species), transparent 68%);
 }
 
-/* ------------------------------------------------------
-   Scroll-reactive lighting (optional, subtle)
------------------------------------------------------- */
+/* ======================================================
+   Scroll-reactive lighting vars (optional)
+====================================================== */
 
 .wrapper {
   --gridOpacity: 0.18;
@@ -127,19 +111,15 @@
   --titleFade: 1;
 }
 
-/* ------------------------------------------------------
+/* ======================================================
    Responsive tuning
------------------------------------------------------- */
+====================================================== */
 
 @media (max-width: 768px) {
-  .wrapper {
-    padding:
-      56px
-      16px
-      96px;
-  }
-
   .content {
     max-width: 100%;
+    padding-inline: 16px;
+    padding-top: 12px;
+    padding-bottom: 28px;
   }
 }

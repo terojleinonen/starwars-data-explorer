@@ -6,7 +6,8 @@
 
 .pageWrapper {
   position: relative;
-  min-height: 100vh;
+  -Webkit-min-height: auto;
+  min-height: auto;
   overflow-x: hidden;
 
   /* Scroll-reactive vars (JS updates these) */

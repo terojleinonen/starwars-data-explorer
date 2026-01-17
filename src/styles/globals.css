@@ -1,36 +1,181 @@
-/* ======================================================
-   GLOBAL STYLES
-   Applies design tokens — no hardcoded colors
-====================================================== */
+/* =========================================================
+   globals.css
+   - Keep layout stable (PageWrapper owns viewport)
+   - Provide global theme + typography + accessibility
+   - Provide category → accent mapping (global, not CSS Modules)
+========================================================= */
 
-:root {
-  --grid-unit: 120px;
-}
-
-/* --------------------------------------------------
-   Colors
--------------------------------------------------- */
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  background-color: var(--bg-root);
-  color: var(--text-primary);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-
+/* -----------------------------
+   Box sizing + base reset
+----------------------------- */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* --------------------------------------------------
-   Links
--------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
 
+body {
+  min-height: 100%;
+}
+
+/* Prevent iOS font bumping, keep text crisp */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* -----------------------------
+   Theme bridge (IMPORTANT)
+   Your ThemeToggle sets: document.documentElement.dataset.theme
+   tokens.css currently uses `.light` overrides.
+   This bridges them: html[data-theme="light"] gets light tokens.
+----------------------------- */
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
+
+  /* mirrors tokens.css `.light` overrides */
+  --surface-glass: rgba(255, 255, 255, 0.65);
+
+  --border-subtle: rgba(15, 23, 42, 0.12);
+
+  --text-primary: rgba(15, 23, 42, 0.95);
+  --text-secondary: rgba(15, 23, 42, 0.65);
+  --text-muted: rgba(15, 23, 42, 0.45);
+
+  --accent-primary: #0284c7;
+  --accent-soft: rgba(2, 132, 199, 0.28);
+  --accent-glow: rgba(2, 132, 199, 0.18);
+
+  --shadow-panel: 0 16px 30px rgba(0, 0, 0, 0.18);
+  --shadow-hover: 0 22px 46px rgba(0, 0, 0, 0.25);
+}
+
+/* -----------------------------
+   Global category accents
+   (Place here, not CSS Modules)
+----------------------------- */
+:root {
+  /* You can tune these later; these are safe defaults */
+  --accent-people: #38bdf8;
+  --accent-planets: #34d399;
+  --accent-films: #a78bfa;
+  --accent-starships: #22d3ee;
+  --accent-vehicles: #f59e0b;
+  --accent-species: #fb7185;
+
+  /* Default category accent */
+  --category-accent: var(--accent-people);
+}
+
+/* wrapper sets data-category, we map it globally */
+[data-category="people"] {
+  --category-accent: var(--accent-people);
+}
+[data-category="planets"] {
+  --category-accent: var(--accent-planets);
+}
+[data-category="films"] {
+  --category-accent: var(--accent-films);
+}
+[data-category="starships"] {
+  --category-accent: var(--accent-starships);
+}
+[data-category="vehicles"] {
+  --category-accent: var(--accent-vehicles);
+}
+[data-category="species"] {
+  --category-accent: var(--accent-species);
+}
+/* Optional: landing atmosphere defaults to starships vibe */
+[data-category="landing"] {
+  --category-accent: var(--accent-starships);
+}
+
+/* -----------------------------
+   Global typography
+----------------------------- */
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.5;
+  color: var(--text-primary);
+
+  /* Base “space” canvas (background scene sits above this) */
+  background:
+    radial-gradient(
+      900px 600px at 50% -10%,
+      color-mix(in oklab, var(--category-accent), transparent 88%),
+      transparent 60%
+    ),
+    radial-gradient(
+      800px 520px at 10% 20%,
+      color-mix(in oklab, var(--accent-primary), transparent 92%),
+      transparent 55%
+    ),
+    linear-gradient(180deg, #050816 0%, #02030a 60%, #01020a 100%);
+  background-attachment: fixed;
+}
+
+html[data-theme="light"] body {
+  background:
+    radial-gradient(
+      900px 600px at 50% -10%,
+      color-mix(in oklab, var(--category-accent), transparent 88%),
+      transparent 60%
+    ),
+    radial-gradient(
+      800px 520px at 10% 20%,
+      color-mix(in oklab, var(--accent-primary), transparent 90%),
+      transparent 55%
+    ),
+    linear-gradient(180deg, #f6f7fb 0%, #eef2f7 55%, #e9eef6 100%);
+}
+
+/* Headings: remove huge default margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1.15;
+}
+
+/* Paragraph rhythm */
+p {
+  margin: 0;
+}
+
+/* Lists reset (your components style lists explicitly) */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Images / SVG */
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* -----------------------------
+   Links (readable in dark + light)
+----------------------------- */
 a {
   color: var(--accent-primary);
   text-decoration: none;
@@ -38,76 +183,59 @@ a {
 
 a:hover {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-/* --------------------------------------------------
-   Selection
--------------------------------------------------- */
+a:focus-visible,
+button:focus-visible {
+  -webkit-outline: 2px solid color-mix(in oklab, var(--category-accent), white 30%);
+  outline: 2px solid color-mix(in oklab, var(--category-accent), white 30%);
+  outline-offset: 3px;
+  border-radius: 10px;
+}
 
+/* -----------------------------
+   Selection
+----------------------------- */
 ::selection {
-  background: var(--accent-soft);
+  background: color-mix(in oklab, var(--category-accent), transparent 70%);
   color: var(--text-primary);
 }
 
-/* --------------------------------------------------
-   Buttons (base reset)
--------------------------------------------------- */
-
-button {
-  font-family: inherit;
-  color: inherit;
-}
-
-/* --------------------------------------------------
-   Panels / glass helpers
--------------------------------------------------- */
-
-[data-glass] {
-  background: var(--surface-glass);
-  border: 1px solid var(--border-subtle);
-  -webkit-backdrop-filter: var(--blur-panel);
-  backdrop-filter: var(--blur-panel);
-  box-shadow: var(--shadow-panel);
-  border-radius: var(--radius-panel);
-}
-
-/* --------------------------------------------------
-   Motion safety
--------------------------------------------------- */
-
-@media (prefers-reduced-motion: reduce) {
+/* -----------------------------
+   Scrollbar (optional, subtle)
+----------------------------- */
+@media (pointer: fine) {
   * {
-    animation: none !important;
-    transition: none !important;
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in oklab, var(--category-accent), transparent 35%)
+      transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: color-mix(in oklab, var(--category-accent), transparent 55%);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
   }
 }
 
-[data-category="people"]   { --category-accent: var(--accent-people); }
-[data-category="planets"]  { --category-accent: var(--accent-planets); }
-[data-category="films"]    { --category-accent: var(--accent-films); }
-[data-category="starships"]{ --category-accent: var(--accent-starships); }
-[data-category="vehicles"] { --category-accent: var(--accent-vehicles); }
-[data-category="species"]  { --category-accent: var(--accent-species); }
-
-:root {
-  /* category accents */
-  --accent-people:   #38bdf8;
-  --accent-films:    #facc15;
-  --accent-planets:  #22c55e;
-  --accent-starships:#818cf8;
-  --accent-vehicles: #fb7185;
-  --accent-species:  #34d399;
-
-  /* fallback */
-  --category-accent: var(--accent-people);
+/* -----------------------------
+   Reduced motion
+----------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
 }
-
-.light {
-  --accent-people:   #0284c7;
-  --accent-films:    #ca8a04;
-  --accent-planets:  #15803d;
-  --accent-starships:#4f46e5;
-  --accent-vehicles: #be123c;
-  --accent-species:  #047857;
-}
-

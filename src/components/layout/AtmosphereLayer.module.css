@@ -1,27 +1,21 @@
 .root {
-  position: fixed;
+  position: absolute;
   inset: 0;
-  z-index: -2;
   pointer-events: none;
-  overflow: hidden;
+  --px: 0;
+  --py: 0;
 }
 
-/* Each layer covers the viewport and uses category mapping via CSS variables */
 .layer {
   position: absolute;
-  inset: -20%;
-  color: var(--category-accent);
-  opacity: 1;
-  transition: opacity 650ms ease, color 650ms ease;
-  will-change: opacity;
+  inset: 0;
+  transition: opacity 650ms ease;
 }
 
-/* Default state */
 .steady {
   opacity: 1;
 }
 
-/* Crossfade states */
 .incoming {
   opacity: 1;
 }
@@ -30,22 +24,130 @@
   opacity: 0;
 }
 
-/* SVG sizing */
 .svg {
   width: 100%;
   height: 100%;
   display: block;
 }
 
-/* Light theme: etched look */
-:global(html[data-theme="light"]) .layer {
-  opacity: 0.68;
-  mix-blend-mode: multiply;
+/* ===========================
+   Planet base behavior
+=========================== */
+
+.planet {
+  transform-origin: center;
+  transition:
+    transform 700ms ease,
+    opacity 700ms ease;
+}
+
+/* ===========================
+   DESKTOP (cinematic framing)
+=========================== */
+
+@media (min-width: 1024px) {
+  .planetPrimary {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+
+  .planetSecondary {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.6;
+  }
+}
+
+/* ===========================
+   TABLET (balanced)
+=========================== */
+
+@media (max-width: 1023px) and (min-width: 641px) {
+  .planetPrimary {
+    transform: translateY(-120px) scale(0.85);
+    opacity: 0.9;
+  }
+
+  .planetSecondary {
+    transform: translate(-120px, 80px) scale(0.75);
+    opacity: 0.45;
+  }
+}
+
+/* ===========================
+   MOBILE (restrained)
+=========================== */
+
+@media (max-width: 640px) {
+  .planetPrimary {
+    transform: translateY(-220px) scale(0.65);
+    opacity: 0.75;
+  }
+
+  .planetSecondary {
+    opacity: 0; /* hide entirely */
+  }
+}
+
+:global(html[data-theme="light"]) .planetPrimary {
+  opacity: 0.45;
+}
+
+:global(html[data-theme="light"]) .planetSecondary {
+  opacity: 0.3;
+}
+
+/* ===========================
+   Parallax groups
+=========================== */
+
+.planetPrimary {
+  transform:
+    translate(
+      calc(var(--px) * -6px),
+      calc(var(--py) * -6px)
+    )
+    scale(var(--planet-scale, 1));
+}
+
+.planetSecondary {
+  transform:
+    translate(
+      calc(var(--px) * -3px),
+      calc(var(--py) * -3px)
+    )
+    scale(var(--planet-scale-secondary, 1));
+}
+
+.orbits {
+  transform:
+    translate(
+      calc(var(--px) * -2px),
+      calc(var(--py) * -2px)
+    );
+}
+
+.stars {
+  transform:
+    translate(
+      calc(var(--px) * -1px),
+      calc(var(--py) * -1px)
+    );
+}
+
+/* Star twinkle (subtle) */
+.starsTwinkle {
+  animation: starTwinkle 6.5s ease-in-out infinite;
+}
+
+@keyframes starTwinkle {
+  0%   { opacity: 0.18; }
+  40%  { opacity: 0.28; }
+  100% { opacity: 0.18; }
 }
 
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  .layer {
-    transition: none;
+  .starsTwinkle {
+    animation: none;
   }
 }

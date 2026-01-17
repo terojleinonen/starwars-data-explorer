@@ -9,7 +9,6 @@
   --titleFade: 1;
 
   position: relative;
-  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -256,7 +255,7 @@
 .card {
   background: var(--surface-glass);
   border: 1px solid var(--border-subtle);
-  -webkit-border-left: 2px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  -webkit-border-left: 2px solid color-mix(in srgb, var(--accent) 40%, transparent);  
   border-left: 2px solid color-mix(in srgb, var(--accent) 40%, transparent);
   transition: transform 0.25s ease, border-color 0.25s ease;
 }

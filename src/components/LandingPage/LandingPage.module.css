@@ -1,43 +1,31 @@
 /* =====================================================
    PAGE
+   - No height ownership (PageWrapper owns viewport)
+   - One-screen composition on desktop
 ===================================================== */
 
 .page {
   position: relative;
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center; /* desktop vertical centering */
 }
 
 /* =====================================================
    HERO
+   - Acts as top anchor, not a tall block
 ===================================================== */
 
 .hero {
   position: relative;
-  min-height: 100vh;
   display: grid;
   place-items: center;
-  padding: clamp(4rem, 8vw, 8rem) 1.5rem;
-}
-
-.heroBackdrop {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-
-  /* subtle atmospheric grounding */
-  background:
-    radial-gradient(
-      60% 40% at 50% 30%,
-      color-mix(in oklab, var(--category-accent), transparent 82%),
-      transparent 70%
-    );
+  padding-top: clamp(3rem, 6vw, 4rem);
+  padding-bottom: 2rem;
 }
 
 .heroContent {
-  position: relative;
-  z-index: 2;
   max-width: 960px;
   text-align: center;
 }
@@ -47,12 +35,12 @@
 ===================================================== */
 
 .title {
-  font-size: clamp(2.6rem, 5vw, 3.6rem);
+  font-size: clamp(2.6rem, 5vw, 3.4rem);
   font-weight: 650;
   letter-spacing: -0.02em;
   line-height: 1.05;
   color: var(--text-primary);
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .subtitle {
@@ -65,12 +53,12 @@
 
 /* =====================================================
    CATEGORIES GRID
+   - Visually part of hero scene
+   - 3×2 grid on desktop
 ===================================================== */
 
 .categories {
-  position: relative;
-  z-index: 2;
-  margin-top: clamp(3rem, 6vw, 4.5rem);
+  margin-top: 2rem;
 
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -94,25 +82,27 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.35rem;
+  gap: 0.4rem;
 
   background: var(--surface-glass);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-card);
   -webkit-backdrop-filter: var(--blur-panel);
   backdrop-filter: var(--blur-panel);
+  -webkit-backdrop-filter: var(--blur-panel);
+
   box-shadow: var(--shadow-panel);
 
   transition:
-    transform 280ms ease,
-    box-shadow 280ms ease,
-    border-color 280ms ease;
+    transform 260ms ease,
+    box-shadow 260ms ease,
+    border-color 260ms ease;
 }
 
 .cardTitle {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-muted);
 }
@@ -134,13 +124,11 @@
 
 /* =====================================================
    FOOTER
+   - Subtle, not pushing layout
 ===================================================== */
 
 .footer {
-  position: relative;
-  z-index: 2;
-  margin-top: auto;
-  padding: 2.5rem 1.5rem 2rem;
+  margin-top: 2.25rem;
   text-align: center;
   font-size: 0.85rem;
   color: var(--text-muted);
@@ -151,15 +139,20 @@
 ===================================================== */
 
 @media (max-width: 1024px) {
+  .page {
+    justify-content: flex-start;
+  }
+
   .categories {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 2.5rem;
   }
 }
 
 @media (max-width: 640px) {
   .hero {
-    padding-top: 5rem;
-    padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
   }
 
   .categories {
@@ -174,13 +167,9 @@
 
 /* =====================================================
    LIGHT MODE TUNING
+   - Let cartography do the heavy lifting
 ===================================================== */
 
-:global(html[data-theme="light"]) .heroBackdrop {
-  background:
-    radial-gradient(
-      60% 40% at 50% 30%,
-      color-mix(in oklab, var(--category-accent), transparent 88%),
-      transparent 75%
-    );
+:global(html[data-theme="light"]) .page {
+  justify-content: center;
 }
