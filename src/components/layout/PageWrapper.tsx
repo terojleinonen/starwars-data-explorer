@@ -1,6 +1,6 @@
+import { useState } from "react";
 import AtmosphereLayer from "./AtmosphereLayer";
 import CartographyBackground from "./CartographyBackground";
-import CRTOverlay from "./CRTOverlay";
 import styles from "./PageWrapper.module.css";
 import type { SwapiType } from "@/components/types/swapi-types";
 
@@ -10,23 +10,32 @@ type Props = {
 };
 
 export default function PageWrapper({ children, category }: Props) {
+  const [previewCategory, setPreviewCategory] =
+    useState<SwapiType | undefined>(undefined);
+
+  const activeCategory = previewCategory ?? category;
+
   return (
     <div
       className={styles.wrapper}
-      data-category={category}
+      data-category={activeCategory}
       style={{
-        ["--category-accent" as any]: `var(--accent-${category ?? "people"})`,
+        ["--category-accent" as any]: `var(--accent-${activeCategory ?? "people"})`,
       }}
     >
       <CartographyBackground />
-      <AtmosphereLayer category={category} />
+      <AtmosphereLayer category={activeCategory} />
 
-      {/* CRT only on landing */}
-      {category === undefined && <CRTOverlay />}
-
-      <main className={styles.content}>
+      {/* Provide preview controls to descendants */}
+      <div
+        className={styles.content}
+        data-atmosphere-root
+        data-set-preview={(cat: SwapiType | undefined) =>
+          setPreviewCategory(cat)
+        }
+      >
         {children}
-      </main>
+      </div>
     </div>
   );
 }

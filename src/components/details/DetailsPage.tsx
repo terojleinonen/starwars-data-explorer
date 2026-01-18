@@ -50,8 +50,8 @@ export default function DetailsPage({ category, data }: Props) {
   return (
     <PageWrapper category={category}>
       <div className={styles.page}>
-        <Breadcrumbs />
 
+        <Breadcrumbs />
         <HoloHeader
           category={category}
           title={meta.title}

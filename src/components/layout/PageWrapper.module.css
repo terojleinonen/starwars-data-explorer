@@ -1,3 +1,12 @@
+
+.cartography,
+.atmosphere,
+.crt {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
 /* ======================================================
    Page Wrapper
    Owns:
@@ -10,6 +19,7 @@
   position: relative;
   height: 100vh;     /* ONLY place that owns viewport height */
   width: 100%;
+  min-height: 100vh;
   overflow: hidden;  /* clips background safely */
 }
 
@@ -46,10 +56,9 @@
   height: 100%;
   width: 100%;
   max-width: 1200px;
-
   overflow-y: auto;
   overflow-x: hidden;
-
+  margin-inline: auto;   /* ✅ THIS is critical */
   padding-inline: clamp(16px, 4vw, 48px);
   padding-top: 18px;
   padding-bottom: 40px;
