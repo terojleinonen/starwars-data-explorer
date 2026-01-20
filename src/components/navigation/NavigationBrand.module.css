@@ -1,0 +1,88 @@
+/* =====================================================
+   NAV BRAND — SYSTEM IDENTITY
+===================================================== */
+
+.brand {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+
+  text-decoration: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* -----------------------------------------------------
+   MAIN TITLE
+----------------------------------------------------- */
+
+.title {
+  font-size: 0.78rem;
+  font-weight: 560;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+
+  color: var(--text-muted);
+  line-height: 1;
+
+  transition: color 200ms ease;
+}
+
+/* Hover intent */
+@media (hover: hover) {
+  .brand:hover .title {
+    color: var(--text-secondary);
+  }
+}
+
+/* -----------------------------------------------------
+   BOOT SUBTITLE
+----------------------------------------------------- */
+
+.subtitle {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+
+  color: var(--text-secondary);
+  opacity: 0;
+
+  transition:
+    opacity 480ms ease,
+    transform 480ms ease;
+
+  transform: translateY(-2px);
+  pointer-events: none;
+}
+
+/* Visible during boot */
+.visible {
+  opacity: 0.75;
+  transform: translateY(0);
+}
+
+/* Hidden after boot */
+.hidden {
+  opacity: 0;
+  transform: translateY(-2px);
+}
+
+/* -----------------------------------------------------
+   FOCUS (ACCESSIBILITY)
+----------------------------------------------------- */
+
+.brand:focus-visible {
+  outline: none;
+}
+
+.brand:focus-visible::after {
+  content: "";
+  position: absolute;
+  inset: -6px -10px;
+
+  border-radius: 6px;
+  box-shadow:
+    0 0 0 2px var(--accent-soft);
+}

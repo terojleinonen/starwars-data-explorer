@@ -10,7 +10,7 @@ export type BreadcrumbItem = {
 };
 
 type Props = {
-  items?: BreadcrumbItem[];
+  items: BreadcrumbItem[];
 };
 
 export default function Breadcrumbs({ items }: Props) {
@@ -22,16 +22,7 @@ export default function Breadcrumbs({ items }: Props) {
       data-breadcrumbs
       className={styles.breadcrumbs}
     >
-      <motion.ol
-        layout
-        initial={false}
-        transition={{
-          layout: {
-            duration: 0.35,
-            ease: [0.22, 1, 0.36, 1],
-          },
-        }}
-      >
+      <motion.ol layout>
         <AnimatePresence mode="popLayout">
           {items.map((item) => (
             <motion.li
@@ -40,21 +31,14 @@ export default function Breadcrumbs({ items }: Props) {
               initial={{ opacity: 0, x: 8 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 12 }}
-              transition={{ duration: 0.2 }}
               className={styles.item}
             >
               {item.href ? (
-                <Link
-                  href={item.href}
-                  data-nav-label={item.label}
-                  className={styles.link}
-                >
+                <Link href={item.href} className={styles.link}>
                   {item.label}
                 </Link>
               ) : (
-                <span className={styles.current}>
-                  {item.label}
-                </span>
+                <span className={styles.current}>{item.label}</span>
               )}
             </motion.li>
           ))}

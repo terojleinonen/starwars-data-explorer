@@ -51,7 +51,17 @@ export default function DetailsPage({ category, data }: Props) {
     <PageWrapper category={category}>
       <div className={styles.page}>
 
-        <Breadcrumbs />
+        <Breadcrumbs
+          items={[
+            {
+              label: category.charAt(0).toUpperCase() + category.slice(1),
+              href: `/${category}`,
+            },
+            {
+              label: meta.title,
+            },
+          ]}
+        />
         <HoloHeader
           category={category}
           title={meta.title}

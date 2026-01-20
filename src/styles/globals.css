@@ -229,6 +229,16 @@ button:focus-visible {
   }
 }
 
+@media (max-width: 900px) {
+  .links {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+  }
+}
+
 /* -----------------------------
    Reduced motion
 ----------------------------- */
