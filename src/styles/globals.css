@@ -249,3 +249,13 @@ button:focus-visible {
     animation: none !important;
   }
 }
+
+/* -----------------------------
+   Atmosphere strength tuning
+   (Adjusts glow effects globally)
+----------------------------- */
+
+:root {
+  /* Atmosphere → Header bridge */
+  --atmosphere-strength: 0.18;
+}

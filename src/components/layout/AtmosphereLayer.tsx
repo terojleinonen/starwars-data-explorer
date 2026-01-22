@@ -20,26 +20,40 @@ export default function AtmosphereLayer({ category }: Props) {
   const [transitioning, setTransitioning] = useState(false);
 
   useEffect(() => {
-    const next = category;
+  const next = category;
 
-    if (!prevCategoryRef.current) {
-      prevCategoryRef.current = next;
-      return;
-    }
-
-    if (prevCategoryRef.current === next) return;
-
-    setPrevCategory(prevCategoryRef.current);
-    setTransitioning(true);
+  if (!prevCategoryRef.current) {
     prevCategoryRef.current = next;
+    return;
+  }
 
-    const t = window.setTimeout(() => {
-      setTransitioning(false);
-      setPrevCategory(undefined);
-    }, 650);
+  if (prevCategoryRef.current === next) return;
 
-    return () => window.clearTimeout(t);
-  }, [pathname, category]);
+  setPrevCategory(prevCategoryRef.current);
+  setTransitioning(true);
+
+  // 🔗 SYSTEM SYNC
+  document.documentElement.style.setProperty(
+    "--atmosphere-strength",
+    "0.28"
+  );
+
+  prevCategoryRef.current = next;
+
+  const t = window.setTimeout(() => {
+    setTransitioning(false);
+    setPrevCategory(undefined);
+
+    // return to idle glow
+    document.documentElement.style.setProperty(
+      "--atmosphere-strength",
+      "0.18"
+    );
+  }, 650);
+
+  return () => window.clearTimeout(t);
+}, [pathname, category]);
+
 
   /* --------------------------------------------
      Cinematic micro-parallax (CSS vars)

@@ -16,6 +16,7 @@ import {
   getRecordMetaFromItem,
   type RecordMeta,
 } from "@/lib/recordMeta";
+import SystemBack from "../navigation/SystemBack";
 
 /* -----------------------------------------------
    Helpers
@@ -46,27 +47,23 @@ export default function DetailsPage({ category, data }: Props) {
   );
 
   const hasRelated = Object.values(data).some(isUrlArray);
+  const categoryLabel = category.charAt(0).toUpperCase() + category.slice(1);
+
 
   return (
     <PageWrapper category={category}>
       <div className={styles.page}>
-
-        <Breadcrumbs
-          items={[
-            {
-              label: category.charAt(0).toUpperCase() + category.slice(1),
-              href: `/${category}`,
-            },
-            {
-              label: meta.title,
-            },
-          ]}
-        />
+        <div className={styles.breadcrumbRow}>
+          <SystemBack fallbackHref={`/${category}`} />
+            <Breadcrumbs items={[
+              { label: "Archive", href: "/" },
+              { label: categoryLabel, href: `/${category}` },
+              { label: meta.title },
+            ]} />
+        </div>
         <HoloHeader
           category={category}
-          title={meta.title}
-          subtitle={meta.subtitle}
-          size="lg"
+          title={meta.title}          
         />
 
         {typeof data.opening_crawl === "string" && (

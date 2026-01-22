@@ -1,23 +1,74 @@
-.breadcrumbs {
-  background: rgba(255, 0, 0, 0.1);
+.back {
+  appearance: none;
+  background: none;
+  border: none;
+
+  font-size: 0.85rem;
+  line-height: 1;
+
+  color: var(--text-secondary);
+  cursor: pointer;
+
+  padding: 2px 4px;
+  margin-right: 2px;
+
+  transition:
+    color 160ms ease,
+    transform 160ms ease;
 }
 
+.back:hover {
+  color: var(--text-primary);
+  transform: translateX(-2px);
+}
+/* ------------------------------------------------------
+   BREADCRUMBS
+------------------------------------------------------ */
+
 .breadcrumbs {
-  position: relative;
-  z-index: 3;
+  margin-bottom: 12px;
+  opacity: calc(0.55 + var(--atmosphere-strength) * 0.9);
+  transition: opacity 420ms ease;
+}
 
-  margin-top: 0.75rem;
-  margin-bottom: 1.25rem;
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
 
-  padding: 0.6rem 1.2rem;
+.link {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.35),
-    rgba(0, 0, 0, 0)
-  );
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+  color: var(--text-muted);
+  text-decoration: none;
+
+  transition:
+    color 200ms ease,
+    text-shadow 400ms ease;
+}
+
+.current {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: var(--text-primary);
+
+  text-shadow:
+    0 0 calc(6px * var(--atmosphere-strength))
+      color-mix(
+        in oklab,
+        var(--category-accent),
+        transparent 75%
+      );
+}
+
+.separator {
+  margin-inline: 0.6rem;
+  opacity: 0.35;
 }
 
 .breadcrumbs ol {
@@ -41,10 +92,11 @@
 
 /* separator */
 .item:not(:last-child)::after {
-  content: "/";
-  margin-left: 0.45rem;
-  margin-right: 0.45rem;
-  opacity: 0.4;
+  content: "›";
+  margin-inline: 6px;
+  opacity: 0.35;
+  font-size: 0.75rem;
+  color: var(--text-muted);
 }
 
 /* links */
@@ -62,4 +114,28 @@
 .current {
   color: var(--text-primary);
   opacity: 0.9;
+}
+
+.back {
+  text-shadow:
+    0 0 calc(4px * var(--atmosphere-strength))
+      color-mix(
+        in oklab,
+        var(--category-accent),
+        transparent 75%
+      );
+}
+
+:global(html[data-theme="light"]) .breadcrumbs {
+  opacity: calc(0.7 + var(--atmosphere-strength) * 0.6);
+}
+
+:global(html[data-theme="light"]) .current {
+  text-shadow:
+    0 0 calc(4px * var(--atmosphere-strength))
+      color-mix(
+        in oklab,
+        var(--category-accent),
+        transparent 82%
+      );
 }

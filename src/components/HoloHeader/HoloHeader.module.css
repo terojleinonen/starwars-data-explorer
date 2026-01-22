@@ -1,66 +1,225 @@
+/* ======================================================
+   HoloHeader
+   System viewport header
+====================================================== */
+
 .header {
   position: relative;
-  padding-bottom: 1.5rem;
-  text-align: center;
+  display: grid;
+  gap: 14px;
+
+  padding-top: 8px;
+  padding-bottom: 18px;
+
+  color: var(--text-primary);
 }
 
-/* atmospheric underline */
+/* ------------------------------------------------------
+   SYSTEM ROW (breadcrumbs + back)
+------------------------------------------------------ */
+
+.systemRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: var(--text-muted);
+}
+
+/* Back arrow */
+
+.back {
+  appearance: none;
+  background: none;
+  border: none;
+
+  font-size: 0.9rem;
+  line-height: 1;
+
+  color: var(--text-secondary);
+  cursor: pointer;
+
+  padding: 2px 4px;
+  margin-right: 2px;
+
+  transition:
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.back:hover {
+  color: var(--text-primary);
+  transform: translateX(-2px);
+}
+
+/* ------------------------------------------------------
+   BREADCRUMBS
+------------------------------------------------------ */
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+
+  max-width: 100%;
+}
+
+.crumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.crumb a {
+  color: var(--text-secondary);
+  text-decoration: none;
+
+  transition: color 160ms ease;
+}
+
+.crumb a:hover {
+  color: var(--text-primary);
+}
+
+.current {
+  color: var(--text-primary);
+}
+
+.sep {
+  opacity: 0.35;
+}
+
+/* ------------------------------------------------------
+   VIEWPORT (title + classification)
+------------------------------------------------------ */
+
+.viewport {
+  display: grid;
+  gap: 6px;
+}
+
+/* Primary title */
+
+.title {
+  font-size: clamp(1.9rem, 3.8vw, 2.8rem);
+  font-weight: 640;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+
+  color: var(--text-primary);
+
+  text-shadow:
+    0 0 calc(18px * var(--atmosphere-strength))
+      color-mix(
+        in oklab,
+        var(--category-accent),
+        transparent 70%
+      );
+
+  transition:
+    text-shadow 600ms ease;
+}
+
+/* Classification label */
+
+.classification {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: var(--text-muted);
+
+  padding-left: 2px;
+}
+
+/* ------------------------------------------------------
+   CATEGORY ACCENT LINE (very subtle)
+------------------------------------------------------ */
+
 .header::after {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 0;
   bottom: 0;
 
-  width: 64%;
+  width: 100%;
   height: 1px;
 
-  transform: translateX(-50%);
-
-  opacity: 0.65;
-}
-
-/* soft glow behind header */
-.header::before {
-  content: "";
-  position: absolute;
-  inset: -40%;
-  background: radial-gradient(
-    circle at 50% 30%,
-    var(--category-accent),
-    transparent 60%
-  );
-  opacity: 0.18;
-  filter: blur(120px);
-  pointer-events: none;
-  transition: opacity 400ms ease;
-}
-
-
-.title {
-  color: var(--text-primary);
-  text-shadow:
-    0 0 0 transparent,
-    0 8px 40px color-mix(
-      in srgb,
-      var(--category-accent) 35%,
+  background:
+    linear-gradient(
+      to right,
+      color-mix(in oklab, var(--category-accent), transparent 35%),
       transparent
     );
-  transition: text-shadow 400ms ease;
+
+  opacity: 0.35;
 }
 
-.category {
-  color: var(--text-muted);
-  letter-spacing: 0.18em;
-  position: relative;
+/* ======================================================
+   LIGHT THEME TUNING
+====================================================== */
+
+:global(html[data-theme="light"]) .header {
+  color: var(--text-primary);
 }
 
-.category::after {
-  content: "";
-  display: block;
-  margin-top: 6px;
-  height: 2px;
-  width: 48px;
-  background: var(--category-accent);
-  border-radius: 999px;
-  opacity: 0.8;
+:global(html[data-theme="light"]) .systemRow {
+  color: var(--text-secondary);
+}
+
+:global(html[data-theme="light"]) .title {
+  text-shadow:
+    0 0 14px color-mix(in oklab, var(--category-accent), transparent 85%);
+}
+
+:global(html[data-theme="light"]) .header::after {
+  opacity: 0.25;
+}
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media (max-width: 768px) {
+  .header {
+    gap: 12px;
+    padding-bottom: 14px;
+  }
+
+  .title {
+    font-size: clamp(1.6rem, 6vw, 2.2rem);
+  }
+
+  .systemRow {
+    font-size: 0.68rem;
+  }
+}
+
+/* ======================================================
+   REDUCED MOTION
+====================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .back {
+    transition: none;
+  }
+
+  .crumb a {
+    transition: none;
+  }
+}
+
+:global(html[data-theme="light"]) .title {
+  text-shadow:
+    0 0 calc(14px * var(--atmosphere-strength))
+      color-mix(
+        in oklab,
+        var(--category-accent),
+        transparent 82%
+      );
 }

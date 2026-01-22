@@ -1,0 +1,33 @@
+.back {
+  display: inline-flex;
+  align-items: center;
+
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  padding: 0;
+
+  cursor: pointer;
+  transition: color 200ms ease;
+}
+
+.arrow {
+  font-size: 0.85rem;
+  margin-right: 0.5rem;
+  opacity: 0.65;
+  transition: opacity 200ms ease;
+}
+
+.back:hover,
+.back:focus-visible {
+  color: var(--text-primary);
+}
+
+.back:hover .arrow {
+  opacity: 0.9;
+}

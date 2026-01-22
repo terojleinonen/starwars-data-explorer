@@ -7,6 +7,7 @@ import styles from "./Breadcrumbs.module.css";
 export type BreadcrumbItem = {
   label: string;
   href?: string;
+  action?: "back";
 };
 
 type Props = {
@@ -24,22 +25,27 @@ export default function Breadcrumbs({ items }: Props) {
     >
       <motion.ol layout>
         <AnimatePresence mode="popLayout">
-          {items.map((item) => (
+          {items.map((item, index) => (
             <motion.li
-              key={item.label}
+              key={`${item.label}-${index}`}
               layout
-              initial={{ opacity: 0, x: 8 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 12 }}
               className={styles.item}
-            >
-              {item.href ? (
-                <Link href={item.href} className={styles.link}>
-                  {item.label}
-                </Link>
-              ) : (
-                <span className={styles.current}>{item.label}</span>
-              )}
+          >
+          {item.action === "back" ? (
+          <button
+            onClick={() => history.back()}
+            className={styles.back}
+            aria-label="Go back"
+          >
+          ←
+        </button>
+          ) : item.href ? (
+            <Link href={item.href} className={styles.link}>
+              {item.label}
+            </Link>
+          ) : (
+            <span className={styles.current}>{item.label}</span>
+          )}
             </motion.li>
           ))}
         </AnimatePresence>

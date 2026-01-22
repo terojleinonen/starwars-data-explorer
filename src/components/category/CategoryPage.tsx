@@ -11,6 +11,8 @@ import HoloHeader from "@/components/HoloHeader/HoloHeader";
 import CategoryToolbar from "@/components/category/CategoryToolbar";
 import RecordGrid from "@/components/records/RecordGrid";
 import styles from "./CategoryPage.module.css";
+import Breadcrumbs from "../navigation/Breadcrumbs";
+import SystemBack from "../navigation/SystemBack";
 
 /* -----------------------------------------------
    Types
@@ -35,6 +37,7 @@ export default function CategoryPage({
 }: CategoryPageProps) {
   const { data, loading, error } =
     useSwapi<SwapiListResponse<SwapiItem>>(category);
+  const categoryLabel = category.charAt(0).toUpperCase() + category.slice(1);
 
   const items: SwapiItem[] = data?.results ?? [];
 
@@ -48,9 +51,17 @@ export default function CategoryPage({
 
   return (
     <PageWrapper category={category}>
+      <div className={styles.breadcrumbRow}>
+        <SystemBack fallbackHref={`/${category}`} />
+        <Breadcrumbs items={[
+          { label: "Archive", href: "/" },
+          { label: categoryLabel, href: `/${category}` },
+          ]} />
+      </div>
+
       {/* ================= HEADER ================= */}
       <div className={styles.header}>
-        <HoloHeader category={category} title={title} subtitle={subtitle}/>
+        <HoloHeader category={category} title={title}/>
       </div>
 
       {/* ================= TOOLBAR ================= */}

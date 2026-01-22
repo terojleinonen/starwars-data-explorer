@@ -1,57 +1,61 @@
 "use client";
 
+import Link from "next/link";
 import styles from "./HoloHeader.module.css";
 import type { SwapiType } from "@/components/types/swapi-types";
 
-export type HoloHeaderSize = "sm" | "md" | "lg";
-
-type Props = {
-  category?: SwapiType;
-  title?: string;
-  subtitle?: string;
-  size?: HoloHeaderSize;
+type Crumb = {
+  label: string;
+  href?: string;
 };
 
-const CATEGORY_LABELS: Partial<Record<SwapiType, string>> = {
-  people: "Sentient Records",
-  planets: "Planetary Archives",
-  films: "Holofilm Library",
-  starships: "Starship Registry",
-  vehicles: "Vehicle Index",
-  species: "Species Codex",
+type HoloHeaderProps = {
+  category?: SwapiType;
+  title: string;
+  classification?: string;
+  breadcrumbs?: Crumb[];
+  showBack?: boolean;
+  onBack?: () => void;
 };
 
 export default function HoloHeader({
   category,
   title,
-  subtitle,
-  size = "lg",
-}: Props) {
+  classification,
+  breadcrumbs,
+  showBack = false,
+  onBack,
+}: HoloHeaderProps) {
   return (
     <header
-      className={`${styles.header} ${styles[size]}`}
+      className={styles.header}
       data-category={category}
+      role="region"
+      aria-label="Record header"
     >
-      {/* atmospheric glow layer */}
-      <div className={styles.glow} aria-hidden />
+      {/* ================= SYSTEM CONTEXT ================= */}
+      {(showBack || breadcrumbs?.length) && (
+        <div className={styles.systemRow}>
+          {showBack && (
+            <button
+              type="button"
+              onClick={onBack}
+              className={styles.back}
+              aria-label="Go back"
+            >
+              ←
+            </button>
+          )}
+        </div>
+      )}
 
-      <div className={styles.inner}>
-        {category && (
-          <span className={styles.eyebrow}>
-            {CATEGORY_LABELS[category] ?? "Galactic Records"}
-          </span>
-        )}
-
-        {title && (
-          <h1 className={styles.title}>
-            {title}
-          </h1>
-        )}
-
-        {subtitle && (
-          <p className={styles.subtitle}>
-            {subtitle}
-          </p>
+      {/* ================= VIEWPORT ================= */}
+      <div className={styles.viewport}>
+        <h1 className={styles.title}>{title}</h1>
+        {classification && (
+          <div className={styles.classification}>
+            {classification}
+          </div>
         )}
       </div>
     </header>
