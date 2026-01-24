@@ -1,225 +1,152 @@
 /* ======================================================
-   HoloHeader
-   System viewport header
+   HoloHeader — system-level header
 ====================================================== */
 
 .header {
   position: relative;
   display: grid;
-  gap: 14px;
-
-  padding-top: 8px;
-  padding-bottom: 18px;
-
-  color: var(--text-primary);
+  padding: 12px 0 22px;
+  transition:
+    padding 220ms ease,
+    gap 220ms ease;
 }
 
-/* ------------------------------------------------------
-   SYSTEM ROW (breadcrumbs + back)
------------------------------------------------------- */
+/* ================= CONTEXT ROW ================= */
 
-.systemRow {
+.context {
   display: flex;
   align-items: center;
-  gap: 10px;
-
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-
-  color: var(--text-muted);
+  gap: 14px;
+  min-height: 24px;
+  opacity: 0.9;
 }
 
-/* Back arrow */
+/* ================= SYSTEM BACK ================= */
 
 .back {
-  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
   background: none;
   border: none;
+  padding: 0;
 
-  font-size: 0.9rem;
-  line-height: 1;
-
-  color: var(--text-secondary);
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   cursor: pointer;
 
-  padding: 2px 4px;
-  margin-right: 2px;
+  transition: opacity 160ms ease, color 160ms ease;
+}
 
-  transition:
-    color 160ms ease,
-    transform 160ms ease;
+.backIcon {
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.backLabel {
+  font-weight: 500;
 }
 
 .back:hover {
-  color: var(--text-primary);
-  transform: translateX(-2px);
-}
-
-/* ------------------------------------------------------
-   BREADCRUMBS
------------------------------------------------------- */
-
-.breadcrumbs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  align-items: center;
-
-  max-width: 100%;
-}
-
-.crumb {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.crumb a {
+  opacity: 1;
   color: var(--text-secondary);
-  text-decoration: none;
-
-  transition: color 160ms ease;
 }
 
-.crumb a:hover {
-  color: var(--text-primary);
+.back:focus-visible {
+  outline: none;
+  text-decoration: underline;
 }
 
-.current {
-  color: var(--text-primary);
-}
+/* ================= MAIN ================= */
 
-.sep {
-  opacity: 0.35;
-}
-
-/* ------------------------------------------------------
-   VIEWPORT (title + classification)
------------------------------------------------------- */
-
-.viewport {
+.main {
   display: grid;
   gap: 6px;
 }
 
-/* Primary title */
-
 .title {
-  font-size: clamp(1.9rem, 3.8vw, 2.8rem);
-  font-weight: 640;
-  line-height: 1.05;
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 650;
   letter-spacing: -0.02em;
-
   color: var(--text-primary);
-
-  text-shadow:
-    0 0 calc(18px * var(--atmosphere-strength))
-      color-mix(
-        in oklab,
-        var(--category-accent),
-        transparent 70%
-      );
-
   transition:
-    text-shadow 600ms ease;
+    font-size 220ms ease,
+    opacity 220ms ease,
+    transform 220ms ease;
 }
 
-/* Classification label */
+/* ================= META ================= */
 
-.classification {
-  font-size: 0.7rem;
+.meta {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-
-  color: var(--text-muted);
-
-  padding-left: 2px;
+  transition: opacity 180ms ease;
 }
 
-/* ------------------------------------------------------
-   CATEGORY ACCENT LINE (very subtle)
------------------------------------------------------- */
-
-.header::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-
-  width: 100%;
-  height: 1px;
-
-  background:
-    linear-gradient(
-      to right,
-      color-mix(in oklab, var(--category-accent), transparent 35%),
-      transparent
-    );
-
-  opacity: 0.35;
-}
-
-/* ======================================================
-   LIGHT THEME TUNING
-====================================================== */
-
-:global(html[data-theme="light"]) .header {
-  color: var(--text-primary);
-}
-
-:global(html[data-theme="light"]) .systemRow {
+.subtitle {
   color: var(--text-secondary);
 }
 
-:global(html[data-theme="light"]) .title {
-  text-shadow:
-    0 0 14px color-mix(in oklab, var(--category-accent), transparent 85%);
+.category {
+  color: var(--category-accent);
+  font-weight: 600;
 }
 
-:global(html[data-theme="light"]) .header::after {
-  opacity: 0.25;
+/* ================= SIZES ================= */
+
+.md .title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
-/* ======================================================
-   RESPONSIVE
-====================================================== */
-
-@media (max-width: 768px) {
-  .header {
-    gap: 12px;
-    padding-bottom: 14px;
-  }
-
-  .title {
-    font-size: clamp(1.6rem, 6vw, 2.2rem);
-  }
-
-  .systemRow {
-    font-size: 0.68rem;
-  }
+.lg .title {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
 }
 
-/* ======================================================
-   REDUCED MOTION
-====================================================== */
+
+/* ===============================
+Condensed state
+================================ */
+
+:global([data-condensed="true"]) .header {
+  padding: 6px 0 10px;
+}
+
+:global([data-condensed="true"]) .title {
+  font-size: clamp(1.2rem, 2.6vw, 1.6rem);
+  opacity: 0.92;
+  transform: translateY(-2px);
+}
+
+:global([data-condensed="true"]) .meta {
+  opacity: 0.65;
+}
+
+/* ================= LIGHT MODE ================= */
+
+:global(html[data-theme="light"]) .back {
+  color: rgba(15, 23, 42, 0.45);
+}
+
+:global(html[data-theme="light"]) .back:hover {
+  color: rgba(15, 23, 42, 0.65);
+}
+
+/* ===============================
+   Reduced motion
+================================ */
 
 @media (prefers-reduced-motion: reduce) {
-  .back {
+  .header,
+  .title,
+  .meta {
     transition: none;
   }
-
-  .crumb a {
-    transition: none;
-  }
-}
-
-:global(html[data-theme="light"]) .title {
-  text-shadow:
-    0 0 calc(14px * var(--atmosphere-strength))
-      color-mix(
-        in oklab,
-        var(--category-accent),
-        transparent 82%
-      );
 }

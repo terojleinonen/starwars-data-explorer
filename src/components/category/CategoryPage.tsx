@@ -2,10 +2,9 @@
 
 import { useSwapi } from "@/hooks/useSwapi";
 import { useRecordQuery } from "@/hooks/useRecordQuery";
-
 import type { SwapiType, SwapiItem } from "@/components/types/swapi-types";
 import type { SwapiListResponse } from "@/hooks/useSwapi";
-
+import { useRegisterNavigation } from "../navigation/useRegisterNavigation";
 import PageWrapper from "@/components/layout/PageWrapper";
 import HoloHeader from "@/components/HoloHeader/HoloHeader";
 import CategoryToolbar from "@/components/category/CategoryToolbar";
@@ -13,6 +12,7 @@ import RecordGrid from "@/components/records/RecordGrid";
 import styles from "./CategoryPage.module.css";
 import Breadcrumbs from "../navigation/Breadcrumbs";
 import SystemBack from "../navigation/SystemBack";
+import { use, useEffect } from "react";
 
 /* -----------------------------------------------
    Types
@@ -35,12 +35,9 @@ export default function CategoryPage({
   subtitle,
   loadingText,
 }: CategoryPageProps) {
-  const { data, loading, error } =
-    useSwapi<SwapiListResponse<SwapiItem>>(category);
-  const categoryLabel = category.charAt(0).toUpperCase() + category.slice(1);
 
+  const { data, loading, error } = useSwapi<SwapiListResponse<SwapiItem>>(category);
   const items: SwapiItem[] = data?.results ?? [];
-
   const {
     results,
     query,
@@ -49,19 +46,21 @@ export default function CategoryPage({
     setSortKey,
   } = useRecordQuery(items);
 
+  useRegisterNavigation({
+    label: category.charAt(0).toUpperCase() + category.slice(1),
+    href: `/${category}`,
+  });
+
   return (
     <PageWrapper category={category}>
-      <div className={styles.breadcrumbRow}>
-        <SystemBack fallbackHref={`/${category}`} />
-        <Breadcrumbs items={[
-          { label: "Archive", href: "/" },
-          { label: categoryLabel, href: `/${category}` },
-          ]} />
-      </div>
-
       {/* ================= HEADER ================= */}
       <div className={styles.header}>
-        <HoloHeader category={category} title={title}/>
+        <HoloHeader 
+          category={category} 
+          title={title} 
+          subtitle={subtitle}
+          showBack={false}
+        />
       </div>
 
       {/* ================= TOOLBAR ================= */}

@@ -49,21 +49,20 @@
     color 200ms ease,
     text-shadow 400ms ease;
 }
+/* Breadcrumbs.module.css */
 
 .current {
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-
   color: var(--text-primary);
+  font-weight: 500;
+}
 
-  text-shadow:
-    0 0 calc(6px * var(--atmosphere-strength))
-      color-mix(
-        in oklab,
-        var(--category-accent),
-        transparent 75%
-      );
+.item span {
+  opacity: 0.7;
+}
+
+.item span:where(:contains("…")) {
+  letter-spacing: 0.2em;
+  opacity: 0.45;
 }
 
 .separator {

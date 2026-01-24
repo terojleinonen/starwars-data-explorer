@@ -5,15 +5,17 @@ import CartographyBackground from "./CartographyBackground";
 import { useAtmosphere } from "./AtmosphereContext";
 import styles from "./PageWrapper.module.css";
 import type { SwapiType } from "@/components/types/swapi-types";
-import Breadcrumbs, { BreadcrumbItem } from "../navigation/Breadcrumbs";
+import { useCondensedHeader } from "./useCondensedHeader";
+import { useRef } from "react";
 
 type Props = {
   children: React.ReactNode;
   category?: SwapiType;
-  breadcrumbs?: BreadcrumbItem[];
 };
 
-export default function PageWrapper({ children, breadcrumbs }: Props) {
+export default function PageWrapper({ children}: Props) {
+  const scrollRef = useRef<HTMLDivElement | null>(null);
+  const condensed = useCondensedHeader(scrollRef.current);
   const { category } = useAtmosphere();
 
   return (
@@ -23,12 +25,11 @@ export default function PageWrapper({ children, breadcrumbs }: Props) {
       style={{
         ["--category-accent" as any]: `var(--accent-${category ?? "people"})`,
       }}
+      data-condensed={condensed || undefined}
     >
       <CartographyBackground />
       <AtmosphereLayer category={category} />
-    
-      <main className={styles.content}>
-        {breadcrumbs && <Breadcrumbs items={breadcrumbs} />}
+      <main ref={scrollRef} className={styles.content}>
         {children}
       </main>
     </div>
