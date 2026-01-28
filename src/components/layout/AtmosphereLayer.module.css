@@ -1,153 +1,65 @@
 .root {
-  position: absolute;
+  position: fixed;
   inset: 0;
+  z-index: 1;
   pointer-events: none;
-  --px: 0;
-  --py: 0;
 }
 
 .layer {
   position: absolute;
   inset: 0;
-  transition: opacity 650ms ease;
+  opacity: 0;
+  transition: opacity 700ms ease;
 }
 
-.steady {
-  opacity: 1;
+/* ================= CATEGORY GLOWS ================= */
+
+.layer[data-category="people"] {
+  background:
+    radial-gradient(circle at 30% 25%, var(--accent-people), transparent 65%);
 }
 
-.incoming {
-  opacity: 1;
+.layer[data-category="planets"] {
+  background:
+    radial-gradient(circle at 50% 30%, var(--accent-planets), transparent 70%);
 }
 
-.outgoing {
+.layer[data-category="films"] {
+  background:
+    radial-gradient(circle at 40% 25%, var(--accent-films), transparent 65%);
+}
+
+.layer[data-category="starships"] {
+  background:
+    radial-gradient(circle at 60% 20%, var(--accent-starships), transparent 70%);
+}
+
+.layer[data-category="vehicles"] {
+  background:
+    radial-gradient(circle at 50% 25%, var(--accent-vehicles), transparent 72%);
+}
+
+.layer[data-category="species"] {
+  background:
+    radial-gradient(circle at 45% 30%, var(--accent-species), transparent 68%);
+}
+
+/* ================= STATES ================= */
+
+.fadeIn {
+  opacity: 0.55;
+}
+
+.fadeOut {
   opacity: 0;
 }
 
-.svg {
-  width: 100%;
-  height: 100%;
-  display: block;
+.steady {
+  opacity: 0.55;
 }
 
-/* ===========================
-   Planet base behavior
-=========================== */
+/* ================= LIGHT THEME ================= */
 
-.planet {
-  transform-origin: center;
-  transition:
-    transform 700ms ease,
-    opacity 700ms ease;
-}
-
-/* ===========================
-   DESKTOP (cinematic framing)
-=========================== */
-
-@media (min-width: 1024px) {
-  .planetPrimary {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-
-  .planetSecondary {
-    transform: translate(0, 0) scale(1);
-    opacity: 0.6;
-  }
-}
-
-/* ===========================
-   TABLET (balanced)
-=========================== */
-
-@media (max-width: 1023px) and (min-width: 641px) {
-  .planetPrimary {
-    transform: translateY(-120px) scale(0.85);
-    opacity: 0.9;
-  }
-
-  .planetSecondary {
-    transform: translate(-120px, 80px) scale(0.75);
-    opacity: 0.45;
-  }
-}
-
-/* ===========================
-   MOBILE (restrained)
-=========================== */
-
-@media (max-width: 640px) {
-  .planetPrimary {
-    transform: translateY(-220px) scale(0.65);
-    opacity: 0.75;
-  }
-
-  .planetSecondary {
-    opacity: 0; /* hide entirely */
-  }
-}
-
-:global(html[data-theme="light"]) .planetPrimary {
-  opacity: 0.45;
-}
-
-:global(html[data-theme="light"]) .planetSecondary {
-  opacity: 0.3;
-}
-
-/* ===========================
-   Parallax groups
-=========================== */
-
-.planetPrimary {
-  transform:
-    translate(
-      calc(var(--px) * -6px),
-      calc(var(--py) * -6px)
-    )
-    scale(var(--planet-scale, 1));
-}
-
-.planetSecondary {
-  transform:
-    translate(
-      calc(var(--px) * -3px),
-      calc(var(--py) * -3px)
-    )
-    scale(var(--planet-scale-secondary, 1));
-}
-
-.orbits {
-  transform:
-    translate(
-      calc(var(--px) * -2px),
-      calc(var(--py) * -2px)
-    );
-}
-
-.stars {
-  transform:
-    translate(
-      calc(var(--px) * -1px),
-      calc(var(--py) * -1px)
-    );
-}
-
-/* Star twinkle (subtle) */
-.starsTwinkle {
-  animation: starTwinkle 6.5s ease-in-out infinite;
-}
-
-@keyframes starTwinkle {
-  0%   { opacity: 0.18; }
-  40%  { opacity: 0.28; }
-  100% { opacity: 0.18; }
-}
-
-/* Respect reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  .starsTwinkle {
-    animation: none;
-  }
+:global(html[data-theme="light"]) .layer {
+  opacity: 0.35;
 }

@@ -1,37 +1,56 @@
 "use client";
 
-import AtmosphereLayer from "./AtmosphereLayer";
-import CartographyBackground from "./CartographyBackground";
-import { useAtmosphere } from "./AtmosphereContext";
+import type { ReactNode } from "react";
 import styles from "./PageWrapper.module.css";
 import type { SwapiType } from "@/components/types/swapi-types";
-import { useCondensedHeader } from "./useCondensedHeader";
-import { useRef } from "react";
+
+import AtmosphereLayer from "./AtmosphereLayer";
+import CartographyBackground from "./CartographyBackground";
 
 type Props = {
-  children: React.ReactNode;
+  children: ReactNode;
   category?: SwapiType;
 };
 
-export default function PageWrapper({ children}: Props) {
-  const scrollRef = useRef<HTMLDivElement | null>(null);
-  const condensed = useCondensedHeader(scrollRef.current);
-  const { category } = useAtmosphere();
+function accentVar(category?: SwapiType) {
+  switch (category) {
+    case "films":
+      return "var(--accent-films)";
+    case "people":
+      return "var(--accent-people)";
+    case "planets":
+      return "var(--accent-planets)";
+    case "starships":
+      return "var(--accent-starships)";
+    case "vehicles":
+      return "var(--accent-vehicles)";
+    case "species":
+      return "var(--accent-species)";
+    default:
+      return "var(--accent-people)";
+  }
+}
 
+export default function PageWrapper({ children, category }: Props) {
   return (
     <div
       className={styles.wrapper}
       data-category={category}
       style={{
-        ["--category-accent" as any]: `var(--accent-${category ?? "people"})`,
+        // ✅ This is the missing “power cable” for your entire background system
+        ["--category-accent" as any]: accentVar(category),
       }}
-      data-condensed={condensed || undefined}
     >
-      <CartographyBackground />
-      <AtmosphereLayer category={category} />
-      <main ref={scrollRef} className={styles.content}>
-        {children}
-      </main>
+      {/* ================= BACKGROUND (paint-only) ================= */}
+        {/* ✅ Give cartography the category so constellations render */}
+        <CartographyBackground  />
+        {/* ✅ Atmosphere is glow-only now */}
+        <AtmosphereLayer category={category} />
+
+      {/* ================= CONTENT SURFACE ================= */}
+      <div className={styles.surface}>
+        <main className={styles.content}>{children}</main>
+      </div>
     </div>
   );
 }

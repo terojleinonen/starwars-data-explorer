@@ -1,4 +1,5 @@
 
+.background,
 .cartography,
 .atmosphere,
 .crt {
@@ -17,21 +18,9 @@
 
 .wrapper {
   position: relative;
-  height: 100vh;     /* ONLY place that owns viewport height */
-  width: 100%;
+  height: 100vh;
   min-height: 100vh;
-  overflow: hidden;  /* clips background safely */
-}
-
-/* ======================================================
-   Paint-only background (must not affect layout)
-====================================================== */
-
-.background {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -41,8 +30,7 @@
 
 .surface {
   position: relative;
-  z-index: 1;
-  height: 100%;
+  z-index: 2;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -54,15 +42,11 @@
 
 .content {
   height: 100%;
-  width: 100%;
-  max-width: 1200px;
   overflow-y: auto;
   overflow-x: hidden;
-  margin-inline: auto;   /* ✅ THIS is critical */
   padding-inline: clamp(16px, 4vw, 48px);
-  padding-top: 18px;
-  padding-bottom: 40px;
 }
+
 
 /* ======================================================
    Atmosphere layer hook (inside background)
