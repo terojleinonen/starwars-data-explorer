@@ -1,14 +1,13 @@
 "use client";
 
-import type { ReactNode } from "react";
+import CartographyBackground from "./CartographyBackground";
+import AtmosphereLayer from "./AtmosphereLayer";
+import ScrollViewport from "./ScrollViewport";
 import styles from "./PageWrapper.module.css";
 import type { SwapiType } from "@/components/types/swapi-types";
 
-import AtmosphereLayer from "./AtmosphereLayer";
-import CartographyBackground from "./CartographyBackground";
-
 type Props = {
-  children: ReactNode;
+  children: React.ReactNode;
   category?: SwapiType;
 };
 
@@ -41,16 +40,13 @@ export default function PageWrapper({ children, category }: Props) {
         ["--category-accent" as any]: accentVar(category),
       }}
     >
-      {/* ================= BACKGROUND (paint-only) ================= */}
-        {/* ✅ Give cartography the category so constellations render */}
-        <CartographyBackground  />
-        {/* ✅ Atmosphere is glow-only now */}
-        <AtmosphereLayer category={category} />
+      <CartographyBackground />
+      <AtmosphereLayer category={category} 
+      />
 
-      {/* ================= CONTENT SURFACE ================= */}
-      <div className={styles.surface}>
-        <main className={styles.content}>{children}</main>
-      </div>
+      <ScrollViewport>
+        {children}
+      </ScrollViewport>
     </div>
   );
 }

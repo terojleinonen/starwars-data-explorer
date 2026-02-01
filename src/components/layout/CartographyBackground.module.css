@@ -3,7 +3,8 @@
   inset: 0;
   z-index: -2;
   pointer-events: none;
-
+  color: var(--category-accent);
+  opacity: 0.55;
 }
 
 .svg {
@@ -12,9 +13,45 @@
   display: block;
 }
 
+/* ================= CONSTELLATIONS ================= */
+
+.constellation {
+  opacity: 0.6;
+}
+
+/* Anchor star */
+.constellation [data-anchor] {
+  opacity: 0.9;
+  filter:
+    drop-shadow(0 0 6px var(--category-accent))
+    drop-shadow(0 0 14px color-mix(in oklab, var(--category-accent), transparent 65%));
+}
+
+/* Route-change pulse */
+.cartography[data-pulse]
+.constellation [data-anchor] {
+  filter:
+    drop-shadow(0 0 12px var(--category-accent))
+    drop-shadow(0 0 28px color-mix(in oklab, var(--category-accent), transparent 55%));
+}
+
 /* ================= LIGHT THEME ================= */
 
 :global(html[data-theme="light"]) .cartography {
-  opacity: 0.32;
-  filter: contrast(1.05) saturate(0.9);
+  opacity: 0.28;
+  mix-blend-mode: multiply;
+}
+
+:global(html[data-theme="light"])
+.constellation [data-anchor] {
+  opacity: 0.6;
+  filter: drop-shadow(0 0 4px var(--category-accent));
+}
+
+/* ================= REDUCED MOTION ================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .constellation [data-anchor] {
+    filter: none;
+  }
 }

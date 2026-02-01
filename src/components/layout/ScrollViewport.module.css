@@ -1,0 +1,118 @@
+/* ======================================================
+   SCROLL VIEWPORT
+   - ONLY element that scrolls
+   - Owns scrollbar + scroll depth
+====================================================== */
+
+.viewport {
+  height: 100%;
+  width: 100%;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+
+  position: relative;
+  z-index: 1;
+
+  /* Scroll telemetry */
+  --scrollDepth: 0;
+}
+
+/* ======================================================
+   SCROLL CONTENT
+   - Centered system window
+   - Safe bottom space (CRITICAL)
+====================================================== */
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+
+  padding-inline: clamp(16px, 4vw, 48px);
+  padding-top: 24px;
+
+  /* Ensures last item scrolls fully into view */
+  padding-bottom: calc(
+    clamp(72px, 10vh, 140px) + env(safe-area-inset-bottom)
+  );
+}
+
+/* ======================================================
+   SCI-FI SYSTEM SCROLLBAR
+====================================================== */
+
+/* Firefox */
+.viewport {
+  scrollbar-width: thin;
+  scrollbar-color: var(--category-accent) transparent;
+}
+
+/* WebKit */
+.viewport::-webkit-scrollbar {
+  width: 6px;
+}
+
+.viewport::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.viewport::-webkit-scrollbar-thumb {
+  min-height: 48px;
+  border-radius: 2px;
+
+  background-color: color-mix(
+    in oklab,
+    var(--category-accent),
+    transparent calc(55% - var(--scrollDepth) * 25%)
+  );
+
+  box-shadow:
+    0 0 calc(4px + var(--scrollDepth) * 8px)
+      color-mix(
+        in oklab,
+        var(--category-accent),
+        transparent 55%
+      );
+
+  transition:
+    background-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+/* ======================================================
+   LIGHT THEME TUNING
+====================================================== */
+
+html[data-theme="light"] .viewport::-webkit-scrollbar-thumb {
+  background-color: color-mix(
+    in oklab,
+    var(--category-accent),
+    transparent 60%
+  );
+
+  box-shadow:
+    0 0 calc(3px + var(--scrollDepth) * 6px)
+      color-mix(
+        in oklab,
+        var(--category-accent),
+        transparent 65%
+      );
+}
+
+/* ======================================================
+   REDUCED MOTION
+====================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .viewport {
+    scroll-behavior: auto;
+  }
+
+  .viewport::-webkit-scrollbar-thumb {
+    box-shadow: none;
+  }
+}

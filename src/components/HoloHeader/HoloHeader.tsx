@@ -5,6 +5,7 @@ import styles from "./HoloHeader.module.css";
 import Breadcrumbs, {
   type BreadcrumbItem,
 } from "@/components/navigation/Breadcrumbs";
+import SystemBackArrow from "../navigation/SystemBackArrow";
 import type { SwapiType } from "@/components/types/swapi-types";
 
 export type HoloHeaderSize = "md" | "lg";
@@ -49,17 +50,7 @@ export default function HoloHeader({
       {/* ================= SYSTEM CONTEXT ROW ================= */}
       {(showBack || breadcrumbs) && (
         <div className={styles.context}>
-          {showBack && (
-            <button
-              type="button"
-              onClick={handleBack}
-              aria-label="Go back"
-              className={styles.back}
-            >
-              <span className={styles.backIcon}>←</span>
-              <span className={styles.backLabel}>Back</span>
-            </button>
-          )}
+          {showBack && <SystemBackArrow onClick={handleBack} />}
 
           {breadcrumbs && breadcrumbs.length > 0 && (
             <Breadcrumbs items={breadcrumbs} />

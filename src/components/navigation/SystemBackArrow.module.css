@@ -1,0 +1,53 @@
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+
+  color: var(--text-muted);
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+
+  transition: color 180ms ease;
+}
+
+.arrow {
+  fill: currentColor;
+  transform: translateY(0.5px); /* optical alignment */
+  opacity: 0.85;
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease;
+}
+
+.label {
+  line-height: 1;
+}
+
+/* Hover */
+.back:hover {
+  color: var(--text-primary);
+}
+
+.back:hover .arrow {
+  opacity: 1;
+  transform: translate(-2px, 0.5px);
+}
+
+/* Active / pressed */
+.back:active .arrow {
+  transform: translate(-3px, 0.5px);
+}
+
+/* Light theme tuning */
+:global(html[data-theme="light"]) .back {
+  color: var(--gray-600);
+}
+
+:global(html[data-theme="light"]) .back:hover {
+  color: var(--gray-900);
+}
