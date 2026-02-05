@@ -77,3 +77,11 @@ html[data-theme="light"] {
   --hover-ring: 0 0 0 1px var(--accent-glow);
   --active-ring: 0 0 0 1px currentColor;
 }
+
+html[data-theme="dark"] {
+  --carto-ink: rgba(45, 52, 60, 0.55);   /* neutral graphite */
+}
+
+html[data-theme="light"] {
+  --carto-ink: rgba(230, 235, 240, 0.9); /* neutral cool-white */
+}
