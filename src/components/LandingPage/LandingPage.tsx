@@ -19,7 +19,7 @@ export default function LandingPage() {
   useCategoryTheme("starships");
 
   return (
-    <PageWrapper category="starships">
+    <PageWrapper >
       <main className={styles.page}>
         {/* ================= HERO ================= */}
         <section className={styles.hero}>

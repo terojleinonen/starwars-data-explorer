@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'DeathStar';
+  src: url('/fonts/DeathStar-VmWB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /* ======================================================
    Global Reset + Defaults
 ====================================================== */
@@ -16,6 +22,7 @@ body {
   height: 100%;
   overflow-x: hidden;
 }
+
 
 /* ======================================================
    Root Theme Wiring + FALLBACKS
@@ -54,7 +61,14 @@ body {
 }
 
 /* Typography */
-h1,h2,h3,h4,h5,h6 { margin: 0; font-weight: 600; color: var(--text-primary); }
+h1 {
+  font-family: 'DeathStar', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+   color: #FFD700; /* classic Star Wars yellow */ 
+}
+
+h2,h3,h4,h5,h6 { margin: 0; font-weight: 600; color: var(--text-primary); }
 p { margin: 0; color: var(--text-secondary); }
 small { color: var(--text-muted); }
 

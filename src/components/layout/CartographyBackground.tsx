@@ -173,6 +173,7 @@ export default function CartographyBackground({ category }: Props) {
 
   return (
     <div ref={rootRef} className={styles.cartography} aria-hidden>
+      <div className={styles.starfield} />
       <svg
         viewBox="0 0 1440 1024"
         preserveAspectRatio="xMidYMid slice"
@@ -376,11 +377,6 @@ export default function CartographyBackground({ category }: Props) {
           <g className={styles.planetLarge}>
             <circle cx="1220" cy="860" r="420" fill="url(#schematicPlanet)" />
             <circle cx="1220" cy="860" r="420" className={styles.planetOutline} />
-          </g>
-
-          <g className={styles.planetMedium}>
-            <circle cx="1080" cy="240" r="240" fill="url(#schematicPlanet)" />
-            <circle cx="1080" cy="240" r="240" className={styles.planetOutline} />
           </g>
 
           <g className={styles.planetSmall}>

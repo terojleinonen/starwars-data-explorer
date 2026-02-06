@@ -90,11 +90,6 @@
   transform-origin: 88% 86%;
 }
 
-.planetMedium {
-  transform: translateY(var(--p-medium));
-  transform-origin: 76% 22%;
-}
-
 .planetSmall {
   transform: translateY(var(--p-small));
   transform-origin: 22% 18%;
@@ -129,10 +124,6 @@
     transform-origin: 94% 92%;
   }
 
-  .planetMedium {
-    transform-origin: 82% 26%;
-  }
-
   .planetSmall {
     transform-origin: 34% 22%;
   }
@@ -141,10 +132,6 @@
 @media (max-width: 640px) {
   .planetLarge {
     transform-origin: 98% 98%;
-  }
-
-  .planetMedium {
-    transform-origin: 88% 28%;
   }
 
   .planetSmall {
@@ -346,4 +333,29 @@
   .marker {
     animation: none;
   }
+}
+
+/* Add this NEW layer */
+
+.starfield {
+  position: absolute;
+  inset: 0;
+
+  background-image:
+    radial-gradient(2px 2px at 20px 30px, white, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 40px 70px, white, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 90px 40px, white, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 160px 80px, white, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 200px 200px, white, rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 300px 100px, white, rgba(0,0,0,0));
+
+  background-repeat: repeat;
+  background-size: 400px 400px;
+
+  z-index: -1;
+  pointer-events: none;
+}
+
+:global(html[data-theme="light"]) .starfield {
+  display: none;
 }

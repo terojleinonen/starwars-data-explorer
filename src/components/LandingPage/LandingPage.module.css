@@ -34,12 +34,13 @@
    TYPOGRAPHY
 ===================================================== */
 
+
 .title {
-  font-size: clamp(2.6rem, 5vw, 3.4rem);
-  font-weight: 650;
-  letter-spacing: -0.02em;
-  line-height: 1.05;
-  color: var(--text-primary);
+  font-size: clamp(2.6rem, 5vw, 3.4rem);  
+  font-weight: 650;  
+  text-align: center;
+  
+  line-height: 1.05; 
   margin-bottom: 1rem;
 }
 
