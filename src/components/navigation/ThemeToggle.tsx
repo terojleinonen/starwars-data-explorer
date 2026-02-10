@@ -1,6 +1,7 @@
 "use client";
 
 import { useTheme } from "@/theme/ThemeProvider";
+import { toggleHaptic } from "@/utils/haptics";
 
 export default function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();
@@ -10,7 +11,12 @@ export default function ThemeToggle() {
 
   return (
     <button
-      onClick={toggleTheme}
+      onClick={() => {
+        toggleHaptic();
+        toggleTheme();
+      }}
+      onTouchStart={toggleHaptic}
+      
       aria-label="Toggle theme"
       title="Toggle theme"
       style={{

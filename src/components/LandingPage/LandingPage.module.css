@@ -1,178 +1,31 @@
-/* =====================================================
-   PAGE
-   - No height ownership (PageWrapper owns viewport)
-   - One-screen composition on desktop
-===================================================== */
-
-.page {
-  position: relative;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* desktop vertical centering */
+/* New wrappers for parallax layers */
+.heroContent,
+.subtitleWrap,
+.categories {
+  will-change: transform;
+  transition: transform 0.1s linear;
 }
 
-/* =====================================================
-   HERO
-   - Acts as top anchor, not a tall block
-===================================================== */
-
-.hero {
-  position: relative;
-  display: grid;
-  place-items: center;
-  padding-top: clamp(3rem, 6vw, 4rem);
-  padding-bottom: 2rem;
-}
-
+/* Depth perception */
 .heroContent {
-  max-width: 960px;
-  text-align: center;
+  z-index: 3;
+  text-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
 }
 
-/* =====================================================
-   TYPOGRAPHY
-===================================================== */
-
-
-.title {
-  font-size: clamp(2.6rem, 5vw, 3.4rem);  
-  font-weight: 650;  
-  text-align: center;
-  
-  line-height: 1.05; 
-  margin-bottom: 1rem;
+.subtitleWrap {
+  z-index: 2;
 }
-
-.subtitle {
-  max-width: 56ch;
-  margin: 0 auto;
-  font-size: 1.05rem;
-  line-height: 1.6;
-  color: var(--text-secondary);
-}
-
-/* =====================================================
-   CATEGORIES GRID
-   - Visually part of hero scene
-   - 3×2 grid on desktop
-===================================================== */
 
 .categories {
-  margin-top: 2rem;
-
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.25rem;
+  z-index: 4;
+  filter: drop-shadow(0 18px 30px rgba(0, 0, 0, 0.2));
 }
 
-/* =====================================================
-   CATEGORY CARD
-===================================================== */
-
-.card {
-  position: relative;
-  text-decoration: none;
-  color: inherit;
-}
-
-.cardSurface {
-  height: 100%;
-  padding: 1.4rem 1.5rem;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 0.4rem;
-
-  background: var(--surface-glass);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-card);
-  -webkit-backdrop-filter: var(--blur-panel);
-  backdrop-filter: var(--blur-panel);
-  -webkit-backdrop-filter: var(--blur-panel);
-
-  box-shadow:
-    inset 0 0 0 1px rgba(255,255,255,0.04),
-    var(--shadow-panel);
-
-  transition:
-    transform 260ms ease,
-    box-shadow 260ms ease,
-    border-color 260ms ease;
-}
-
-.cardTitle {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.cardDesc {
-  font-size: 1.05rem;
-  font-weight: 520;
-  color: var(--text-primary);
-}
-
-/* Hover (desktop only) */
-@media (hover: hover) {
-  .cardSurface:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-hover);
-    border-color: var(--accent-soft);
-  }
-}
-
-/* =====================================================
-   FOOTER
-   - Subtle, not pushing layout
-===================================================== */
-
-.footer {
-  margin-top: 2.25rem;
-  text-align: center;
-  font-size: 0.85rem;
-  color: var(--text-muted);
-}
-
-/* =====================================================
-   RESPONSIVE
-===================================================== */
-
-@media (max-width: 1024px) {
-  .page {
-    justify-content: flex-start;
-  }
-
+@media (prefers-reduced-motion: reduce) {
+  .heroContent,
+  .subtitleWrap,
   .categories {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    margin-top: 2.5rem;
+    transform: none !important;
+    transition: none;
   }
-}
-
-@media (max-width: 640px) {
-  .hero {
-    padding-top: 4rem;
-    padding-bottom: 3rem;
-  }
-
-  .categories {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .title {
-    font-size: 2.2rem;
-  }
-}
-
-/* =====================================================
-   LIGHT MODE TUNING
-   - Let cartography do the heavy lifting
-===================================================== */
-
-:global(html[data-theme="light"]) .page {
-  justify-content: center;
 }

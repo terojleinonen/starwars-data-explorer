@@ -3,24 +3,20 @@
   top: 0;
   z-index: 50;
 
-  height: 56px; /* 🔒 LOCKED HEIGHT */
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  padding: 0 1.25rem;
-  background: var(--surface-glass);
-  -webkit-backdrop-filter: var(--blur-panel);
-  backdrop-filter: var(--blur-panel);
-  border-bottom: 1px solid var(--border-subtle);
-}
+  padding-inline: 24px;
 
-.brand {
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--text-primary);
-  text-decoration: none;
+  background: var(--surface-glass);
+  border-bottom: 1px solid var(--border-subtle);
+
+  will-change: transform, height, backdrop-filter;
+  transition:
+    transform 120ms linear,
+    height 120ms linear,
+    backdrop-filter 120ms linear;
 }
 
 .links {
@@ -41,175 +37,24 @@
   color: var(--text-primary);
 }
 
-.controls {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem; /* default tight spacing */
-  border-radius: 999px;
+.logo {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  will-change: transform;
+  transition: transform 120ms linear;
 }
 
-.menuButton {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.1rem;
-  color: var(--text-primary);
-  cursor: pointer;
+:global(html[data-theme="light"]) .nav {
+  background: rgba(255, 255, 255, 0.6);
+  border-bottom-color: rgba(0, 0, 0, 0.1);
 }
 
-.sheet{
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-}
-
-.breadcrumbs {
-  position: relative;
-  z-index: 5;
-}
-
-@media (hover: hover) {
-  .controls:hover {
-    background: var(--surface-glass);
+@media (prefers-reduced-motion: reduce) {
+  .nav,
+  .logo {
+    transform: none !important;
+    transition: none !important;
   }
 }
-/* ================= MOBILE ================= */
-
-@media (max-width: 900px) {
-  .links {
-    display: none; /* 🔑 critical */
-  }
-
-  .menuButton {
-    display: block;
-  }
-}
-
-.mobileToggle {
-  display: flex;
-  align-items: center;
-}
-
-/* Hide mobile toggle on desktop */
-@media (min-width: 1024px) {
-  .mobileToggle {
-    display: none;
-  }
-}
-
-@media (min-width: 1024px) {
-  .controls {
-    gap: 0.75rem;
-  }
-}
-
-@media (max-width: 1023px) {
-  .controls {
-    gap: 0.4rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .mobileToggle {
-    display: none;
-  }
-}
-
-/* =====================================================
-   HOVER
-===================================================== */
-
-@media (hover: hover) {
-  .link:hover {
-    color: var(--text-primary);
-    text-shadow:
-      0 0 6px
-      color-mix(
-        in oklab,
-        var(--category-accent),
-        transparent 60%
-      );
-  }
-}
-
-/* =====================================================
-   ACTIVE STATE
-===================================================== */
-
-.link[aria-current="page"] {
-  color: var(--text-primary);
-}
-
-/* active indicator */
-.link[aria-current="page"]::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -10px;
-
-  width: 70%;
-  height: 2px;
-  transform: translateX(-50%);
-
-  background: var(--category-accent);
-  border-radius: 2px;
-
-  animation: navIndicatorIn 260ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-@keyframes navIndicatorIn {
-  from {
-    opacity: 0;
-    transform: translateX(-50%) scaleX(0.6);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(-50%) scaleX(1);
-  }
-}
-
-/* =====================================================
-   ACTIVE + HOVER (INTENT REINFORCEMENT)
-===================================================== */
-
-@media (hover: hover) {
-  .link[aria-current="page"]:hover {
-    text-shadow:
-      0 0 8px
-      color-mix(
-        in oklab,
-        var(--category-accent),
-        transparent 50%
-      );
-  }
-}
-
-/* =====================================================
-   FOCUS (KEYBOARD)
-===================================================== */
-
-.link:focus-visible {
-  outline: none;
-}
-
-.link:focus-visible::before {
-  content: "";
-  position: absolute;
-  inset: -6px -8px;
-
-  border-radius: 6px;
-  box-shadow:
-    0 0 0 2px var(--accent-soft);
-}
-
-/* =====================================================
-   CATEGORY ACCENT MAPPING
-   (lives happily in CSS Modules)
-===================================================== */
-
-.link[data-category="films"]     { --category-accent: var(--accent-films); }
-.link[data-category="people"]    { --category-accent: var(--accent-people); }
-.link[data-category="planets"]   { --category-accent: var(--accent-planets); }
-.link[data-category="starships"] { --category-accent: var(--accent-starships); }
-.link[data-category="vehicles"]  { --category-accent: var(--accent-vehicles); }
-.link[data-category="species"]   { --category-accent: var(--accent-species); }

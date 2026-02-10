@@ -359,3 +359,261 @@
 :global(html[data-theme="light"]) .starfield {
   display: none;
 }
+
+/* ======================================================
+   SECTOR HEX GRID SYSTEM
+====================================================== */
+
+.hexGrid {
+  opacity: 0.18;
+  transition: opacity 0.4s ease;
+}
+
+.hexGridSmall {
+  opacity: 0.10;
+}
+
+/* Only visible on dark theme */
+:global(html[data-theme="light"]) .hexGrid,
+:global(html[data-theme="light"]) .hexGridSmall {
+  display: none;
+}
+
+/* Category tinted grids */
+.wrapper[data-category="people"] .hexGrid {
+  color: color-mix(in oklab, var(--accent-people) 70%, #ffffff);
+}
+
+.wrapper[data-category="planets"] .hexGrid {
+  color: color-mix(in oklab, var(--accent-planets) 70%, #ffffff);
+}
+
+.wrapper[data-category="films"] .hexGrid {
+  color: color-mix(in oklab, var(--accent-films) 70%, #ffffff);
+}
+
+.wrapper[data-category="starships"] .hexGrid {
+  color: color-mix(in oklab, var(--accent-starships) 70%, #ffffff);
+}
+
+.wrapper[data-category="vehicles"] .hexGrid {
+  color: color-mix(in oklab, var(--accent-vehicles) 70%, #ffffff);
+}
+
+.wrapper[data-category="species"] .hexGrid {
+  color: color-mix(in oklab, var(--accent-species) 70%, #ffffff);
+}
+
+/* Parallax tie-in */
+.hexGrid {
+  transform: translateY(var(--p-small));
+}
+
+.hexGridSmall {
+  transform: translateY(var(--p-medium));
+}
+
+.sectorHighlights {
+  color: var(--category-accent);
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+/* ======================================================
+   HYPERLANE SYSTEM
+====================================================== */
+
+.hyperlanes {
+  opacity: 0.55;
+  pointer-events: none;
+  transform: translateY(var(--p-medium));
+}
+
+.route {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.2;
+  stroke-dasharray: 6 8;
+  opacity: 0.6;
+}
+
+/* Moving traffic dots */
+.laneTraffic {
+  color: var(--category-accent);
+  filter: drop-shadow(0 0 4px currentColor);
+}
+
+/* Light theme adjustment */
+:global(html[data-theme="light"]) .hyperlanes {
+  opacity: 0.32;
+}
+
+:global(html[data-theme="light"]) .route {
+  stroke-width: 1;
+  opacity: 0.35;
+}
+
+.wrapper[data-category="people"] .hyperlanes {
+  color: var(--accent-people);
+}
+
+.wrapper[data-category="planets"] .hyperlanes {
+  color: var(--accent-planets);
+}
+
+.wrapper[data-category="films"] .hyperlanes {
+  color: var(--accent-films);
+}
+
+.wrapper[data-category="starships"] .hyperlanes {
+  color: var(--accent-starships);
+}
+
+.wrapper[data-category="vehicles"] .hyperlanes {
+  color: var(--accent-vehicles);
+}
+
+.wrapper[data-category="species"] .hyperlanes {
+  color: var(--accent-species);
+}
+
+/* ======================================================
+   RADAR SWEEP SYSTEM
+====================================================== */
+
+.radarSystem {
+  pointer-events: none;
+  opacity: 0.6;
+  transform: translateY(var(--p-small));
+}
+
+.sweepContainer {
+  transform-origin: 720px 512px;
+  animation: sweepRotate 22s linear infinite;
+}
+
+.sweep {
+  color: var(--category-accent);
+  mix-blend-mode: screen;
+}
+
+/* Dark theme – more luminous */
+:global(html[data-theme="dark"]) .radarSystem {
+  opacity: 0.65;
+}
+
+/* Light theme – more restrained */
+:global(html[data-theme="light"]) .radarSystem {
+  opacity: 0.22;
+  mix-blend-mode: multiply;
+}
+
+@keyframes sweepRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ======================================================
+   ACTIVE SECTORS SYSTEM
+====================================================== */
+
+.activeSectors {
+  pointer-events: none;
+  transform: translateY(var(--p-medium));
+  transition: opacity 400ms ease;
+}
+
+.activeSectors circle {
+  color: var(--category-accent);
+  mix-blend-mode: screen;
+}
+
+/* Gentle pulsing animation */
+.activeSectors circle:nth-child(1) {
+  animation: sectorPulse 8s ease-in-out infinite;
+}
+
+.activeSectors circle:nth-child(2) {
+  animation: sectorPulse 11s ease-in-out infinite reverse;
+}
+
+.activeSectors circle:nth-child(3) {
+  animation: sectorPulse 9s ease-in-out infinite 1s;
+}
+
+/* Light theme tuning */
+:global(html[data-theme="light"]) .activeSectors {
+  opacity: 0.28;
+  mix-blend-mode: multiply;
+}
+
+/* Dark theme tuning */
+:global(html[data-theme="dark"]) .activeSectors {
+  opacity: 0.48;
+}
+
+@keyframes sectorPulse {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.92);
+    opacity: 0.7;
+  }
+}
+
+/* Category-specific region placements */
+
+.sector-people circle:nth-child(1) {
+  transform-origin: 520px 340px;
+}
+
+.sector-planets circle:nth-child(1) {
+  transform-origin: 960px 420px;
+}
+
+.sector-films circle:nth-child(1) {
+  transform-origin: 720px 240px;
+}
+
+.sector-starships circle:nth-child(1) {
+  transform-origin: 840px 560px;
+}
+
+.sector-vehicles circle:nth-child(1) {
+  transform-origin: 440px 680px;
+}
+
+.sector-species circle:nth-child(1) {
+  transform-origin: 520px 480px;
+}
+
+.activeHighlight .sector {
+  opacity: 0.85;
+  transform: scale(1.08);
+}
+
+.dimmed {
+  opacity: 0.2;
+}
+
+.highlighted{
+  opacity: 1;
+  filter : drop-shadow(0 0 6px var(--category-accent));
+  transform: scale(1.05);
+  transition: all 260ms ease;
+}
+
+.dimmed {
+  opacity: 0.18;
+  transition: opacity 260ms ease;
+}

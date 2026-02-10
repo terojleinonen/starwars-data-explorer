@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { ReactNode, useEffect, useState } from "react";
+import { useAtmosphere } from "@/components/layout/AtmosphereContext";
 import styles from "./RouteTransition.module.css";
 
 type Props = {
@@ -12,6 +13,8 @@ export default function RouteTransition({ children }: Props) {
   const pathname = usePathname();
   const [displayPath, setDisplayPath] = useState(pathname);
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const { setActiveHighlight } = useAtmosphere();
+
 
   useEffect(() => {
     if (pathname === displayPath) return;
@@ -19,6 +22,7 @@ export default function RouteTransition({ children }: Props) {
     setIsTransitioning(true);
 
     const timeout = setTimeout(() => {
+      setActiveHighlight(null);
       setDisplayPath(pathname);
       setIsTransitioning(false);
     }, 220); // 👈 timing sweet spot

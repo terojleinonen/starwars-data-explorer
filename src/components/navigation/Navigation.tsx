@@ -1,15 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect} from "react";
 import { usePathname } from "next/navigation";
 import styles from "./Navigation.module.css";
 import ThemeToggle from "./ThemeToggle";
-import { useAtmosphere } from "@/components/layout/AtmosphereContext";
-import MobileNavSheet from "./MobileNavSheet";
 import type { SwapiType } from "@/components/types/swapi-types";
-import { createPortal } from "react-dom";
-import NavToggleButton from "./NavToggleButton";
+import { useNavParallax } from "@/hooks/useNavParallax";
 
 const CATEGORIES: { key: SwapiType; label: string }[] = [
   { key: "people", label: "People" },
@@ -22,32 +18,29 @@ const CATEGORIES: { key: SwapiType; label: string }[] = [
 
 export default function Navigation() {
   const pathname = usePathname();
-  const { setCategory } = useAtmosphere();
-  const [mobileOpen, setMobileOpen] = useState(false);
-
-  // Close menu on route change
-  useEffect(() => {
-    setMobileOpen(false);
-  }, [pathname]);
-
-  useEffect(() => {
-  if (mobileOpen) document.body.style.overflow = "hidden";
-  else document.body.style.overflow = "";
-  }, [mobileOpen]);
+  const progress = useNavParallax();
 
   return (
-    <nav className={styles.nav}>
-      {/* ================= BRAND ================= */}
+    <nav
+      className={styles.nav}
+      style={{
+        transform: `translateY(${progress * -6}px)`,
+        height: `${72 - progress * 12}px`,
+        backdropFilter: `blur(${6 + progress * 8}px)`,
+        WebkitBackdropFilter: `blur(${6 + progress * 8}px)`,
+      }}
+    >
       <Link
         href="/"
-        className={styles.brand}
         data-nav-label="Home"
-        onMouseEnter={() => setCategory(undefined)}
+        className={styles.logo}
+        style={{
+          transform: `scale(${1 - progress * 0.08})`,
+        }}
       >
         Galactic Archives
       </Link>
 
-      {/* ================= DESKTOP LINKS ================= */}
       <div className={styles.links}>
         {CATEGORIES.map((cat) => {
           const active = pathname.startsWith(`/${cat.key}`);
@@ -59,9 +52,6 @@ export default function Navigation() {
               className={`${styles.link} ${
                 active ? styles.active : ""
               }`}
-              data-nav-label={cat.label}
-              onMouseEnter={() => setCategory(cat.key)}
-              onFocus={() => setCategory(cat.key)}
             >
               {cat.label}
             </Link>
@@ -69,23 +59,7 @@ export default function Navigation() {
         })}
       </div>
 
-      {/* ================= CONTROLS ================= */}
-      <div className={styles.controls}>
-        <ThemeToggle />
-        <div className={styles.mobileToggle}>
-          <NavToggleButton
-            open={mobileOpen}
-            onToggle={() => setMobileOpen(!mobileOpen)}
-            />
-            {mobileOpen ? createPortal(
-              <MobileNavSheet
-                open={mobileOpen}
-                onClose={() => setMobileOpen(false)}
-                />,
-                document.body
-              ) : null} 
-          </div>
-        </div>    
+      <ThemeToggle />
     </nav>
   );
 }

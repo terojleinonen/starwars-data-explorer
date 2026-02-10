@@ -1,0 +1,29 @@
+.introWrapper {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-size: clamp(2.8rem, 6vw, 4rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.subtitle {
+  max-width: 60ch;
+  margin: 1rem auto 0 auto;
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+.systemTag {
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  color: var(--accent-primary);
+  opacity: 0.9;
+}

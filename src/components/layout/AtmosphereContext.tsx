@@ -8,13 +8,17 @@ import {
 } from "react";
 import type { SwapiType } from "@/components/types/swapi-types";
 
+
+
 /* ================= TYPES ================= */
 
-export type AtmosphereContextValue = {
-  category?: SwapiType;
-  setCategory: (category?: SwapiType) => void;
-};
+type AtmosphereContextValue = {
+  category: SwapiType | undefined;
+  setCategory: (c: SwapiType | undefined) => void;
 
+  activeHighlight: SwapiType | null;
+  setActiveHighlight: (c: SwapiType | null) => void;
+};
 /* ================= CONTEXT ================= */
 
 const AtmosphereContext =
@@ -31,11 +35,18 @@ export function AtmosphereProvider({
     undefined
   );
 
+  const [activeHighlight, setActiveHighlight] = useState<SwapiType | null>(
+    null
+  );
+
+
   return (
     <AtmosphereContext.Provider
       value={{
         category,
         setCategory,
+        activeHighlight,
+        setActiveHighlight,
       }}
     >
       {children}

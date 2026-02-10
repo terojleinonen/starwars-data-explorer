@@ -10,9 +10,6 @@ import HoloHeader from "@/components/HoloHeader/HoloHeader";
 import CategoryToolbar from "@/components/category/CategoryToolbar";
 import RecordGrid from "@/components/records/RecordGrid";
 import styles from "./CategoryPage.module.css";
-import Breadcrumbs from "../navigation/Breadcrumbs";
-import SystemBack from "../navigation/SystemBack";
-import { use, useEffect } from "react";
 
 /* -----------------------------------------------
    Types

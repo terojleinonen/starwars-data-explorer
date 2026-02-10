@@ -1,117 +1,93 @@
 "use client";
 
-import Link from "next/link";
-import PageWrapper from "@/components/layout/PageWrapper";
+import HoloCard from "@/components/cards/HoloCategoryCard";
+import HeroIntro from "@/components/landing/HeroIntro";
+import AnimatedCardGrid from "@/components/landing/AnimatedCardGrid";
+import AnimatedCard from "@/components/landing/AnimatedCard";
+import { useParallax } from "@/hooks/useParallax";
+
 import styles from "./LandingPage.module.css";
-
-import { useCategoryTheme } from "@/hooks/useCategoryTheme";
-
-/* =========================
-   Landing Page
-========================= */
+import PageWrapper from "../layout/PageWrapper";
 
 export default function LandingPage() {
-  /**
-   * Landing page uses a neutral, inviting atmosphere.
-   * We intentionally pick a real category to drive accents.
-   * Starships works best visually for first impression.
-   */
-  useCategoryTheme("starships");
+  const titleOffset = useParallax(0.18);
+  const cardsOffset = useParallax(0.32);
 
   return (
-    <PageWrapper >
-      <main className={styles.page}>
-        {/* ================= HERO ================= */}
-        <section className={styles.hero}>
-          <div className={styles.heroBackdrop} />
+    <div className={styles.page}>
+      <PageWrapper>
 
-          <div className={styles.heroContent}>
-            <h1 className={styles.title}>
-              Explore the Galactic Archive
-            </h1>
+      <section className={styles.hero}>
+        <div
+          className={styles.heroContent}
+          style={{
+            transform: `translateY(${titleOffset * -1}px)`
+          }}
+        >
+          <HeroIntro 
+            title="Your Gateway to the Star Wars Universe" 
+            subtitle="Browse characters, planets, starships and more from the Star Wars universe powered by SWAPI."
+          />
+        </div>
 
-            <p className={styles.subtitle}>
-              A curated, cinematic index of people, worlds,
-              vessels, and civilizations — presented as a
-              modern galactic navigation console.
-            </p>
-
-            {/* ================= CATEGORIES ================= */}
-            <div className={styles.categories}>
-              <CategoryCard
-                title="Films"
-                description="Cinematic records"
-                href="/films"
-              />
-
-              <CategoryCard
-                title="People"
-                description="Individuals & factions"
+        <div
+          className={styles.categories}
+          style={{
+            transform: `translateY(${cardsOffset * -1}px)`
+          }}
+        >
+          <AnimatedCardGrid>
+            <AnimatedCard >
+              <HoloCard 
+                title="People" 
+                subtitle="Individuals & factions" 
                 href="/people"
               />
+            </AnimatedCard>
 
-              <CategoryCard
-                title="Planets"
-                description="Worlds & environments"
+            <AnimatedCard >
+              <HoloCard 
+                title="Planets" 
+                subtitle="Worlds & environments" 
                 href="/planets"
               />
+            </AnimatedCard>
 
-              <CategoryCard
-                title="Starships"
-                description="Interstellar vessels"
+            <AnimatedCard >
+              <HoloCard 
+                title="Starships" 
+                subtitle="Interstellar vessels" 
                 href="/starships"
               />
+            </AnimatedCard>
 
-              <CategoryCard
-                title="Vehicles"
-                description="Ground & atmospheric transport"
-                href="/vehicles"
+            <AnimatedCard >
+              <HoloCard 
+                title="Films" 
+                subtitle="Cinematic records" 
+                href="/films"
               />
+            </AnimatedCard>
 
-              <CategoryCard
-                title="Species"
-                description="Biological classifications"
+            <AnimatedCard >
+              <HoloCard 
+                title="Species" 
+                subtitle="Biological classifications" 
                 href="/species"
               />
-            </div>
-          </div>
-        </section>
+            </AnimatedCard>
 
-        {/* ================= FOOTER ================= */}
-        <footer className={styles.footer}>
-          Built as a frontend systems showcase — with focus
-          on UX architecture, performance, and visual polish.
-        </footer>
-      </main>
-    </PageWrapper>
-  );
-}
-
-/* =========================
-   Category Card
-========================= */
-
-type CategoryCardProps = {
-  title: string;
-  description: string;
-  href: string;
-};
-
-function CategoryCard({
-  title,
-  description,
-  href,
-}: CategoryCardProps) {
-  return (
-    <Link href={href} className={styles.card}>
-      <div className={styles.cardSurface}>
-        <span className={styles.cardTitle}>
-          {title}
-        </span>
-        <span className={styles.cardDesc}>
-          {description}
-        </span>
-      </div>
-    </Link>
+            <AnimatedCard >
+              <HoloCard 
+                title="Vehicles" 
+                subtitle="Ground & atmospheric transport" 
+                href="/vehicles"
+              />
+            </AnimatedCard>
+          </AnimatedCardGrid>
+        </div>
+      </section>
+      </PageWrapper>
+    </div>
   );
 }

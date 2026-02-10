@@ -2,6 +2,7 @@
 
 import styles from "./CategoryToolbar.module.css";
 import type { SortKey } from "@/hooks/useRecordQuery";
+import { tapHaptic, toggleHaptic } from "@/utils/haptics";
 
 type Props = {
   query: string;
@@ -30,9 +31,11 @@ export default function CategoryToolbar({
       <select
         className={styles.sort}
         value={sortKey}
-        onChange={(e) =>
-          onSortChange(e.target.value as SortKey)
-        }
+        onChange={(e) => {
+          toggleHaptic();
+          onSortChange(e.target.value as SortKey);
+        }}
+        onTouchStart={tapHaptic}
         aria-label="Sort records"
       >
         <option value="name">Sort by name</option>

@@ -1,0 +1,197 @@
+.wrapper {
+  display: block;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  padding: 1.4rem;
+  border-radius: 10px;
+  overflow: hidden;
+
+  min-height: 120px;
+
+  transform-style: preserve-3d;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  --accent: 110, 160, 255; /* default */
+}
+
+.card[data-accent="people"]   { --accent: 110, 160, 255; }
+.card[data-accent="films"]    { --accent: 255, 190, 80; }
+.card[data-accent="planets"]  { --accent: 120, 220, 170; }
+.card[data-accent="starships"]{ --accent: 200, 160, 255; }
+.card[data-accent="vehicles"] { --accent: 255, 120, 120; }
+.card[data-accent="species"]  { --accent: 140, 200, 255; }
+
+/* BASE GLASS SURFACE */
+.surface {
+  position: absolute;
+  inset: 0;
+  background: rgba(20, 30, 40, 0.6);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  z-index: 1;
+}
+
+/* HOLOGRAPHIC FRAME */
+.frame {
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(var(--accent), 0.3);
+  border-radius: 10px;
+
+  box-shadow:
+    0 0 12px rgba(var(--accent), 0.1),
+    inset 0 0 10px rgba(var(--accent), 0.1);
+
+  z-index: 2;
+}
+
+/* MOVING SCANLINE */
+.scanline {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(var(--accent), 0.12) 50%,
+    transparent 100%
+  );
+
+  animation: scan 7s linear infinite;
+  opacity: 0.4;
+  z-index: 3;
+}
+
+@keyframes scan {
+  from { transform: translateY(-100%); }
+  to   { transform: translateY(100%); }
+}
+
+/* TEXT AREA */
+.content {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title {
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* HIDDEN INFO PANEL */
+.overlay {
+  position: absolute;
+  inset: 0;
+  padding: 1rem;
+
+  background: rgba(10, 15, 22, 0.85);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transition: opacity 0.25s ease;
+
+  z-index: 5;
+}
+
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
+/* CATEGORY GLYPH */
+.glyph {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+
+  width: 36px;
+  height: 36px;
+
+  opacity: 0.1;
+
+  border: 1px dashed rgba(var(--accent), 0.4);
+  border-radius: 50%;
+
+  z-index: 3;
+}
+
+/* GLOW */
+.glow {
+  position: absolute;
+  inset: 0;
+
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(var(--accent), 0.15),
+    transparent 70%
+  );
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  z-index: 2;
+}
+
+/* HOVER EFFECTS */
+.card:hover {
+  transform: translateY(-4px) scale(1.01);
+
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.4),
+    0 0 20px rgba(var(--accent), 0.2);
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card:hover .glow {
+  opacity: 1;
+}
+
+/* LIGHT THEME ADAPTATION */
+:global(html[data-theme="light"]) .surface {
+  background: rgba(240, 244, 248, 0.85);
+}
+
+:global(html[data-theme="light"]) .overlay {
+  background: rgba(255, 255, 255, 0.92);
+}
+
+:global(html[data-theme="light"]) .title,
+:global(html[data-theme="light"]) .subtitle {
+  color: #0f172a;
+}
+
+/* REDUCED MOTION */
+@media (prefers-reduced-motion: reduce) {
+  .scanline {
+    animation: none;
+  }
+}

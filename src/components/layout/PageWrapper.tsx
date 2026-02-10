@@ -1,6 +1,6 @@
 "use client";
 
-import CartographyBackground from "./CartographyBackground";
+import CartographyBackground from "../background/CartographyBackground";
 import AtmosphereLayer from "./AtmosphereLayer";
 import ScrollViewport from "./ScrollViewport";
 import styles from "./PageWrapper.module.css";
