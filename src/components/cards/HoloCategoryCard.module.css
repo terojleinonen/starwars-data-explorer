@@ -46,6 +46,7 @@
     inset 0 0 10px rgba(var(--accent), 0.1);
 
   z-index: 2;
+  transition: border-width 0.25s ease;
 }
 
 /* MOVING SCANLINE */
@@ -77,18 +78,22 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
+  align-items: center;
+  text-align: center;
 }
 
 .title {
   font-size: 0.9rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  color: rgb(var(--accent));
   opacity: 0.8;
 }
 
 .subtitle {
   font-size: 1rem;
   font-weight: 600;
+  color: rgb(var(--accent));
 }
 
 /* HIDDEN INFO PANEL */
@@ -167,6 +172,10 @@
     0 0 20px rgba(var(--accent), 0.2);
 }
 
+.card:hover .frame {
+  border-width: 2px;
+}
+
 .card:hover .overlay {
   opacity: 1;
 }
@@ -182,11 +191,6 @@
 
 :global(html[data-theme="light"]) .overlay {
   background: rgba(255, 255, 255, 0.92);
-}
-
-:global(html[data-theme="light"]) .title,
-:global(html[data-theme="light"]) .subtitle {
-  color: #0f172a;
 }
 
 /* REDUCED MOTION */

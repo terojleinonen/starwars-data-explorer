@@ -35,6 +35,7 @@ export default function HoloCategoryCard({
       >
         <article
           className={styles.card}
+          data-accent={title.toLowerCase()}
         >
           {/* GLASS SURFACE */}
           <div className={styles.surface} />

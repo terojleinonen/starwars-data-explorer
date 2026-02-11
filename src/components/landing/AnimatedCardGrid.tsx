@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import styles from "./AnimatedCardGrid.module.css";
 
 type Props = {
   children: React.ReactNode;
@@ -20,11 +21,7 @@ export default function AnimatedCardGrid({ children }: Props) {
           },
         },
       }}
-      style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
-        gap: "1.2rem",
-      }}
+      className={styles.cardGrid}
     >
       {children}
     </motion.div>

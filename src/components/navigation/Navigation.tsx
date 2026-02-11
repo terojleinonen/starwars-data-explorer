@@ -52,6 +52,10 @@ export default function Navigation() {
               className={`${styles.link} ${
                 active ? styles.active : ""
               }`}
+              style={{
+                borderBottomColor: `color-mix(in oklab, var(--category-accent), transparent ${60 - progress * 30}%)`
+              }}
+
             >
               {cat.label}
             </Link>

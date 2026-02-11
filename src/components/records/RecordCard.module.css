@@ -13,6 +13,7 @@
 ===================================================== */
 
 .card {
+  position: relative;
   text-decoration: none;
   color: inherit;
   display: block;
@@ -105,9 +106,98 @@
   opacity: 1;
 }
 
-/* =====================================================
-   SPECULAR GLINT
-===================================================== */
+/* ==============================================
+   SPECULAR GLINT SYSTEM
+============================================== */
+
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-card);
+
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      120px 120px at 12% 12%,
+      color-mix(in oklab, var(--category-accent), white 65%) 0%,
+      transparent 70%
+    );
+
+  opacity: 0;
+  mix-blend-mode: screen;
+
+  transition:
+    opacity 260ms ease,
+    transform 260ms ease;
+}
+
+.cardSurface {
+  position: relative;
+}
+
+.cardSurface::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-card);
+
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      80px 80px at 88% 86%,
+      color-mix(in oklab, var(--category-accent), white 75%) 0%,
+      transparent 65%
+    );
+
+  opacity: 0;
+
+  mix-blend-mode: screen;
+
+  transition:
+    opacity 240ms ease,
+    transform 240ms ease;
+}
+
+@media (hover: hover) {
+  .card:hover::after {
+    opacity: 0.22;
+    transform: scale(1.04);
+  }
+
+  .card:hover .cardSurface::before {
+    opacity: 0.18;
+    transform: scale(1.02);
+  }
+}
+
+:global(html[data-theme="light"]) .card::after {
+  mix-blend-mode: multiply;
+}
+
+:global(html[data-theme="light"]) .cardSurface::before {
+  mix-blend-mode: multiply;
+}
+
+@media (hover: hover) {
+  :global(html[data-theme="light"]) .card:hover::after {
+    opacity: 0.14;
+  }
+
+  :global(html[data-theme="light"]) .card:hover .cardSurface::before {
+    opacity: 0.12;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card::after,
+  .cardSurface::before {
+    transition: none;
+  }
+}
 
 .specular {
   position: absolute;
@@ -192,20 +282,21 @@
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-
+  
   color: var(--text-muted);
 }
 
 .title {
   font-size: 1.05rem;
   font-weight: 620;
-
+  transform: translateZ(18px);
   color: var(--text-primary);
   line-height: 1.2;
 }
 
 .subtitle {
   font-size: 0.95rem;
+  transform: translate(10px);
   color: var(--text-secondary);
   line-height: 1.35;
 }
@@ -262,5 +353,88 @@
 
   .wrapper:hover .sweep {
     animation: none;
+  }
+}
+
+/* ==============================================
+   RIM LIGHTING SYSTEM
+============================================== */
+
+/* base subtle rim */
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-card);
+
+  pointer-events: none;
+
+  /* ultra thin accent edge */
+  border: 1px solid
+    color-mix(in oklab, var(--category-accent), transparent 82%);
+
+  opacity: 0.6;
+
+  transition:
+    opacity 200ms ease,
+    border-color 200ms ease;
+}
+
+@media (hover: hover) {
+  .card:hover::before {
+    opacity: 1;
+
+    border-color:
+      color-mix(in oklab, var(--category-accent), transparent 55%);
+  }
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: calc(var(--radius-card) + 1px);
+
+  pointer-events: none;
+
+  background: linear-gradient(
+    120deg,
+    transparent 20%,
+    color-mix(in oklab, var(--category-accent), white 70%) 48%,
+    transparent 80%
+  );
+
+  opacity: 0;
+  mix-blend-mode: screen;
+
+  transition: opacity 240ms ease;
+}
+
+@media (hover: hover) {
+  .card:hover::after {
+    opacity: 0.18;
+  }
+}
+
+:global(html[data-theme="light"]) .card::before {
+  border-color:
+    color-mix(in oklab, var(--category-accent), transparent 88%);
+  opacity: 0.5;
+}
+
+:global(html[data-theme="light"]) .card::after {
+  mix-blend-mode: multiply;
+}
+
+@media (hover: hover) {
+  :global(html[data-theme="light"]) .card:hover::after {
+    opacity: 0.12;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card::before,
+  .card::after {
+    transition: none;
   }
 }

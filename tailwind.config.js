@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Inter", "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
-        starjedi: ["DeathStar", "sans-serif"],
+        orbitron: ["Orbitron", sans-serif]
       },
     },
   },

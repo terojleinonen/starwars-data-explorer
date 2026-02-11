@@ -1,9 +1,5 @@
-@font-face {
-  font-family: 'DeathStar';
-  src: url('/fonts/DeathStar-VmWB.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
 /* ======================================================
    Global Reset + Defaults
 ====================================================== */
@@ -30,7 +26,7 @@ body {
 
 :root {
   /* ✅ your tokens.css does not define these, so we provide fallbacks */
-  --bg-root: var(--gray-950);
+  --bg-root: var(--bg-deep, #05080c);
   --accent-soft: color-mix(in oklab, var(--category-accent, var(--accent-people)), transparent 70%);
 }
 
@@ -53,16 +49,12 @@ body {
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.45;
-
-  color: var(--text-primary);
-  background: transparent;
-
   overflow: hidden;
 }
 
 /* Typography */
 h1 {
-  font-family: 'DeathStar', sans-serif;
+  font-family: 'Orbitron', 'Rajdhani', system-ui, -apple-system, ans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
    color: #FFD700; /* classic Star Wars yellow */ 
@@ -110,4 +102,9 @@ button {
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
+}
+
+html[data-theme="light"] .cartography {
+  filter: contrast(1.06) brightness(0.97);
+  mix-blend-mode: multiply;
 }

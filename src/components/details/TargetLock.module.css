@@ -1,0 +1,26 @@
+.lock {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 80px;
+  height: 80px;
+  pointer-events: none;
+  opacity: 0.75;
+}
+
+.reticle {
+  stroke: var(--category-accent);
+  fill: none;
+  stroke-width: 2;
+  animation: pulse 1.8s infinite;
+}
+
+.dot {
+  fill: var(--category-accent);
+}
+
+@keyframes pulse {
+  0% { r: 20; opacity: 0.2; }
+  50% { r: 28; opacity: 0.8; }
+  100% { r: 20; opacity: 0.2; }
+}

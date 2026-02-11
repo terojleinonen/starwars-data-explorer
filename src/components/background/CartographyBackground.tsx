@@ -86,6 +86,7 @@ export default function CartographyBackground({ category }: Props) {
       ) : (
         <CartographySvgLight category={category} device={device} />
       )}
+      <div className={styles.starfield} />
     </div>
   );
 }

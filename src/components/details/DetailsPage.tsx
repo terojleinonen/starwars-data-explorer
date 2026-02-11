@@ -11,6 +11,7 @@ import DetailsTabs from "./DetailsTabs";
 import RelatedRail from "./RelatedRail";
 import RelatedPanel from "./RelatedPanel";
 import RecentPanel from "../navigation/RecentPanel";
+import TargetLock from "./TargetLock";
 
 import {
   getRecordMetaFromItem,
@@ -67,7 +68,8 @@ export default function DetailsPage({ category, data }: Props) {
             { label: category, href: `/${category}` },
             { label: meta.title, href: `/${category}/${meta.id}` },
           ]}      
-         />  
+         />
+         <TargetLock />       
 
         {typeof data.opening_crawl === "string" && (
           <OpeningCrawl text={data.opening_crawl} />

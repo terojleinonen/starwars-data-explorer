@@ -1,619 +1,202 @@
-/* ======================================================
-   ROOT
-====================================================== */
+/* =====================================================
+   ROOT LAYER
+===================================================== */
 
 .cartography {
   position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  color: var(--carto-ink);
+
+  color: var(--carto-ink, #cdd4e0);
+
+  /* BASE DARK SPACE BACKGROUND */
+  background: radial-gradient(
+    ellipse at center,
+    #080d18 0%,
+    #03050a 100%
+  );
+}
+
+/* CSS STARFIELD OVERLAY – CRITICAL MISSING PIECE */
+.starfield {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 60% 70%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 80% 20%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 40% 80%, rgba(255,255,255,0.9), transparent);
+  background-size: 300px 300px;
+  opacity: 0.25;
+  mix-blend-mode: screen;
+  pointer-events: none;
 }
 
 .svg {
   width: 100%;
   height: 100%;
   display: block;
+  background: transparent;   /* DO NOT color the SVG itself */
 }
 
-/* ======================================================
-   LIGHT THEME – REBEL MAP MODE
-====================================================== */
-
-:global(html[data-theme="light"]) .cartography {
-  --carto-ink: #2b2f33;
-  background:
-    radial-gradient(circle at 70% 60%, #e8e6df 0%, transparent 70%),
-    radial-gradient(circle at 30% 40%, #eeece6 0%, transparent 60%),
-    #f2f1eb;
-}
-
-/* ======================================================
-   STARS AS CHART POINTS
-====================================================== */
-
-.chartStars {
-  fill: currentColor;
-  opacity: 0.36;
-}
-
-:global(html[data-theme="light"]) .chartStars {
-  fill: #2d3237;
-  opacity: 0.22;
-}
-
-/* ======================================================
-   ORBIT LINES – TECHNICAL
-====================================================== */
-
-.orbits {
-  opacity: 0.22;
-}
-
-:global(html[data-theme="light"]) .orbits {
-  opacity: 0.34;
-  color: #3a3e44;
-}
-
-/* ======================================================
-   PAPER SMUDGES – ANALOG FEEL
-====================================================== */
-
-.paperLayer {
-  mix-blend-mode: multiply;
-  opacity: 0.32;
-  color: #6e747b;
-}
-
-:global(html[data-theme="light"]) .paperLayer {
-  opacity: 0.26;
-  color: #8c8f93;
-}
-
-/* ======================================================
-   PLANETS – SCHEMATIC LINE ART
-====================================================== */
-
-.planets {
-  pointer-events: none;
-}
-
-.planetOutline {
-  stroke: currentColor;
-  stroke-width: 1.2;
-  fill: none;
-  opacity: 0.6;
-}
-
-.planetLarge {
-  transform: translateY(var(--p-large));
-  transform-origin: 88% 86%;
-}
-
-.planetSmall {
-  transform: translateY(var(--p-small));
-  transform-origin: 22% 18%;
-}
-
-/* Light theme schematic planets */
-:global(html[data-theme="light"]) .planetOutline {
-  stroke: #3b3f44;
-  opacity: 0.72;
-}
-
-/* ======================================================
-   CONSTELLATIONS – TECHNICAL BLUEPRINT LINES
-====================================================== */
-
-.constellation {
-  opacity: 0.68;
-  color: #2f3439;
-}
-
-:global(html[data-theme="light"]) .constellation {
-  opacity: 0.56;
-  color: #2c3035;
-}
-
-/* ======================================================
-   RESPONSIVE TUNING
-====================================================== */
-
-@media (max-width: 900px) {
-  .planetLarge {
-    transform-origin: 94% 92%;
-  }
-
-  .planetSmall {
-    transform-origin: 34% 22%;
-  }
-}
-
-@media (max-width: 640px) {
-  .planetLarge {
-    transform-origin: 98% 98%;
-  }
-
-  .planetSmall {
-    transform-origin: 42% 24%;
-  }
-}
-
-/* ======================================================
-   REDUCED MOTION
-====================================================== */
-
-@media (prefers-reduced-motion: reduce) {
-  .planetLarge,
-  .planetMedium,
-  .planetSmall {
-    transform: none;
-  }
-}
-
-/* ======================================================
-   BLUEPRINT GRID SYSTEM
-====================================================== */
-
-.blueprintGrid {
-  display: none;
-}
-
-.blueprintTicks {
-  display: none;
-}
-
-/* Light theme only – blueprint mode */
-:global(html[data-theme="light"]) .blueprintGrid {
-  display: block;
-  opacity: 0.24;
-  color: #3b4045;
-  mix-blend-mode: multiply;
-}
-
-:global(html[data-theme="light"]) .blueprintTicks {
-  display: block;
-  opacity: 0.18;
-  color: #2f3338;
-  mix-blend-mode: multiply;
-}
-
-:global(html[data-theme="light"]) .cartography {
-  background:
-    repeating-linear-gradient(
-      0deg,
-      rgba(60, 64, 70, 0.03) 0px,
-      rgba(60, 64, 70, 0.03) 1px,
-      transparent 1px,
-      transparent 120px
-    ),
-    radial-gradient(circle at 70% 60%, #e8e6df 0%, transparent 70%),
-    radial-gradient(circle at 30% 40%, #eeece6 0%, transparent 60%),
-    #f2f1eb;
-}
-
-/* ======================================================
-   COORDINATE LABEL SYSTEM
-====================================================== */
-
-.coordinates {
-  display: none;
-}
-
-/* Light theme only */
-:global(html[data-theme="light"]) .coordinates {
-  display: block;
-  opacity: 0.55;
-  color: #2e3338;
-  mix-blend-mode: multiply;
-}
-
-/* Make them softer on small screens */
-@media (max-width: 900px) {
-  :global(html[data-theme="light"]) .coordinates {
-    opacity: 0.38;
-  }
-}
-
-@media (max-width: 600px) {
-  :global(html[data-theme="light"]) .coordinates {
-    display: none; /* avoid clutter on phones */
-  }
-}
-
-/* ======================================================
-   SCANNING CURSOR
-====================================================== */
-
-.scanner {
-  display: none;
-}
-
-/* Light theme only */
-:global(html[data-theme="light"]) .scanner {
-  display: block;
-
-  color: #2b3238;
-
-  opacity: 0.42;
-
-  animation: scan 14s linear infinite;
-
-  mix-blend-mode: multiply;
-}
-
-@keyframes scan {
-  0% {
-    transform: translateX(-160px);
-  }
-  100% {
-    transform: translateX(1600px);
-  }
-}
-
-/* Softer on tablets */
-@media (max-width: 900px) {
-  :global(html[data-theme="light"]) .scanner {
-    opacity: 0.28;
-    animation-duration: 18s;
-  }
-}
-
-/* Disabled on phones to avoid clutter */
-@media (max-width: 640px) {
-  :global(html[data-theme="light"]) .scanner {
-    display: none;
-  }
-}
-
-/* ======================================================
-   SECTOR MARKERS
-====================================================== */
-
-.sectorMarkers {
-  pointer-events: none;
-  color: var(--category-accent);
-  opacity: 0.72;
-  transition: opacity 400ms ease, color 400ms ease;
-}
-
-.marker {
-  animation: pulse 5s ease-in-out infinite;
-  transform-origin: center;
-}
-
-/* stagger the pulses */
-.marker:nth-child(2) {
-  animation-delay: 1.2s;
-}
-
-.marker:nth-child(3) {
-  animation-delay: 2.4s;
-}
-
-.marker:nth-child(4) {
-  animation-delay: 3.6s;
-}
-
-@keyframes pulse {
-  0% {
-    opacity: 0.55;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.95;
-    transform: scale(1.12);
-  }
-  100% {
-    opacity: 0.55;
-    transform: scale(1);
-  }
-}
-
-/* LIGHT THEME TUNING */
-:global(html[data-theme="light"]) .sectorMarkers {
-  opacity: 0.48;
-}
-
-/* MOBILE SAFETY */
-@media (max-width: 900px) {
-  .sectorMarkers {
-    opacity: 0.38;
-  }
-}
-
-@media (max-width: 640px) {
-  .sectorMarkers {
-    display: none; /* avoid clutter on small screens */
-  }
-}
-
-/* REDUCED MOTION */
-@media (prefers-reduced-motion: reduce) {
-  .marker {
-    animation: none;
-  }
-}
-
-/* Add this NEW layer */
-
-.starfield {
-  position: absolute;
-  inset: 0;
-
-  background-image:
-    radial-gradient(2px 2px at 20px 30px, white, rgba(0,0,0,0)),
-    radial-gradient(2px 2px at 40px 70px, white, rgba(0,0,0,0)),
-    radial-gradient(2px 2px at 90px 40px, white, rgba(0,0,0,0)),
-    radial-gradient(2px 2px at 160px 80px, white, rgba(0,0,0,0)),
-    radial-gradient(2px 2px at 200px 200px, white, rgba(0,0,0,0)),
-    radial-gradient(2px 2px at 300px 100px, white, rgba(0,0,0,0));
-
-  background-repeat: repeat;
-  background-size: 400px 400px;
-
-  z-index: -1;
-  pointer-events: none;
-}
-
-:global(html[data-theme="light"]) .starfield {
-  display: none;
-}
-
-/* ======================================================
-   SECTOR HEX GRID SYSTEM
-====================================================== */
-
-.hexGrid {
-  opacity: 0.18;
-  transition: opacity 0.4s ease;
-}
-
-.hexGridSmall {
-  opacity: 0.10;
-}
-
-/* Only visible on dark theme */
-:global(html[data-theme="light"]) .hexGrid,
-:global(html[data-theme="light"]) .hexGridSmall {
-  display: none;
-}
-
-/* Category tinted grids */
-.wrapper[data-category="people"] .hexGrid {
-  color: color-mix(in oklab, var(--accent-people) 70%, #ffffff);
-}
-
-.wrapper[data-category="planets"] .hexGrid {
-  color: color-mix(in oklab, var(--accent-planets) 70%, #ffffff);
-}
-
-.wrapper[data-category="films"] .hexGrid {
-  color: color-mix(in oklab, var(--accent-films) 70%, #ffffff);
-}
-
-.wrapper[data-category="starships"] .hexGrid {
-  color: color-mix(in oklab, var(--accent-starships) 70%, #ffffff);
-}
-
-.wrapper[data-category="vehicles"] .hexGrid {
-  color: color-mix(in oklab, var(--accent-vehicles) 70%, #ffffff);
-}
-
-.wrapper[data-category="species"] .hexGrid {
-  color: color-mix(in oklab, var(--accent-species) 70%, #ffffff);
-}
-
-/* Parallax tie-in */
-.hexGrid {
-  transform: translateY(var(--p-small));
-}
-
-.hexGridSmall {
-  transform: translateY(var(--p-medium));
-}
-
-.sectorHighlights {
-  color: var(--category-accent);
-  opacity: 0.25;
-  pointer-events: none;
-}
-
-/* ======================================================
-   HYPERLANE SYSTEM
-====================================================== */
-
-.hyperlanes {
-  opacity: 0.55;
-  pointer-events: none;
-  transform: translateY(var(--p-medium));
-}
-
-.route {
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.2;
-  stroke-dasharray: 6 8;
-  opacity: 0.6;
-}
-
-/* Moving traffic dots */
-.laneTraffic {
-  color: var(--category-accent);
-  filter: drop-shadow(0 0 4px currentColor);
-}
-
-/* Light theme adjustment */
-:global(html[data-theme="light"]) .hyperlanes {
-  opacity: 0.32;
-}
-
-:global(html[data-theme="light"]) .route {
-  stroke-width: 1;
+/* =====================================================
+   STAR FIELD SYSTEM (SVG PATTERNS)
+===================================================== */
+
+.starsFar {
   opacity: 0.35;
+  color: #6f7a8a;
 }
 
-.wrapper[data-category="people"] .hyperlanes {
-  color: var(--accent-people);
+.starsMid {
+  opacity: 0.55;
+  color: #9aa6b6;
 }
 
-.wrapper[data-category="planets"] .hyperlanes {
-  color: var(--accent-planets);
+.starsNear {
+  opacity: 0.75;
+  color: #cdd4e0;
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.25));
 }
 
-.wrapper[data-category="films"] .hyperlanes {
-  color: var(--accent-films);
+/* =====================================================
+   HEX GRID SYSTEM
+===================================================== */
+
+.hexGrid {
+  opacity: 0.12;
 }
 
-.wrapper[data-category="starships"] .hyperlanes {
-  color: var(--accent-starships);
+.hexGridSmall {
+  opacity: 0.08;
 }
 
-.wrapper[data-category="vehicles"] .hyperlanes {
-  color: var(--accent-vehicles);
-}
-
-.wrapper[data-category="species"] .hyperlanes {
-  color: var(--accent-species);
-}
-
-/* ======================================================
+/* =====================================================
    RADAR SWEEP SYSTEM
-====================================================== */
+===================================================== */
 
 .radarSystem {
   pointer-events: none;
-  opacity: 0.6;
-  transform: translateY(var(--p-small));
-}
-
-.sweepContainer {
-  transform-origin: 720px 512px;
-  animation: sweepRotate 22s linear infinite;
+  opacity: 0.45;
+  mix-blend-mode: screen;
 }
 
 .sweep {
-  color: var(--category-accent);
-  mix-blend-mode: screen;
+  transform-origin: 50% 50%;
+  animation: radarRotate 20s linear infinite;
 }
 
-/* Dark theme – more luminous */
-:global(html[data-theme="dark"]) .radarSystem {
-  opacity: 0.65;
+@keyframes radarRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
-/* Light theme – more restrained */
-:global(html[data-theme="light"]) .radarSystem {
-  opacity: 0.22;
-  mix-blend-mode: multiply;
-}
+/* =====================================================
+   SECTOR MARKERS
+===================================================== */
 
-@keyframes sweepRotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* ======================================================
-   ACTIVE SECTORS SYSTEM
-====================================================== */
-
-.activeSectors {
+.sectorMarkers {
   pointer-events: none;
-  transform: translateY(var(--p-medium));
-  transition: opacity 400ms ease;
 }
 
-.activeSectors circle {
-  color: var(--category-accent);
+.marker {
+  transform-origin: center;
+  animation: markerPulse 4s ease-in-out infinite;
+}
+
+@keyframes markerPulse {
+  0% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.25); }
+  100% { opacity: 0.6; transform: scale(1); }
+}
+
+/* =====================================================
+   PLANET SYSTEM
+===================================================== */
+
+.planetLarge {
+  opacity: 0.85;
   mix-blend-mode: screen;
 }
 
-/* Gentle pulsing animation */
-.activeSectors circle:nth-child(1) {
-  animation: sectorPulse 8s ease-in-out infinite;
+/* =====================================================
+   CONSTELLATIONS
+===================================================== */
+
+.constellation {
+  opacity: 0.72;
+  transition: opacity 400ms ease;
+  mix-blend-mode: screen;
 }
 
-.activeSectors circle:nth-child(2) {
-  animation: sectorPulse 11s ease-in-out infinite reverse;
+/* =====================================================
+   ACTIVE CATEGORY HIGHLIGHTING
+===================================================== */
+
+.highlighted {
+  opacity: 1;
+  transition: opacity 300ms ease;
 }
 
-.activeSectors circle:nth-child(3) {
-  animation: sectorPulse 9s ease-in-out infinite 1s;
+.dimmed {
+  opacity: 0.25;
+  transition: opacity 300ms ease;
 }
 
-/* Light theme tuning */
-:global(html[data-theme="light"]) .activeSectors {
-  opacity: 0.28;
+/* =====================================================
+   PERFORMANCE / REDUCED MOTION
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .sweep { animation: none; }
+  .marker { animation: none; }
+  .constellation { transition: none; }
+}
+
+/* =====================================================
+   RESPONSIVE TUNING
+===================================================== */
+
+@media (max-width: 1024px) {
+  .hexGrid { opacity: 0.09; }
+  .starsNear { opacity: 0.65; }
+  .radarSystem { opacity: 0.35; }
+}
+
+@media (max-width: 640px) {
+  .hexGrid { opacity: 0.06; }
+  .hexGridSmall { opacity: 0.05; }
+
+  .starsNear { opacity: 0.55; }
+  .starsMid { opacity: 0.45; }
+
+  .radarSystem { opacity: 0.25; }
+
+  .constellation { opacity: 0.55; }
+}
+
+/* =====================================================
+   LIGHT THEME OVERRIDES
+===================================================== */
+
+:global(html[data-theme="light"]) .cartography {
+  background: radial-gradient(
+    ellipse at center,
+    #e6ebf2 0%,
+    #cfd6e0 100%
+  );
+}
+
+:global(html[data-theme="light"]) .starfield {
+  opacity: 0.12;
   mix-blend-mode: multiply;
 }
 
-/* Dark theme tuning */
-:global(html[data-theme="dark"]) .activeSectors {
-  opacity: 0.48;
-}
-
-@keyframes sectorPulse {
-  0% {
-    transform: scale(0.92);
-    opacity: 0.7;
-  }
-  50% {
-    transform: scale(1.05);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(0.92);
-    opacity: 0.7;
-  }
-}
-
-/* Category-specific region placements */
-
-.sector-people circle:nth-child(1) {
-  transform-origin: 520px 340px;
-}
-
-.sector-planets circle:nth-child(1) {
-  transform-origin: 960px 420px;
-}
-
-.sector-films circle:nth-child(1) {
-  transform-origin: 720px 240px;
-}
-
-.sector-starships circle:nth-child(1) {
-  transform-origin: 840px 560px;
-}
-
-.sector-vehicles circle:nth-child(1) {
-  transform-origin: 440px 680px;
-}
-
-.sector-species circle:nth-child(1) {
-  transform-origin: 520px 480px;
-}
-
-.activeHighlight .sector {
-  opacity: 0.85;
-  transform: scale(1.08);
-}
-
-.dimmed {
-  opacity: 0.2;
-}
-
-.highlighted{
-  opacity: 1;
-  filter : drop-shadow(0 0 6px var(--category-accent));
-  transform: scale(1.05);
-  transition: all 260ms ease;
-}
-
-.dimmed {
+:global(html[data-theme="light"]) .hexGrid {
   opacity: 0.18;
-  transition: opacity 260ms ease;
+}
+
+:global(html[data-theme="light"]) .radarSystem {
+  opacity: 0.2;
 }
