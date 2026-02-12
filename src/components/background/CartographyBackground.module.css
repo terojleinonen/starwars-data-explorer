@@ -9,7 +9,7 @@
   z-index: 0;
 
   /* Prevent accent color bleed */
-  color: var(--carto-ink, #cdd4e0);
+  color: var(--carto-ink, #000000);
 }
 
 .svg {
@@ -20,26 +20,12 @@
 }
 
 
-/* =====================================================
-   STAR FIELD SYSTEM
-===================================================== */
-
-.starsFar {
-  opacity: 0.35;
-  fill: #6f7a8a;
+.stars {
+  mix-blend-mode: screen;
 }
 
-.starsMid {
-  opacity: 0.55;
-  fill: #9aa6b6;
-}
 
-.starsNear {
-  opacity: 0.75;
-  fill: #cdd4e0;
 
-  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.25));
-}
 
 
 /* =====================================================
@@ -52,7 +38,7 @@
 
 .planetLarge,
 .planetSmall {
-  mix-blend-mode: screen;
+  mix-blend-mode: normal;
   transition: filter 300ms ease;
 }
 
@@ -81,8 +67,6 @@
 
   transition: opacity 0.6s ease-out;
   opacity: var(--nova-pulse, 0);
-
-  filter: drop-shadow(0 0 20px rgba(255,255,255,0.6));
 }
 
 
@@ -97,8 +81,7 @@
 
   stroke-linecap: round;
 
-  animation: shooting 2.5s ease-out forwards;
-  filter: drop-shadow(0 0 6px white);
+  animation: shooting 2.5s ease-out infinite;
 }
 
 @keyframes shooting {
@@ -121,9 +104,7 @@
   fill: white;
   opacity: 0.8;
 
-  filter: drop-shadow(0 0 3px white);
-
-  animation: satelliteFly 8s linear forwards;
+  animation: satelliteFly 8s linear infinite;
 }
 
 @keyframes satelliteFly {
@@ -245,15 +226,8 @@
 ===================================================== */
 
 :global(html[data-theme="dark"]) .cartography {
-  color: #cdd4e0;
-}
-
-:global(html[data-theme="dark"]) .svg {
-  background: radial-gradient(
-    ellipse at center,
-    #080d18 0%,
-    #03050a 100%
-  );
+  /* map ink, NOT star ink*/
+  color: #7e879c;
 }
 
 :global(html[data-theme="light"]) .cartography {

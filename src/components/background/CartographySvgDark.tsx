@@ -64,33 +64,59 @@ export default function CartographySvgDark({ category, device }: Props) {
 
   const [novaPos, setNovaPos] = useState<[number, number] | null>(null);
   const [novaPulse, setNovaPulse] = useState(0);
+  const [stars, setStars] = useState<React.ReactNode[]>([]);
 
   const markers = MARKER_LAYOUTS[device][category ?? "people"] ?? [];
   const constellationId = `cons-${category ?? "people"}`;
+
+  /* ======================================================
+     STARFIELD SYSTEM
+  ====================================================== */
+
+  useEffect(() => {
+    let starLayers: React.ReactNode[] = [];
+    if (device === "desktop") {
+      starLayers = [
+        genarateStars(150, 0.2),
+        genarateStars(70, 0.4),
+        genarateStars(30, 0.8),
+      ].flat();
+    } else if (device === "tablet") {
+      starLayers = [genarateStars(100, 0.2), genarateStars(40, 0.4)].flat();
+    } else {
+      starLayers = [genarateStars(50, 0.3)].flat();
+    }
+    setStars(starLayers);
+  }, [device]);
 
   /* ======================================================
      SUPERNOVA SYSTEM
   ====================================================== */
 
   useEffect(() => {
+    if (device === "mobile") return;
+
     const scheduleNova = () => {
       setNovaPos(randomPosition());
       setNovaPulse(1);
 
       setTimeout(() => setNovaPulse(0), 1200);
 
-      const next = 8000 + Math.random() * 7000;
+      const next = 15000 + Math.random() * 10000; // Less frequent
       setTimeout(scheduleNova, next);
     };
 
-    scheduleNova();
-  }, []);
+    const timeoutId = setTimeout(scheduleNova, 5000);
+    return () => clearTimeout(timeoutId);
+  }, [device]);
 
   /* ======================================================
      REACTIVE LIGHTING
   ====================================================== */
 
   useEffect(() => {
+    if (device === "mobile") return;
+
     const root = rootRef.current;
     const large = largePlanetRef.current;
     const small = smallPlanetRef.current;
@@ -116,22 +142,51 @@ export default function CartographySvgDark({ category, device }: Props) {
     root.style.setProperty("--nova-small-angle", `${smallAngle}deg`);
     root.style.setProperty("--nova-large-influence", String(influenceLarge));
     root.style.setProperty("--nova-small-influence", String(influenceSmall));
-  }, [novaPos, novaPulse]);
+  }, [novaPos, novaPulse, device]);
 
   /* ======================================================
      SHOOTING STARS
   ====================================================== */
 
   const [shooters, setShooters] = useState<number[]>([]);
+  const [shootingStars, setShootingStars] = useState<React.ReactNode[]>([]);
+  const [satelliteFlybys, setSatelliteFlybys] = useState<React.ReactNode[]>([]);
 
   useEffect(() => {
-    const id = setInterval(() => {
-      setShooters((s) => [...s, Date.now()]);
-      setTimeout(() => setShooters((s) => s.slice(1)), 3000);
-    }, 7000 + Math.random() * 4000);
+    const numShootingStars =
+      device === "desktop" ? 5 : device === "tablet" ? 2 : 0;
+    const newShootingStars = [];
+    for (let i = 0; i < numShootingStars; i++) {
+      newShootingStars.push(
+        <line
+          key={`shooter-${i}`}
+          x1="0"
+          y1={Math.random() * 1024}
+          x2="1440"
+          y2={Math.random() * 1024}
+          className={styles.shootingStar}
+          style={{ animationDelay: `${Math.random() * 10}s` }}
+        />
+      );
+    }
+    setShootingStars(newShootingStars);
 
-    return () => clearInterval(id);
-  }, []);
+    const numSatellites = device === "desktop" ? 3 : device === "tablet" ? 1 : 0;
+    const newSatellites = [];
+    for (let i = 0; i < numSatellites; i++) {
+      newSatellites.push(
+        <circle
+          key={`satellite-${i}`}
+          cx="0"
+          cy={200 + Math.random() * 600}
+          r="2"
+          className={styles.satellite}
+          style={{ animationDelay: `${Math.random() * 20}s` }}
+        />
+      );
+    }
+    setSatelliteFlybys(newSatellites);
+  }, [device]);
 
   /* ======================================================
      SATELLITE FLYBYS
@@ -139,14 +194,30 @@ export default function CartographySvgDark({ category, device }: Props) {
 
   const [satellites, setSatellites] = useState<number[]>([]);
 
-  useEffect(() => {
-    const id = setInterval(() => {
-      setSatellites((s) => [...s, Date.now()]);
-      setTimeout(() => setSatellites((s) => s.slice(1)), 9000);
-    }, 14000 + Math.random() * 8000);
+  function genarateStars(count: number, opacity: number) {
+    const stars = [];
 
-    return () => clearInterval(id);
-  }, []);
+    for (let i = 0; i < count; i++) {
+      const y = Math.random() * 1024;
+      const x = Math.random() * 1440;
+      const size = Math.random() * 1.4 + 0.3;
+
+      stars.push(
+        <use
+          key={`star-${i}-${opacity}`}
+          href="#star"
+          x={x}
+          y={y}
+          width={size}
+          height={size}
+          opacity={opacity * (Math.random() * 0.5 + 0.5)}
+        />
+      );
+    }
+
+    return stars;
+  }
+
 
   return (
     <svg
@@ -156,23 +227,12 @@ export default function CartographySvgDark({ category, device }: Props) {
       className={styles.svg}
     >
       <defs>
-        {/* Star layers */}
-        <pattern id="stars-near" width="240" height="240" patternUnits="userSpaceOnUse">
-          <circle cx="40" cy="60" r="1.4" />
-          <circle cx="180" cy="120" r="1.2" />
-          <circle cx="90" cy="200" r="1.0" />
-        </pattern>
+        {/* Hard cinematic black base */}
+        <rect width="100%" height="100%" fill="#020409"/>
 
-        <pattern id="stars-mid" width="160" height="160" patternUnits="userSpaceOnUse">
-          <circle cx="20" cy="30" r="0.9" />
-          <circle cx="110" cy="50" r="0.8" />
-          <circle cx="70" cy="120" r="0.7" />
-        </pattern>
-
-        <pattern id="stars-far" width="120" height="120" patternUnits="userSpaceOnUse">
-          <circle cx="20" cy="30" r="0.5" />
-          <circle cx="80" cy="90" r="0.4" />
-        </pattern>
+        <symbol id="star" viewBox="0 0 2 2">
+          <circle cx="1" cy="1" r="1" fill="white" />
+        </symbol>
 
         {/* Planet rim */}
         <radialGradient id="planetRimStrong" cx="50%" cy="50%" r="50%">
@@ -204,10 +264,10 @@ export default function CartographySvgDark({ category, device }: Props) {
         </radialGradient>
       </defs>
 
-      {/* Starfield */}
-      <rect width="100%" height="100%" fill="url(#stars-far)" className={styles.starsFar} />
-      <rect width="100%" height="100%" fill="url(#stars-mid)" className={styles.starsMid} />
-      <rect width="100%" height="100%" fill="url(#stars-near)" className={styles.starsNear} />
+      <g className={styles.stars}>
+        {stars}
+      </g>
+
 
       {/* Planets */}
       <g className={styles.planets}>
@@ -237,27 +297,11 @@ export default function CartographySvgDark({ category, device }: Props) {
       )}
 
       {/* Shooting stars */}
-      {shooters.map((id) => (
-        <line
-          key={id}
-          x1="0"
-          y1={Math.random() * 1024}
-          x2="1440"
-          y2={Math.random() * 1024}
-          className={styles.shootingStar}
-        />
-      ))}
+      {shootingStars}
 
       {/* Satellites */}
-      {satellites.map((id) => (
-        <circle
-          key={id}
-          cx="0"
-          cy={200 + Math.random() * 600}
-          r="2"
-          className={styles.satellite}
-        />
-      ))}
+      {satelliteFlybys}
+
 
       {/* Sector markers */}
       <g className={styles.sectorMarkers}>
