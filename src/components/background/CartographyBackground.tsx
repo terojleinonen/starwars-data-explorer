@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { SwapiType } from "@/components/types/swapi-types";
 import styles from "./CartographyBackground.module.css";
+import { useTheme } from "@/theme/ThemeProvider";
 
 import CartographySvgDark from "./CartographySvgDark";
 import CartographySvgLight from "./CartographySvgLight";
@@ -28,30 +29,12 @@ export default function CartographyBackground({ category }: Props) {
     getDeviceClass()
   );
 
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
+  const { theme } = useTheme();
 
   useEffect(() => {
     const onResize = () => setDevice(getDeviceClass());
     window.addEventListener("resize", onResize);
     return () => window.removeEventListener("resize", onResize);
-  }, []);
-
-  // Detect theme from html attribute
-  useEffect(() => {
-    const updateTheme = () => {
-      const t = document.documentElement.getAttribute("data-theme");
-      setTheme(t === "light" ? "light" : "dark");
-    };
-
-    updateTheme();
-
-    const observer = new MutationObserver(updateTheme);
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["data-theme"],
-    });
-
-    return () => observer.disconnect();
   }, []);
 
   // Parallax logic

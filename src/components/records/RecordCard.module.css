@@ -290,14 +290,15 @@
   font-size: 1.05rem;
   font-weight: 620;
   transform: translateZ(18px);
-  color: var(--text-primary);
+  color: hsl(from var(--category-accent) h s calc(l - 15%));
   line-height: 1.2;
 }
 
 .subtitle {
   font-size: 0.95rem;
   transform: translate(10px);
-  color: var(--text-secondary);
+  color: var(--category-accent);
+  opacity: 0.8;
   line-height: 1.35;
 }
 
@@ -437,4 +438,9 @@
   .card::after {
     transition: none;
   }
+}
+
+:global(.highlighted) .card {
+  border-color: var(--category-accent);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
 }

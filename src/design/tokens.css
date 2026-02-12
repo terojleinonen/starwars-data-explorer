@@ -1,4 +1,30 @@
 :root {
+  :root {
+  --paper-bg: #f1f2f4;
+  --paper-ink: #2a2f36;
+  --paper-faint: #8b929c;
+  --paper-accent-soft: #6c7685;
+  --paper-grid: #c5cbd4;
+  --paper-label: #4e5661;
+}
+
+/* Tactical palette – light theme */
+:root {
+  --tactical-people: #3c6dd7;
+  --tactical-planets: #2c8b8f;
+  --tactical-films: #c4901d;
+  --tactical-starships: #b92d2d;
+  --tactical-vehicles: #3a8b3a;
+  --tactical-species: #7b4ec2;
+
+  --tactical-neutral: #6b7687;
+
+  --tactical-alert: #c12d2d;
+  --tactical-warning: #c4901d;
+  --tactical-ok: #3a8b3a;
+}
+
+
   /* ===== BACKGROUND ===== */
   --bg-deep: #05080c;        /* deep space black (never pure black) */
   --bg-space: #08131a;       /* ambient space blue */
@@ -85,3 +111,4 @@ html[data-theme="dark"] {
 html[data-theme="light"] {
   --carto-ink: rgba(230, 235, 240, 0.9); /* neutral cool-white */
 }
+

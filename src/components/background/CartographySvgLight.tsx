@@ -2,6 +2,7 @@
 
 import type { SwapiType } from "@/components/types/swapi-types";
 import styles from "./CartographyBackground.module.css";
+import { useAtmosphere } from "@/components/layout/AtmosphereContext";
 
 type Props = {
   category?: SwapiType;
@@ -9,7 +10,7 @@ type Props = {
 };
 
 /* ======================================================
-   RESPONSIVE MARKER LAYOUTS
+   RESPONSIVE MARKER LAYOUTS (Light Theme)
 ====================================================== */
 
 const MARKER_LAYOUTS = {
@@ -45,8 +46,12 @@ export default function CartographySvgLight({
   category,
   device,
 }: Props) {
+  const { activeHighlight } = useAtmosphere();
+
+  const markers =
+    MARKER_LAYOUTS[device][category ?? "people"] ?? [];
+
   const constellationId = `cons-${category ?? "people"}`;
-  const markers = MARKER_LAYOUTS[device][category ?? "people"] ?? [];
 
   return (
     <svg
@@ -55,139 +60,142 @@ export default function CartographySvgLight({
       className={styles.svg}
     >
       <defs>
-
-        {/* ===== LIGHT BASE GRADIENT ===== */}
-        <radialGradient id="lightBase" cx="50%" cy="40%" r="80%">
-          <stop offset="0%" stopColor="#e8ecf2" />
-          <stop offset="100%" stopColor="#cfd6e0" />
-        </radialGradient>
-
-        {/* ===== DARK STARS FOR LIGHT THEME ===== */}
-        <pattern id="stars-light" width="180" height="180" patternUnits="userSpaceOnUse">
-          <circle cx="20" cy="30" r="0.6" fill="#2c3442" />
-          <circle cx="90" cy="70" r="0.8" fill="#2c3442" />
-          <circle cx="140" cy="140" r="0.7" fill="#2c3442" />
-          <circle cx="40" cy="120" r="0.5" fill="#2c3442" />
-        </pattern>
-
-        {/* ===== BLUEPRINT GRID ===== */}
-        <pattern id="blueprint" width="80" height="80" patternUnits="userSpaceOnUse">
+        {/* Blueprint grid */}
+        <pattern
+          id="blueprintGrid"
+          width="80"
+          height="80"
+          patternUnits="userSpaceOnUse"
+        >
           <path
-            d="M80 0 L0 0 0 80"
+            d="M 80 0 L 0 0 0 80"
             fill="none"
-            stroke="#5b667a"
+            stroke="currentColor"
             strokeWidth="0.7"
-            opacity="0.3"
           />
         </pattern>
 
-        {/* ===== ORBIT / TECH LINES ===== */}
-        <pattern id="orbits-light" width="480" height="240" patternUnits="userSpaceOnUse">
+        <pattern
+          id="blueprintTicks"
+          width="160"
+          height="160"
+          patternUnits="userSpaceOnUse"
+        >
+          <line x1="0" y1="0" x2="0" y2="160" stroke="currentColor" />
+          <line x1="0" y1="0" x2="160" y2="0" stroke="currentColor" />
+        </pattern>
+
+        {/* Tactical orbit paths */}
+        <pattern
+          id="orbitsLight"
+          width="420"
+          height="240"
+          patternUnits="userSpaceOnUse"
+        >
           <path
-            d="M0 120 Q240 40 480 120"
-            stroke="#4e5a70"
+            d="M0 120 Q210 40 420 120"
+            stroke="currentColor"
             fill="none"
-            strokeDasharray="4 6"
-            opacity="0.35"
+            strokeDasharray="5 5"
           />
         </pattern>
 
-        {/* ===== PLANET RIM – LIGHT VERSION ===== */}
-        <radialGradient id="planetRimLight" cx="50%" cy="50%" r="50%">
-          <stop offset="70%" stopColor="currentColor" stopOpacity="0" />
-          <stop offset="88%" stopColor="var(--category-accent)" stopOpacity="0.25" />
-          <stop offset="100%" stopColor="var(--category-accent)" stopOpacity="0.65" />
-        </radialGradient>
-
-        {/* ===== PAPER / MAP SMUDGES ===== */}
-        <radialGradient id="mapSmudge" cx="50%" cy="50%" r="70%">
-          <stop offset="0%" stopColor="#6a7b92" stopOpacity="0.12" />
-          <stop offset="60%" stopColor="#6a7b92" stopOpacity="0.05" />
-          <stop offset="100%" stopColor="#6a7b92" stopOpacity="0" />
-        </radialGradient>
-
-        {/* ===== SECTOR MARKER ===== */}
-        <symbol id="sectorMarker" viewBox="0 0 40 40">
+        {/* Sector marker */}
+        <symbol id="sectorMarkerLight" viewBox="0 0 40 40">
           <circle cx="20" cy="20" r="4" fill="currentColor" />
           <circle
             cx="20"
             cy="20"
-            r="12"
+            r="14"
             fill="none"
             stroke="currentColor"
             strokeWidth="1.2"
-            opacity="0.6"
+            opacity="0.7"
           />
         </symbol>
+
+        {/* Paper style gradient */}
+        <radialGradient id="paperTone" cx="50%" cy="50%" r="80%">
+          <stop offset="0%" stopColor="currentColor" stopOpacity="0.12" />
+          <stop offset="60%" stopColor="currentColor" stopOpacity="0.06" />
+          <stop offset="100%" stopColor="currentColor" stopOpacity="0" />
+        </radialGradient>
       </defs>
 
-      {/* ===== MAIN CANVAS BACKGROUND ===== */}
-      <rect width="100%" height="100%" fill="url(#lightBase)" />
-
-      {/* ===== STARS (DARK DOTS) ===== */}
+      {/* ===== BACKGROUND TECHNICAL GRID ===== */}
       <rect
         width="100%"
         height="100%"
-        fill="url(#stars-light)"
-        className={styles.starsLight}
-      />
-
-      {/* ===== BLUEPRINT GRID ===== */}
-      <rect
-        width="100%"
-        height="100%"
-        fill="url(#blueprint)"
+        fill="url(#blueprintGrid)"
         className={styles.blueprintGrid}
       />
 
-      {/* ===== TECHNICAL ORBIT LINES ===== */}
       <rect
         width="100%"
         height="100%"
-        fill="url(#orbits-light)"
+        fill="url(#blueprintTicks)"
+        className={styles.blueprintTicks}
+      />
+
+      {/* ===== ORBIT LINES ===== */}
+      <rect
+        width="100%"
+        height="100%"
+        fill="url(#orbitsLight)"
         className={styles.orbits}
       />
 
-      {/* ===== PLANET ART ===== */}
-      <g className={styles.planets}>
-        <circle
-          cx="1240"
-          cy="880"
-          r="420"
-          fill="url(#planetRimLight)"
-        />
+      {/* ===== PAPER TONAL WASH ===== */}
+      <rect
+        width="100%"
+        height="100%"
+        fill="url(#paperTone)"
+        opacity="0.4"
+      />
 
-        <circle
-          cx="280"
-          cy="260"
-          r="140"
-          fill="url(#planetRimLight)"
-        />
+      {/* ===== INTERACTION LAYER ===== */}
+      <g
+        className={
+          activeHighlight === category
+            ? styles.highlighted
+            : activeHighlight
+            ? styles.dimmed
+            : ""
+        }
+      >
+        {/* ===== SECTOR MARKERS ===== */}
+        <g className={styles.sectorMarkers}>
+          {markers.map(([x, y], i) => (
+            <g
+              key={`${x}-${y}`}
+              className={styles.marker}
+              style={{
+                transform: `translate(${x}px, ${y}px)`,
+                animationDelay: `${i * 0.9}s`,
+              }}
+            >
+              <use href="#sectorMarkerLight" />
+            </g>
+          ))}
+        </g>
+
+        {/* ===== CONSTELLATIONS ===== */}
+        <g className={styles.constellation}>
+          <use href={`#${constellationId}`} />
+        </g>
       </g>
 
-      {/* ===== MAP SMUDGES ===== */}
-      <rect width="100%" height="100%" fill="url(#mapSmudge)" />
+      {/* ===== LIGHT VIGNETTE ===== */}
+      <radialGradient id="lightVignette" cx="50%" cy="50%" r="70%">
+        <stop offset="50%" stopColor="white" stopOpacity="0" />
+        <stop offset="100%" stopColor="white" stopOpacity="0.65" />
+      </radialGradient>
 
-      {/* ===== RESPONSIVE MARKERS ===== */}
-      <g className={styles.sectorMarkers}>
-        {markers.map(([x, y], i) => (
-          <g
-            key={`${x}-${y}`}
-            className={styles.marker}
-            style={{
-              transform: `translate(${x}px, ${y}px)`,
-              animationDelay: `${i * 1.1}s`,
-            }}
-          >
-            <use href="#sectorMarker" />
-          </g>
-        ))}
-      </g>
-
-      {/* ===== CONSTELLATIONS (if any) ===== */}
-      <g className={styles.constellation}>
-        <use href={`#${constellationId}`} />
-      </g>
+      <rect
+        width="100%"
+        height="100%"
+        fill="url(#lightVignette)"
+      />
     </svg>
   );
 }

@@ -1,9 +1,9 @@
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import NavLink from "@/components/navigation/NavLink";
 import styles from "./RecordCard.module.css";
-
 import type { RecordMeta } from "./recordMeta";
 import type { SwapiType } from "@/components/types/swapi-types";
+import { useAtmosphere } from "@/components/layout/AtmosphereContext";
 
 type Props = {
   category: SwapiType;
@@ -16,6 +16,8 @@ export default function RecordCard({
   meta,
   index = 0,
 }: Props) {
+  const { setHighlight } = useAtmosphere();
+
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
@@ -42,7 +44,8 @@ export default function RecordCard({
       layoutId={`card-${category}-${meta.id}`}
       className={styles.wrapper}
       onMouseMove={handleMouseMove}
-      onMouseLeave={reset}
+      onMouseEnter={() => setHighlight(category)}
+      onMouseLeave={() => {setHighlight(undefined); reset()}}
       initial={{
         opacity: 0,
         y: 24,

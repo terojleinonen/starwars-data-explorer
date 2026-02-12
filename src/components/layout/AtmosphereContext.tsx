@@ -1,52 +1,30 @@
 "use client";
 
-import {
-  createContext,
-  useContext,
-  useState,
-  type ReactNode,
-} from "react";
+import { createContext, useContext, useState } from "react";
 import type { SwapiType } from "@/components/types/swapi-types";
 
-
-
-/* ================= TYPES ================= */
-
-type AtmosphereContextValue = {
-  category: SwapiType | undefined;
-  setCategory: (c: SwapiType | undefined) => void;
-
-  activeHighlight: SwapiType | null;
-  setActiveHighlight: (c: SwapiType | null) => void;
+type AtmosphereState = {
+  activeHighlight?: SwapiType;
+  setHighlight: (cat?: SwapiType) => void;
 };
-/* ================= CONTEXT ================= */
 
-const AtmosphereContext =
-  createContext<AtmosphereContextValue | null>(null);
-
-/* ================= PROVIDER ================= */
+const AtmosphereContext = createContext<AtmosphereState>({
+  activeHighlight: undefined,
+  setHighlight: () => {},
+});
 
 export function AtmosphereProvider({
   children,
 }: {
-  children: ReactNode;
+  children: React.ReactNode;
 }) {
-  const [category, setCategory] = useState<SwapiType | undefined>(
-    undefined
-  );
-
-  const [activeHighlight, setActiveHighlight] = useState<SwapiType | null>(
-    null
-  );
-
+  const [activeHighlight, setActiveHighlight] = useState<SwapiType | undefined>();
 
   return (
     <AtmosphereContext.Provider
       value={{
-        category,
-        setCategory,
         activeHighlight,
-        setActiveHighlight,
+        setHighlight: setActiveHighlight,
       }}
     >
       {children}
@@ -54,14 +32,6 @@ export function AtmosphereProvider({
   );
 }
 
-/* ================= HOOK ================= */
-
 export function useAtmosphere() {
-  const ctx = useContext(AtmosphereContext);
-  if (!ctx) {
-    throw new Error(
-      "useAtmosphere must be used within AtmosphereProvider"
-    );
-  }
-  return ctx;
+  return useContext(AtmosphereContext);
 }

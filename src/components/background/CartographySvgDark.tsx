@@ -1,8 +1,8 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import type { SwapiType } from "@/components/types/swapi-types";
 import styles from "./CartographyBackground.module.css";
-import { useAtmosphere } from "@/components/layout/AtmosphereContext";
 
 type Props = {
   category?: SwapiType;
@@ -22,7 +22,6 @@ const MARKER_LAYOUTS = {
     vehicles: [[240, 860], [420, 820], [600, 860], [780, 820]],
     species: [[260, 360], [400, 360], [560, 500], [710, 520]],
   },
-
   tablet: {
     people: [[360, 240], [460, 280], [620, 260]],
     planets: [[860, 240], [900, 300], [780, 280]],
@@ -31,7 +30,6 @@ const MARKER_LAYOUTS = {
     vehicles: [[200, 760], [460, 720], [720, 760]],
     species: [[240, 300], [520, 420]],
   },
-
   mobile: {
     people: [[200, 260], [380, 300]],
     planets: [[520, 240], [460, 300]],
@@ -42,139 +40,226 @@ const MARKER_LAYOUTS = {
   },
 };
 
-export default function CartographySvgDark({ category, device }: Props) {
-  const constellationId = `cons-${category ?? "people"}`;
-  const { activeHighlight } = useAtmosphere();
+/* ======================================================
+   HELPERS
+====================================================== */
 
-  const markers =
-    MARKER_LAYOUTS[device][category ?? "people"] ?? [];
+function angleBetween(x1: number, y1: number, x2: number, y2: number) {
+  return Math.atan2(y2 - y1, x2 - x1) * (180 / Math.PI);
+}
+
+function distance(x1: number, y1: number, x2: number, y2: number) {
+  return Math.hypot(x2 - x1, y2 - y1);
+}
+
+function randomPosition(): [number, number] {
+  return [Math.random() * 1440, Math.random() * 1024];
+}
+
+export default function CartographySvgDark({ category, device }: Props) {
+
+  const rootRef = useRef<SVGSVGElement>(null);
+  const largePlanetRef = useRef<SVGGElement>(null);
+  const smallPlanetRef = useRef<SVGGElement>(null);
+
+  const [novaPos, setNovaPos] = useState<[number, number] | null>(null);
+  const [novaPulse, setNovaPulse] = useState(0);
+
+  const markers = MARKER_LAYOUTS[device][category ?? "people"] ?? [];
+  const constellationId = `cons-${category ?? "people"}`;
+
+  /* ======================================================
+     SUPERNOVA SYSTEM
+  ====================================================== */
+
+  useEffect(() => {
+    const scheduleNova = () => {
+      setNovaPos(randomPosition());
+      setNovaPulse(1);
+
+      setTimeout(() => setNovaPulse(0), 1200);
+
+      const next = 8000 + Math.random() * 7000;
+      setTimeout(scheduleNova, next);
+    };
+
+    scheduleNova();
+  }, []);
+
+  /* ======================================================
+     REACTIVE LIGHTING
+  ====================================================== */
+
+  useEffect(() => {
+    const root = rootRef.current;
+    const large = largePlanetRef.current;
+    const small = smallPlanetRef.current;
+
+    if (!root || !large || !small || !novaPos) return;
+
+    const [nx, ny] = novaPos;
+
+    const lp = [1220, 860];
+    const sp = [260, 200];
+
+    const largeAngle = angleBetween(lp[0], lp[1], nx, ny);
+    const smallAngle = angleBetween(sp[0], sp[1], nx, ny);
+
+    const dLarge = distance(lp[0], lp[1], nx, ny);
+    const dSmall = distance(sp[0], sp[1], nx, ny);
+
+    const influenceLarge = Math.max(0, 1 - dLarge / 1200);
+    const influenceSmall = Math.max(0, 1 - dSmall / 900);
+
+    root.style.setProperty("--nova-pulse", String(novaPulse));
+    root.style.setProperty("--nova-large-angle", `${largeAngle}deg`);
+    root.style.setProperty("--nova-small-angle", `${smallAngle}deg`);
+    root.style.setProperty("--nova-large-influence", String(influenceLarge));
+    root.style.setProperty("--nova-small-influence", String(influenceSmall));
+  }, [novaPos, novaPulse]);
+
+  /* ======================================================
+     SHOOTING STARS
+  ====================================================== */
+
+  const [shooters, setShooters] = useState<number[]>([]);
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setShooters((s) => [...s, Date.now()]);
+      setTimeout(() => setShooters((s) => s.slice(1)), 3000);
+    }, 7000 + Math.random() * 4000);
+
+    return () => clearInterval(id);
+  }, []);
+
+  /* ======================================================
+     SATELLITE FLYBYS
+  ====================================================== */
+
+  const [satellites, setSatellites] = useState<number[]>([]);
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setSatellites((s) => [...s, Date.now()]);
+      setTimeout(() => setSatellites((s) => s.slice(1)), 9000);
+    }, 14000 + Math.random() * 8000);
+
+    return () => clearInterval(id);
+  }, []);
 
   return (
     <svg
+      ref={rootRef}
       viewBox="0 0 1440 1024"
       preserveAspectRatio="xMidYMid slice"
       className={styles.svg}
     >
       <defs>
-        {/* ===== STAR PATTERNS ===== */}
-
-        <pattern id="stars-far" width="120" height="120" patternUnits="userSpaceOnUse">
-          <circle cx="20" cy="30" r="0.5" fill="currentColor" />
-          <circle cx="80" cy="90" r="0.4" fill="currentColor" />
+        {/* Star layers */}
+        <pattern id="stars-near" width="240" height="240" patternUnits="userSpaceOnUse">
+          <circle cx="40" cy="60" r="1.4" />
+          <circle cx="180" cy="120" r="1.2" />
+          <circle cx="90" cy="200" r="1.0" />
         </pattern>
 
         <pattern id="stars-mid" width="160" height="160" patternUnits="userSpaceOnUse">
-          <circle cx="20" cy="30" r="0.9" fill="currentColor" />
-          <circle cx="110" cy="50" r="0.8" fill="currentColor" />
-          <circle cx="70" cy="120" r="0.7" fill="currentColor" />
+          <circle cx="20" cy="30" r="0.9" />
+          <circle cx="110" cy="50" r="0.8" />
+          <circle cx="70" cy="120" r="0.7" />
         </pattern>
 
-        <pattern id="stars-near" width="240" height="240" patternUnits="userSpaceOnUse">
-          <circle cx="40" cy="60" r="1.4" fill="currentColor" />
-          <circle cx="180" cy="120" r="1.2" fill="currentColor" />
-          <circle cx="90" cy="200" r="1.0" fill="currentColor" />
+        <pattern id="stars-far" width="120" height="120" patternUnits="userSpaceOnUse">
+          <circle cx="20" cy="30" r="0.5" />
+          <circle cx="80" cy="90" r="0.4" />
         </pattern>
 
-        {/* ===== NEBULA ===== */}
-        <radialGradient id="deepNebula" cx="50%" cy="50%" r="80%">
-          <stop offset="0%" stopColor="#0a1020" stopOpacity="0.35" />
-          <stop offset="60%" stopColor="#0a1020" stopOpacity="0.15" />
-          <stop offset="100%" stopColor="#0a1020" stopOpacity="0" />
-        </radialGradient>
-
-        {/* ===== HEX GRID ===== */}
-        <pattern id="hexGrid" width="200" height="173.2" patternUnits="userSpaceOnUse">
-          <path
-            d="M100 0 L200 57.7 L200 115.4 L100 173.2 L0 115.4 L0 57.7 Z"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="0.9"
-          />
-        </pattern>
-
-        <pattern id="hexGridSmall" width="100" height="86.6" patternUnits="userSpaceOnUse">
-          <path
-            d="M50 0 L100 28.8 L100 57.7 L50 86.6 L0 57.7 L0 28.8 Z"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="0.6"
-          />
-        </pattern>
-
-        {/* ===== PLANET RIM ===== */}
+        {/* Planet rim */}
         <radialGradient id="planetRimStrong" cx="50%" cy="50%" r="50%">
           <stop offset="70%" stopColor="currentColor" stopOpacity="0" />
           <stop offset="88%" stopColor="var(--category-accent)" stopOpacity="0.35" />
           <stop offset="100%" stopColor="var(--category-accent)" stopOpacity="0.85" />
         </radialGradient>
 
-        {/* ===== HYPERLANE ===== */}
-        <linearGradient id="laneGlow" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0%" stopColor="currentColor" stopOpacity="0" />
-          <stop offset="50%" stopColor="currentColor" stopOpacity="0.35" />
-          <stop offset="100%" stopColor="currentColor" stopOpacity="0" />
+        {/* Shadow */}
+        <linearGradient id="shadowSide" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stopColor="black" stopOpacity="0.6" />
+          <stop offset="100%" stopColor="black" stopOpacity="0" />
         </linearGradient>
 
-        <circle id="laneDot" r="3" fill="currentColor" />
-
-        {/* ===== RADAR ===== */}
-        <radialGradient id="radarSweep" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="currentColor" stopOpacity="0.18" />
-          <stop offset="70%" stopColor="currentColor" stopOpacity="0.06" />
-          <stop offset="100%" stopColor="currentColor" stopOpacity="0" />
+        {/* Specular */}
+        <radialGradient id="specularSpot" cx="30%" cy="30%" r="40%">
+          <stop offset="0%" stopColor="white" stopOpacity="0.65" />
+          <stop offset="40%" stopColor="white" stopOpacity="0.25" />
+          <stop offset="80%" stopColor="white" stopOpacity="0.05" />
+          <stop offset="100%" stopColor="white" stopOpacity="0" />
         </radialGradient>
 
-        <mask id="sweepMask">
-          <rect width="100%" height="100%" fill="black" />
-          <path
-            d="M720 512 L1440 512 A720 720 0 0 0 720 -208 Z"
-            fill="white"
-          />
-        </mask>
-
-        {/* ===== SECTOR MARKER ===== */}
-        <symbol id="sectorMarker" viewBox="0 0 40 40">
-          <circle cx="20" cy="20" r="4" fill="currentColor" />
-          <circle
-            cx="20"
-            cy="20"
-            r="12"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.2"
-            opacity="0.7"
-          />
-        </symbol>
+        {/* Supernova */}
+        <radialGradient id="novaGlow" cx="50%" cy="50%" r="60%">
+          <stop offset="0%" stopColor="white" stopOpacity="0.8" />
+          <stop offset="40%" stopColor="white" stopOpacity="0.35" />
+          <stop offset="80%" stopColor="white" stopOpacity="0.05" />
+          <stop offset="100%" stopColor="white" stopOpacity="0" />
+        </radialGradient>
       </defs>
-      
-      {/* ===== STAR FIELD ===== */}
+
+      {/* Starfield */}
       <rect width="100%" height="100%" fill="url(#stars-far)" className={styles.starsFar} />
       <rect width="100%" height="100%" fill="url(#stars-mid)" className={styles.starsMid} />
       <rect width="100%" height="100%" fill="url(#stars-near)" className={styles.starsNear} />
 
-      {/* ===== NEBULA ===== */}
-      <rect width="100%" height="100%" fill="url(#deepNebula)" />
+      {/* Planets */}
+      <g className={styles.planets}>
+        <g className={styles.planetLarge} ref={largePlanetRef}>
+          <circle cx="1220" cy="860" r="420" fill="url(#planetRimStrong)" />
+          <circle cx="1220" cy="860" r="420" fill="url(#shadowSide)" className={styles.planetShadow} />
+          <circle cx="1220" cy="860" r="420" fill="url(#specularSpot)" className={styles.planetSpecular} />
+        </g>
 
-      {/* ===== HEX GRID ===== */}
-      <rect width="100%" height="100%" fill="url(#hexGrid)" className={styles.hexGrid} />
-      <rect width="100%" height="100%" fill="url(#hexGridSmall)" className={styles.hexGridSmall} />
-
-      {/* ===== PLANET ===== */}
-      <circle cx="1220" cy="860" r="420" fill="url(#planetRimStrong)" />
-
-      {/* ===== RADAR SWEEP ===== */}
-      <g className={styles.radarSystem}>
-        <circle
-          cx="720"
-          cy="512"
-          r="820"
-          fill="url(#radarSweep)"
-          mask="url(#sweepMask)"
-          className={styles.sweep}
-        />
+        <g className={styles.planetSmall} ref={smallPlanetRef}>
+          <circle cx="260" cy="200" r="120" fill="url(#planetRimStrong)" />
+          <circle cx="260" cy="200" r="120" fill="url(#shadowSide)" className={styles.planetShadow} />
+          <circle cx="260" cy="200" r="120" fill="url(#specularSpot)" className={styles.planetSpecular} />
+        </g>
       </g>
 
-      {/* ===== SECTOR MARKERS ===== */}
+      {/* Supernova */}
+      {novaPos && (
+        <circle
+          cx={novaPos[0]}
+          cy={novaPos[1]}
+          r="420"
+          fill="url(#novaGlow)"
+          className={styles.supernova}
+          style={{ opacity: novaPulse }}
+        />
+      )}
+
+      {/* Shooting stars */}
+      {shooters.map((id) => (
+        <line
+          key={id}
+          x1="0"
+          y1={Math.random() * 1024}
+          x2="1440"
+          y2={Math.random() * 1024}
+          className={styles.shootingStar}
+        />
+      ))}
+
+      {/* Satellites */}
+      {satellites.map((id) => (
+        <circle
+          key={id}
+          cx="0"
+          cy={200 + Math.random() * 600}
+          r="2"
+          className={styles.satellite}
+        />
+      ))}
+
+      {/* Sector markers */}
       <g className={styles.sectorMarkers}>
         {markers.map(([x, y], i) => (
           <g
@@ -185,23 +270,15 @@ export default function CartographySvgDark({ category, device }: Props) {
               animationDelay: `${i * 1.1}s`,
             }}
           >
-            <use href="#sectorMarker" />
+            <circle r="4" fill="currentColor" />
           </g>
         ))}
       </g>
 
-      {/* ===== CONSTELLATIONS ===== */}
+      {/* Constellations */}
       <g className={styles.constellation}>
         <use href={`#${constellationId}`} />
       </g>
-
-      {/* ===== VIGNETTE ===== */}
-      <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
-        <stop offset="60%" stopColor="black" stopOpacity="0" />
-        <stop offset="100%" stopColor="black" stopOpacity="0.65" />
-      </radialGradient>
-
-      <rect width="100%" height="100%" fill="url(#vignette)" />
     </svg>
   );
 }

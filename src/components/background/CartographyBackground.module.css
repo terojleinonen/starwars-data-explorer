@@ -8,89 +8,133 @@
   pointer-events: none;
   z-index: 0;
 
+  /* Prevent accent color bleed */
   color: var(--carto-ink, #cdd4e0);
-
-  /* BASE DARK SPACE BACKGROUND */
-  background: radial-gradient(
-    ellipse at center,
-    #080d18 0%,
-    #03050a 100%
-  );
-}
-
-/* CSS STARFIELD OVERLAY – CRITICAL MISSING PIECE */
-.starfield {
-  position: absolute;
-  inset: 0;
-  background-image:
-    radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,0.8), transparent),
-    radial-gradient(1px 1px at 60% 70%, rgba(255,255,255,0.7), transparent),
-    radial-gradient(1px 1px at 80% 20%, rgba(255,255,255,0.6), transparent),
-    radial-gradient(2px 2px at 40% 80%, rgba(255,255,255,0.9), transparent);
-  background-size: 300px 300px;
-  opacity: 0.25;
-  mix-blend-mode: screen;
-  pointer-events: none;
 }
 
 .svg {
   width: 100%;
   height: 100%;
   display: block;
-  background: transparent;   /* DO NOT color the SVG itself */
+  
 }
 
+
 /* =====================================================
-   STAR FIELD SYSTEM (SVG PATTERNS)
+   STAR FIELD SYSTEM
 ===================================================== */
 
 .starsFar {
   opacity: 0.35;
-  color: #6f7a8a;
+  fill: #6f7a8a;
 }
 
 .starsMid {
   opacity: 0.55;
-  color: #9aa6b6;
+  fill: #9aa6b6;
 }
 
 .starsNear {
   opacity: 0.75;
-  color: #cdd4e0;
+  fill: #cdd4e0;
+
   filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.25));
 }
 
-/* =====================================================
-   HEX GRID SYSTEM
-===================================================== */
-
-.hexGrid {
-  opacity: 0.12;
-}
-
-.hexGridSmall {
-  opacity: 0.08;
-}
 
 /* =====================================================
-   RADAR SWEEP SYSTEM
+   PLANET SYSTEM
 ===================================================== */
 
-.radarSystem {
+.planets {
   pointer-events: none;
-  opacity: 0.45;
+}
+
+.planetLarge,
+.planetSmall {
   mix-blend-mode: screen;
+  transition: filter 300ms ease;
 }
 
-.sweep {
-  transform-origin: 50% 50%;
-  animation: radarRotate 20s linear infinite;
+/* Angle-aware shadowing */
+.planetShadow {
+  transform-origin: center;
+  transform: rotate(var(--nova-large-angle, 0deg));
+  opacity: calc(0.55 * var(--nova-large-influence, 0));
 }
 
-@keyframes radarRotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+/* Angle-aware specular */
+.planetSpecular {
+  transform-origin: center;
+  transform: rotate(var(--nova-large-angle, 0deg));
+  opacity: calc(0.75 * var(--nova-large-influence, 0));
 }
+
+
+/* =====================================================
+   SUPERNOVA SYSTEM
+===================================================== */
+
+.supernova {
+  mix-blend-mode: screen;
+  pointer-events: none;
+
+  transition: opacity 0.6s ease-out;
+  opacity: var(--nova-pulse, 0);
+
+  filter: drop-shadow(0 0 20px rgba(255,255,255,0.6));
+}
+
+
+/* =====================================================
+   SHOOTING STARS
+===================================================== */
+
+.shootingStar {
+  stroke: white;
+  stroke-width: 2;
+  opacity: 0.9;
+
+  stroke-linecap: round;
+
+  animation: shooting 2.5s ease-out forwards;
+  filter: drop-shadow(0 0 6px white);
+}
+
+@keyframes shooting {
+  from {
+    stroke-dasharray: 0 200;
+    opacity: 1;
+  }
+  to {
+    stroke-dasharray: 200 200;
+    opacity: 0;
+  }
+}
+
+
+/* =====================================================
+   SATELLITE FLYBYS
+===================================================== */
+
+.satellite {
+  fill: white;
+  opacity: 0.8;
+
+  filter: drop-shadow(0 0 3px white);
+
+  animation: satelliteFly 8s linear forwards;
+}
+
+@keyframes satelliteFly {
+  from {
+    transform: translateX(-40px);
+  }
+  to {
+    transform: translateX(1480px);
+  }
+}
+
 
 /* =====================================================
    SECTOR MARKERS
@@ -102,23 +146,25 @@
 
 .marker {
   transform-origin: center;
+
   animation: markerPulse 4s ease-in-out infinite;
 }
 
 @keyframes markerPulse {
-  0% { opacity: 0.6; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.25); }
-  100% { opacity: 0.6; transform: scale(1); }
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
 }
 
-/* =====================================================
-   PLANET SYSTEM
-===================================================== */
-
-.planetLarge {
-  opacity: 0.85;
-  mix-blend-mode: screen;
-}
 
 /* =====================================================
    CONSTELLATIONS
@@ -127,8 +173,10 @@
 .constellation {
   opacity: 0.72;
   transition: opacity 400ms ease;
+
   mix-blend-mode: screen;
 }
+
 
 /* =====================================================
    ACTIVE CATEGORY HIGHLIGHTING
@@ -144,59 +192,219 @@
   transition: opacity 300ms ease;
 }
 
+
 /* =====================================================
    PERFORMANCE / REDUCED MOTION
 ===================================================== */
 
 @media (prefers-reduced-motion: reduce) {
-  .sweep { animation: none; }
-  .marker { animation: none; }
-  .constellation { transition: none; }
+  .shootingStar,
+  .satellite,
+  .marker,
+  .supernova {
+    animation: none;
+  }
+
+  .constellation {
+    transition: none;
+  }
 }
+
 
 /* =====================================================
    RESPONSIVE TUNING
 ===================================================== */
 
 @media (max-width: 1024px) {
-  .hexGrid { opacity: 0.09; }
-  .starsNear { opacity: 0.65; }
-  .radarSystem { opacity: 0.35; }
+  .starsNear {
+    opacity: 0.65;
+  }
+
+  .starsMid {
+    opacity: 0.5;
+  }
 }
 
 @media (max-width: 640px) {
-  .hexGrid { opacity: 0.06; }
-  .hexGridSmall { opacity: 0.05; }
+  .starsNear {
+    opacity: 0.55;
+  }
 
-  .starsNear { opacity: 0.55; }
-  .starsMid { opacity: 0.45; }
+  .starsMid {
+    opacity: 0.45;
+  }
 
-  .radarSystem { opacity: 0.25; }
-
-  .constellation { opacity: 0.55; }
+  .constellation {
+    opacity: 0.55;
+  }
 }
 
+
 /* =====================================================
-   LIGHT THEME OVERRIDES
+   THEME SAFEGUARDS
 ===================================================== */
 
-:global(html[data-theme="light"]) .cartography {
+:global(html[data-theme="dark"]) .cartography {
+  color: #cdd4e0;
+}
+
+:global(html[data-theme="dark"]) .svg {
   background: radial-gradient(
     ellipse at center,
-    #e6ebf2 0%,
-    #cfd6e0 100%
+    #080d18 0%,
+    #03050a 100%
   );
 }
 
-:global(html[data-theme="light"]) .starfield {
-  opacity: 0.12;
+:global(html[data-theme="light"]) .cartography {
+  color: #333c48; /* Dark Ink */
+}
+
+:global(html[data-theme="light"]) .svg {
+  background: #f4f1ea; /* Paper */
+}
+
+
+/* =====================================================
+   LIGHT THEME PLACEHOLDERS (for CartographySvgLight)
+===================================================== */
+
+.starsLight {
+  opacity: 0.5;
+}
+
+.blueprintGrid {
+  opacity: 0.6;
+}
+
+:global(html[data-theme="light"]) .orbits {
+  opacity: 0.45;
+}
+
+/* ==============================================
+   LIGHT THEME MOTION SYSTEM
+============================================== */
+
+.radarSystemLight {
+  opacity: 0.4;
   mix-blend-mode: multiply;
+  animation: lightScan 18s linear infinite;
 }
 
-:global(html[data-theme="light"]) .hexGrid {
-  opacity: 0.18;
+@keyframes lightScan {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(1600px);
+  }
 }
 
-:global(html[data-theme="light"]) .radarSystem {
-  opacity: 0.2;
+.pulse {
+  animation: sectorPulse 6s ease-in-out infinite;
+}
+
+@keyframes sectorPulse {
+  0% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(1.08);
+  }
+  100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+}
+
+/* Motion safety */
+@media (prefers-reduced-motion: reduce) {
+  .radarSystemLight,
+  .pulse {
+    animation: none;
+  }
+}
+
+/* ==============================================
+   CATEGORY TACTICAL COLOR SYSTEM
+============================================== */
+
+:global(html[data-theme="light"]) .sectorMarkers {
+  color: var(--tactical-neutral);
+}
+
+/* Category overrides */
+:global(html[data-theme="light"]) .sector-people .marker {
+  color: var(--tactical-people);
+}
+
+:global(html[data-theme="light"]) .sector-planets .marker {
+  color: var(--tactical-planets);
+}
+
+:global(html[data-theme="light"]) .sector-films .marker {
+  color: var(--tactical-films);
+}
+
+:global(html[data-theme="light"]) .sector-starships .marker {
+  color: var(--tactical-starships);
+}
+
+:global(html[data-theme="light"]) .sector-vehicles .marker {
+  color: var(--tactical-vehicles);
+}
+
+:global(html[data-theme="light"]) .sector-species .marker {
+  color: var(--tactical-species);
+}
+
+/* Tactical alert language */
+.map-alert {
+  color: var(--tactical-alert);
+}
+
+.map-warning {
+  color: var(--tactical-warning);
+}
+
+.map-ok {
+  color: var(--tactical-ok);
+}
+
+/* ==============================================
+   MAP INTERACTION STATES
+============================================== */
+
+.highlighted {
+  opacity: 1;
+  filter: brightness(1.2) contrast(1.1);
+  transition: all 300ms ease;
+}
+
+.dimmed {
+  opacity: 0.22;
+  filter: grayscale(0.6);
+  transition: all 300ms ease;
+}
+
+/* Sector markers respond strongly */
+.highlighted .marker {
+  animation: markerPulseStrong 2s ease-in-out infinite;
+}
+
+@keyframes markerPulseStrong {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
 }

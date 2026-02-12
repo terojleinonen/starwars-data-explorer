@@ -14,15 +14,15 @@
   transform-style: preserve-3d;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 
-  --accent: 110, 160, 255; /* default */
+  --category-color: var(--accent-people); /* default */
 }
 
-.card[data-accent="people"]   { --accent: 110, 160, 255; }
-.card[data-accent="films"]    { --accent: 255, 190, 80; }
-.card[data-accent="planets"]  { --accent: 120, 220, 170; }
-.card[data-accent="starships"]{ --accent: 200, 160, 255; }
-.card[data-accent="vehicles"] { --accent: 255, 120, 120; }
-.card[data-accent="species"]  { --accent: 140, 200, 255; }
+.card[data-accent="people"]   { --category-color: var(--accent-people); }
+.card[data-accent="films"]    { --category-color: var(--accent-films); }
+.card[data-accent="planets"]  { --category-color: var(--accent-planets); }
+.card[data-accent="starships"]{ --category-color: var(--accent-starships); }
+.card[data-accent="vehicles"] { --category-color: var(--accent-vehicles); }
+.card[data-accent="species"]  { --category-color: var(--accent-species); }
 
 /* BASE GLASS SURFACE */
 .surface {
@@ -38,12 +38,12 @@
 .frame {
   position: absolute;
   inset: 0;
-  border: 1px solid rgba(var(--accent), 0.3);
+  border: 1px solid hsla(from var(--category-color) h s l / 0.3);
   border-radius: 10px;
 
   box-shadow:
-    0 0 12px rgba(var(--accent), 0.1),
-    inset 0 0 10px rgba(var(--accent), 0.1);
+    0 0 12px hsla(from var(--category-color) h s l / 0.1),
+    inset 0 0 10px hsla(from var(--category-color) h s l / 0.1);
 
   z-index: 2;
   transition: border-width 0.25s ease;
@@ -57,7 +57,7 @@
   background: linear-gradient(
     to bottom,
     transparent 0%,
-    rgba(var(--accent), 0.12) 50%,
+    hsla(from var(--category-color) h s l / 0.12) 50%,
     transparent 100%
   );
 
@@ -86,14 +86,15 @@
   font-size: 0.9rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgb(var(--accent));
-  opacity: 0.8;
+  color: var(--category-color);
+  opacity: 0.8; /* Lighter tone via opacity */
 }
 
 .subtitle {
   font-size: 1rem;
   font-weight: 600;
-  color: rgb(var(--accent));
+  /* Make the color slightly darker for better contrast, per user request */
+  color: hsl(from var(--category-color) h s calc(l - 10%));
 }
 
 /* HIDDEN INFO PANEL */
@@ -140,7 +141,7 @@
 
   opacity: 0.1;
 
-  border: 1px dashed rgba(var(--accent), 0.4);
+  border: 1px dashed hsla(from var(--category-color) h s l / 0.4);
   border-radius: 50%;
 
   z-index: 3;
@@ -153,7 +154,7 @@
 
   background: radial-gradient(
     circle at 50% 50%,
-    rgba(var(--accent), 0.15),
+    hsla(from var(--category-color) h s l / 0.15),
     transparent 70%
   );
 
@@ -169,7 +170,7 @@
 
   box-shadow:
     0 12px 30px rgba(0, 0, 0, 0.4),
-    0 0 20px rgba(var(--accent), 0.2);
+    0 0 20px hsla(from var(--category-color) h s l / 0.2);
 }
 
 .card:hover .frame {

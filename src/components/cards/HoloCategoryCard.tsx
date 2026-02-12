@@ -23,15 +23,15 @@ export default function HoloCategoryCard({
   title,
   subtitle,
 }: Props) {
-  const { setActiveHighlight } = useAtmosphere();
+  const { setHighlight } = useAtmosphere();
 
   return (
     <section  className={styles.wrapper}>
       <Link href={subtitle === "Individuals & factions" ? "/people" : subtitle === "Worlds & environments" ? "/planets" : subtitle === "Interstellar vessels" ? "/starships" : subtitle === "Cinematic records" ? "/films" : subtitle === "Biological classifications" ? "/species" : "/vehicles"}
-      onMouseEnter={() => setActiveHighlight(CATEGORIES.find(cat => cat.label === title)?.key || null)}
-      onMouseLeave={() => setActiveHighlight(null)}
-      onFocus={()=> setActiveHighlight(CATEGORIES.find(cat => cat.label === title)?.key || null)}
-      onBlur={() => setActiveHighlight(null)}
+      onMouseEnter={() => setHighlight(CATEGORIES.find(cat => cat.label === title)?.key || null)}
+      onMouseLeave={() => setHighlight(null)}
+      onFocus={()=> setHighlight(CATEGORIES.find(cat => cat.label === title)?.key || null)}
+      onBlur={() => setHighlight(null)}
       >
         <article
           className={styles.card}
