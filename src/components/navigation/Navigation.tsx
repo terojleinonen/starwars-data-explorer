@@ -1,69 +1,46 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useState } from 'react';
+import NavLink from "@/components/navigation/NavLink";
+import ThemeToggle from "@/components/navigation/ThemeToggle";
 import styles from "./Navigation.module.css";
-import ThemeToggle from "./ThemeToggle";
-import type { SwapiType } from "@/components/types/swapi-types";
-import { useNavParallax } from "@/hooks/useNavParallax";
-
-const CATEGORIES: { key: SwapiType; label: string }[] = [
-  { key: "people", label: "People" },
-  { key: "films", label: "Films" },
-  { key: "planets", label: "Planets" },
-  { key: "starships", label: "Starships" },
-  { key: "vehicles", label: "Vehicles" },
-  { key: "species", label: "Species" },
-];
 
 export default function Navigation() {
-  const pathname = usePathname();
-  const progress = useNavParallax();
+  const [isMenuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav
-      className={styles.nav}
-      style={{
-        transform: `translateY(${progress * -6}px)`,
-        height: `${72 - progress * 12}px`,
-        backdropFilter: `blur(${6 + progress * 8}px)`,
-        WebkitBackdropFilter: `blur(${6 + progress * 8}px)`,
-      }}
-    >
-      <Link
-        href="/"
-        data-nav-label="Home"
-        className={styles.logo}
-        style={{
-          transform: `scale(${1 - progress * 0.08})`,
-        }}
-      >
-        Galactic Archives
-      </Link>
-
-      <div className={styles.links}>
-        {CATEGORIES.map((cat) => {
-          const active = pathname.startsWith(`/${cat.key}`);
-
-          return (
-            <Link
-              key={cat.key}
-              href={`/${cat.key}`}
-              className={`${styles.link} ${
-                active ? styles.active : ""
-              }`}
-              style={{
-                borderBottomColor: `color-mix(in oklab, var(--category-accent), transparent ${60 - progress * 30}%)`
-              }}
-
-            >
-              {cat.label}
-            </Link>
-          );
-        })}
+    <nav className={styles.nav} data-open={isMenuOpen}>
+      <div className={styles.navTop}>
+        <NavLink href="/" label="Home" className={styles.brand}>
+            <div className={styles.logo}>
+              GALACTIC ARCHIVE
+            </div>
+            <div className={styles.tagline}>
+              Star Wars Data Interface · SWAPI
+            </div>
+        </NavLink>
+        <div className={`${styles.navLinks} ${isMenuOpen ? styles.navLinksOpen : ''}`}>
+          <NavLink href="/people" label="People">People</NavLink>
+          <NavLink href="/planets" label="Planets">Planets</NavLink>
+          <NavLink href="/films" label="Films">Films</NavLink>
+          <NavLink href="/starships" label="Starships">Starships</NavLink>
+          <NavLink href="/vehicles" label="Vehicles">Vehicles</NavLink>
+          <NavLink href="/species" label="Species">Species</NavLink>
+          <div className={styles.themeToggleMobile}>
+            <ThemeToggle />
+          </div>
+        </div>
+        <div className={styles.navTopActions}>
+          <div className={styles.themeToggleDesktop}>
+            <ThemeToggle />
+          </div>
+          <div className={styles.burger} onClick={() => setMenuOpen(!isMenuOpen)}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </div>
-
-      <ThemeToggle />
     </nav>
   );
 }

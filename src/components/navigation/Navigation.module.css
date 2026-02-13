@@ -1,60 +1,188 @@
 .nav {
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100%;
   z-index: 50;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  padding-inline: 24px;
-
-  background: var(--surface-glass);
-  border-bottom: 1px solid var(--border-subtle);
-
-  will-change: transform, height, backdrop-filter;
-  transition:
-    transform 120ms linear,
-    height 120ms linear,
-    backdrop-filter 120ms linear;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  transition: background 300ms ease;
 }
 
-.links {
-  display: flex;
-  gap: 1.25rem;
+/* =========================
+   DARK THEME
+========================= */
+
+:global(html[data-theme="dark"]) .nav {
+  background: rgba(8, 12, 22, 0.75);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 
-.link {
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-secondary);
-  text-decoration: none;
-  position: relative;
-}
-
-.active {
-  color: var(--text-primary);
-}
-
-.logo {
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  will-change: transform;
-  transition: transform 120ms linear;
-}
+/* =========================
+   LIGHT THEME
+========================= */
 
 :global(html[data-theme="light"]) .nav {
-  background: rgba(255, 255, 255, 0.6);
-  border-bottom-color: rgba(0, 0, 0, 0.1);
+  background: rgba(248, 244, 236, 0.85);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .nav,
-  .logo {
-    transform: none !important;
-    transition: none !important;
+/* =========================
+   TOP ROW
+========================= */
+
+.navTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navTopActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* =========================
+   BRAND
+========================= */
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+:global(html[data-theme="dark"]) .logo {
+  color: #FFE25A;
+  text-shadow: 0 0 12px rgba(255, 226, 90, 0.25);
+}
+
+:global(html[data-theme="light"]) .logo {
+  color: #222;
+}
+
+.tagline {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  opacity: 0.6;
+  margin-top: 2px;
+}
+
+/* =========================
+   NAV LINKS
+========================= */
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  transition: all 300ms ease;
+}
+
+.navLinks a {
+  position: relative;
+  text-decoration: none;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Active underline */
+.navLinks a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--category-accent),
+    transparent
+  );
+  opacity: 0;
+  transition: opacity 250ms ease;
+}
+
+.navLinks a:hover::after {
+  opacity: 1;
+}
+
+/* =========================
+   BURGER
+========================= */
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.burger span {
+  width: 22px;
+  height: 2px;
+  background: currentColor;
+  transition: all 0.3s ease;
+}
+
+/* Transform to X */
+.nav[data-open='true'] .burger span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.nav[data-open='true'] .burger span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav[data-open='true'] .burger span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.themeToggleDesktop {
+  display: block;
+}
+.themeToggleMobile {
+  display: none;
+}
+
+/* =========================
+   MOBILE MODE
+========================= */
+
+@media (max-width: 900px) {
+  .navTop {
+    flex-wrap: wrap;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .navLinks {
+    order: 3;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    padding-bottom: 0;
+  }
+
+  .navLinksOpen {
+    max-height: 400px;
+    padding-bottom: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .themeToggleDesktop {
+    display: none;
+  }
+
+  .themeToggleMobile {
+    display: block;
   }
 }
