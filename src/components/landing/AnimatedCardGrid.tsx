@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import React from "react";
 import styles from "./AnimatedCardGrid.module.css";
 
 type Props = {
@@ -9,21 +9,19 @@ type Props = {
 
 export default function AnimatedCardGrid({ children }: Props) {
   return (
-    <motion.div
-      initial="hidden"
-      animate="visible"
-      variants={{
-        hidden: {},
-        visible: {
-          transition: {
-            staggerChildren: 0.1,
-            delayChildren: 2.2,
-          },
-        },
-      }}
-      className={styles.cardGrid}
-    >
-      {children}
-    </motion.div>
+    <div className={styles.wrapper}>
+      <div className={styles.scanline} />
+
+      <div className={styles.grid}>
+        {React.Children.map(children, (child, index) => (
+          <div
+            className={styles.item}
+            style={{ animationDelay: `${index * 90}ms` }}
+          >
+            {child}
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }

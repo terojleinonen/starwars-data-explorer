@@ -40,7 +40,7 @@ export default function PageWrapper({ children, category }: Props) {
         ["--category-accent" as any]: accentVar(category),
       }}
     >
-      <CartographyBackground />
+      <CartographyBackground theme="dark" />
       <AtmosphereLayer category={category} 
       />
 

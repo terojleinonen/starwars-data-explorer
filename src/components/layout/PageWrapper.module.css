@@ -17,6 +17,8 @@
 ====================================================== */
 
 .wrapper {
+  padding-top: var(--nav-height);
+  padding-bottom: env(safe-area-inset-bottom);
   position: relative;
   height: 100vh;          /* viewport ownership */
   width: 100%;

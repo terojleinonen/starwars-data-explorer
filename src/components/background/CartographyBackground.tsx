@@ -4,32 +4,26 @@ import { useEffect, useRef, useState } from "react";
 import type { SwapiType } from "@/components/types/swapi-types";
 import styles from "./CartographyBackground.module.css";
 import { useTheme } from "@/theme/ThemeProvider";
-
+import useParallax from "@/hooks/useParallax"; 
 import CartographySvgDark from "./CartographySvgDark";
 import CartographySvgLight from "./CartographySvgLight";
 
 type Props = {
-  category?: SwapiType;
+  theme: "dark" | "light";
+  className?: string;
 };
 
-function getDeviceClass(): "desktop" | "tablet" | "mobile" {
-  if (typeof window === "undefined") return "desktop";
-
-  const w = window.innerWidth;
-
-  if (w < 640) return "mobile";
-  if (w < 1024) return "tablet";
-  return "desktop";
-}
-
-export default function CartographyBackground({ category }: Props) {
+export default function CartographyBackground({
+  children,
+}: React.PropsWithChildren<Props>) {
   const rootRef = useRef<HTMLDivElement>(null);
+  const gridRef = useParallax(3)
 
   const [device, setDevice] = useState<"desktop" | "tablet" | "mobile">(
     getDeviceClass()
   );
 
-  const { theme } = useTheme();
+  const { theme: themeContext } = useTheme();
 
   useEffect(() => {
     const onResize = () => setDevice(getDeviceClass());
@@ -63,13 +57,23 @@ export default function CartographyBackground({ category }: Props) {
   }, []);
 
   return (
-    <div ref={rootRef} className={styles.cartography} aria-hidden>
-      {theme === "dark" ? (
-        <CartographySvgDark category={category} device={device} />
+    <div ref={gridRef} className={styles.cartography} aria-hidden>
+      {themeContext === "dark" ? (
+        <CartographySvgDark category={children as SwapiType} device={device} />
       ) : (
-        <CartographySvgLight category={category} device={device} />
+        <CartographySvgLight category={children as SwapiType} device={device} />
       )}
       <div className={styles.starfield} />
     </div>
   );
+}
+
+function getDeviceClass(): "desktop" | "tablet" | "mobile" {
+  if (typeof window === "undefined") return "desktop";
+
+  const w = window.innerWidth;
+
+  if (w < 640) return "mobile";
+  if (w < 1024) return "tablet";
+  return "desktop";
 }

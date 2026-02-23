@@ -25,6 +25,8 @@ body {
 ====================================================== */
 
 :root {
+  --nav-height: 64px;
+  --nav--offset: calc(var(--nav-height) + 28px);
   /* ✅ your tokens.css does not define these, so we provide fallbacks */
   --bg-root: var(--bg-deep, #05080c);
   --accent-soft: color-mix(in oklab, var(--category-accent, var(--accent-people)), transparent 70%);

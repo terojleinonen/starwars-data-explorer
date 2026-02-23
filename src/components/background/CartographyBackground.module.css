@@ -1,6 +1,42 @@
 /* =====================================================
    ROOT LAYER
 ===================================================== */
+.root{
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.svgLayer{
+  position:absolute;
+  inset:0;
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+.atmosphere{
+  position:absolute;
+  inset:-10%;
+  pointer-events:none;
+  transform: translateZ(0);
+  opacity: 1;
+}
+
+.dark .atmosphere{
+  background:
+    radial-gradient(60% 45% at 20% 25%, rgba(120,210,255,0.12) 0%, rgba(0,0,0,0) 55%),
+    radial-gradient(55% 40% at 80% 35%, rgba(170,120,255,0.10) 0%, rgba(0,0,0,0) 60%),
+    radial-gradient(80% 70% at 50% 90%, rgba(255,255,255,0.06) 0%, rgba(0,0,0,0) 62%);
+  mix-blend-mode: screen;
+}
+
+.light .atmosphere{
+  background:
+    radial-gradient(70% 55% at 30% 25%, rgba(10,45,65,0.10) 0%, rgba(255,255,255,0) 60%),
+    radial-gradient(80% 70% at 60% 80%, rgba(10,45,65,0.06) 0%, rgba(255,255,255,0) 62%);
+  mix-blend-mode: multiply;
+}
 
 .cartography {
   position: fixed;
@@ -8,24 +44,49 @@
   pointer-events: none;
   z-index: 0;
 
-  /* Prevent accent color bleed */
-  color: var(--carto-ink, #000000);
+  /* Prevent accent bleed */
+  color: var(--carto-ink, #cdd4e0);
 }
 
 .svg {
   width: 100%;
   height: 100%;
   display: block;
-  
 }
 
 
-.stars {
-  mix-blend-mode: screen;
+/* =====================================================
+   DARK THEME BACKGROUND FOUNDATION
+===================================================== */
+
+:global(html[data-theme="dark"]) .svg {
+  background:
+    radial-gradient(
+      ellipse at 50% 45%,
+      #0b1220 0%,
+      #050812 45%,
+      #02040a 100%
+    );
 }
 
 
+/* =====================================================
+   STAR FIELD SYSTEM (SVG controls fill)
+   IMPORTANT: No CSS fill override here.
+===================================================== */
 
+.starsFar {
+  opacity: 0.35;
+}
+
+.starsMid {
+  opacity: 0.55;
+}
+
+.starsNear {
+  opacity: 0.75;
+  filter: drop-shadow(0 0 2px rgba(255,255,255,0.2));
+}
 
 
 /* =====================================================
@@ -38,18 +99,16 @@
 
 .planetLarge,
 .planetSmall {
-  mix-blend-mode: normal;
+  mix-blend-mode: screen;
   transition: filter 300ms ease;
 }
 
-/* Angle-aware shadowing */
 .planetShadow {
   transform-origin: center;
   transform: rotate(var(--nova-large-angle, 0deg));
   opacity: calc(0.55 * var(--nova-large-influence, 0));
 }
 
-/* Angle-aware specular */
 .planetSpecular {
   transform-origin: center;
   transform: rotate(var(--nova-large-angle, 0deg));
@@ -62,11 +121,13 @@
 ===================================================== */
 
 .supernova {
-  mix-blend-mode: screen;
   pointer-events: none;
+  mix-blend-mode: screen;
 
-  transition: opacity 0.6s ease-out;
   opacity: var(--nova-pulse, 0);
+  transition: opacity 0.6s ease-out;
+
+  filter: drop-shadow(0 0 18px rgba(255,255,255,0.4));
 }
 
 
@@ -77,11 +138,10 @@
 .shootingStar {
   stroke: white;
   stroke-width: 2;
+  stroke-linecap: round;
   opacity: 0.9;
 
-  stroke-linecap: round;
-
-  animation: shooting 2.5s ease-out infinite;
+  animation: shooting 2.5s ease-out forwards;
 }
 
 @keyframes shooting {
@@ -104,7 +164,7 @@
   fill: white;
   opacity: 0.8;
 
-  animation: satelliteFly 8s linear infinite;
+  animation: satelliteFly 8s linear forwards;
 }
 
 @keyframes satelliteFly {
@@ -127,23 +187,13 @@
 
 .marker {
   transform-origin: center;
-
   animation: markerPulse 4s ease-in-out infinite;
 }
 
 @keyframes markerPulse {
-  0% {
-    opacity: 0.6;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.25);
-  }
-  100% {
-    opacity: 0.6;
-    transform: scale(1);
-  }
+  0% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.2); }
+  100% { opacity: 0.6; transform: scale(1); }
 }
 
 
@@ -152,15 +202,14 @@
 ===================================================== */
 
 .constellation {
-  opacity: 0.72;
-  transition: opacity 400ms ease;
-
+  opacity: 0.7;
   mix-blend-mode: screen;
+  transition: opacity 300ms ease;
 }
 
 
 /* =====================================================
-   ACTIVE CATEGORY HIGHLIGHTING
+   ACTIVE CATEGORY STATE
 ===================================================== */
 
 .highlighted {
@@ -175,76 +224,45 @@
 
 
 /* =====================================================
-   PERFORMANCE / REDUCED MOTION
+   RADAR SYSTEM (LIGHTWEIGHT)
 ===================================================== */
 
-@media (prefers-reduced-motion: reduce) {
-  .shootingStar,
-  .satellite,
-  .marker,
-  .supernova {
-    animation: none;
-  }
+.radarSystem {
+  pointer-events: none;
+  opacity: 0.35;
+  mix-blend-mode: screen;
+}
 
-  .constellation {
-    transition: none;
-  }
+.sweep {
+  transform-origin: 50% 50%;
+  animation: radarRotate 24s linear infinite;
+}
+
+@keyframes radarRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 
 /* =====================================================
-   RESPONSIVE TUNING
+   LIGHT THEME FOUNDATION
 ===================================================== */
-
-@media (max-width: 1024px) {
-  .starsNear {
-    opacity: 0.65;
-  }
-
-  .starsMid {
-    opacity: 0.5;
-  }
-}
-
-@media (max-width: 640px) {
-  .starsNear {
-    opacity: 0.55;
-  }
-
-  .starsMid {
-    opacity: 0.45;
-  }
-
-  .constellation {
-    opacity: 0.55;
-  }
-}
-
-
-/* =====================================================
-   THEME SAFEGUARDS
-===================================================== */
-
-:global(html[data-theme="dark"]) .cartography {
-  /* map ink, NOT star ink*/
-  color: #7e879c;
-}
 
 :global(html[data-theme="light"]) .cartography {
-  color: #333c48; /* Dark Ink */
+  color: #333c48;
 }
 
 :global(html[data-theme="light"]) .svg {
-  background: #f4f1ea; /* Paper */
+  background: #f4f1ea;
 }
 
 
 /* =====================================================
-   LIGHT THEME PLACEHOLDERS (for CartographySvgLight)
+   LIGHT THEME STAR SYSTEM
 ===================================================== */
 
 .starsLight {
-  opacity: 0.5;
+  opacity: 0.45;
 }
 
 .blueprintGrid {
@@ -255,9 +273,10 @@
   opacity: 0.45;
 }
 
-/* ==============================================
+
+/* =====================================================
    LIGHT THEME MOTION SYSTEM
-============================================== */
+===================================================== */
 
 .radarSystemLight {
   opacity: 0.4;
@@ -266,12 +285,8 @@
 }
 
 @keyframes lightScan {
-  from {
-    transform: translateX(-200px);
-  }
-  to {
-    transform: translateX(1600px);
-  }
+  from { transform: translateX(-200px); }
+  to { transform: translateX(1600px); }
 }
 
 .pulse {
@@ -279,37 +294,20 @@
 }
 
 @keyframes sectorPulse {
-  0% {
-    opacity: 0.2;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.45;
-    transform: scale(1.08);
-  }
-  100% {
-    opacity: 0.2;
-    transform: scale(1);
-  }
+  0% { opacity: 0.2; transform: scale(1); }
+  50% { opacity: 0.45; transform: scale(1.08); }
+  100% { opacity: 0.2; transform: scale(1); }
 }
 
-/* Motion safety */
-@media (prefers-reduced-motion: reduce) {
-  .radarSystemLight,
-  .pulse {
-    animation: none;
-  }
-}
 
-/* ==============================================
-   CATEGORY TACTICAL COLOR SYSTEM
-============================================== */
+/* =====================================================
+   LIGHT THEME CATEGORY COLORS
+===================================================== */
 
 :global(html[data-theme="light"]) .sectorMarkers {
   color: var(--tactical-neutral);
 }
 
-/* Category overrides */
 :global(html[data-theme="light"]) .sector-people .marker {
   color: var(--tactical-people);
 }
@@ -334,51 +332,52 @@
   color: var(--tactical-species);
 }
 
-/* Tactical alert language */
-.map-alert {
-  color: var(--tactical-alert);
-}
 
-.map-warning {
-  color: var(--tactical-warning);
-}
-
-.map-ok {
-  color: var(--tactical-ok);
-}
-
-/* ==============================================
-   MAP INTERACTION STATES
-============================================== */
+/* =====================================================
+   INTERACTION STATES
+===================================================== */
 
 .highlighted {
-  opacity: 1;
-  filter: brightness(1.2) contrast(1.1);
-  transition: all 300ms ease;
+  filter: brightness(1.15);
 }
 
 .dimmed {
-  opacity: 0.22;
   filter: grayscale(0.6);
-  transition: all 300ms ease;
 }
 
-/* Sector markers respond strongly */
-.highlighted .marker {
-  animation: markerPulseStrong 2s ease-in-out infinite;
+
+/* =====================================================
+   RESPONSIVE TUNING
+===================================================== */
+
+@media (max-width: 1024px) {
+  .starsNear { opacity: 0.65; }
+  .starsMid { opacity: 0.5; }
 }
 
-@keyframes markerPulseStrong {
-  0% {
-    transform: scale(1);
-    opacity: 0.9;
+@media (max-width: 640px) {
+  .starsNear { opacity: 0.55; }
+  .starsMid { opacity: 0.45; }
+  .constellation { opacity: 0.55; }
+}
+
+
+/* =====================================================
+   PERFORMANCE SAFETY
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .shootingStar,
+  .satellite,
+  .marker,
+  .supernova,
+  .sweep,
+  .radarSystemLight,
+  .pulse {
+    animation: none;
   }
-  50% {
-    transform: scale(1.5);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0.9;
+
+  .constellation {
+    transition: none;
   }
 }

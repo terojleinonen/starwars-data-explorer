@@ -1,7 +1,7 @@
 // FILE: app/page.tsx
 "use client";
 
-import LandingPage from "../components/LandingPage/LandingPage";
+import LandingPage from "../components/landing/LandingPage";
 
 export default function HomePage() {
   return <LandingPage />;
