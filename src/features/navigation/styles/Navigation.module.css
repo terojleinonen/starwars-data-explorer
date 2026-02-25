@@ -1,0 +1,331 @@
+/* =====================================================
+   NAV ROOT
+===================================================== */
+
+.nav{
+  position:fixed;
+  top:0;
+  left:0;
+
+  width:100%;
+
+  z-index:100;
+
+  backdrop-filter:blur(18px);
+  -webkit-backdrop-filter:blur(18px);
+
+  transition:
+    background 300ms ease,
+    border-color 300ms ease;
+}
+
+/* container aligns navbar with page layout */
+
+.navContainer{
+  max-width:1200px;
+  margin:0 auto;
+  width:100%;
+}
+
+/* =========================
+   THEME BACKGROUNDS
+========================= */
+
+:global(html[data-theme="dark"]) .nav{
+  background:rgba(8,12,22,.75);
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+
+:global(html[data-theme="light"]) .nav{
+  background:rgba(248,244,236,.85);
+  border-bottom:1px solid rgba(0,0,0,.08);
+}
+
+/* =====================================================
+   TOP ROW
+===================================================== */
+
+.navTop{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:1rem 2rem;
+}
+
+/* right side */
+
+.navTopActions{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+}
+
+/* =====================================================
+   BRAND
+===================================================== */
+
+.brand{
+  display:flex;
+  flex-direction:column;
+  text-decoration:none;
+}
+
+.logo{
+  font-size:1.55rem;
+  font-weight:700;
+  letter-spacing:.08em;
+}
+
+:global(html[data-theme="dark"]) .logo{
+  color:#FFE25A;
+
+  text-shadow:
+    0 0 12px rgba(255,226,90,.25);
+}
+
+:global(html[data-theme="light"]) .logo{
+  color:#222;
+}
+
+.tagline{
+  font-size:.7rem;
+  letter-spacing:.12em;
+  opacity:.6;
+  margin-top:2px;
+}
+
+/* =====================================================
+   NAV LINKS
+===================================================== */
+
+.navLinks{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  gap:2rem;
+
+  transition:all 300ms ease;
+}
+
+.navLinks a{
+  position:relative;
+
+  text-decoration:none;
+
+  font-size:.95rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+
+  opacity:.9;
+
+  transition:
+    color .2s ease,
+    opacity .2s ease;
+}
+
+.navLinks a:hover{
+  opacity:1;
+}
+
+/* holographic underline */
+
+.navLinks a::after{
+
+  content:"";
+
+  position:absolute;
+
+  left:0;
+  bottom:-6px;
+
+  width:100%;
+  height:2px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      var(--category-accent),
+      transparent
+    );
+
+  opacity:0;
+
+  transition:opacity 250ms ease;
+}
+
+.navLinks a:hover::after{
+  opacity:1;
+}
+
+/* =====================================================
+   BURGER
+===================================================== */
+
+.burger{
+  display:none;
+
+  flex-direction:column;
+  gap:5px;
+
+  cursor:pointer;
+
+  border:none;
+  background:none;
+
+  padding:0;
+}
+
+.burger span{
+  width:22px;
+  height:2px;
+
+  background:currentColor;
+
+  transition:all .3s ease;
+}
+
+/* transform to X */
+
+.nav[data-open="true"] .burger span:nth-child(1){
+  transform:rotate(45deg) translate(5px,5px);
+}
+
+.nav[data-open="true"] .burger span:nth-child(2){
+  opacity:0;
+}
+
+.nav[data-open="true"] .burger span:nth-child(3){
+  transform:rotate(-45deg) translate(5px,-5px);
+}
+
+/* =====================================================
+   THEME TOGGLES
+===================================================== */
+
+.themeToggleDesktop{
+  display:block;
+}
+
+.themeToggleMobile{
+  display:none;
+}
+
+/* =====================================================
+   MOBILE NAV
+===================================================== */
+
+@media (max-width:900px){
+
+  .navTop{
+    flex-wrap:wrap;
+  }
+
+  .burger{
+    display:flex;
+  }
+
+  .navLinks{
+
+    order:3;
+
+    width:100%;
+
+    flex-direction:column;
+    align-items:center;
+
+    gap:1.5rem;
+
+    max-height:0;
+    overflow:hidden;
+
+    padding-bottom:0;
+  }
+
+  .navLinksOpen{
+
+    max-height:420px;
+
+    margin-top:1rem;
+
+    padding-bottom:1.5rem;
+  }
+
+  .themeToggleDesktop{
+    display:none;
+  }
+
+  .themeToggleMobile{
+    display:block;
+  }
+
+}
+
+/* ==========================================
+   HOLOGRAPHIC SCANLINES
+========================================== */
+
+.nav::before{
+  content:"";
+
+  position:absolute;
+  inset:0;
+
+  pointer-events:none;
+
+  background:
+    repeating-linear-gradient(
+      180deg,
+      rgba(255,255,255,.02),
+      rgba(255,255,255,.02) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+
+  opacity:.25;
+}
+
+/* ==========================================
+   NAV ENERGY LINE
+========================================== */
+
+.nav::after{
+
+  content:"";
+
+  position:absolute;
+
+  left:0;
+  bottom:0;
+
+  width:100%;
+  height:2px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(160,220,255,.7),
+      transparent
+    );
+
+  box-shadow:
+    0 0 10px rgba(160,220,255,.5),
+    0 0 20px rgba(160,220,255,.25);
+
+  opacity:.6;
+}
+
+@keyframes navEnergy{
+
+  0%{ opacity:.4 }
+  50%{ opacity:.75 }
+  100%{ opacity:.4 }
+
+}
+
+.nav::after{
+  animation:navEnergy 6s ease-in-out infinite;
+}

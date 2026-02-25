@@ -1,5 +1,5 @@
-import DetailsPage from "@/components/details/DetailsPage";
-import type { SwapiType } from "@/components/types/swapi-types";
+import DetailsPage from "@/features/details/components/DetailsPage";
+import type { SwapiType } from "@/lib/swapi/swapi-types";
 
 type PageProps = {
   params: Promise<{

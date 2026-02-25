@@ -1,0 +1,408 @@
+/* =====================================================
+   CartographyBackground.module.css
+   Layered, contained background for the hero window
+   - Fixes: no viewport-fixed layers inside hero
+   - Adds: explicit z-index stack for predictable layering
+   - Keeps: your existing SVG class hooks (starsFar/Mid/Near, etc.)
+===================================================== */
+
+/* =====================================================
+   ROOT LAYER
+===================================================== */
+.root{
+  position:absolute;
+  inset:0;
+  border-radius:24px;
+  overflow:hidden;
+  isolation:isolate;
+}
+
+.overlay{
+  position:absolute;
+  inset:0;
+  z-index:10;
+}
+
+/* Theme markers (used by .dark .atmosphere / .light .atmosphere) */
+.dark{}
+.light{}
+
+/* =====================================================
+   STACKED LAYERS (z-index contract)
+   0: svg/cartography
+   1: atmosphere bloom
+   2: fog + star twinkle
+   3: scanlines
+   10+: UI overlay (NOT defined here; belongs to parent page)
+===================================================== */
+
+.svgLayer{
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+/* Optional atmospheric glow (above SVG, below fog) */
+.atmosphere{
+  position: absolute;
+  inset: -10%;
+  z-index: 1;
+  pointer-events: none;
+  transform: translateZ(0);
+  opacity: 1;
+}
+
+/* Your themed atmosphere blooms */
+.dark .atmosphere{
+  background:
+    radial-gradient(60% 45% at 20% 25%, rgba(120,210,255,0.12) 0%, rgba(0,0,0,0) 55%),
+    radial-gradient(55% 40% at 80% 35%, rgba(170,120,255,0.10) 0%, rgba(0,0,0,0) 60%),
+    radial-gradient(80% 70% at 50% 90%, rgba(255,255,255,0.06) 0%, rgba(0,0,0,0) 62%);
+  mix-blend-mode: screen;
+}
+
+.light .atmosphere{
+  background:
+    radial-gradient(70% 55% at 30% 25%, rgba(10,45,65,0.10) 0%, rgba(255,255,255,0) 60%),
+    radial-gradient(80% 70% at 60% 80%, rgba(10,45,65,0.06) 0%, rgba(255,255,255,0) 62%);
+  mix-blend-mode: multiply;
+}
+
+/* Fog layer (above atmosphere) */
+.fog{
+  position: absolute;
+  inset: -20%;
+  z-index: 2;
+  pointer-events: none;
+
+  background:
+    radial-gradient(circle at 30% 20%, rgba(120,200,255,.08), transparent 60%),
+    radial-gradient(circle at 70% 60%, rgba(160,120,255,.06), transparent 65%);
+
+  filter: blur(40px);
+  opacity: .6;
+  transform: translateZ(0);
+}
+
+/* Starfield overlay carrier (pseudo-element draws stars) */
+.starfield{
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  transform: translateZ(0);
+}
+
+.starfield::after{
+  content:"";
+  position:absolute;
+  inset:0;
+
+  background-image:
+    radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,.8), transparent),
+    radial-gradient(2px 2px at 70% 40%, rgba(255,255,255,.7), transparent),
+    radial-gradient(2px 2px at 50% 80%, rgba(255,255,255,.8), transparent);
+
+  animation: starTwinkle 6s ease-in-out infinite;
+  opacity:.35;
+}
+
+@keyframes starTwinkle{
+  0%,100%{ opacity:.25 }
+  50%{ opacity:.45 }
+}
+
+/* Scanlines (above fog/starfield, below UI overlays) */
+.scanlines{
+  position:absolute;
+  inset:0;
+  z-index: 3;
+
+  background:
+    repeating-linear-gradient(
+      180deg,
+      rgba(255,255,255,.02),
+      rgba(255,255,255,.02) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+
+  opacity:.25;
+  pointer-events:none;
+  transform: translateZ(0);
+}
+
+/* =====================================================
+   CARTOGRAPHY SVG WRAPPER (CONTAINED)
+   IMPORTANT: This must be absolute, not fixed,
+   so it stays clipped by .root border radius.
+===================================================== */
+.cartography {
+  position: absolute;   /* FIXED -> ABSOLUTE */
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+
+  /* Prevent accent bleed */
+  color: var(--carto-ink, #cdd4e0);
+}
+
+/* The SVG element itself */
+.svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* =====================================================
+   DARK THEME BACKGROUND FOUNDATION
+===================================================== */
+:global(html[data-theme="dark"]) .svg {
+  background:
+    radial-gradient(
+      ellipse at 50% 45%,
+      #0b1220 0%,
+      #050812 45%,
+      #02040a 100%
+    );
+}
+
+/* =====================================================
+   STAR FIELD SYSTEM (SVG controls fill)
+   IMPORTANT: No CSS fill override here.
+===================================================== */
+.starsFar { opacity: 0.35; }
+.starsMid { opacity: 0.55; }
+
+.starsNear {
+  opacity: 0.75;
+  filter: drop-shadow(0 0 2px rgba(255,255,255,0.2));
+}
+
+/* =====================================================
+   PLANET SYSTEM
+   NOTE: For SVG shapes, prefer drop-shadow/filter over box-shadow.
+===================================================== */
+.planets { pointer-events: none; }
+
+.planetLarge,
+.planetSmall {
+  mix-blend-mode: screen;
+  transition: filter 300ms ease;
+
+  /* If these are SVG nodes, drop-shadow works; box-shadow does not */
+  filter:
+    drop-shadow(0 0 18px rgba(120,200,255,.18))
+    drop-shadow(0 0 42px rgba(120,200,255,.10));
+}
+
+.planetShadow {
+  transform-origin: center;
+  transform: rotate(var(--nova-large-angle, 0deg));
+  opacity: calc(0.55 * var(--nova-large-influence, 0));
+}
+
+.planetSpecular {
+  transform-origin: center;
+  transform: rotate(var(--nova-large-angle, 0deg));
+  opacity: calc(0.75 * var(--nova-large-influence, 0));
+}
+
+/* =====================================================
+   SUPERNOVA SYSTEM
+===================================================== */
+.supernova {
+  pointer-events: none;
+  mix-blend-mode: screen;
+
+  opacity: var(--nova-pulse, 0);
+  transition: opacity 0.6s ease-out;
+
+  filter: drop-shadow(0 0 18px rgba(255,255,255,0.4));
+}
+
+/* =====================================================
+   SHOOTING STARS
+===================================================== */
+.shootingStar {
+  stroke: white;
+  stroke-width: 2;
+  stroke-linecap: round;
+  opacity: 0.9;
+
+  animation: shooting 2.5s ease-out forwards;
+}
+
+@keyframes shooting {
+  from {
+    stroke-dasharray: 0 200;
+    opacity: 1;
+  }
+  to {
+    stroke-dasharray: 200 200;
+    opacity: 0;
+  }
+}
+
+/* =====================================================
+   SATELLITE FLYBYS
+===================================================== */
+.satellite {
+  fill: white;
+  opacity: 0.8;
+
+  animation: satelliteFly 8s linear forwards;
+}
+
+@keyframes satelliteFly {
+  from { transform: translateX(-40px); }
+  to   { transform: translateX(1480px); }
+}
+
+/* =====================================================
+   SECTOR MARKERS
+===================================================== */
+.sectorMarkers { pointer-events: none; }
+
+.marker {
+  transform-origin: center;
+  animation: markerPulse 4s ease-in-out infinite;
+}
+
+@keyframes markerPulse {
+  0%   { opacity: 0.6; transform: scale(1); }
+  50%  { opacity: 1;   transform: scale(1.2); }
+  100% { opacity: 0.6; transform: scale(1); }
+}
+
+/* =====================================================
+   CONSTELLATIONS
+===================================================== */
+.constellation {
+  opacity: 0.7;
+  mix-blend-mode: screen;
+  transition: opacity 300ms ease;
+}
+
+/* =====================================================
+   ACTIVE CATEGORY STATE
+===================================================== */
+.highlighted {
+  opacity: 1;
+  transition: opacity 300ms ease;
+  filter: brightness(1.15);
+}
+
+.dimmed {
+  opacity: 0.25;
+  transition: opacity 300ms ease;
+  filter: grayscale(0.6);
+}
+
+/* =====================================================
+   RADAR SYSTEM (LIGHTWEIGHT)
+===================================================== */
+.radarSystem {
+  pointer-events: none;
+  opacity: 0.35;
+  mix-blend-mode: screen;
+}
+
+.sweep {
+  transform-origin: 50% 50%;
+  animation: radarRotate 24s linear infinite;
+}
+
+@keyframes radarRotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* =====================================================
+   LIGHT THEME FOUNDATION
+===================================================== */
+:global(html[data-theme="light"]) .cartography {
+  color: #333c48;
+}
+
+:global(html[data-theme="light"]) .svg {
+  background: #f4f1ea;
+}
+
+/* =====================================================
+   LIGHT THEME STAR SYSTEM
+===================================================== */
+.starsLight { opacity: 0.45; }
+.blueprintGrid { opacity: 0.6; }
+
+:global(html[data-theme="light"]) .orbits { opacity: 0.45; }
+
+/* =====================================================
+   LIGHT THEME MOTION SYSTEM
+===================================================== */
+.radarSystemLight {
+  opacity: 0.4;
+  mix-blend-mode: multiply;
+  animation: lightScan 18s linear infinite;
+}
+
+@keyframes lightScan {
+  from { transform: translateX(-200px); }
+  to   { transform: translateX(1600px); }
+}
+
+.pulse { animation: sectorPulse 6s ease-in-out infinite; }
+
+@keyframes sectorPulse {
+  0%   { opacity: 0.2;  transform: scale(1); }
+  50%  { opacity: 0.45; transform: scale(1.08); }
+  100% { opacity: 0.2;  transform: scale(1); }
+}
+
+/* =====================================================
+   LIGHT THEME CATEGORY COLORS
+===================================================== */
+:global(html[data-theme="light"]) .sectorMarkers { color: var(--tactical-neutral); }
+
+:global(html[data-theme="light"]) .sector-people .marker    { color: var(--tactical-people); }
+:global(html[data-theme="light"]) .sector-planets .marker   { color: var(--tactical-planets); }
+:global(html[data-theme="light"]) .sector-films .marker     { color: var(--tactical-films); }
+:global(html[data-theme="light"]) .sector-starships .marker { color: var(--tactical-starships); }
+:global(html[data-theme="light"]) .sector-vehicles .marker  { color: var(--tactical-vehicles); }
+:global(html[data-theme="light"]) .sector-species .marker   { color: var(--tactical-species); }
+
+/* =====================================================
+   RESPONSIVE TUNING
+===================================================== */
+@media (max-width: 1024px) {
+  .starsNear { opacity: 0.65; }
+  .starsMid  { opacity: 0.5; }
+}
+
+@media (max-width: 640px) {
+  .starsNear      { opacity: 0.55; }
+  .starsMid       { opacity: 0.45; }
+  .constellation  { opacity: 0.55; }
+}
+
+/* =====================================================
+   PERFORMANCE SAFETY
+===================================================== */
+@media (prefers-reduced-motion: reduce) {
+  .shootingStar,
+  .satellite,
+  .marker,
+  .supernova,
+  .sweep,
+  .radarSystemLight,
+  .pulse,
+  .starfield::after {
+    animation: none;
+  }
+
+  .constellation {
+    transition: none;
+  }
+}

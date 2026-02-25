@@ -1,0 +1,40 @@
+.panel {
+  margin-top: 28px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.title {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  gap: 6px;
+}
+
+.link {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+
+  transition: color 140ms ease, opacity 140ms ease;
+}
+
+.link:hover {
+  color: var(--text-primary);
+  opacity: 1;
+}
+
+/* Light theme tuning */
+:global(html[data-theme="light"]) .panel {
+  border-top-color: rgba(15, 23, 42, 0.12);
+}

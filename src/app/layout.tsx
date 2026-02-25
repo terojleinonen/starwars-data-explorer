@@ -1,10 +1,10 @@
 import "@/styles/globals.css";
 import "@/design/tokens.css"
 import { ThemeProvider } from "@/theme/ThemeProvider";
-import Navigation from "@/components/navigation/Navigation";
-import RouteTransition from "@/components/navigation/RouteTransition";
-import { AtmosphereProvider } from "@/components/layout/AtmosphereContext";
-import { NavigationHistoryProvider } from "@/components/navigation/NavigationHistoryContext";
+import Navigation from "@/features/navigation/components/Navigation";
+import RouteTransition from "@/features/navigation/components/RouteTransition";
+import { AtmosphereProvider } from "@/features/layout/components/AtmosphereContext";
+import { NavigationHistoryProvider } from "@/features/navigation/components/NavigationHistoryContext";
 import type { Viewport } from "next";
 
 export const viewport: Viewport = {
