@@ -1,7 +1,7 @@
 import {
   cacheDetail,
   hasCachedDetail,
-} from "./swapiCache";
+} from "./cache";
 
 export async function prefetchSwapiDetail(url?: string) {
   if (!url) return;

@@ -1,7 +1,7 @@
 "use client";
 
 import useParallax from "@/hooks/motion/useParallax";
-import styles from "./PlanetLayer.module.css";
+import styles from "../styles/PlanetLayer.module.css";
 
 export default function PlanetLayer() {
   const ref = useParallax(10);

@@ -1,4 +1,4 @@
-import { BackArrowGlyph } from "./BackArrowGlyph";
+import { BackArrowGlyph } from "@/features/navigation";
 import { tapHaptic } from "@/lib/utils/haptics";
 import styles from "../styles/SystemBackArrow.module.css";
 

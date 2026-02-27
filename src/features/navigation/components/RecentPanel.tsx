@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import styles from "../styles/RecentPanel.module.css";
-import { useNavigationHistory } from "./NavigationHistoryContext";
+import { useNavigationHistory } from "@/features/navigation";
 
 type Props = {
   maxItems?: number;

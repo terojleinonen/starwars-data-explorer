@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import type { SwapiItem } from "@/lib/swapi/swapi-types";
+import type { SwapiItem } from "@/lib/swapi/types";
 
 export type SortKey = "name" | "id";
 

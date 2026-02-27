@@ -1,4 +1,4 @@
-import type { SwapiType } from "@/lib/swapi/swapi-types";
+import type { SwapiType } from "@/lib/swapi/types";
 
 export const CATEGORY_ACCENT: Record<SwapiType, string> = {
   films: "#f59e0b",      // warm amber (story / time)

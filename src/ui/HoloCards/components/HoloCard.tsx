@@ -1,38 +1,63 @@
+
+"use client";
+
 import Link from "next/link";
 import styles from "../styles/HoloCard.module.css";
-import HoloIcon, { type HoloIconName } from "@/ui/icons/HoloIcon";
+import HoloIcon, { HoloIconName } from "@/ui/icons/HoloIcon";
 
 type Props = {
   title: string;
-  subtitle: string;
+  subtitle?: string;
   href: string;
   icon?: HoloIconName;
 };
 
-export default function HoloCard({ title, subtitle, href, icon }: Props) {
+export default function HoloCard({
+  title,
+  subtitle,
+  href,
+  icon,
+}: Props) {
   return (
-    <Link href={href} className={styles.card} prefetch>
-      <div className={styles.inner}>
-        <div className={styles.topRow}>
-          <div className={styles.label}>DATABASE</div>
+    <Link
+      href={href}
+      className={styles.wrapper}
+      aria-label={`Open ${title}`}
+    >
+      <div className={styles.surface}>
 
-          {icon ? (
-            <div className={styles.emblem} aria-hidden="true">
-              <HoloIcon name={icon} className={styles.icon} title={title} />
-              <div className={styles.emblemGlow} />
-            </div>
-          ) : null}
-        </div>
+        {/* targeting frame */}
+        <div className={styles.moduleFrame} />
 
-        <h3 className={styles.title}>{title}</h3>
-        <p className={styles.subtitle}>{subtitle}</p>
-
-        <div className={styles.footer}>
-          <span>Open</span>
-          <span className={styles.arrow}>→</span>
-        </div>
-
+        {/* visual effects */}
         <div className={styles.glow} />
+        <div className={styles.sweep} />
+
+        {/* card content */}
+        <div className={styles.content}>
+
+          {icon && (
+            <div className={styles.icon}>
+              <HoloIcon name={icon} />
+            </div>
+          )}
+
+          <div className={styles.title}>
+            {title}
+          </div>
+
+          {subtitle && (
+            <div className={styles.subtitle}>
+              {subtitle}
+            </div>
+          )}
+
+          <div className={styles.moduleStatus}>
+            MODULE READY
+          </div>
+
+        </div>
+
       </div>
     </Link>
   );

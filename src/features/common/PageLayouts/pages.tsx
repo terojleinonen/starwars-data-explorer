@@ -1,10 +1,10 @@
 "use client";
 
-import PageWrapper from "@/components/layout/PageWrapper";
-import RecordGrid from "@/features/records/components/RecordGrid";
-import HoloHeader from "@/ui/HoloHeader/components/HoloHeader";
+import { PageWrapper } from "@/features/layout";
+import { RecordGrid } from "@/features/records";
+import { HoloHeader } from "@/ui/HoloHeader";
 import { useSwapi } from "@/hooks/data/useSwapi";
-import { SwapiType } from "@/lib/swapi/swapi-types";
+import { SwapiType } from "@/lib/swapi/types";
 import styles from "./CategoryPage.module.css";
 
 type Props = {

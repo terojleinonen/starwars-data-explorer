@@ -1,4 +1,4 @@
-import { cacheItem } from "./swapiCache";
+import { cacheItem } from "./cache";
 
 export function indexSwapiResults(
   category: string,

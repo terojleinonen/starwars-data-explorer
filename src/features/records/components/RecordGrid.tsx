@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import type { SwapiItem, SwapiType } from "@/lib/swapi/swapi-types";
+import type { SwapiItem, SwapiType } from "@/lib/swapi/types";
 import RecordCard from "./RecordCard";
 import styles from "../styles/RecordGrid.module.css";
 import { getRecordMeta } from "./recordMeta";

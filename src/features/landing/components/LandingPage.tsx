@@ -1,17 +1,13 @@
 "use client";
 
 import React from "react";
-import PageWrapper from "@/features/layout/components/PageWrapper";
-import styles from "../styles/LandingPage.module.css";
-
-import CartographyBackground from "@/features/cartography/components/CartographyBackground";
-import CommandPulse from "./CommandPulse";
-
-import AnimatedCard from "./AnimatedCard";
-import AnimatedCardGrid from "./AnimatedCardGrid";
-import HoloCard from "@/ui/HoloCards/components/HoloCard";
-
+import { PageWrapper } from "@/features/layout";
+import { CartographyBackground }from "@/features/cartography";
+import { CommandPulse } from "@/features/landing";
+import { AnimatedCard, AnimatedCardGrid } from "@/ui/motion";
+import { HoloCard } from "@/ui/HoloCards";
 import { useTheme } from "@/theme/ThemeProvider";
+import styles from "../styles/LandingPage.module.css";
 
 const categories = [
   {

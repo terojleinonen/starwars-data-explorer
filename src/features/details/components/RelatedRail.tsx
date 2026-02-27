@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import styles from "../styles/RelatedRail.module.css";
-import { cachedFetch } from "@/lib/swapi/swapiCache";
-import type { SwapiType } from "@/lib/swapi/swapi-types";
+import { cachedFetch } from "@/lib/swapi/cache";
+import type { SwapiType } from "@/lib/swapi/types";
 
 /* -----------------------------------------------
    Types

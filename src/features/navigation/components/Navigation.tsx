@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import NavLink from "./NavLink";
-import ThemeToggle from "./ThemeToggle";
+import { NavLink, ThemeToggle } from "@/features/navigation";
 import styles from "../styles/Navigation.module.css";
 
 export default function Navigation() {

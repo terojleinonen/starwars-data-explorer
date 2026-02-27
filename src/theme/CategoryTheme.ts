@@ -1,4 +1,4 @@
-import type { SwapiType } from "@/lib/swapi/swapi-types";
+import type { SwapiType } from "@/lib/swapi/types";
 
 export type CategoryTheme = {
   accentRgb: string; // "120, 180, 255"

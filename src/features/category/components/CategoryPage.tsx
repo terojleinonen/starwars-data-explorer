@@ -2,13 +2,13 @@
 
 import { useSwapi } from "@/hooks/data/useSwapi";
 import { useRecordQuery } from "@/hooks/data/useRecordQuery";
-import type { SwapiType, SwapiItem } from "@/lib/swapi/swapi-types";
+import type { SwapiType, SwapiItem } from "@/lib/swapi/types";
 import type { SwapiListResponse } from "@/hooks/data/useSwapi";
-import { useRegisterNavigation } from "../../navigation/components/useRegisterNavigation";
-import PageWrapper from "@/features/layout/components/PageWrapper";
-import HoloHeader from "@/ui/HoloHeader/components/HoloHeader";
-import CategoryToolbar from "@/features/category/components/CategoryToolbar";
-import RecordGrid from "@/features/records/components/RecordGrid";
+import { useRegisterNavigation } from "@/features/navigation";
+import { PageWrapper } from "@/features/layout";
+import { HoloHeader } from "@/ui/HoloHeader";
+import { CategoryToolbar } from "@/features/category";
+import { RecordGrid } from "@/features/records";
 import styles from "../styles/CategoryPage.module.css";
 
 /* -----------------------------------------------

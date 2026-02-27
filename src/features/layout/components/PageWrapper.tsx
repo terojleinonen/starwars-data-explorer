@@ -1,10 +1,9 @@
 "use client";
 
-import CartographyBackground from "@/features/cartography/components/CartographyBackground";
-import AtmosphereLayer from "@/features/layout/components/AtmosphereLayer";
-import ScrollViewport from "@/features/layout/components/ScrollViewport";
+import { CartographyBackground }from "@/features/cartography";
+import { AtmosphereLayer, ScrollViewport} from "@/features/layout";
 import styles from "../styles/PageWrapper.module.css";
-import type { SwapiType } from "@/lib/swapi/swapi-types";
+import type { SwapiType } from "@/lib/swapi/types";
 
 type Props = {
   children: React.ReactNode;
@@ -41,9 +40,7 @@ export default function PageWrapper({ children, category }: Props) {
       }}
     >
       <CartographyBackground  />
-      <AtmosphereLayer category={category} 
-      />
-
+      <AtmosphereLayer category={category}/>
       <ScrollViewport>
         {children}
       </ScrollViewport>

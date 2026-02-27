@@ -2,7 +2,7 @@
 // Strict TypeScript SWAPI fetcher with caching, loading, error states.
 
 import { useEffect, useState } from "react";
-import type { SwapiItem } from "@/lib/swapi/swapi-types";
+import type { SwapiItem } from "@/lib/swapi/types";
 
 // ----- Strict SWAPI types -----
 export interface SwapiListResponse<T> {

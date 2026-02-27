@@ -1,8 +1,8 @@
 "use client";
 
-import type { SwapiType } from "@/lib/swapi/swapi-types";
+import type { SwapiType } from "@/lib/swapi/types";
 import styles from "../styles/CartographyBackground.module.css";
-import { useAtmosphere } from "@/features/layout/components/AtmosphereContext";
+import { useAtmosphere } from "@/features/layout";
 import { useEffect, useState } from "react";
 
 type Props = {

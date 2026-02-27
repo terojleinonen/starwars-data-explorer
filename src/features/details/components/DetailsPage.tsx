@@ -1,17 +1,13 @@
 "use client";
 
-import PageWrapper from "@/features/layout/components/PageWrapper";
+import type { SwapiType } from "@/lib/swapi/types";
+import { PageWrapper } from "@/features/layout";
+import { useRegisterNavigation, RecentPanel} from "@/features/navigation";
+import { OpeningCrawl } from "@/features/details";
+import { RecordAttributesGrid }from "@/features/records";
+import { HoloHeader } from "@/ui/HoloHeader";
+import { DetailsTabs, RelatedRail, RelatedPanel, TargetLock} from "@/features/details";
 import styles from "../styles/DetailsPage.module.css";
-import { useRegisterNavigation } from "../../navigation/components/useRegisterNavigation";
-import type { SwapiType } from "@/lib/swapi/swapi-types";
-import HoloHeader from "@/ui/HoloHeader/components/HoloHeader";
-import OpeningCrawl from "@/features/details/components/OpeningCrawl";
-import RecordAttributesGrid from "@/features/records/components/RecordAttributesGrid";
-import DetailsTabs from "./DetailsTabs";
-import RelatedRail from "./RelatedRail";
-import RelatedPanel from "./RelatedPanel";
-import RecentPanel from "../../navigation/components/RecentPanel";
-import TargetLock from "./TargetLock";
 
 import {
   getRecordMetaFromItem,

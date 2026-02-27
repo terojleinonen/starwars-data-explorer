@@ -1,9 +1,9 @@
+import type { SwapiType } from "@/lib/swapi/types";
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import NavLink from "@/features/navigation/components/NavLink";
+import { NavLink } from "@/features/navigation";
+import { useAtmosphere } from "@/features/layout";
+import type { RecordMeta } from "@/features/records";
 import styles from "../styles/RecordCard.module.css";
-import type { RecordMeta } from "./recordMeta";
-import type { SwapiType } from "@/lib/swapi/swapi-types";
-import { useAtmosphere } from "@/features/layout/components/AtmosphereContext";
 
 type Props = {
   category: SwapiType;

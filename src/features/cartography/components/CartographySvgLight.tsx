@@ -1,6 +1,6 @@
 "use client";
 
-import type { SwapiType } from "@/lib/swapi/swapi-types";
+import type { SwapiType } from "@/lib/swapi/types";
 import styles from "../styles/CartographyBackground.module.css";
 
 type Props = {

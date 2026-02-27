@@ -1,194 +1,302 @@
-.card{
-  composes: holoSurface from "@/ui/surfaces/HoloSurface.module.css";
+/* =====================================================
+   HOLO CARD — PREMIUM COMMAND MODULE
+   Works with: HoloCard.tsx structure
+===================================================== */
 
-  padding: 18px;
-  min-height: 120px;
+.wrapper{
+  position:relative;
+  display:block;
+  width:100%;
+  height:100%;
+  text-decoration:none;
+  color:inherit;
+  outline:none;
 
-  transition:
-    transform .18s ease,
-    box-shadow .22s ease,
-    border-color .2s ease;
+  /* small lift baseline */
+  transform: translateZ(0);
+  transition: transform 220ms ease, filter 220ms ease;
 }
 
-.inner{
+.surface{
   position:relative;
+  height:100%;
 
-  height:150px;
-  padding:18px;
+  padding: 18px 18px 16px;
 
-  border-radius:18px;
+  border-radius: 20px;
 
   background:
-  linear-gradient(
-    180deg,
-    rgba(255,255,255,.12),
-    rgba(255,255,255,.04)
-  );
+    radial-gradient(120% 90% at 20% 10%, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.03) 55%, rgba(0,0,0,0) 100%),
+    linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
 
-  border:1px solid rgba(255,255,255,.14);
+  border: 1px solid rgba(255,255,255,0.14);
 
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow:
+    0 18px 44px rgba(0,0,0,0.34),
+    0 0 0 1px rgba(255,255,255,0.04) inset;
 
   overflow:hidden;
 
   transition:
-  transform .2s ease,
-  box-shadow .25s ease,
-  border .2s ease;
-
+    transform 220ms ease,
+    border-color 220ms ease,
+    box-shadow 220ms ease;
 }
 
-.card:hover{
-  transform: translateY(-4px);
-
-  box-shadow:
-    0 24px 60px rgba(0,0,0,.45),
-    0 0 26px rgba(140,220,255,.25);
-
-  border-color: rgba(180,230,255,.3);
-}
-
-.label{
-  font-size:10px;
-  letter-spacing:.14em;
-  text-transform:uppercase;
-  opacity:.65;
-}
-
-.arrow{
-  transition:transform .15s ease;
-}
-
-.card:hover .arrow{
-  transform:translateX(3px);
-}
-
-.glow{
-  position:absolute;
-  inset:-30%;
-
-  background:
-    radial-gradient(
-      circle at 30% 20%,
-      rgba(160,220,255,.25),
-      transparent 60%
-    );
-
-  opacity:.4;
-  pointer-events:none;
-}
-
-.card{
-  display:block;
-  text-decoration:none;
-  color:inherit;
-}
-
-.card:hover .inner{
-  border:1px solid rgba(160,220,255,.35);
-  transform: translateY(-1px);
-}
-
-.topRow{
-  display:flex;
-  align-items:flex-start;
-  justify-content:space-between;
-  gap: 12px;
-}
-
-.label{
-  font-size:10px;
-  letter-spacing:.14em;
-  text-transform:uppercase;
-  opacity:.65;
-  padding-top: 2px;
-}
-
-.emblem{
-  position:relative;
-  width: 42px;
-  height: 42px;
-  border-radius: 14px;
-  display:grid;
-  place-items:center;
-
-  background: rgba(0,0,0,0.10);
-  border: 1px solid rgba(255,255,255,0.14);
-
-  box-shadow:
-    0 10px 22px rgba(0,0,0,.18),
-    0 0 0 1px rgba(255,255,255,0.04) inset;
-
-  transform: translateZ(0);
-}
+/* =====================================================
+   ICON
+===================================================== */
 
 .icon{
-  width: 28px;
-  height: 28px;
-  opacity: 0.85;
-  filter: drop-shadow(0 0 12px rgba(160,220,255,.18));
+  width: 38px;
+  height: 38px;
+  border-radius: 14px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  background: rgba(0,0,0,0.18);
+
+  border: 1px solid rgba(255,255,255,0.12);
+
+  margin-bottom: 12px;
+
+  box-shadow:
+    0 10px 26px rgba(0,0,0,0.22),
+    0 0 0 1px rgba(255,255,255,0.03) inset;
 }
 
-.emblemGlow{
-  position:absolute;
-  inset:-40%;
-  background:
-    radial-gradient(circle at 30% 20%, rgba(160,220,255,.24), transparent 60%);
-  opacity: .45;
-  pointer-events:none;
-  mix-blend-mode: screen;
-}
-
-.card:hover .emblem{
-  animation: emblemFloat 1.8s ease-in-out infinite;
-}
-
-@keyframes emblemFloat{
-  0%,100%{ transform: translateY(0); }
-  50%{ transform: translateY(-2px); }
-}
+/* =====================================================
+   TYPOGRAPHY
+===================================================== */
 
 .title{
-  font-size:20px;
-  margin-top:10px;
+  font-size: 1.08rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  margin: 0 0 6px;
 }
 
 .subtitle{
-  font-size:13px;
-  opacity:.75;
-  margin-top:6px;
+  font-size: 0.95rem;
+  opacity: 0.78;
+  line-height: 1.35;
+  margin: 0 0 10px;
 }
 
-.footer{
-  position:absolute;
-  bottom:14px;
-  right:16px;
-  font-size:12px;
+.moduleStatus{
+  margin-top: auto;
+
+  font-size: 0.70rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+
+  opacity: 0.65;
+}
+
+/* content sits above effects */
+.content{
+  position:relative;
+  z-index: 3;
+
   display:flex;
-  gap:6px;
-  opacity:.7;
+  flex-direction:column;
+  height:100%;
 }
 
-.arrow{ transition: transform .15s ease; }
-.card:hover .arrow{ transform: translateX(3px); }
+/* =====================================================
+   HOLOGRAPHIC GLOW + SWEEP
+===================================================== */
 
-.inner::before{
-  content:"";
+.glow{
   position:absolute;
-  inset:0;
+  inset:-10%;
+  z-index:1;
 
   background:
-    linear-gradient(
-      120deg,
-      transparent 20%,
-      rgba(255,255,255,.08),
-      transparent 80%
-    );
+    radial-gradient(45% 35% at 30% 20%, rgba(140,220,255,0.20) 0%, rgba(0,0,0,0) 62%),
+    radial-gradient(45% 35% at 78% 45%, rgba(200,140,255,0.14) 0%, rgba(0,0,0,0) 64%);
 
-  opacity:0;
-  transition:opacity .3s ease;
+  opacity: 0;
+  pointer-events:none;
+
+  mix-blend-mode: screen;
+
+  transition: opacity 260ms ease;
 }
 
-.card:hover .inner::before{
-  opacity:1;
+/* sweep line */
+.sweep{
+  position:absolute;
+  inset:0;
+  z-index:2;
+
+  border-radius: inherit;
+
+  background: linear-gradient(
+    100deg,
+    transparent 25%,
+    rgba(255,255,255,0.10) 45%,
+    rgba(255,255,255,0.05) 55%,
+    transparent 75%
+  );
+
+  transform: translateX(-120%);
+  pointer-events:none;
+}
+
+/* =====================================================
+   TARGETING FRAME (COMMAND MODULE)
+===================================================== */
+
+.moduleFrame{
+  position:absolute;
+  inset:0;
+  z-index:4;
+
+  border-radius: inherit;
+  pointer-events:none;
+
+  opacity: 0;
+  transition: opacity 240ms ease;
+}
+
+.moduleFrame::before,
+.moduleFrame::after{
+  content:"";
+  position:absolute;
+
+  width: 14px;
+  height: 14px;
+
+  border: 1px solid rgba(160,220,255,0.70);
+}
+
+.moduleFrame::before{
+  top: 8px;
+  left: 8px;
+
+  border-right:none;
+  border-bottom:none;
+}
+
+.moduleFrame::after{
+  bottom: 8px;
+  right: 8px;
+
+  border-left:none;
+  border-top:none;
+}
+
+/* =====================================================
+   HOVER / FOCUS STATES
+===================================================== */
+
+@media (hover:hover){
+  .wrapper:hover{
+    transform: translateY(-2px) scale(1.02);
+  }
+
+  .wrapper:hover .surface{
+    border-color: rgba(160,220,255,0.28);
+
+    box-shadow:
+      0 22px 54px rgba(0,0,0,0.42),
+      0 0 22px rgba(120,200,255,0.20),
+      0 0 0 1px rgba(255,255,255,0.05) inset;
+  }
+
+  .wrapper:hover .glow{
+    opacity: 1;
+  }
+
+  .wrapper:hover .moduleFrame{
+    opacity: 1;
+  }
+
+  .wrapper:hover .sweep{
+    animation: sweep 1.5s ease forwards;
+  }
+}
+
+@keyframes sweep{
+  from{ transform: translateX(-120%); }
+  to{ transform: translateX(120%); }
+}
+
+.wrapper:focus-visible .surface{
+  outline: 2px solid rgba(160,220,255,0.55);
+  outline-offset: 3px;
+}
+
+/* =====================================================
+   LIGHT THEME TUNING
+===================================================== */
+
+:global(html[data-theme="light"]) .surface{
+  background:
+    radial-gradient(120% 90% at 20% 10%, rgba(0,0,0,0.06) 0%, rgba(255,255,255,0.30) 55%, rgba(255,255,255,0) 100%),
+    linear-gradient(180deg, rgba(255,255,255,0.70), rgba(255,255,255,0.35));
+
+  border: 1px solid rgba(0,0,0,0.10);
+
+  box-shadow:
+    0 16px 36px rgba(0,0,0,0.10),
+    0 0 0 1px rgba(255,255,255,0.45) inset;
+}
+
+:global(html[data-theme="light"]) .icon{
+  background: rgba(255,255,255,0.55);
+  border: 1px solid rgba(0,0,0,0.10);
+}
+
+:global(html[data-theme="light"]) .glow{
+  mix-blend-mode: multiply;
+  opacity: 0;
+}
+
+@media (hover:hover){
+  :global(html[data-theme="light"]) .wrapper:hover .surface{
+    border-color: rgba(0,0,0,0.14);
+
+    box-shadow:
+      0 20px 44px rgba(0,0,0,0.14),
+      0 0 0 1px rgba(255,255,255,0.55) inset;
+  }
+
+  :global(html[data-theme="light"]) .wrapper:hover .glow{
+    opacity: 0.45;
+  }
+
+  :global(html[data-theme="light"]) .moduleFrame::before,
+  :global(html[data-theme="light"]) .moduleFrame::after{
+    border-color: rgba(10,45,65,0.40);
+  }
+}
+
+/* =====================================================
+   REDUCED MOTION
+===================================================== */
+
+@media (prefers-reduced-motion: reduce){
+  .wrapper,
+  .surface,
+  .glow,
+  .moduleFrame{
+    transition:none;
+  }
+
+  .wrapper:hover{
+    transform:none;
+  }
+
+  .wrapper:hover .sweep{
+    animation:none;
+    transform:none;
+  }
 }

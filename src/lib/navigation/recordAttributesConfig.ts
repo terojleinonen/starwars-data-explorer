@@ -1,4 +1,4 @@
-import type { SwapiType } from "@/lib/swapi/swapi-types";
+import type { SwapiType } from "@/lib/swapi/types";
 
 export type StatDef = {
   key: string;

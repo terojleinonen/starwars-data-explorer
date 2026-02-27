@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import type { SwapiType } from "@/lib/swapi/swapi-types";
+import type { SwapiType } from "@/lib/swapi/types";
 import styles from "../styles/CartographyBackground.module.css";
 import { useTheme } from "@/theme/ThemeProvider";
 import useParallax from "@/hooks/motion/useParallax";

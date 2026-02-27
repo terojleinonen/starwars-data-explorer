@@ -2,7 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { ReactNode, useEffect, useState } from "react";
-import { useAtmosphere } from "@/features/layout/components/AtmosphereContext";
+import { useAtmosphere } from "@/features/layout";
 import styles from "../styles/RouteTransition.module.css";
 
 type Props = {
