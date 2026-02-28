@@ -406,3 +406,56 @@
     transition: none;
   }
 }
+
+.sector-people .atmosphere{
+
+  background:
+    radial-gradient(
+      circle at 40% 30%,
+      rgba(160,220,255,.12),
+      transparent 60%
+    ),
+    radial-gradient(
+      circle at 70% 70%,
+      rgba(160,220,255,.08),
+      transparent 70%
+    );
+
+}
+
+.sector-planets .orbits{
+
+  opacity:.65;
+
+}
+
+.sector-starships .hyperlane{
+
+  stroke:rgba(120,200,255,.5);
+
+  filter:drop-shadow(0 0 8px rgba(120,200,255,.5));
+
+}
+
+.sector-films .atmosphere{
+
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(255,210,120,.12),
+      transparent 60%
+    );
+
+}
+
+.sector-species .pulse{
+
+  animation-duration:8s;
+
+}
+
+.sector-vehicles .grid{
+
+  opacity:.55;
+
+}

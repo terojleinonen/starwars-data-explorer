@@ -1,15 +1,20 @@
-import { cacheItem } from "./cache";
+import type { RecordMeta } from "@/features/records";
 
-export function indexSwapiResults(
-  category: string,
-  results: any[]
-) {
-  results.forEach((item) => {
-    cacheItem({
-      id: item.url,
-      label: item.name ?? item.title ?? "Unknown",
-      category,
-      url: item.url,
-    });
-  });
+export function normalizeRecord(item: any): RecordMeta {
+
+  const urlParts = item.url.split("/").filter(Boolean);
+  const id = String(urlParts[urlParts.length - 1]);
+
+  return {
+    id,
+
+    title: item.title ?? item.name ?? "Unknown",
+
+    subtitle:
+      item.director ??
+      item.model ??
+      item.climate ??
+      item.gender ??
+      "",
+  };
 }

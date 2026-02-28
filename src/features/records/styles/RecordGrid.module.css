@@ -1,35 +1,95 @@
-/* =================================================
-   Record Grid
-   - Layout only
-   - No surfaces, no colors
-================================================= */
+/* =====================================================
+   GRID WRAPPER
+===================================================== */
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(260px, 1fr)
-  );
-
-  gap: 2rem;
-  align-items: stretch;
+.wrapper{
+  position:relative;
+  width:100%;
 }
 
-/* Slight stagger feel without JS */
-.grid > * {
-  will-change: transform, opacity;
+/* =====================================================
+   DESKTOP CONSOLE LAYOUT
+===================================================== */
+
+.grid{
+
+  display:flex;
+  flex-direction:column;
+
+  gap:6px;
+
 }
 
-/* Responsive tuning */
+/* =====================================================
+   GRID ITEM
+===================================================== */
 
-@media (max-width: 1024px) {
-  .grid {
-    gap: 1.6rem;
+.item{
+
+  opacity:0;
+
+  transform:translateY(12px);
+
+  animation:recordReveal .45s ease forwards;
+
+}
+
+/* staggered reveal animation */
+
+@keyframes recordReveal{
+
+  to{
+    opacity:1;
+    transform:translateY(0);
   }
+
 }
 
-@media (max-width: 640px) {
-  .grid {
-    gap: 1.3rem;
+/* =====================================================
+   EMPTY STATE
+===================================================== */
+
+.empty{
+
+  text-align:center;
+
+  padding:40px 0;
+
+  opacity:.65;
+
+  font-size:.95rem;
+
+}
+
+/* =====================================================
+   TABLET MODE
+===================================================== */
+
+@media (max-width: 900px){
+
+  .grid{
+
+    display:grid;
+
+    grid-template-columns:
+      repeat(auto-fit, minmax(260px,1fr));
+
+    gap:16px;
+
   }
+
+}
+
+/* =====================================================
+   MOBILE MODE
+===================================================== */
+
+@media (max-width: 520px){
+
+  .grid{
+
+    grid-template-columns:1fr;
+
+  }
+
 }

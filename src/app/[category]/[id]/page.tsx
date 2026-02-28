@@ -1,33 +1,23 @@
 import DetailsPage from "@/features/details/components/DetailsPage";
+import { getSwapiItem } from "@/lib/swapi/swapi";
 import type { SwapiType } from "@/lib/swapi/types";
 
-type PageProps = {
-  params: Promise<{
+type Props = {
+  params: {
     category: SwapiType;
     id: string;
-  }>;
+  };
 };
 
-export default async function Page({
-  params,
-}: PageProps) {
-  const { category, id } = await params;
+export default async function Page({ params }: Props) {
 
-  const res = await fetch(
-    `https://swapi.py4e.com/api/${category}/${id}/`,
-    { cache: "no-store" }
-  );
-
-  if (!res.ok) {
-    throw new Error("Failed to load data");
-  }
-
-  const data = await res.json();
+  const { category, id } = params;
+  const record = await getSwapiItem(category, id);
 
   return (
     <DetailsPage
-    category={category}
-    data={data}
+      category={category}
+      data={record}
     />
   );
 }

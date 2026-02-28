@@ -25,6 +25,7 @@ export default function HoloCard({
       aria-label={`Open ${title}`}
     >
       <div className={styles.surface}>
+        <div className={styles.holoEdge} />
 
         {/* targeting frame */}
         <div className={styles.moduleFrame} />

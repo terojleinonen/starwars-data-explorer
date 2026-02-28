@@ -15,3 +15,17 @@ export function swapiListUrl(category: SwapiCategory) {
 export function getIdFromSwapiUrl(url: string) {
   return url.split("/").filter(Boolean).pop()!;
 }
+
+export async function getSwapiItem(category: string, id: string) {
+
+  const res = await fetch(
+    `${BASE_URL}/${category}/${id}/`,
+    { cache: "force-cache" }
+  );
+
+  if (!res.ok) {
+    throw new Error("Failed to load SWAPI record");
+  }
+
+  return res.json();
+}

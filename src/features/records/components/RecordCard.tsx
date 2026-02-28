@@ -1,8 +1,10 @@
-import type { SwapiType } from "@/lib/swapi/types";
+"use client";
+
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import { NavLink } from "@/features/navigation";
+import { NavLink }from "@/features/navigation";
 import { useAtmosphere } from "@/features/layout";
-import type { RecordMeta } from "@/features/records";
+import type { RecordMeta } from "./recordMeta";
+import type { SwapiType } from "@/lib/swapi/types";
 import styles from "../styles/RecordCard.module.css";
 
 type Props = {
@@ -22,8 +24,8 @@ export default function RecordCard({
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
-  const rotateX = useTransform(y, [-120, 120], [7, -7]);
-  const rotateY = useTransform(x, [-120, 120], [-7, 7]);
+  const rotateX = useTransform(y, [-100, 100], [6, -6]);
+  const rotateY = useTransform(x, [-100, 100], [-6, 6]);
 
   function handleMouseMove(e: React.MouseEvent<HTMLDivElement>) {
 
@@ -37,13 +39,12 @@ export default function RecordCard({
   }
 
   function reset() {
-    x.stop();
-    y.stop();
     x.set(0);
     y.set(0);
   }
 
   return (
+
     <motion.div
       layoutId={`card-${category}-${meta.id}`}
       className={styles.wrapper}
@@ -55,8 +56,8 @@ export default function RecordCard({
       }}
       initial={{
         opacity: 0,
-        y: 24,
-        scale: 0.96,
+        y: 18,
+        scale: 0.98,
       }}
       animate={{
         opacity: 1,
@@ -66,16 +67,16 @@ export default function RecordCard({
       transition={{
         duration: 0.45,
         ease: [0.22, 1, 0.36, 1],
-        delay: index * 0.06,
+        delay: index * 0.05,
       }}
       style={{
         rotateX,
         rotateY,
         transformPerspective: 900,
-        willChange: "transform",
       }}
       data-category={category}
     >
+
       <NavLink
         href={`/${category}/${meta.id}`}
         label={meta.title}
@@ -84,19 +85,17 @@ export default function RecordCard({
 
         <div className={styles.surface}>
 
-          {/* Tactical header */}
-          <div className={styles.dataHeader} />
+          {/* visual layers */}
 
-          {/* Visual layers */}
           <div className={styles.glow} />
           <div className={styles.sweep} />
 
-          {/* Card content */}
+          {/* card content */}
+
           <div className={styles.content}>
 
-            <div className={styles.cardHeader}>
-              <span className={styles.recordHeader}>Record</span>
-              <span>ID: {meta.id}</span>
+            <div className={styles.recordId}>
+              {meta.id}
             </div>
 
             <div className={styles.title}>
@@ -110,7 +109,7 @@ export default function RecordCard({
             )}
 
             <div className={styles.openDetail}>
-              Open detail →
+              Open →
             </div>
 
           </div>
@@ -118,6 +117,7 @@ export default function RecordCard({
         </div>
 
       </NavLink>
+
     </motion.div>
   );
 }

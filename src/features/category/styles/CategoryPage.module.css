@@ -1,38 +1,239 @@
-/* =================================================
-   Page Wrapper
-   - Owns holographic backdrop
-   - Exposes content surface above it
-================================================= */
+/* =====================================================
+   PAGE ROOT
+===================================================== */
 
-.pageWrapper {
-  position: relative;
-  -Webkit-min-height: auto;
-  min-height: auto;
-  overflow-x: hidden;
-
-  /* Scroll-reactive vars (JS updates these) */
-  --gridOpacity: 0.18;
-  --contentGlow: 0.06;
+.page{
+  position:relative;
+  width:100%;
+  padding-top:110px;
 }
 
-/* -------------------------------------------------
-   Holographic grid backdrop (pure background layer)
-------------------------------------------------- */
+/* =====================================================
+   CATEGORY BANNER WRAPPER
+===================================================== */
 
-.holoGrid {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  opacity: 1;
+.bannerWrapper{
+
+  max-width:960px;
+
+  margin:0 auto 24px;
+
+  padding:0 16px;
+
 }
 
-/* -------------------------------------------------
-   Page content surface
-------------------------------------------------- */
+/* =====================================================
+   CATEGORY BANNER PANEL
+===================================================== */
 
-.pageContent {
-  position: relative;
-  z-index: 1;
-  max-width: 1600px;
+.categoryBanner{
+
+  position:relative;
+
+  padding:20px 22px;
+
+  border-radius:18px;
+
+  background:
+
+    linear-gradient(
+      180deg,
+      rgba(255,255,255,.06),
+      rgba(255,255,255,.02)
+    );
+
+  border:1px solid rgba(255,255,255,.10);
+
+  backdrop-filter:blur(8px);
+
+  box-shadow:
+    0 12px 32px rgba(0,0,0,.35);
+
+}
+
+/* divider lines */
+
+.categoryBanner::before{
+
+  content:"";
+
+  position:absolute;
+
+  left:0;
+  right:0;
+
+  top:-8px;
+
+  height:1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(160,220,255,.6),
+      transparent
+    );
+
+}
+
+.categoryBanner::after{
+
+  content:"";
+
+  position:absolute;
+
+  left:0;
+  right:0;
+
+  bottom:-8px;
+
+  height:1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(160,220,255,.6),
+      transparent
+    );
+
+}
+
+/* =====================================================
+   CATEGORY BADGE
+===================================================== */
+
+.categoryBadge{
+
+  display:inline-block;
+
+  font-size:10px;
+
+  letter-spacing:.22em;
+
+  text-transform:uppercase;
+
+  padding:6px 10px;
+
+  border-radius:999px;
+
+  border:1px solid rgba(255,255,255,.14);
+
+  background:rgba(0,0,0,.15);
+
+  margin-bottom:6px;
+
+}
+
+/* =====================================================
+   CATEGORY TITLE
+===================================================== */
+
+.categoryTitle{
+
+  font-size:clamp(34px,4vw,46px);
+
+  font-weight:700;
+
+  letter-spacing:.04em;
+
+  margin:4px 0;
+
+  color:#ffd54a;
+
+  text-shadow:
+    0 0 18px rgba(255,210,90,.35);
+
+}
+
+/* =====================================================
+   CATEGORY SUBTITLE
+===================================================== */
+
+.categorySubtitle{
+
+  font-size:12px;
+
+  letter-spacing:.18em;
+
+  text-transform:uppercase;
+
+  opacity:.75;
+
+}
+
+/* =====================================================
+   TOOLBAR WRAPPER
+===================================================== */
+
+.toolbarWrapper{
+
+  max-width:960px;
+
+  margin:0 auto 18px;
+
+  padding:0 16px;
+
+}
+
+/* =====================================================
+   RECORD CONSOLE
+===================================================== */
+
+.recordConsole{
+
+  max-width:960px;
+
+  margin:0 auto;
+
+  padding:0 16px;
+
+}
+
+/* =====================================================
+   RECORD HEADER
+===================================================== */
+
+.recordHeader{
+
+  display:grid;
+
+  grid-template-columns:
+    80px
+    1fr
+    120px;
+
+  align-items:center;
+
+  padding:10px 18px;
+
+  font-size:11px;
+
+  letter-spacing:.18em;
+
+  text-transform:uppercase;
+
+  opacity:.65;
+
+  border-bottom:1px solid rgba(255,255,255,.08);
+
+  margin-bottom:6px;
+
+}
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width:720px){
+
+  .recordHeader{
+
+    grid-template-columns:
+      60px
+      1fr
+      80px;
+
+  }
+
 }

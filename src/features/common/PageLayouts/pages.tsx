@@ -25,7 +25,7 @@ const CategoryPage = ({ category, loadingText }: Props) => {
 
       {!loading && !error && (
         <RecordGrid
-          items={items}
+          records={items}
           category={category}
         />
       )}

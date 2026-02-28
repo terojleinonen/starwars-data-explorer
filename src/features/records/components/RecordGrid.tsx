@@ -1,44 +1,49 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion";
-import type { SwapiItem, SwapiType } from "@/lib/swapi/types";
-import RecordCard from "./RecordCard";
 import styles from "../styles/RecordGrid.module.css";
-import { getRecordMeta } from "./recordMeta";
+import { RecordCard } from "@/features/records";
+import { normalizeRecord } from "@/lib/swapi/indexer";
+import type { SwapiType, SwapiItem} from "@/lib/swapi/types";
 
 type Props = {
-  items: SwapiItem[];
   category: SwapiType;
+  records: SwapiItem[];
 };
 
-export default function RecordGrid({ items, category }: Props) {
+export default function RecordGrid({
+  category,
+  records,
+}: Props) {
+
+  const normalizedRecords = records.map(normalizeRecord);
+
+  if (!normalizedRecords || normalizedRecords.length === 0) {
+    return (
+      <div className={styles.empty}>
+        No records found.
+      </div>
+    );
+  }
+
   return (
-    <motion.div
-      className={styles.grid}
-      layout
-      transition={{
-        layout: {
-          duration: 0.45,
-          ease: [0.22, 1, 0.36, 1],
-        },
-      }}
-    >
-      <AnimatePresence mode="popLayout">
-        {items.map((item, index) => {
-          const meta = getRecordMeta(item, String(index));
-          return (
+    <div className={styles.wrapper}>
+      <div className={styles.grid}>
+
+        {normalizedRecords.map((record, index) => (
+          <div
+            key={String(record.id)}
+            className={styles.item}
+            style={{ animationDelay: `${index * 40}ms` }}
+          >
             <RecordCard
-              key={
-                typeof item.url === "string"
-                  ? item.url
-                  : `${category}-${index}`
-              }
-              meta={meta}
               category={category}
+              meta={record}
+              index={index}
             />
-          );
-        })}
-      </AnimatePresence>
-    </motion.div>
+          </div>
+        ))}
+
+      </div>
+    </div>
   );
 }

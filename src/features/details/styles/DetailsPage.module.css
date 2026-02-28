@@ -1,9 +1,133 @@
-.page {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
+/* =====================================================
+   PAGE ROOT
+===================================================== */
+
+.page{
+
+  position:relative;
+
+  width:100%;
+
+  max-width:1200px;
+
+  margin:0 auto;
+
+  padding:
+
+    120px 24px
+    60px;
+
 }
 
-.headerFade {
-  margin-bottom: 1rem;
+/* =====================================================
+   HEADER TRANSITION
+===================================================== */
+
+.headerTransition{
+
+  position:relative;
+
+  transform-origin:center;
+
+  margin-bottom:18px;
+
+}
+
+/* =====================================================
+   CONTENT AREA
+===================================================== */
+
+.content{
+
+  position:relative;
+
+  margin-top:12px;
+
+}
+
+/* =====================================================
+   TAB CONTENT SPACING
+===================================================== */
+
+.content > *{
+
+  margin-top:10px;
+
+}
+
+/* =====================================================
+   OPENING CRAWL SPACING
+===================================================== */
+
+.page :global(.openingCrawl){
+
+  margin-top:18px;
+
+}
+
+/* =====================================================
+   TARGET LOCK POSITION
+===================================================== */
+
+.page :global(.targetLock){
+
+  position:absolute;
+
+  top:140px;
+
+  left:50%;
+
+  transform:translateX(-50%);
+
+  pointer-events:none;
+
+}
+
+/* =====================================================
+   DESKTOP
+===================================================== */
+
+@media (min-width:1200px){
+
+  .page{
+
+    padding-left:40px;
+    padding-right:40px;
+
+  }
+
+}
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width:900px){
+
+  .page{
+
+    padding:
+
+      110px 18px
+      40px;
+
+  }
+
+}
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width:640px){
+
+  .page{
+
+    padding:
+
+      100px 14px
+      30px;
+
+  }
+
 }

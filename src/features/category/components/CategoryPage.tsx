@@ -1,37 +1,31 @@
 "use client";
 
-import { useSwapi } from "@/hooks/data/useSwapi";
-import { useRecordQuery } from "@/hooks/data/useRecordQuery";
-import type { SwapiType, SwapiItem } from "@/lib/swapi/types";
-import type { SwapiListResponse } from "@/hooks/data/useSwapi";
-import { useRegisterNavigation } from "@/features/navigation";
 import { PageWrapper } from "@/features/layout";
-import { HoloHeader } from "@/ui/HoloHeader";
+import { CartographyBackground }from "@/features//cartography";
 import { CategoryToolbar } from "@/features/category";
 import { RecordGrid } from "@/features/records";
+import type { SwapiType, SwapiItem, SwapiListResponse} from "@/lib/swapi/types";
+import { useSwapi } from "@/hooks/data/useSwapi";
+import { useRecordQuery } from "@/hooks/data/useRecordQuery";
 import styles from "../styles/CategoryPage.module.css";
 
-/* -----------------------------------------------
-   Types
------------------------------------------------ */
-
-type CategoryPageProps = {
+type Props = {
   category: SwapiType;
   title: string;
   subtitle: string;
-  loadingText: string;
+  records: SwapiItem[];
 };
-
-/* -----------------------------------------------
-   Component
------------------------------------------------ */
 
 export default function CategoryPage({
   category,
   title,
   subtitle,
-  loadingText,
-}: CategoryPageProps) {
+  records,
+}: Props) {
+  console.log("CategoryPage records", records);
+  /* =====================================================
+     SEARCH / SORT STATE
+  ===================================================== */
 
   const { data, loading, error } = useSwapi<SwapiListResponse<SwapiItem>>(category);
   const items: SwapiItem[] = data?.results ?? [];
@@ -43,45 +37,72 @@ export default function CategoryPage({
     setSortKey,
   } = useRecordQuery(items);
 
-  useRegisterNavigation({
-    label: category.charAt(0).toUpperCase() + category.slice(1),
-    href: `/${category}`,
-  });
+  /* =====================================================
+     RENDER
+  ===================================================== */
 
   return (
-    <PageWrapper category={category}>
-      {/* ================= HEADER ================= */}
-      <div className={styles.header}>
-        <HoloHeader 
-          category={category} 
-          title={title} 
-          subtitle={subtitle}
-          showBack={false}
-        />
-      </div>
+    <PageWrapper>
 
-      {/* ================= TOOLBAR ================= */}
-      {!loading && !error && (
-        <CategoryToolbar
-          query={query}
-          onQueryChange={setQuery}
-          sortKey={sortKey}
-          onSortChange={setSortKey}
-        />
-      )}
+      <main className={styles.page}>
 
-      {/* ================= STATES ================= */}
-      {loading && (
-        <p className={styles.loading}>{loadingText}</p>
-      )}
+        {/* CARTOGRAPHY BACKGROUND */}
 
-      {error && (
-        <p className={styles.error}>
-          Transmission error: {error}
-        </p>
-      )}
+        <CartographyBackground />
 
-      {!loading && !error && (
+        {/* =====================================================
+           CATEGORY HEADER
+        ===================================================== */}
+        <section className={styles.bannerWrapper}>
+
+          <div className={styles.categoryBanner}>
+
+            <div className={styles.categoryBadge}>
+              Galactic Archive
+            </div>
+
+            <h1 className={styles.categoryTitle}>
+              {title}
+            </h1>
+
+            <p className={styles.categorySubtitle}>
+              {subtitle}
+            </p>
+
+          </div>
+
+        </section>
+
+        {/* =====================================================
+           SEARCH + SORT TOOLBAR
+        ===================================================== */}
+
+        <section className={styles.toolbarWrapper}>
+
+          {!loading && !error && (
+            <CategoryToolbar
+              query={query}
+              onQueryChange={setQuery}
+              sortKey={sortKey}
+              onSortChange={setSortKey}
+            />
+          )}
+
+        </section>
+
+        {/* =====================================================
+           RECORD CONSOLE
+        ===================================================== */}
+
+        <section className={styles.recordConsole}>
+
+          <div className={styles.recordHeader}>
+            <span>ID</span>
+            <span>Title</span>
+            <span></span>
+          </div>
+
+          {!loading && !error && (
         <>
           {results.length === 0 ? (
             <p className={styles.empty}>
@@ -89,12 +110,17 @@ export default function CategoryPage({
             </p>
           ) : (
             <RecordGrid
-              items={results}
+              records={results}
               category={category}
             />
           )}
         </>
       )}
+
+        </section>
+
+      </main>
+
     </PageWrapper>
   );
 }

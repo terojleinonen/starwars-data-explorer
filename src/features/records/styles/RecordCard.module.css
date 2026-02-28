@@ -1,385 +1,284 @@
 /* =====================================================
-   CARD WRAPPER
+   WRAPPER
 ===================================================== */
 
-.wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
+.wrapper{
+  position:relative;
+  width:100%;
+  height:100%;
 }
 
 /* =====================================================
-   MAIN LINK CONTAINER
+   LINK CONTAINER
 ===================================================== */
 
-.card {
-  position: relative;
-  display: block;
-  height: 100%;
-  text-decoration: none;
-  color: inherit;
-  outline: none;
+.card{
+  position:relative;
+
+  display:block;
+
+  text-decoration:none;
+  color:inherit;
+
+  height:100%;
+
+  outline:none;
 }
 
 /* =====================================================
-   SURFACE LAYER (HOLOGRAPHIC PANEL)
+   SURFACE
 ===================================================== */
 
-.surface {
-  position: relative;
-  height: 100%;
+.surface{
 
-  padding: 1.2rem 1.35rem;
+  position:relative;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 0.35rem;
+  display:grid;
 
-  border-radius: var(--radius-card);
+  grid-template-columns:
+    80px
+    1fr
+    auto;
 
-  background:
-    radial-gradient(
-      120% 90% at 20% 10%,
-      rgba(255,255,255,0.10) 0%,
-      rgba(255,255,255,0.02) 55%,
-      rgba(0,0,0,0) 100%
-    ),
-    var(--surface-glass);
+  align-items:center;
 
-  border: 1px solid var(--border-subtle);
+  gap:16px;
 
-  backdrop-filter: var(--blur-panel);
-  -webkit-backdrop-filter: var(--blur-panel);
+  padding:14px 18px;
 
-  box-shadow:
-    0 18px 50px rgba(0,0,0,0.35),
-    0 0 0 1px rgba(255,255,255,0.04) inset;
+  border-radius:14px;
+
+  background:var(--surface-glass);
+
+  border:1px solid var(--border-subtle);
+
+  backdrop-filter:var(--blur-panel);
+  -webkit-backdrop-filter:var(--blur-panel);
+
+  box-shadow:var(--shadow-panel);
 
   transition:
     transform 240ms ease,
     box-shadow 240ms ease,
     border-color 240ms ease;
+
 }
 
 /* =====================================================
    CATEGORY ACCENT
 ===================================================== */
 
-.wrapper[data-category] .surface {
-  border-color: color-mix(
+.wrapper[data-category] .surface{
+
+  border-color:color-mix(
     in oklab,
     var(--category-accent),
     transparent 70%
   );
+
 }
 
 /* =====================================================
-   HOVER PANEL LIFT
+   HOVER
 ===================================================== */
 
-@media (hover: hover) {
+@media (hover:hover){
 
-  .wrapper:hover .surface {
-    transform: translateY(-4px) scale(1.01);
+  .wrapper:hover .surface{
 
-    box-shadow:
-      0 26px 70px rgba(0,0,0,0.45),
-      0 0 24px color-mix(
-        in oklab,
-        var(--category-accent),
-        transparent 75%
-      );
+    transform:translateY(-2px);
 
-    border-color: color-mix(
+    box-shadow:var(--shadow-hover);
+
+    border-color:color-mix(
       in oklab,
       var(--category-accent),
       transparent 45%
     );
+
   }
 
 }
 
 /* =====================================================
-   HOLOGRAPHIC GLOW
+   CONTENT GRID
 ===================================================== */
 
-.glow {
-  position: absolute;
-  inset: 0;
+.content{
 
-  border-radius: inherit;
+  display:grid;
 
-  background: radial-gradient(
-    90% 90% at 50% 50%,
-    color-mix(
-      in oklab,
-      var(--category-accent),
-      transparent 70%
-    ),
-    transparent 75%
+  grid-template-columns:
+    80px
+    1fr
+    auto;
+
+  align-items:center;
+
+  gap:16px;
+
+  width:100%;
+
+}
+
+/* =====================================================
+   RECORD ID
+===================================================== */
+
+.recordId{
+
+  font-size:.85rem;
+
+  opacity:.65;
+
+}
+
+/* =====================================================
+   TITLE
+===================================================== */
+
+.title{
+
+  font-size:1rem;
+
+  font-weight:600;
+
+  line-height:1.2;
+
+}
+
+/* =====================================================
+   SUBTITLE
+===================================================== */
+
+.subtitle{
+
+  font-size:.9rem;
+
+  opacity:.7;
+
+}
+
+/* =====================================================
+   OPEN DETAIL
+===================================================== */
+
+.openDetail{
+
+  font-size:.85rem;
+
+  opacity:.75;
+
+  text-align:right;
+
+}
+
+/* =====================================================
+   GLOW
+===================================================== */
+
+.glow{
+
+  position:absolute;
+
+  inset:0;
+
+  border-radius:inherit;
+
+  background:radial-gradient(
+    80% 80% at 50% 50%,
+    var(--accent-glow),
+    transparent 70%
   );
 
-  opacity: 0;
-  pointer-events: none;
+  opacity:0;
 
-  transition: opacity 280ms ease;
+  pointer-events:none;
+
+  transition:opacity 260ms ease;
+
 }
 
-.wrapper:hover .glow {
-  opacity: 1;
-}
-
-/* =====================================================
-   RIM LIGHT
-===================================================== */
-
-.card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  border-radius: var(--radius-card);
-  pointer-events: none;
-
-  border: 1px solid
-    color-mix(
-      in oklab,
-      var(--category-accent),
-      transparent 82%
-    );
-
-  opacity: 0.6;
-
-  transition:
-    opacity 200ms ease,
-    border-color 200ms ease;
-}
-
-@media (hover: hover) {
-
-  .card:hover::before {
-    opacity: 1;
-
-    border-color:
-      color-mix(
-        in oklab,
-        var(--category-accent),
-        transparent 55%
-      );
-  }
-
+.wrapper:hover .glow{
+  opacity:1;
 }
 
 /* =====================================================
-   SPECULAR GLINT
+   SWEEP
 ===================================================== */
 
-.card::after {
-  content: "";
-  position: absolute;
-  inset: -1px;
+.sweep{
 
-  border-radius: calc(var(--radius-card) + 1px);
-  pointer-events: none;
+  position:absolute;
 
-  background: linear-gradient(
-    120deg,
-    transparent 20%,
-    color-mix(in oklab, var(--category-accent), white 70%) 48%,
-    transparent 80%
-  );
+  inset:0;
 
-  opacity: 0;
-  mix-blend-mode: screen;
+  border-radius:inherit;
 
-  transition: opacity 240ms ease;
-}
-
-@media (hover: hover) {
-
-  .card:hover::after {
-    opacity: 0.18;
-  }
-
-}
-
-:global(html[data-theme="light"]) .card::after {
-  mix-blend-mode: multiply;
-}
-
-@media (hover: hover) {
-
-  :global(html[data-theme="light"]) .card:hover::after {
-    opacity: 0.12;
-  }
-
-}
-
-/* =====================================================
-   HOLOGRAPHIC SWEEP
-===================================================== */
-
-.sweep {
-  position: absolute;
-  inset: 0;
-
-  border-radius: inherit;
-  pointer-events: none;
-
-  background: linear-gradient(
+  background:linear-gradient(
     100deg,
     transparent 25%,
-    rgba(255,255,255,0.07) 45%,
-    rgba(255,255,255,0.04) 55%,
+    rgba(255,255,255,.1) 45%,
+    rgba(255,255,255,.05) 55%,
     transparent 75%
   );
 
-  transform: translateX(-120%);
+  transform:translateX(-120%);
+
+  pointer-events:none;
+
 }
 
-@media (hover: hover) {
+@media (hover:hover){
 
-  .wrapper:hover .sweep {
-    animation: sweep 1.5s ease forwards;
+  .wrapper:hover .sweep{
+    animation:sweep 1.6s ease forwards;
   }
 
 }
 
-@keyframes sweep {
+@keyframes sweep{
 
-  from { transform: translateX(-120%); }
-  to   { transform: translateX(120%); }
-
-}
-
-/* =====================================================
-   TACTICAL DATA HEADER
-===================================================== */
-
-.dataHeader {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-
-  height: 2px;
-
-  background:
-    linear-gradient(
-      90deg,
-      transparent,
-      color-mix(in oklab, var(--category-accent), white 20%),
-      transparent
-    );
-
-  opacity: .55;
-
-  pointer-events: none;
-
-  transition: opacity 200ms ease;
-}
-
-.wrapper:hover .dataHeader {
-  opacity: .9;
-}
-
-/* =====================================================
-   CONTENT
-===================================================== */
-
-.content {
-  position: relative;
-  z-index: 2;
-
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-/* =====================================================
-   TYPOGRAPHY
-===================================================== */
-
-.categoryLabel {
-
-  font-size: 0.72rem;
-  font-weight: 600;
-
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-
-  color: var(--text-muted);
-}
-
-.title {
-
-  font-size: 1.08rem;
-  font-weight: 620;
-
-  letter-spacing: 0.01em;
-  line-height: 1.2;
-
-  color: hsl(
-    from var(--category-accent)
-    h s calc(l - 15%)
-  );
-}
-
-.subtitle {
-
-  font-size: 0.94rem;
-
-  color: var(--category-accent);
-  opacity: 0.82;
-
-  line-height: 1.35;
-}
-
-/* =====================================================
-   FOCUS STATE
-===================================================== */
-
-.card:focus-visible .surface {
-
-  outline: 2px solid var(--category-accent);
-  outline-offset: 2px;
-}
-
-/* =====================================================
-   LIGHT THEME TUNING
-===================================================== */
-
-:global(html[data-theme="light"]) .surface {
-
-  background:
-    radial-gradient(
-      120% 90% at 20% 10%,
-      rgba(255,255,255,0.18) 0%,
-      rgba(255,255,255,0.04) 55%,
-      rgba(0,0,0,0) 100%
-    ),
-    color-mix(
-      in oklab,
-      var(--surface-glass),
-      white 20%
-    );
-}
-
-/* =====================================================
-   REDUCED MOTION
-===================================================== */
-
-@media (prefers-reduced-motion: reduce) {
-
-  .surface,
-  .glow,
-  .specular {
-    transition: none;
+  from{
+    transform:translateX(-120%);
   }
 
-  .wrapper:hover .sweep {
-    animation: none;
+  to{
+    transform:translateX(120%);
+  }
+
+}
+
+/* =====================================================
+   FOCUS
+===================================================== */
+
+.card:focus-visible .surface{
+
+  outline:2px solid var(--category-accent);
+
+  outline-offset:2px;
+
+}
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width:720px){
+
+  .surface{
+
+    grid-template-columns:
+      60px
+      1fr;
+
+    padding:14px;
+
+  }
+
+  .openDetail{
+    display:none;
   }
 
 }
