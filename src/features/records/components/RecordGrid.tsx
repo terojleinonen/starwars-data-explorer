@@ -2,8 +2,8 @@
 
 import styles from "../styles/RecordGrid.module.css";
 import { RecordCard } from "@/features/records";
-import { normalizeRecord } from "@/lib/swapi/indexer";
-import type { SwapiType, SwapiItem} from "@/lib/swapi/types";
+import { normalizeRecord } from "@/lib/swapi/swapiIndexer";
+import type { SwapiType, SwapiItem} from "@/lib/swapi/swapiTypes";
 
 type Props = {
   category: SwapiType;
@@ -27,23 +27,16 @@ export default function RecordGrid({
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.grid}>
-
-        {normalizedRecords.map((record, index) => (
-          <div
-            key={String(record.id)}
-            className={styles.item}
-            style={{ animationDelay: `${index * 40}ms` }}
-          >
+      <div className={styles.scanline} />
+        <div className={styles.grid}>
+          {normalizedRecords.map((record, index) => (
             <RecordCard
+              key={String(record.id)}
               category={category}
               meta={record}
-              index={index}
             />
-          </div>
-        ))}
-
+          ))}
+        </div>
       </div>
-    </div>
-  );
+    );
 }

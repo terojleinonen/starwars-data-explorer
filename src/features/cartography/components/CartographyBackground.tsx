@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import type { SwapiType } from "@/lib/swapi/types";
+import type { SwapiType } from "@/lib/swapi/swapiTypes";
 import styles from "../styles/CartographyBackground.module.css";
 import { useTheme } from "@/theme/ThemeProvider";
 import useParallax from "@/hooks/motion/useParallax";
@@ -11,11 +11,13 @@ import CartographySvgLight from "./CartographySvgLight";
 type Props = {
   className?: string;
   category?: SwapiType; // <-- important: do NOT use children for this
+  recordId?: number | string;
 };
 
 export default function CartographyBackground({
   className,
   category,
+  recordId,
   children,
 }: React.PropsWithChildren<Props>) {
   const rootRef = useRef<HTMLDivElement>(null);

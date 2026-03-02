@@ -26,25 +26,19 @@
 }
 
 /* =====================================================
-   SURFACE
+   SURFACE PANEL
 ===================================================== */
 
 .surface{
 
   position:relative;
 
-  display:grid;
-
-  grid-template-columns:
-    80px
-    1fr
-    auto;
-
+  display:flex;
   align-items:center;
 
-  gap:16px;
+  padding:14px 16px;
 
-  padding:14px 18px;
+  min-height:84px;
 
   border-radius:14px;
 
@@ -60,7 +54,33 @@
   transition:
     transform 240ms ease,
     box-shadow 240ms ease,
-    border-color 240ms ease;
+    border-color 240ms ease,
+    background 240ms ease;
+
+}
+
+/* subtle console accent line */
+
+.surface::after{
+
+  content:"";
+
+  position:absolute;
+
+  left:0;
+  right:0;
+  bottom:0;
+
+  height:1px;
+
+  background:linear-gradient(
+    90deg,
+    transparent,
+    var(--category-accent),
+    transparent
+  );
+
+  opacity:.35;
 
 }
 
@@ -96,6 +116,15 @@
       transparent 45%
     );
 
+    background:
+      linear-gradient(
+        90deg,
+        transparent,
+        rgba(160,220,255,.05),
+        transparent
+      ),
+      var(--surface-glass);
+
   }
 
 }
@@ -105,20 +134,22 @@
 ===================================================== */
 
 .content{
-
   display:grid;
-
   grid-template-columns:
-    80px
+    20px
     1fr
     auto;
 
   align-items:center;
-
   gap:16px;
-
   width:100%;
+  z-index:2;
+}
 
+.textBlock{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
 }
 
 /* =====================================================
@@ -127,9 +158,11 @@
 
 .recordId{
 
-  font-size:.85rem;
+  font-size:.82rem;
 
   opacity:.65;
+
+  letter-spacing:.05em;
 
 }
 
@@ -145,6 +178,8 @@
 
   line-height:1.2;
 
+  letter-spacing:.01em;
+
 }
 
 /* =====================================================
@@ -153,9 +188,11 @@
 
 .subtitle{
 
-  font-size:.9rem;
+  font-size:.88rem;
 
   opacity:.7;
+
+  margin-top:2px;
 
 }
 
@@ -165,16 +202,18 @@
 
 .openDetail{
 
-  font-size:.85rem;
+  font-size:.82rem;
 
   opacity:.75;
 
   text-align:right;
 
+  white-space:nowrap;
+
 }
 
 /* =====================================================
-   GLOW
+   HOLOGRAPHIC GLOW
 ===================================================== */
 
 .glow{
@@ -204,7 +243,7 @@
 }
 
 /* =====================================================
-   SWEEP
+   HOLOGRAPHIC SWEEP
 ===================================================== */
 
 .sweep{
@@ -250,7 +289,7 @@
 }
 
 /* =====================================================
-   FOCUS
+   FOCUS ACCESSIBILITY
 ===================================================== */
 
 .card:focus-visible .surface{
@@ -267,13 +306,11 @@
 
 @media (max-width:720px){
 
-  .surface{
+  .content{
 
     grid-template-columns:
       60px
       1fr;
-
-    padding:14px;
 
   }
 

@@ -1,18 +1,19 @@
-import DetailsPage from "@/features/details/components/DetailsPage";
-import { getSwapiItem } from "@/lib/swapi/swapi";
-import type { SwapiType } from "@/lib/swapi/types";
+import { DetailsPage } from "@/features/details";
+import { getRecord } from "@/lib/swapi/swapiService";
+import type { SwapiType } from "@/lib/swapi/swapiTypes";
 
 type Props = {
-  params: {
+  params: Promise<{
     category: SwapiType;
     id: string;
-  };
+  }>;
 };
 
 export default async function Page({ params }: Props) {
 
-  const { category, id } = params;
-  const record = await getSwapiItem(category, id);
+  const { category, id } = await params;
+
+  const record = await getRecord(category, id);
 
   return (
     <DetailsPage

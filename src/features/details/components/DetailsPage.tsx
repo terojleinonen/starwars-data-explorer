@@ -1,9 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-import type { SwapiType } from "@/lib/swapi/types";
-
+import type { SwapiType } from "@/lib/swapi/swapiTypes";
 import { PageWrapper } from "@/features/layout";
 import { useRegisterNavigation, RecentPanel } from "@/features/navigation";
 
@@ -12,7 +10,6 @@ import {
   DetailsTabs,
   RelatedRail,
   RelatedPanel,
-  TargetLock,
 } from "@/features/details";
 
 import { RecordAttributesGrid } from "@/features/records";
@@ -65,16 +62,12 @@ export default function DetailsPage({ category, data }: Props) {
 
   return (
     <PageWrapper category={category}>
-
       <div className={styles.page}>
-
         {/* Header transition for card morph animation */}
-
         <motion.div
           layoutId={`card-${category}-${meta.id}`}
           className={styles.headerTransition}
         >
-
           <HoloHeader
             category={category}
             title={meta.title}
@@ -86,15 +79,8 @@ export default function DetailsPage({ category, data }: Props) {
               { label: meta.title, href: `/${category}/${meta.id}` },
             ]}
           />
-
         </motion.div>
-
-        {/* Tactical targeting overlay */}
-
-        <TargetLock />
-
         {/* Film opening crawl (films only) */}
-
         {typeof data.opening_crawl === "string" && (
           <OpeningCrawl text={data.opening_crawl} />
         )}
@@ -102,44 +88,30 @@ export default function DetailsPage({ category, data }: Props) {
         {/* Main content */}
 
         <div className={styles.content}>
-
           <DetailsTabs
             relatedReady={hasRelated}
             overview={
-
               <motion.div
                 initial={{ opacity: 0, y: 14 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.12 }}
               >
-
                 <RecordAttributesGrid
                   category={category}
                   data={data}
                 />
-
               </motion.div>
-
             }
             related={
-
               <RelatedPanel>
-
                 <RelatedRail data={data} />
-
               </RelatedPanel>
-
             }
           />
-
         </div>
-
       </div>
-
       {/* Navigation history panel */}
-
       <RecentPanel />
-
     </PageWrapper>
   );
 }

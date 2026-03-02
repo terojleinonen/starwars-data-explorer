@@ -4,7 +4,7 @@ import { PageWrapper } from "@/features/layout";
 import { RecordGrid } from "@/features/records";
 import { HoloHeader } from "@/ui/HoloHeader";
 import { useSwapi } from "@/hooks/data/useSwapi";
-import { SwapiType } from "@/lib/swapi/types";
+import { SwapiType } from "@/lib/swapi/swapiTypes";
 import styles from "./CategoryPage.module.css";
 
 type Props = {

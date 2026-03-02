@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import styles from "../styles/RecordAttributesGrid.module.css";
-import type { SwapiType } from "@/lib/swapi/types";
+import type { SwapiType } from "@/lib/swapi/swapiTypes";
 import { RECORD_PRIMARY_STATS } from "@/lib/navigation/recordAttributesConfig";
 
 export type StatValue = string | number | null | undefined;

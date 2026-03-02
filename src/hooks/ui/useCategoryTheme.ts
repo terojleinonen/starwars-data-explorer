@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import type { SwapiType } from "@/lib/swapi/types";
+import type { SwapiType } from "@/lib/swapi/swapiTypes";
 import { CATEGORY_THEME } from "@/theme/CategoryTheme";
 
 export function useCategoryTheme(category?: SwapiType) {

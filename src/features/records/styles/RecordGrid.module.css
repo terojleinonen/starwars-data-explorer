@@ -1,95 +1,110 @@
 /* =====================================================
-   GRID WRAPPER
+   WRAPPER
 ===================================================== */
 
 .wrapper{
   position:relative;
-  width:100%;
 }
 
 /* =====================================================
-   DESKTOP CONSOLE LAYOUT
+   GRID
 ===================================================== */
 
 .grid{
 
-  display:flex;
-  flex-direction:column;
+  display:grid;
 
-  gap:6px;
+  grid-template-columns:
+    repeat(auto-fit, minmax(260px,260px));
+
+  justify-content:center;
+
+  gap:18px;
+
+  max-width:1100px;
+
+  margin:0 auto;
 
 }
 
 /* =====================================================
-   GRID ITEM
+   CARD REVEAL
 ===================================================== */
 
-.item{
+.grid > *{
 
   opacity:0;
 
-  transform:translateY(12px);
+  transform:translateY(14px) scale(.97);
 
-  animation:recordReveal .45s ease forwards;
+  animation:cardReveal .5s ease forwards;
 
 }
 
-/* staggered reveal animation */
+/* stagger appearance */
 
-@keyframes recordReveal{
+.grid > *:nth-child(1){ animation-delay:.05s; }
+.grid > *:nth-child(2){ animation-delay:.10s; }
+.grid > *:nth-child(3){ animation-delay:.15s; }
+.grid > *:nth-child(4){ animation-delay:.20s; }
+.grid > *:nth-child(5){ animation-delay:.25s; }
+.grid > *:nth-child(6){ animation-delay:.30s; }
+.grid > *:nth-child(7){ animation-delay:.35s; }
+.grid > *:nth-child(8){ animation-delay:.40s; }
+.grid > *:nth-child(9){ animation-delay:.45s; }
+
+@keyframes cardReveal{
 
   to{
     opacity:1;
+    transform:translateY(0) scale(1);
+  }
+
+}
+
+/* =====================================================
+   SCAN LINE
+===================================================== */
+
+.scanline{
+
+  position:absolute;
+
+  left:0;
+  right:0;
+
+  top:-40px;
+
+  height:2px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(160,220,255,.8),
+      transparent
+    );
+
+  box-shadow:
+    0 0 14px rgba(160,220,255,.8),
+    0 0 28px rgba(160,220,255,.4);
+
+  animation:scanSweep 1.8s ease-out forwards;
+
+  pointer-events:none;
+
+}
+
+@keyframes scanSweep{
+
+  from{
     transform:translateY(0);
+    opacity:1;
   }
 
-}
-
-/* =====================================================
-   EMPTY STATE
-===================================================== */
-
-.empty{
-
-  text-align:center;
-
-  padding:40px 0;
-
-  opacity:.65;
-
-  font-size:.95rem;
-
-}
-
-/* =====================================================
-   TABLET MODE
-===================================================== */
-
-@media (max-width: 900px){
-
-  .grid{
-
-    display:grid;
-
-    grid-template-columns:
-      repeat(auto-fit, minmax(260px,1fr));
-
-    gap:16px;
-
-  }
-
-}
-
-/* =====================================================
-   MOBILE MODE
-===================================================== */
-
-@media (max-width: 520px){
-
-  .grid{
-
-    grid-template-columns:1fr;
-
+  to{
+    transform:translateY(320px);
+    opacity:0;
   }
 
 }

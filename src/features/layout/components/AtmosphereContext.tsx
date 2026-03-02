@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useContext, useState } from "react";
-import type { SwapiType } from "@/lib/swapi/types";
+import type { SwapiType } from "@/lib/swapi/swapiTypes";
 
 type AtmosphereState = {
   activeHighlight?: SwapiType;

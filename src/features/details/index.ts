@@ -6,4 +6,3 @@ export { default as DetailsTabs } from "./components/DetailsTabs";
 export { default as OpeningCrawl } from "./components/OpeningCrawl";
 export { default as RelatedPanel } from "./components/RelatedPanel";
 export { default as RelatedRail } from "./components/RelatedRail";
-export { default as TargetLock } from "./components/TargetLock";

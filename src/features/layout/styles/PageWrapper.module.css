@@ -1,119 +1,73 @@
+/* =====================================================
+   ROOT PAGE
+===================================================== */
 
-.background,
-.cartography,
-.atmosphere,
-.crt {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
+.page{
+
+  position:relative;
+
+  min-height:100vh;
+
+  width:100%;
+
+  overflow-x:hidden;
+
 }
 
-/* ======================================================
-   Page Wrapper
-   Owns:
-   - viewport height
-   - clipping background layers
-   - provides a centered scroll container
-====================================================== */
+/* =====================================================
+   BACKGROUND LAYER
+===================================================== */
 
-.wrapper {
-  padding-top: var(--nav-height);
-  padding-bottom: env(safe-area-inset-bottom);
-  position: relative;
-  height: 100vh;          /* viewport ownership */
-  width: 100%;
-  overflow: hidden;       /* CLIPS BACKGROUND ONLY */
+.background{
+
+  position:fixed;
+
+  inset:0;
+
+  z-index:0;
+
+  pointer-events:none;
+
 }
 
-/* ======================================================
-   Content surface (centers content + sits above background)
-====================================================== */
+/* =====================================================
+   CONTENT LAYER
+===================================================== */
 
-.surface {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.content{
+
+  position:relative;
+
+  z-index:10;
+
+  width:100%;
+
+  min-height:100vh;
+
+  padding-top:88px; /* space for navigation */
+
 }
 
-/* ======================================================
-   Scroll container (the ONLY place that scrolls)
-====================================================== */
+/* =====================================================
+   PAGE WIDTH CONTROL
+===================================================== */
 
-.content {
-  height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding-inline: clamp(16px, 4vw, 48px);
+.content > *{
+
+  width:100%;
+
 }
 
+/* =====================================================
+   MOBILE
+===================================================== */
 
-/* ======================================================
-   Atmosphere layer hook (inside background)
-====================================================== */
+@media (max-width:720px){
 
-.atmosphere {
-  position: absolute;
-  inset: 0;
-  opacity: 0.55;
-}
+  .content{
 
-/* ------------------------------------------------------
-   CATEGORY → ATMOSPHERE MAPPING
-   NOTE: These selectors are OK in CSS Modules only if they
-   include a local class. We anchor them to .wrapper.
------------------------------------------------------- */
+    padding-top:76px;
 
-/* People */
-.wrapper[data-category="people"] .atmosphere {
-  background: radial-gradient(circle at 30% 25%, var(--accent-people), transparent 65%);
-}
-
-/* Planets */
-.wrapper[data-category="planets"] .atmosphere {
-  background: radial-gradient(circle at 50% 30%, var(--accent-planets), transparent 70%);
-}
-
-/* Films */
-.wrapper[data-category="films"] .atmosphere {
-  background: radial-gradient(circle at 40% 25%, var(--accent-films), transparent 65%);
-}
-
-/* Starships */
-.wrapper[data-category="starships"] .atmosphere {
-  background: radial-gradient(circle at 60% 20%, var(--accent-starships), transparent 70%);
-}
-
-/* Vehicles */
-.wrapper[data-category="vehicles"] .atmosphere {
-  background: radial-gradient(circle at 50% 25%, var(--accent-vehicles), transparent 72%);
-}
-
-/* Species */
-.wrapper[data-category="species"] .atmosphere {
-  background: radial-gradient(circle at 45% 30%, var(--accent-species), transparent 68%);
-}
-
-/* ======================================================
-   Scroll-reactive lighting vars (optional)
-====================================================== */
-
-.wrapper {
-  --gridOpacity: 0.18;
-  --contentGlow: 0.06;
-  --titleFade: 1;
-}
-
-/* ======================================================
-   Responsive tuning
-====================================================== */
-
-@media (max-width: 768px) {
-  .content {
-    max-width: 100%;
-    padding-inline: 16px;
-    padding-top: 12px;
-    padding-bottom: 28px;
   }
+
 }

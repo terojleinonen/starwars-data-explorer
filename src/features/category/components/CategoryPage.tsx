@@ -4,7 +4,7 @@ import { PageWrapper } from "@/features/layout";
 import { CartographyBackground }from "@/features//cartography";
 import { CategoryToolbar } from "@/features/category";
 import { RecordGrid } from "@/features/records";
-import type { SwapiType, SwapiItem, SwapiListResponse} from "@/lib/swapi/types";
+import type { SwapiType, SwapiItem, SwapiListResponse} from "@/lib/swapi/swapiTypes";
 import { useSwapi } from "@/hooks/data/useSwapi";
 import { useRecordQuery } from "@/hooks/data/useRecordQuery";
 import styles from "../styles/CategoryPage.module.css";
@@ -22,7 +22,7 @@ export default function CategoryPage({
   subtitle,
   records,
 }: Props) {
-  console.log("CategoryPage records", records);
+ 
   /* =====================================================
      SEARCH / SORT STATE
   ===================================================== */
@@ -95,13 +95,6 @@ export default function CategoryPage({
         ===================================================== */}
 
         <section className={styles.recordConsole}>
-
-          <div className={styles.recordHeader}>
-            <span>ID</span>
-            <span>Title</span>
-            <span></span>
-          </div>
-
           {!loading && !error && (
         <>
           {results.length === 0 ? (

@@ -1,13 +1,16 @@
 "use client";
 
-import { CartographyBackground }from "@/features/cartography";
-import { AtmosphereLayer, ScrollViewport} from "@/features/layout";
+import React from "react";
+import type { SwapiType } from "@/lib/swapi/swapiTypes";
+import { Navigation } from "@/features/navigation";
+import { CartographyBackground } from "@/features/cartography";
+import { ScrollViewport, AtmosphereLayer } from "@/features/layout";
 import styles from "../styles/PageWrapper.module.css";
-import type { SwapiType } from "@/lib/swapi/types";
 
 type Props = {
   children: React.ReactNode;
   category?: SwapiType;
+  recordId?: number | string;
 };
 
 function accentVar(category?: SwapiType) {
@@ -29,21 +32,34 @@ function accentVar(category?: SwapiType) {
   }
 }
 
-export default function PageWrapper({ children, category }: Props) {
+export default function PageWrapper({
+  children,
+  category,
+  recordId,
+}: Props) {
+
   return (
-    <div
-      className={styles.wrapper}
-      data-category={category}
-      style={{
+    <div className={styles.page}
+    data-category={category}
+    style={{
         // ✅ This is the missing “power cable” for your entire background system
         ["--category-accent" as any]: accentVar(category),
       }}
     >
-      <CartographyBackground  />
-      <AtmosphereLayer category={category}/>
-      <ScrollViewport>
-        {children}
-      </ScrollViewport>
+      {/* Navigation always stays on top */}
+      <Navigation />
+      {/* Cartography background */}
+      <CartographyBackground
+        category={category}
+        recordId={recordId}
+        className={styles.background}
+      />
+      {/* Atmosphere layer */}
+      <AtmosphereLayer category={category} />
+      {/* Main page content */}
+      <main className={styles.content}>
+          {children}
+      </main>
     </div>
   );
 }

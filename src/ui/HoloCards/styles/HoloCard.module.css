@@ -1,50 +1,114 @@
 /* =====================================================
-   HOLO CARD — PREMIUM COMMAND MODULE
-   Works with: HoloCard.tsx structure
+   ROOT LINK
 ===================================================== */
 
-.wrapper{
-  position:relative;
-  display:block;
-  width:100%;
-  height:100%;
-  text-decoration:none;
-  color:inherit;
-  outline:none;
+.card{
 
-  /* small lift baseline */
-  transform: translateZ(0);
-  transition: transform 220ms ease, filter 220ms ease;
+  display:block;
+
+  position:relative;
+
+  text-decoration:none;
+
+  color:inherit;
+
 }
 
+/* =====================================================
+   SURFACE
+===================================================== */
+
 .surface{
+
   position:relative;
-  height:100%;
 
-  padding: 18px 18px 16px;
+  display:flex;
 
-  border-radius: 20px;
+  align-items:center;
 
-  background:
-    radial-gradient(120% 90% at 20% 10%, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.03) 55%, rgba(0,0,0,0) 100%),
-    linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+  gap:16px;
 
-  border: 1px solid rgba(255,255,255,0.14);
+  padding:18px 20px;
 
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  border-radius:18px;
 
-  box-shadow:
-  0 12px 30px rgba(0,0,0,.35),
-  inset 0 1px 0 rgba(255,255,255,.08),
-  inset 0 -1px 0 rgba(255,255,255,.05);
+  background:var(--surface-glass);
 
-  overflow:hidden;
+  border:1px solid var(--border-subtle);
+
+  backdrop-filter:var(--blur-panel);
+  -webkit-backdrop-filter:var(--blur-panel);
+
+  box-shadow:var(--shadow-panel);
 
   transition:
-    transform 220ms ease,
-    border-color 220ms ease,
-    box-shadow 220ms ease;
+    transform 260ms ease,
+    box-shadow 260ms ease,
+    border-color 260ms ease;
+
+}
+
+/* subtle console accent */
+
+.surface::after{
+
+  content:"";
+
+  position:absolute;
+
+  left:0;
+  right:0;
+  bottom:0;
+
+  height:1px;
+
+  background:linear-gradient(
+    90deg,
+    transparent,
+    var(--category-accent),
+    transparent
+  );
+
+  opacity:.35;
+
+}
+
+/* =====================================================
+   HOVER
+===================================================== */
+
+@media (hover:hover){
+
+  .card:hover .surface{
+
+    transform:translateY(-3px);
+
+    box-shadow:var(--shadow-hover);
+
+    border-color:color-mix(
+      in oklab,
+      var(--category-accent),
+      transparent 40%
+    );
+
+  }
+
+}
+
+/* =====================================================
+   CONTENT
+===================================================== */
+
+.content{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:14px;
+
+  width:100%;
+
 }
 
 /* =====================================================
@@ -52,304 +116,145 @@
 ===================================================== */
 
 .icon{
-  width: 38px;
-  height: 38px;
-  border-radius: 14px;
 
   display:flex;
+
   align-items:center;
+
   justify-content:center;
 
-  background: rgba(0,0,0,0.18);
+  width:42px;
+  height:42px;
 
-  border: 1px solid rgba(255,255,255,0.12);
+  border-radius:12px;
 
-  margin-bottom: 12px;
+  background:rgba(255,255,255,.04);
 
-  box-shadow:
-    0 10px 26px rgba(0,0,0,0.22),
-    0 0 0 1px rgba(255,255,255,0.03) inset;
+  border:1px solid rgba(255,255,255,.08);
+
 }
 
 /* =====================================================
-   TYPOGRAPHY
+   TEXT
 ===================================================== */
 
+.textBlock{
+
+  display:flex;
+
+  flex-direction:column;
+
+  gap:3px;
+
+}
+
 .title{
-  font-size: 1.08rem;
-  font-weight: 650;
-  letter-spacing: -0.01em;
-  line-height: 1.15;
-  margin: 0 0 6px;
+
+  font-size:1.05rem;
+
+  font-weight:620;
+
+  letter-spacing:.01em;
+
 }
 
 .subtitle{
-  font-size: 0.95rem;
-  opacity: 0.78;
-  line-height: 1.35;
-  margin: 0 0 10px;
-}
 
-.moduleStatus{
-  margin-top: auto;
+  font-size:.9rem;
 
-  font-size: 0.70rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  opacity:.7;
 
-  opacity: 0.65;
-}
-
-/* content sits above effects */
-.content{
-  position:relative;
-  z-index: 3;
-
-  display:flex;
-  flex-direction:column;
-  height:100%;
 }
 
 /* =====================================================
-   HOLOGRAPHIC GLOW + SWEEP
+   HOLOGRAPHIC GLOW
 ===================================================== */
 
 .glow{
+
   position:absolute;
-  inset:-10%;
-  z-index:1;
 
-  background:
-    radial-gradient(45% 35% at 30% 20%, rgba(140,220,255,0.20) 0%, rgba(0,0,0,0) 62%),
-    radial-gradient(45% 35% at 78% 45%, rgba(200,140,255,0.14) 0%, rgba(0,0,0,0) 64%);
+  inset:0;
 
-  opacity: 0;
+  border-radius:inherit;
+
+  background:radial-gradient(
+    80% 80% at 50% 50%,
+    var(--accent-glow),
+    transparent 70%
+  );
+
+  opacity:0;
+
   pointer-events:none;
 
-  mix-blend-mode: screen;
+  transition:opacity 260ms ease;
 
-  transition: opacity 260ms ease;
 }
 
-/* sweep line */
+.card:hover .glow{
+  opacity:1;
+}
+
+/* =====================================================
+   HOLOGRAPHIC SWEEP
+===================================================== */
+
 .sweep{
+
   position:absolute;
+
   inset:0;
-  z-index:2;
 
-  border-radius: inherit;
+  border-radius:inherit;
 
-  background: linear-gradient(
+  background:linear-gradient(
     100deg,
     transparent 25%,
-    rgba(255,255,255,0.10) 45%,
-    rgba(255,255,255,0.05) 55%,
+    rgba(255,255,255,.12) 45%,
+    rgba(255,255,255,.05) 55%,
     transparent 75%
   );
 
-  transform: translateX(-120%);
-  pointer-events:none;
-}
-
-.holoEdge{
-
-  position:absolute;
-  inset:0;
-
-  border-radius:inherit;
+  transform:translateX(-120%);
 
   pointer-events:none;
 
-  background:
-    linear-gradient(
-      120deg,
-      rgba(255,255,255,.25),
-      rgba(255,255,255,.05) 30%,
-      transparent 60%
-    );
-
-  opacity:.15;
-
-  mix-blend-mode:screen;
-
 }
-
-.holoEdge::after{
-
-  content:"";
-
-  position:absolute;
-  inset:-1px;
-
-  border-radius:inherit;
-
-  pointer-events:none;
-
-  border:1px solid transparent;
-
-  background:
-    linear-gradient(
-      90deg,
-      rgba(120,200,255,.25),
-      rgba(255,160,220,.15)
-    );
-
-  opacity:.35;
-
-  mask:
-    linear-gradient(#000,#000) padding-box,
-    linear-gradient(#000,#000);
-
-  mask-composite:exclude;
-}
-
-/* =====================================================
-   TARGETING FRAME (COMMAND MODULE)
-===================================================== */
-
-.moduleFrame{
-  position:absolute;
-  inset:0;
-  z-index:4;
-
-  border-radius: inherit;
-  pointer-events:none;
-
-  opacity: 0;
-  transition: opacity 240ms ease;
-}
-
-.moduleFrame::before,
-.moduleFrame::after{
-  content:"";
-  position:absolute;
-
-  width: 14px;
-  height: 14px;
-
-  border: 1px solid rgba(160,220,255,0.70);
-}
-
-.moduleFrame::before{
-  top: 8px;
-  left: 8px;
-
-  border-right:none;
-  border-bottom:none;
-}
-
-.moduleFrame::after{
-  bottom: 8px;
-  right: 8px;
-
-  border-left:none;
-  border-top:none;
-}
-
-/* =====================================================
-   HOVER / FOCUS STATES
-===================================================== */
 
 @media (hover:hover){
-  .wrapper:hover{
-    transform: translateY(-2px) scale(1.02);
+
+  .card:hover .sweep{
+    animation:sweep 1.5s ease forwards;
   }
 
-  .wrapper:hover .surface{
-    border-color: rgba(160,220,255,0.28);
-
-    box-shadow:
-      0 22px 54px rgba(0,0,0,0.42),
-      0 0 22px rgba(120,200,255,0.20),
-      0 0 0 1px rgba(255,255,255,0.05) inset;
-  }
-
-  .wrapper:hover .glow{
-    opacity: 1;
-  }
-
-  .wrapper:hover .moduleFrame{
-    opacity: 1;
-  }
-
-  .wrapper:hover .sweep{
-    animation: sweep 1.5s ease forwards;
-  }
 }
 
 @keyframes sweep{
-  from{ transform: translateX(-120%); }
-  to{ transform: translateX(120%); }
-}
 
-.wrapper:focus-visible .surface{
-  outline: 2px solid rgba(160,220,255,0.55);
-  outline-offset: 3px;
-}
-
-/* =====================================================
-   LIGHT THEME TUNING
-===================================================== */
-
-:global(html[data-theme="light"]) .surface{
-  background:
-    radial-gradient(120% 90% at 20% 10%, rgba(0,0,0,0.06) 0%, rgba(255,255,255,0.30) 55%, rgba(255,255,255,0) 100%),
-    linear-gradient(180deg, rgba(255,255,255,0.70), rgba(255,255,255,0.35));
-
-  border: 1px solid rgba(0,0,0,0.10);
-
-  box-shadow:
-    0 16px 36px rgba(0,0,0,0.10),
-    0 0 0 1px rgba(255,255,255,0.45) inset;
-}
-
-:global(html[data-theme="light"]) .icon{
-  background: rgba(255,255,255,0.55);
-  border: 1px solid rgba(0,0,0,0.10);
-}
-
-:global(html[data-theme="light"]) .glow{
-  mix-blend-mode: multiply;
-  opacity: 0;
-}
-
-@media (hover:hover){
-  :global(html[data-theme="light"]) .wrapper:hover .surface{
-    border-color: rgba(0,0,0,0.14);
-
-    box-shadow:
-      0 20px 44px rgba(0,0,0,0.14),
-      0 0 0 1px rgba(255,255,255,0.55) inset;
+  from{
+    transform:translateX(-120%);
   }
 
-  :global(html[data-theme="light"]) .wrapper:hover .glow{
-    opacity: 0.45;
+  to{
+    transform:translateX(120%);
   }
 
-  :global(html[data-theme="light"]) .moduleFrame::before,
-  :global(html[data-theme="light"]) .moduleFrame::after{
-    border-color: rgba(10,45,65,0.40);
-  }
 }
 
 /* =====================================================
-   REDUCED MOTION
+   MOBILE
 ===================================================== */
 
-@media (prefers-reduced-motion: reduce){
-  .wrapper,
-  .surface,
-  .glow,
-  .moduleFrame{
-    transition:none;
+@media (max-width:720px){
+
+  .surface{
+    padding:16px;
   }
 
-  .wrapper:hover{
-    transform:none;
+  .icon{
+    width:36px;
+    height:36px;
   }
 
-  .wrapper:hover .sweep{
-    animation:none;
-    transform:none;
-  }
 }

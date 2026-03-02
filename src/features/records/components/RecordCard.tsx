@@ -4,7 +4,7 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 import { NavLink }from "@/features/navigation";
 import { useAtmosphere } from "@/features/layout";
 import type { RecordMeta } from "./recordMeta";
-import type { SwapiType } from "@/lib/swapi/types";
+import type { SwapiType } from "@/lib/swapi/swapiTypes";
 import styles from "../styles/RecordCard.module.css";
 
 type Props = {
@@ -98,26 +98,27 @@ export default function RecordCard({
               {meta.id}
             </div>
 
-            <div className={styles.title}>
-              {meta.title}
-            </div>
+            <div className={styles.textBlock}>
 
-            {meta.subtitle && (
-              <div className={styles.subtitle}>
-                {meta.subtitle}
+              <div className={styles.title}>
+                {meta.title}
               </div>
-            )}
+
+                {meta.subtitle && (
+                  <div className={styles.subtitle}>
+                    {meta.subtitle}
+                  </div>
+                )}
+
+            </div>
 
             <div className={styles.openDetail}>
               Open →
-            </div>
+            </div>               
 
           </div>
-
-        </div>
-
+          </div>
       </NavLink>
-
     </motion.div>
   );
 }

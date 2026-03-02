@@ -6,235 +6,130 @@
   width:100%;
   display:flex;
   flex-direction:column;
+  gap:28px;
 }
 
 /* =====================================================
-   HERO SECTION
+   HERO
 ===================================================== */
 
 .hero{
-
   position:relative;
-
-  min-height:460px;
-
+  min-height:420px;
   display:flex;
   align-items:center;
-
-  margin-bottom:22px;
-
-}
-
-/* cartography container */
-
-.heroBg{
-
-  position:relative;
-
-  width:100%;
-  min-height:440px;
-
-  border-radius:28px;
-
-  overflow:hidden;
-
 }
 
 /* =====================================================
-   HERO CONTENT OVERLAY
+   HERO CONTENT
 ===================================================== */
 
 .heroContent{
-
   position:absolute;
-
   inset:0;
-
   display:flex;
-
   align-items:center;
   justify-content:center;
-
-  padding:18px;
-
-  pointer-events:none;
-
+  padding:22px;
 }
 
 /* =====================================================
-   HOLOGRAPHIC PANEL
+   HOLO PANEL
 ===================================================== */
 
 .holoPanel{
-
   position:relative;
-
-  width:min(760px,100%);
-
-  padding:22px 22px 20px;
-
+  width:min(860px,100%);
+  padding:24px 22px 20px;
   border-radius:22px;
-
-  pointer-events:auto;
-
-  background:
-
-    radial-gradient(
-      120% 90% at 20% 10%,
-      rgba(255,255,255,0.12) 0%,
-      rgba(255,255,255,0.02) 55%,
-      rgba(0,0,0,0) 100%
-    ),
-
-    linear-gradient(
-      180deg,
-      rgba(255,255,255,0.08),
-      rgba(255,255,255,0.03)
-    );
-
-  border:1px solid rgba(255,255,255,0.14);
-
-  backdrop-filter:blur(10px);
-  -webkit-backdrop-filter:blur(10px);
-
-  box-shadow:
-
-    0 20px 55px rgba(0,0,0,0.38),
-    0 0 0 1px rgba(255,255,255,0.04) inset;
-
-  overflow:hidden;
-
+  background: var(--surface-glass);
+  border:1px solid var(--border-subtle);
+  backdrop-filter:var(--blur-panel);
+  -webkit-backdrop-filter:var(--blur-panel);
+  box-shadow:var(--shadow-panel);
+  transition:
+    transform 260ms ease,
+    box-shadow 260ms ease,
+    border-color 260ms ease;  
 }
 
-/* =====================================================
-   HOLOGRAPHIC PROJECTION
-===================================================== */
+/* holographic glow */
 
-.holoProjection{
-
+.holoPanel::before{
+  content:"";
   position:absolute;
-
-  left:50%;
-  bottom:-50px;
-
-  width:420px;
-  height:160px;
-
-  transform:translateX(-50%);
-
+  inset:-1px;
+  border-radius:inherit;
+  background: var(--category-accent);
+  opacity:.25;
+  mix-blend-mode:screen;
   pointer-events:none;
-
-  background:
-
-    radial-gradient(
-      ellipse at center,
-      rgba(120,200,255,.20),
-      rgba(120,200,255,.06) 45%,
-      transparent 70%
-    );
-
-  filter:blur(26px);
-
-  opacity:.65;
-
-  animation:holoPulse 7s ease-in-out infinite;
-
 }
 
-@keyframes holoPulse{
+/* subtle sweep */
 
-  0%{ opacity:.45 }
-  50%{ opacity:.85 }
-  100%{ opacity:.45 }
+.holoPanel::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:inherit;
+  background: var(--category-accent);
+  transform:translateX(-120%);
+  animation:heroSweep 8s ease-in-out infinite;
+  pointer-events:none;
+}
 
+@keyframes heroSweep{
+  0%{
+    transform:translateX(-120%);
+    opacity:0;
+  }
+  20%{
+    opacity:.7;
+  }
+  100%{
+    transform:translateX(120%);
+    opacity:0;
+  }
 }
 
 /* =====================================================
-   PANEL HEADER
+   HERO TEXT
 ===================================================== */
 
 .panelTop{
-
   display:flex;
-
-  align-items:center;
   justify-content:space-between;
-
-  gap:10px;
-
+  gap:12px;
   margin-bottom:10px;
-
 }
-
-/* =====================================================
-   BADGE
-===================================================== */
 
 .badge{
-
   display:inline-flex;
-
   align-items:center;
-
-  gap:8px;
-
-  font-size:11px;
-
-  letter-spacing:.10em;
-
+  gap:10px;
+  font-size:12px;
+  letter-spacing:.08em;
   text-transform:uppercase;
-
-  padding:7px 10px;
-
+  padding:8px 10px;
   border-radius:999px;
-
   border:1px solid rgba(255,255,255,.14);
-
-  background:rgba(0,0,0,.15);
-
+  background:rgba(0,0,0,.12);
 }
-
-/* live system indicator */
 
 .badgeDot{
-
   width:8px;
   height:8px;
-
   border-radius:99px;
-
-  background:rgba(140,220,255,.8);
-
-  box-shadow:0 0 12px rgba(140,220,255,.5);
-
-  animation:badgePulse 3s ease-in-out infinite;
-
+  background:rgba(140,220,255,.75);
+  box-shadow:0 0 16px rgba(140,220,255,.45);
 }
-
-@keyframes badgePulse{
-
-  0%{ opacity:.6 }
-  50%{ opacity:1 }
-  100%{ opacity:.6 }
-
-}
-
-/* =====================================================
-   META INFO
-===================================================== */
 
 .meta{
-
   display:flex;
-
-  align-items:center;
-
   gap:8px;
-
-  font-size:11px;
-
-  opacity:.85;
-
+  font-size:12px;
+  opacity:.82;
 }
 
 .metaSep{
@@ -242,101 +137,61 @@
 }
 
 /* =====================================================
-   HERO TITLE
+   TITLE
 ===================================================== */
 
 .title{
-
-  font-size:clamp(32px,4vw,50px);
-
+  font-size:clamp(34px,4.3vw,56px);
   line-height:1.05;
-
-  margin:10px 0 10px;
-
+  margin:10px 0;
   letter-spacing:-.02em;
-
 }
 
 .titleAccent{
-
-  display:inline-block;
-
   opacity:.95;
-
-  text-shadow:0 0 24px rgba(160,225,255,.28);
-
+  text-shadow:0 0 24px rgba(160,225,255,.25);
 }
 
 /* =====================================================
-   HERO DESCRIPTION
+   SUBTITLE
 ===================================================== */
 
 .subtitle{
-
-  font-size:15px;
-
+  font-size:16px;
   line-height:1.55;
-
   opacity:.9;
-
-  margin:0 0 16px;
-
-  max-width:60ch;
-
+  margin-bottom:18px;
+  max-width:62ch;
 }
 
 /* =====================================================
-   TELEMETRY ROW
+   MICRO INFO
 ===================================================== */
 
 .microRow{
-
   display:grid;
-
-  grid-template-columns:
-
-    repeat(3,minmax(0,1fr));
-
-  gap:10px;
-
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
 }
 
 .microItem{
-
   padding:10px 12px;
-
-  border-radius:14px;
-
-  background:rgba(0,0,0,.12);
-
-  border:1px solid rgba(255,255,255,.10);
-
+  border-radius:16px;
+  background:rgba(0,0,0,.1);
+  border:1px solid rgba(255,255,255,.1);
 }
 
 .microLabel{
-
-  display:block;
-
-  font-size:10px;
-
-  letter-spacing:.12em;
-
+  font-size:11px;
   text-transform:uppercase;
-
-  opacity:.70;
-
+  letter-spacing:.1em;
+  opacity:.7;
   margin-bottom:4px;
-
+  display:block;
 }
 
 .microValue{
-
-  display:block;
-
   font-size:13px;
-
-  opacity:.95;
-
 }
 
 /* =====================================================
@@ -344,29 +199,22 @@
 ===================================================== */
 
 .panelGlow{
-
   position:absolute;
-
   inset:-40%;
-
-  pointer-events:none;
-
   background:
-
     radial-gradient(
-      45% 30% at 35% 20%,
+      40% 30% at 40% 25%,
       rgba(140,220,255,.22),
-      transparent 60%
+      transparent 70%
     ),
-
     radial-gradient(
-      50% 35% at 75% 35%,
+      50% 40% at 70% 60%,
       rgba(200,140,255,.14),
-      transparent 65%
+      transparent 75%
     );
 
   mix-blend-mode:screen;
-
+  pointer-events:none;
 }
 
 /* =====================================================
@@ -374,74 +222,39 @@
 ===================================================== */
 
 .section{
-
-  width:min(1100px,100%);
-
+  width:min(1200px,100%);
   margin:0 auto;
-
   padding:0 6px;
-
 }
 
 .sectionHeader{
-
-  display:flex;
-
-  flex-direction:column;
-
-  gap:4px;
-
-  margin-bottom:12px;
-
+  margin-bottom:14px;
 }
 
 .h2{
-
   font-size:22px;
-
   margin:0;
-
 }
 
 .p{
-
-  font-size:14px;
-
-  opacity:.8;
-
-  margin:0;
-
+  margin:4px 0 14px 0;
+  opacity:.82;
+  line-height:1.55;
 }
 
 /* =====================================================
-   MOBILE RESPONSIVE
+   MOBILE
 ===================================================== */
 
-@media (max-width:900px){
-
-  .hero{
-    min-height:520px;
-  }
-
-}
-
 @media (max-width:720px){
-
-  .heroBg{
-    min-height:540px;
-  }
-
-  .panelTop{
-    flex-direction:column;
-    align-items:flex-start;
-  }
 
   .microRow{
     grid-template-columns:1fr;
   }
 
-  .title{
-    font-size:30px;
+  .panelTop{
+    flex-direction:column;
+    align-items:flex-start;
   }
 
 }

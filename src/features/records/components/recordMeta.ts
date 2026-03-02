@@ -1,4 +1,4 @@
-import { SwapiItem, SwapiType } from "@/lib/swapi/types";
+import { SwapiItem, SwapiType } from "@/lib/swapi/swapiTypes";
 
 export type RecordMeta = {
   id: string;

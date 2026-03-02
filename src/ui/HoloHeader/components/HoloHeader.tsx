@@ -6,7 +6,7 @@ import Breadcrumbs, {
   type BreadcrumbItem,
 } from "@/features/navigation/components/Breadcrumbs";
 import SystemBackArrow from "@/features/navigation/components/SystemBackArrow";
-import type { SwapiType } from "@/lib/swapi/types";
+import type { SwapiType } from "@/lib/swapi/swapiTypes";
 
 export type HoloHeaderSize = "md" | "lg";
 

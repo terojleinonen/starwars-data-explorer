@@ -1,42 +1,24 @@
-import { CategoryPage } from "@/features/category/";
-import { fetchCategoryList } from "@/lib/swapi/fetch";
-import type { SwapiType, SwapiItem } from "@/lib/swapi/types";
+import { CategoryPage } from "@/features/category";
+import { getCategory } from "@/lib/swapi/swapiService";
+import type { SwapiType } from "@/lib/swapi/swapiTypes";
 
 type Props = {
-  params: {
+  params: Promise<{
     category: SwapiType;
-  };
+  }>;
 };
 
 export default async function Page({ params }: Props) {
 
-  const { category } = params;
+  const { category } = await params;
 
-  const records = (await fetchCategoryList(category)) as SwapiItem[];
-
-  const titles: Record<SwapiType, string> = {
-    people: "People",
-    planets: "Planets",
-    films: "Films",
-    starships: "Starships",
-    species: "Species",
-    vehicles: "Vehicles",
-  };
-
-  const subtitles: Record<SwapiType, string> = {
-    people: "Sentient records of the galaxy",
-    planets: "Planetary systems and worlds",
-    films: "Holofilm archives",
-    starships: "Interstellar vessels",
-    species: "Biological classifications",
-    vehicles: "Ground and atmospheric transport",
-  };
+  const records = await getCategory(category);
 
   return (
     <CategoryPage
       category={category}
-      title={titles[category]}
-      subtitle={subtitles[category]}
+      title={category}
+      subtitle="Galactic archive records"
       records={records}
     />
   );

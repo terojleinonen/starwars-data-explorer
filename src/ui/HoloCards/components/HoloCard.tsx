@@ -1,9 +1,11 @@
-
 "use client";
 
-import Link from "next/link";
+import React from "react";
+import { NavLink } from "@/features/navigation/";
+import { prefetchCategory } from "@/lib/swapi/swapiService";
+import  HoloIcon, { HoloIconName }  from "@/ui/icons/HoloIcon";
+
 import styles from "../styles/HoloCard.module.css";
-import HoloIcon, { HoloIconName } from "@/ui/icons/HoloIcon";
 
 type Props = {
   title: string;
@@ -18,23 +20,32 @@ export default function HoloCard({
   href,
   icon,
 }: Props) {
+
+  function handlePrefetch() {
+
+    const category = href.replace("/", "");
+
+    prefetchCategory(category);
+
+  }
+
   return (
-    <Link
+    <NavLink
       href={href}
-      className={styles.wrapper}
-      aria-label={`Open ${title}`}
+      label={title}
+      className={styles.card}
+      onMouseEnter={handlePrefetch}
     >
+
       <div className={styles.surface}>
-        <div className={styles.holoEdge} />
 
-        {/* targeting frame */}
-        <div className={styles.moduleFrame} />
+        {/* glow layers */}
 
-        {/* visual effects */}
         <div className={styles.glow} />
         <div className={styles.sweep} />
 
         {/* card content */}
+
         <div className={styles.content}>
 
           {icon && (
@@ -43,23 +54,24 @@ export default function HoloCard({
             </div>
           )}
 
-          <div className={styles.title}>
-            {title}
-          </div>
+          <div className={styles.textBlock}>
 
-          {subtitle && (
-            <div className={styles.subtitle}>
-              {subtitle}
+            <div className={styles.title}>
+              {title}
             </div>
-          )}
 
-          <div className={styles.moduleStatus}>
-            MODULE READY
+            {subtitle && (
+              <div className={styles.subtitle}>
+                {subtitle}
+              </div>
+            )}
+
           </div>
 
         </div>
 
       </div>
-    </Link>
+
+    </NavLink>
   );
 }
