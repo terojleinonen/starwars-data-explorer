@@ -27,7 +27,6 @@ export default function CategoryToolbar({
         onChange={(e) => onQueryChange(e.target.value)}
         aria-label="Search records"
       />
-
       <select
         className={styles.sort}
         value={sortKey}

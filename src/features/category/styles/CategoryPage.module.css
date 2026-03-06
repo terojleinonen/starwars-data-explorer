@@ -23,7 +23,6 @@
 ===================================================== */
 
 .categoryBanner{
-
   position:relative;
   padding:20px 22px;
   border-radius:18px;
@@ -31,8 +30,7 @@
   border:1px solid var(--border-subtle);
   -webkit-backdrop-filter:blur(8px);
   backdrop-filter:blur(8px);
-  box-shadow: var(--shadow-panel);
-    
+  box-shadow: var(--shadow-panel);    
 }
 
 /* =====================================================
@@ -101,7 +99,6 @@
 ===================================================== */
 
 .recordHeader{
-
   display:grid;
   grid-template-columns:
     80px
@@ -122,7 +119,6 @@
 ===================================================== */
 
 @media (max-width:720px){
-
   .recordHeader{
     grid-template-columns:
       60px

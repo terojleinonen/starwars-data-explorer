@@ -20,7 +20,6 @@ export default function CategoryPage({
   category,
   title,
   subtitle,
-  records,
 }: Props) {
  
   /* =====================================================
@@ -43,42 +42,29 @@ export default function CategoryPage({
 
   return (
     <PageWrapper>
-
       <main className={styles.page}>
-
         {/* CARTOGRAPHY BACKGROUND */}
-
         <CartographyBackground />
-
         {/* =====================================================
            CATEGORY HEADER
         ===================================================== */}
         <section className={styles.bannerWrapper}>
-
           <div className={styles.categoryBanner}>
-
             <div className={styles.categoryBadge}>
               Galactic Archive
             </div>
-
             <h1 className={styles.categoryTitle}>
               {title}
             </h1>
-
             <p className={styles.categorySubtitle}>
               {subtitle}
             </p>
-
           </div>
-
         </section>
-
         {/* =====================================================
            SEARCH + SORT TOOLBAR
         ===================================================== */}
-
         <section className={styles.toolbarWrapper}>
-
           {!loading && !error && (
             <CategoryToolbar
               query={query}
@@ -87,16 +73,13 @@ export default function CategoryPage({
               onSortChange={setSortKey}
             />
           )}
-
         </section>
-
         {/* =====================================================
            RECORD CONSOLE
         ===================================================== */}
-
         <section className={styles.recordConsole}>
           {!loading && !error && (
-        <>
+          <>
           {results.length === 0 ? (
             <p className={styles.empty}>
               No records match your query.
@@ -107,13 +90,10 @@ export default function CategoryPage({
               category={category}
             />
           )}
-        </>
-      )}
-
-        </section>
-
+          </>
+        )}
+      </section>
       </main>
-
     </PageWrapper>
   );
 }

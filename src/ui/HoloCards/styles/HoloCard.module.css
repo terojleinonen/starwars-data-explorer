@@ -3,15 +3,10 @@
 ===================================================== */
 
 .card{
-
   display:block;
-
   position:relative;
-
   text-decoration:none;
-
   color:inherit;
-
 }
 
 /* =====================================================
@@ -19,58 +14,38 @@
 ===================================================== */
 
 .surface{
-
   position:relative;
-
   display:flex;
-
   align-items:center;
-
   gap:16px;
-
   padding:18px 20px;
-
   border-radius:18px;
-
   background:var(--surface-glass);
-
   border:1px solid var(--border-subtle);
-
   backdrop-filter:var(--blur-panel);
   -webkit-backdrop-filter:var(--blur-panel);
-
   box-shadow:var(--shadow-panel);
-
   transition:
     transform 260ms ease,
     box-shadow 260ms ease,
     border-color 260ms ease;
-
 }
 
 /* subtle console accent */
-
 .surface::after{
-
   content:"";
-
   position:absolute;
-
   left:0;
   right:0;
   bottom:0;
-
   height:1px;
-
   background:linear-gradient(
     90deg,
     transparent,
     var(--category-accent),
     transparent
   );
-
   opacity:.35;
-
 }
 
 /* =====================================================
@@ -78,21 +53,15 @@
 ===================================================== */
 
 @media (hover:hover){
-
   .card:hover .surface{
-
     transform:translateY(-3px);
-
     box-shadow:var(--shadow-hover);
-
     border-color:color-mix(
       in oklab,
       var(--category-accent),
       transparent 40%
     );
-
   }
-
 }
 
 /* =====================================================
@@ -100,15 +69,10 @@
 ===================================================== */
 
 .content{
-
   display:flex;
-
   align-items:center;
-
   gap:14px;
-
   width:100%;
-
 }
 
 /* =====================================================
@@ -116,22 +80,14 @@
 ===================================================== */
 
 .icon{
-
   display:flex;
-
   align-items:center;
-
   justify-content:center;
-
   width:42px;
   height:42px;
-
   border-radius:12px;
-
   background:rgba(255,255,255,.04);
-
   border:1px solid rgba(255,255,255,.08);
-
 }
 
 /* =====================================================
@@ -139,31 +95,20 @@
 ===================================================== */
 
 .textBlock{
-
   display:flex;
-
   flex-direction:column;
-
   gap:3px;
-
 }
 
 .title{
-
   font-size:1.05rem;
-
   font-weight:620;
-
   letter-spacing:.01em;
-
 }
 
 .subtitle{
-
   font-size:.9rem;
-
   opacity:.7;
-
 }
 
 /* =====================================================
@@ -171,25 +116,17 @@
 ===================================================== */
 
 .glow{
-
   position:absolute;
-
   inset:0;
-
   border-radius:inherit;
-
   background:radial-gradient(
     80% 80% at 50% 50%,
     var(--accent-glow),
     transparent 70%
   );
-
   opacity:0;
-
   pointer-events:none;
-
   transition:opacity 260ms ease;
-
 }
 
 .card:hover .glow{
@@ -201,13 +138,9 @@
 ===================================================== */
 
 .sweep{
-
   position:absolute;
-
   inset:0;
-
   border-radius:inherit;
-
   background:linear-gradient(
     100deg,
     transparent 25%,
@@ -215,31 +148,23 @@
     rgba(255,255,255,.05) 55%,
     transparent 75%
   );
-
   transform:translateX(-120%);
-
   pointer-events:none;
-
 }
 
 @media (hover:hover){
-
   .card:hover .sweep{
     animation:sweep 1.5s ease forwards;
   }
-
 }
 
 @keyframes sweep{
-
   from{
     transform:translateX(-120%);
   }
-
   to{
     transform:translateX(120%);
   }
-
 }
 
 /* =====================================================
@@ -247,14 +172,11 @@
 ===================================================== */
 
 @media (max-width:720px){
-
   .surface{
     padding:16px;
   }
-
   .icon{
     width:36px;
     height:36px;
   }
-
 }

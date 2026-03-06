@@ -14,14 +14,10 @@
 
 .card{
   position:relative;
-
   display:block;
-
   text-decoration:none;
   color:inherit;
-
   height:100%;
-
   outline:none;
 }
 
@@ -30,27 +26,17 @@
 ===================================================== */
 
 .surface{
-
   position:relative;
-
   display:flex;
   align-items:center;
-
   padding:14px 16px;
-
   min-height:84px;
-
   border-radius:14px;
-
   background:var(--surface-glass);
-
   border:1px solid var(--border-subtle);
-
   backdrop-filter:var(--blur-panel);
   -webkit-backdrop-filter:var(--blur-panel);
-
   box-shadow:var(--shadow-panel);
-
   transition:
     transform 240ms ease,
     box-shadow 240ms ease,
@@ -59,73 +45,16 @@
 
 }
 
-/* subtle console accent line */
-
-.surface::after{
-
-  content:"";
-
-  position:absolute;
-
-  left:0;
-  right:0;
-  bottom:0;
-
-  height:1px;
-
-  background:linear-gradient(
-    90deg,
-    transparent,
-    var(--category-accent),
-    transparent
-  );
-
-  opacity:.35;
-
-}
-
 /* =====================================================
    CATEGORY ACCENT
 ===================================================== */
 
 .wrapper[data-category] .surface{
-
   border-color:color-mix(
     in oklab,
     var(--category-accent),
     transparent 70%
   );
-
-}
-
-/* =====================================================
-   HOVER
-===================================================== */
-
-@media (hover:hover){
-
-  .wrapper:hover .surface{
-
-    transform:translateY(-2px);
-
-    box-shadow:var(--shadow-hover);
-
-    border-color:color-mix(
-      in oklab,
-      var(--category-accent),
-      transparent 45%
-    );
-
-    background:
-      linear-gradient(
-        90deg,
-        transparent,
-        rgba(160,220,255,.05),
-        transparent
-      ),
-      var(--surface-glass);
-
-  }
 
 }
 
@@ -139,7 +68,6 @@
     20px
     1fr
     auto;
-
   align-items:center;
   gap:16px;
   width:100%;
@@ -157,13 +85,9 @@
 ===================================================== */
 
 .recordId{
-
   font-size:.82rem;
-
   opacity:.65;
-
   letter-spacing:.05em;
-
 }
 
 /* =====================================================
@@ -171,15 +95,10 @@
 ===================================================== */
 
 .title{
-
   font-size:1rem;
-
   font-weight:600;
-
   line-height:1.2;
-
   letter-spacing:.01em;
-
 }
 
 /* =====================================================
@@ -187,13 +106,9 @@
 ===================================================== */
 
 .subtitle{
-
   font-size:.88rem;
-
   opacity:.7;
-
   margin-top:2px;
-
 }
 
 /* =====================================================
@@ -201,15 +116,10 @@
 ===================================================== */
 
 .openDetail{
-
   font-size:.82rem;
-
   opacity:.75;
-
   text-align:right;
-
   white-space:nowrap;
-
 }
 
 /* =====================================================
@@ -217,25 +127,17 @@
 ===================================================== */
 
 .glow{
-
   position:absolute;
-
   inset:0;
-
   border-radius:inherit;
-
   background:radial-gradient(
     80% 80% at 50% 50%,
     var(--accent-glow),
     transparent 70%
   );
-
   opacity:0;
-
   pointer-events:none;
-
   transition:opacity 260ms ease;
-
 }
 
 .wrapper:hover .glow{
@@ -247,13 +149,9 @@
 ===================================================== */
 
 .sweep{
-
   position:absolute;
-
   inset:0;
-
   border-radius:inherit;
-
   background:linear-gradient(
     100deg,
     transparent 25%,
@@ -261,31 +159,23 @@
     rgba(255,255,255,.05) 55%,
     transparent 75%
   );
-
   transform:translateX(-120%);
-
   pointer-events:none;
-
 }
 
 @media (hover:hover){
-
   .wrapper:hover .sweep{
     animation:sweep 1.6s ease forwards;
   }
-
 }
 
 @keyframes sweep{
-
   from{
     transform:translateX(-120%);
   }
-
   to{
     transform:translateX(120%);
   }
-
 }
 
 /* =====================================================
@@ -293,11 +183,8 @@
 ===================================================== */
 
 .card:focus-visible .surface{
-
   outline:2px solid var(--category-accent);
-
   outline-offset:2px;
-
 }
 
 /* =====================================================
@@ -305,17 +192,12 @@
 ===================================================== */
 
 @media (max-width:720px){
-
   .content{
-
     grid-template-columns:
       60px
       1fr;
-
   }
-
   .openDetail{
     display:none;
   }
-
 }

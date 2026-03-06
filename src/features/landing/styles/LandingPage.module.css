@@ -53,46 +53,6 @@
     border-color 260ms ease;  
 }
 
-/* holographic glow */
-
-.holoPanel::before{
-  content:"";
-  position:absolute;
-  inset:-1px;
-  border-radius:inherit;
-  background: var(--category-accent);
-  opacity:.25;
-  mix-blend-mode:screen;
-  pointer-events:none;
-}
-
-/* subtle sweep */
-
-.holoPanel::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  border-radius:inherit;
-  background: var(--category-accent);
-  transform:translateX(-120%);
-  animation:heroSweep 8s ease-in-out infinite;
-  pointer-events:none;
-}
-
-@keyframes heroSweep{
-  0%{
-    transform:translateX(-120%);
-    opacity:0;
-  }
-  20%{
-    opacity:.7;
-  }
-  100%{
-    transform:translateX(120%);
-    opacity:0;
-  }
-}
-
 /* =====================================================
    HERO TEXT
 ===================================================== */
@@ -192,29 +152,6 @@
 
 .microValue{
   font-size:13px;
-}
-
-/* =====================================================
-   PANEL GLOW
-===================================================== */
-
-.panelGlow{
-  position:absolute;
-  inset:-40%;
-  background:
-    radial-gradient(
-      40% 30% at 40% 25%,
-      rgba(140,220,255,.22),
-      transparent 70%
-    ),
-    radial-gradient(
-      50% 40% at 70% 60%,
-      rgba(200,140,255,.14),
-      transparent 75%
-    );
-
-  mix-blend-mode:screen;
-  pointer-events:none;
 }
 
 /* =====================================================
