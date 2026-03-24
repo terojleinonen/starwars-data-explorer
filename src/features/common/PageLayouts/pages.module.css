@@ -9,7 +9,33 @@
   --titleFade: 1;
 
   position: relative;
+  /* Remove blanket overflow hidden - allow content-based overflow */
+}
+
+/* Responsive overflow utilities */
+.overflowScrollY {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.overflowHiddenIntentional {
   overflow: hidden;
+}
+
+/* Mobile-specific page wrapper behavior */
+@media (max-width: 768px) {
+  .pageWrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+/* Tablet-specific page wrapper behavior */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .pageWrapper {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
 }
 
 /* Grid layer uses scroll-driven opacity */

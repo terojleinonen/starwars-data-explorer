@@ -12,7 +12,7 @@ type Props = {
   device?: "desktop" | "tablet" | "mobile"
 };
 
-export default function CartographySvgLight({}) {
+export default function CartographySvgLight({ category, device }: Props) {
 
   return (
     <>

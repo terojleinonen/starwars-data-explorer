@@ -8,7 +8,7 @@ export function useCategoryTheme(category?: string) {
   useEffect(() => {
     if (!category) return;
 
-    const theme = CATEGORY_THEME[category];
+    const theme = CATEGORY_THEME[category as SwapiType];
     if (!theme) return;
 
     const root = document.documentElement;

@@ -71,7 +71,7 @@ export default function HoloHeader({
             )}
             {category && (
               <span className={styles.category}>
-                {CATEGORY_LABELS[category] ??
+                {CATEGORY_LABELS[category as SwapiType] ??
                   category.toUpperCase()}
               </span>
             )}

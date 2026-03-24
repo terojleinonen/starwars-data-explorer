@@ -5,7 +5,7 @@ import {
   TargetReticle,
 } from "@/features/cartography";
 
-export default function CartographySvgDark({}) {
+export default function CartographySvgDark({ category, device }: { category?: string; device?: string }) {
 
   return (
     <>
