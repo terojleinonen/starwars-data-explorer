@@ -233,74 +233,30 @@ LIGHT THEME CARTOGRAPHY BASE
   transform: rotate(-3deg);
 }
 
+/* Planet styles - simplified since most styling is now inline */
 .planetOrbit{
-  fill:none;
-  stroke:rgba(120,220,255,.3);
-  stroke-width:1;
-  stroke-dasharray:6 6;
-  opacity:0.6;
-}
-
-.navBeacon{
-  fill:rgba(255,120,120,.95);
-  opacity:.9;
-  filter:drop-shadow(0 0 2px rgba(255,120,120,0.8));
+  pointer-events: none;
 }
 
 .planetGlow{
-  fill:rgba(80,200,255,.2);
-  filter:blur(12px);
-  opacity:0.8;
+  pointer-events: none;
 }
 
 .planetCore{
-  fill:rgba(180,230,255,.9);
-  filter:drop-shadow(0 0 4px rgba(120,180,255,0.4));
+  pointer-events: none;
 }
 
 .planetHighlight{
-  fill:rgba(255,255,255,.8);
-  opacity:0.9;
+  pointer-events: none;
 }
 
 .planetLabel{
-  fill:rgba(180,220,255,.7);
-  font-size:12px;
-  letter-spacing:.12em;
-  filter:drop-shadow(0 0 2px rgba(0,0,0,0.8));
+  pointer-events: none;
+  user-select: none;
 }
 
-/* Light theme planet styles - galactic war map appearance */
-:global(html[data-theme="light"]) .planetOrbit{
-  stroke:rgba(0,0,0,.4);
-  stroke-width:1.5;
-}
-
-:global(html[data-theme="light"]) .navBeacon{
-  fill:#d32f2f;
-  stroke:#b71c1c;
-  stroke-width:0.5;
-}
-
-:global(html[data-theme="light"]) .planetCore{
-  fill:#888;
-  stroke:#444;
-  stroke-width:1.5;
-}
-
-:global(html[data-theme="light"]) .planetGlow{
-  display:none;
-}
-
-:global(html[data-theme="light"]) .planetHighlight{
-  fill:#bbb;
-  stroke:#999;
-  stroke-width:0.5;
-}
-
-:global(html[data-theme="light"]) .planetLabel{
-  fill:#333;
-  font-weight:500;
+.navBeacon{
+  pointer-events: none;
 }
 
 .galacticDisc{

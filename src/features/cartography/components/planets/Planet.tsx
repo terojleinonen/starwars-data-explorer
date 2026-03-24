@@ -37,6 +37,9 @@ export default function Planet({ x, y, size, name }: Props){
           cy={y}
           r={r * 4}
           className="planetGlow"
+          fill="rgba(80,200,255,0.2)"
+          style={{ filter: 'blur(12px)' }}
+          opacity="0.8"
         />
       )}
 
@@ -46,6 +49,11 @@ export default function Planet({ x, y, size, name }: Props){
         cy={y}
         r={r * 3}
         className="planetOrbit"
+        fill="none"
+        stroke={theme === "dark" ? "rgba(120,220,255,0.3)" : "rgba(0,0,0,0.4)"}
+        strokeWidth={theme === "dark" ? "1" : "1.5"}
+        strokeDasharray="6 6"
+        opacity={theme === "dark" ? "0.6" : "0.8"}
       />
 
       {/* planet body */}
@@ -54,7 +62,9 @@ export default function Planet({ x, y, size, name }: Props){
         cy={y}
         r={r}
         className="planetCore"
-        fill={theme === "dark" ? `url(#planetGradient-${name})` : undefined}
+        fill={theme === "dark" ? `url(#planetGradient-${name})` : "#888"}
+        stroke={theme === "dark" ? "none" : "#444"}
+        strokeWidth={theme === "dark" ? "0" : "1.5"}
       />
 
       {/* highlight */}
@@ -63,13 +73,18 @@ export default function Planet({ x, y, size, name }: Props){
         cy={y - r * 0.3}
         r={r * 0.35}
         className="planetHighlight"
-        fill={theme === "dark" ? `url(#planetHighlightGradient-${name})` : undefined}
+        fill={theme === "dark" ? `url(#planetHighlightGradient-${name})` : "#bbb"}
+        stroke={theme === "dark" ? "none" : "#999"}
+        strokeWidth={theme === "dark" ? "0" : "0.5"}
       />
 
       {/* navigation beacon */}
       <polygon
         points={`${x+6},${y-4} ${x+12},${y} ${x+6},${y+4}`}
         className="navBeacon"
+        fill={theme === "dark" ? "rgba(255,120,120,0.95)" : "#d32f2f"}
+        stroke={theme === "dark" ? "none" : "#b71c1c"}
+        strokeWidth={theme === "dark" ? "0" : "0.5"}
       />
 
       {/* label */}
@@ -78,6 +93,10 @@ export default function Planet({ x, y, size, name }: Props){
         y={y + r + 14}
         className="planetLabel"
         textAnchor="middle"
+        fill={theme === "dark" ? "rgba(180,220,255,0.7)" : "#333"}
+        fontSize="12"
+        letterSpacing="0.12em"
+        fontWeight={theme === "dark" ? "normal" : "500"}
       >
         {name}
       </text>
