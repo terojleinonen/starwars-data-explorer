@@ -8,7 +8,7 @@ import styles from "../styles/LandingPage.module.css";
 export default function LandingPage() {
 
   return (
-    <PageWrapper>
+    <PageWrapper >
       <main className={styles.page}>
         {/* =====================================================
            HERO SECTION

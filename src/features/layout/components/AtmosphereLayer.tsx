@@ -3,19 +3,20 @@
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import styles from "../styles/AtmosphereLayer.module.css";
-import type { SwapiType } from "@/lib/swapi/swapiTypes";
 
 type Props = {
-  category?: SwapiType;
+  category?: string;
 };
 
 export default function AtmosphereLayer({ category }: Props) {
   const pathname = usePathname();
-  const prev = useRef<SwapiType | undefined>(category);
+  const prev = useRef<string | undefined>(category);
 
-  const [from, setFrom] = useState<SwapiType | undefined>();
-  const [to, setTo] = useState<SwapiType | undefined>(category);
+  const [from, setFrom] = useState<string | undefined>();
+  const [to, setTo] = useState<string | undefined>(category);
   const [transitioning, setTransitioning] = useState(false);
+
+console.log("AtmosphereLayer category:", category)
 
   useEffect(() => {
     if (!prev.current || prev.current === category) return;

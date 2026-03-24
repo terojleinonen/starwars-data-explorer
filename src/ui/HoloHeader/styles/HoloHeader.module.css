@@ -6,16 +6,6 @@
   position: relative;
   display: grid;
   padding: 12px 22px 24px;
-  border-radius: 18px;
-  background: var(--surface-glass);
-  border: 1px solid var(--border-subtle);
-  -webkit-backdrop-filter: var(--blur-panel);
-  backdrop-filter: var(--blur-panel);
-  border-radius: var(--radius-panel);
-  box-shadow: var(--shadow-panel);
-  transition:
-    padding 220ms ease,
-    gap 220ms ease;
 }
 
 /* ================= CONTEXT ROW ================= */

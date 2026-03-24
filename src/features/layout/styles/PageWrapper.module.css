@@ -45,7 +45,10 @@
 ===================================================== */
 
 @media (max-width:720px){
+  .page{
+    padding-top: 88px;
+  }
   .content{
-    padding-top:76px;
+    padding-top:88px;
   }
 }

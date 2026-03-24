@@ -1,38 +1,23 @@
 "use client";
 
 import Planet from "../planets/Planet";
-import { planets } from "../../data/planets";
 
-type Props = {
-  theme?: "dark" | "light";
-  device?: "desktop" | "tablet" | "mobile";
-};
+const planets = [
+ { name:"Coruscant", x:980, y:420, size:14 },
+ { name:"Corellia", x:860, y:360, size:10 },
+ { name:"Tatooine", x:640, y:520, size:8 },
+ { name:"Yavin", x:1120, y:500, size:7 },
+ { name:"Hoth", x:760, y:220, size:7 }
+]
 
-export default function PlanetLayer({ theme = "dark", device = "desktop" }: Props) {
-
-  const scale =
-    device === "mobile"
-      ? 0.6
-      : device === "tablet"
-      ? 0.8
-      : 1;
+export default function PlanetLayer(){
 
   return (
-    <div className="planetLayer">
 
-      {planets.map((planet) => (
-
-        <Planet
-          key={planet.name}
-          name={planet.name}
-          x={planet.x}
-          y={planet.y}
-          size={planet.size * scale}
-          theme={theme}
-        />
-
+    <g className="planetLayer">
+      {planets.map(p => (
+        <Planet key={p.name} {...p} />
       ))}
-
-    </div>
-  );
+    </g>
+  )
 }

@@ -1,52 +1,69 @@
 "use client";
 
-import { useMap } from "../../context/MapContext"
-import styles from "@/features/cartography/styles/Planet.module.css";
-
 type Props = {
-  name: string
   x: number
   y: number
   size: number
-  theme?: "dark" | "light"
+  name: string
 }
 
-export default function Planet({
-  name,
-  x,
-  y,
-  size,
-  theme = "dark"
-}: Props){
+export default function Planet({ x, y, size, name }: Props){
 
-  const { setHoveredPlanet } = useMap()
+  const r = size
 
   return (
 
-    <div
-      className={styles.container}
-      style={{ left:x, top:y, width:size, height:size }}
-      onMouseEnter={() => setHoveredPlanet(name)}
-      onMouseLeave={() => setHoveredPlanet(undefined)}
-    >
-      {/* orbit rings */}
-      <svg className={styles.rings}>
-        <circle cx="50%" cy="50%" r="65%" />
-        <circle cx="50%" cy="50%" r="90%" />
-      </svg>
-      {/* planet body */}
-      <div
-        className={[
-          styles.planet,
-          theme === "dark"
-            ? styles.darkPlanet
-            : styles.lightPlanet
-        ].join(" ")}
+    <g className="planet">
+
+      {/* halo */}
+      <circle
+        cx={x}
+        cy={y}
+        r={r * 4}
+        className="planetGlow"
       />
+
+      {/* orbit ring */}
+      <circle
+        cx={x}
+        cy={y}
+        r={r * 3}
+        className="planetOrbit"
+      />
+
+      {/* planet body */}
+      <circle
+        cx={x}
+        cy={y}
+        r={r}
+        className="planetCore"
+      />
+
+      {/* highlight */}
+      <circle
+        cx={x - r * 0.3}
+        cy={y - r * 0.3}
+        r={r * 0.35}
+        className="planetHighlight"
+      />
+
+      {/* navigation beacon */}
+      <polygon
+        points={`${x+6},${y-4} ${x+12},${y} ${x+6},${y+4}`}
+        className="navBeacon"
+      />
+
       {/* label */}
-      <span className={styles.label}>
-        {name.toUpperCase()}
-      </span>
-    </div>
+      <text
+        x={x}
+        y={y + r + 14}
+        className="planetLabel"
+      >
+        {name}
+      </text>
+
+    </g>
+
   )
+
 }

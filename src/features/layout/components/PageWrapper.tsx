@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import type { SwapiType } from "@/lib/swapi/swapiTypes";
 import { Navigation } from "@/features/navigation";
 import { CartographyBackground } from "@/features/cartography";
 import { AtmosphereLayer } from "@/features/layout";
@@ -9,14 +8,12 @@ import styles from "../styles/PageWrapper.module.css";
 
 type Props = {
   children: React.ReactNode;
-  category?: SwapiType;
-  recordId?: number | string;
+  category?: string;
 };
 
 export default function PageWrapper({
   children,
   category,
-  recordId,
 }: Props) {
 
   return (
@@ -26,6 +23,7 @@ export default function PageWrapper({
       {/* Cartography background */}
       <CartographyBackground
         className={styles.background}
+        category={category}
       />
       {/* Atmosphere layer */}
       <AtmosphereLayer category={category} />

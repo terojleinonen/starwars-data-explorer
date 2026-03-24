@@ -17,34 +17,15 @@ export default function HeroSection(){
                 </div>
               </div>
               <h1 className={styles.title}>
-                Command-grade SWAPI
-                <span className={styles.titleAccent}> Cartography</span>
+                Explore the
+              </h1>
+              <h1 className={styles.title}>
+                Galactic Archive
               </h1>
               <p className={styles.subtitle}>
                 Browse planets, starships, people, and factions through a tactical
                 Rebel war-map in light mode — and a cinematic starfield in dark mode.
               </p>
-              <div className={styles.microRow}>
-                <div className={styles.microItem}>
-                  <span className={styles.microLabel}>Mode</span>
-                  <span className={styles.microValue}>
-                    Cinematic Night Ops
-                  </span>
-                </div>
-                <div className={styles.microItem}>
-                  <span className={styles.microLabel}>Latency</span>
-                  <span className={styles.microValue}>
-                    Optimized Prefetch
-                  </span>
-                </div>
-                <div className={styles.microItem}>
-                  <span className={styles.microLabel}>UI</span>
-                  <span className={styles.microValue}>
-                    Holographic Cards
-                  </span>
-                </div>
-              </div>
-              <div className={styles.panelGlow} />
             </div>
           </div>
         </section>

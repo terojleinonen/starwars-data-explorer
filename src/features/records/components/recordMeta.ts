@@ -4,7 +4,7 @@ export type RecordMeta = {
   id: string;
   title: string;
   subtitle?: string;
-  category?: SwapiType;
+  category?: string;
 };
 
 const safe = (v: unknown): string => {

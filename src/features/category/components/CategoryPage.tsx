@@ -4,13 +4,13 @@ import { PageWrapper } from "@/features/layout";
 import { CartographyBackground }from "@/features//cartography";
 import { CategoryToolbar } from "@/features/category";
 import { RecordGrid } from "@/features/records";
-import type { SwapiType, SwapiItem, SwapiListResponse} from "@/lib/swapi/swapiTypes";
+import type { SwapiItem, SwapiListResponse} from "@/lib/swapi/swapiTypes";
 import { useSwapi } from "@/hooks/data/useSwapi";
 import { useRecordQuery } from "@/hooks/data/useRecordQuery";
 import styles from "../styles/CategoryPage.module.css";
 
 type Props = {
-  category: SwapiType;
+  category: string;
   title: string;
   subtitle: string;
   records: SwapiItem[];
@@ -41,7 +41,7 @@ export default function CategoryPage({
   ===================================================== */
 
   return (
-    <PageWrapper>
+    <PageWrapper category={category}>
       <main className={styles.page}>
         {/* CARTOGRAPHY BACKGROUND */}
         <CartographyBackground />

@@ -1,11 +1,10 @@
 "use client";
 
 import { createContext, useContext, useState } from "react";
-import type { SwapiType } from "@/lib/swapi/swapiTypes";
 
 type AtmosphereState = {
-  activeHighlight?: SwapiType;
-  setHighlight: (cat?: SwapiType) => void;
+  activeHighlight?: string;
+  setHighlight: (cat?: string) => void;
 };
 
 const AtmosphereContext = createContext<AtmosphereState>({
@@ -18,7 +17,7 @@ export function AtmosphereProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const [activeHighlight, setActiveHighlight] = useState<SwapiType | undefined>();
+  const [activeHighlight, setActiveHighlight] = useState<string | undefined>();
 
   return (
     <AtmosphereContext.Provider

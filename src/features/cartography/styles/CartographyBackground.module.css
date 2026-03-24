@@ -52,225 +52,298 @@ LIGHT THEME BLUEPRINT GRID
 CARTOGRAPHY SECTOR LABELS
 ===================================================== */
 
-.sectorLabel{
-  position:absolute;
-  font-family:monospace;
-  font-size:11px;
-  letter-spacing:3px;
-  opacity:.4;
-}
-
-/* =====================================================
-HYPERSPACE ROUTES
-===================================================== */
-
-.hyperspaceRoutes{
-  position:absolute;
-  inset:0;
-  pointer-events:none;
-}
-
-.route{
-  fill:none;
-  stroke:#444;
-  stroke-width:1.2;
-  stroke-dasharray:6 8;
-  opacity:.35;
-}
-
-:global(html[data-theme="dark"]) .route{
-  stroke:#8ad6ff;
-}
-
-.cartographyGrid,
-.hyperspaceRoutes {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+.sectorLayer {
   pointer-events: none;
 }
 
-.cartographyGrid{
-  color: rgba(140,180,255,.15);
-  inset: 0;
-  z-index: 1;
+.sectorArc {
+  stroke-width: 1.5;
+  stroke-dasharray: 6 6;
 }
 
-.route{
-  fill:none;
-  stroke:#7ec8ff;
-  stroke-width:1.4;
-  stroke-dasharray:8 8;
-  opacity:.6;
+.outerRim {
+  stroke: rgba(120,180,255,0.25);
 }
 
-.hyperspaceRoutes{
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-  pointer-events:none;
+.midRim {
+  stroke: rgba(120,200,255,0.28);
 }
 
-/* soft glow */
-.routeGlow{
-  fill:none;
-  stroke:#4fc3ff;
-  stroke-width:6;
-  opacity:.08;
+.coreWorlds {
+  stroke: rgba(120,220,255,0.35);
 }
 
-/* main hyperspace lane */
-.routeCore{
-  fill:none;
-  stroke:#7ec8ff;
-  stroke-width:1.6;
-  stroke-dasharray:10 12;
-  opacity:.7;
+.sectorDivider {
+  stroke: rgba(120,200,255,0.25);
+  stroke-width: 1;
 }
 
-.routeCore{
-  stroke-dasharray:10 12;
-  animation:hyperspaceFlow 40s linear infinite;
+.sectorLabel {
+  fill: rgba(180,220,255,0.45);
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  font-family: system-ui, sans-serif;
 }
 
-@keyframes hyperspaceFlow{
-  from { stroke-dashoffset:0; }
-  to   { stroke-dashoffset:-400; }
+.galacticCenter {
+  fill: rgba(255,200,120,0.6);
+  font-size: 12px;
+  letter-spacing: 0.25em;
 }
 
-.sectorLayer{
-  position:absolute;
-  inset:0;
-  pointer-events:none;
+.galacticGrid {
+  pointer-events: none;
 }
 
-/* curved sector boundaries */
-.sectorArc{
-  fill:none;
-  stroke:#7ec8ff;
-  stroke-width:1;
-  opacity:.25;
+.gridLine {
+  stroke: rgba(140,200,255,0.08);
+  stroke-width: 1;
 }
 
-/* vertical divider */
-.sectorDivider{
-  stroke:#7ec8ff;
-  stroke-width:.6;
-  opacity:.15;
+.gridLabel {
+  fill: rgba(180,220,255,0.35);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  font-family: system-ui, sans-serif;
 }
 
-/* labels */
-.sectorLabel{
-  font-family:monospace;
-  font-size:12px;
-  letter-spacing:4px;
-  color: red;
-  opacity:.45;
+.hyperspaceRoutes {
+  pointer-events: none;
 }
 
-.sectorLabels{
-  position:absolute;
-  inset:0;
-  pointer-events:none;
+.routeGlow {
+  stroke: rgba(120, 200, 255, 0.12);
+  stroke-width: 6;
 }
 
-.sectorLabels span{
-  position:absolute;
-  font-family:monospace;
-  font-size:11px;
-  letter-spacing:2px;
-  opacity:.5;
+.routeCore {
+  stroke: rgba(150, 220, 255, 0.48);
+  stroke-width: 1.4;
+  stroke-dasharray: 10 10;
 }
 
-.galacticGrid{
-  position:absolute;
-  inset:0;
-  z-index: 2;
-  pointer-events:none;
+.routeLabel {
+  fill: rgba(180, 220, 255, 0.42);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  font-family: system-ui, sans-serif;
 }
 
-.gridLine{
-  stroke:currentColor;
-  stroke-width:.5;
-  opacity:.12;
-}
-
-.gridLabel{
-  font-family:monospace;
-  font-size:12px;
-  letter-spacing:2px;
-  fill:currentColor;
-  opacity:.35;
+.routePulse {
+  fill: rgba(190, 235, 255, 0.95);
 }
 
 .starfieldLayer{
+  pointer-events:none;
+}
+
+.starfieldTexture{
+  opacity:.35;
+  mix-blend-mode:screen;
+}
+
+.starfieldTextureFar{
+  opacity:.12;
+  transform:scale(1.4);
+}
+
+.starfieldLayer{
+  animation:starDrift 180s linear infinite;
+}
+
+@keyframes starDrift{
+  from{transform:translateX(0)}
+  to{transform:translateX(-60px)}
+}
+
+/* =====================================================
+LIGHT THEME CARTOGRAPHY BASE
+===================================================== */
+
+:global(html[data-theme="light"]) .cartographyBase {
+
+  background:
+    radial-gradient(
+      circle at 60% 40%,
+      rgba(120,120,120,0.05),
+      transparent 60%
+    ),
+    #f1efe8;
+}
+
+/* paper grain */
+.paperGrain {
   position:absolute;
   inset:0;
-  pointer-events:none;
-  opacity:.6;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(0,0,0,0.015),
+      rgba(0,0,0,0.015) 1px,
+      transparent 1px,
+      transparent 3px
+    );
 }
 
-.starfieldLayer circle{
-  animation: starTwinkle 6s ease-in-out infinite;
+:global(html[data-theme="light"]) .gridLine {
+  stroke: rgba(0,0,0,0.12);
 }
 
-@keyframes starTwinkle{
-  0%{ opacity:.3 }
-  50%{ opacity:.8 }
-  100%{ opacity:.3 }
+:global(html[data-theme="light"]) .gridLabel {
+  fill: rgba(0,0,0,0.45);
 }
 
-.targetReticle{
-  position:absolute;
-  inset:0;
-  pointer-events:none;
-  opacity:.6;
+:global(html[data-theme="light"]) .sectorArc {
+  stroke: rgba(0,0,0,0.18);
 }
 
-/* ring */
-.reticleRing{
+:global(html[data-theme="light"]) .sectorDivider {
+  stroke: rgba(0,0,0,0.25);
+}
+
+:global(html[data-theme="light"]) .sectorLabel {
+  fill: rgba(0,0,0,0.6);
+}
+
+:global(html[data-theme="light"]) .galacticCenter {
+  fill: rgba(0,0,0,0.6);
+}
+
+:global(html[data-theme="light"]) .routeGlow {
+  stroke: rgba(0,0,0,0.12);
+}
+
+:global(html[data-theme="light"]) .routeCore {
+  stroke: rgba(0,0,0,0.48);
+}
+
+:global(html[data-theme="light"])
+  .routeLabel {
+  fill: rgba(0,0,0,0.42);
+}
+
+:global(html[data-theme="light"]) .star {
+  fill: rgba(0,0,0,0.9);
+}
+
+.annotation {
+  fill: rgba(60,60,60,0.65);
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  transform: rotate(-3deg);
+}
+
+.planetOrbit{
   fill:none;
-  stroke:#7ec8ff;
-  stroke-width:1.4;
-  opacity:.4;
-}
-
-/* crosshair lines */
-.reticleLine{
-  stroke:#7ec8ff;
+  stroke:rgba(120,220,255,.25);
   stroke-width:1;
-  opacity:.5;
+  stroke-dasharray:6 6;
 }
 
-/* radar sweep */
-.reticleSweep{
-  animation: radarRotate 14s linear infinite;
-  transform-origin:0 0;
+.navBeacon{
+  fill:rgba(255,120,120,.9);
+  opacity:.85;
 }
 
-.reticleSweepCone{
-  fill:rgba(120,200,255,.12);
+.planetGlow{
+  fill:rgba(80,200,255,.25);
+  filter:blur(10px);
 }
 
-/* pulse */
-.reticlePulse{
-  fill:none;
-  stroke:#7ec8ff;
-  stroke-width:1.2;
-  opacity:.5;
-  animation: reticlePulse 4s ease-in-out infinite;
+.planetCore{
+  fill:rgba(180,230,255,.85);
 }
 
-/* animations */
-@keyframes radarRotate{
-  from{ transform: rotate(0deg); }
-  to{ transform: rotate(360deg); }
+.planetHighlight{
+  fill:rgba(255,255,255,.9);
 }
 
-@keyframes reticlePulse{
-  0%{ r:50; opacity:.2; }
-  50%{ r:70; opacity:.6; }
-  100%{ r:50; opacity:.2; }
+.planetLabel{
+  fill:rgba(180,220,255,.6);
+  font-size:12px;
+  letter-spacing:.12em;
+}
+
+:global(html[data-theme="light"]) .planetOrbit{
+  stroke:rgba(0,0,0,.35);
+}
+
+:global(html[data-theme="light"]) .navBeacon{
+  fill:#c33;
+}
+
+:global(html[data-theme="light"]) .planetCore{
+  fill:#333;
+}
+
+:global(html[data-theme="light"]) .planetGlow{
+  display:none;
+}
+
+:global(html[data-theme="light"]) .planetHighlight{
+  fill:#777;
+}
+
+:global(html[data-theme="light"]) .planetLabel{
+  fill:#444;
+}
+
+:global(html[data-theme="light"]) .planet circle{
+ fill:#333 !important;
+}
+
+.galacticDisc{
+  pointer-events:none;
+  transform:rotate(-12deg);
+  transform-origin:800px 450px;
+  mix-blend-mode:screen;
+}
+
+.galaxyHalo{
+  fill:url(#galaxyHaloGradient);
+  opacity:.25;
+}
+
+.galaxyCore{
+  fill:url(#galaxyCoreGradient);
+  opacity:.45;
+}
+
+.galaxyNoise{
+  opacity:.06;
+}
+
+.galacticStar{
+  fill:rgba(140,220,255,.6);
+}
+
+:global(html[data-theme="light"]) .galacticDisc{
+ display:none;
+}
+
+:global(html[data-theme="light"]) .galacticBand{
+  display:none;
+}
+
+.nebulaLayer{
+  pointer-events:none;
+}
+
+.nebulaCloud{
+  fill:url(#nebulaGradient);
+  opacity:.12;
+  filter:blur(60px);
+}
+
+:global(html[data-theme="light"]) .nebulaLayer{
+  display:none;
+}
+
+.nebulaLayer{
+  animation:nebulaDrift 120s linear infinite;
+}
+
+@keyframes nebulaDrift{
+  from{transform:translateX(0)}
+  to{transform:translateX(-80px)}
 }

@@ -11,7 +11,7 @@ import type { SwapiType } from "@/lib/swapi/swapiTypes";
 export type HoloHeaderSize = "md" | "lg";
 
 type Props = {
-  category?: SwapiType;
+  category?: string;
   title: string;
   subtitle?: string;
   breadcrumbs?: BreadcrumbItem[];

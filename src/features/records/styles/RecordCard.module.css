@@ -33,7 +33,7 @@
   min-height:84px;
   border-radius:14px;
   background:var(--surface-glass);
-  border:1px solid var(--border-subtle);
+  
   backdrop-filter:var(--blur-panel);
   -webkit-backdrop-filter:var(--blur-panel);
   box-shadow:var(--shadow-panel);

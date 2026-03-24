@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import type { SwapiType } from "@/lib/swapi/swapiTypes";
 import styles from "../styles/CartographyBackground.module.css";
 import { useTheme } from "@/theme/ThemeProvider";
 import CartographySvgDark from "./CartographySvgDark";
@@ -13,7 +12,7 @@ Props
 ===================================================== */
 
 type Props = {
-  category?: SwapiType
+  category?: string
   className?: string
   children?: React.ReactNode
 };

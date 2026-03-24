@@ -6,17 +6,9 @@
   position:fixed;
   top:0;
   left:0;
-
   width:100%;
-
   z-index:100;
-
-  backdrop-filter:blur(18px);
-  -webkit-backdrop-filter:blur(18px);
-
-  transition:
-    background 300ms ease,
-    border-color 300ms ease;
+  
 }
 
 /* container aligns navbar with page layout */

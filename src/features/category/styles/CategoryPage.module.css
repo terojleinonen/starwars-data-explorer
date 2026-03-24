@@ -5,7 +5,7 @@
 .page{
   position:relative;
   width:100%;
-  padding-top:110px;
+  padding-top:55px;
 }
 
 /* =====================================================
@@ -119,6 +119,9 @@
 ===================================================== */
 
 @media (max-width:720px){
+  .page{
+    padding-top: 88px;
+  }
   .recordHeader{
     grid-template-columns:
       60px

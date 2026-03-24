@@ -4,11 +4,10 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 import { NavLink }from "@/features/navigation";
 import { useAtmosphere } from "@/features/layout";
 import type { RecordMeta } from "./recordMeta";
-import type { SwapiType } from "@/lib/swapi/swapiTypes";
 import styles from "../styles/RecordCard.module.css";
 
 type Props = {
-  category: SwapiType;
+  category: string;
   meta: RecordMeta;
   index?: number;
 };

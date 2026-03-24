@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import type { SwapiType } from "@/lib/swapi/swapiTypes";
 import { CATEGORY_THEME } from "@/theme/CategoryTheme";
 
-export function useCategoryTheme(category?: SwapiType) {
+export function useCategoryTheme(category?: string) {
   useEffect(() => {
     if (!category) return;
 

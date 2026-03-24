@@ -3,10 +3,10 @@
 import styles from "../styles/RecordGrid.module.css";
 import { RecordCard } from "@/features/records";
 import { normalizeRecord } from "@/lib/swapi/swapiIndexer";
-import type { SwapiType, SwapiItem} from "@/lib/swapi/swapiTypes";
+import type { SwapiItem} from "@/lib/swapi/swapiTypes";
 
 type Props = {
-  category: SwapiType;
+  category: string;
   records: SwapiItem[];
 };
 
