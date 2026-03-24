@@ -20,22 +20,22 @@ export default function CartographyScene(){
 
         {/* galaxy glow */}
         <radialGradient id="galaxyCoreGradient">
-          <stop offset="0%" stopColor="#7dd3fc"/>
-          <stop offset="50%" stopColor="#0ea5e9"/>
-          <stop offset="100%" stopColor="transparent"/>
+          <stop offset="0%" stopColor="#7dd3fc" stopOpacity="1"/>
+          <stop offset="50%" stopColor="#0ea5e9" stopOpacity="0.8"/>
+          <stop offset="100%" stopColor="#0ea5e9" stopOpacity="0"/>
         </radialGradient>
 
         <radialGradient id="galaxyHaloGradient">
-          <stop offset="0%" stopColor="#1e40af"/>
-          <stop offset="60%" stopColor="#020617"/>
-          <stop offset="100%" stopColor="transparent"/>
+          <stop offset="0%" stopColor="#1e40af" stopOpacity="1"/>
+          <stop offset="60%" stopColor="#020617" stopOpacity="0.6"/>
+          <stop offset="100%" stopColor="#020617" stopOpacity="0"/>
         </radialGradient>
 
         {/* nebula gradient */}
         <radialGradient id="nebulaGradient">
-          <stop offset="0%" stopColor="#2ec6ff"/>
-          <stop offset="40%" stopColor="#0c4a6e"/>
-          <stop offset="100%" stopColor="transparent"/>
+          <stop offset="0%" stopColor="#2ec6ff" stopOpacity="1"/>
+          <stop offset="40%" stopColor="#0c4a6e" stopOpacity="0.8"/>
+          <stop offset="100%" stopColor="#0c4a6e" stopOpacity="0"/>
         </radialGradient>
 
         {/* noise texture */}

@@ -300,12 +300,10 @@ LIGHT THEME CARTOGRAPHY BASE
 }
 
 .galaxyHalo{
-  fill:url(#galaxyHaloGradient);
   opacity:.25;
 }
 
 .galaxyCore{
-  fill:url(#galaxyCoreGradient);
   opacity:.45;
 }
 
@@ -317,27 +315,18 @@ LIGHT THEME CARTOGRAPHY BASE
   fill:rgba(140,220,255,.6);
 }
 
-:global(html[data-theme="light"]) .galacticDisc{
- display:none;
-}
-
-:global(html[data-theme="light"]) .galacticBand{
-  display:none;
-}
+/* Removed - now handled in React components */
 
 .nebulaLayer{
   pointer-events:none;
 }
 
 .nebulaCloud{
-  fill:url(#nebulaGradient);
   opacity:.12;
   filter:blur(60px);
 }
 
-:global(html[data-theme="light"]) .nebulaLayer{
-  display:none;
-}
+/* Removed - now handled in React components */
 
 .nebulaLayer{
   animation:nebulaDrift 120s linear infinite;
