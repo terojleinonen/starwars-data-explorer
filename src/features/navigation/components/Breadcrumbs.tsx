@@ -1,102 +1,74 @@
 "use client";
 
 import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+import { getContextFor } from "@/lib/navigation/navigationContext";
 import styles from "../styles/Breadcrumbs.module.css";
 
-/* ======================================================
-   Types
-===================================================== */
-
-export type BreadcrumbItem = {
-  label: string;
-  href?: string;
+const labelMap: Record<string, string> = {
+  people: "People",
+  planets: "Planets",
+  starships: "Starships",
+  films: "Films",
+  species: "Species",
+  vehicles: "Vehicles",
 };
 
-type Props = {
-  items?: BreadcrumbItem[];
-};
+export default function Breadcrumbs() {
+  const pathname = usePathname();
 
-/* ======================================================
-   Separator glyph (1977 console style)
-===================================================== */
+  const [mounted, setMounted] = useState(false);
+  const [contextPath, setContextPath] = useState<string | null>(null);
 
-function BreadcrumbSeparatorGlyph({
-  className,
-}: {
-  className?: string;
-}) {
-  return (
-    <svg
-      viewBox="0 0 6 8"
-      width="6"
-      height="8"
-      aria-hidden="true"
-      className={className}
-    >
-      <polygon points="1,1 5,4 1,7" />
-    </svg>
-  );
-}
+  useEffect(() => {
+    setMounted(true);
 
-/* ======================================================
-   Component
-===================================================== */
+    const parts = pathname.split("/").filter(Boolean);
+    const category = parts[0];
 
-export default function Breadcrumbs({ items }: Props) {
-  if (!items || items.length === 0) return null;
+    if (category) {
+      const ctx = getContextFor(category);
+      setContextPath(ctx);
+    }
+  }, [pathname]);
+
+  if (!mounted) return null;
+
+  const parts = pathname.split("/").filter(Boolean);
+  if (parts.length === 0) return null;
+
+  const category = parts[0];
+  const id = parts[1];
 
   return (
-    <nav
-      aria-label="Breadcrumb"
-      data-breadcrumbs
-      className={styles.breadcrumbs}
-    >
-      <motion.ol
-        layout
-        initial={false}
-        transition={{
-          layout: {
-            duration: 0.35,
-            ease: [0.22, 1, 0.36, 1],
-          },
-        }}
-      >
-        <AnimatePresence mode="popLayout">
-          {items.map((item, index) => (
-            <motion.li
-              key={item.label}
-              layout
-              initial={{ opacity: 0, x: 8 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 12 }}
-              transition={{ duration: 0.2 }}
-              className={styles.item}
-            >
-              {item.href ? (
-                <Link
-                  href={item.href}
-                  className={styles.link}
-                  data-nav-label={item.label}
-                >
-                  {item.label}
-                </Link>
-              ) : (
-                <span className={styles.current}>
-                  {item.label}
-                </span>
-              )}
+    <div className={styles.wrapper}>
+      {/* BACK TO CONTEXT */}
+      {contextPath && (
+        <Link href={contextPath} className={styles.back}>
+          ← {labelMap[category] || "Back"}
+        </Link>
+      )}
 
-              {/* Separator (not after last item) */}
-              {index < items.length - 1 && (
-                <BreadcrumbSeparatorGlyph
-                  className={styles.sep}
-                />
-              )}
-            </motion.li>
-          ))}
-        </AnimatePresence>
-      </motion.ol>
-    </nav>
+      {/* BREADCRUMBS */}
+      <div className={styles.crumbs}>
+        <Link href="/" className={styles.crumb}>
+          Home
+        </Link>
+
+        <span className={styles.sep}>/</span>
+
+        <Link href={`/${category}`} className={styles.crumb}>
+          {labelMap[category] || category}
+        </Link>
+
+        {id && (
+          <>
+            <span className={styles.sep}>/</span>
+            <span className={styles.current}>{id}</span>
+          </>
+        )}
+      </div>
+    </div>
   );
 }

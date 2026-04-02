@@ -1,5 +1,4 @@
 import { BackArrowGlyph } from "@/features/navigation";
-import { tapHaptic } from "@/lib/utils/haptics";
 import styles from "../styles/SystemBackArrow.module.css";
 
 type Props = {
@@ -17,10 +16,8 @@ export default function SystemBackArrow({
       role="button"
       tabIndex={0}
       onClick={() => {
-        tapHaptic();
         onClick?.();
       }}
-      onTouchStart={tapHaptic}
     >
       <BackArrowGlyph className={styles.arrow} />
       <span className={styles.label}>{label}</span>

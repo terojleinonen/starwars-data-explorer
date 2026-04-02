@@ -1,305 +1,303 @@
-/* =====================================================
-ROOT CONTAINER
-===================================================== */
+/* ========================= */
+/* ROOT */
+/* ========================= */
 
-.root{
-  position:relative;
-  width:100%;
-  height:100%;
-  overflow:hidden;
-  border-radius:24px;
+.root {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+
+  --px: 0px;
+  --py: 0px;
 }
 
-/* =====================================================
-SVG LAYER (map graphics)
-===================================================== */
+/* ========================= */
+/* BASE LAYERS */
+/* ========================= */
 
-.svgLayer{
-  position:absolute;
-  inset:0;
-  z-index:0;
-  pointer-events:none;
-}
-
-.svg{
-  width:100%;
-  height:100%;
-  display:block;
-}
-
-
-/* =====================================================
-OVERLAY (UI CONTENT)
-===================================================== */
-
-.overlay{
-  position:relative;
-  z-index:5;
-}
-/* =====================================================
-LIGHT THEME BLUEPRINT GRID
-===================================================== */
-
-.blueprintGrid{
-  position:absolute;
-  inset:0;
-  pointer-events:none;
-  opacity:.35;
-}
-
-
-/* =====================================================
-CARTOGRAPHY SECTOR LABELS
-===================================================== */
-
-.sectorLayer {
+.imageLayer,
+.svgLayer,
+.gridLayer,
+.starsLayer,
+.glowLayer {
+  position: absolute;
+  inset: 0;
   pointer-events: none;
 }
 
-.sectorArc {
-  stroke-width: 1.5;
-  stroke-dasharray: 6 6;
+/* ========================= */
+/* ========================= */
+/* 🌑 DARK THEME */
+/* ========================= */
+/* ========================= */
+
+.dark {
+  background:
+    radial-gradient(circle at 50% 40%, #0b1220, #03060d 70%);
 }
 
-.outerRim {
-  stroke: rgba(120,180,255,0.25);
+/* NEBULA */
+
+.dark .imageLayer {
+  background-image: radial-gradient(circle at 20% 30%, rgba(120, 190, 255, 0.2), transparent 55%);
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0.22;
+
+  transform: translate(
+    calc(var(--px) * 0.2),
+    calc(var(--py) * 0.2)
+  );
 }
 
-.midRim {
-  stroke: rgba(120,200,255,0.28);
+/* LARGE PLANET (DEPTH) */
+
+.dark::before {
+  content: "";
+  position: absolute;
+
+  width: 700px;
+  height: 700px;
+
+  bottom: -220px;
+  left: -160px;
+
+  background: url("") no-repeat center/contain;
+
+  opacity: 0.22;
+  filter: blur(2px);
+
+  transform: translate(
+    calc(var(--px) * 0.2),
+    calc(var(--py) * 0.2)
+  );
 }
 
-.coreWorlds {
-  stroke: rgba(120,220,255,0.35);
+/* SMALL PLANET */
+
+.dark::after {
+  content: "";
+  position: absolute;
+
+  width: 180px;
+  height: 180px;
+
+  top: 80px;
+  right: 120px;
+
+  background: url("") no-repeat center/contain;
+
+  opacity: 0.35;
+
+  transform: translate(
+    calc(var(--px) * 0.5),
+    calc(var(--py) * 0.5)
+  );
 }
 
-.sectorDivider {
-  stroke: rgba(120,200,255,0.25);
-  stroke-width: 1;
+/* STARS */
+
+.starsLayer {
+  background-image:
+    radial-gradient(2px 2px at 20% 30%, white, transparent),
+    radial-gradient(1px 1px at 70% 60%, white, transparent),
+    radial-gradient(1px 1px at 40% 80%, white, transparent);
+
+  opacity: 0.25;
+
+  animation: drift 80s linear infinite;
+
+  transform: translate(
+    calc(var(--px) * 0.8),
+    calc(var(--py) * 0.8)
+  );
 }
 
-.sectorLabel {
-  fill: rgba(180,220,255,0.45);
-  font-size: 13px;
-  letter-spacing: 0.18em;
-  font-family: system-ui, sans-serif;
+@keyframes drift {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-200px);
+  }
 }
 
-.galacticCenter {
-  fill: rgba(255,200,120,0.6);
-  font-size: 12px;
-  letter-spacing: 0.25em;
+/* GRID */
+
+.gridLayer {
+  background-image:
+    linear-gradient(rgba(120, 170, 220, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120, 170, 220, 0.08) 1px, transparent 1px);
+
+  background-size: 80px 80px;
+
+  opacity: 0.15;
+
+  transform: translate(
+    calc(var(--px) * 0.6),
+    calc(var(--py) * 0.6)
+  );
+
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.4),
+    transparent 80%
+  );
 }
 
-.galacticGrid {
-  pointer-events: none;
-}
+/* GLOW */
 
-.gridLine {
-  stroke: rgba(140,200,255,0.08);
-  stroke-width: 1;
-}
-
-.gridLabel {
-  fill: rgba(180,220,255,0.35);
-  font-size: 12px;
-  letter-spacing: 0.18em;
-  font-family: system-ui, sans-serif;
-}
-
-.hyperspaceRoutes {
-  pointer-events: none;
-}
-
-.routeGlow {
-  stroke: rgba(120, 200, 255, 0.12);
-  stroke-width: 6;
-}
-
-.routeCore {
-  stroke: rgba(150, 220, 255, 0.48);
-  stroke-width: 1.4;
-  stroke-dasharray: 10 10;
-}
-
-.routeLabel {
-  fill: rgba(180, 220, 255, 0.42);
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  font-family: system-ui, sans-serif;
-}
-
-.routePulse {
-  fill: rgba(190, 235, 255, 0.95);
-}
-
-.starfieldLayer{
-  pointer-events:none;
-}
-
-.starfieldTexture{
-  opacity:.35;
-  mix-blend-mode:screen;
-}
-
-.starfieldTextureFar{
-  opacity:.12;
-  transform:scale(1.4);
-}
-
-.starfieldLayer{
-  animation:starDrift 180s linear infinite;
-}
-
-@keyframes starDrift{
-  from{transform:translateX(0)}
-  to{transform:translateX(-60px)}
-}
-
-/* =====================================================
-LIGHT THEME CARTOGRAPHY BASE
-===================================================== */
-
-:global(html[data-theme="light"]) .cartographyBase {
-
+.glowLayer {
   background:
     radial-gradient(
-      circle at 60% 40%,
-      rgba(120,120,120,0.05),
-      transparent 60%
+      circle at 20% 30%,
+      rgba(120, 190, 255, 0.15),
+      transparent 30%
     ),
-    #f1efe8;
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(255, 214, 84, 0.08),
+      transparent 30%
+    );
+
+  filter: blur(40px);
+
+  transform: translate(
+    calc(var(--px) * 1),
+    calc(var(--py) * 1)
+  );
 }
 
-/* paper grain */
-.paperGrain {
-  position:absolute;
-  inset:0;
+/* VIGNETTE */
+
+.root::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: radial-gradient(
+    circle,
+    transparent 55%,
+    rgba(0, 0, 0, 0.6)
+  );
+
+  pointer-events: none;
+}
+
+/* ========================= */
+/* ========================= */
+/* 🌕 LIGHT THEME */
+/* ========================= */
+/* ========================= */
+
+.light {
+  background:
+    linear-gradient(#f3f5f7, #e6eaee);
+}
+
+/* MAP TEXTURE */
+
+.light .imageLayer {
+  background-image: radial-gradient(circle at 25% 20%, rgba(50, 70, 90, 0.25), transparent 55%),
+                    radial-gradient(circle at 60% 70%, rgba(180, 210, 240, 0.18), transparent 55%);
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0.35;
+
+  transform: translate(
+    calc(var(--px) * 0.2),
+    calc(var(--py) * 0.2)
+  );
+}
+
+/* GRID (TACTICAL) */
+
+.light .gridLayer {
+  background-size: 60px 60px;
+  opacity: 0.25;
+}
+
+/* subtle map contrast / light-war overlay */
+.light .glowLayer {
+  background:
+    radial-gradient(circle at 40% 40%, rgba(220, 120, 80, 0.06), transparent 40%),
+    radial-gradient(circle at 65% 25%, rgba(90, 160, 220, 0.06), transparent 45%);
+  filter: blur(28px);
+  opacity: 0.6;
+}
+
+.dark .glowLayer {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(180, 220, 255, 0.12), transparent 35%),
+    radial-gradient(circle at 80% 70%, rgba(205, 175, 255, 0.08), transparent 40%);
+  filter: blur(44px);
+  opacity: 0.5;
+}
+
+/* RADAR CIRCLE */
+
+.light::before {
+  content: "";
+  position: absolute;
+
+  width: 400px;
+  height: 400px;
+
+  top: 60px;
+  left: 80px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+/* CONNECTION LINES */
+
+.light::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image:
+    linear-gradient(
+      120deg,
+      transparent 40%,
+      rgba(0, 0, 0, 0.05),
+      transparent 60%
+    );
+
+  opacity: 0.4;
+}
+
+/* SCANLINES */
+
+.light .glowLayer {
   background:
     repeating-linear-gradient(
-      0deg,
-      rgba(0,0,0,0.015),
-      rgba(0,0,0,0.015) 1px,
-      transparent 1px,
-      transparent 3px
+      to bottom,
+      rgba(0, 0, 0, 0.02),
+      rgba(0, 0, 0, 0.02) 1px,
+      transparent 2px
     );
 }
 
-:global(html[data-theme="light"]) .gridLine {
-  stroke: rgba(0,0,0,0.12);
-}
+/* ========================= */
+/* RESPONSIVE */
+/* ========================= */
 
-:global(html[data-theme="light"]) .gridLabel {
-  fill: rgba(0,0,0,0.45);
-}
+@media (max-width: 768px) {
+  .dark::before {
+    width: 500px;
+    height: 500px;
+    bottom: -160px;
+    left: -120px;
+  }
 
-:global(html[data-theme="light"]) .sectorArc {
-  stroke: rgba(0,0,0,0.18);
-}
-
-:global(html[data-theme="light"]) .sectorDivider {
-  stroke: rgba(0,0,0,0.25);
-}
-
-:global(html[data-theme="light"]) .sectorLabel {
-  fill: rgba(0,0,0,0.6);
-}
-
-:global(html[data-theme="light"]) .galacticCenter {
-  fill: rgba(0,0,0,0.6);
-}
-
-:global(html[data-theme="light"]) .routeGlow {
-  stroke: rgba(0,0,0,0.12);
-}
-
-:global(html[data-theme="light"]) .routeCore {
-  stroke: rgba(0,0,0,0.48);
-}
-
-:global(html[data-theme="light"])
-  .routeLabel {
-  fill: rgba(0,0,0,0.42);
-}
-
-:global(html[data-theme="light"]) .star {
-  fill: rgba(0,0,0,0.9);
-}
-
-.annotation {
-  fill: rgba(60,60,60,0.65);
-  font-family: "Courier New", monospace;
-  font-size: 14px;
-  transform: rotate(-3deg);
-}
-
-/* Planet styles - simplified since most styling is now inline */
-.planetOrbit{
-  pointer-events: none;
-}
-
-.planetGlow{
-  pointer-events: none;
-}
-
-.planetCore{
-  pointer-events: none;
-}
-
-.planetHighlight{
-  pointer-events: none;
-}
-
-.planetLabel{
-  pointer-events: none;
-  user-select: none;
-}
-
-.navBeacon{
-  pointer-events: none;
-}
-
-.galacticDisc{
-  pointer-events:none;
-  transform:rotate(-12deg);
-  transform-origin:800px 450px;
-  mix-blend-mode:screen;
-}
-
-.galaxyHalo{
-  opacity:.25;
-}
-
-.galaxyCore{
-  opacity:.45;
-}
-
-.galaxyNoise{
-  opacity:.06;
-}
-
-.galacticStar{
-  fill:rgba(140,220,255,.6);
-}
-
-/* Removed - now handled in React components */
-
-.nebulaLayer{
-  pointer-events:none;
-}
-
-.nebulaCloud{
-  opacity:.12;
-  filter:blur(60px);
-}
-
-/* Removed - now handled in React components */
-
-.nebulaLayer{
-  animation:nebulaDrift 120s linear infinite;
-}
-
-@keyframes nebulaDrift{
-  from{transform:translateX(0)}
-  to{transform:translateX(-80px)}
+  .dark::after {
+    width: 120px;
+    height: 120px;
+    right: 60px;
+  }
 }

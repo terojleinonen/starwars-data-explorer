@@ -1,0 +1,127 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 180px;
+  padding: 18px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text-primary, white);
+
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.08));
+
+  background:
+    linear-gradient(180deg, rgba(18, 28, 48, 0.9), rgba(8, 12, 22, 0.95));
+  background: var(--surface-glass, linear-gradient(180deg, rgba(18, 28, 48, 0.9), rgba(8, 12, 22, 0.95)));
+
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* GLOW */
+
+.glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, rgba(120, 190, 255, 0.25), transparent);
+  opacity: 0.4;
+  filter: blur(20px);
+}
+
+/* SWEEP */
+
+.sweep {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.15),
+    transparent 60%
+  );
+  transform: translateX(-120%);
+  transition: transform 0.7s ease;
+}
+
+.card:hover .sweep {
+  transform: translateX(120%);
+}
+
+/* GRID */
+
+.grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.15;
+
+  background-image:
+    linear-gradient(rgba(150, 200, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(150, 200, 255, 0.1) 1px, transparent 1px);
+
+  background-size: 36px 36px;
+}
+
+/* CONTENT */
+
+.inner {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+}
+
+.inner h3 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--text-primary, #f7fbff);
+}
+
+.inner p {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.7));
+}
+
+.footer {
+  color: var(--text-secondary, rgba(255, 255, 255, 0.7));
+}
+
+/* FOOTER */
+
+.footer {
+  position: relative;
+  z-index: 2;
+  margin-top: 12px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.card[data-category="films"] {
+  border-color: rgba(255, 200, 80, 0.3);
+}
+
+.card[data-category="planets"] {
+  border-color: rgba(120, 255, 160, 0.25);
+}
+
+.card[data-category="people"] {
+  border-color: rgba(255, 120, 120, 0.25);
+}
+
+.card[data-category="species"] {
+  border-color: rgba(120, 190, 255, 0.25);
+}
+
+.card[data-category="starships"] {
+  border-color: rgba(255, 120, 255, 0.25);
+}
+
+.card[data-category="vehicles"] {
+  border-color: rgba(120, 255, 255, 0.25);
+}

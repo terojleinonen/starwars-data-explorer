@@ -1,45 +1,51 @@
-.breadcrumbs {
+.wrapper {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
 
-  font-size: 0.75rem;
+/* BACK BUTTON */
+
+.back {
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.item {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.65rem;
-}
-
-.link {
-  color: inherit;
+  color: rgba(200, 220, 240, 0.7);
   text-decoration: none;
-  transition: color 160ms ease;
+  transition: all 0.25s ease;
 }
 
-.link:hover {
-  color: var(--text-primary);
+.back:hover {
+  color: #ffd95e;
+}
+
+/* CRUMBS */
+
+.crumbs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.crumb {
+  color: rgba(200, 220, 240, 0.7);
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+}
+
+.crumb:hover {
+  color: #ffffff;
+}
+
+.sep {
+  color: rgba(150, 170, 190, 0.4);
 }
 
 .current {
-  color: var(--text-primary);
-}
-
-/* ───────────────────────────
-   Separator glyph
-─────────────────────────── */
-
-.sep {
-  fill: currentColor;
-  opacity: 0.45;
-  transform: translateY(0.5px);
-}
-
-/* Light theme tuning */
-:global(html[data-theme="light"]) .sep {
-  opacity: 0.35;
+  color: #ffd95e;
+  font-size: 13px;
+  letter-spacing: 0.1em;
 }

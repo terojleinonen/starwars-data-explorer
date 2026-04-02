@@ -1,0 +1,103 @@
+.wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+
+  border-radius: 999px;
+  padding: 4px;
+
+  background: rgba(10, 20, 40, 0.6);
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  overflow: hidden;
+}
+
+/* ========================= */
+/* BUTTONS */
+/* ========================= */
+
+.wrapper button {
+  position: relative;
+  z-index: 2;
+
+  border: none;
+  background: transparent;
+  color: white;
+
+  font-size: 11px;
+  letter-spacing: 0.12em;
+
+  padding: 6px 16px;
+  cursor: pointer;
+
+  opacity: 0.6;
+
+  transition: opacity 0.2s ease;
+}
+
+.wrapper button:hover {
+  opacity: 1;
+}
+
+/* ========================= */
+/* ACTIVE TEXT */
+/* ========================= */
+
+.wrapper[data-theme="dark"] button:first-child,
+.wrapper[data-theme="light"] button:last-child {
+  opacity: 1;
+}
+
+/* ========================= */
+/* INDICATOR (HOLO CORE) */
+/* ========================= */
+
+.indicator {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  width: calc(50% - 4px);
+
+  border-radius: 999px;
+
+  background: linear-gradient(
+    120deg,
+    rgba(120, 190, 255, 0.25),
+    rgba(120, 190, 255, 0.1)
+  );
+
+  box-shadow:
+    0 0 12px rgba(120, 190, 255, 0.3),
+    inset 0 0 6px rgba(255, 255, 255, 0.15);
+
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ========================= */
+/* POSITIONING */
+/* ========================= */
+
+.wrapper[data-theme="dark"] .indicator {
+  transform: translateX(0%);
+}
+
+.wrapper[data-theme="light"] .indicator {
+  transform: translateX(100%);
+}
+
+/* ========================= */
+/* MOBILE OPTIMIZATION */
+/* ========================= */
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 3px;
+  }
+
+  .wrapper button {
+    padding: 6px 12px;
+    font-size: 10px;
+  }
+}

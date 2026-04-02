@@ -1,8 +1,7 @@
 "use client";
 
 import { motion, useMotionValue, useTransform } from "framer-motion";
-import { NavLink }from "@/features/navigation";
-import { useAtmosphere } from "@/features/layout";
+import Link from "next/link";
 import type { RecordMeta } from "./recordMeta";
 import styles from "../styles/RecordCard.module.css";
 
@@ -18,7 +17,6 @@ export default function RecordCard({
   index = 0,
 }: Props) {
 
-  const { setHighlight } = useAtmosphere();
 
   const x = useMotionValue(0);
   const y = useMotionValue(0);
@@ -48,9 +46,7 @@ export default function RecordCard({
       layoutId={`card-${category}-${meta.id}`}
       className={styles.wrapper}
       onMouseMove={handleMouseMove}
-      onMouseEnter={() => setHighlight(category)}
       onMouseLeave={() => {
-        setHighlight(undefined);
         reset();
       }}
       initial={{
@@ -76,9 +72,8 @@ export default function RecordCard({
       data-category={category}
     >
 
-      <NavLink
+      <Link
         href={`/${category}/${meta.id}`}
-        label={meta.title}
         className={styles.card}
       >
 
@@ -117,7 +112,7 @@ export default function RecordCard({
 
           </div>
           </div>
-      </NavLink>
+      </Link>
     </motion.div>
   );
 }

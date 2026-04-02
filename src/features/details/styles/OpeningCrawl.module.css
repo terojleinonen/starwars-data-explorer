@@ -2,105 +2,21 @@
    Opening Crawl – Cinematic Narrative Panel
 ================================================= */
 
+.root {
+  padding: 20px;
+  border-radius: 16px;
 
-/* -------------------------------------------------
-   Toggle button
-------------------------------------------------- */
+  background: linear-gradient(
+    180deg,
+    rgba(20, 30, 50, 0.9),
+    rgba(10, 15, 25, 0.95)
+  );
 
-.toggle {
-  all: unset;
-  cursor: pointer;
+  border: 1px solid rgba(255, 200, 80, 0.2);
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  color: #ffd36a;
+  font-family: serif;
+  line-height: 1.6;
 
-  width: 100%;
-  padding: 0.9rem 1.2rem;
-
-  border-radius: 10px;
-}
-
-.toggle:focus-visible {
-  outline: 2px solid var(--crawl-duration);
-  outline-offset: 2px;
-}
-
-.label {
-  font-size: 0.75rem;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--crawl-duration);
-}
-
-.icon {
-  font-size: 1.1rem;
-  color: var(--crawl-duration)
-}
-
-/* -------------------------------------------------
-   Crawl viewport
-------------------------------------------------- */
-
-.viewport {
-  position: relative;
-  overflow: hidden;
-  height: 260px;
-  margin-top: 1rem;
-  border-radius: 12px;
-}
-
-/* -------------------------------------------------
-   Crawl animation
-------------------------------------------------- */
-
-.crawlInner {
-  position: absolute;
-  width: 100%;
-  bottom: -100%;
-  padding: 2rem 2.5rem;
-
-  animation: crawlUp
-    var(--crawl-duration, 38s)
-    linear
-    forwards;
-}
-
-.text {
-  font-size: 0.95rem;
-  line-height: 1.7;
-  text-align: center;
-  color: var(--crawl-duration);
-  white-space: pre-line;
-}
-
-/* -------------------------------------------------
-   Keyframes
-------------------------------------------------- */
-
-@keyframes crawlUp {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-160%);
-  }
-}
-
-/* -------------------------------------------------
-   Accessibility: reduced motion
-------------------------------------------------- */
-
-@media (prefers-reduced-motion: reduce) {
-  .crawlInner {
-    animation: none;
-    position: static;
-    transform: none;
-  }
-
-  .viewport {
-    height: auto;
-    overflow: visible;
-  }
-
+  margin-bottom: 24px;
 }

@@ -1,4 +1,4 @@
-import { DetailsPage } from "@/features/details";
+import DetailsPage from "@/features/details/components/DetailsPage";
 import { getRecord } from "@/lib/swapi/swapiService";
 import type { SwapiType } from "@/lib/swapi/swapiTypes";
 
@@ -10,15 +10,15 @@ type Props = {
 };
 
 export default async function Page({ params }: Props) {
-
   const { category, id } = await params;
 
-  const record = await getRecord(category, id);
+  const data = await getRecord(category, id);
 
   return (
     <DetailsPage
       category={category}
-      data={record}
+      id={id}
+      data={data}
     />
   );
 }

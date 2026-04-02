@@ -1,5 +1,12 @@
-import { CategoryPage } from "@/features/category";
-import { getCategory } from "@/lib/swapi/swapiService";
+import {
+  PeoplePage,
+  PlanetsPage,
+  StarshipsPage,
+  FilmsPage,
+  SpeciesPage,
+  VehiclesPage,
+} from "@/features/common/PageLayouts/pages";
+
 import type { SwapiType } from "@/lib/swapi/swapiTypes";
 
 type Props = {
@@ -9,17 +16,28 @@ type Props = {
 };
 
 export default async function Page({ params }: Props) {
-
   const { category } = await params;
 
-  const records = await getCategory(category);
+  switch (category) {
+    case "people":
+      return <PeoplePage />;
 
-  return (
-    <CategoryPage
-      category={category}
-      title={category}
-      subtitle="Galactic archive records"
-      records={records}
-    />
-  );
+    case "planets":
+      return <PlanetsPage />;
+
+    case "starships":
+      return <StarshipsPage />;
+
+    case "films":
+      return <FilmsPage />;
+
+    case "species":
+      return <SpeciesPage />;
+
+    case "vehicles":
+      return <VehiclesPage />;
+
+    default:
+      return <div>Unknown category</div>;
+  }
 }

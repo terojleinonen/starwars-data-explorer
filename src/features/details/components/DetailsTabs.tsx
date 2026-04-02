@@ -1,27 +1,26 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import styles from "../styles/DetailsTabs.module.css";
 
-type TabId = "overview" | "related";
+type Tab = "overview" | "relations" | "meta";
 
 type Props = {
-  relatedReady: boolean;
   overview: React.ReactNode;
-  related: React.ReactNode;
+  relations: React.ReactNode;
+  meta: React.ReactNode;
 };
 
 export default function DetailsTabs({
-  relatedReady,
   overview,
-  related,
+  relations,
+  meta,
 }: Props) {
-  const [active, setActive] = useState<TabId>("overview");
+  const [active, setActive] = useState<Tab>("overview");
 
   return (
-    <>
-      {/* Tabs header (desktop / tablet only) */}
+    <div className={styles.wrapper}>
+      {/* TAB BAR */}
       <div className={styles.tabs}>
         <button
           className={`${styles.tab} ${
@@ -34,45 +33,29 @@ export default function DetailsTabs({
 
         <button
           className={`${styles.tab} ${
-            active === "related" ? styles.active : ""
+            active === "relations" ? styles.active : ""
           }`}
-          onClick={() => setActive("related")}
+          onClick={() => setActive("relations")}
         >
-          Related
-          {!relatedReady && (
-            <span className={styles.dot} />
-          )}
+          Relations
+        </button>
+
+        <button
+          className={`${styles.tab} ${
+            active === "meta" ? styles.active : ""
+          }`}
+          onClick={() => setActive("meta")}
+        >
+          Meta
         </button>
       </div>
 
-      {/* Tab content */}
-      <div className={styles.panel}>
-        <AnimatePresence mode="wait">
-          {active === "overview" && (
-            <motion.div
-              key="overview"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.22 }}
-            >
-              {overview}
-            </motion.div>
-          )}
-
-          {active === "related" && (
-            <motion.div
-              key="related"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.22 }}
-            >
-              {related}
-            </motion.div>
-          )}
-        </AnimatePresence>
+      {/* CONTENT */}
+      <div className={styles.content}>
+        {active === "overview" && overview}
+        {active === "relations" && relations}
+        {active === "meta" && meta}
       </div>
-    </>
+    </div>
   );
 }

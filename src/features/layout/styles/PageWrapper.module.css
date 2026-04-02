@@ -29,7 +29,7 @@
   z-index:10;
   width:100%;
   min-height:100vh;
-  padding-top:88px; /* space for navigation */
+  padding-top:66px; /* space for navigation */
 }
 
 /* =====================================================
@@ -46,9 +46,9 @@
 
 @media (max-width:720px){
   .page{
-    padding-top: 88px;
+    padding-top: 66px;
   }
   .content{
-    padding-top:88px;
+    padding-top:66px;
   }
 }

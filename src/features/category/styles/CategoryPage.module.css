@@ -1,131 +1,90 @@
-/* =====================================================
-   PAGE ROOT
-===================================================== */
-
-.page{
-  position:relative;
-  width:100%;
-  padding-top:55px;
+.page {
+  padding-top: 90px;
 }
 
-/* =====================================================
-   CATEGORY BANNER WRAPPER
-===================================================== */
+/* HEADER */
 
-.bannerWrapper{
-  max-width:960px;
-  margin:0 auto 24px;
-  padding:0 16px;
+.header {
+  margin-bottom: 20px;
 }
 
-/* =====================================================
-   CATEGORY BANNER PANEL
-===================================================== */
-
-.categoryBanner{
-  position:relative;
-  padding:20px 22px;
-  border-radius:18px;
-  background: var(--surface-glass);
-  border:1px solid var(--border-subtle);
-  -webkit-backdrop-filter:blur(8px);
-  backdrop-filter:blur(8px);
-  box-shadow: var(--shadow-panel);    
+.header h1 {
+  font-size: 42px;
+  color: var(--text-primary, #f7fbff);
 }
 
-/* =====================================================
-   CATEGORY BADGE
-===================================================== */
-
-.categoryBadge{
-  display:inline-block;
-  font-size:10px;
-  letter-spacing:.22em;
-  text-transform:uppercase;
-  padding:6px 10px;
-  border-radius:999px;
-  border:1px solid rgba(255,255,255,.14);
-  background:rgba(0,0,0,.15);
-  margin-bottom:6px;
+.header p {
+  color: var(--text-secondary, rgba(200, 220, 240, 0.7));
 }
 
-/* =====================================================
-   CATEGORY TITLE
-===================================================== */
+/* TOOLBAR */
 
-.categoryTitle{
-  font-size:clamp(34px,4vw,46px);
-  font-weight:700;
-  letter-spacing:.04em;
-  margin:4px 0;
-  color:#ffd54a;
-  text-shadow:
-    0 0 18px rgba(255,210,90,.35);
+.toolbar {
+  margin-bottom: 20px;
 }
 
-/* =====================================================
-   CATEGORY SUBTITLE
-===================================================== */
-
-.categorySubtitle{
-  font-size:12px;
-  letter-spacing:.18em;
-  text-transform:uppercase;
-  opacity:.75;
+.search {
+  width: 100%;
+  max-width: 320px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle, rgba(140, 190, 255, 0.2));
+  background: var(--surface-glass, rgba(10, 18, 30, 0.6));
+  color: var(--text-primary, white);
 }
 
-/* =====================================================
-   TOOLBAR WRAPPER
-===================================================== */
+/* GRID */
 
-.toolbarWrapper{
-  max-width:960px;
-  margin:0 auto 18px;
-  padding:0 16px;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
 }
 
-/* =====================================================
-   RECORD CONSOLE
-===================================================== */
+/* CARD */
 
-.recordConsole{
-  max-width:960px;
-  margin:0 auto;
-  padding:0 16px;
+.card {
+  position: relative;
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.08));
+  text-decoration: none;
+  color: var(--text-primary, white);
+  background: var(--surface-glass, rgba(10, 16, 28, 0.8));
+  transition: all 0.3s ease;
 }
 
-/* =====================================================
-   RECORD HEADER
-===================================================== */
-
-.recordHeader{
-  display:grid;
-  grid-template-columns:
-    80px
-    1fr
-    120px;
-  align-items:center;
-  padding:10px 18px;
-  font-size:11px;
-  letter-spacing:.18em;
-  text-transform:uppercase;
-  opacity:.65;
-  border-bottom:1px solid rgba(255,255,255,.08);
-  margin-bottom:6px;
+.card:hover {
+  transform: translateY(-4px);
 }
 
-/* =====================================================
-   MOBILE
-===================================================== */
+.cardGlow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, rgba(120, 190, 255, 0.2), transparent);
+  opacity: 0;
+  transition: 0.3s;
+}
 
-@media (max-width:720px){
-  .page{
-    padding-top: 88px;
-  }
-  .recordHeader{
-    grid-template-columns:
-      60px
-      1fr
-      80px;
-  }
+.card:hover .cardGlow {
+  opacity: 1;
+}
+
+.cardInner h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.cardInner span {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* LOADING */
+
+.loading {
+  padding: 40px;
+  text-align: center;
+  opacity: 0.7;
+  color: var(--text-secondary, rgba(255, 255, 255, 0.7));
 }

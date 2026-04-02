@@ -1,99 +1,86 @@
 "use client";
 
 import { useState } from "react";
-import { NavLink, ThemeToggle } from "@/features/navigation";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import ThemeToggle from "./ThemeToggle";
 import styles from "../styles/Navigation.module.css";
 
+const NAV_ITEMS = [
+  { label: "People", href: "/people" },
+  { label: "Planets", href: "/planets" },
+  { label: "Starships", href: "/starships" },
+  { label: "Films", href: "/films" },
+  { label: "Species", href: "/species" },
+  { label: "Vehicles", href: "/vehicles" },
+];
+
 export default function Navigation() {
-  const [isMenuOpen, setMenuOpen] = useState(false);
+  const [open, setOpen] = useState(false);
+  const router = useRouter();
 
-  function toggleMenu() {
-    setMenuOpen((prev) => !prev);
-  }
-
-  function closeMenu() {
-    setMenuOpen(false);
-  }
+  const handleNavigate = (href: string) => {
+    setOpen(false);
+    router.push(href);
+  };
 
   return (
-    <nav
-      className={styles.nav}
-      data-open={isMenuOpen}
-      aria-label="Main navigation"
-    >
-      <div className={styles.navContainer}>
-        <div className={styles.navTop}>
+    <nav className={styles.nav}>
+      <div className={styles.inner}>
+        {/* LOGO */}
+        <Link
+          href="/"
+          className={styles.logo}
+          onMouseEnter={() => router.prefetch("/")}
+        >
+          GALACTIC ARCHIVE
+        </Link>
 
-          {/* Brand */}
-          <NavLink
-            href="/"
-            label="Home"
-            className={styles.brand}
-            onClick={closeMenu}
-          >
-            <div className={styles.logo}>
-              GALACTIC ARCHIVE
-            </div>
-            <div className={styles.tagline}>
-              Star Wars Data Interface · SWAPI
-            </div>
-          </NavLink>
-
-          {/* Navigation links */}
-          <div
-            className={`${styles.navLinks} ${
-              isMenuOpen ? styles.navLinksOpen : ""
-            }`}
-          >
-            <NavLink href="/people" label="People" onClick={closeMenu}>
-              People
-            </NavLink>
-
-            <NavLink href="/planets" label="Planets" onClick={closeMenu}>
-              Planets
-            </NavLink>
-
-            <NavLink href="/films" label="Films" onClick={closeMenu}>
-              Films
-            </NavLink>
-
-            <NavLink href="/starships" label="Starships" onClick={closeMenu}>
-              Starships
-            </NavLink>
-
-            <NavLink href="/vehicles" label="Vehicles" onClick={closeMenu}>
-              Vehicles
-            </NavLink>
-
-            <NavLink href="/species" label="Species" onClick={closeMenu}>
-              Species
-            </NavLink>
-
-            <div className={styles.themeToggleMobile}>
-              <ThemeToggle />
-            </div>
-          </div>
-
-          {/* Right side controls */}
-          <div className={styles.navTopActions}>
-            <div className={styles.themeToggleDesktop}>
-              <ThemeToggle />
-            </div>
-
-            <button
-              className={styles.burger}
-              onClick={toggleMenu}
-              aria-label="Toggle menu"
-              aria-expanded={isMenuOpen}
+        {/* DESKTOP NAV */}
+        <div className={styles.links}>
+          {NAV_ITEMS.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={styles.link}
+              onMouseEnter={() => router.prefetch(item.href)}
             >
-              <span />
-              <span />
-              <span />
-            </button>
-          </div>
+              {item.label}
+            </Link>
+          ))}
+        </div>
 
+        {/* RIGHT SIDE */}
+        <div className={styles.right}>
+          <ThemeToggle />
+
+          {/* MOBILE MENU BUTTON */}
+          <button
+            className={styles.menuButton}
+            onClick={() => setOpen((prev) => !prev)}
+            aria-label="Toggle menu"
+          >
+            <span />
+            <span />
+            <span />
+          </button>
         </div>
       </div>
+
+      {/* MOBILE MENU */}
+      {open && (
+        <div className={styles.mobileMenu}>
+          {NAV_ITEMS.map((item) => (
+            <button
+              key={item.href}
+              className={styles.mobileLink}
+              onClick={() => handleNavigate(item.href)}
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+      )}
     </nav>
   );
 }

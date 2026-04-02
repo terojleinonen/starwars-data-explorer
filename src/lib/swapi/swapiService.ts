@@ -53,28 +53,20 @@ export async function prefetchCategory(category: string) {
 }
 
 export async function getRecord(category: string, id: string) {
+  try {
+    const res = await fetch(
+      `${BASE_URL}/${category}/${id}/`,
+      { cache: "no-store" }
+    );
 
-  const key = `${category}-${id}`;
+    if (!res.ok) throw new Error("py4e failed");
 
-  if (cache.has(key)) {
-    return cache.get(key);
+    return res.json();
+  } catch {
+    const res = await fetch(
+      `${BASE_URL}/${category}/${id}/`
+    );
+
+    return res.json();
   }
-
-  const res = await fetch(`${BASE_URL}/${category}/${id}/`, {
-    next: { revalidate: 86400 },
-  });
-
-  if (!res.ok) {
-
-    console.error("SWAPI record fetch failed:", res.status);
-
-    return null;
-
-  }
-
-  const record = await res.json();
-
-  cache.set(key, record);
-
-  return record;
 }

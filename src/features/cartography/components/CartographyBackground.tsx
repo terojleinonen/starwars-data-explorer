@@ -1,110 +1,53 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "../styles/CartographyBackground.module.css";
-import { useTheme } from "@/theme/ThemeProvider";
 import CartographySvgDark from "./CartographySvgDark";
 import CartographySvgLight from "./CartographySvgLight";
-
-
-/* =====================================================
-Props
-===================================================== */
+import { useTheme } from "@/theme/ThemeProvider";
 
 type Props = {
-  category?: string
-  className?: string
-  children?: React.ReactNode
+  theme?: "dark" | "light";
+  className?: string;
 };
 
-
-/* =====================================================
-Component
-===================================================== */
-
 export default function CartographyBackground({
-  category,
-  className,
-  children
+  theme,
+  className = "",
 }: Props) {
-
-  const rootRef = useRef<HTMLDivElement>(null)
-  const { theme } = useTheme()
-  const [device, setDevice] = useState<"desktop" | "tablet" | "mobile">(
-    getDeviceClass()
-  )
-
-
-  /* -------------------------------------------------
-     Update device class on resize
-  ------------------------------------------------- */
+  const { theme: appTheme } = useTheme();
+  const activeTheme = theme || appTheme;
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setMounted(true);
+  }, []);
 
-    function handleResize() {
-      setDevice(getDeviceClass())
-    }
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
-  }, [])
-
-
-  /* =================================================
-     Render
-  ================================================= */
+  // Prevent hydration mismatch
+  if (!mounted) return null;
 
   return (
+    <div className={`${styles.root} ${styles[activeTheme]} ${className} cartography`}>
+      {/* BASE IMAGE LAYER */}
+      <div className={styles.imageLayer} />
 
-    <div
-      ref={rootRef}
-      className={[
-        styles.root,
-        className ?? ""
-      ].join(" ")}
-    >
-
-      {/* =================================================
-          MAP SVG LAYER
-      ================================================= */}
-
-      <div className={styles.svgLayer} aria-hidden>
-        {theme === "dark" ? (
-          <CartographySvgDark
-            category={category}
-            device={device}
-          />
+      {/* SVG CARTOGRAPHY */}
+      <div className={styles.svgLayer}>
+        {activeTheme === "dark" ? (
+          <CartographySvgDark />
         ) : (
-          <CartographySvgLight
-            category={category}
-            device={device}
-          />
+          <CartographySvgLight />
         )}
       </div>
-      {/* =================================================
-          ATMOSPHERE LAYERS
-      ================================================= */}
-      <div className={styles.fog} aria-hidden />
-      <div className={styles.starfield} aria-hidden />
 
-      {/* =================================================
-          UI CONTENT
-      ================================================= */}
-      <div className={styles.overlay}>
-        {children}
-      </div>
+      {/* GRID */}
+      <div className={styles.gridLayer} />
+
+      {/* STARS / PARTICLES */}
+      <div className={styles.starsLayer} />
+
+      {/* GLOW / FOG */}
+      <div className={styles.glowLayer} />
     </div>
-  )
-}
-
-
-/* =====================================================
-Device detection helper
-===================================================== */
-
-function getDeviceClass(): "desktop" | "tablet" | "mobile" {
-  if (typeof window === "undefined") return "desktop"
-  const w = window.innerWidth
-  if (w < 640) return "mobile"
-  if (w < 1024) return "tablet"
-  return "desktop"
+  );
 }

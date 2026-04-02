@@ -1,11 +1,14 @@
 "use client";
 
+import { useEffect } from "react";
 import { PageWrapper } from "@/features/layout";
 import { RecordGrid } from "@/features/records";
 import { HoloHeader } from "@/ui/HoloHeader";
 import { useSwapi } from "@/hooks/data/useSwapi";
 import { SwapiType } from "@/lib/swapi/swapiTypes";
-import styles from "./CategoryPage.module.css";
+import { setNavContext } from "@/lib/navigation/navigationContext";
+import styles from "@/features/category/styles/CategoryPage.module.css";
+import { ContentContainer } from "@/features/layout";
 
 type Props = {
   category: SwapiType;
@@ -16,9 +19,15 @@ const CategoryPage = ({ category, loadingText }: Props) => {
   const { data, loading, error } = useSwapi(category);
   const items = data?.results ?? [];
 
+  // ✅ IMPORTANT: enables "Back to context"
+  useEffect(() => {
+    setNavContext(category, `/${category}`);
+  }, [category]);
+
   return (
     <PageWrapper>
-      <HoloHeader category={category} title={category} />
+      <ContentContainer >
+      <HoloHeader category={category} title={category.toUpperCase()} showBack={false} />
 
       {loading && <p className={styles.loading}>{loadingText}</p>}
       {error && <p className={styles.error}>Transmission error</p>}
@@ -29,25 +38,53 @@ const CategoryPage = ({ category, loadingText }: Props) => {
           category={category}
         />
       )}
+      </ContentContainer>
     </PageWrapper>
   );
 };
 
+/* ========================= */
+/* CATEGORY EXPORTS */
+/* ========================= */
+
 export const FilmsPage = () => (
-  <CategoryPage category="films" loadingText="Loading film data…" />
+  <CategoryPage
+    category="films"
+    loadingText="Loading films..."
+  />
 );
+
 export const PeoplePage = () => (
-  <CategoryPage category="people" loadingText="Loading character data…" />
+  <CategoryPage
+    category="people"
+    loadingText="Loading people..."
+  />
 );
+
 export const PlanetsPage = () => (
-  <CategoryPage category="planets" loadingText="Loading planetary data…" />
+  <CategoryPage
+    category="planets"
+    loadingText="Loading planets..."
+  />
 );
+
 export const SpeciesPage = () => (
-  <CategoryPage category="species" loadingText="Loading species data…" />
+  <CategoryPage
+    category="species"
+    loadingText="Loading species..."
+  />
 );
+
 export const VehiclesPage = () => (
-  <CategoryPage category="vehicles" loadingText="Loading vehicle data…" />
+  <CategoryPage
+    category="vehicles"
+    loadingText="Loading vehicles..."
+  />
 );
+
 export const StarshipsPage = () => (
-  <CategoryPage category="starships" loadingText="Loading starship data…" />
+  <CategoryPage
+    category="starships"
+    loadingText="Loading starships..."
+  />
 );

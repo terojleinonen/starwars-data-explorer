@@ -1,117 +1,210 @@
 "use client";
 
-import { motion } from "framer-motion";
-import type { SwapiType } from "@/lib/swapi/swapiTypes";
+import { useEffect, useState } from "react";
 import { PageWrapper } from "@/features/layout";
-import { useRegisterNavigation, RecentPanel } from "@/features/navigation";
-
-import {
-  OpeningCrawl,
-  DetailsTabs,
-  RelatedRail,
-  RelatedPanel,
-} from "@/features/details";
-
-import { RecordAttributesGrid } from "@/features/records";
+import ContentContainer from "@/features/layout/components/ContentContainer";
 import { HoloHeader } from "@/ui/HoloHeader";
-
+import DetailsTabs from "@/features/details/components/DetailsTabs";
+import OpeningCrawl from "@/features/details/components/OpeningCrawl";
+import  RelatedRail from "@/features/details/components/RelatedRail";
 import styles from "../styles/DetailsPage.module.css";
 
-import {
-  getRecordMetaFromItem,
-  type RecordMeta,
-} from "@/features/records/components/recordMeta";
-
-/* -----------------------------------------------
-   Helpers
------------------------------------------------ */
-
-function isUrl(value: unknown): value is string {
-  return typeof value === "string" && value.startsWith("http");
-}
-
-function isUrlArray(value: unknown): value is string[] {
-  return Array.isArray(value) && value.length > 0 && value.every(isUrl);
-}
-
-/* -----------------------------------------------
-   Component
------------------------------------------------ */
-
 type Props = {
-  category: SwapiType;
-  data: Record<string, unknown>;
+  category: string;
+  id: string;
+  data: any;
 };
 
-export default function DetailsPage({ category, data }: Props) {
+/* ========================= */
+/* HELPERS */
+/* ========================= */
 
-  const meta: RecordMeta = getRecordMetaFromItem(
-    data,
-    category,
-    "—"
+const EXCLUDED_KEYS = [
+  "url",
+  "created",
+  "edited",
+  "opening_crawl",
+];
+
+function getDisplayEntries(data: any) {
+  return Object.entries(data).filter(
+    ([key, value]) =>
+      !EXCLUDED_KEYS.includes(key) &&
+      typeof value !== "object"
   );
+}
 
-  const hasRelated = Object.values(data).some(isUrlArray);
+function getRelationEntries(data: any) {
+  return Object.entries(data).filter(
+    ([_, value]) =>
+      Array.isArray(value) &&
+      value.length > 0 &&
+      typeof value[0] === "string"
+  );
+}
 
-  /* Register navigation history */
+function groupData(category: string, data: any) {
+  if (category === "people") {
+    return [
+      {
+        title: "Identity",
+        items: [
+          ["Name", data.name],
+          ["Gender", data.gender],
+          ["Birth Year", data.birth_year],
+        ],
+      },
+      {
+        title: "Physical",
+        items: [
+          ["Height", data.height],
+          ["Mass", data.mass],
+          ["Hair", data.hair_color],
+          ["Eyes", data.eye_color],
+        ],
+      },
+    ];
+  }
 
-  useRegisterNavigation({
-    label: meta.title,
-    href: `/${category}/${meta.id}`,
-  });
+  if (category === "films") {
+    return [
+      {
+        title: "Production",
+        items: [
+          ["Director", data.director],
+          ["Producer", data.producer],
+          ["Release", data.release_date],
+        ],
+      },
+    ];
+  }
+
+  return [
+    {
+      title: "Details",
+      items: Object.entries(data).filter(
+        ([_, v]) => typeof v !== "object"
+      ),
+    },
+  ];
+}
+
+/* ========================= */
+/* COMPONENT */
+/* ========================= */
+
+export default function DetailsPage({
+  category,
+  id,
+  data,
+}: Props) {
+  const [mounted, setMounted] = useState(false);
+  const groups = groupData(category, data);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted || !data) return null;
+
+  const title = data.name || data.title || "Unknown";
+  const isFilm = category === "films";
+  const relationEntries = getRelationEntries(data);
 
   return (
-    <PageWrapper category={category}>
-      <div className={styles.page}>
-        {/* Header transition for card morph animation */}
-        <motion.div
-          layoutId={`card-${category}-${meta.id}`}
-          className={styles.headerTransition}
-        >
-          <HoloHeader
-            category={category}
-            title={meta.title}
-            subtitle={meta.subtitle}
-            showBack
-            breadcrumbs={[
-              { label: "Archive", href: "/" },
-              { label: category, href: `/${category}` },
-              { label: meta.title, href: `/${category}/${meta.id}` },
-            ]}
-          />
-        </motion.div>
-        {/* Film opening crawl (films only) */}
-        {typeof data.opening_crawl === "string" && (
-          <OpeningCrawl text={data.opening_crawl} />
-        )}
+    <PageWrapper>
+      <ContentContainer>
+        {/* HEADER */}
+        <HoloHeader
+          category={category}
+          title={title}
+          subtitle={`Record ID: ${id}`}
+        />
 
-        {/* Main content */}
+        {/* TABS */}
+        <DetailsTabs
+          /* ========================= */
+          /* OVERVIEW */
+          /* ========================= */
+          overview={
+            <>
+              {/* OPENING CRAWL (FILMS ONLY) */}
+              {isFilm && data.opening_crawl && (
+                <OpeningCrawl text={data.opening_crawl} />
+              )}
 
-        <div className={styles.content}>
-          <DetailsTabs
-            relatedReady={hasRelated}
-            overview={
-              <motion.div
-                initial={{ opacity: 0, y: 14 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.12 }}
-              >
-                <RecordAttributesGrid
-                  category={category}
-                  data={data}
+              {/* GROUPED HOLO PANELS */}
+              <div className={styles.groupGrid}>
+                {groups.map((group) => (
+                  <div key={group.title} className={styles.groupPanel}>
+                    <h3>{group.title}</h3>
+
+                    {group.items.map(([label, value]) => (
+                      <div key={label} className={styles.row}>
+                        <span>{label}</span>
+                        <strong>{value}</strong>
+                      </div>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </>
+          }
+
+          /* ========================= */
+          /* RELATIONS */
+          /* ========================= */
+          relations={
+            <div className={styles.relations}>
+              {relationEntries.length === 0 && (
+                <p className={styles.empty}>
+                  No related records
+                </p>
+              )}
+
+              {relationEntries.map(([key, urls]) => (
+                <RelatedRail
+                  key={key}
+                  title={key.replaceAll("_", " ")}
+                  category={key} // Assuming the key corresponds to the category
+                  urls={urls as string[]}
                 />
-              </motion.div>
-            }
-            related={
-              <RelatedPanel>
-                <RelatedRail data={data} />
-              </RelatedPanel>
-            }
-          />
-        </div>
-      </div>
-      {/* Navigation history panel */}
-      <RecentPanel />
+              ))}
+            </div>
+          }
+
+          /* ========================= */
+          /* META */
+          /* ========================= */
+          meta={
+            <div className={styles.meta}>
+              <div className={styles.metaItem}>
+                <span>Category</span>
+                <strong>{category}</strong>
+              </div>
+
+              <div className={styles.metaItem}>
+                <span>Record ID</span>
+                <strong>{id}</strong>
+              </div>
+
+              {data.created && (
+                <div className={styles.metaItem}>
+                  <span>Created</span>
+                  <strong>{data.created}</strong>
+                </div>
+              )}
+
+              {data.edited && (
+                <div className={styles.metaItem}>
+                  <span>Edited</span>
+                  <strong>{data.edited}</strong>
+                </div>
+              )}
+            </div>
+          }
+        />
+      </ContentContainer>
     </PageWrapper>
   );
 }
