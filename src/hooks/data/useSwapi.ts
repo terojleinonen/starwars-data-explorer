@@ -48,13 +48,29 @@ export function useSwapi<T extends SwapiData>(endpoint: string): UseSwapiResult<
         return;
       }
 
-      const response = await fetch(url);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      // Fetch all pages by following pagination chain
+      const allResults: any[] = [];
+      let nextUrl: string | null = url;
 
-      const json = (await response.json()) as T;
+      while (nextUrl) {
+        const response = await fetch(nextUrl);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
-      swapiCache.set(url, json);
-      setData(json);
+        const json = (await response.json()) as any;
+        allResults.push(...(json.results ?? []));
+        nextUrl = json.next; // Follow pagination to next page
+      }
+
+      // Create response object with all results
+      const completeData = {
+        count: allResults.length,
+        results: allResults,
+        next: null,
+        previous: null,
+      } as T;
+
+      swapiCache.set(url, completeData);
+      setData(completeData);
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : "Unknown error";
       setError(message);

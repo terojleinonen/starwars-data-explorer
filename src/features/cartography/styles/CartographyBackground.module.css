@@ -1,5 +1,5 @@
 /* ========================= */
-/* ROOT */
+/* ROOT - Canvas Container */
 /* ========================= */
 
 .root {
@@ -7,297 +7,44 @@
   inset: 0;
   z-index: -1;
   overflow: hidden;
-
-  --px: 0px;
-  --py: 0px;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
 }
 
-/* ========================= */
-/* BASE LAYERS */
-/* ========================= */
-
-.imageLayer,
-.svgLayer,
-.gridLayer,
-.starsLayer,
-.glowLayer {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
+.canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  image-rendering: auto;
 }
 
-/* ========================= */
 /* ========================= */
 /* 🌑 DARK THEME */
 /* ========================= */
+/* 3D Galactic Constellation Map */
 /* ========================= */
 
 .dark {
-  background:
-    radial-gradient(circle at 50% 40%, #0b1220, #03060d 70%);
-}
-
-/* NEBULA */
-
-.dark .imageLayer {
-  background-image: radial-gradient(circle at 20% 30%, rgba(120, 190, 255, 0.2), transparent 55%);
-  background-size: cover;
-  background-position: center;
-
-  opacity: 0.22;
-
-  transform: translate(
-    calc(var(--px) * 0.2),
-    calc(var(--py) * 0.2)
-  );
-}
-
-/* LARGE PLANET (DEPTH) */
-
-.dark::before {
-  content: "";
-  position: absolute;
-
-  width: 700px;
-  height: 700px;
-
-  bottom: -220px;
-  left: -160px;
-
-  background: url("") no-repeat center/contain;
-
-  opacity: 0.22;
-  filter: blur(2px);
-
-  transform: translate(
-    calc(var(--px) * 0.2),
-    calc(var(--py) * 0.2)
-  );
-}
-
-/* SMALL PLANET */
-
-.dark::after {
-  content: "";
-  position: absolute;
-
-  width: 180px;
-  height: 180px;
-
-  top: 80px;
-  right: 120px;
-
-  background: url("") no-repeat center/contain;
-
-  opacity: 0.35;
-
-  transform: translate(
-    calc(var(--px) * 0.5),
-    calc(var(--py) * 0.5)
-  );
-}
-
-/* STARS */
-
-.starsLayer {
-  background-image:
-    radial-gradient(2px 2px at 20% 30%, white, transparent),
-    radial-gradient(1px 1px at 70% 60%, white, transparent),
-    radial-gradient(1px 1px at 40% 80%, white, transparent);
-
-  opacity: 0.25;
-
-  animation: drift 80s linear infinite;
-
-  transform: translate(
-    calc(var(--px) * 0.8),
-    calc(var(--py) * 0.8)
-  );
-}
-
-@keyframes drift {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(-200px);
-  }
-}
-
-/* GRID */
-
-.gridLayer {
-  background-image:
-    linear-gradient(rgba(120, 170, 220, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(120, 170, 220, 0.08) 1px, transparent 1px);
-
-  background-size: 80px 80px;
-
-  opacity: 0.15;
-
-  transform: translate(
-    calc(var(--px) * 0.6),
-    calc(var(--py) * 0.6)
-  );
-
-  mask-image: linear-gradient(
-    to bottom,
-    rgba(255,255,255,0.4),
-    transparent 80%
-  );
-}
-
-/* GLOW */
-
-.glowLayer {
-  background:
-    radial-gradient(
-      circle at 20% 30%,
-      rgba(120, 190, 255, 0.15),
-      transparent 30%
-    ),
-    radial-gradient(
-      circle at 80% 70%,
-      rgba(255, 214, 84, 0.08),
-      transparent 30%
-    );
-
-  filter: blur(40px);
-
-  transform: translate(
-    calc(var(--px) * 1),
-    calc(var(--py) * 1)
-  );
-}
-
-/* VIGNETTE */
-
-.root::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  background: radial-gradient(
-    circle,
-    transparent 55%,
-    rgba(0, 0, 0, 0.6)
-  );
-
-  pointer-events: none;
+  background: radial-gradient(circle at 50% 40%, #0b1220, #03060d 70%);
 }
 
 /* ========================= */
+/* ☀️ LIGHT THEME */
 /* ========================= */
-/* 🌕 LIGHT THEME */
-/* ========================= */
+/* Rebellion War Map */
 /* ========================= */
 
 .light {
-  background:
-    linear-gradient(#f3f5f7, #e6eaee);
-}
-
-/* MAP TEXTURE */
-
-.light .imageLayer {
-  background-image: radial-gradient(circle at 25% 20%, rgba(50, 70, 90, 0.25), transparent 55%),
-                    radial-gradient(circle at 60% 70%, rgba(180, 210, 240, 0.18), transparent 55%);
-  background-size: cover;
-  background-position: center;
-
-  opacity: 0.35;
-
-  transform: translate(
-    calc(var(--px) * 0.2),
-    calc(var(--py) * 0.2)
-  );
-}
-
-/* GRID (TACTICAL) */
-
-.light .gridLayer {
-  background-size: 60px 60px;
-  opacity: 0.25;
-}
-
-/* subtle map contrast / light-war overlay */
-.light .glowLayer {
-  background:
-    radial-gradient(circle at 40% 40%, rgba(220, 120, 80, 0.06), transparent 40%),
-    radial-gradient(circle at 65% 25%, rgba(90, 160, 220, 0.06), transparent 45%);
-  filter: blur(28px);
-  opacity: 0.6;
-}
-
-.dark .glowLayer {
-  background:
-    radial-gradient(circle at 20% 20%, rgba(180, 220, 255, 0.12), transparent 35%),
-    radial-gradient(circle at 80% 70%, rgba(205, 175, 255, 0.08), transparent 40%);
-  filter: blur(44px);
-  opacity: 0.5;
-}
-
-/* RADAR CIRCLE */
-
-.light::before {
-  content: "";
-  position: absolute;
-
-  width: 400px;
-  height: 400px;
-
-  top: 60px;
-  left: 80px;
-
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-}
-
-/* CONNECTION LINES */
-
-.light::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  background-image:
-    linear-gradient(
-      120deg,
-      transparent 40%,
-      rgba(0, 0, 0, 0.05),
-      transparent 60%
-    );
-
-  opacity: 0.4;
-}
-
-/* SCANLINES */
-
-.light .glowLayer {
-  background:
-    repeating-linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.02),
-      rgba(0, 0, 0, 0.02) 1px,
-      transparent 2px
-    );
+  background: linear-gradient(135deg, #f5f0dc 0%, #e8d4b8 50%, #dcc8a8 100%);
 }
 
 /* ========================= */
-/* RESPONSIVE */
+/* Responsive */
 /* ========================= */
 
-@media (max-width: 768px) {
-  .dark::before {
-    width: 500px;
-    height: 500px;
-    bottom: -160px;
-    left: -120px;
-  }
-
-  .dark::after {
-    width: 120px;
-    height: 120px;
-    right: 60px;
+@media (prefers-reduced-motion: reduce) {
+  .root {
+    /* Animations will still run but at reduced intensity via canvas logic */
   }
 }

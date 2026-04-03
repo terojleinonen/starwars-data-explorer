@@ -10,22 +10,31 @@ export async function getCategory(category: string) {
     return cache.get(key);
   }
 
-  const res = await fetch(`${BASE_URL}/${category}/`, {
-    next: { revalidate: 86400 },
-  });
+  const allRecords: any[] = [];
+  let nextUrl = `${BASE_URL}/${category}/`;
 
-  if (!res.ok) {
-    console.error("SWAPI fetch failed:", res.status);
-    return [];
+  try {
+    while (nextUrl) {
+      const res = await fetch(nextUrl, {
+        next: { revalidate: 86400 },
+      });
+
+      if (!res.ok) {
+        console.error("SWAPI fetch failed:", res.status);
+        break;
+      }
+
+      const data = await res.json();
+      allRecords.push(...(data.results ?? []));
+      nextUrl = data.next; // Fetch next page if it exists
+    }
+  } catch (error) {
+    console.error("SWAPI pagination error:", error);
   }
 
-  const data = await res.json();
+  cache.set(key, allRecords);
 
-  const records = data.results ?? [];
-
-  cache.set(key, records);
-
-  return records;
+  return allRecords;
 }
 
 export async function prefetchCategory(category: string) {

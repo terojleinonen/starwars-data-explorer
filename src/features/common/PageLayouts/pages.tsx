@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { PageWrapper } from "@/features/layout";
 import { RecordGrid } from "@/features/records";
 import { HoloHeader } from "@/ui/HoloHeader";
@@ -17,7 +17,17 @@ type Props = {
 
 const CategoryPage = ({ category, loadingText }: Props) => {
   const { data, loading, error } = useSwapi(category);
+  const [search, setSearch] = useState("");
+  
   const items = data?.results ?? [];
+
+  // Filter items based on search query
+  const filtered = useMemo(() => {
+    return items.filter((item) => {
+      const label = (item.name || item.title || "").toLowerCase();
+      return label.includes(search.toLowerCase());
+    });
+  }, [items, search]);
 
   // ✅ IMPORTANT: enables "Back to context"
   useEffect(() => {
@@ -29,14 +39,31 @@ const CategoryPage = ({ category, loadingText }: Props) => {
       <ContentContainer >
       <HoloHeader category={category} title={category.toUpperCase()} showBack={false} />
 
+      {/* SEARCH BAR */}
+      <div className={styles.toolbar}>
+        <input
+          type="text"
+          placeholder="Search records..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          className={styles.search}
+        />
+      </div>
+
       {loading && <p className={styles.loading}>{loadingText}</p>}
       {error && <p className={styles.error}>Transmission error</p>}
 
       {!loading && !error && (
-        <RecordGrid
-          records={items}
-          category={category}
-        />
+        <>
+          {filtered.length === 0 ? (
+            <p className={styles.empty}>No records found</p>
+          ) : (
+            <RecordGrid
+              records={filtered}
+              category={category}
+            />
+          )}
+        </>
       )}
       </ContentContainer>
     </PageWrapper>

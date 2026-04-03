@@ -26,6 +26,25 @@ const EXCLUDED_KEYS = [
   "opening_crawl",
 ];
 
+/**
+ * Maps SWAPI data keys (from API responses) to URL category names
+ * E.g., "characters" array in film data maps to "people" category
+ */
+function mapDataKeyToCategory(key: string): string {
+  const categoryMap: Record<string, string> = {
+    characters: "people",
+    residents: "people",
+    films: "films",
+    planets: "planets",
+    species: "species",
+    vehicles: "vehicles",
+    starships: "starships",
+    homeworld: "planets",
+  };
+
+  return categoryMap[key] || key;
+}
+
 function getDisplayEntries(data: any) {
   return Object.entries(data).filter(
     ([key, value]) =>
@@ -166,7 +185,7 @@ export default function DetailsPage({
                 <RelatedRail
                   key={key}
                   title={key.replaceAll("_", " ")}
-                  category={key} // Assuming the key corresponds to the category
+                  category={mapDataKeyToCategory(key)}
                   urls={urls as string[]}
                 />
               ))}

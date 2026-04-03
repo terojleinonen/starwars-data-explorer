@@ -9,6 +9,12 @@ export async function fetchRelated(urls: string[]) {
       urls.map(async (url) => {
         try {
           const res = await fetch(url);
+          
+          // Check for successful response before parsing JSON
+          if (!res.ok) {
+            return null;
+          }
+
           const json = await res.json();
 
           return {
