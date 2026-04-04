@@ -7,6 +7,12 @@ import { HoloHeader } from "@/ui/HoloHeader";
 import { useSwapi } from "@/hooks/data/useSwapi";
 import { SwapiType } from "@/lib/swapi/swapiTypes";
 import { setNavContext } from "@/lib/navigation/navigationContext";
+import PeopleDashboard from "@/features/people/components/PeopleDashboard";
+import PlanetsDashboard from "@/features/Planets/components/PlanetsDashboard";
+import StarshipsDashboard from "@/features/starships/components/StarshipsDashboard";
+import SpeciesDashboard from "@/features/species/components/SpeciesDashboard";
+import VehiclesDashboard from "@/features/vehicles/components/VehiclesDashboard";
+import FilmsTimelinePage from "@/features/films/components/FilmsTimeLinePage";
 import styles from "@/features/category/styles/CategoryPage.module.css";
 import { ContentContainer } from "@/features/layout";
 
@@ -23,7 +29,7 @@ const CategoryPage = ({ category, loadingText }: Props) => {
 
   // Filter items based on search query
   const filtered = useMemo(() => {
-    return items.filter((item) => {
+    return items.filter((item: any) => {
       const label = (item.name || item.title || "").toLowerCase();
       return label.includes(search.toLowerCase());
     });
@@ -75,43 +81,25 @@ const CategoryPage = ({ category, loadingText }: Props) => {
 /* ========================= */
 
 export const FilmsPage = () => (
-  <CategoryPage
-    category="films"
-    loadingText="Loading films..."
-  />
+  <FilmsTimelinePage />
 );
 
 export const PeoplePage = () => (
-  <CategoryPage
-    category="people"
-    loadingText="Loading people..."
-  />
+  <PeopleDashboard />
 );
 
 export const PlanetsPage = () => (
-  <CategoryPage
-    category="planets"
-    loadingText="Loading planets..."
-  />
+  <PlanetsDashboard />
 );
 
 export const SpeciesPage = () => (
-  <CategoryPage
-    category="species"
-    loadingText="Loading species..."
-  />
+  <SpeciesDashboard />
 );
 
-export const VehiclesPage = () => (
-  <CategoryPage
-    category="vehicles"
-    loadingText="Loading vehicles..."
-  />
+export const VehiclesPage = () => (  
+  <VehiclesDashboard />
 );
 
 export const StarshipsPage = () => (
-  <CategoryPage
-    category="starships"
-    loadingText="Loading starships..."
-  />
+  <StarshipsDashboard />
 );

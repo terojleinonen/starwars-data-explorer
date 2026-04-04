@@ -1,0 +1,153 @@
+.page {
+  display: grid;
+  gap: 40px;
+}
+
+/* ===== TIMELINE ===== */
+
+.timeline {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10px;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(120,190,255,0.2),
+    rgba(120,190,255,0.6),
+    rgba(120,190,255,0.2)
+  );
+}
+
+/* ===== NODES ===== */
+
+.nodeWrap {
+  position: relative;
+  z-index: 2;
+}
+
+.node {
+  display: grid;
+  gap: 6px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  cursor: pointer;
+
+  background: rgba(10, 18, 30, 0.8);
+  border: 1px solid rgba(120,190,255,0.15);
+
+  transition: all 0.25s ease;
+}
+
+.node:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(120,190,255,0.15);
+}
+
+.active {
+  border-color: rgba(255,216,94,0.5);
+  background: rgba(255,216,94,0.08);
+}
+
+.episode {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  opacity: 0.7;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.year {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* ===== PANEL ===== */
+
+.panel {
+  border-radius: 20px;
+  padding: 24px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(18,28,48,0.9),
+    rgba(8,14,24,0.95)
+  );
+
+  border: 1px solid rgba(120,190,255,0.12);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+
+  display: grid;
+  gap: 20px;
+}
+
+.panelTop {
+  display: grid;
+  gap: 6px;
+}
+
+.episodeBig {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  opacity: 0.7;
+}
+
+.titleBig {
+  font-size: 28px;
+}
+
+.meta {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* ===== OPENING CRAWL ===== */
+
+.crawl {
+  max-height: 200px;
+  overflow: auto;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* ===== CTA ===== */
+
+.cta {
+  align-self: start;
+  padding: 10px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+
+  border: 1px solid rgba(255,216,94,0.4);
+  color: #fff3be;
+
+  transition: all 0.2s ease;
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(255,216,94,0.15);
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 900px) {
+  .timeline {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .line {
+    display: none;
+  }
+}

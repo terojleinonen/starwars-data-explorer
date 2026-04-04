@@ -39,12 +39,26 @@ class ConstellationMap {
   private time = 0;
   private mouseX = 0;
   private mouseY = 0;
+  private lastFrameTime = 0;
+  private frameInterval = 1000 / 30; // 30fps instead of 60fps
+  private mouseThrottleTime = 0;
+  private mouseThrottleDelay = 50; // Only update mouse every 50ms
+  private isLowPowerMode = false;
 
   constructor(canvas: HTMLCanvasElement) {
     this.canvas = canvas;
     this.ctx = canvas.getContext("2d")!;
+    this.detectLowPowerMode();
     this.initStars();
     this.setupMouseTracking();
+  }
+
+  private detectLowPowerMode() {
+    // Detect if running on battery or older hardware
+    this.isLowPowerMode = (navigator.hardwareConcurrency || 4) < 4;
+    if (this.isLowPowerMode) {
+      this.frameInterval = 1000 / 20; // 20fps on low power
+    }
   }
 
   private initStars() {
@@ -95,8 +109,12 @@ class ConstellationMap {
   }
 
   private setupMouseTracking() {
-    // Simpler mouse tracking for older computers
+    // Throttled mouse tracking for better performance
     const handleMouseMove = (e: MouseEvent) => {
+      const now = Date.now();
+      if (now - this.mouseThrottleTime < this.mouseThrottleDelay) return;
+
+      this.mouseThrottleTime = now;
       const rect = this.canvas.getBoundingClientRect();
       // Convert to normalized coordinates (-1 to 1)
       this.mouseX = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
@@ -107,13 +125,28 @@ class ConstellationMap {
   }
 
   update() {
-    this.time += 0.0005; // Slower animation for older computers
+    const now = Date.now();
+    if (now - this.lastFrameTime < this.frameInterval) {
+      return;
+    }
+    this.lastFrameTime = now;
 
-    this.stars.forEach((star) => {
-      if (star.isStatic) return; // Static stars don't move
+    this.time += this.isLowPowerMode ? 0.0003 : 0.0005; // Slower animation on low power
 
-      // Gentler mouse interaction
-      const mouseInfluence = 0.00005;
+    // Only update a subset of stars each frame for better performance
+    const updateBatchSize = this.isLowPowerMode ? 50 : 100;
+    const startIndex = Math.floor(this.time * 10) % this.stars.length;
+
+    for (let i = 0; i < updateBatchSize; i++) {
+      const starIndex = (startIndex + i) % this.stars.length;
+      const star = this.stars[starIndex];
+
+      if (star.isStatic) {
+        continue; // Static stars don't move
+      }
+
+      // Gentler mouse interaction, less frequent updates
+      const mouseInfluence = this.isLowPowerMode ? 0.00002 : 0.00005;
       star.vx += (this.mouseX - star.x) * mouseInfluence;
       star.vy += (this.mouseY - star.y) * mouseInfluence;
 
@@ -142,9 +175,11 @@ class ConstellationMap {
       star.vy *= 0.998;
       star.vz *= 0.998;
 
-      // Subtle pulsing brightness
-      star.brightness = 0.5 + 0.3 * Math.sin(this.time * 0.001 + star.x * 5 + star.y * 5);
-    });
+      // Subtle pulsing brightness - less frequent updates
+      if (Math.random() < 0.1) { // Only update brightness 10% of the time
+        star.brightness = 0.5 + 0.3 * Math.sin(this.time * 0.001 + star.x * 5 + star.y * 5);
+      }
+    }
   }
 
   render() {
@@ -153,11 +188,11 @@ class ConstellationMap {
     const centerX = w / 2;
     const centerY = h / 2;
 
-    // Dark space background
-    this.ctx.fillStyle = "rgba(2, 8, 20, 0.9)";
+    // Dark space background - simpler, no gradient
+    this.ctx.fillStyle = this.isLowPowerMode ? "#0a0f1a" : "rgba(2, 8, 20, 0.9)";
     this.ctx.fillRect(0, 0, w, h);
 
-    // Draw stars with depth sorting
+    // Draw stars with depth sorting - simplified projection
     const projected = this.stars.map((star) => {
       const rotX = Math.cos(this.time) * star.x - Math.sin(this.time) * star.z;
       const rotZ = Math.sin(this.time) * star.x + Math.cos(this.time) * star.z;
@@ -165,7 +200,7 @@ class ConstellationMap {
 
       // More spread out projection
       const distance = 2.5 + rotZ;
-      const scale = Math.min(w, h) * 0.6 / distance; // Increased from 0.4 to 0.6
+      const scale = Math.min(w, h) * (this.isLowPowerMode ? 0.4 : 0.6) / distance;
       const px = centerX + rotX * scale;
       const py = centerY + rotY * scale;
       const brightness = star.isStatic ? star.brightness * 0.8 : star.brightness * (0.6 + 0.4 / distance);
@@ -175,52 +210,54 @@ class ConstellationMap {
 
     projected.sort((a, b) => a.distance - b.distance);
 
-    // Draw static background stars first (no connections)
+    // Draw static background stars first (no connections) - simplified
     const staticStars = projected.filter(p => p.isStatic);
+    this.ctx.fillStyle = "rgba(200, 220, 255, 0.3)";
     staticStars.forEach((star) => {
-      this.ctx.fillStyle = `rgba(200, 220, 255, ${star.brightness * 0.6})`;
       this.ctx.beginPath();
       this.ctx.arc(star.x, star.y, Math.max(0.5, star.size * 0.5), 0, Math.PI * 2);
       this.ctx.fill();
     });
 
-    // Draw connections between nearby constellation stars
-    const constellationStars = projected.filter(p => !p.isStatic);
-    for (let i = 0; i < constellationStars.length; i++) {
-      for (let j = i + 1; j < Math.min(i + 6, constellationStars.length); j++) {
-        const dx = constellationStars[i].x - constellationStars[j].x;
-        const dy = constellationStars[i].y - constellationStars[j].y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
+    // Skip connections on low power mode to save CPU
+    if (!this.isLowPowerMode) {
+      // Draw connections between nearby constellation stars - reduced frequency
+      const constellationStars = projected.filter(p => !p.isStatic);
+      this.ctx.strokeStyle = "rgba(120, 180, 255, 0.04)";
+      this.ctx.lineWidth = 0.6;
 
-        if (dist < 250 && constellationStars[i].distance > 0.8 && constellationStars[j].distance > 0.8) {
-          this.ctx.strokeStyle = `rgba(120, 180, 255, ${0.06 * Math.max(0, 1 - dist / 250) * constellationStars[i].brightness})`;
-          this.ctx.lineWidth = 0.6;
-          this.ctx.beginPath();
-          this.ctx.moveTo(constellationStars[i].x, constellationStars[i].y);
-          this.ctx.lineTo(constellationStars[j].x, constellationStars[j].y);
-          this.ctx.stroke();
+      for (let i = 0; i < constellationStars.length; i += 3) { // Every 3rd star only
+        for (let j = i + 1; j < Math.min(i + 4, constellationStars.length); j++) {
+          const dx = constellationStars[i].x - constellationStars[j].x;
+          const dy = constellationStars[i].y - constellationStars[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+
+          if (dist < 200 && constellationStars[i].distance > 0.8 && constellationStars[j].distance > 0.8) {
+            this.ctx.beginPath();
+            this.ctx.moveTo(constellationStars[i].x, constellationStars[i].y);
+            this.ctx.lineTo(constellationStars[j].x, constellationStars[j].y);
+            this.ctx.stroke();
+          }
         }
       }
     }
 
-    // Draw constellation stars with glow
+    // Draw constellation stars - simplified glow
+    const constellationStars = projected.filter(p => !p.isStatic);
     constellationStars.forEach((star) => {
       if (star.distance > 0.5) {
-        // Glow
-        const gradient = this.ctx.createRadialGradient(
-          star.x,
-          star.y,
-          0,
-          star.x,
-          star.y,
-          star.size * 5
-        );
-        gradient.addColorStop(0, `rgba(150, 200, 255, ${star.brightness * 0.5})`);
-        gradient.addColorStop(1, "rgba(150, 200, 255, 0)");
-        this.ctx.fillStyle = gradient;
-        this.ctx.beginPath();
-        this.ctx.arc(star.x, star.y, star.size * 5, 0, Math.PI * 2);
-        this.ctx.fill();
+        // Simple glow without gradient for low power mode
+        if (!this.isLowPowerMode) {
+          const gradient = this.ctx.createRadialGradient(
+            star.x, star.y, 0, star.x, star.y, star.size * 3
+          );
+          gradient.addColorStop(0, `rgba(150, 200, 255, ${star.brightness * 0.3})`);
+          gradient.addColorStop(1, "rgba(150, 200, 255, 0)");
+          this.ctx.fillStyle = gradient;
+          this.ctx.beginPath();
+          this.ctx.arc(star.x, star.y, star.size * 3, 0, Math.PI * 2);
+          this.ctx.fill();
+        }
 
         // Star
         this.ctx.fillStyle = `rgba(220, 240, 255, ${star.brightness})`;
@@ -431,7 +468,7 @@ export default function CartographyBackground({
   const [mounted, setMounted] = useState(false);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const mapRef = useRef<ConstellationMap | WarMap | null>(null);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | null>(null);
 
   useEffect(() => {
     setMounted(true);
