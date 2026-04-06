@@ -7,12 +7,10 @@ import styles from "../styles/PageWrapper.module.css";
 
 type Props = {
   children: React.ReactNode;
-  category?: string;
 };
 
 export default function PageWrapper({
   children,
-  category,
 }: Props) {
 
   return (
@@ -20,9 +18,7 @@ export default function PageWrapper({
       {/* Navigation always stays on top */}
       <Navigation />
       {/* Cartography background */}
-      <CartographyBackground
-        className={styles.background}
-      />
+      <CartographyBackground />
       {/* Main page content */}
       <main className={styles.content}>        
           {children}     

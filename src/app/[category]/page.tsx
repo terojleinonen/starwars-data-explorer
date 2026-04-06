@@ -1,11 +1,11 @@
-import {
-  PeoplePage,
-  PlanetsPage,
-  StarshipsPage,
-  FilmsPage,
-  SpeciesPage,
-  VehiclesPage,
-} from "@/features/common/PageLayouts/pages";
+import { 
+  PeopleDashboard, 
+  PlanetsDashboard, 
+  StarshipsDashboard, 
+  FilmsTimelinePage,
+  SpeciesDashboard,
+  VehiclesDashboard } 
+  from "@/features/pages";
 
 import type { SwapiType } from "@/lib/swapi/swapiTypes";
 
@@ -20,22 +20,22 @@ export default async function Page({ params }: Props) {
 
   switch (category) {
     case "people":
-      return <PeoplePage />;
+      return <PeopleDashboard />;
 
     case "planets":
-      return <PlanetsPage />;
+      return <PlanetsDashboard />;
 
     case "starships":
-      return <StarshipsPage />;
+      return <StarshipsDashboard />;
 
     case "films":
-      return <FilmsPage />;
+      return <FilmsTimelinePage />;
 
     case "species":
-      return <SpeciesPage />;
+      return <SpeciesDashboard />;
 
     case "vehicles":
-      return <VehiclesPage />;
+      return <VehiclesDashboard />;
 
     default:
       return <div>Unknown category</div>;

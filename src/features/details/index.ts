@@ -1,8 +1,1 @@
-//export { default as AttributesPanel } from "./components/AttributesPanel";
-//export { default as DetailsDataTable } from "./components/DetailsDataTable";
 export { default as DetailsPage } from "./components/DetailsPage";
-//export { default as DetailsSkeleton } from "./components/DetailsSkeleton";
-export { default as DetailsTabs } from "./components/DetailsTabs";
-export { default as OpeningCrawl } from "./components/OpeningCrawl";
-//export { default as RelatedPanel } from "./components/RelatedPanel";
-export { default as RelatedRail } from "./components/RelatedRail";

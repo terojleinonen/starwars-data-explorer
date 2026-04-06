@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { HoloHeader } from "@/ui/HoloHeader";
 import { PageWrapper } from "@/features/layout";
 import ContentContainer from "@/features/layout/components/ContentContainer";
-import { HoloHeader } from "@/ui/HoloHeader";
-import DetailsTabs from "@/features/details/components/DetailsTabs";
-import OpeningCrawl from "@/features/details/components/OpeningCrawl";
-import  RelatedRail from "@/features/details/components/RelatedRail";
+import RelationGraph from "./RelationGraph";
 import styles from "../styles/DetailsPage.module.css";
 
 type Props = {
@@ -15,214 +15,226 @@ type Props = {
   data: any;
 };
 
-/* ========================= */
-/* HELPERS */
-/* ========================= */
+type Tab = "overview" | "relations" | "meta";
+type ViewMode = "list" | "graph";
 
-const EXCLUDED_KEYS = [
-  "url",
-  "created",
-  "edited",
-  "opening_crawl",
-];
+/* ===== SIMPLE CACHE ===== */
+const cache = new Map<string, any>();
 
-/**
- * Maps SWAPI data keys (from API responses) to URL category names
- * E.g., "characters" array in film data maps to "people" category
- */
-function mapDataKeyToCategory(key: string): string {
-  const categoryMap: Record<string, string> = {
-    characters: "people",
-    residents: "people",
-    films: "films",
-    planets: "planets",
-    species: "species",
-    vehicles: "vehicles",
-    starships: "starships",
-    homeworld: "planets",
-  };
+async function fetchResource(url: string) {
+  if (cache.has(url)) return cache.get(url);
 
-  return categoryMap[key] || key;
+  const res = await fetch(url);
+  const data = await res.json();
+
+  cache.set(url, data);
+  return data;
 }
 
-function getDisplayEntries(data: any) {
-  return Object.entries(data).filter(
-    ([key, value]) =>
-      !EXCLUDED_KEYS.includes(key) &&
-      typeof value !== "object"
-  );
+function extractId(url: string) {
+  return url.match(/\/(\d+)\/?$/)?.[1] ?? "";
 }
 
-function getRelationEntries(data: any) {
-  return Object.entries(data).filter(
-    ([_, value]) =>
-      Array.isArray(value) &&
-      value.length > 0 &&
-      typeof value[0] === "string"
-  );
-}
+export default function DetailsPage({ category, data }: Props) {
+  const router = useRouter();
 
-function groupData(category: string, data: any) {
-  if (category === "people") {
-    return [
-      {
-        title: "Identity",
-        items: [
-          ["Name", data.name],
-          ["Gender", data.gender],
-          ["Birth Year", data.birth_year],
-        ],
-      },
-      {
-        title: "Physical",
-        items: [
-          ["Height", data.height],
-          ["Mass", data.mass],
-          ["Hair", data.hair_color],
-          ["Eyes", data.eye_color],
-        ],
-      },
-    ];
-  }
+  const [tab, setTab] = useState<Tab>("overview");
+  const [view, setView] = useState<ViewMode>("list");
+  const [relationsData, setRelationsData] = useState<Record<string, any>>({});
 
-  if (category === "films") {
-    return [
-      {
-        title: "Production",
-        items: [
-          ["Director", data.director],
-          ["Producer", data.producer],
-          ["Release", data.release_date],
-        ],
-      },
-    ];
-  }
+  const title = data?.title || data?.name || "Unknown";
 
-  return [
-    {
-      title: "Details",
-      items: Object.entries(data).filter(
-        ([_, v]) => typeof v !== "object"
-      ),
-    },
-  ];
-}
+  /* ===== RELATIONS ===== */
 
-/* ========================= */
-/* COMPONENT */
-/* ========================= */
-
-export default function DetailsPage({
-  category,
-  id,
-  data,
-}: Props) {
-  const [mounted, setMounted] = useState(false);
-  const groups = groupData(category, data);
+  const relationEntries = useMemo(() => {
+    return Object.entries(data || {}).filter(
+      ([, value]) =>
+        Array.isArray(value) &&
+        value.length &&
+        typeof value[0] === "string" &&
+        value[0].includes("/api/")
+    );
+  }, [data]);
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
+    async function load() {
+      const entries: Record<string, any> = {};
 
-  if (!mounted || !data) return null;
+      for (const [, urls] of relationEntries) {
+        for (const url of urls as string[]) {
+          if (!entries[url]) {
+            try {
+              entries[url] = await fetchResource(url);
+            } catch {
+              entries[url] = null;
+            }
+          }
+        }
+      }
 
-  const title = data.name || data.title || "Unknown";
-  const isFilm = category === "films";
-  const relationEntries = getRelationEntries(data);
+      setRelationsData(entries);
+    }
+
+    load();
+  }, [relationEntries]);
+
+  /* ===== GRAPH NODES ===== */
+
+  const graphNodes = useMemo(() => {
+    return Object.entries(relationsData)
+      .map(([url, d]) => {
+        const id = extractId(url);
+        const category = url.split("/api/")[1].split("/")[0];
+
+        return {
+          id,
+          category,
+          label: d?.name || d?.title || `#${id}`,
+        };
+      })
+      .slice(0, 12); // keep clean
+  }, [relationsData]);
+
+  /* ===== META ===== */
+
+  const metaEntries = Object.entries(data || {}).filter(
+    ([key, value]) =>
+      typeof value !== "object" &&
+      key !== "opening_crawl" &&
+      key !== "name" &&
+      key !== "title"
+  );
 
   return (
     <PageWrapper>
       <ContentContainer>
-        {/* HEADER */}
-        <HoloHeader
-          category={category}
-          title={title}
-          subtitle={`Record ID: ${id}`}
-        />
+        <div className={styles.page}>
+          {/* BACK */}
+          <div className={styles.headerTop}>
+            <Link href={`/${category}`} className={styles.back}>
+              ← Return to {category}
+            </Link>
+          </div>
 
-        {/* TABS */}
-        <DetailsTabs
-          /* ========================= */
-          /* OVERVIEW */
-          /* ========================= */
-          overview={
-            <>
-              {/* OPENING CRAWL (FILMS ONLY) */}
-              {isFilm && data.opening_crawl && (
-                <OpeningCrawl text={data.opening_crawl} />
-              )}
+          <HoloHeader
+            category={category}
+            title={title}
+            subtitle="Intelligence dossier"
+          />
 
-              {/* GROUPED HOLO PANELS */}
-              <div className={styles.groupGrid}>
-                {groups.map((group) => (
-                  <div key={group.title} className={styles.groupPanel}>
-                    <h3>{group.title}</h3>
+          {/* DOSSIER */}
+          <section className={styles.dossier}>
+            {/* TABS */}
+            <div className={styles.tabs}>
+              {["overview", "relations", "meta"].map((t) => (
+                <button
+                  key={t}
+                  onClick={() => setTab(t as Tab)}
+                  className={`${styles.tab} ${
+                    tab === t ? styles.tabActive : ""
+                  }`}
+                >
+                  {t.toUpperCase()}
+                </button>
+              ))}
+            </div>
 
-                    {group.items.map(([label, value]) => (
-                      <div key={label} className={styles.row}>
-                        <span>{label}</span>
-                        <strong>{value}</strong>
+            {/* CONTENT */}
+            <div className={styles.content}>
+              {/* OVERVIEW */}
+              {tab === "overview" && (
+                <div className={styles.overview}>
+                  {"opening_crawl" in data && (
+                    <div className={styles.crawlPanel}>
+                      <p className={styles.crawlText}>
+                        {data.opening_crawl}
+                      </p>
+                    </div>
+                  )}
+
+                  <div className={styles.metaGrid}>
+                    {metaEntries.slice(0, 6).map(([k, v]) => (
+                      <div key={k} className={styles.metaItem}>
+                        <span>{k.replace(/_/g, " ")}</span>
+                        <strong>{String(v)}</strong>
                       </div>
                     ))}
                   </div>
-                ))}
-              </div>
-            </>
-          }
-
-          /* ========================= */
-          /* RELATIONS */
-          /* ========================= */
-          relations={
-            <div className={styles.relations}>
-              {relationEntries.length === 0 && (
-                <p className={styles.empty}>
-                  No related records
-                </p>
-              )}
-
-              {relationEntries.map(([key, urls]) => (
-                <RelatedRail
-                  key={key}
-                  title={key.replaceAll("_", " ")}
-                  category={mapDataKeyToCategory(key)}
-                  urls={urls as string[]}
-                />
-              ))}
-            </div>
-          }
-
-          /* ========================= */
-          /* META */
-          /* ========================= */
-          meta={
-            <div className={styles.meta}>
-              <div className={styles.metaItem}>
-                <span>Category</span>
-                <strong>{category}</strong>
-              </div>
-
-              <div className={styles.metaItem}>
-                <span>Record ID</span>
-                <strong>{id}</strong>
-              </div>
-
-              {data.created && (
-                <div className={styles.metaItem}>
-                  <span>Created</span>
-                  <strong>{data.created}</strong>
                 </div>
               )}
 
-              {data.edited && (
-                <div className={styles.metaItem}>
-                  <span>Edited</span>
-                  <strong>{data.edited}</strong>
+              {/* RELATIONS */}
+              {tab === "relations" && (
+                <div className={styles.relations}>
+                  {/* VIEW TOGGLE */}
+                  <div className={styles.viewToggle}>
+                    <button
+                      onClick={() => setView("list")}
+                      className={view === "list" ? styles.activeToggle : ""}
+                    >
+                      List
+                    </button>
+                    <button
+                      onClick={() => setView("graph")}
+                      className={view === "graph" ? styles.activeToggle : ""}
+                    >
+                      Graph
+                    </button>
+                  </div>
+
+                  {view === "graph" && graphNodes.length > 0 && (
+                    <RelationGraph title={title} nodes={graphNodes} />
+                  )}
+
+                  {view === "list" &&
+                    relationEntries.map(([key, urls]) => (
+                      <div key={key} className={styles.relationGroup}>
+                        <h4>{key}</h4>
+
+                        <div className={styles.relationChips}>
+                          {(urls as string[]).map((url) => {
+                            const id = extractId(url);
+                            const relCategory =
+                              url.split("/api/")[1].split("/")[0];
+
+                            const label =
+                              relationsData[url]?.name ||
+                              relationsData[url]?.title ||
+                              `#${id}`;
+
+                            return (
+                              <button
+                                key={url}
+                                className={styles.chip}
+                                data-type={relCategory}
+                                onClick={() =>
+                                  router.push(`/${relCategory}/${id}`)
+                                }
+                              >
+                                {label}
+                              </button>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    ))}
+                </div>
+              )}
+
+              {/* META */}
+              {tab === "meta" && (
+                <div className={styles.metaFull}>
+                  {metaEntries.map(([k, v]) => (
+                    <div key={k} className={styles.metaRow}>
+                      <span>{k.replace(/_/g, " ")}</span>
+                      <strong>{String(v)}</strong>
+                    </div>
+                  ))}
                 </div>
               )}
             </div>
-          }
-        />
+          </section>
+        </div>
       </ContentContainer>
     </PageWrapper>
   );

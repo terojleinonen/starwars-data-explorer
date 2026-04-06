@@ -1,0 +1,222 @@
+.page {
+  position: relative;
+  display: grid;
+  gap: 40px;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+/* ===== STARFIELD ===== */
+
+.starsBack,
+.starsFront {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.starsBack {
+  opacity: 0.15;
+  background-image:
+    radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,0.2), transparent),
+    radial-gradient(1px 1px at 70% 60%, rgba(255,255,255,0.2), transparent);
+}
+
+.starsFront {
+  opacity: 0.25;
+  background-image:
+    radial-gradient(1px 1px at 30% 50%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(2px 2px at 80% 40%, rgba(255,255,255,0.3), transparent);
+}
+
+/* ===== TIMELINE ===== */
+
+.timeline {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10px;
+  z-index: 2;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(120,190,255,0.6), transparent);
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, white, transparent);
+  animation: travel 6s linear infinite;
+}
+
+/* ===== NODES ===== */
+
+.nodeWrap {
+  z-index: 2;
+}
+
+.node {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  cursor: pointer;
+
+  background: rgba(10,18,30,0.8);
+  border: 1px solid rgba(120,190,255,0.15);
+
+  opacity: 0.5;
+  transform: scale(0.9);
+
+  transition: all 0.25s ease;
+}
+
+.node:hover {
+  transform: translateY(-6px) scale(1.02);
+}
+
+.node::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, rgba(120,190,255,0.25), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.node:hover::after {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+  transform: scale(1.15);
+
+  border-color: rgba(255,216,94,0.6);
+
+  box-shadow:
+    0 0 10px rgba(255,216,94,0.4),
+    0 0 30px rgba(255,216,94,0.25),
+    0 0 80px rgba(255,216,94,0.15);
+}
+
+.episode {
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255,216,94,0.8);
+}
+
+.title {
+  font-weight: 600;
+}
+
+.year {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* ===== PANEL ===== */
+
+.panel {
+  border-radius: 20px;
+  padding: 24px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(18,28,48,0.9),
+    rgba(8,14,24,0.95)
+  );
+
+  border: 1px solid rgba(120,190,255,0.12);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+
+  display: grid;
+  gap: 20px;
+}
+
+.panelTop {
+  display: grid;
+  gap: 6px;
+}
+
+.episodeBig {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  opacity: 0.7;
+}
+
+.titleBig {
+  font-size: 28px;
+}
+
+.meta {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.crawl {
+  max-height: 200px;
+  overflow: auto;
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+/* ===== CTA ===== */
+
+.cta {
+  padding: 10px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+
+  border: 1px solid rgba(255,216,94,0.4);
+  color: #fff3be;
+
+  transition: all 0.2s ease;
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(255,216,94,0.15);
+}
+
+/* ===== ANIMATIONS ===== */
+
+@keyframes travel {
+  from { transform: translateX(-150%); }
+  to { transform: translateX(150%); }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 900px) {
+  .timeline {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .line {
+    display: none;
+  }
+}

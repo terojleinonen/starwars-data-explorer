@@ -1,0 +1,91 @@
+.graph {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  margin: 20px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CENTER */
+
+.center {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(circle, rgba(255,216,94,0.15), transparent 70%),
+    rgba(20,30,50,0.9);
+
+  border: 1px solid rgba(255,216,94,0.4);
+
+  font-weight: 600;
+  text-align: center;
+
+  z-index: 2;
+}
+
+/* LINES */
+
+.lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+
+  pointer-events: none;
+}
+
+.lines line {
+  stroke: rgba(120,190,255,0.2);
+  stroke-width: 1;
+}
+
+/* NODES */
+
+.node {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform-origin: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 6px 10px;
+  border-radius: 999px;
+
+  background: rgba(120,190,255,0.08);
+  border: 1px solid rgba(120,190,255,0.2);
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.node:hover {
+  transform: scale(1.1) translate(var(--x), var(--y));
+  background: rgba(120,190,255,0.2);
+}
+
+.nodeType {
+  font-size: 9px;
+  opacity: 0.6;
+}
+
+.nodeLabel {
+  font-size: 11px;
+  font-weight: 500;
+  white-space: nowrap;
+}

@@ -1,50 +1,84 @@
-/* ========================= */
-/* ROOT - Canvas Container */
-/* ========================= */
-
 .root {
   position: fixed;
   inset: 0;
   z-index: -1;
+  pointer-events: none;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
-  will-change: transform;
 }
 
-.canvas {
-  display: block;
-  width: 100%;
-  height: 100%;
-  image-rendering: auto;
+/* BASE LAYER */
+
+.layer {
+  position: absolute;
+  inset: 0;
+  transition: background 0.6s ease;
 }
 
-/* ========================= */
-/* 🌑 DARK THEME */
-/* ========================= */
-/* 3D Galactic Constellation Map */
-/* ========================= */
+/* ===== DARK: CINEMATIC SPACE ===== */
 
 .dark {
-  background: radial-gradient(circle at 50% 40%, #0b1220, #03060d 70%);
+  background:
+    radial-gradient(circle at 20% 30%, rgba(120,190,255,0.06), transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(120,190,255,0.04), transparent 60%),
+    #05080f;
 }
 
-/* ========================= */
-/* ☀️ LIGHT THEME */
-/* ========================= */
-/* Rebellion War Map */
-/* ========================= */
+/* ===== LIGHT: TACTICAL MAP ===== */
 
 .light {
-  background: linear-gradient(135deg, #f5f0dc 0%, #e8d4b8 50%, #dcc8a8 100%);
+  background:
+    linear-gradient(rgba(0,0,0,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.025) 1px, transparent 1px),
+    #f4f6f9;
+
+  background-size: 48px 48px;
 }
 
-/* ========================= */
-/* Responsive */
-/* ========================= */
+/* ===== DEPTH LAYERS ===== */
 
-@media (prefers-reduced-motion: reduce) {
-  .root {
-    /* Animations will still run but at reduced intensity via canvas logic */
+.depthBack,
+.depthFront {
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
+}
+
+/* FAR DEPTH (SOFT GLOW / NEBULA) */
+
+.depthBack {
+  background:
+    radial-gradient(circle at 30% 40%, rgba(120,190,255,0.05), transparent 60%),
+    radial-gradient(circle at 70% 60%, rgba(120,190,255,0.04), transparent 70%);
+
+  filter: blur(20px);
+}
+
+/* FRONT DEPTH (VERY SUBTLE STARS / TEXTURE) */
+
+.depthFront {
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,0.15), transparent),
+    radial-gradient(1px 1px at 70% 60%, rgba(255,255,255,0.1), transparent),
+    radial-gradient(2px 2px at 50% 80%, rgba(255,255,255,0.12), transparent);
+
+  opacity: 0.15;
+}
+
+/* ===== MOTION (VERY SUBTLE) ===== */
+
+.depthBack {
+  animation: driftSlow 60s linear infinite;
+}
+
+.depthFront {
+  animation: driftSlow 90s linear infinite reverse;
+}
+
+@keyframes driftSlow {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-40px);
   }
 }

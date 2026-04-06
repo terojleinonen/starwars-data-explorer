@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { HoloHeader } from "@/ui/HoloHeader";
@@ -15,7 +15,6 @@ type Film = {
   episode_id: number;
   release_date: string;
   director: string;
-  producer: string;
   opening_crawl: string;
   url: string;
 };
@@ -24,7 +23,7 @@ function extractId(url: string) {
   return url.match(/\/(\d+)\/?$/)?.[1] ?? "";
 }
 
-function formatDate(date: string) {
+function year(date: string) {
   return new Date(date).getFullYear();
 }
 
@@ -35,21 +34,53 @@ export default function FilmsTimelinePage() {
 
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
+  const target = useRef({ x: 0, y: 0 });
+  const current = useRef({ x: 0, y: 0 });
+  const raf = useRef<number | null>(null);
+
   useEffect(() => {
     setNavContext("films", "/films");
   }, []);
 
-  const sorted = useMemo(() => {
+  const films = useMemo(() => {
     return [...records].sort((a, b) => a.episode_id - b.episode_id);
   }, [records]);
 
   useEffect(() => {
-    if (sorted.length && !selectedId) {
-      setSelectedId(extractId(sorted[0].url));
+    if (films.length && !selectedId) {
+      setSelectedId(extractId(films[0].url));
     }
-  }, [sorted, selectedId]);
+  }, [films, selectedId]);
 
-  const selected = sorted.find(f => extractId(f.url) === selectedId);
+  useEffect(() => {
+    const handleMove = (e: MouseEvent) => {
+      target.current.x = (e.clientX / window.innerWidth - 0.5) * 30;
+      target.current.y = (e.clientY / window.innerHeight - 0.5) * 30;
+    };
+
+    window.addEventListener("mousemove", handleMove);
+
+    const animate = () => {
+      current.current.x += (target.current.x - current.current.x) * 0.08;
+      current.current.y += (target.current.y - current.current.y) * 0.08;
+
+      const el = document.getElementById("timeline");
+      if (el) {
+        el.style.transform = `translate(${current.current.x}px, ${current.current.y}px)`;
+      }
+
+      raf.current = requestAnimationFrame(animate);
+    };
+
+    animate();
+
+    return () => {
+      window.removeEventListener("mousemove", handleMove);
+      if (raf.current) cancelAnimationFrame(raf.current);
+    };
+  }, []);
+
+  const selected = films.find(f => extractId(f.url) === selectedId);
 
   return (
     <PageWrapper>
@@ -61,12 +92,16 @@ export default function FilmsTimelinePage() {
             subtitle="Chronological cinematic archive of galactic events"
           />
 
+          {/* BACKGROUND LAYERS */}
+          <div className={styles.starsBack} />
+          <div className={styles.starsFront} />
+
           {/* TIMELINE */}
-          <div className={styles.timeline}>
+          <div id="timeline" className={styles.timeline}>
             <div className={styles.line} />
 
-            {sorted.map((film) => {
-              const id = extractId(film.url);
+            {films.map(f => {
+              const id = extractId(f.url);
               const active = id === selectedId;
 
               return (
@@ -77,11 +112,11 @@ export default function FilmsTimelinePage() {
                     onDoubleClick={() => router.push(`/films/${id}`)}
                   >
                     <span className={styles.episode}>
-                      EP {film.episode_id}
+                      EP {f.episode_id}
                     </span>
-                    <span className={styles.title}>{film.title}</span>
+                    <span className={styles.title}>{f.title}</span>
                     <span className={styles.year}>
-                      {formatDate(film.release_date)}
+                      {year(f.release_date)}
                     </span>
                   </button>
                 </div>
@@ -89,7 +124,7 @@ export default function FilmsTimelinePage() {
             })}
           </div>
 
-          {/* DETAILS PANEL */}
+          {/* DETAILS */}
           {selected && (
             <section className={styles.panel}>
               <div className={styles.panelTop}>
@@ -98,8 +133,7 @@ export default function FilmsTimelinePage() {
                 </span>
                 <h2 className={styles.titleBig}>{selected.title}</h2>
                 <p className={styles.meta}>
-                  {formatDate(selected.release_date)} • Directed by{" "}
-                  {selected.director}
+                  {year(selected.release_date)} • {selected.director}
                 </p>
               </div>
 

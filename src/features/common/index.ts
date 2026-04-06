@@ -1,1 +1,0 @@
-export { FilmsPage, PeoplePage, PlanetsPage, SpeciesPage, StarshipsPage, VehiclesPage } from "./PageLayouts/pages";
