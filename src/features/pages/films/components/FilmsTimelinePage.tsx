@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { HoloHeader } from "@/ui/HoloHeader";
 import { PageWrapper } from "@/features/layout";
-import ContentContainer from "@/features/layout/components/ContentContainer";
 import { useSwapi } from "@/hooks/data/useSwapi";
 import { setNavContext } from "@/lib/navigation/navigationContext";
 import styles from "../styles/FilmsTimelinePage.module.css";
@@ -34,6 +33,7 @@ export default function FilmsTimelinePage() {
 
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
+  /* ===== PARALLAX ===== */
   const target = useRef({ x: 0, y: 0 });
   const current = useRef({ x: 0, y: 0 });
   const raf = useRef<number | null>(null);
@@ -54,8 +54,8 @@ export default function FilmsTimelinePage() {
 
   useEffect(() => {
     const handleMove = (e: MouseEvent) => {
-      target.current.x = (e.clientX / window.innerWidth - 0.5) * 30;
-      target.current.y = (e.clientY / window.innerHeight - 0.5) * 30;
+      target.current.x = (e.clientX / window.innerWidth - 0.5) * 18;
+      target.current.y = (e.clientY / window.innerHeight - 0.5) * 18;
     };
 
     window.addEventListener("mousemove", handleMove);
@@ -84,15 +84,14 @@ export default function FilmsTimelinePage() {
 
   return (
     <PageWrapper>
-      <ContentContainer>
-        <div className={styles.page}>
+        <div className={`${styles.page} ${selected ? styles.focus : ""}`}>
           <HoloHeader
             category="films"
             title="Saga Timeline"
             subtitle="Chronological cinematic archive of galactic events"
           />
 
-          {/* BACKGROUND LAYERS */}
+          {/* BACKGROUND */}
           <div className={styles.starsBack} />
           <div className={styles.starsFront} />
 
@@ -124,14 +123,16 @@ export default function FilmsTimelinePage() {
             })}
           </div>
 
-          {/* DETAILS */}
+          {/* PANEL */}
           {selected && (
             <section className={styles.panel}>
               <div className={styles.panelTop}>
                 <span className={styles.episodeBig}>
                   Episode {selected.episode_id}
                 </span>
+
                 <h2 className={styles.titleBig}>{selected.title}</h2>
+
                 <p className={styles.meta}>
                   {year(selected.release_date)} • {selected.director}
                 </p>
@@ -150,7 +151,6 @@ export default function FilmsTimelinePage() {
             </section>
           )}
         </div>
-      </ContentContainer>
     </PageWrapper>
   );
 }

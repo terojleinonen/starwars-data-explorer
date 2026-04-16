@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { HoloHeader } from "@/ui/HoloHeader";
 import { PageWrapper } from "@/features/layout";
-import ContentContainer from "@/features/layout/components/ContentContainer";
 import { useSwapi } from "@/hooks/data/useSwapi";
 import { setNavContext } from "@/lib/navigation/navigationContext";
 import styles from "../styles/SpeciesDashboard.module.css";
@@ -50,7 +49,6 @@ export default function SpeciesDashboard() {
 
   return (
     <PageWrapper>
-      <ContentContainer>
         <div className={styles.page}>
           <HoloHeader
             category="species"
@@ -133,7 +131,6 @@ export default function SpeciesDashboard() {
             </aside>
           </section>
         </div>
-      </ContentContainer>
     </PageWrapper>
   );
 }

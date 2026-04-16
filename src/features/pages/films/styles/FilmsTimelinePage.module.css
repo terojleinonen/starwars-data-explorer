@@ -5,30 +5,66 @@
   animation: fadeIn 0.8s ease forwards;
 }
 
-/* ===== STARFIELD ===== */
+/* =========================
+   FOCUS MODE
+========================= */
 
-.starsBack,
-.starsFront {
+.focus::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  transition: background 0.4s ease;
+  z-index: 1;
+}
+
+html.dark .focus::after {
+  background: rgba(0,0,0,0.35);
+}
+
+html:not(.dark) .focus::after {
+  background: rgba(0,0,0,0.08);
+}
+
+/* =========================
+   BACKGROUND
+========================= */
+
+html.dark .starsBack,
+html.dark .starsFront {
   position: absolute;
   inset: 0;
   pointer-events: none;
 }
 
-.starsBack {
+html.dark .starsBack {
   opacity: 0.15;
   background-image:
     radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,0.2), transparent),
     radial-gradient(1px 1px at 70% 60%, rgba(255,255,255,0.2), transparent);
 }
 
-.starsFront {
+html.dark .starsFront {
   opacity: 0.25;
   background-image:
     radial-gradient(1px 1px at 30% 50%, rgba(255,255,255,0.3), transparent),
     radial-gradient(2px 2px at 80% 40%, rgba(255,255,255,0.3), transparent);
 }
 
-/* ===== TIMELINE ===== */
+html:not(.dark) .starsBack,
+html:not(.dark) .starsFront {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(circle at 20% 0%, rgba(255,216,94,0.08), transparent 60%),
+    radial-gradient(circle at 80% 100%, rgba(120,190,255,0.08), transparent 60%);
+}
+
+/* =========================
+   TIMELINE
+========================= */
 
 .timeline {
   position: relative;
@@ -45,23 +81,22 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, rgba(120,190,255,0.6), transparent);
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  opacity: 0.4;
 }
 
 .line::after {
   content: "";
   position: absolute;
-  width: 120px;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, white, transparent);
-  animation: travel 6s linear infinite;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  filter: blur(4px);
+  animation: flow 4s linear infinite;
 }
 
-/* ===== NODES ===== */
-
-.nodeWrap {
-  z-index: 2;
-}
+/* =========================
+   NODES
+========================= */
 
 .node {
   position: relative;
@@ -71,78 +106,133 @@
   border-radius: 16px;
   cursor: pointer;
 
-  background: rgba(10,18,30,0.8);
-  border: 1px solid rgba(120,190,255,0.15);
+  background: var(--bg-glass);
+  border: 1px solid var(--border-subtle);
 
-  opacity: 0.5;
-  transform: scale(0.9);
+  opacity: 0.6;
+  transform: scale(0.92);
 
   transition: all 0.25s ease;
 }
 
 .node:hover {
-  transform: translateY(-6px) scale(1.02);
-}
-
-.node::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(120deg, transparent, rgba(120,190,255,0.25), transparent);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.node:hover::after {
-  opacity: 1;
+  transform: translateY(-6px) scale(1.03);
 }
 
 .active {
   opacity: 1;
-  transform: scale(1.15);
+  transform: translateY(-10px) scale(1.14);
 
-  border-color: rgba(255,216,94,0.6);
+  border-color: var(--accent);
 
   box-shadow:
-    0 0 10px rgba(255,216,94,0.4),
-    0 0 30px rgba(255,216,94,0.25),
+    0 0 10px rgba(255,216,94,0.6),
+    0 0 40px rgba(255,216,94,0.25),
     0 0 80px rgba(255,216,94,0.15);
+
+  z-index: 5;
 }
+
+.active::before {
+  content: "";
+  position: absolute;
+  inset: -20px;
+  border-radius: 20px;
+  background: radial-gradient(circle, rgba(255,216,94,0.25), transparent 70%);
+  animation: pulse 2.8s ease-in-out infinite;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+
+  background: var(--accent);
+
+  box-shadow:
+    0 0 10px var(--accent),
+    0 0 20px var(--accent);
+}
+
+/* TEXT */
 
 .episode {
   font-size: 10px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: rgba(255,216,94,0.8);
+  color: var(--accent);
 }
 
 .title {
   font-weight: 600;
+  color: var(--text-primary);
 }
 
 .year {
   font-size: 12px;
-  opacity: 0.6;
+  color: var(--text-muted);
 }
 
-/* ===== PANEL ===== */
+/* =========================
+   PANEL
+========================= */
 
 .panel {
-  border-radius: 20px;
-  padding: 24px;
+  position: relative;
 
-  background: linear-gradient(
-    180deg,
-    rgba(18,28,48,0.9),
-    rgba(8,14,24,0.95)
-  );
+  border-radius: 22px;
+  padding: 28px;
 
-  border: 1px solid rgba(120,190,255,0.12);
-  box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+  background: var(--bg-glass);
+  border: 1px solid var(--border-subtle);
+
+  backdrop-filter: blur(18px);
+
+  box-shadow:
+    0 30px 80px rgba(0,0,0,0.2),
+    inset 0 1px 0 rgba(255,255,255,0.5);
 
   display: grid;
   gap: 20px;
 }
+
+.panel::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 40px;
+  background: linear-gradient(to bottom, var(--accent), transparent);
+  opacity: 0.4;
+}
+
+.panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    120deg,
+    transparent 40%,
+    rgba(255,255,255,0.25),
+    transparent 60%
+  );
+
+  transform: translateX(-100%);
+  animation: sweep 8s ease-in-out infinite;
+}
+
+/* =========================
+   PANEL CONTENT
+========================= */
 
 .panelTop {
   display: grid;
@@ -152,63 +242,75 @@
 .episodeBig {
   font-size: 12px;
   letter-spacing: 0.12em;
-  opacity: 0.7;
+  color: var(--text-muted);
 }
 
 .titleBig {
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--text-primary);
 }
 
 .meta {
   font-size: 14px;
-  opacity: 0.7;
+  color: var(--text-secondary);
 }
 
 .crawl {
-  max-height: 200px;
+  max-height: 220px;
   overflow: auto;
-  font-family: Georgia, serif;
-  line-height: 1.6;
-  opacity: 0.85;
+  line-height: 1.75;
+  color: var(--text-secondary);
+
+  mask-image: linear-gradient(to bottom, black 80%, transparent);
 }
 
-/* ===== CTA ===== */
+/* CTA */
 
 .cta {
-  padding: 10px 16px;
-  border-radius: 12px;
+  padding: 12px 16px;
+  border-radius: 14px;
   text-decoration: none;
 
-  border: 1px solid rgba(255,216,94,0.4);
-  color: #fff3be;
+  border: 1px solid var(--accent);
+  color: var(--accent);
 
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
 }
 
 .cta:hover {
+  background: var(--accent-soft);
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(255,216,94,0.15);
 }
 
-/* ===== ANIMATIONS ===== */
+/* =========================
+   ANIMATIONS
+========================= */
 
-@keyframes travel {
-  from { transform: translateX(-150%); }
-  to { transform: translateX(150%); }
+@keyframes flow {
+  from { transform: translateX(-120%); }
+  to { transform: translateX(120%); }
+}
+
+@keyframes pulse {
+  0%,100% { opacity: 0.4; transform: scale(0.9); }
+  50% { opacity: 0.8; transform: scale(1.1); }
+}
+
+@keyframes sweep {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(120%); }
+  100% { transform: translateX(120%); }
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: none; }
 }
 
-/* ===== MOBILE ===== */
+/* =========================
+   MOBILE
+========================= */
 
 @media (max-width: 900px) {
   .timeline {

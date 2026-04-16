@@ -11,8 +11,8 @@
   height: 72px;
   z-index: 1000;
 
-  backdrop-filter: blur(14px);
-  background: var(--surface-glass, rgba(5, 10, 20, 0.7));
+  background: var(--bg-glass);
+  backdrop-filter: blur(16px);
 
   border-bottom: 1px solid var(--border-subtle, rgba(255, 255, 255, 0.06));
 }

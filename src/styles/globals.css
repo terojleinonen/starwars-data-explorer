@@ -1,54 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
-
-/* ======================================================
-   Global Reset + Defaults
-====================================================== */
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-}
-
-
-/* ======================================================
-   Root Theme Wiring + FALLBACKS
-====================================================== */
+/* =========================
+   THEME TOKENS
+========================= */
 
 :root {
-  --nav-height: 24px;
-  --nav--offset: calc(var(--nav-height) + 28px);
-  /* ✅ your tokens.css does not define these, so we provide fallbacks */
-  --bg-root: var(--bg-deep, #05080c);
-  --accent-soft: color-mix(in oklab, var(--category-accent, var(--accent-people)), transparent 70%);
+  /* BACKGROUND */
+  --bg-main: #f4f6f9;
+  --bg-elevated: rgba(255, 255, 255, 0.85);
+  --bg-glass: rgba(255, 255, 255, 0.65);
+
+  /* TEXT */
+  --text-primary: #0b1220;
+  --text-secondary: rgba(11, 18, 32, 0.65);
+  --text-muted: rgba(11, 18, 32, 0.45);
+
+  /* BORDERS */
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --border-strong: rgba(0, 0, 0, 0.14);
+
+  /* ACCENT */
+  --accent: #ffd85e;
+  --accent-soft: rgba(255, 216, 94, 0.2);
+
+  /* EFFECTS */
+  --blur-glass: 10px;
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --shadow-strong: 0 20px 60px rgba(0, 0, 0, 0.15);
+
+  /* INTERACTION */
+  --hover-bg: rgba(0, 0, 0, 0.04);
 }
 
-html {
-  color-scheme: dark;
-  background: var(--bg-root);
+/* =========================
+   DARK THEME
+========================= */
+
+html.dark {
+  --bg-main: #05080f;
+  --bg-elevated: rgba(15, 25, 45, 0.85);
+  --bg-glass: rgba(10, 16, 28, 0.75);
+
+  --text-primary: #e6edf7;
+  --text-secondary: rgba(230, 237, 247, 0.7);
+  --text-muted: rgba(230, 237, 247, 0.45);
+
+  --border-subtle: rgba(145, 190, 255, 0.12);
+  --border-strong: rgba(145, 190, 255, 0.25);
+
+  --accent: #ffd85e;
+  --accent-soft: rgba(255, 216, 94, 0.15);
+
+  --blur-glass: 18px;
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.2);
+  --shadow-strong: 0 20px 60px rgba(0, 0, 0, 0.4);
+
+  --hover-bg: rgba(120, 190, 255, 0.06);
 }
 
-html[data-theme="light"] {
-  color-scheme: light;
-  /* slightly darker “light” so the star-map still reads */
-  --bg-root: hsl(210 18% 92%);
+/* =========================
+   BASE
+========================= */
+
+body {
+  background: var(--bg-main);
+  color: var(--text-primary);
 }
 
-.content-container {
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding-left: 32px;
-  padding-right: 32px;
+* {
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease;
 }
 
 /* ======================================================
@@ -120,18 +141,14 @@ button {
   border-radius: 8px;
 }
 
-/* Selection */
-::selection {
-  background: var(--accent-soft);
-  color: var(--text-primary);
+.page-root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  * { animation: none !important; transition: none !important; }
-}
-
-html[data-theme="light"] .cartography {
-  filter: contrast(1.06) brightness(0.97);
-  mix-blend-mode: multiply;
+.page-container {
+  width: 100%;
+  max-width: 1200px; /* 👈 key */
+  padding: 0 20px;
 }

@@ -1,65 +1,96 @@
-# Star Wars Data Explorer
+# 🌌 Galactic Explorer — SWAPI Intelligence System
 
-Welcome to the Star Wars Data Explorer! This application allows you to explore various aspects of the Star Wars universe using live data from the SWAPI (Star Wars API).
+A cinematic, high-performance data exploration interface built on top of SWAPI.
 
-## Features
+This project reimagines how structured API data can be explored through:
+- intelligence dashboards
+- holographic UI systems
+- cinematic interaction design
 
-- **Explore Categories**: Navigate through different categories such as Films, People, Planets, Species, Vehicles, and Starships.
-- **Dynamic Routing**: Access detailed information about specific items within each category.
-- **Theme Toggle**: Switch between light and dark themes for a personalized experience.
+---
 
-## Getting Started
+## ✨ Key Features
 
-To get started with the Star Wars Data Explorer, follow these steps:
+### 🧠 Intelligence Dashboards
+- People, Planets, Starships, Vehicles, Species
+- Search, filtering, sorting
+- Real-time preview panels
+- Data-driven UI structure
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/starwars-data-explorer.git
-   cd starwars-data-explorer
-   ```
+### 🎬 Cinematic Film Timeline
+- Interactive saga timeline
+- Focus-based navigation
+- Opening crawl integration
+- Parallax + motion system
 
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
+### 🔍 Advanced Details View
+- Unified "Holo Dossier" layout
+- Real-time relation resolution
+- Graph + list relationship views
+- Context-aware navigation
 
-3. **Run the Development Server**:
-   ```bash
-   npm run dev
-   ```
+### 🌌 Adaptive Cartography Background
+- Dark: cinematic deep-space environment
+- Light: rebellion tactical map
+- Performance-aware rendering
+- Subtle atmospheric depth
 
-4. **Open in Browser**:
-   Navigate to `http://localhost:3000` to view the application.
+---
 
-## Project Structure
+## ⚡ Performance & Engineering
 
-- `src/pages`: Contains the pages of the application.
-  - `_app.tsx`: Custom App component for global styles and layout.
-  - `index.tsx`: Home page of the application.
-  - `[category]/index.tsx`: Dynamic routing for category pages.
-  - `[category]/[id].tsx`: Dynamic routing for detail pages.
-  
-- `src/components`: Contains reusable components.
-  - `Navbar.tsx`: Navigation bar with category links and theme toggle.
-  - `Footer.tsx`: Footer with credits and information.
-  - `Home.tsx`: Main introduction and category links.
-  - `CategoryPage.tsx`: Displays items for a specific category.
-  - `DetailPage.tsx`: Displays detailed information about a specific item.
+### Adaptive Quality System
+- Automatically scales visuals based on:
+  - device power
+  - motion preferences
+  - input type
+- Reduces GPU/CPU load on weaker devices
 
-- `src/styles`: Contains global CSS styles.
-  - `globals.css`: Global styles for the application.
+### Smart Data Fetching
+- In-memory caching with TTL
+- Batched relation requests
+- Request throttling (no API flooding)
 
-- `public`: Contains static assets.
-  - `favicon.ico`: Favicon for the application.
+### Rendering Strategy
+- CSS-driven animations (GPU-friendly)
+- Minimal layout thrashing
+- Motion reduction support
 
-- `package.json`: Configuration file for npm dependencies and scripts.
+---
 
-- `tsconfig.json`: TypeScript configuration file.
+## 🛠 Tech Stack
 
-## Acknowledgments
+- Next.js 15 (App Router)
+- TypeScript
+- React
+- Tailwind + CSS Modules
+- SWAPI (py4e + fallback ready)
 
-Data provided by [SWAPI](https://swapi.info). Not affiliated with Lucasfilm or Disney.
+---
 
-## License
+## 🧠 Design Philosophy
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project explores the intersection of:
+
+- Data systems
+- Cinematic UI
+- Performance-aware engineering
+
+The goal was to build something that feels like:
+
+> “a galactic intelligence system”  
+—not a CRUD interface.
+
+---
+
+## 📸 Screenshots
+
+(Add later)
+
+---
+
+## 🚀 Running Locally
+
+```bash
+npm install
+npm run dev

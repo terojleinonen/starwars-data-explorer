@@ -1,0 +1,24 @@
+.surface {
+  background: var(--bg-glass);
+  backdrop-filter: blur(var(--blur-glass));
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
+  border-radius: 18px;
+}
+
+.surfaceStrong {
+  background: var(--bg-elevated);
+  backdrop-filter: blur(var(--blur-glass));
+  border: 1px solid var(--border-strong);
+  box-shadow: var(--shadow-strong);
+  border-radius: 22px;
+}
+
+.surfaceHover {
+  transition: all 0.2s ease;
+}
+
+.surfaceHover:hover {
+  background: var(--hover-bg);
+  transform: translateY(-2px);
+}

@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { HoloHeader } from "@/ui/HoloHeader";
 import { PageWrapper } from "@/features/layout";
-import ContentContainer from "@/features/layout/components/ContentContainer";
 import { useSwapi } from "@/hooks/data/useSwapi";
 import { setNavContext } from "@/lib/navigation/navigationContext";
 import styles from "../styles/PeopleDashboard.module.css";
@@ -200,7 +199,6 @@ export default function PeopleDashboard() {
 
   return (
     <PageWrapper>
-      <ContentContainer>
         <div className={styles.page}>
           <HoloHeader
             category="people"
@@ -402,7 +400,6 @@ export default function PeopleDashboard() {
             </aside>
           </section>
         </div>
-      </ContentContainer>
     </PageWrapper>
   );
 }

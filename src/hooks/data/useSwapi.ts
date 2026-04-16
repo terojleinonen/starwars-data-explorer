@@ -67,7 +67,7 @@ export function useSwapi<T extends SwapiData>(endpoint: string): UseSwapiResult<
         results: allResults,
         next: null,
         previous: null,
-      } as T;
+      } as unknown as T;
 
       swapiCache.set(url, completeData);
       setData(completeData);

@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { HoloHeader } from "@/ui/HoloHeader";
 import { PageWrapper } from "@/features/layout";
-import ContentContainer from "@/features/layout/components/ContentContainer";
 import RelationGraph from "./RelationGraph";
 import styles from "../styles/DetailsPage.module.css";
 
@@ -18,15 +17,13 @@ type Props = {
 type Tab = "overview" | "relations" | "meta";
 type ViewMode = "list" | "graph";
 
-/* ===== SIMPLE CACHE ===== */
+/* ===== CACHE ===== */
 const cache = new Map<string, any>();
 
 async function fetchResource(url: string) {
   if (cache.has(url)) return cache.get(url);
-
   const res = await fetch(url);
   const data = await res.json();
-
   cache.set(url, data);
   return data;
 }
@@ -78,22 +75,23 @@ export default function DetailsPage({ category, data }: Props) {
     load();
   }, [relationEntries]);
 
-  /* ===== GRAPH NODES ===== */
+  /* ===== GRAPH ===== */
 
   const graphNodes = useMemo(() => {
-    return Object.entries(relationsData)
-      .map(([url, d]) => {
-        const id = extractId(url);
-        const category = url.split("/api/")[1].split("/")[0];
+  return Object.entries(relationsData)
+    .map(([url, d]) => {
+      const id = extractId(url);
+      const category = url.split("/api/")[1].split("/")[0];
 
-        return {
-          id,
-          category,
-          label: d?.name || d?.title || `#${id}`,
-        };
-      })
-      .slice(0, 12); // keep clean
-  }, [relationsData]);
+      return {
+        id,
+        category,
+        key: `${category}-${id}`, // ✅ unique
+        label: d?.name || d?.title || `#${id}`,
+      };
+    })
+    .slice(0, 12);
+}, [relationsData]);
 
   /* ===== META ===== */
 
@@ -107,7 +105,6 @@ export default function DetailsPage({ category, data }: Props) {
 
   return (
     <PageWrapper>
-      <ContentContainer>
         <div className={styles.page}>
           {/* BACK */}
           <div className={styles.headerTop}>
@@ -144,21 +141,30 @@ export default function DetailsPage({ category, data }: Props) {
               {/* OVERVIEW */}
               {tab === "overview" && (
                 <div className={styles.overview}>
-                  {"opening_crawl" in data && (
-                    <div className={styles.crawlPanel}>
-                      <p className={styles.crawlText}>
-                        {data.opening_crawl}
-                      </p>
-                    </div>
-                  )}
-
-                  <div className={styles.metaGrid}>
-                    {metaEntries.slice(0, 6).map(([k, v]) => (
-                      <div key={k} className={styles.metaItem}>
-                        <span>{k.replace(/_/g, " ")}</span>
-                        <strong>{String(v)}</strong>
+                  <div className={styles.overviewInner}>
+                    {"opening_crawl" in data && (
+                      <div className={styles.crawlBlock}>
+                        <div className={styles.crawlLabel}>
+                          Mission Brief
+                        </div>
+                        <p className={styles.crawlText}>
+                          {data.opening_crawl}
+                        </p>
                       </div>
-                    ))}
+                    )}
+
+                    <div className={styles.metaGrid}>
+                      {metaEntries.slice(0, 6).map(([k, v]) => (
+                        <div key={k} className={styles.metaItem}>
+                          <div className={styles.metaLabel}>
+                            {k.replace(/_/g, " ")}
+                          </div>
+                          <div className={styles.metaValue}>
+                            {String(v)}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
               )}
@@ -166,7 +172,6 @@ export default function DetailsPage({ category, data }: Props) {
               {/* RELATIONS */}
               {tab === "relations" && (
                 <div className={styles.relations}>
-                  {/* VIEW TOGGLE */}
                   <div className={styles.viewToggle}>
                     <button
                       onClick={() => setView("list")}
@@ -206,7 +211,6 @@ export default function DetailsPage({ category, data }: Props) {
                               <button
                                 key={url}
                                 className={styles.chip}
-                                data-type={relCategory}
                                 onClick={() =>
                                   router.push(`/${relCategory}/${id}`)
                                 }
@@ -235,7 +239,6 @@ export default function DetailsPage({ category, data }: Props) {
             </div>
           </section>
         </div>
-      </ContentContainer>
     </PageWrapper>
   );
 }

@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { HoloHeader } from "@/ui/HoloHeader";
 import { PageWrapper } from "@/features/layout";
-import ContentContainer from "@/features/layout/components/ContentContainer";
 import { useSwapi } from "@/hooks/data/useSwapi";
 import { setNavContext } from "@/lib/navigation/navigationContext";
 import styles from "../styles/StarshipsDashboard.module.css";
@@ -159,7 +158,6 @@ export default function StarshipsDashboard() {
 
   return (
     <PageWrapper>
-      <ContentContainer>
         <div className={styles.page}>
           <HoloHeader
             category="starships"
@@ -296,7 +294,6 @@ export default function StarshipsDashboard() {
             </aside>
           </section>
         </div>
-      </ContentContainer>
     </PageWrapper>
   );
 }

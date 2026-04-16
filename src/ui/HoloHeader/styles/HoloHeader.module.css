@@ -6,6 +6,8 @@
   position: relative;
   display: grid;
   padding: 12px 22px 24px;
+  background: var(--bg-panel);
+  border-bottom: 1px solid var(--border-subtle);
 }
 
 /* ================= CONTEXT ROW ================= */

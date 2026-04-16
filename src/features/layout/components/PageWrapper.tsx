@@ -1,28 +1,18 @@
 "use client";
 
-import React from "react";
-import { Navigation } from "@/features/navigation";
-import { CartographyBackground } from "@/features/cartography";
 import styles from "../styles/PageWrapper.module.css";
 
 type Props = {
   children: React.ReactNode;
+  wide?: boolean;     // for dashboards / timeline
 };
 
-export default function PageWrapper({
-  children,
-}: Props) {
-
+export const PageWrapper = ({ children, wide }: Props) => {
   return (
-    <div className={styles.page}>
-      {/* Navigation always stays on top */}
-      <Navigation />
-      {/* Cartography background */}
-      <CartographyBackground />
-      {/* Main page content */}
-      <main className={styles.content}>        
-          {children}     
-      </main>
+    <div className={styles.root}>
+      <div className={`${styles.container} ${wide ? styles.wide : ""}`}>
+        {children}
+      </div>
     </div>
   );
-}
+};

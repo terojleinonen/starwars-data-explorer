@@ -1,54 +1,23 @@
-/* =====================================================
-   ROOT PAGE
-===================================================== */
-
-.page{
-  position:relative;
-  min-height:100vh;
-  width:100%;
-  overflow-x:hidden;
+.root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-/* =====================================================
-   BACKGROUND LAYER
-===================================================== */
+/* DEFAULT CONTENT WIDTH */
+.container {
+  width: 100%;
+  max-width: 1400px;
+  padding-top: 78px;
 
-.background{
-  position:fixed;
-  inset:0;
-  z-index:0;
-  pointer-events:none;
+  padding-left: clamp(16px, 4vw, 40px);
+  padding-right: clamp(16px, 4vw, 40px);
+
+  display: grid;
+  gap: clamp(20px, 3vw, 32px);
 }
 
-/* =====================================================
-   CONTENT LAYER
-===================================================== */
-
-.content{
-  position:relative;
-  z-index:10;
-  width:100%;
-  min-height:100vh;
-  padding-top:66px; /* space for navigation */
-}
-
-/* =====================================================
-   PAGE WIDTH CONTROL
-===================================================== */
-
-.content > *{
-  width:100%;
-}
-
-/* =====================================================
-   MOBILE
-===================================================== */
-
-@media (max-width:720px){
-  .page{
-    padding-top: 66px;
-  }
-  .content{
-    padding-top:66px;
-  }
+/* WIDE MODE (dashboards / films) */
+.wide {
+  max-width: 1440px;
 }
