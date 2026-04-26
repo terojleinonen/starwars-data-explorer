@@ -1,0 +1,38 @@
+.panel {
+  display: grid;
+  gap: 16px;
+}
+
+.metaGrid {
+  display: grid;
+  gap: 10px;
+}
+
+.metaGrid div {
+  padding: 10px;
+  border-radius: 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--border-subtle);
+
+  display: grid;
+}
+
+.metaGrid span {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+.metaGrid strong {
+  font-size: 14px;
+}
+
+.cta {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+}

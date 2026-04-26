@@ -1,0 +1,59 @@
+.card {
+  position: relative;
+  padding: 16px;
+  display: grid;
+  gap: 10px;
+}
+
+/* PLANET */
+
+.planet {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+
+  position: relative;
+
+  box-shadow:
+    inset -10px -20px 40px rgba(0,0,0,0.6),
+    inset 10px 10px 30px rgba(255,255,255,0.1),
+    0 10px 25px rgba(0,0,0,0.4);
+
+  transition: transform 0.3s ease;
+}
+
+.card:hover .planet {
+  transform: scale(1.05) rotate(2deg);
+}
+
+/* PLANET VARIANTS */
+
+.desert {
+  background:
+    radial-gradient(circle at 30% 30%, #f5d28c, #c79b4b 60%, #6a4b1f);
+}
+
+.ice {
+  background:
+    radial-gradient(circle at 30% 30%, #e8f6ff, #9cc7e6 60%, #3b6b8a);
+}
+
+.lava {
+  background:
+    radial-gradient(circle at 30% 30%, #ff7a3c, #8a1f00 70%, #1a0000);
+}
+
+.forest {
+  background:
+    radial-gradient(circle at 30% 30%, #5fae6e, #2e6b3f 60%, #0b2a16);
+}
+
+.lush {
+  background:
+    radial-gradient(circle at 30% 30%, #6fb1ff, #2a6ed1 60%, #0b1f3f);
+}
+
+.default {
+  background:
+    radial-gradient(circle at 30% 30%, #aaa, #555 60%, #111);
+}

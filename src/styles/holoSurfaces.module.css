@@ -1,24 +1,119 @@
-.surface {
-  background: var(--bg-glass);
-  backdrop-filter: blur(var(--blur-glass));
-  border: 1px solid var(--border-subtle);
-  box-shadow: var(--shadow-soft);
-  border-radius: 18px;
+/* =========================
+   BASE TOKENS
+========================= */
+
+
+/* =========================
+   CARD SURFACE
+========================= */
+
+.card {
+  border-radius: var(--radius-md);
+
+  background:
+    linear-gradient(180deg, var(--bg-dark-1), var(--bg-dark-2));
+
+  border: 1px solid var(--border-soft);
+
+  backdrop-filter: var(--blur-md);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.05),
+    0 12px 30px rgba(0,0,0,0.2);
+
+  transition: all 0.25s ease;
 }
 
-.surfaceStrong {
-  background: var(--bg-elevated);
-  backdrop-filter: blur(var(--blur-glass));
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--border-strong);
+}
+
+.cardActive {
+  border-color: rgba(255,216,94,0.5);
+
+  box-shadow:
+    0 0 12px rgba(255,216,94,0.25),
+    0 0 40px rgba(255,216,94,0.15);
+}
+
+/* =========================
+   PANEL SURFACE (HERO)
+========================= */
+
+.panel {
+  border-radius: var(--radius-lg);
+
+  background:
+    linear-gradient(180deg, var(--bg-dark-1), var(--bg-dark-2));
+
   border: 1px solid var(--border-strong);
-  box-shadow: var(--shadow-strong);
-  border-radius: 22px;
+
+  backdrop-filter: var(--blur-lg);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.05),
+    0 24px 60px rgba(0,0,0,0.3);
+
+  padding: 20px;
 }
 
-.surfaceHover {
-  transition: all 0.2s ease;
+/* =========================
+   STATS SURFACE
+========================= */
+
+.stat {
+  padding: 12px 14px;
+  border-radius: 12px;
+
+  background: rgba(120,190,255,0.06);
+  border: 1px solid rgba(120,190,255,0.12);
 }
 
-.surfaceHover:hover {
-  background: var(--hover-bg);
-  transform: translateY(-2px);
+/* =========================
+   TYPOGRAPHY
+========================= */
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255,216,94,0.8);
+}
+
+.meta {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.value {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* =========================
+   LIGHT THEME
+========================= */
+
+:global(.light) .card {
+  background:
+    linear-gradient(180deg, var(--bg-light-1), var(--bg-light-2));
+
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+:global(.light) .panel {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.85), rgba(245,248,252,0.95));
+
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+:global(.light) .stat {
+  background: rgba(0,0,0,0.04);
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+:global(.light) .meta {
+  color: rgba(0,0,0,0.6);
 }
