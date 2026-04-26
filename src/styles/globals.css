@@ -28,6 +28,13 @@
 
   /* INTERACTION */
   --hover-bg: rgba(0, 0, 0, 0.04);
+  
+
+  --radius-lg: 20px;
+  --radius-md: 14px;
+
+  --border-subtle: rgba(120,190,255,0.15);
+  --accent: #78beff;
 }
 
 /* =========================

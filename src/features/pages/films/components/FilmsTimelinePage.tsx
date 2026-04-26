@@ -29,8 +29,10 @@ function year(date: string) {
 export default function FilmsTimelinePage() {
   const router = useRouter();
   const { data } = useSwapi("films");
-  const records = (data?.results ?? []) as Film[];
-
+  const records = useMemo(
+      () => (data?.results ?? []) as Film[],
+      [data]
+    );
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   /* ===== PARALLAX ===== */
@@ -46,11 +48,8 @@ export default function FilmsTimelinePage() {
     return [...records].sort((a, b) => a.episode_id - b.episode_id);
   }, [records]);
 
-  useEffect(() => {
-    if (films.length && !selectedId) {
-      setSelectedId(extractId(films[0].url));
-    }
-  }, [films, selectedId]);
+  const effectiveSelectedId =
+  selectedId ?? (films.length ? extractId(films[0].url) : null);
 
   useEffect(() => {
     const handleMove = (e: MouseEvent) => {
@@ -80,7 +79,9 @@ export default function FilmsTimelinePage() {
     };
   }, []);
 
-  const selected = films.find(f => extractId(f.url) === selectedId);
+  const selected = films.find(
+    (f) => extractId(f.url) === effectiveSelectedId
+  );
 
   return (
     <PageWrapper>

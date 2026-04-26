@@ -4,33 +4,30 @@ import { useMemo } from "react";
 import { useSwapi } from "@/hooks/data/useSwapi";
 
 import UnifiedDashboard from "@/features/dashboard/components/UnifiedDashboard";
-import { createStarshipsConfig } from "../config/starships.config";
+import { createVehiclesConfig } from "../config/vehicles.config";
 
-type Starship = {
+type Vehicle = {
   name: string;
   model: string;
   manufacturer: string;
-  starship_class: string;
+  vehicle_class: string;
   crew: string;
   passengers: string;
-  cargo_capacity: string;
-  max_atmosphering_speed: string;
-  hyperdrive_rating: string;
-  MGLT: string;
   cost_in_credits: string;
+  max_atmosphering_speed: string;
   url: string;
 };
 
-export default function StarshipsDashboard() {
-  const { data } = useSwapi("starships");
+export default function VehiclesDashboard() {
+  const { data } = useSwapi("vehicles");
 
   const records = useMemo(
-    () => ((data?.results ?? []) as Starship[]),
+    () => ((data?.results ?? []) as Vehicle[]),
     [data]
   );
 
   const config = useMemo(
-    () => createStarshipsConfig(records),
+    () => createVehiclesConfig(records),
     [records]
   );
 

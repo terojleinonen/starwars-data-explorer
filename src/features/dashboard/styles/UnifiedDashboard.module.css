@@ -1,0 +1,42 @@
+.page {
+  display: grid;
+  gap: 20px;
+}
+
+/* MAIN LAYOUT */
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 20px;
+}
+
+/* GRID */
+
+.grid {
+  display: grid;
+  gap: 14px;
+
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+
+/* PANEL */
+
+.panel {
+  position: sticky;
+  top: 100px;
+
+  height: fit-content;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .panel {
+    position: static;
+  }
+}

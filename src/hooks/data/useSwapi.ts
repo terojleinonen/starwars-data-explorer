@@ -1,89 +1,126 @@
-// FILE: useSwapi.ts
-// Strict TypeScript SWAPI fetcher with caching, loading, error states.
+"use client";
 
-import { useEffect, useState } from "react";
-import type { SwapiItem } from "@/lib/swapi/swapiTypes";
+import { useEffect, useMemo, useRef, useState } from "react";
 
-// ----- Strict SWAPI types -----
-export interface SwapiListResponse<T> {
+/* =========================
+   TYPES
+========================= */
+
+export type SwapiResponse<T> = {
   count: number;
+  results: T[];
   next: string | null;
   previous: string | null;
-  results: T[];
-}
+};
 
-// Generic SWAPI item type
-export type SwapiData = Record<string, any>;
-
-// Hook return structure
-export interface UseSwapiResult<T> {
-  data: T | null;
+type UseSwapiResult<T> = {
+  data: SwapiResponse<T> | null;
   loading: boolean;
   error: string | null;
-  refetch: () => Promise<void>;
-}
+};
 
-// ----- Simple in-memory cache -----
-const swapiCache = new Map<string, unknown>();
+/* =========================
+   GLOBAL CACHE + DEDUPE
+========================= */
 
-// Base URL for SWAPI
-const BASE_URL = "https://swapi.py4e.com/api";
+const cache = new Map<string, unknown>();
+const inflight = new Map<string, Promise<unknown>>();
 
-export function useSwapi<T extends SwapiData>(endpoint: string): UseSwapiResult<T> {
-  const url = `${BASE_URL}/${endpoint}`;
+/* =========================
+   HOOK
+========================= */
 
-  const [data, setData] = useState<T | null>(null);
-  const [loading, setLoading] = useState<boolean>(true);
+export function useSwapi<T>(category: string): UseSwapiResult<T> {
+  const [data, setData] = useState<SwapiResponse<T> | null>(null);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchData = async () => {
-    try {
+  const mountedRef = useRef(true);
+
+  const url = useMemo(() => `/api/swapi/${category}`, [category]);
+
+  useEffect(() => {
+    mountedRef.current = true;
+
+    async function load() {
       setLoading(true);
       setError(null);
 
-      // use cached response if available
-      if (swapiCache.has(url)) {
-        setData(swapiCache.get(url) as T);
-        setLoading(false);
+      /* ===== CACHE HIT ===== */
+      if (cache.has(url)) {
+        if (mountedRef.current) {
+          setData(cache.get(url) as SwapiResponse<T>);
+          setLoading(false);
+        }
         return;
       }
 
-      // Fetch all pages by following pagination chain
-      const allResults: any[] = [];
-      let nextUrl: string | null = url;
+      /* ===== INFLIGHT DEDUPE ===== */
+      const existing = inflight.get(url);
+      if (existing) {
+        try {
+          const result = await existing;
 
-      while (nextUrl) {
-        const response = await fetch(nextUrl);
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          if (mountedRef.current) {
+            setData(result as SwapiResponse<T>);
+            setLoading(false);
+          }
 
-        const json = (await response.json()) as any;
-        allResults.push(...(json.results ?? []));
-        nextUrl = json.next; // Follow pagination to next page
+          return;
+        } catch (err) {
+          if (mountedRef.current) {
+            setError(
+              err instanceof Error ? err.message : "Unknown error"
+            );
+            setLoading(false);
+          }
+          return;
+        }
       }
 
-      // Create response object with all results
-      const completeData = {
-        count: allResults.length,
-        results: allResults,
-        next: null,
-        previous: null,
-      } as unknown as T;
+      /* ===== NEW REQUEST ===== */
+      const request = fetch(url)
+        .then((res) => {
+          if (!res.ok) {
+            throw new Error(`Request failed: ${res.status}`);
+          }
+          return res.json();
+        })
+        .then((json) => {
+          cache.set(url, json);
+          return json;
+        })
+        .finally(() => {
+          inflight.delete(url);
+        });
 
-      swapiCache.set(url, completeData);
-      setData(completeData);
-    } catch (err: unknown) {
-      const message = err instanceof Error ? err.message : "Unknown error";
-      setError(message);
-    } finally {
-      setLoading(false);
+      inflight.set(url, request);
+
+      try {
+        const result = await request;
+
+        if (mountedRef.current) {
+          setData(result as SwapiResponse<T>);
+        }
+      } catch (err) {
+        if (mountedRef.current) {
+          setError(
+            err instanceof Error ? err.message : "Unknown error"
+          );
+        }
+      } finally {
+        if (mountedRef.current) {
+          setLoading(false);
+        }
+      }
     }
-  };
 
-  // Initial fetch
-  useEffect(() => {
-    fetchData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [endpoint]);
+    load();
 
-  return { data, loading, error, refetch: fetchData };
+    return () => {
+      mountedRef.current = false;
+    };
+  }, [url]);
+
+  return { data, loading, error };
 }
