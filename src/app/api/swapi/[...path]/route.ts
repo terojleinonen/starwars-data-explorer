@@ -23,18 +23,17 @@ const inflight = new Map<
 
 async function fetchJson(url: string) {
   const res = await fetch(url, {
-    next: {
-      revalidate: 21600,
-    },
+    next: { revalidate: 21600 },
     headers: {
-      Accept: "application/json",
+      Accept: "application/json,text/plain,*/*",
+      "User-Agent":
+        "Mozilla/5.0 (compatible; StarwarsExplorer/1.0; +https://vercel.app)",
+      Referer: "https://swapi.py4e.com/",
     },
   });
 
   if (!res.ok) {
-    throw new Error(
-      `SWAPI ${res.status}: ${url}`
-    );
+    throw new Error(`SWAPI ${res.status}: ${url}`);
   }
 
   return res.json();
