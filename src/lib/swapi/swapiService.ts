@@ -37,21 +37,39 @@ export async function getCategory(category: string) {
   return allRecords;
 }
 
-export async function getRecord(category: string, id: string) {
-  try {
-    const res = await fetch(
-      `${BASE_URL}/${category}/${id}/`,
-      { cache: "no-store" }
+export async function getRecord(
+  category: string,
+  id: string
+) {
+  const url =
+    `${BASE_URL}/${category}/${id}/`;
+
+  const res = await fetch(url, {
+    cache: "no-store",
+  });
+
+  const text = await res.text();
+
+  console.log(
+    "SWAPI URL:",
+    url
+  );
+
+  console.log(
+    "SWAPI STATUS:",
+    res.status
+  );
+
+  console.log(
+    "SWAPI RESPONSE:",
+    text.slice(0, 300)
+  );
+
+  if (!res.ok) {
+    throw new Error(
+      `SWAPI ${res.status}`
     );
-
-    if (!res.ok) throw new Error("py4e failed");
-
-    return res.json();
-  } catch {
-    const res = await fetch(
-      `${BASE_URL}/${category}/${id}/`
-    );
-
-    return res.json();
   }
+
+  return JSON.parse(text);
 }
