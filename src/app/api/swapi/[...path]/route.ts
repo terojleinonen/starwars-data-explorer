@@ -5,65 +5,53 @@ type CacheEntry = {
   expiresAt: number;
 };
 
-const TTL_MS = 1000 * 60 * 10;
-const RATE_WINDOW_MS = 1000 * 60;
-const MAX_REQUESTS_PER_WINDOW = 60;
+const SWAPI_BASE =
+  "https://swapi.py4e.com/api";
 
-const cache = new Map<string, CacheEntry>();
-const inflight = new Map<string, Promise<unknown>>();
+const CACHE_TTL =
+  1000 * 60 * 60 * 6; // 6h
 
-let windowStart = Date.now();
-let requestCount = 0;
+const cache = new Map<
+  string,
+  CacheEntry
+>();
 
-function normalizeWindow() {
-  const now = Date.now();
-
-  if (now - windowStart > RATE_WINDOW_MS) {
-    windowStart = now;
-    requestCount = 0;
-  }
-}
-
-function rateLimited() {
-  normalizeWindow();
-  requestCount += 1;
-  return requestCount > MAX_REQUESTS_PER_WINDOW;
-}
+const inflight = new Map<
+  string,
+  Promise<unknown>
+>();
 
 async function fetchJson(url: string) {
   const res = await fetch(url, {
+    next: {
+      revalidate: 21600,
+    },
     headers: {
       Accept: "application/json",
     },
-    next: { revalidate: 600 },
   });
 
   if (!res.ok) {
-    throw new Error(`Upstream failed: ${res.status}`);
+    throw new Error(
+      `SWAPI ${res.status}: ${url}`
+    );
   }
 
   return res.json();
 }
 
-async function fetchWithFallback(path: string) {
-  const primary = `https://swapi.py4e.com/api/${path}`;
-  const fallback = `https://swapi.dev/api/${path}`;
-
-  try {
-    return await fetchJson(primary);
-  } catch {
-    return fetchJson(fallback);
-  }
-}
-
-async function fetchAllPages(path: string) {
+async function fetchCategory(
+  category: string
+) {
   let nextUrl =
-    `https://swapi.py4e.com/api/${path}`;
+    `${SWAPI_BASE}/${category}/`;
 
   const results: unknown[] = [];
 
   while (nextUrl) {
-    const page = await fetchJson(nextUrl);
+    const page = await fetchJson(
+      nextUrl
+    );
 
     results.push(
       ...(page.results ?? [])
@@ -80,87 +68,138 @@ async function fetchAllPages(path: string) {
   };
 }
 
+async function fetchRecord(
+  category: string,
+  id: string
+) {
+  return fetchJson(
+    `${SWAPI_BASE}/${category}/${id}/`
+  );
+}
+
 export async function GET(
   _req: NextRequest,
-  context: { params: Promise<{ path: string[] }> }
+  context: {
+    params: Promise<{
+      path: string[];
+    }>;
+  }
 ) {
-  const { path } = await context.params;
-  const joinedPath = path.join("/");
-
-  if (!joinedPath) {
-    return NextResponse.json({ error: "Missing path" }, { status: 400 });
-  }
-
-  const key = joinedPath;
-  const now = Date.now();
-
-  const cached = cache.get(key);
-  if (cached && cached.expiresAt > now) {
-    return NextResponse.json(cached.data, {
-      headers: {
-        "X-Cache": "HIT",
-      },
-    });
-  }
-
-  if (rateLimited()) {
-    return NextResponse.json(
-      { error: "Rate limit exceeded" },
-      { status: 429 }
-    );
-  }
-
-  const existing = inflight.get(key);
-  if (existing) {
-    try {
-      const data = await existing;
-      return NextResponse.json(data, {
-        headers: {
-          "X-Cache": "DEDUPED",
-        },
-      });
-    } catch (error) {
-        console.error("SWAPI route error:", error);
-
-        return NextResponse.json(
-          {
-            error: "Upstream fetch failed",
-            details:
-            error instanceof Error
-            ? error.message
-            : String(error),
-          },
-          { status: 502 }
-        );
-      }
-  }
-
-  const promise =
-    path.length === 1
-      ? fetchAllPages(joinedPath)
-      : fetchWithFallback(joinedPath);
-
-  inflight.set(key, promise);
-
   try {
-    const data = await promise;
+    const { path } =
+      await context.params;
+
+    if (
+      !path ||
+      path.length === 0
+    ) {
+      return NextResponse.json(
+        {
+          error:
+            "Missing route path",
+        },
+        {
+          status: 400,
+        }
+      );
+    }
+
+    const key = path.join("/");
+
+    const now = Date.now();
+
+    const cached =
+      cache.get(key);
+
+    if (
+      cached &&
+      cached.expiresAt > now
+    ) {
+      return NextResponse.json(
+        cached.data,
+        {
+          headers: {
+            "X-Cache": "HIT",
+          },
+        }
+      );
+    }
+
+    const existing =
+      inflight.get(key);
+
+    if (existing) {
+      const data =
+        await existing;
+
+      return NextResponse.json(
+        data,
+        {
+          headers: {
+            "X-Cache":
+              "DEDUPED",
+          },
+        }
+      );
+    }
+
+    const promise =
+      path.length === 1
+        ? fetchCategory(
+            path[0]
+          )
+        : fetchRecord(
+            path[0],
+            path[1]
+          );
+
+    inflight.set(
+      key,
+      promise
+    );
+
+    const data =
+      await promise;
 
     cache.set(key, {
       data,
-      expiresAt: now + TTL_MS,
+      expiresAt:
+        now + CACHE_TTL,
     });
 
-    return NextResponse.json(data, {
-      headers: {
-        "X-Cache": "MISS",
-      },
-    });
-  } catch {
     return NextResponse.json(
-      { error: "Upstream fetch failed" },
-      { status: 502 }
+      data,
+      {
+        headers: {
+          "X-Cache": "MISS",
+        },
+      }
+    );
+  } catch (error) {
+    console.error(
+      "SWAPI API route failed:",
+      error
+    );
+
+    return NextResponse.json(
+      {
+        error:
+          "Upstream fetch failed",
+        details:
+          error instanceof Error
+            ? error.message
+            : String(error),
+      },
+      {
+        status: 502,
+      }
     );
   } finally {
-    inflight.delete(key);
+    const { path } =
+      await context.params;
+
+    inflight.delete(
+      path.join("/")
+    );
   }
 }
