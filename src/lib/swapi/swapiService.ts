@@ -41,28 +41,19 @@ export async function getRecord(
   category: string,
   id: string
 ) {
-  const url =
-    `${BASE_URL}/${category}/${id}/`;
-
-  const res = await fetch(url, {
-    cache: "no-store",
-  });
-
-  const text = await res.text();
-
-  console.log(
-    "SWAPI URL:",
-    url
-  );
-
-  console.log(
-    "SWAPI STATUS:",
-    res.status
-  );
-
-  console.log(
-    "SWAPI RESPONSE:",
-    text.slice(0, 300)
+  const res = await fetch(
+    `${BASE_URL}/${category}/${id}/`,
+    {
+      cache: "no-store",
+      headers: {
+        Accept:
+          "application/json,text/plain,*/*",
+        "User-Agent":
+          "Mozilla/5.0 (compatible; StarwarsExplorer/1.0)",
+        Referer:
+          "https://swapi.py4e.com/",
+      },
+    }
   );
 
   if (!res.ok) {
@@ -71,5 +62,5 @@ export async function getRecord(
     );
   }
 
-  return JSON.parse(text);
+  return res.json();
 }
