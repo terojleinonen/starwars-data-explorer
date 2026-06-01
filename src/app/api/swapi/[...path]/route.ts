@@ -56,6 +56,30 @@ async function fetchWithFallback(path: string) {
   }
 }
 
+async function fetchAllPages(path: string) {
+  let nextUrl =
+    `https://swapi.py4e.com/api/${path}`;
+
+  const results: unknown[] = [];
+
+  while (nextUrl) {
+    const page = await fetchJson(nextUrl);
+
+    results.push(
+      ...(page.results ?? [])
+    );
+
+    nextUrl = page.next;
+  }
+
+  return {
+    count: results.length,
+    results,
+    next: null,
+    previous: null,
+  };
+}
+
 export async function GET(
   _req: NextRequest,
   context: { params: Promise<{ path: string[] }> }
@@ -103,7 +127,10 @@ export async function GET(
     }
   }
 
-  const promise = fetchWithFallback(joinedPath);
+  const promise =
+    path.length === 1
+      ? fetchAllPages(joinedPath)
+      : fetchWithFallback(joinedPath);
 
   inflight.set(key, promise);
 

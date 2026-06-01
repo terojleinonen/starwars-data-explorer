@@ -1,55 +1,405 @@
 .panel {
+  position: relative;
+
   display: grid;
-  gap: 16px;
+  gap: 20px;
+
+  padding: 22px;
+
+  border-radius: 24px;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(18, 28, 48, 0.85),
+      rgba(8, 14, 24, 0.96)
+    );
+
+  border:
+    1px solid rgba(
+      120,
+      190,
+      255,
+      0.12
+    );
+
+  box-shadow:
+    0 20px 50px
+      rgba(0, 0, 0, 0.3),
+    inset 0 1px 0
+      rgba(255, 255, 255, 0.04);
 
   animation: fadeIn 0.4s ease;
 }
 
-.meta {
+.panel::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(
+        120,
+        190,
+        255,
+        0.12
+      ),
+      transparent 45%
+    );
+
+  pointer-events: none;
+}
+
+/* HERO */
+
+.hero {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.planetHero {
+  position: relative;
+
+  width: 180px;
+  height: 180px;
+
+  display: grid;
+  place-items: center;
+}
+
+.orbitRing {
+  position: absolute;
+
+  width: 160px;
+  height: 160px;
+
+  border-radius: 50%;
+
+  border: 1px solid
+    rgba(255, 255, 255, 0.15);
+
+  animation: rotate 20s linear infinite;
+}
+
+.planetSphere {
+  width: 110px;
+  height: 110px;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle at 30% 30%,
+      rgba(
+        255,
+        255,
+        255,
+        0.35
+      ),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle,
+      var(--planet-color),
+      #101827
+    );
+
+  box-shadow:
+    0 0 40px
+      var(--planet-glow),
+    inset -15px -15px 30px
+      rgba(0, 0, 0, 0.35);
+
+  animation:
+    float 6s ease-in-out infinite;
+}
+
+.eyebrow {
+  margin: 0;
+
+  font-size: 11px;
+
+  letter-spacing: 0.18em;
+
+  text-transform: uppercase;
+
+  color: var(--accent);
+}
+
+.title {
+  margin: 0;
+
+  font-size: 2rem;
+
+  line-height: 1.1;
+}
+
+.subtitle {
+  margin: 0;
+
+  color: var(--text-muted);
+
+  font-size: 14px;
+}
+
+/* METRICS */
+
+.metrics {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 12px;
+}
+
+.metricCard {
+  display: grid;
+  gap: 6px;
+
+  padding: 14px;
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(
+        255,
+        255,
+        255,
+        0.04
+      ),
+      rgba(
+        255,
+        255,
+        255,
+        0.01
+      )
+    );
+
+  border:
+    1px solid rgba(
+      120,
+      190,
+      255,
+      0.1
+    );
+}
+
+.metricCard span {
+  font-size: 11px;
+
+  letter-spacing: 0.1em;
+
+  text-transform: uppercase;
+
+  color: var(--text-muted);
+}
+
+.metricCard strong {
+  font-size: 1.2rem;
+}
+
+/* PROFILE */
+
+.profile {
   display: grid;
   gap: 10px;
 }
 
-.meta div {
-  padding: 10px;
-  border-radius: 12px;
+.spec {
+  display: grid;
+  gap: 4px;
+
+  padding: 14px;
+
+  border-radius: 16px;
 
   background: var(--surface-2);
-  border: 1px solid var(--border-subtle);
 
-  display: grid;
+  border:
+    1px solid
+    var(--border-subtle);
 }
 
-.meta span {
+.spec span {
   font-size: 11px;
-  opacity: 0.6;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+
+  color: var(--text-muted);
 }
 
-.meta strong {
-  font-size: 14px;
+.spec strong {
+  color: var(--text-primary);
 }
+
+/* CTA */
 
 .cta {
-  padding: 10px;
-  border-radius: 12px;
-  text-align: center;
+  height: 52px;
 
-  border: 1px solid var(--accent);
-  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 18px;
+
   text-decoration: none;
 
-  transition: all 0.2s ease;
+  font-weight: 600;
+
+  color: #ffe082;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(
+        255,
+        216,
+        94,
+        0.12
+      ),
+      rgba(
+        255,
+        216,
+        94,
+        0.04
+      )
+    );
+
+  border:
+    1px solid rgba(
+      255,
+      216,
+      94,
+      0.25
+    );
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .cta:hover {
   transform: translateY(-2px);
+
+  border-color:
+    rgba(
+      255,
+      216,
+      94,
+      0.4
+    );
+
+  box-shadow:
+    0 10px 24px
+      rgba(
+        255,
+        216,
+        94,
+        0.14
+      );
+}
+
+/* LIGHT THEME */
+
+:global([data-theme="light"])
+  .panel {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(
+        255,
+        255,
+        255,
+        0.9
+      ),
+      rgba(
+        245,
+        248,
+        252,
+        0.96
+      )
+    );
+
+  border:
+    1px solid
+    rgba(0, 0, 0, 0.08);
+}
+
+:global([data-theme="light"])
+  .metricCard {
+  background:
+    rgba(0, 0, 0, 0.03);
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .planetHero {
+    width: 140px;
+    height: 140px;
+  }
+
+  .orbitRing {
+    width: 130px;
+    height: 130px;
+  }
+
+  .planetSphere {
+    width: 90px;
+    height: 90px;
+  }
+
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ANIMATIONS */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform:
+      translateY(0px);
+  }
+
+  50% {
+    transform:
+      translateY(-8px);
+  }
 }
 
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform:
+      translateY(8px);
   }
+
   to {
     opacity: 1;
     transform: none;

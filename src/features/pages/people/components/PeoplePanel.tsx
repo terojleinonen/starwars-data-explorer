@@ -1,45 +1,112 @@
 import Link from "next/link";
 import styles from "../styles/PeoplePanel.module.css";
-
-type Person = {
-  name: string;
-  gender: string;
-  birth_year: string;
-  height: string;
-  mass: string;
-  url: string;
-};
+import { Person } from "@/types/swapi";
 
 function extractId(url: string) {
   return url.match(/\/(\d+)\/?$/)?.[1] ?? "";
 }
 
-export default function PeoplePanel({ person }: { person: Person }) {
+function displayValue(
+  value: string | undefined
+): string {
+  return !value ||
+    value === "unknown" ||
+    value === "n/a"
+    ? "Unknown"
+    : value;
+}
+
+export default function PeoplePanel({
+  person,
+}: {
+  person: Person;
+}) {
   return (
     <div className={styles.panel}>
-      <h2>{person.name}</h2>
+      {/* HERO */}
 
-      <div className={styles.metaGrid}>
-        <div>
-          <span>Gender</span>
-          <strong>{person.gender}</strong>
+      <div className={styles.hero}>
+        <div className={styles.avatar}>
+          {person.name.charAt(0)}
         </div>
-        <div>
+
+        <p className={styles.eyebrow}>
+          Personnel Dossier
+        </p>
+
+        <h2 className={styles.title}>
+          {person.name}
+        </h2>
+
+        <p className={styles.subtitle}>
+          {displayValue(person.gender)}
+        </p>
+      </div>
+
+      {/* METRICS */}
+
+      <div className={styles.metrics}>
+        <div className={styles.metricCard}>
           <span>Birth</span>
-          <strong>{person.birth_year}</strong>
+
+          <strong>
+            {displayValue(
+              person.birth_year
+            )}
+          </strong>
         </div>
-        <div>
+
+        <div className={styles.metricCard}>
           <span>Height</span>
-          <strong>{person.height}</strong>
+
+          <strong>
+            {displayValue(
+              person.height
+            )}
+          </strong>
         </div>
-        <div>
+
+        <div className={styles.metricCard}>
           <span>Mass</span>
-          <strong>{person.mass}</strong>
+
+          <strong>
+            {displayValue(
+              person.mass
+            )}
+          </strong>
         </div>
       </div>
 
+      {/* PROFILE */}
+
+      <div className={styles.profile}>
+        <div className={styles.spec}>
+          <span>Gender</span>
+
+          <strong>
+            {displayValue(
+              person.gender
+            )}
+          </strong>
+        </div>
+
+        <div className={styles.spec}>
+          <span>Birth Year</span>
+
+          <strong>
+            {displayValue(
+              person.birth_year
+            )}
+          </strong>
+        </div>
+      </div>
+
+      {/* CTA */}
+
       <Link
-        href={`/people/${extractId(person.url)}`}
+        href={`/people/${extractId(
+          person.url
+        )}`}
         className={styles.cta}
       >
         Open Full Record

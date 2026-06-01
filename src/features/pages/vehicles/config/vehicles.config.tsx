@@ -9,22 +9,7 @@ import {
 
 import VehicleCard from "../components/VehicleCard";
 import VehiclePanel from "../components/VehiclePanel";
-
-/* =========================
-   TYPES
-========================= */
-
-type Vehicle = {
-  name: string;
-  model: string;
-  manufacturer: string;
-  vehicle_class: string;
-  crew: string;
-  passengers: string;
-  cost_in_credits: string;
-  max_atmosphering_speed: string;
-  url: string;
-};
+import { Vehicle } from "@/types/swapi";
 
 /* =========================
    HELPERS
@@ -133,50 +118,42 @@ export function createVehiclesConfig(
     ),
 
     /* ===== STATS ===== */
-
-    renderStats: (all, visible) => {
-      const fastest =
-        all
-          .map((v) => ({
-            name: v.name,
-            speed: toNumber(v.max_atmosphering_speed),
-          }))
-          .sort((a, b) => b.speed - a.speed)[0];
-
-      const avgCrew =
-        Math.round(
-          all
-            .map((v) => toNumber(v.crew))
-            .filter((n) => n > 0)
-            .reduce((a, b) => a + b, 0) /
-            (all.length || 1)
-        ) || "—";
-
-      return (
-        <div style={{ display: "flex", gap: 12 }}>
-          <div>
-            <span>Total Units</span>
-            <strong>{all.length}</strong>
-          </div>
-
-          <div>
-            <span>Visible</span>
-            <strong>{visible.length}</strong>
-          </div>
-
-          <div>
-            <span>Fastest</span>
-            <strong>
-              {fastest ? `${fastest.name}` : "—"}
-            </strong>
-          </div>
-
-          <div>
-            <span>Avg Crew</span>
-            <strong>{avgCrew}</strong>
-          </div>
-        </div>
-      );
-    },
+    getStats: (records, filtered) => [
+      {
+        label: "Vehicles",
+        value: records.length,
+        hint: "Known vehicles",
+      },
+      {
+        label: "Average Speed",
+        value: Math.round(
+          filtered.reduce(
+            (sum, v) =>
+              sum + toNumber(v.max_atmosphering_speed),
+            0
+          ) / filtered.length
+        ),
+        hint: "Max atmosphering speed",
+      },
+      {
+        label: "Average Crew",
+        value: Math .round(
+          filtered.reduce((sum, v) => sum + toNumber(v.crew), 0) /
+          filtered.length
+        ),
+        hint: "Crew members",
+      },
+      {
+        label: "Average Cost",
+        value: Math.round(
+          filtered.reduce(
+            (sum, v) =>
+              sum + toNumber(v.cost_in_credits),
+            0
+          ) / filtered.length
+        ),
+        hint: "Cost in credits",
+      },
+    ],
   };
 }

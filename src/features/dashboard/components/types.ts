@@ -1,3 +1,10 @@
+export type DashboardStat = {
+  label: string;
+  value: string | number;
+  hint?: string;
+};
+
+
 export type FilterOptionBuilder<T> = {
   key: string;
   label: string;
@@ -32,5 +39,8 @@ export type DashboardConfig<T> = {
 
   renderPanel: (record: T) => React.ReactNode;
 
-  renderStats?: (all: T[], visible: T[]) => React.ReactNode;
+ getStats?: (
+  records: T[],
+  filtered: T[]
+) => DashboardStat[];
 };

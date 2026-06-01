@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { HoloHeader } from "@/ui/HoloHeader";
 import { PageWrapper } from "@/features/layout";
-import RelationGraph from "./RelationGraph";
 import styles from "../styles/DetailsPage.module.css";
 
 type Props = {
@@ -38,7 +37,6 @@ export default function DetailsPage({ category, data }: Props) {
   const [tab, setTab] = useState<Tab>("overview");
   const [view, setView] = useState<ViewMode>("list");
   const [relationsData, setRelationsData] = useState<Record<string, any>>({});
-
   const title = data?.title || data?.name || "Unknown";
 
   /* ===== RELATIONS ===== */
@@ -74,24 +72,6 @@ export default function DetailsPage({ category, data }: Props) {
 
     load();
   }, [relationEntries]);
-
-  /* ===== GRAPH ===== */
-
-  const graphNodes = useMemo(() => {
-  return Object.entries(relationsData)
-    .map(([url, d]) => {
-      const id = extractId(url);
-      const category = url.split("/api/")[1].split("/")[0];
-
-      return {
-        id,
-        category,
-        key: `${category}-${id}`, // ✅ unique
-        label: d?.name || d?.title || `#${id}`,
-      };
-    })
-    .slice(0, 12);
-}, [relationsData]);
 
   /* ===== META ===== */
 
@@ -172,25 +152,6 @@ export default function DetailsPage({ category, data }: Props) {
               {/* RELATIONS */}
               {tab === "relations" && (
                 <div className={styles.relations}>
-                  <div className={styles.viewToggle}>
-                    <button
-                      onClick={() => setView("list")}
-                      className={view === "list" ? styles.activeToggle : ""}
-                    >
-                      List
-                    </button>
-                    <button
-                      onClick={() => setView("graph")}
-                      className={view === "graph" ? styles.activeToggle : ""}
-                    >
-                      Graph
-                    </button>
-                  </div>
-
-                  {view === "graph" && graphNodes.length > 0 && (
-                    <RelationGraph title={title} nodes={graphNodes} />
-                  )}
-
                   {view === "list" &&
                     relationEntries.map(([key, urls]) => (
                       <div key={key} className={styles.relationGroup}>

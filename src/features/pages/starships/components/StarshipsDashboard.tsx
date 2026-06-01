@@ -5,21 +5,11 @@ import { useSwapi } from "@/hooks/data/useSwapi";
 
 import UnifiedDashboard from "@/features/dashboard/components/UnifiedDashboard";
 import { createStarshipsConfig } from "../config/starships.config";
+import { Starship } from "@/types/swapi";
 
-type Starship = {
-  name: string;
-  model: string;
-  manufacturer: string;
-  starship_class: string;
-  crew: string;
-  passengers: string;
-  cargo_capacity: string;
-  max_atmosphering_speed: string;
-  hyperdrive_rating: string;
-  MGLT: string;
-  cost_in_credits: string;
-  url: string;
-};
+/* =========================
+   DASHBOARD
+========================= */
 
 export default function StarshipsDashboard() {
   const { data } = useSwapi("starships");

@@ -17,52 +17,112 @@ function extractId(url: string): string {
   return url.match(/\/(\d+)\/?$/)?.[1] ?? "";
 }
 
-function displayValue(value: string | undefined): string {
-  return !value || value === "unknown" || value === "n/a" ? "Unknown" : value;
+function displayValue(
+  value: string | undefined
+): string {
+  return !value ||
+    value === "unknown" ||
+    value === "n/a"
+    ? "Unknown"
+    : value;
 }
 
-export default function VehiclePanel({ vehicle }: { vehicle: Vehicle }) {
+export default function VehiclePanel({
+  vehicle,
+}: {
+  vehicle: Vehicle;
+}) {
   return (
     <div className={styles.panel}>
-      <div className={styles.header}>
-        <p className={styles.eyebrow}>Selected Vehicle</p>
-        <h2>{vehicle.name}</h2>
+      {/* HERO */}
+
+      <div className={styles.hero}>
+        <div className={styles.glow} />
+
+        <p className={styles.eyebrow}>
+          Vehicle Dossier
+        </p>
+
+        <h2 className={styles.title}>
+          {vehicle.name}
+        </h2>
+
+        <p className={styles.subtitle}>
+          {displayValue(
+            vehicle.vehicle_class
+          )}
+        </p>
       </div>
 
-      <div className={styles.meta}>
-        <div>
-          <span>Model</span>
-          <strong>{displayValue(vehicle.model)}</strong>
-        </div>
+      {/* METRICS */}
 
-        <div>
-          <span>Class</span>
-          <strong>{displayValue(vehicle.vehicle_class)}</strong>
-        </div>
-
-        <div>
-          <span>Manufacturer</span>
-          <strong>{displayValue(vehicle.manufacturer)}</strong>
-        </div>
-
-        <div>
+      <div className={styles.metrics}>
+        <div className={styles.metricCard}>
           <span>Speed</span>
-          <strong>{displayValue(vehicle.max_atmosphering_speed)}</strong>
+          <strong>
+            {displayValue(
+              vehicle.max_atmosphering_speed
+            )}
+          </strong>
         </div>
 
-        <div>
+        <div className={styles.metricCard}>
           <span>Crew</span>
-          <strong>{displayValue(vehicle.crew)}</strong>
+          <strong>
+            {displayValue(vehicle.crew)}
+          </strong>
         </div>
 
-        <div>
+        <div className={styles.metricCard}>
           <span>Passengers</span>
-          <strong>{displayValue(vehicle.passengers)}</strong>
+          <strong>
+            {displayValue(
+              vehicle.passengers
+            )}
+          </strong>
         </div>
       </div>
+
+      {/* SPECIFICATIONS */}
+
+      <div className={styles.specs}>
+        <div className={styles.spec}>
+          <span>Model</span>
+
+          <strong>
+            {displayValue(vehicle.model)}
+          </strong>
+        </div>
+
+        <div className={styles.spec}>
+          <span>Cargo Capacity</span>
+
+          <strong>
+            {displayValue(
+              vehicle.cargo_capacity
+            )}
+          </strong>
+        </div>
+      </div>
+
+      {/* MANUFACTURER */}
+
+      <div className={styles.manufacturer}>
+        <span>Manufacturer</span>
+
+        <strong>
+          {displayValue(
+            vehicle.manufacturer
+          )}
+        </strong>
+      </div>
+
+      {/* CTA */}
 
       <Link
-        href={`/vehicles/${extractId(vehicle.url)}`}
+        href={`/vehicles/${extractId(
+          vehicle.url
+        )}`}
         className={styles.cta}
       >
         Open Full Record
