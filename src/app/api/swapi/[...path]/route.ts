@@ -119,12 +119,20 @@ export async function GET(
           "X-Cache": "DEDUPED",
         },
       });
-    } catch {
-      return NextResponse.json(
-        { error: "Upstream fetch failed" },
-        { status: 502 }
-      );
-    }
+    } catch (error) {
+        console.error("SWAPI route error:", error);
+
+        return NextResponse.json(
+          {
+            error: "Upstream fetch failed",
+            details:
+            error instanceof Error
+            ? error.message
+            : String(error),
+          },
+          { status: 502 }
+        );
+      }
   }
 
   const promise =
