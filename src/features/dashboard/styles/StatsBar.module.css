@@ -1,5 +1,6 @@
 .grid {
   display: grid;
+  z-index: 5;
 
   grid-template-columns:
     repeat(

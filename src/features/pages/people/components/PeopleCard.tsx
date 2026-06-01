@@ -1,5 +1,4 @@
 import styles from "../styles/PeopleCard.module.css";
-import surface from "@/styles/holoSurfaces.module.css";
 
 type Person = {
   name: string;

@@ -2,7 +2,6 @@
 
 import { DashboardConfig } from "@/features/dashboard/components/types";
 import { extractId, unique, toNumber } from "@/lib/dashboard/dashboardUtils";
-
 import PeopleCard from "../components/PeopleCard";
 import PeoplePanel from "../components/PeoplePanel";
 import { Person } from "@/types/swapi";

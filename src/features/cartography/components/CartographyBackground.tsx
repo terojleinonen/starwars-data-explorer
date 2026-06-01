@@ -67,7 +67,7 @@ function DarkLayer({ route }: { route: string }) {
 
       {route === "films" && <div className={styles.cinematicGlow} />}
       {route === "planets" && <div className={styles.orbitsDark} />}
-      {route === "starships" && <div className={styles.radar} />}
+      {route === "starships" && <div className={styles.gridDark} />}
       {route === "people" && <div className={styles.gridDark} />}
       {route === "detail" && <div className={styles.focusDark} />}
     </>
@@ -86,7 +86,7 @@ function LightLayer({ route }: { route: string }) {
       {route === "films" && <div className={styles.filmLight} />}
       {route === "planets" && <div className={styles.orbitsLight} />}
       {route === "people" && <div className={styles.gridLight} />}
-      {route === "starships" && <div className={styles.radarLight} />}
+      {route === "starships" && <div className={styles.gridLight} />}
       {route === "detail" && <div className={styles.focusLight} />}
     </>
   );

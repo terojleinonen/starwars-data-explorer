@@ -2,7 +2,6 @@
 
 import { useMemo } from "react";
 import { useSwapi } from "@/hooks/data/useSwapi";
-
 import UnifiedDashboard from "@/features/dashboard/components/UnifiedDashboard";
 import { createPeopleConfig } from "../config/people.config";
 
