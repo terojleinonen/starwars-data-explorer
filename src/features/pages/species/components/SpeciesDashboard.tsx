@@ -5,16 +5,11 @@ import { useSwapi } from "@/hooks/data/useSwapi";
 
 import UnifiedDashboard from "@/features/dashboard/components/UnifiedDashboard";
 import { createSpeciesConfig } from "../config/species.config";
+import { Species } from "@/types/swapi";
 
-type Species = {
-  name: string;
-  classification: string;
-  designation: string;
-  average_height: string;
-  average_lifespan: string;
-  language: string;
-  url: string;
-};
+/* =========================
+   DASHBOARD
+========================= */
 
 export default function SpeciesDashboard() {
   const { data } = useSwapi("species");

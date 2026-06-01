@@ -9,20 +9,7 @@ import {
 
 import SpeciesCard from "../components/SpeciesCard";
 import SpeciesPanel from "../components/SpeciesPanel";
-
-/* =========================
-   TYPES
-========================= */
-
-type Species = {
-  name: string;
-  classification: string;
-  designation: string;
-  average_height: string;
-  average_lifespan: string;
-  language: string;
-  url: string;
-};
+import { Species } from "@/types/swapi";
 
 /* =========================
    HELPERS
@@ -122,43 +109,34 @@ export function createSpeciesConfig(
 
     /* ===== STATS ===== */
 
-    renderStats: (all, visible) => {
-      const avgLifespan =
-        Math.round(
-          all
-            .map((s) => toNumber(s.average_lifespan))
-            .filter((n) => n > 0)
-            .reduce((a, b) => a + b, 0) /
-            (all.length || 1)
-        ) || "—";
-
-      const uniqueClasses = unique(
-        all.map((s) => s.classification)
-      ).length;
-
-      return (
-        <div style={{ display: "flex", gap: 12 }}>
-          <div>
-            <span>Total Species</span>
-            <strong>{all.length}</strong>
-          </div>
-
-          <div>
-            <span>Visible</span>
-            <strong>{visible.length}</strong>
-          </div>
-
-          <div>
-            <span>Classes</span>
-            <strong>{uniqueClasses}</strong>
-          </div>
-
-          <div>
-            <span>Avg Lifespan</span>
-            <strong>{avgLifespan}</strong>
-          </div>
-        </div>
-      );
-    },
+      getStats: (records, filtered) => [
+        {
+          label: "Species",
+          value: records.length,
+          hint: "Known species",
+        },
+        {
+          label: "Average Lifespan",
+          value: Math.round(
+            filtered
+              .map((s) => toNumber(s.average_lifespan))
+              .filter((n) => n > 0)
+              .reduce((a, b) => a + b, 0) /
+              (filtered.length || 1)
+          ) || "—",
+          hint: "After filters",
+        },
+        {
+          label: "Average Height",
+          value: Math.round(
+            filtered
+              .map((s) => toNumber(s.average_height))
+              .filter((n) => n > 0)
+              .reduce((a, b) => a + b, 0) /
+              (filtered.length || 1)
+          ) || "—",
+          hint: "After filters",
+        }
+      ],
   };
 }

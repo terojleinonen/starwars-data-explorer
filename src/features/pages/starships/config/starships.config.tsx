@@ -9,25 +9,7 @@ import {
 
 import StarshipCard from "../components/StarshipCard";
 import StarshipPanel from "../components/StarshipPanel";
-
-/* =========================
-   TYPES
-========================= */
-
-type Starship = {
-  name: string;
-  model: string;
-  manufacturer: string;
-  starship_class: string;
-  crew: string;
-  passengers: string;
-  cargo_capacity: string;
-  max_atmosphering_speed: string;
-  hyperdrive_rating: string;
-  MGLT: string;
-  cost_in_credits: string;
-  url: string;
-};
+import { Starship } from "@/types/swapi";
 
 /* =========================
    HELPERS
@@ -132,73 +114,57 @@ export function createStarshipsConfig(
     renderCard: (record, active, onSelect) => (
       <StarshipCard
         key={record.url}
-        starship={record}
+        ship={record}
         active={active}
         onClick={onSelect}
       />
     ),
 
     renderPanel: (record) => (
-      <StarshipPanel starship={record} />
+      <StarshipPanel ship={record} />
     ),
 
     /* ===== STATS ===== */
+    getStats: (records, filtered) => [
+      {
+        label: "Starships",
+        value: records.length,
+        hint: "Known starships",
+      },
+      {
+        label: "Average Speed",
+        value: Math.round(
+          filtered.reduce(
+            (sum, s) =>
+              sum + toNumber(s.max_atmosphering_speed),
+            0
+          ) / filtered.length
+        ),
+        hint: "Average max atmosphering speed",
+      },
+      {
+        label: "Average Hyperdrive",
+        value: Math.round(
+          filtered.reduce(
+            (sum, s) =>
+              sum + toNumber(s.hyperdrive_rating),
+            0
+          ) / filtered.length
+        ),
+        hint: "Average hyperdrive rating",
+      },
+      {
+        label: "Cargo Capacity",
+        value: Math.round(
+          filtered.reduce(
+            (sum, s) =>
+              sum + toNumber(s.cargo_capacity),
+            0
+          ) / filtered.length
+        ),
+        hint: "Average cargo capacity",
+      }
+    ],
 
-    renderStats: (all, visible) => {
-      const fastest =
-        all
-          .map((s) => ({
-            name: s.name,
-            speed: toNumber(s.max_atmosphering_speed),
-          }))
-          .sort((a, b) => b.speed - a.speed)[0];
-
-      const bestHyperdrive =
-        all
-          .map((s) => ({
-            name: s.name,
-            hyper: toNumber(s.hyperdrive_rating),
-          }))
-          .filter((s) => s.hyper > 0)
-          .sort((a, b) => a.hyper - b.hyper)[0];
-
-      const avgCargo =
-        Math.round(
-          all
-            .map((s) => toNumber(s.cargo_capacity))
-            .filter((n) => n > 0)
-            .reduce((a, b) => a + b, 0) /
-            (all.length || 1)
-        ) || "—";
-
-      return (
-        <div style={{ display: "flex", gap: 12 }}>
-          <div>
-            <span>Total Fleet</span>
-            <strong>{all.length}</strong>
-          </div>
-
-          <div>
-            <span>Visible</span>
-            <strong>{visible.length}</strong>
-          </div>
-
-          <div>
-            <span>Fastest</span>
-            <strong>{fastest?.name || "—"}</strong>
-          </div>
-
-          <div>
-            <span>Best Hyperdrive</span>
-            <strong>{bestHyperdrive?.name || "—"}</strong>
-          </div>
-
-          <div>
-            <span>Avg Cargo</span>
-            <strong>{avgCargo}</strong>
-          </div>
-        </div>
-      );
-    },
   };
 }

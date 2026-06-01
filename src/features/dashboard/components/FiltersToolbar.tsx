@@ -16,91 +16,99 @@ type SortOption = {
   value: string;
 };
 
+type Props = {
+  search: string;
+  onSearch: (value: string) => void;
+  filters?: FilterGroup[];
+  sort?: string;
+  onSortChange?: (value: string) => void;
+  sortOptions?: SortOption[];
+};
+
 export default function FiltersToolbar({
   search,
   onSearch,
-  filters,
+  filters = [],
   sort,
   onSortChange,
-  sortOptions,
-}: {
-  search: string;
-  onSearch: (v: string) => void;
-  filters: FilterGroup[];
-  sort: string;
-  onSortChange: (v: string) => void;
-  sortOptions: SortOption[];
-}) {
+  sortOptions = [],
+}: Props) {
   const [open, setOpen] = useState(false);
 
-  function toggleFilter(group: FilterGroup, option: string) {
-    const exists = group.value.includes(option);
+  const activeFilterCount = filters.reduce(
+    (sum, filter) => sum + filter.value.length,
+    0
+  );
 
-    const next = exists
-      ? group.value.filter((v) => v !== option)
+  function toggleFilter(group: FilterGroup, option: string) {
+    const next = group.value.includes(option)
+      ? group.value.filter((value) => value !== option)
       : [...group.value, option];
 
     group.onChange(next);
   }
 
   return (
-    <div className={styles.toolbar}>
-      {/* LEFT */}
-      <div className={styles.left}>
-        <input
-          value={search}
-          onChange={(e) => onSearch(e.target.value)}
-          placeholder="Search..."
-          className={styles.search}
-        />
+    <div className={styles.root}>
+      <div className={styles.bar}>
+        <div className={styles.searchWrap}>
+          <input
+            value={search}
+            onChange={(event) => onSearch(event.target.value)}
+            placeholder="Search archive..."
+            className={styles.search}
+          />
+        </div>
+
+        <div className={styles.controls}>
+          {sortOptions.length > 0 && onSortChange && (
+            <select
+              value={sort ?? ""}
+              onChange={(event) => onSortChange(event.target.value)}
+              className={styles.select}
+            >
+              {sortOptions.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          )}
+
+          {filters.length > 0 && (
+            <button
+              type="button"
+              className={styles.filterBtn}
+              onClick={() => setOpen((value) => !value)}
+              aria-expanded={open}
+            >
+              Filters
+              {activeFilterCount > 0 ? ` (${activeFilterCount})` : ""}
+            </button>
+          )}
+        </div>
       </div>
 
-      {/* RIGHT */}
-      <div className={styles.right}>
-        {/* SORT */}
-        <select
-          value={sort}
-          onChange={(e) => onSortChange(e.target.value)}
-          className={styles.sort}
-        >
-          {sortOptions.map((opt) => (
-            <option key={opt.value} value={opt.value}>
-              {opt.label}
-            </option>
-          ))}
-        </select>
-
-        {/* FILTER BUTTON */}
-        <button
-          className={styles.filterBtn}
-          onClick={() => setOpen((v) => !v)}
-        >
-          Filters
-        </button>
-      </div>
-
-      {/* POPOVER */}
-      {open && (
+      {open && filters.length > 0 && (
         <div className={styles.popover}>
           {filters.map((group) => (
             <div key={group.key} className={styles.group}>
-              <span className={styles.groupTitle}>
-                {group.label}
-              </span>
+              <span className={styles.groupTitle}>{group.label}</span>
 
-              <div className={styles.options}>
-                {group.options.map((opt) => {
-                  const active = group.value.includes(opt);
+              <div className={styles.chips}>
+                {group.options.map((option) => {
+                  const active = group.value.includes(option);
 
                   return (
                     <button
-                      key={opt}
-                      onClick={() => toggleFilter(group, opt)}
-                      className={`${styles.option} ${
-                        active ? styles.active : ""
+                      key={option}
+                      type="button"
+                      onClick={() => toggleFilter(group, option)}
+                      className={`${styles.chip} ${
+                        active ? styles.activeChip : ""
                       }`}
                     >
-                      {opt}
+                      {option}
                     </button>
                   );
                 })}

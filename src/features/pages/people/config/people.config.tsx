@@ -5,19 +5,7 @@ import { extractId, unique, toNumber } from "@/lib/dashboard/dashboardUtils";
 
 import PeopleCard from "../components/PeopleCard";
 import PeoplePanel from "../components/PeoplePanel";
-
-/* =========================
-   TYPES
-========================= */
-
-type Person = {
-  name: string;
-  height: string;
-  mass: string;
-  gender: string;
-  birth_year: string;
-  url: string;
-};
+import { Person } from "@/types/swapi";
 
 /* =========================
    CONFIG
@@ -93,34 +81,41 @@ export function createPeopleConfig(
 
     /* ===== STATS (OPTIONAL) ===== */
 
-    renderStats: (all, visible) => {
-      const avgHeight =
-        Math.round(
-          all
+    getStats: (records, filtered) => [
+      {
+        label: "Total",
+        value: records.length,
+        hint: "Archive entries",
+      },
+      {
+        label: "Average Height",
+        value: Math.round(
+          filtered
             .map((p) => toNumber(p.height))
             .filter((n) => n > 0)
             .reduce((a, b) => a + b, 0) /
-            (all.length || 1)
-        ) || "—";
-
-      return (
-        <div style={{ display: "flex", gap: 12 }}>
-          <div>
-            <span>Total</span>
-            <strong>{all.length}</strong>
-          </div>
-
-          <div>
-            <span>Visible</span>
-            <strong>{visible.length}</strong>
-          </div>
-
-          <div>
-            <span>Avg Height</span>
-            <strong>{avgHeight}</strong>
-          </div>
-        </div>
-      );
-    },
+            (filtered.length || 1)
+        ) || "—",
+        hint: "After filters",
+      },
+      {
+        label: "Average Mass",
+        value: Math.round(
+          filtered
+            .map((p) => toNumber(p.mass))
+            .filter((n) => n > 0)
+            .reduce((a, b) => a + b, 0) /
+            (filtered.length || 1)
+        ) || "—",
+        hint: "After filters",
+      },
+      {
+        label: "Male",
+        value: records.filter(
+          (p  ) => p.gender === "male"
+        ).length,
+        hint: "Male characters",
+      }
+    ],
   };
 }

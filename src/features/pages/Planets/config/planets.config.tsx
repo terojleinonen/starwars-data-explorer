@@ -115,46 +115,48 @@ export function createPlanetsConfig(
 
     /* ===== STATS ===== */
 
-    renderStats: (all, visible) => {
-      const avgPopulation =
-        Math.round(
-          all
-            .map((p) => toNumber(p.population))
+    getStats: (records, filtered) => [
+      {
+        label: "Worlds",
+        value: records.length,
+        hint: "Known planets",
+      },
+      {
+        label: "Average Diameter",
+        value: Math.round(
+          filtered
+            .map((p) => toNumber(p.diameter))
             .filter((n) => n > 0)
             .reduce((a, b) => a + b, 0) /
-            (all.length || 1)
-        ) || "—";
-
-      const habitable =
-        all.filter(
-          (p) =>
-            p.climate &&
-            !p.climate.includes("unknown")
-        ).length;
-
-      return (
-        <div style={{ display: "flex", gap: 12 }}>
-          <div>
-            <span>Total</span>
-            <strong>{all.length}</strong>
-          </div>
-
-          <div>
-            <span>Visible</span>
-            <strong>{visible.length}</strong>
-          </div>
-
-          <div>
-            <span>Habitable*</span>
-            <strong>{habitable}</strong>
-          </div>
-
-          <div>
-            <span>Avg Pop</span>
-            <strong>{avgPopulation}</strong>
-          </div>
-        </div>
-      );
-    },
+            (filtered.length || 1)
+        ) || "—",
+        hint: "After filters",
+      },
+      {
+        label: "Average Rotation",
+        value: Math.round(
+          filtered
+            .map((p) => toNumber(p.rotation_period))
+            .filter((n) => n > 0)
+            .reduce((a, b) => a + b, 0) /
+            (filtered.length || 1)
+        ) || "—",
+        hint: "After filters",
+      },
+      {
+        label: "Orbital Period",
+        value: records.filter(
+          p => p.orbital_period !== "0"
+        ).length,
+        hint: "Planets with known year length",
+      },
+      {
+        label: "Habitable",
+        value: records.filter(
+          p => p.population !== "0"
+        ).length,
+        hint: "Populated worlds",
+      },
+    ],
   };
 }

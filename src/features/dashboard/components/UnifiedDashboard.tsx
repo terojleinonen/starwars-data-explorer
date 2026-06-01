@@ -2,13 +2,12 @@
 
 import { useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-
 import { HoloHeader } from "@/ui/HoloHeader";
 import { PageWrapper } from "@/features/layout";
-
 import FiltersToolbar from "./FiltersToolbar";
 import { DashboardConfig } from "./types";
-
+import PaginationBar from "@/features/navigation/components/PaginationBar";
+import StatsBar from "./StatsBar";
 import styles from "../styles/UnifiedDashboard.module.css";
 
 export default function UnifiedDashboard<T>({
@@ -30,7 +29,6 @@ export default function UnifiedDashboard<T>({
     sorts = [],
     renderCard,
     renderPanel,
-    renderStats,
   } = config;
 
   /* =========================
@@ -39,9 +37,8 @@ export default function UnifiedDashboard<T>({
 
   const [search, setSearch] = useState(() => params.get("search") ?? "");
   const [sort, setSort] = useState(() => params.get("sort") ?? "");
-
+  const [page, setPage] = useState(() => Number(params.get("page") ?? "1"));
   const [selectedId, setSelectedId] = useState<string | null>(null);
-
   const [filterState, setFilterState] = useState<Record<string, string[]>>(
     () => {
       const initial: Record<string, string[]> = {};
@@ -52,6 +49,8 @@ export default function UnifiedDashboard<T>({
       return initial;
     }
   );
+
+  const PAGE_SIZE = 12;
 
   /* =========================
      FILTER OPTIONS
@@ -87,28 +86,48 @@ export default function UnifiedDashboard<T>({
   ========================= */
 
   const sorted = useMemo(() => {
-    const opt = sorts.find((s) => s.value === sort);
-    return opt ? [...filtered].sort(opt.compare) : filtered;
+  const opt = sorts.find((s) => s.value === sort);
+
+  return opt
+    ? [...filtered].sort(opt.compare)
+    : filtered;
   }, [filtered, sort, sorts]);
+
+  const totalPages = Math.max(
+    1,
+      Math.ceil(sorted.length / PAGE_SIZE)
+);
+
+  const currentPage = Math.min(page, totalPages);
+
+  const paginated = useMemo(() => {
+    const start = (currentPage - 1) * PAGE_SIZE;
+
+    return sorted.slice(
+      start,
+      start + PAGE_SIZE
+    );
+  }, [sorted, currentPage]);
 
   /* =========================
      SELECTION (NO EFFECT)
   ========================= */
 
   const effectiveSelectedId =
-    selectedId ?? (sorted.length ? extractId(sorted[0]) : null);
+    selectedId ??
+    (paginated.length? extractId(paginated[0]): null);
 
-  const selected = sorted.find(
+  const selected = paginated.find(
     (r) => extractId(r) === effectiveSelectedId
   );
 
   /* =========================
      URL SYNC
   ========================= */
-
   function updateUrl(next: {
     search?: string;
     sort?: string;
+    page?: number;
     filters?: Record<string, string[]>;
   }) {
     const q = new URLSearchParams();
@@ -131,19 +150,51 @@ export default function UnifiedDashboard<T>({
 
   function handleSearch(v: string) {
     setSearch(v);
-    updateUrl({ search: v, sort, filters: filterState });
+    setPage(1);
+
+    updateUrl({
+      search: v,
+      sort,
+      page: 1,
+      filters: filterState,
+    });
   }
 
   function handleSort(v: string) {
     setSort(v);
-    updateUrl({ search, sort: v, filters: filterState });
+    setPage(1);
+    updateUrl({ search, sort: v, page: 1, filters: filterState });
   }
 
-  function handleFilterChange(key: string, value: string[]) {
-    const next = { ...filterState, [key]: value };
-    setFilterState(next);
+  function handleFilterChange(
+    key: string,
+    value: string[]
+  ) {
+    const next = {
+      ...filterState,
+      [key]: value,
+    };
 
-    updateUrl({ search, sort, filters: next });
+    setFilterState(next);
+    setPage(1);
+
+    updateUrl({
+      search,
+      sort,
+      page: 1,
+      filters: next,
+    });
+  }
+
+  function handlePageChange(nextPage: number) {
+    setPage(nextPage);
+
+    updateUrl({
+      search,
+      sort,
+      page: nextPage,
+      filters: filterState,
+    });
   }
 
   /* =========================
@@ -160,7 +211,11 @@ export default function UnifiedDashboard<T>({
         />
 
         {/* STATS */}
-        {renderStats?.(records, sorted)}
+          <StatsBar
+            stats={
+              config.getStats?.(records, filtered) ?? []
+          }
+        />
 
         {/* TOOLBAR */}
         <FiltersToolbar
@@ -182,7 +237,7 @@ export default function UnifiedDashboard<T>({
         <div className={styles.layout}>
           {/* CARDS */}
           <div className={styles.grid}>
-            {sorted.map((r) => {
+            {paginated.map((r) => {
               const id = extractId(r);
               const active = id === effectiveSelectedId;
 
@@ -195,6 +250,12 @@ export default function UnifiedDashboard<T>({
             {selected && renderPanel(selected)}
           </div>
         </div>
+        {/* PAGINATION */}
+        <PaginationBar
+          page={currentPage}
+          totalPages={totalPages}
+          onChange={handlePageChange}
+        />
       </div>
     </PageWrapper>
   );
