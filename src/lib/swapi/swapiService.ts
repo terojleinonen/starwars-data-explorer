@@ -1,66 +1,63 @@
 const BASE_URL = "https://swapi.py4e.com/api";
 
-const cache = new Map<string, any>();
+const cache = new Map<string, any[]>();
+
+function extractId(url: string) {
+  return url.match(/\/(\d+)\/?$/)?.[1] ?? "";
+}
 
 export async function getCategory(category: string) {
-
-  const key = `category-${category}`;
-
-  if (cache.has(key)) {
-    return cache.get(key);
+  if (cache.has(category)) {
+    return cache.get(category)!;
   }
 
-  const allRecords: any[] = [];
-  let nextUrl = `${BASE_URL}/${category}/`;
+  const records: any[] = [];
+  let next = `${BASE_URL}/${category}/`;
 
-  try {
-    while (nextUrl) {
-      const res = await fetch(nextUrl, {
-        next: { revalidate: 86400 },
-      });
+  while (next) {
+    const res = await fetch(next, {
+      next: {
+        revalidate: 60 * 60 * 24,
+      },
+      headers: {
+        Accept: "application/json",
+        "User-Agent": "Galactic Archive",
+      },
+    });
 
-      if (!res.ok) {
-        console.error("SWAPI fetch failed:", res.status);
-        break;
-      }
-
-      const data = await res.json();
-      allRecords.push(...(data.results ?? []));
-      nextUrl = data.next; // Fetch next page if it exists
+    if (!res.ok) {
+      throw new Error(
+        `SWAPI ${res.status} (${category})`
+      );
     }
-  } catch (error) {
-    console.error("SWAPI pagination error:", error);
+
+    const json = await res.json();
+
+    records.push(...json.results);
+
+    next = json.next;
   }
 
-  cache.set(key, allRecords);
+  cache.set(category, records);
 
-  return allRecords;
+  return records;
 }
 
 export async function getRecord(
   category: string,
   id: string
 ) {
-  const res = await fetch(
-    `${BASE_URL}/${category}/${id}/`,
-    {
-      cache: "no-store",
-      headers: {
-        Accept:
-          "application/json,text/plain,*/*",
-        "User-Agent":
-          "Mozilla/5.0 (compatible; StarwarsExplorer/1.0)",
-        Referer:
-          "https://swapi.py4e.com/",
-      },
-    }
+  const records = await getCategory(category);
+
+  const record = records.find(
+    r => extractId(r.url) === id
   );
 
-  if (!res.ok) {
+  if (!record) {
     throw new Error(
-      `SWAPI ${res.status}`
+      `${category}/${id} not found`
     );
   }
 
-  return res.json();
+  return record;
 }

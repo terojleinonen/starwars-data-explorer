@@ -5,21 +5,13 @@ type CacheEntry = {
   expiresAt: number;
 };
 
-const SWAPI_BASE =
-  "https://swapi.py4e.com/api";
+const SWAPI_BASE =  "https://swapi.py4e.com/api";
 
-const CACHE_TTL =
-  1000 * 60 * 60 * 6; // 6h
+const CACHE_TTL =  1000 * 60 * 60 * 6; // 6h
 
-const cache = new Map<
-  string,
-  CacheEntry
->();
+const cache = new Map<string, CacheEntry>();
 
-const inflight = new Map<
-  string,
-  Promise<unknown>
->();
+const inflight = new Map<string, Promise<unknown>>();
 
 async function fetchJson(url: string) {
   const res = await fetch(url, {
@@ -145,12 +137,12 @@ export async function GET(
     const promise =
       path.length === 1
         ? fetchCategory(
-            path[0]
-          )
+          path[0]
+        )
         : fetchRecord(
-            path[0],
-            path[1]
-          );
+          path[0],
+          path[1]
+        );
 
     inflight.set(
       key,
