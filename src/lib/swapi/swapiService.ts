@@ -11,11 +11,9 @@ export async function getCategory(category: string) {
     return cache.get(category)!;
   }
 
-  const records: any[] = [];
-  let next = `${BASE_URL}/${category}/`;
-
-  while (next) {
-    const res = await fetch(next, {
+  const res = await fetch(
+    `${BASE_URL}/${category}`,
+    {
       next: {
         revalidate: 60 * 60 * 24,
       },
@@ -23,19 +21,21 @@ export async function getCategory(category: string) {
         Accept: "application/json",
         "User-Agent": "Galactic Archive",
       },
-    });
-
-    if (!res.ok) {
-      throw new Error(
-        `SWAPI ${res.status} (${category})`
-      );
     }
+  );
 
-    const json = await res.json();
+  if (!res.ok) {
+    throw new Error(
+      `SWAPI ${res.status} (${category})`
+    );
+  }
 
-    records.push(...json.results);
+  const records = await res.json();
 
-    next = json.next;
+  if (!Array.isArray(records)) {
+    throw new Error(
+      `Expected array for "${category}"`
+    );
   }
 
   cache.set(category, records);
@@ -50,7 +50,7 @@ export async function getRecord(
   const records = await getCategory(category);
 
   const record = records.find(
-    r => extractId(r.url) === id
+    (r) => extractId(r.url) === id
   );
 
   if (!record) {
