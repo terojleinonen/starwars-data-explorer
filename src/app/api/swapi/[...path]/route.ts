@@ -5,7 +5,7 @@ type CacheEntry = {
   expiresAt: number;
 };
 
-const SWAPI_BASE =  "https://swapi.py4e.com/api";
+const SWAPI_BASE =  "https://swapi.info/api";
 
 const CACHE_TTL =  1000 * 60 * 60 * 6; // 6h
 
@@ -20,7 +20,7 @@ async function fetchJson(url: string) {
       Accept: "application/json,text/plain,*/*",
       "User-Agent":
         "Mozilla/5.0 (compatible; StarwarsExplorer/1.0; +https://vercel.app)",
-      Referer: "https://swapi.py4e.com/",
+      Referer: "https://swapi.info/",
     },
   });
 
