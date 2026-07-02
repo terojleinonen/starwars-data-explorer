@@ -1,4 +1,4 @@
-const BASE_URL = "https://swapi.py4e.com/api";
+const BASE_URL = "https://swapi.info/api";
 
 const cache = new Map<string, any[]>();
 
