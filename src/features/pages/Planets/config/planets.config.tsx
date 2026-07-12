@@ -115,48 +115,48 @@ export function createPlanetsConfig(
 
     /* ===== STATS ===== */
 
-    getStats: (records, filtered) => [
-      {
-        label: "Worlds",
-        value: records.length,
-        hint: "Known planets",
-      },
-      {
-        label: "Average Diameter",
-        value: Math.round(
-          filtered
-            .map((p) => toNumber(p.diameter))
-            .filter((n) => n > 0)
-            .reduce((a, b) => a + b, 0) /
-            (filtered.length || 1)
-        ) || "—",
-        hint: "After filters",
-      },
-      {
-        label: "Average Rotation",
-        value: Math.round(
-          filtered
-            .map((p) => toNumber(p.rotation_period))
-            .filter((n) => n > 0)
-            .reduce((a, b) => a + b, 0) /
-            (filtered.length || 1)
-        ) || "—",
-        hint: "After filters",
-      },
-      {
-        label: "Orbital Period",
-        value: records.filter(
-          p => p.orbital_period !== "0"
-        ).length,
-        hint: "Planets with known year length",
-      },
-      {
-        label: "Habitable",
-        value: records.filter(
-          p => p.population !== "0"
-        ).length,
-        hint: "Populated worlds",
-      },
-    ],
+    getStats: (records, filtered) => {
+      const diameters = filtered.map((p) => toNumber(p.diameter)).filter((n) => n > 0);
+      const avgDiameter = diameters.length
+        ? Math.round(diameters.reduce((a, b) => a + b, 0) / diameters.length)
+        : "—";
+
+      const rotations = filtered.map((p) => toNumber(p.rotation_period)).filter((n) => n > 0);
+      const avgRotation = rotations.length
+        ? Math.round(rotations.reduce((a, b) => a + b, 0) / rotations.length)
+        : "—";
+
+      return [
+        {
+          label: "Worlds",
+          value: records.length,
+          hint: "Known planets",
+        },
+        {
+          label: "Average Diameter",
+          value: avgDiameter,
+          hint: "After filters",
+        },
+        {
+          label: "Average Rotation",
+          value: avgRotation,
+          hint: "After filters",
+        },
+        {
+          label: "Orbital Period",
+          value: records.filter(
+            p => p.orbital_period !== "0" && p.orbital_period !== "unknown"
+          ).length,
+          hint: "Planets with known year length",
+        },
+        {
+          label: "Habitable",
+          value: records.filter(
+            p => p.population !== "0" && p.population !== "unknown"
+          ).length,
+          hint: "Populated worlds",
+        },
+      ];
+    },
   };
 }

@@ -32,29 +32,33 @@ function applyTheme(theme: Theme) {
 ========================= */
 
 export default function ThemeToggle() {
+  const [mounted, setMounted] = useState(false);
+  const [theme, setTheme] = useState<Theme>("dark");
 
-  /* ✅ INITIAL STATE (NO EFFECT SETSTATE) */
-  const [theme, setTheme] = useState<Theme>(() => {
-    if (typeof window === "undefined") return "dark";
-
+  /* =========================
+     INITIAL MOUNT
+  ========================= */
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
     const saved = localStorage.getItem("theme") as Theme | null;
-    return saved ?? getSystemTheme();
-  });
+    setTheme(saved ?? getSystemTheme());
+  }, []);
 
   /* =========================
      APPLY THEME
   ========================= */
-
   useEffect(() => {
+    if (!mounted) return;
     applyTheme(theme);
     localStorage.setItem("theme", theme);
-  }, [theme]);
+  }, [theme, mounted]);
 
   /* =========================
      SYSTEM SYNC
   ========================= */
-
   useEffect(() => {
+    if (!mounted) return;
     const media = window.matchMedia("(prefers-color-scheme: dark)");
 
     const listener = () => {
@@ -68,12 +72,11 @@ export default function ThemeToggle() {
 
     media.addEventListener("change", listener);
     return () => media.removeEventListener("change", listener);
-  }, []);
+  }, [mounted]);
 
   /* =========================
      TOGGLE
   ========================= */
-
   const toggle = () => {
     setTheme(prev => (prev === "dark" ? "light" : "dark"));
   };
@@ -81,20 +84,19 @@ export default function ThemeToggle() {
   /* =========================
      UI
   ========================= */
-
   return (
     <button
       onClick={toggle}
       className={styles.toggle}
       aria-label="Toggle theme"
-      data-theme={theme}
+      data-theme={mounted ? theme : "dark"}
     >
       <div className={styles.track}>
         <div className={styles.thumb} />
       </div>
 
       <span className={styles.label}>
-        {theme === "dark" ? "Dark" : "Light"}
+        {(!mounted || theme === "dark") ? "Dark" : "Light"}
       </span>
     </button>
   );
