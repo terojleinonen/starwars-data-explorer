@@ -80,41 +80,41 @@ export function createPeopleConfig(
 
     /* ===== STATS (OPTIONAL) ===== */
 
-    getStats: (records, filtered) => [
-      {
-        label: "Total",
-        value: records.length,
-        hint: "Archive entries",
-      },
-      {
-        label: "Average Height",
-        value: Math.round(
-          filtered
-            .map((p) => toNumber(p.height))
-            .filter((n) => n > 0)
-            .reduce((a, b) => a + b, 0) /
-            (filtered.length || 1)
-        ) || "—",
-        hint: "After filters",
-      },
-      {
-        label: "Average Mass",
-        value: Math.round(
-          filtered
-            .map((p) => toNumber(p.mass))
-            .filter((n) => n > 0)
-            .reduce((a, b) => a + b, 0) /
-            (filtered.length || 1)
-        ) || "—",
-        hint: "After filters",
-      },
-      {
-        label: "Male",
-        value: records.filter(
-          (p  ) => p.gender === "male"
-        ).length,
-        hint: "Male characters",
-      }
-    ],
+    getStats: (records, filtered) => {
+      const heights = filtered.map((p) => toNumber(p.height)).filter((n) => n > 0);
+      const avgHeight = heights.length
+        ? Math.round(heights.reduce((a, b) => a + b, 0) / heights.length)
+        : "—";
+
+      const masses = filtered.map((p) => toNumber(p.mass)).filter((n) => n > 0);
+      const avgMass = masses.length
+        ? Math.round(masses.reduce((a, b) => a + b, 0) / masses.length)
+        : "—";
+
+      return [
+        {
+          label: "Total",
+          value: records.length,
+          hint: "Archive entries",
+        },
+        {
+          label: "Average Height",
+          value: avgHeight,
+          hint: "After filters",
+        },
+        {
+          label: "Average Mass",
+          value: avgMass,
+          hint: "After filters",
+        },
+        {
+          label: "Male",
+          value: records.filter(
+            (p  ) => p.gender === "male"
+          ).length,
+          hint: "Male characters",
+        }
+      ];
+    },
   };
 }

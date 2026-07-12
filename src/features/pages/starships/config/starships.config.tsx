@@ -125,46 +125,45 @@ export function createStarshipsConfig(
     ),
 
     /* ===== STATS ===== */
-    getStats: (records, filtered) => [
-      {
-        label: "Starships",
-        value: records.length,
-        hint: "Known starships",
-      },
-      {
-        label: "Average Speed",
-        value: Math.round(
-          filtered.reduce(
-            (sum, s) =>
-              sum + toNumber(s.max_atmosphering_speed),
-            0
-          ) / filtered.length
-        ),
-        hint: "Average max atmosphering speed",
-      },
-      {
-        label: "Average Hyperdrive",
-        value: Math.round(
-          filtered.reduce(
-            (sum, s) =>
-              sum + toNumber(s.hyperdrive_rating),
-            0
-          ) / filtered.length
-        ),
-        hint: "Average hyperdrive rating",
-      },
-      {
-        label: "Cargo Capacity",
-        value: Math.round(
-          filtered.reduce(
-            (sum, s) =>
-              sum + toNumber(s.cargo_capacity),
-            0
-          ) / filtered.length
-        ),
-        hint: "Average cargo capacity",
-      }
-    ],
+    getStats: (records, filtered) => {
+      const speeds = filtered.map((s) => toNumber(s.max_atmosphering_speed)).filter((n) => n > 0);
+      const avgSpeed = speeds.length
+        ? Math.round(speeds.reduce((a, b) => a + b, 0) / speeds.length)
+        : "—";
+
+      const hyperdrives = filtered.map((s) => toNumber(s.hyperdrive_rating)).filter((n) => n > 0);
+      const avgHyperdrive = hyperdrives.length
+        ? Math.round(hyperdrives.reduce((a, b) => a + b, 0) / hyperdrives.length)
+        : "—";
+
+      const cargos = filtered.map((s) => toNumber(s.cargo_capacity)).filter((n) => n > 0);
+      const avgCargo = cargos.length
+        ? Math.round(cargos.reduce((a, b) => a + b, 0) / cargos.length)
+        : "—";
+
+      return [
+        {
+          label: "Starships",
+          value: records.length,
+          hint: "Known starships",
+        },
+        {
+          label: "Average Speed",
+          value: avgSpeed,
+          hint: "Average max atmosphering speed",
+        },
+        {
+          label: "Average Hyperdrive",
+          value: avgHyperdrive,
+          hint: "Average hyperdrive rating",
+        },
+        {
+          label: "Cargo Capacity",
+          value: avgCargo,
+          hint: "Average cargo capacity",
+        }
+      ];
+    },
 
   };
 }

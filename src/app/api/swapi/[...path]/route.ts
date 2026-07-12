@@ -101,7 +101,7 @@ export async function GET(
     );
   }
 
-  const key = path[0];
+  const key = path.join("/");
   const category = path[0];
 
   const categoryCache =

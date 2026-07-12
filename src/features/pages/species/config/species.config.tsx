@@ -109,7 +109,18 @@ export function createSpeciesConfig(
 
     /* ===== STATS ===== */
 
-      getStats: (records, filtered) => [
+    getStats: (records, filtered) => {
+      const lifespans = filtered.map((s) => toNumber(s.average_lifespan)).filter((n) => n > 0);
+      const avgLifespan = lifespans.length
+        ? Math.round(lifespans.reduce((a, b) => a + b, 0) / lifespans.length)
+        : "—";
+
+      const heights = filtered.map((s) => toNumber(s.average_height)).filter((n) => n > 0);
+      const avgHeight = heights.length
+        ? Math.round(heights.reduce((a, b) => a + b, 0) / heights.length)
+        : "—";
+
+      return [
         {
           label: "Species",
           value: records.length,
@@ -117,26 +128,15 @@ export function createSpeciesConfig(
         },
         {
           label: "Average Lifespan",
-          value: Math.round(
-            filtered
-              .map((s) => toNumber(s.average_lifespan))
-              .filter((n) => n > 0)
-              .reduce((a, b) => a + b, 0) /
-              (filtered.length || 1)
-          ) || "—",
+          value: avgLifespan,
           hint: "After filters",
         },
         {
           label: "Average Height",
-          value: Math.round(
-            filtered
-              .map((s) => toNumber(s.average_height))
-              .filter((n) => n > 0)
-              .reduce((a, b) => a + b, 0) /
-              (filtered.length || 1)
-          ) || "—",
+          value: avgHeight,
           hint: "After filters",
         }
-      ],
+      ];
+    },
   };
 }

@@ -118,42 +118,44 @@ export function createVehiclesConfig(
     ),
 
     /* ===== STATS ===== */
-    getStats: (records, filtered) => [
-      {
-        label: "Vehicles",
-        value: records.length,
-        hint: "Known vehicles",
-      },
-      {
-        label: "Average Speed",
-        value: Math.round(
-          filtered.reduce(
-            (sum, v) =>
-              sum + toNumber(v.max_atmosphering_speed),
-            0
-          ) / filtered.length
-        ),
-        hint: "Max atmosphering speed",
-      },
-      {
-        label: "Average Crew",
-        value: Math .round(
-          filtered.reduce((sum, v) => sum + toNumber(v.crew), 0) /
-          filtered.length
-        ),
-        hint: "Crew members",
-      },
-      {
-        label: "Average Cost",
-        value: Math.round(
-          filtered.reduce(
-            (sum, v) =>
-              sum + toNumber(v.cost_in_credits),
-            0
-          ) / filtered.length
-        ),
-        hint: "Cost in credits",
-      },
-    ],
+    getStats: (records, filtered) => {
+      const speeds = filtered.map((v) => toNumber(v.max_atmosphering_speed)).filter((n) => n > 0);
+      const avgSpeed = speeds.length
+        ? Math.round(speeds.reduce((a, b) => a + b, 0) / speeds.length)
+        : "—";
+
+      const crews = filtered.map((v) => toNumber(v.crew)).filter((n) => n > 0);
+      const avgCrew = crews.length
+        ? Math.round(crews.reduce((a, b) => a + b, 0) / crews.length)
+        : "—";
+
+      const costs = filtered.map((v) => toNumber(v.cost_in_credits)).filter((n) => n > 0);
+      const avgCost = costs.length
+        ? Math.round(costs.reduce((a, b) => a + b, 0) / costs.length)
+        : "—";
+
+      return [
+        {
+          label: "Vehicles",
+          value: records.length,
+          hint: "Known vehicles",
+        },
+        {
+          label: "Average Speed",
+          value: avgSpeed,
+          hint: "Max atmosphering speed",
+        },
+        {
+          label: "Average Crew",
+          value: avgCrew,
+          hint: "Crew members",
+        },
+        {
+          label: "Average Cost",
+          value: avgCost,
+          hint: "Cost in credits",
+        },
+      ];
+    },
   };
 }
