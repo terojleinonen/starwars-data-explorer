@@ -1,23 +1,41 @@
 .card {
+  --card-accent: var(--accent-starships);
+
   position: relative;
-
-  border-radius: 16px;
-  padding: 14px;
-
-  background: var(--surface-1);
-  border: 1px solid var(--border-subtle);
-
   display: grid;
   gap: 10px;
+  padding: 14px;
+  overflow: hidden;
+
+  border: 1px solid
+    color-mix(in srgb, var(--card-accent) 24%, var(--border-subtle));
+  border-radius: 16px;
+
+  color: var(--text-primary);
+
+  background:
+    radial-gradient(
+      circle at 85% 8%,
+      color-mix(in srgb, var(--card-accent) 13%, transparent),
+      transparent 42%
+    ),
+    linear-gradient(
+      145deg,
+      color-mix(in srgb, var(--card-accent) 7%, var(--surface-raised)),
+      var(--surface-subtle)
+    );
+
+  box-shadow:
+    var(--shadow-1),
+    inset 0 1px 0 var(--border-highlight);
 
   cursor: pointer;
+  backdrop-filter: blur(12px);
 
   transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease,
-    border-color 0.25s ease;
-
-  overflow: hidden;
+    transform 0.25s var(--ease-emphasized),
+    box-shadow 0.25s var(--ease-standard),
+    border-color 0.25s var(--ease-standard);
 }
 
 /* hover */
@@ -88,15 +106,6 @@
 
 .card:hover::before {
   opacity: 1;
-}
-
-.card {
-  backdrop-filter: blur(12px);
-  background: linear-gradient(
-    180deg,
-    rgba(10,18,30,0.8),
-    rgba(6,10,18,0.95)
-  );
 }
 
 .card.active {

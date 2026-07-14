@@ -1,96 +1,71 @@
-# 🌌 Galactic Explorer — SWAPI Intelligence System
+# Galactic Archive — Starwars Data Explorer
 
-A cinematic, high-performance data exploration interface built on top of SWAPI.
+A procedural, data-driven archive for exploring people, planets, starships, vehicles, species, and films from SWAPI.
 
-This project reimagines how structured API data can be explored through:
-- intelligence dashboards
-- holographic UI systems
-- cinematic interaction design
+## Technology
 
----
+- Next.js 16.2
+- React 19.2
+- TypeScript 6
+- Framer Motion 12
+- ESLint 9 flat configuration
+- pnpm 11
+- CSS Modules, semantic design tokens, and procedural SVG backgrounds
 
-## ✨ Key Features
+## Requirements
 
-### 🧠 Intelligence Dashboards
-- People, Planets, Starships, Vehicles, Species
-- Search, filtering, sorting
-- Real-time preview panels
-- Data-driven UI structure
+- Node.js 20.9 or newer; Node.js 22 LTS is recommended
+- pnpm 11 or newer
 
-### 🎬 Cinematic Film Timeline
-- Interactive saga timeline
-- Focus-based navigation
-- Opening crawl integration
-- Parallax + motion system
-
-### 🔍 Advanced Details View
-- Unified "Holo Dossier" layout
-- Real-time relation resolution
-- Graph + list relationship views
-- Context-aware navigation
-
-### 🌌 Adaptive Cartography Background
-- Dark: cinematic deep-space environment
-- Light: rebellion tactical map
-- Performance-aware rendering
-- Subtle atmospheric depth
-
----
-
-## ⚡ Performance & Engineering
-
-### Adaptive Quality System
-- Automatically scales visuals based on:
-  - device power
-  - motion preferences
-  - input type
-- Reduces GPU/CPU load on weaker devices
-
-### Smart Data Fetching
-- In-memory caching with TTL
-- Batched relation requests
-- Request throttling (no API flooding)
-
-### Rendering Strategy
-- CSS-driven animations (GPU-friendly)
-- Minimal layout thrashing
-- Motion reduction support
-
----
-
-## 🛠 Tech Stack
-
-- Next.js 15 (App Router)
-- TypeScript
-- React
-- Tailwind + CSS Modules
-- SWAPI (py4e + fallback ready)
-
----
-
-## 🧠 Design Philosophy
-
-This project explores the intersection of:
-
-- Data systems
-- Cinematic UI
-- Performance-aware engineering
-
-The goal was to build something that feels like:
-
-> “a galactic intelligence system”  
-—not a CRUD interface.
-
----
-
-## 📸 Screenshots
-
-(Add later)
-
----
-
-## 🚀 Running Locally
+Enable pnpm through Corepack when available:
 
 ```bash
-npm install
-npm run dev
+corepack enable
+corepack prepare pnpm@11.12.0 --activate
+```
+
+Alternatively, install pnpm globally:
+
+```bash
+npm install --global pnpm@11.12.0
+```
+
+## Local development
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Open `http://localhost:3000`.
+
+## Quality commands
+
+```bash
+pnpm lint
+pnpm typecheck
+pnpm build
+pnpm check
+```
+
+`pnpm check` runs linting, type checking, and the production build in sequence.
+
+## Package install policy
+
+The project explicitly permits build scripts only for:
+
+- `sharp`, used by Next.js image tooling
+- `unrs-resolver`, used by the linting/import-resolution toolchain
+
+The policy lives in `pnpm-workspace.yaml`.
+
+## Project systems
+
+- Semantic light and dark design system
+- Procedural category-aware background engine
+- Shared material-based component library
+- Explorer, gallery, and analysis workspaces
+- Data-driven SVG charts and archive signatures
+- Responsive and reduced-motion behavior
+
+See the milestone documents in the repository root for implementation notes.

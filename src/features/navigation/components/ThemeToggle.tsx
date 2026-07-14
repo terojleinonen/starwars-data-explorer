@@ -1,103 +1,75 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import styles from "../styles/ThemeToggle.module.css";
 
 type Theme = "dark" | "light";
 
-/* =========================
-   HELPERS
-========================= */
+const THEME_EVENT = "galactic-archive-theme-change";
 
 function getSystemTheme(): Theme {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function getThemeSnapshot(): Theme {
   if (typeof window === "undefined") return "dark";
-
-  return window.matchMedia("(prefers-color-scheme: dark)").matches
-    ? "dark"
-    : "light";
+  const saved = localStorage.getItem("theme");
+  if (saved === "dark" || saved === "light") return saved;
+  return document.documentElement.dataset.theme === "light" ? "light" : getSystemTheme();
 }
 
-function applyTheme(theme: Theme) {
+function subscribe(callback: () => void) {
+  const media = window.matchMedia("(prefers-color-scheme: dark)");
+  const onSystemChange = () => {
+    if (!localStorage.getItem("theme")) {
+      applyTheme(media.matches ? "dark" : "light", false);
+      callback();
+    }
+  };
+  const onStorage = (event: StorageEvent) => {
+    if (event.key === "theme") callback();
+  };
+  const onThemeChange = () => callback();
+
+  media.addEventListener("change", onSystemChange);
+  window.addEventListener("storage", onStorage);
+  window.addEventListener(THEME_EVENT, onThemeChange);
+
+  return () => {
+    media.removeEventListener("change", onSystemChange);
+    window.removeEventListener("storage", onStorage);
+    window.removeEventListener(THEME_EVENT, onThemeChange);
+  };
+}
+
+function applyTheme(theme: Theme, persist = true) {
   const root = document.documentElement;
-
-  if (theme === "dark") {
-    root.classList.add("dark");
-  } else {
-    root.classList.remove("dark");
-  }
+  root.classList.toggle("dark", theme === "dark");
+  root.dataset.theme = theme;
+  root.style.colorScheme = theme;
+  if (persist) localStorage.setItem("theme", theme);
+  window.dispatchEvent(new Event(THEME_EVENT));
 }
-
-/* =========================
-   COMPONENT
-========================= */
 
 export default function ThemeToggle() {
-  const [mounted, setMounted] = useState(false);
-  const [theme, setTheme] = useState<Theme>("dark");
+  const theme = useSyncExternalStore(subscribe, getThemeSnapshot, () => "dark");
 
-  /* =========================
-     INITIAL MOUNT
-  ========================= */
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setMounted(true);
-    const saved = localStorage.getItem("theme") as Theme | null;
-    setTheme(saved ?? getSystemTheme());
-  }, []);
-
-  /* =========================
-     APPLY THEME
-  ========================= */
-  useEffect(() => {
-    if (!mounted) return;
-    applyTheme(theme);
-    localStorage.setItem("theme", theme);
-  }, [theme, mounted]);
-
-  /* =========================
-     SYSTEM SYNC
-  ========================= */
-  useEffect(() => {
-    if (!mounted) return;
-    const media = window.matchMedia("(prefers-color-scheme: dark)");
-
-    const listener = () => {
-      const saved = localStorage.getItem("theme");
-
-      // only follow system if user hasn't explicitly chosen
-      if (!saved) {
-        setTheme(media.matches ? "dark" : "light");
-      }
-    };
-
-    media.addEventListener("change", listener);
-    return () => media.removeEventListener("change", listener);
-  }, [mounted]);
-
-  /* =========================
-     TOGGLE
-  ========================= */
   const toggle = () => {
-    setTheme(prev => (prev === "dark" ? "light" : "dark"));
+    applyTheme(theme === "dark" ? "light" : "dark");
   };
 
-  /* =========================
-     UI
-  ========================= */
   return (
     <button
       onClick={toggle}
       className={styles.toggle}
-      aria-label="Toggle theme"
-      data-theme={mounted ? theme : "dark"}
+      aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} theme`}
+      aria-pressed={theme === "dark"}
+      data-theme={theme}
     >
       <div className={styles.track}>
         <div className={styles.thumb} />
       </div>
-
-      <span className={styles.label}>
-        {(!mounted || theme === "dark") ? "Dark" : "Light"}
-      </span>
+      <span className={styles.label}>{theme === "dark" ? "Dark" : "Light"}</span>
     </button>
   );
 }

@@ -35,7 +35,7 @@ export default function DetailsPage({ category, data }: Props) {
   const router = useRouter();
 
   const [tab, setTab] = useState<Tab>("overview");
-  const [view, setView] = useState<ViewMode>("list");
+  const [view] = useState<ViewMode>("list");
   const [relationsData, setRelationsData] = useState<Record<string, any>>({});
   const title = data?.title || data?.name || "Unknown";
 

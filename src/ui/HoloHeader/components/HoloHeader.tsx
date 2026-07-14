@@ -1,6 +1,5 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import styles from "../styles/HoloHeader.module.css";
 import type { SwapiType } from "@/lib/swapi/swapiTypes";
 
@@ -29,8 +28,6 @@ export default function HoloHeader({
   subtitle,
   size = "lg",
 }: Props) {
-  const router = useRouter();
-
 
   return (
     <header

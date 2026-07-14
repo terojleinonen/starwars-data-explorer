@@ -1,0 +1,28 @@
+/* Reusable material primitives. Prefer data-material on structural surfaces. */
+[data-material] {
+  position: relative;
+  border: 1px solid var(--border-default);
+  box-shadow: var(--shadow-1);
+}
+
+[data-material]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  box-shadow: var(--inset-highlight);
+}
+
+[data-material] > * { position: relative; z-index: 1; }
+[data-material="paper"] { background: var(--material-paper); }
+[data-material="stone"] { background: var(--material-stone); }
+[data-material="glass"] { background: var(--material-glass); backdrop-filter: blur(var(--blur-md)) saturate(112%); }
+[data-material="metal"] { background: var(--material-metal); }
+[data-material="plate"] { background: var(--material-plate); box-shadow: var(--shadow-1), var(--inset-recessed); }
+[data-elevation="0"] { box-shadow: none; }
+[data-elevation="1"] { box-shadow: var(--shadow-1); }
+[data-elevation="2"] { box-shadow: var(--shadow-2); }
+[data-elevation="3"] { box-shadow: var(--shadow-3); }
+[data-elevation="overlay"] { box-shadow: var(--shadow-overlay); }

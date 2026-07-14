@@ -1,114 +1,202 @@
-:root {
-  :root {
-  --paper-bg: #f1f2f4;
-  --paper-ink: #2a2f36;
-  --paper-faint: #8b929c;
-  --paper-accent-soft: #6c7685;
-  --paper-grid: #c5cbd4;
-  --paper-label: #4e5661;
-}
-
-/* Tactical palette – light theme */
-:root {
-  --tactical-people: #3c6dd7;
-  --tactical-planets: #2c8b8f;
-  --tactical-films: #c4901d;
-  --tactical-starships: #b92d2d;
-  --tactical-vehicles: #3a8b3a;
-  --tactical-species: #7b4ec2;
-
-  --tactical-neutral: #6b7687;
-
-  --tactical-alert: #c12d2d;
-  --tactical-warning: #c4901d;
-  --tactical-ok: #3a8b3a;
-}
-
-
-  /* ===== BACKGROUND ===== */
-  --bg-deep: #05080c;        /* deep space black (never pure black) */
-  --bg-space: #08131a;       /* ambient space blue */
-  --bg-panel: rgba(12, 18, 26, 0.65);
-
-  /* ===== SURFACES ===== */
-  --surface-glass: rgba(14, 20, 28, 0.55);
-  --surface-solid: #0f1722;
-
-  /* ===== BORDERS ===== */
-  --border-subtle: rgba(148, 163, 184, 0.18);
-  --border-strong: rgba(148, 163, 184, 0.28);
-
-  /* ===== TEXT ===== */
-  --text-primary: rgba(240, 246, 252, 0.94);
-  --text-secondary: rgba(240, 246, 252, 0.68);
-  --text-muted: rgba(240, 246, 252, 0.42);
-  --text-disabled: rgba(240, 246, 252, 0.28);
-}
-
-html[data-theme="light"] {
-  /* ===== BACKGROUND ===== */
-  --bg-deep: #e6e9ed;
-  --bg-space: #dde2e7;
-  --bg-panel: rgba(255, 255, 255, 0.65);
-
-  /* ===== SURFACES ===== */
-  --surface-glass: rgba(255, 255, 255, 0.75);
-  --surface-solid: #f0f2f4;
-
-  /* ===== BORDERS ===== */
-  --border-subtle: rgba(15, 23, 42, 0.14);
-  --border-strong: rgba(15, 23, 42, 0.24);
-
-  /* ===== TEXT ===== */
-  --text-primary: rgba(20, 24, 28, 0.92);
-  --text-secondary: rgba(20, 24, 28, 0.64);
-  --text-muted: rgba(20, 24, 28, 0.38);
-  --text-disabled: rgba(20, 24, 28, 0.26);
-}
+/* Galactic Archive design tokens
+   Components consume semantic roles; themes define material and lighting. */
 
 :root {
-  --accent-people:   hsl(195, 38%, 58%);
-  --accent-planets:  hsl(38, 42%, 56%);
-  --accent-films:    hsl(280, 36%, 64%);
-  --accent-starships:hsl(210, 44%, 60%);
-  --accent-vehicles: hsl(160, 34%, 52%);
-  --accent-species:  hsl(120, 32%, 54%);
+  color-scheme: light;
 
-  /* derived */
-  --accent-soft: rgba(255,255,255,0.08);
-  --accent-glow: rgba(255,255,255,0.18);
+  /* Typography */
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Arial Narrow", "Roboto Condensed", "Helvetica Neue", var(--font-sans);
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --text-2xs: 0.6875rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: clamp(1.25rem, 1.05rem + 0.65vw, 1.65rem);
+  --text-2xl: clamp(1.75rem, 1.2rem + 1.8vw, 3rem);
+  --text-3xl: clamp(2.35rem, 1.35rem + 3.8vw, 5.4rem);
+  --tracking-label: 0.13em;
+  --tracking-display: -0.035em;
+  --leading-tight: 1.05;
+  --leading-copy: 1.6;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --page-gutter: clamp(1rem, 3vw, 3rem);
+  --content-max: 1600px;
+  --measure-copy: 68ch;
+
+  /* Shape */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --duration-fast: 140ms;
+  --duration-base: 240ms;
+  --duration-slow: 520ms;
+  --ease-standard: cubic-bezier(.2, .8, .2, 1);
+  --ease-emphasized: cubic-bezier(.16, 1, .3, 1);
+
+  /* Galactic Atlas — light */
+  --background-canvas: #e8e0d2;
+  --background-deep: #d6cbbb;
+  --background-atmosphere: rgba(74, 111, 137, 0.14);
+  --background-vignette: rgba(65, 55, 40, 0.10);
+
+  --surface-canvas: rgba(235, 227, 214, 0.74);
+  --surface-subtle: rgba(222, 213, 199, 0.82);
+  --surface-raised: rgba(246, 239, 227, 0.90);
+  --surface-overlay: rgba(250, 244, 234, 0.96);
+  --surface-inverse: #151b21;
+
+  --material-paper: rgba(244, 235, 220, 0.92);
+  --material-stone: rgba(213, 202, 185, 0.88);
+  --material-glass: rgba(239, 232, 220, 0.64);
+  --material-metal: linear-gradient(180deg, rgba(255,255,255,.76), rgba(213,216,216,.68));
+  --material-plate: rgba(202, 195, 184, 0.84);
+
+  --text-primary: #20262c;
+  --text-secondary: #555f69;
+  --text-muted: #77808a;
+  --text-faint: #989fa6;
+  --text-inverse: #f3f6f7;
+
+  --border-subtle: rgba(37, 47, 55, 0.10);
+  --border-default: rgba(37, 47, 55, 0.17);
+  --border-strong: rgba(37, 47, 55, 0.28);
+  --border-highlight: rgba(255, 255, 255, 0.76);
+
+  --accent-primary: #286c98;
+  --accent-secondary: #9d7721;
+  --accent-soft: rgba(40, 108, 152, 0.11);
+  --accent-line: rgba(40, 108, 152, 0.31);
+  --accent-glow: rgba(78, 142, 184, 0.18);
+  --status-success: #467b5b;
+  --status-warning: #a26d16;
+  --status-danger: #a04d48;
+  --status-info: #286c98;
+
+  --shadow-1: 0 1px 2px rgba(47, 42, 32, .06), 0 8px 24px rgba(47, 42, 32, .05);
+  --shadow-2: 0 18px 48px rgba(47, 42, 32, .09), inset 0 1px 0 rgba(255,255,255,.76);
+  --shadow-3: 0 32px 90px rgba(47, 42, 32, .14), inset 0 1px 0 rgba(255,255,255,.82);
+  --shadow-overlay: 0 40px 120px rgba(35, 31, 24, .23);
+  --inset-highlight: inset 0 1px 0 rgba(255,255,255,.72);
+  --inset-recessed: inset 0 1px 4px rgba(54, 47, 35, .11);
+
+  --blur-sm: 8px;
+  --blur-md: 16px;
+  --blur-lg: 28px;
+
+  --focus-color: #2d78a7;
+  --focus-ring: 0 0 0 2px var(--background-canvas), 0 0 0 4px var(--focus-color);
+
+  /* Category accents: restrained and legible in both themes */
+  --accent-people: #9a5f48;
+  --accent-planets: #8b762f;
+  --accent-films: #8b4f59;
+  --accent-starships: #3d6f91;
+  --accent-vehicles: #8a6842;
+  --accent-species: #62744d;
+
+  /* Legacy compatibility aliases */
+  --bg: var(--background-canvas);
+  --bg-deep: var(--background-deep);
+  --bg-space: var(--background-canvas);
+  --bg-panel: var(--surface-canvas);
+  --surface: var(--surface-canvas);
+  --surface-1: var(--surface-subtle);
+  --surface-2: var(--surface-raised);
+  --surface-glass: var(--material-glass);
+  --surface-solid: var(--surface-raised);
+  --surface-strong: var(--surface-raised);
+  --text: var(--text-primary);
+  --secondary: var(--text-secondary);
+  --muted: var(--text-muted);
+  --faint: var(--text-faint);
+  --line: var(--border-subtle);
+  --line-strong: var(--border-default);
+  --accent: var(--accent-secondary);
+  --cool: var(--accent-primary);
+  --danger: var(--status-danger);
+  --shadow-shell: var(--shadow-2);
+  --border-soft: var(--border-subtle);
+  --blur-panel: blur(var(--blur-md));
+  --glow-soft: 0 0 28px var(--accent-glow);
+  --glow-focus: 0 0 46px var(--accent-glow);
 }
 
-html[data-theme="light"] {
-  --accent-people:   hsl(195, 28%, 48%);
-  --accent-planets:  hsl(38, 32%, 46%);
-  --accent-films:    hsl(280, 26%, 52%);
-  --accent-starships:hsl(210, 32%, 50%);
-  --accent-vehicles: hsl(160, 26%, 44%);
-  --accent-species:  hsl(120, 24%, 46%);
-}
-
-:root {
-  --shadow-panel: 0 18px 36px rgba(0,0,0,0.28);
-  --shadow-hover: 0 22px 48px rgba(0,0,0,0.36);
-
-  --blur-panel: blur(18px);
-
-  --glow-soft: 0 0 24px rgba(255,255,255,0.08);
-  --glow-focus: 0 0 36px rgba(255,255,255,0.16);
-}
-
-:root {
-  --focus-ring: 0 0 0 1px var(--accent-soft);
-  --hover-ring: 0 0 0 1px var(--accent-glow);
-  --active-ring: 0 0 0 1px currentColor;
-}
-
+html.dark,
 html[data-theme="dark"] {
-  --carto-ink: rgba(45, 52, 60, 0.55);   /* neutral graphite */
-}
+  color-scheme: dark;
 
-html[data-theme="light"] {
-  --carto-ink: rgba(230, 235, 240, 0.9); /* neutral cool-white */
-}
+  /* Deep Space Observatory — dark */
+  --background-canvas: #02050a;
+  --background-deep: #000103;
+  --background-atmosphere: rgba(58, 104, 148, 0.16);
+  --background-vignette: rgba(0, 0, 0, 0.62);
 
+  --surface-canvas: rgba(12, 18, 26, 0.66);
+  --surface-subtle: rgba(15, 23, 33, 0.72);
+  --surface-raised: rgba(15, 25, 39, 0.88);
+  --surface-overlay: rgba(11, 17, 25, 0.96);
+  --surface-inverse: #eef2f4;
+
+  --material-paper: rgba(23, 30, 39, 0.90);
+  --material-stone: rgba(20, 28, 38, 0.86);
+  --material-glass: rgba(18, 27, 39, 0.58);
+  --material-metal: linear-gradient(180deg, rgba(42,53,66,.86), rgba(17,24,33,.88));
+  --material-plate: rgba(24, 33, 44, 0.88);
+
+  --text-primary: #e8edf2;
+  --text-secondary: #aab6c2;
+  --text-muted: #778695;
+  --text-faint: #52606d;
+  --text-inverse: #10161c;
+
+  --border-subtle: rgba(171, 198, 221, 0.09);
+  --border-default: rgba(171, 198, 221, 0.16);
+  --border-strong: rgba(171, 198, 221, 0.27);
+  --border-highlight: rgba(220, 238, 250, 0.08);
+
+  --accent-primary: #72a9d2;
+  --accent-secondary: #d1b45d;
+  --accent-soft: rgba(114, 169, 210, 0.10);
+  --accent-line: rgba(114, 169, 210, 0.30);
+  --accent-glow: rgba(114, 169, 210, 0.18);
+  --status-success: #77a98b;
+  --status-warning: #d1aa58;
+  --status-danger: #d77f78;
+  --status-info: #72a9d2;
+
+  --shadow-1: 0 1px 2px rgba(0,0,0,.22), 0 8px 24px rgba(0,0,0,.18);
+  --shadow-2: 0 22px 64px rgba(0,0,0,.36), inset 0 1px 0 rgba(225,238,248,.04);
+  --shadow-3: 0 36px 110px rgba(0,0,0,.52), inset 0 1px 0 rgba(225,238,248,.055);
+  --shadow-overlay: 0 42px 140px rgba(0,0,0,.70);
+  --inset-highlight: inset 0 1px 0 rgba(225,238,248,.055);
+  --inset-recessed: inset 0 1px 5px rgba(0,0,0,.38);
+
+  --focus-color: #8fc8ee;
+
+  --accent-people: #d08a6f;
+  --accent-planets: #d2b55f;
+  --accent-films: #d47b8c;
+  --accent-starships: #74b4e2;
+  --accent-vehicles: #c99b68;
+  --accent-species: #9fbd7b;
+}

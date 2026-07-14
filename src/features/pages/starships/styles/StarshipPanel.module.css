@@ -1,9 +1,50 @@
 .panel {
+  --panel-accent: var(--accent-starships);
+
   display: grid;
   gap: 22px;
+
+  padding: 22px;
+  border-radius: 22px;
+
+  position: relative;
+  overflow: hidden;
+
+  backdrop-filter: blur(18px);
+
+  color: var(--text-primary);
+
+  background:
+    radial-gradient(
+      circle at 92% 8%,
+      color-mix(in srgb, var(--panel-accent) 12%, transparent),
+      transparent 42%
+    ),
+    linear-gradient(
+      145deg,
+      color-mix(
+        in srgb,
+        var(--panel-accent) 5%,
+        var(--surface-raised)
+      ),
+      var(--surface-overlay)
+    );
+
+  border: 1px solid
+    color-mix(
+      in srgb,
+      var(--panel-accent) 22%,
+      var(--border-subtle)
+    );
+
+  box-shadow:
+    var(--shadow-2),
+    inset 0 1px 0 var(--border-highlight);
 }
 
-/* ===== HEADER ===== */
+/* =========================================================
+   HEADER
+========================================================= */
 
 .header {
   display: grid;
@@ -11,81 +52,121 @@
 }
 
 .header h2 {
-  font-size: 26px;
+  margin: 0;
+
+  font-size: 28px;
   line-height: 1.1;
+  color: var(--text-primary);
 }
 
 .eyebrow {
   font-size: 11px;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--accent);
-  opacity: 0.9;
+
+  color: var(--panel-accent);
+
+  opacity: .85;
 }
 
-/* ===== META ===== */
+/* =========================================================
+   META
+========================================================= */
 
 .meta {
   display: grid;
-  gap: 10px;
+  gap: 12px;
 }
 
 .meta div {
-  padding: 12px;
-  border-radius: 14px;
-
-  background: var(--surface-2);
-  border: 1px solid var(--border-subtle);
-
   display: grid;
   gap: 4px;
-}
-
-.meta span {
-  font-size: 11px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.meta strong {
-  font-size: 14px;
-  color: var(--text-primary);
-}
-
-/* ===== SPECS (BARS) ===== */
-
-.specs {
-  display: grid;
-  gap: 14px;
 
   padding: 14px;
   border-radius: 16px;
 
-  background: var(--surface-1);
-  border: 1px solid var(--border-subtle);
+  background:
+    linear-gradient(
+      180deg,
+      var(--surface-overlay),
+      var(--surface-raised)
+    );
 
-  position: relative;
-  overflow: hidden;
+  border: 1px solid
+    color-mix(
+      in srgb,
+      var(--panel-accent) 14%,
+      var(--border-subtle)
+    );
 }
 
-/* subtle tech glow */
+.meta span {
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+
+  color: var(--text-muted);
+}
+
+.meta strong {
+  color: var(--text-primary);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* =========================================================
+   SPECS
+========================================================= */
+
+.specs {
+  position: relative;
+
+  display: grid;
+  gap: 16px;
+
+  padding: 16px;
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  background:
+    linear-gradient(
+      180deg,
+      var(--surface-overlay),
+      var(--surface-raised)
+    );
+
+  border: 1px solid
+    color-mix(
+      in srgb,
+      var(--panel-accent) 12%,
+      var(--border-subtle)
+    );
+}
+
 .specs::before {
   content: "";
+
   position: absolute;
   inset: 0;
 
+  pointer-events: none;
+
   background:
     radial-gradient(
-      circle at 80% 20%,
-      rgba(120,190,255,0.14),
-      transparent 60%
+      circle at 82% 18%,
+      color-mix(
+        in srgb,
+        var(--panel-accent) 14%,
+        transparent
+      ),
+      transparent 58%
     );
-
-  pointer-events: none;
 }
 
-/* ===== BAR ROW ===== */
+/* =========================================================
+   BAR
+========================================================= */
 
 .barRow {
   display: grid;
@@ -94,41 +175,56 @@
 
 .barRow span {
   font-size: 11px;
-  letter-spacing: 0.08em;
+  letter-spacing: .08em;
   text-transform: uppercase;
+
   color: var(--text-muted);
 }
 
-/* ===== BAR ===== */
-
 .bar {
-  height: 8px;
-  border-radius: 999px;
+  position: relative;
 
-  background: rgba(255,255,255,0.08);
   overflow: hidden;
 
-  position: relative;
+  height: 8px;
+
+  border-radius: 999px;
+
+  background:
+    color-mix(
+      in srgb,
+      var(--panel-accent) 7%,
+      var(--surface-2)
+    );
 }
 
-/* fill */
 .bar div {
+  position: relative;
+
   height: 100%;
   border-radius: inherit;
+
+  transition: width .45s ease;
 
   background:
     linear-gradient(
       90deg,
-      rgba(120,190,255,0.9),
-      rgba(255,216,94,0.9)
+      color-mix(
+        in srgb,
+        var(--panel-accent) 75%,
+        white
+      ),
+      color-mix(
+        in srgb,
+        var(--panel-accent) 20%,
+        #F6D46A
+      )
     );
-
-  transition: width 0.4s ease;
 }
 
-/* glow */
 .bar div::after {
   content: "";
+
   position: absolute;
   inset: 0;
 
@@ -136,65 +232,73 @@
     linear-gradient(
       90deg,
       transparent,
-      rgba(255,255,255,0.4),
+      rgba(255,255,255,.35),
       transparent
     );
 
-  animation: shimmer 2.5s infinite;
+  animation: shimmer 2.8s linear infinite;
 }
 
-/* ===== CTA ===== */
+/* =========================================================
+   CTA
+========================================================= */
 
 .cta {
-  padding: 12px;
-  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  text-align: center;
+  padding: 13px;
+
+  border-radius: 14px;
+
   text-decoration: none;
 
-  border: 1px solid var(--accent);
-  color: var(--accent);
+  color: var(--panel-accent);
 
-  transition: all 0.25s ease;
+  background:
+    linear-gradient(
+      180deg,
+      var(--surface-overlay),
+      var(--surface-raised)
+    );
+
+  border: 1px solid
+    color-mix(
+      in srgb,
+      var(--panel-accent) 26%,
+      var(--border-subtle)
+    );
+
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease,
+    background .25s ease;
 }
 
 .cta:hover {
   transform: translateY(-2px);
 
-  background: var(--accent-soft);
-  box-shadow: 0 12px 28px rgba(120,190,255,0.18);
-}
-
-/* ===== ANIMATION ===== */
-
-@keyframes shimmer {
-  0% {
-    transform: translateX(-120%);
-  }
-  100% {
-    transform: translateX(120%);
-  }
-}
-
-.panel {
-  backdrop-filter: blur(18px);
-
   background:
-    linear-gradient(
-      180deg,
-      rgba(18,28,48,0.9),
-      rgba(8,14,24,0.95)
+    color-mix(
+      in srgb,
+      var(--panel-accent) 8%,
+      var(--surface-overlay)
     );
 
-  border: 1px solid rgba(120,190,255,0.15);
-
-  box-shadow:
-    0 20px 60px rgba(0,0,0,0.35);
+  box-shadow: var(--shadow-2);
 }
 
-.meta,
-.specs {
-  background: rgba(255,255,255,0.03);
-  border-radius: 14px;
-  padding: 12px;
+/* =========================================================
+   SHIMMER
+========================================================= */
+
+@keyframes shimmer {
+  from {
+    transform: translateX(-120%);
+  }
+
+  to {
+    transform: translateX(120%);
+  }
 }

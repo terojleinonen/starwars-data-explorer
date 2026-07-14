@@ -1,5 +1,6 @@
 "use client";
 
+import { Metric, Surface } from "@/ui";
 import styles from "../styles/StatCard.module.css";
 
 type Props = {
@@ -9,34 +10,10 @@ type Props = {
   featured?: boolean;
 };
 
-export default function StatCard({
-  label,
-  value,
-  hint,
-  featured = false,
-}: Props) {
+export default function StatCard({ label, value, hint, featured = false }: Props) {
   return (
-    <div
-      className={`${styles.card} ${
-        featured ? styles.featured : ""
-      }`}
-    >
-      <div className={styles.label}>
-        {label}
-      </div>
-
-      <div className={styles.value}>
-        {value == null ||
-          Number.isNaN(value)
-          ? "—"
-          : value}
-      </div>
-      
-      {hint && (
-        <div className={styles.hint}>
-          {hint}
-        </div>
-      )}
-    </div>
+    <Surface material="plate" elevation={1} padding="md" className={styles.card}>
+      <Metric label={label} value={value} hint={hint} featured={featured} />
+    </Surface>
   );
 }
