@@ -1,48 +1,34 @@
 {
-  "name": "starwars-data-explorer",
-  "version": "1.1.0",
+  "name": "starwars-universe",
+  "version": "2.0.0",
   "private": true,
-  "description": "A procedural, data-driven Star Wars archive built with Next.js and SWAPI.",
-  "packageManager": "pnpm@11.12.0",
+  "description": "An independent, cinematic introduction to a source-led Star Wars universe.",
+  "license": "MIT",
+  "packageManager": "pnpm@12.15.0",
   "engines": {
-    "node": ">=20.9.0",
-    "pnpm": ">=11.0.0"
+    "node": ">=22.13.0"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --hostname 127.0.0.1 --port 3000",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --hostname 127.0.0.1 --port 3000",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit",
-    "check": "pnpm lint && pnpm typecheck && pnpm build",
-    "clean": "node -e \"require('node:fs').rmSync('.next', { recursive: true, force: true })\""
+    "typecheck": "next typegen && tsc --noEmit",
+    "check": "pnpm data:check && pnpm lint && pnpm typecheck && pnpm build",
+    "data:build": "node scripts/build-database.mjs",
+    "data:check": "node scripts/check-archive.mjs"
   },
-  "keywords": [
-    "star-wars",
-    "nextjs",
-    "react",
-    "swapi",
-    "data-visualization"
-  ],
-  "author": "Tero Leinonen",
-  "license": "MIT",
   "dependencies": {
-    "framer-motion": "^12.42.2",
-    "next": "16.2.10",
-    "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "@types/node": "^26.1.1",
-    "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3",
-    "eslint": "^9.39.5",
-    "eslint-config-next": "16.2.10",
-    "fast-check": "^4.9.0",
-    "jsdom": "^29.1.1",
-    "typescript": "^6.0.3"
-  },
-  "overrides": {
-    "postcss": "^8.5.10"
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.3",
+    "typescript": "6.0.3"
   }
 }

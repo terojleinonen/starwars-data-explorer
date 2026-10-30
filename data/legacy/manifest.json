@@ -1,0 +1,46 @@
+{
+  "capturedAt": "2026-10-25T20:34:37.669Z",
+  "origin": "https://starwars-data-explorer.vercel.app",
+  "status": "Legacy import; individual fact sources and reuse terms not established",
+  "excludedFields": [
+    "opening_crawl"
+  ],
+  "collections": [
+    {
+      "category": "people",
+      "count": 82,
+      "fetchedFrom": "https://starwars-data-explorer.vercel.app/api/swapi/people",
+      "capturedResponseSha256": "5d781334e31d3eea03004299f28a4e02eae0250493f362ca6d1c672aeead0ad8"
+    },
+    {
+      "category": "planets",
+      "count": 60,
+      "fetchedFrom": "https://starwars-data-explorer.vercel.app/api/swapi/planets",
+      "capturedResponseSha256": "a4d647f197e746ca17a2dccbf233533e6277bce3acb6e376ab7beedb630f82d2"
+    },
+    {
+      "category": "starships",
+      "count": 36,
+      "fetchedFrom": "https://starwars-data-explorer.vercel.app/api/swapi/starships",
+      "capturedResponseSha256": "5e1f28bedd2f19728689d5794f934e2b0d553a9ab89523fd07f7b44ec1ac39dc"
+    },
+    {
+      "category": "vehicles",
+      "count": 39,
+      "fetchedFrom": "https://starwars-data-explorer.vercel.app/api/swapi/vehicles",
+      "capturedResponseSha256": "53201169a71cfd553a7052e27702b143bdc0889f3dba1e2dd448919e52158487"
+    },
+    {
+      "category": "species",
+      "count": 37,
+      "fetchedFrom": "https://starwars-data-explorer.vercel.app/api/swapi/species",
+      "capturedResponseSha256": "09f1076b1b64a861de45f69db70dd964470623d099d05102b2fa846264e2d669"
+    },
+    {
+      "category": "films",
+      "count": 6,
+      "fetchedFrom": "https://starwars-data-explorer.vercel.app/api/swapi/films",
+      "capturedResponseSha256": "4711b600f4aae02e14cf17fc9a54db232e801894eba9e61581a9e2cef8c02602"
+    }
+  ]
+}

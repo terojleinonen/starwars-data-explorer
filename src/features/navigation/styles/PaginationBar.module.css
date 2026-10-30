@@ -1,4 +1,0 @@
-.wrap { display: flex; justify-content: center; margin-top: var(--space-6); }
-.root { display: flex; align-items: center; justify-content: center; gap: var(--space-2); width: fit-content; max-width: 100%; overflow-x: auto; }
-.pages { display: flex; gap: var(--space-1); }
-@media (max-width: 560px) { .root { width: 100%; justify-content: space-between; } .pages { max-width: 45vw; overflow-x: auto; } }

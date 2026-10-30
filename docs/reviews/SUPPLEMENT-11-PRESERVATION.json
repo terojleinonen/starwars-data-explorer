@@ -1,0 +1,139 @@
+{
+  "records": {
+    "before": 427,
+    "after": 449,
+    "added": 22,
+    "missingOrChanged": 0
+  },
+  "sources": {
+    "before": 484,
+    "after": 498,
+    "added": 14,
+    "missingOrChanged": 0
+  },
+  "facts": {
+    "before": 2527,
+    "after": 2549,
+    "added": 22,
+    "missingOrChanged": 0
+  },
+  "links": {
+    "before": 1531,
+    "after": 1581,
+    "added": 50,
+    "missingOrChanged": 0
+  },
+  "record_sources": {
+    "before": 1186,
+    "after": 1233,
+    "added": 47,
+    "missingOrChanged": 0
+  },
+  "contributors": {
+    "before": 307,
+    "after": 307,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "credits": {
+    "before": 576,
+    "after": 576,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "citations": {
+    "before": 2492,
+    "after": 2732,
+    "added": 240,
+    "missingOrChanged": 0
+  },
+  "review_issues": {
+    "before": 42,
+    "after": 42,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "film_editions": {
+    "before": 26,
+    "after": 26,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "release_events": {
+    "before": 82,
+    "after": 82,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "edition_credits": {
+    "before": 10,
+    "after": 10,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episodes": {
+    "before": 151,
+    "after": 151,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_credits": {
+    "before": 65,
+    "after": 65,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_links": {
+    "before": 330,
+    "after": 409,
+    "added": 79,
+    "missingOrChanged": 0
+  },
+  "episode_reviews": {
+    "before": 38,
+    "after": 43,
+    "added": 5,
+    "missingOrChanged": 0
+  },
+  "fact_assessments": {
+    "before": 30,
+    "after": 30,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "citationIdentity": "All previous citation content and multiplicity retained. Numeric IDs can shift because PROFILE-01 is applied after supplements; comparison ignores only this generated surrogate ID.",
+  "record_reviews": {
+    "allowedChange": [
+      "series:rebels limitations and checked_at"
+    ],
+    "added": 22
+  },
+  "factStatuses": [
+    {
+      "review_status": "legacy",
+      "count": 2130
+    },
+    {
+      "review_status": "unestablished",
+      "count": 30
+    },
+    {
+      "review_status": "verified",
+      "count": 389
+    }
+  ],
+  "linkStatuses": [
+    {
+      "review_status": "legacy",
+      "count": 1111
+    },
+    {
+      "review_status": "reference",
+      "count": 3
+    },
+    {
+      "review_status": "verified",
+      "count": 467
+    }
+  ]
+}

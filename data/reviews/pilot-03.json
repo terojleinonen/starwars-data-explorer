@@ -1,0 +1,4111 @@
+{
+  "version": 1,
+  "id": "pilot-03",
+  "checkedAt": "2026-10-27",
+  "reviewer": "Archive editorial review",
+  "scope": "Rogue One, The Last Jedi, Solo, The Rise of Skywalker and The Mandalorian and Grogu: selected factual fields, final production credits, connections and edition research. Cinema, television and streaming dates only.",
+  "sources": [
+    {
+      "id": "film03-rogue-film",
+      "title": "StarWars.com — Rogue One",
+      "url": "https://www.starwars.com/films/rogue-one",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Film synopsis, US theatrical date and film-specific Databank. No transcript or stills imported."
+    },
+    {
+      "id": "film03-rogue-afi",
+      "title": "AFI Catalog — Rogue One",
+      "url": "https://catalog.afi.com/Film/70904-ROGUE-ONEASTARWARSSTORY",
+      "kind": "reference",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "AFI Catalog",
+      "revision": "",
+      "note": "Selected final writing, production, photography, editing and music credits. Post-1993 entry is abbreviated. The catalogue runtime of 138 minutes conflicts with Disney’s 134 minutes and is not adopted or treated as evidence of another cut."
+    },
+    {
+      "id": "film03-rogue-d23",
+      "title": "D23 A to Z — Rogue One",
+      "url": "https://d23.com/a-to-z/rogue-one-star-wars-story-film/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "D23",
+      "revision": "",
+      "note": "Selected cast–character pairs and original 3D/IMAX presentation; not a complete credits roll."
+    },
+    {
+      "id": "film03-rogue-opening",
+      "title": "ABC News — Why Rogue One omitted the crawl",
+      "url": "https://abcnews.com/Entertainment/rogue-classic-star-wars-crawl/story?id=44550289",
+      "kind": "reference",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "ABC News",
+      "revision": "",
+      "note": "Contemporary report quoting Gareth Edwards’s Empire interview. Draft screenplay crawl is not a released film version."
+    },
+    {
+      "id": "film03-rogue-edwards",
+      "title": "StarWars.com — Gareth Edwards looks back on Rogue One",
+      "url": "https://www.starwars.com/news/gareth-edwards-rogue-one-interview",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "First-hand director interview on the released film, Vader, Tarkin and Leia. Development ideas and extra photography are not proof of a released alternate cut."
+    },
+    {
+      "id": "film03-rogue-pregame",
+      "title": "StarWars.com — Rogue One Pregame",
+      "url": "https://www.starwars.com/news/rogue-one-pregame",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "K-2SO identity and relationship to the Rebellion; connections to A New Hope. Film is not the same work as Andor."
+    },
+    {
+      "id": "film03-rogue-imax-2022",
+      "title": "D23 — Rogue One returns to IMAX",
+      "url": "https://d23.com/news-briefs-august-19-2022/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "D23",
+      "revision": "",
+      "note": "150 US/Canada IMAX cinemas, one week beginning 26 August 2022; IMAX DMR and separate Andor preview. Does not establish an extended narrative cut."
+    },
+    {
+      "id": "film03-last-overview",
+      "title": "StarWars.com — Film overview, The Last Jedi",
+      "url": "https://www.starwars.com/films/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "The Last Jedi synopsis: Rey, Luke, Finn, Rose, Ahch-To and Crait; selected connection evidence only."
+    },
+    {
+      "id": "film03-last-d23",
+      "title": "D23 A to Z — The Last Jedi",
+      "url": "https://d23.com/a-to-z/star-wars-last-jedi-film/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "D23",
+      "revision": "",
+      "note": "US 15 December date distinguished from 13 December Belgium/France; selected cast, 3D/IMAX and John Williams score."
+    },
+    {
+      "id": "film03-last-crew",
+      "title": "StarWars.com — The Last Jedi title and production credits",
+      "url": "https://www.starwars.com/news/the-official-title-for-star-wars-episode-viii-revealed",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Rian Johnson, Kathleen Kennedy, Ram Bergman and executive producers. Release date corroborated by D23’s retrospective entry."
+    },
+    {
+      "id": "film03-last-opening",
+      "title": "StarWars.com — The Last Jedi opening crawl",
+      "url": "https://www.starwars.com/video/star-wars-episode-viii-the-last-jedi-opening-crawl",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "External official viewing link; no film text or video copied."
+    },
+    {
+      "id": "film03-last-kylo",
+      "title": "StarWars.com — Kylo Ren and the meaning of a mask",
+      "url": "https://www.starwars.com/news/the-introduction-of-kylo-ren-and-the-meaning-of-a-mask",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "January 2018 analysis identifies Adam Driver as Kylo Ren and discusses his unmasked performance in The Last Jedi."
+    },
+    {
+      "id": "film03-last-score-only",
+      "title": "StarWars.com — Score-only version featurette",
+      "url": "https://www.starwars.com/video/score-only-version-featurette-star-wars-the-last-jedi",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official confirmation of music-only version and historical Movies Anywhere offering. Does not establish an exact streaming premiere date."
+    },
+    {
+      "id": "film03-last-disney-observation",
+      "title": "What’s On Disney Plus — The Last Jedi arrival, 26 December 2019",
+      "url": "https://whatsondisneyplus.com/whats-new-on-disney-star-wars-the-last-jedi/",
+      "kind": "reference",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "Disney+",
+      "revision": "",
+      "note": "Contemporary observation of US/Canada catalogue arrival; independent fan/news site, not Disney. Corroborated by ComicBook.com. No global or Finnish premiere inferred."
+    },
+    {
+      "id": "film03-last-score-streaming",
+      "title": "ComicBook.com — Disney+ score-only extra, 26 December 2019",
+      "url": "https://comicbook.com/starwars/news/star-wars-the-last-jedi-disney-plus-score-only-version/",
+      "kind": "reference",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "ComicBook.com",
+      "revision": "",
+      "note": "Contemporary observation of the score-only extra in the US Disney+ release. Records availability on this date, not the first ever publication of the version or guaranteed current availability."
+    },
+    {
+      "id": "film03-solo-film",
+      "title": "StarWars.com — Solo",
+      "url": "https://www.starwars.com/films/solo",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Film synopsis and selected film-specific Databank connections. Displayed date is regional/unspecified and is not used as the US opening."
+    },
+    {
+      "id": "film03-solo-lucasfilm",
+      "title": "Lucasfilm — Solo production",
+      "url": "https://www.lucasfilm.com/productions/solo-a-star-wars-story/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Final director, screenplay, selected cast and original summary evidence."
+    },
+    {
+      "id": "film03-solo-disney",
+      "title": "Disney Movies — Solo production credits",
+      "url": "https://movies.disney.com/solo-a-star-wars-story",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "Disney Movies",
+      "revision": "",
+      "note": "Selected producers and writers. Displayed 23 May date has no reliable US scope; US 25 May is sourced separately to D23."
+    },
+    {
+      "id": "film03-solo-d23",
+      "title": "D23 A to Z — Solo",
+      "url": "https://d23.com/a-to-z/solo-star-wars-story-film/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "D23",
+      "revision": "",
+      "note": "25 May 2018 US opening and 3D/IMAX; selected cast–character pairs."
+    },
+    {
+      "id": "film03-solo-cast",
+      "title": "D23 — Discover the characters of Solo",
+      "url": "https://d23.com/discover-the-characters-of-solo-a-star-wars-story/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "D23",
+      "revision": "",
+      "note": "Selected actor–character pairs, including Phoebe Waller-Bridge as L3-37. Thandie Newton is retained as the film’s credited name."
+    },
+    {
+      "id": "film03-solo-music",
+      "title": "StarWars.com — John Powell on scoring Solo",
+      "url": "https://www.starwars.com/news/solo-a-star-wars-story-composer-john-powell",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "John Powell is lead score composer; John Williams contributed the new Han theme and other musical material. They are not flattened into two equal score credits."
+    },
+    {
+      "id": "film03-solo-photography",
+      "title": "D23 — Bradford Young and Fort Ypso",
+      "url": "https://d23.com/d23-video/the-unexpected-practical-effect-behind-solo-a-star-wars-storys-fort-ypso/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "D23",
+      "revision": "",
+      "note": "Confirms Bradford Young as director of photography."
+    },
+    {
+      "id": "film03-solo-streaming",
+      "title": "StarWars.com — Solo arrives on Disney+",
+      "url": "https://www.starwars.com/news/solo-a-star-wars-story-arrives-on-disney-plus",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "10 July 2020 release-day confirmation. US scope selected for archive; no first-ever or worldwide streaming premiere inferred."
+    },
+    {
+      "id": "film03-solo-bonus",
+      "title": "StarWars.com — Solo home release contents",
+      "url": "https://www.starwars.com/news/solo-in-home",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Deleted and extended scenes are separate bonus material, not an announced extended feature cut. Disc and digital-purchase dates excluded from release events."
+    },
+    {
+      "id": "film03-rise-film",
+      "title": "StarWars.com — The Rise of Skywalker",
+      "url": "https://www.starwars.com/films/star-wars-episode-ix-the-rise-of-skywalker",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Story gallery and selected characters, worlds and Millennium Falcon connections. Regional displayed 18 December date is not used as US opening."
+    },
+    {
+      "id": "film03-rise-lucasfilm",
+      "title": "Lucasfilm — The Rise of Skywalker",
+      "url": "https://www.lucasfilm.com/productions/star-wars-the-rise-of-skywalker/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Original summary evidence and Episode IX context. Abbreviated producer list is supplemented by final Disney+ press credits."
+    },
+    {
+      "id": "film03-rise-d23",
+      "title": "D23 A to Z — The Rise of Skywalker",
+      "url": "https://d23.com/a-to-z/star-wars-the-rise-of-skywalker/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "D23",
+      "revision": "",
+      "note": "20 December US date versus 18 December Belgium/France; selected cast, John Williams score and original 3D/IMAX formats."
+    },
+    {
+      "id": "film03-rise-disney-stream",
+      "title": "Disney+ Press — The Rise of Skywalker, May the 4th",
+      "url": "https://press.disneyplus.com/news/star-wars-the-rise-of-skywalker-may-4th",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "Disney+",
+      "revision": "",
+      "note": "Final screenplay and story credits separately identified. Disney+ 4 May 2020; Netherlands exception 5 May. US event does not stand for Finland."
+    },
+    {
+      "id": "film03-rise-opening",
+      "title": "StarWars.com — Episode IX opening crawl",
+      "url": "https://www.starwars.com/video/star-wars-episode-ix-the-rise-of-skywalker-opening-crawl",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "External official video link, no transcript or hosted footage."
+    },
+    {
+      "id": "film03-rise-bonus",
+      "title": "StarWars.com — The Rise of Skywalker home release contents",
+      "url": "https://www.starwars.com/news/star-wars-the-rise-of-skywalker-home-entertainment-announce",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Feature and separate making-of/extras; not evidence of a released extended story cut. Purchase/disc dates excluded."
+    },
+    {
+      "id": "film03-mando-film",
+      "title": "StarWars.com — The Mandalorian and Grogu",
+      "url": "https://www.starwars.com/films/star-wars-the-mandalorian-and-grogu",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Film-specific synopsis, 22 May 2026 cinema opening, character and walker connections. Checked after theatrical release, not retained as forthcoming."
+    },
+    {
+      "id": "film03-mando-final-credits",
+      "title": "StarWars.com — Final trailer and production credits",
+      "url": "https://www.starwars.com/news/star-wars-the-mandalorian-and-grogu-final-trailer",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Final 2026 writers, producers, executive producers and composer; not the abbreviated 2024 announcement."
+    },
+    {
+      "id": "film03-mando-cast",
+      "title": "StarWars.com — Meet the cast of The Mandalorian and Grogu",
+      "url": "https://www.starwars.com/news/star-wars-the-mandalorian-and-grogu-cast",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Pedro Pascal, Sigourney Weaver and Jeremy Allen White roles; shared Din Djarin performance with Brendan Wayne and Lateef Crowder. No LEGO-special cast imported."
+    },
+    {
+      "id": "film03-mando-imax-stream",
+      "title": "Disney+ Press — Mandalorian September 2 debuts",
+      "url": "https://press.disneyplus.com/news/star-wars-the-mandalorian",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "Disney+",
+      "revision": "",
+      "note": "Film, podcast and LEGO special are three different productions. Confirms 2 September 2026 IMAX Enhanced film presentation, expanded aspect ratio and hardware-dependent DTS sound."
+    },
+    {
+      "id": "film03-mando-september",
+      "title": "Disney+ Press — September 2026 schedule",
+      "url": "https://press.disneyplus.com/news/next-on-disney-plus-september-2026",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "Disney+",
+      "revision": "",
+      "note": "US Disney+/Hulu schedule corroborates 2 September film premiere separately from podcast and LEGO special."
+    },
+    {
+      "id": "film03-mando-opening",
+      "title": "StarWars.com — The Mandalorian and Grogu opening",
+      "url": "https://www.starwars.com/video/opening-crawl-star-wars-the-mandalorian-and-grogu",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Despite its video title, description identifies three introductory sentences rather than a traditional receding crawl. Also identifies Solo’s use of this format."
+    },
+    {
+      "id": "film03-mando-razor",
+      "title": "StarWars.com — How the new Razor Crest was made",
+      "url": "https://www.starwars.com/news/star-wars-the-mandalorian-and-grogu-razor-crest",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "First-hand filmmaker interview: Colonel Ward gifts a different factory-condition Razor Crest. Do not conflate it with the ship destroyed in the television series. Nal Hutta and Adelphi scenes also identified."
+    },
+    {
+      "id": "film03-mando-bonus",
+      "title": "StarWars.com — The Mandalorian and Grogu at home",
+      "url": "https://www.starwars.com/news/star-wars-the-mandalorian-and-grogu-watch-at-home",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "2 September update confirms actual Disney+ availability and separate commentary/features. Disc and purchase dates omitted from release events."
+    },
+    {
+      "id": "film03-scarif",
+      "title": "Star Wars Databank — Scarif",
+      "url": "https://www.starwars.com/databank/scarif",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Original short world description and explicit Rogue One appearance."
+    },
+    {
+      "id": "film03-u-wing",
+      "title": "Star Wars Databank — U-wing",
+      "url": "https://www.starwars.com/databank/u-wing",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Troop transport identity and explicit Rogue One / Mandalorian and Grogu appearances; no technical measurements adopted."
+    },
+    {
+      "id": "film03-crait",
+      "title": "Star Wars Databank — Crait",
+      "url": "https://www.starwars.com/databank/crait",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "World identity and explicit The Last Jedi appearance."
+    },
+    {
+      "id": "film03-ahch-to",
+      "title": "Star Wars Databank — Ahch-To",
+      "url": "https://www.starwars.com/databank/ahch-to",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "World identity and explicit The Last Jedi appearance."
+    },
+    {
+      "id": "film03-ski-speeder",
+      "title": "Star Wars Databank — Resistance ski speeder",
+      "url": "https://www.starwars.com/databank/resistance-ski-speeder",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Vehicle identity and explicit The Last Jedi appearance; no invented performance specifications."
+    },
+    {
+      "id": "film03-conveyex",
+      "title": "Star Wars Databank — Imperial conveyex transport",
+      "url": "https://www.starwars.com/databank/imperial-conveyex-transport",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Vehicle identity and explicit Solo appearance; no technical measurements adopted."
+    },
+    {
+      "id": "film03-exegol",
+      "title": "Star Wars Databank — Exegol",
+      "url": "https://www.starwars.com/databank/exegol",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "World identity and explicit The Rise of Skywalker appearance."
+    },
+    {
+      "id": "film03-grogu",
+      "title": "Star Wars Databank — Grogu",
+      "url": "https://www.starwars.com/databank/grogu",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Short identity and explicit 2026 film appearance, not a complete biography."
+    },
+    {
+      "id": "film03-rotta",
+      "title": "Star Wars Databank — Rotta the Hutt",
+      "url": "https://www.starwars.com/databank/rotta-the-hutt",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Jabba’s son; explicit 2026 film appearance. Age-specific physical measurements not adopted."
+    }
+  ],
+  "records": [
+    {
+      "id": "people:jyn-erso",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "jyn-erso",
+        "title": "Jyn Erso",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A rebel recruit whose mission brings her to the heart of the Empire’s Death Star project.",
+        "evidence": [
+          {
+            "sourceId": "film03-rogue-film",
+            "locator": "Synopsis / Jyn Erso and Death Star mission",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "people:k-2so",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "k-2so",
+        "title": "K-2SO",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An Imperial security droid reprogrammed to serve the Rebel Alliance.",
+        "evidence": [
+          {
+            "sourceId": "film03-rogue-pregame",
+            "locator": "On TV / K-2SO comparison with reprogrammed battle droids",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "people:qira",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "qira",
+        "title": "Qi’ra",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A figure from Han Solo’s youth who becomes entangled with the criminal world he enters.",
+        "evidence": [
+          {
+            "sourceId": "film03-solo-lucasfilm",
+            "locator": "Leading cast / Qi’ra; story",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "people:rose-tico",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "rose-tico",
+        "title": "Rose Tico",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Resistance mechanic who joins Finn on a mission to help their pursued fleet.",
+        "evidence": [
+          {
+            "sourceId": "film03-last-overview",
+            "locator": "The Last Jedi / film synopsis",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "people:din-djarin",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "din-djarin",
+        "title": "Din Djarin",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Mandalorian bounty hunter who raises Grogu and takes on missions for the New Republic.",
+        "evidence": [
+          {
+            "sourceId": "film03-mando-cast",
+            "locator": "Din Djarin / father and apprentice; film synopsis",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "people:grogu",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "grogu",
+        "title": "Grogu",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Force-sensitive foundling who chooses to travel with his protector, Din Djarin.",
+        "evidence": [
+          {
+            "sourceId": "film03-grogu",
+            "locator": "Profile / return to Din Djarin",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "people:colonel-ward",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "colonel-ward",
+        "title": "Colonel Ward",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A New Republic officer who recruits Din Djarin and Grogu for a mission against Imperial warlords.",
+        "evidence": [
+          {
+            "sourceId": "film03-mando-final-credits",
+            "locator": "Colonel Ward / mission against Imperial war criminals",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "people:rotta",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "rotta-the-hutt",
+        "title": "Rotta the Hutt",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Jabba the Hutt’s son, whose life connects the Clone Wars era with the later adventures of Din Djarin and Grogu.",
+        "evidence": [
+          {
+            "sourceId": "film03-rotta",
+            "locator": "Profile / Jabba’s son; Appearances",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "planets:scarif",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "scarif",
+        "title": "Scarif",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A tropical world fortified by the Empire, with a heavily defended military installation.",
+        "evidence": [
+          {
+            "sourceId": "film03-scarif",
+            "locator": "Profile / Imperial installation and shielding",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "planets:crait",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "crait",
+        "title": "Crait",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A salt-covered mineral world where the fleeing Resistance seeks shelter in an abandoned rebel outpost.",
+        "evidence": [
+          {
+            "sourceId": "film03-crait",
+            "locator": "Profile / salt world and Resistance refuge",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "planets:ahch-to",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "ahch-to",
+        "title": "Ahch-To",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A remote ocean world whose ancient Jedi sanctuary becomes Luke Skywalker’s place of exile.",
+        "evidence": [
+          {
+            "sourceId": "film03-ahch-to",
+            "locator": "Profile / first Jedi Temple and Luke’s exile",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "planets:exegol",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "exegol",
+        "title": "Exegol",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A hidden Sith world in the Unknown Regions, sheltering a citadel and a surviving cult.",
+        "evidence": [
+          {
+            "sourceId": "film03-exegol",
+            "locator": "Profile / citadel and Sith cultists",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "starships:u-wing",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "u-wing",
+        "title": "U-wing",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Rebel transport designed to deliver troops into dangerous landing zones and support them from the air.",
+        "evidence": [
+          {
+            "sourceId": "film03-u-wing",
+            "locator": "Profile / troop transport and gunship",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "starships:razor-crest-2026",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "razor-crest-2026",
+        "title": "Razor Crest (New Republic gift)",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A factory-condition Razor Crest given to Din Djarin by Colonel Ward, replacing the ship lost during his earlier journeys.",
+        "evidence": [
+          {
+            "sourceId": "film03-mando-razor",
+            "locator": "Opening / factory-condition gift; Shiny and chrome",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "vehicles:resistance-ski-speeder",
+      "primary": false,
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "resistance-ski-speeder",
+        "title": "Resistance ski speeder",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An old low-altitude craft kept balanced by a strut, used by the Resistance on Crait.",
+        "evidence": [
+          {
+            "sourceId": "film03-ski-speeder",
+            "locator": "Profile / stabilizer strut; Appearances; Locations",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "vehicles:conveyex",
+      "primary": false,
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "conveyex",
+        "title": "Conveyex",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An armored cargo train targeted by Beckett’s crew during a coaxium robbery on Vandor.",
+        "evidence": [
+          {
+            "sourceId": "film03-conveyex",
+            "locator": "Profile / cargo train and Vandor robbery",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory supporting profile: selected identity and film connection only.",
+        "limitations": [
+          "This is not a complete biography, appearance list or technical specification."
+        ]
+      }
+    },
+    {
+      "id": "films:rogue-one",
+      "primary": true,
+      "summary": {
+        "text": "Jyn Erso joins a rebel operation to obtain the Death Star plans. The mission forces a divided group to risk everything for a weakness in the Empire’s new weapon.",
+        "evidence": [
+          {
+            "sourceId": "film03-rogue-film",
+            "locator": "Synopsis / archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "Gareth Edwards",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "Chris Weitz, Tony Gilroy",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Writers / Scr",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "story",
+          "value": "John Knoll, Gary Whitta",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Writers / Story",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Michael Giacchino",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Music",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "cinematography",
+          "value": "Greig Fraser",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Photography",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "editing",
+          "value": "John Gilroy, Jabez Olssen, Colin Goudie",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Film editors",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2016-12-16",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-film",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US theatrical opening; earlier international openings are not the US date.",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Release dates / 14 and 16 December",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "A Star Wars Story",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Title / standalone film",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-film",
+              "locator": "Film overview",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Dramatic prologue; no traditional receding opening crawl.",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-opening",
+              "locator": "Edwards interview / opening sequence",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Gareth Edwards",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Director / Gareth Edwards",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Producer / Kathleen Kennedy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Allison Shearmur",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Producer / Allison Shearmur",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Simon Emanuel",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Producer / Simon Emanuel",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Chris Weitz",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Screenwriter / Chris Weitz",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tony Gilroy",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Screenwriter / Tony Gilroy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Knoll",
+          "role": "Story",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Story / John Knoll",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gary Whitta",
+          "role": "Story",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Story / Gary Whitta",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Michael Giacchino",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Composer / Michael Giacchino",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Greig Fraser",
+          "role": "Director of photography",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Director of photography / Greig Fraser",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Gilroy",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Editor / John Gilroy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jabez Olssen",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Editor / Jabez Olssen",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Colin Goudie",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-afi",
+              "locator": "Production credits / Editor / Colin Goudie",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Felicity Jones",
+          "role": "Actor",
+          "characterName": "Jyn Erso",
+          "characterRecordId": "people:jyn-erso",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Felicity Jones as Jyn Erso",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Diego Luna",
+          "role": "Actor",
+          "characterName": "Cassian Andor",
+          "characterRecordId": "people:cassian-andor",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Diego Luna as Cassian Andor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Alan Tudyk",
+          "role": "Actor",
+          "characterName": "K-2SO",
+          "characterRecordId": "people:k-2so",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Alan Tudyk as K-2SO",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Mads Mikkelsen",
+          "role": "Actor",
+          "characterName": "Galen Erso",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Mads Mikkelsen as Galen Erso",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ben Mendelsohn",
+          "role": "Actor",
+          "characterName": "Orson Krennic",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Ben Mendelsohn as Orson Krennic",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Forest Whitaker",
+          "role": "Actor",
+          "characterName": "Saw Gerrera",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Forest Whitaker as Saw Gerrera",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Donnie Yen",
+          "role": "Actor",
+          "characterName": "Chirrut Îmwe",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Donnie Yen as Chirrut Îmwe",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jiang Wen",
+          "role": "Actor",
+          "characterName": "Baze Malbus",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Jiang Wen as Baze Malbus",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Genevieve O’Reilly",
+          "role": "Actor",
+          "characterName": "Mon Mothma",
+          "characterRecordId": "people:28",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Genevieve O’Reilly as Mon Mothma",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:jyn-erso",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Jyn Erso",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:cassian-andor",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Cassian Andor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:k-2so",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / K-2SO",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:28",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Cast / Mon Mothma",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:4",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-edwards",
+              "locator": "Vader sequence discussion",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:12",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-edwards",
+              "locator": "Tarkin performance discussion",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:5",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-edwards",
+              "locator": "Leia ending discussion",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:9",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-film",
+              "locator": "Synopsis / Death Star",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:scarif",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-scarif",
+              "locator": "Appearances / Rogue One",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:u-wing",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-u-wing",
+              "locator": "Appearances / Rogue One",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Five-film review 03: selected production facts, final credits, connections, opening format and cinema/TV/streaming version history.",
+        "limitations": [
+          "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+          "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+          "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+          "AFI’s 138-minute runtime conflicts with Disney’s 134-minute listing. Runtime is deliberately not adopted and does not create an alternate-cut record."
+        ]
+      }
+    },
+    {
+      "id": "films:last-jedi",
+      "primary": true,
+      "summary": {
+        "text": "Rey seeks Luke Skywalker on Ahch-To while the Resistance fleet struggles to escape pursuit. Finn and Rose attempt a rescue plan as the conflict draws both sides toward Crait.",
+        "evidence": [
+          {
+            "sourceId": "film03-last-overview",
+            "locator": "Synopsis / archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "Rian Johnson",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Writer-director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "Rian Johnson",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Writer-director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Kathleen Kennedy, Ram Bergman",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "J.J. Abrams, Jason McGatlin, Tom Karnowski",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "John Williams",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Original Score nomination",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2017-12-15",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "US release / 15 December",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US theatrical opening; Belgium and France opened on 13 December 2017.",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Release dates",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Sequel trilogy",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Episode VIII / next chapter of Skywalker saga",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episode_id",
+          "value": "8",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Episode VIII title",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Film entry",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Traditional receding opening crawl.",
+          "evidence": [
+            {
+              "sourceId": "film03-last-opening",
+              "locator": "Official opening video description",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_video_url",
+          "value": "https://www.starwars.com/video/star-wars-episode-viii-the-last-jedi-opening-crawl",
+          "evidence": [
+            {
+              "sourceId": "film03-last-opening",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Rian Johnson",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Production credits / Director / Rian Johnson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rian Johnson",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Production credits / Screenwriter / Rian Johnson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Production credits / Producer / Kathleen Kennedy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ram Bergman",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Production credits / Producer / Ram Bergman",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "J.J. Abrams",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Production credits / Executive producer / J.J. Abrams",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jason McGatlin",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Production credits / Executive producer / Jason McGatlin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tom Karnowski",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-crew",
+              "locator": "Production credits / Executive producer / Tom Karnowski",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Production credits / Composer / John Williams",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Daisy Ridley",
+          "role": "Actor",
+          "characterName": "Rey",
+          "characterRecordId": "people:rey",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / Daisy Ridley as Rey",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Boyega",
+          "role": "Actor",
+          "characterName": "Finn",
+          "characterRecordId": "people:finn",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / John Boyega as Finn",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Oscar Isaac",
+          "role": "Actor",
+          "characterName": "Poe Dameron",
+          "characterRecordId": "people:poe-dameron",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / Oscar Isaac as Poe Dameron",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Mark Hamill",
+          "role": "Actor",
+          "characterName": "Luke Skywalker",
+          "characterRecordId": "people:1",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / Mark Hamill as Luke Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Fisher",
+          "role": "Actor",
+          "characterName": "Leia Organa",
+          "characterRecordId": "people:5",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / Carrie Fisher as Leia Organa",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kelly Marie Tran",
+          "role": "Actor",
+          "characterName": "Rose Tico",
+          "characterRecordId": "people:rose-tico",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / Kelly Marie Tran as Rose Tico",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gwendoline Christie",
+          "role": "Actor",
+          "characterName": "Captain Phasma",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / Gwendoline Christie as Captain Phasma",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Domhnall Gleeson",
+          "role": "Actor",
+          "characterName": "General Hux",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / Domhnall Gleeson as General Hux",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Andy Serkis",
+          "role": "Actor",
+          "characterName": "Supreme Leader Snoke",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / Andy Serkis as Supreme Leader Snoke",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Laura Dern",
+          "role": "Actor",
+          "characterName": "Amilyn Holdo",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / Laura Dern as Amilyn Holdo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Benicio Del Toro",
+          "role": "Actor",
+          "characterName": "DJ",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Cast / Benicio Del Toro as DJ",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Adam Driver",
+          "role": "Actor",
+          "characterName": "Kylo Ren",
+          "characterRecordId": "people:kylo-ren",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-kylo",
+              "locator": "Cast / Adam Driver as Kylo Ren",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:kylo-ren",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-kylo",
+              "locator": "Kylo Ren / The Last Jedi mask discussion",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:rey",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Synopsis and cast / Rey",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:finn",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Synopsis and cast / Finn",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:poe-dameron",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Synopsis and cast / Poe Dameron",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Synopsis and cast / Luke Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:5",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Synopsis and cast / Leia Organa",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:rose-tico",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Synopsis and cast / Rose Tico",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:crait",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-crait",
+              "locator": "Appearances / The Last Jedi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:ahch-to",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-ahch-to",
+              "locator": "Appearances / The Last Jedi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:resistance-ski-speeder",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-ski-speeder",
+              "locator": "Appearances / The Last Jedi",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Five-film review 03: selected production facts, final credits, connections, opening format and cinema/TV/streaming version history.",
+        "limitations": [
+          "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+          "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+          "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+          "Score-only audio presentation is identified separately. Movies Anywhere purchase entitlement dates are outside scope; Disney+ extra availability is based on contemporary reporting, not an audited current platform catalogue."
+        ]
+      }
+    },
+    {
+      "id": "films:solo",
+      "primary": true,
+      "summary": {
+        "text": "A young Han Solo leaves Corellia and falls in with a crew of thieves. His first adventures with Chewbacca and Lando entangle him in a dangerous coaxium job and the criminal syndicates behind it.",
+        "evidence": [
+          {
+            "sourceId": "film03-solo-lucasfilm",
+            "locator": "Synopsis / archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "Ron Howard",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-lucasfilm",
+              "locator": "Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "Lawrence Kasdan, Jonathan Kasdan",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-lucasfilm",
+              "locator": "Screenplay",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-disney",
+              "locator": "Produced By",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "John Powell",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-music",
+              "locator": "Lead composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "original_music",
+          "value": "John Williams — Han Solo theme and original Star Wars musical material",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-music",
+              "locator": "The great John Williams / new theme and contributions",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "cinematography",
+          "value": "Bradford Young",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-photography",
+              "locator": "Director of photography",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2018-05-25",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-d23",
+              "locator": "US release / 25 May",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US theatrical opening; the regional 23 May listing is not the US date.",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-d23",
+              "locator": "Release date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "A Star Wars Story",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-d23",
+              "locator": "Title / standalone film",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-d23",
+              "locator": "Film entry",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Introductory text cards rather than a traditional receding crawl.",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-opening",
+              "locator": "Description / format previously used for Solo",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Ron Howard",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-lucasfilm",
+              "locator": "Production credits / Director / Ron Howard",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lawrence Kasdan",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-lucasfilm",
+              "locator": "Production credits / Screenwriter / Lawrence Kasdan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jonathan Kasdan",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-lucasfilm",
+              "locator": "Production credits / Screenwriter / Jonathan Kasdan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-disney",
+              "locator": "Production credits / Producer / Kathleen Kennedy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Allison Shearmur",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-disney",
+              "locator": "Production credits / Producer / Allison Shearmur",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Simon Emanuel",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-disney",
+              "locator": "Production credits / Producer / Simon Emanuel",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Powell",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-music",
+              "locator": "Production credits / Composer / John Powell",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Han Solo theme and original musical material",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-music",
+              "locator": "The great John Williams / theme and score contributions",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Bradford Young",
+          "role": "Director of photography",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-photography",
+              "locator": "Production credits / Director of photography / Bradford Young",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Alden Ehrenreich",
+          "role": "Actor",
+          "characterName": "Han Solo",
+          "characterRecordId": "people:14",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-cast",
+              "locator": "Cast / Alden Ehrenreich as Han Solo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Joonas Suotamo",
+          "role": "Actor",
+          "characterName": "Chewbacca",
+          "characterRecordId": "people:13",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-cast",
+              "locator": "Cast / Joonas Suotamo as Chewbacca",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Woody Harrelson",
+          "role": "Actor",
+          "characterName": "Tobias Beckett",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-cast",
+              "locator": "Cast / Woody Harrelson as Tobias Beckett",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Thandie Newton",
+          "role": "Actor",
+          "characterName": "Val",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-cast",
+              "locator": "Cast / Thandie Newton as Val",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Emilia Clarke",
+          "role": "Actor",
+          "characterName": "Qi’ra",
+          "characterRecordId": "people:qira",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-cast",
+              "locator": "Cast / Emilia Clarke as Qi’ra",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Phoebe Waller-Bridge",
+          "role": "Actor",
+          "characterName": "L3-37",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-cast",
+              "locator": "Cast / Phoebe Waller-Bridge as L3-37",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Paul Bettany",
+          "role": "Actor",
+          "characterName": "Dryden Vos",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-cast",
+              "locator": "Cast / Paul Bettany as Dryden Vos",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Donald Glover",
+          "role": "Actor",
+          "characterName": "Lando Calrissian",
+          "characterRecordId": "people:25",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-lucasfilm",
+              "locator": "Cast / Donald Glover as Lando Calrissian",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:14",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-lucasfilm",
+              "locator": "Leading cast / Han Solo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:13",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-cast",
+              "locator": "Chewbacca",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:25",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-lucasfilm",
+              "locator": "Leading cast / Lando",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:qira",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-lucasfilm",
+              "locator": "Leading cast / Qi’ra",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-film",
+              "locator": "Synopsis / Millennium Falcon",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:22",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-film",
+              "locator": "Databank: Solo / Corellia",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:conveyex",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-conveyex",
+              "locator": "Appearances / Solo",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Five-film review 03: selected production facts, final credits, connections, opening format and cinema/TV/streaming version history.",
+        "limitations": [
+          "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+          "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+          "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+          "Ron Howard is the final released-film director. Deleted/extended bonus scenes and expanded novelizations do not establish a released alternate feature cut; earlier production direction is not silently converted into final co-director credit."
+        ]
+      }
+    },
+    {
+      "id": "films:rise-skywalker",
+      "primary": true,
+      "summary": {
+        "text": "Rey and her friends search for a path to a hidden Sith threat while the Resistance prepares its last stand. Kylo Ren’s choices and Rey’s family history bring their conflict to Exegol.",
+        "evidence": [
+          {
+            "sourceId": "film03-rise-lucasfilm",
+            "locator": "Synopsis / archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "J.J. Abrams",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "Chris Terrio, J.J. Abrams",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Screenplay credit",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "story",
+          "value": "Derek Connolly, Colin Trevorrow, J.J. Abrams, Chris Terrio",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Story credit",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Kathleen Kennedy, J.J. Abrams, Michelle Rejwan",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Callum Greene, Tommy Gormley, Jason McGatlin",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "John Williams",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Original Score nomination",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2019-12-20",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "US release / 20 December",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US theatrical opening; Belgium and France opened on 18 December 2019.",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Release dates",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Sequel trilogy",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-lucasfilm",
+              "locator": "Ninth installment / sequel trilogy conclusion",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episode_id",
+          "value": "9",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-lucasfilm",
+              "locator": "Ninth installment",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Film entry",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Traditional receding opening crawl.",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-opening",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_video_url",
+          "value": "https://www.starwars.com/video/star-wars-episode-ix-the-rise-of-skywalker-opening-crawl",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-opening",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "J.J. Abrams",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Director / J.J. Abrams",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Chris Terrio",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Screenwriter / Chris Terrio",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "J.J. Abrams",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Screenwriter / J.J. Abrams",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Derek Connolly",
+          "role": "Story",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Story / Derek Connolly",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Colin Trevorrow",
+          "role": "Story",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Story / Colin Trevorrow",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "J.J. Abrams",
+          "role": "Story",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Story / J.J. Abrams",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Chris Terrio",
+          "role": "Story",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Story / Chris Terrio",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Producer / Kathleen Kennedy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "J.J. Abrams",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Producer / J.J. Abrams",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Michelle Rejwan",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Producer / Michelle Rejwan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Callum Greene",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Executive producer / Callum Greene",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tommy Gormley",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Executive producer / Tommy Gormley",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jason McGatlin",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-disney-stream",
+              "locator": "Production credits / Executive producer / Jason McGatlin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Production credits / Composer / John Williams",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Fisher",
+          "role": "Actor",
+          "characterName": "Leia Organa",
+          "characterRecordId": "people:5",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Carrie Fisher as Leia Organa",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Mark Hamill",
+          "role": "Actor",
+          "characterName": "Luke Skywalker",
+          "characterRecordId": "people:1",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Mark Hamill as Luke Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Adam Driver",
+          "role": "Actor",
+          "characterName": "Kylo Ren",
+          "characterRecordId": "people:kylo-ren",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Adam Driver as Kylo Ren",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Daisy Ridley",
+          "role": "Actor",
+          "characterName": "Rey",
+          "characterRecordId": "people:rey",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Daisy Ridley as Rey",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Boyega",
+          "role": "Actor",
+          "characterName": "Finn",
+          "characterRecordId": "people:finn",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / John Boyega as Finn",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Oscar Isaac",
+          "role": "Actor",
+          "characterName": "Poe Dameron",
+          "characterRecordId": "people:poe-dameron",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Oscar Isaac as Poe Dameron",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Anthony Daniels",
+          "role": "Actor",
+          "characterName": "C-3PO",
+          "characterRecordId": "people:2",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Anthony Daniels as C-3PO",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Naomi Ackie",
+          "role": "Actor",
+          "characterName": "Jannah",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Naomi Ackie as Jannah",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Domhnall Gleeson",
+          "role": "Actor",
+          "characterName": "General Hux",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Domhnall Gleeson as General Hux",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Richard E. Grant",
+          "role": "Actor",
+          "characterName": "General Pryde",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Richard E. Grant as General Pryde",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lupita Nyong’o",
+          "role": "Actor",
+          "characterName": "Maz Kanata",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Lupita Nyong’o as Maz Kanata",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Keri Russell",
+          "role": "Actor",
+          "characterName": "Zorii Bliss",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Keri Russell as Zorii Bliss",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Joonas Suotamo",
+          "role": "Actor",
+          "characterName": "Chewbacca",
+          "characterRecordId": "people:13",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Joonas Suotamo as Chewbacca",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kelly Marie Tran",
+          "role": "Actor",
+          "characterName": "Rose Tico",
+          "characterRecordId": "people:rose-tico",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Kelly Marie Tran as Rose Tico",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Billy Dee Williams",
+          "role": "Actor",
+          "characterName": "Lando Calrissian",
+          "characterRecordId": "people:25",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Billy Dee Williams as Lando Calrissian",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:5",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Leia Organa",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Luke Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:kylo-ren",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Kylo Ren",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:rey",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Rey",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:finn",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Finn",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:poe-dameron",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Poe Dameron",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:2",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / C-3PO",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:13",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Chewbacca",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:rose-tico",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Rose Tico",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:25",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Cast / Lando Calrissian",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:21",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-film",
+              "locator": "Story gallery / Emperor Palpatine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:exegol",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-exegol",
+              "locator": "Appearances / Episode IX",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:13",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-film",
+              "locator": "Story gallery / Mustafar opening",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-film",
+              "locator": "Story gallery / Tatooine ending",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-film",
+              "locator": "Story gallery / Millennium Falcon pursuit",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Five-film review 03: selected production facts, final credits, connections, opening format and cinema/TV/streaming version history.",
+        "limitations": [
+          "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+          "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+          "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+          "Story credit includes Derek Connolly and Colin Trevorrow; the final screenplay credit is Chris Terrio and J.J. Abrams. Unreleased scripts, fan edits and rumours are not release versions."
+        ]
+      }
+    },
+    {
+      "id": "films:mandalorian-grogu",
+      "primary": true,
+      "summary": {
+        "text": "Din Djarin and Grogu accept a New Republic mission against surviving Imperial warlords. Their journey brings new allies, Hutt power struggles and a replacement for Din’s lost ship.",
+        "evidence": [
+          {
+            "sourceId": "film03-mando-film",
+            "locator": "Synopsis / archive paraphrase",
+            "note": ""
+          },
+          {
+            "sourceId": "film03-mando-razor",
+            "locator": "Opening / replacement ship",
+            "note": ""
+          },
+          {
+            "sourceId": "film03-mando-cast",
+            "locator": "Rotta the Hutt / cast interview",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "Jon Favreau",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "Jon Favreau, Dave Filoni, Noah Kloor",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Written by",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Kathleen Kennedy, Ian Bryce, Jon Favreau, Dave Filoni",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Karen Gilchrist, John Bartnicki, Carrie Beck",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Ludwig Göransson",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Music composed by",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2026-05-22",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-film",
+              "locator": "Release Date / 22 May 2026",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US theatrical opening; Disney+ US IMAX Enhanced presentation followed on 2 September 2026.",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-september",
+              "locator": "September 2 / film premiere",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Standalone feature",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-imax-stream",
+              "locator": "Standalone adventure / first feature film",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-cast",
+              "locator": "Live-action and shared Din Djarin performance",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Three introductory sentences on text cards; no traditional receding crawl.",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-opening",
+              "locator": "Official opening description",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_video_url",
+          "value": "https://www.starwars.com/video/opening-crawl-star-wars-the-mandalorian-and-grogu",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-opening",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Jon Favreau",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Director / Jon Favreau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Favreau",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Screenwriter / Jon Favreau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Screenwriter / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Noah Kloor",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Screenwriter / Noah Kloor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Producer / Kathleen Kennedy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ian Bryce",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Producer / Ian Bryce",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Favreau",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Producer / Jon Favreau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Producer / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Karen Gilchrist",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Executive producer / Karen Gilchrist",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Bartnicki",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Executive producer / John Bartnicki",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Beck",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Executive producer / Carrie Beck",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ludwig Göransson",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-final-credits",
+              "locator": "Production credits / Composer / Ludwig Göransson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Pedro Pascal",
+          "role": "Actor",
+          "characterName": "Din Djarin",
+          "characterRecordId": "people:din-djarin",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-cast",
+              "locator": "Cast / Pedro Pascal as Din Djarin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Sigourney Weaver",
+          "role": "Actor",
+          "characterName": "Colonel Ward",
+          "characterRecordId": "people:colonel-ward",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-cast",
+              "locator": "Cast / Sigourney Weaver as Colonel Ward",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jeremy Allen White",
+          "role": "Voice performer",
+          "characterName": "Rotta the Hutt",
+          "characterRecordId": "people:rotta",
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-cast",
+              "locator": "Cast / Jeremy Allen White as Rotta",
+              "note": ""
+            },
+            {
+              "sourceId": "film03-mando-bonus",
+              "locator": "Film Synopsis / Jeremy Allen White lending his voice",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Brendan Wayne",
+          "role": "Shared character performance",
+          "characterName": "Din Djarin",
+          "characterRecordId": "people:din-djarin",
+          "scope": "Original film production",
+          "note": "The cast interview identifies shared performance; this is not an inferred dubbing, directing or specific stunt credit.",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-cast",
+              "locator": "Din Djarin / shared performance with Pascal",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lateef Crowder",
+          "role": "Shared character performance",
+          "characterName": "Din Djarin",
+          "characterRecordId": "people:din-djarin",
+          "scope": "Original film production",
+          "note": "The cast interview identifies shared performance; this is not an inferred dubbing, directing or specific stunt credit.",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-cast",
+              "locator": "Din Djarin / shared performance with Pascal",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:din-djarin",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-cast",
+              "locator": "Cast / Din Djarin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:grogu",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-grogu",
+              "locator": "Appearances / The Mandalorian and Grogu",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:colonel-ward",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-cast",
+              "locator": "Cast / Colonel Ward",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:rotta",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-rotta",
+              "locator": "Appearances / The Mandalorian and Grogu",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:razor-crest-2026",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-razor",
+              "locator": "Opening / replacement Razor Crest",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:u-wing",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-u-wing",
+              "locator": "Appearances / The Mandalorian and Grogu",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:24",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-razor",
+              "locator": "Miniature scenes / Nal Hutta",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:18",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-film",
+              "locator": "Film Databank / AT-AT Walker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:76",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-film",
+              "locator": "Film Databank / AT-RT Walker",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Five-film review 03: selected production facts, final credits, connections, opening format and cinema/TV/streaming version history.",
+        "limitations": [
+          "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+          "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+          "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+          "The film, its official podcast and LEGO Star Wars: The Mandalorian special are separate works. No LEGO voice cast is assigned to the live-action film. The new Razor Crest is a different vessel from the destroyed television-series ship."
+        ]
+      }
+    }
+  ],
+  "issues": [
+    {
+      "recordId": "films:rogue-one",
+      "field": "global_release_and_master_inventory",
+      "status": "pending",
+      "note": "Selected territory/provider events checked. Complete international cinema/TV/streaming schedule and frame-level master comparison remain outside this batch."
+    },
+    {
+      "recordId": "films:last-jedi",
+      "field": "global_release_and_master_inventory",
+      "status": "pending",
+      "note": "Selected territory/provider events checked. Complete international cinema/TV/streaming schedule and frame-level master comparison remain outside this batch."
+    },
+    {
+      "recordId": "films:solo",
+      "field": "global_release_and_master_inventory",
+      "status": "pending",
+      "note": "Selected territory/provider events checked. Complete international cinema/TV/streaming schedule and frame-level master comparison remain outside this batch."
+    },
+    {
+      "recordId": "films:rise-skywalker",
+      "field": "global_release_and_master_inventory",
+      "status": "pending",
+      "note": "Selected territory/provider events checked. Complete international cinema/TV/streaming schedule and frame-level master comparison remain outside this batch."
+    },
+    {
+      "recordId": "films:mandalorian-grogu",
+      "field": "global_release_and_master_inventory",
+      "status": "pending",
+      "note": "Selected territory/provider events checked. Complete international cinema/TV/streaming schedule and frame-level master comparison remain outside this batch."
+    },
+    {
+      "recordId": "films:rogue-one",
+      "field": "runtime",
+      "status": "pending",
+      "note": "AFI lists 138 min; Disney and D23 list 134 min. No runtime or alternate version inferred from this discrepancy."
+    },
+    {
+      "recordId": "films:last-jedi",
+      "field": "score_only_first_publication",
+      "status": "pending",
+      "note": "Official featurette confirms version; US Disney+ availability on 26 December 2019 is reported contemporaneously. Exact Movies Anywhere entitlement launch is outside purchase-date scope."
+    }
+  ]
+}

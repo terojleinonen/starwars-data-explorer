@@ -1,0 +1,4090 @@
+{
+  "version": 1,
+  "id": "CATALOGUE-01",
+  "checkedAt": "2026-10-28",
+  "dateScope": "Original US launch per work; distinct editions retain their own first-US identity. No new world/Finland/platform/rerelease calendars.",
+  "scope": "Baseline compared with official film/series/production indexes and selected named companion programmes. Not a claim to enumerate every promotional clip, every licensed crossover, every documentary ever made, or every work in development.",
+  "rights": "Public references do not confer open media/text licences; this file contains titles, selected factual metadata and original notes only.",
+  "works": [
+    {
+      "id": "films:1",
+      "recordId": "films:1",
+      "title": "A New Hope",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "1977-05-25",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-16c4f3869835",
+            "locator": "Film heading / release date"
+          },
+          {
+            "sourceId": "cat01-66e5d2b23a44",
+            "locator": "P577 / 25 May 1977 / P291 United States"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-b18f3327f525",
+          "locator": "Release-order section / live-action theatrical scope"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:5",
+      "recordId": "films:5",
+      "title": "Attack of the Clones",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2002-05-16",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-343ca5bf0825",
+            "locator": "Release Date"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-89ba5b8e1ed5",
+          "locator": "Details / physical properties"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:3",
+      "recordId": "films:3",
+      "title": "Return of the Jedi",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "1983-05-25",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-a8d3b4a6b2ff",
+            "locator": "Film heading / original release date"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-a8d3b4a6b2ff",
+          "locator": "Original film details"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:6",
+      "recordId": "films:6",
+      "title": "Revenge of the Sith",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2005-05-19",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-a0a4e3c765f9",
+            "locator": "Release Date"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-dbce01c595a8",
+          "locator": "Details / physical properties"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:rogue-one",
+      "recordId": "films:rogue-one",
+      "title": "Rogue One",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2016-12-16",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-b4210efe8b0a",
+            "locator": "Release Date"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-b4210efe8b0a",
+          "locator": "Film overview"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:solo",
+      "recordId": "films:solo",
+      "title": "Solo",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2018-05-25",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-735c30784fbc",
+            "locator": "US release / 25 May"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-735c30784fbc",
+          "locator": "Film entry"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:clone-wars-film",
+      "recordId": "films:clone-wars-film",
+      "title": "The Clone Wars",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated film",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2008-08-15",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-fc246394b9b8",
+            "locator": "Release Date"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-051456690d55",
+          "locator": "Details / physical properties"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:2",
+      "recordId": "films:2",
+      "title": "The Empire Strikes Back",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "1980-05-21",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-60bb0f293b30",
+            "locator": "Film heading / release date"
+          },
+          {
+            "sourceId": "cat01-f57e4f265379",
+            "locator": "P577 / 21 May 1980 / P291 United States"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-b18f3327f525",
+          "locator": "Release-order section / live-action theatrical scope"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:force-awakens",
+      "recordId": "films:force-awakens",
+      "title": "The Force Awakens",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2015-12-18",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-7bc890c1fe77",
+            "locator": "Release Date"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-7de9d4e2230c",
+          "locator": "Details / physical properties"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:last-jedi",
+      "recordId": "films:last-jedi",
+      "title": "The Last Jedi",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2017-12-15",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-cb4b5ec94d0c",
+            "locator": "US release / 15 December"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-cb4b5ec94d0c",
+          "locator": "Film entry"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:mandalorian-grogu",
+      "recordId": "films:mandalorian-grogu",
+      "title": "The Mandalorian and Grogu",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2026-05-22",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-046ec9c25918",
+            "locator": "Release Date / 22 May 2026"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-35da6cefedba",
+          "locator": "Live-action and shared Din Djarin performance"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:4",
+      "recordId": "films:4",
+      "title": "The Phantom Menace",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "1999-05-19",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-0319a23a7030",
+            "locator": "Release Date"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-da6a297d2e29",
+          "locator": "Details / physical properties"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "films:rise-skywalker",
+      "recordId": "films:rise-skywalker",
+      "title": "The Rise of Skywalker",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2019-12-20",
+        "precision": "day",
+        "medium": "Theatrical",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-5489902d06a7",
+            "locator": "US release / 20 December"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-435183d5d203",
+          "locator": "Browse Films; current title membership"
+        },
+        {
+          "sourceId": "cat01-5489902d06a7",
+          "locator": "Film entry"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:ahsoka",
+      "recordId": "series:ahsoka",
+      "title": "Ahsoka",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2023-08-22",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-2f06274fc0c9",
+            "locator": "August 22 at 6 p.m. PT"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-63f2a0eff02c",
+          "locator": "Browse Series; current title membership"
+        },
+        {
+          "sourceId": "cat01-0368d02cec5c",
+          "locator": "New live-action series"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:andor",
+      "recordId": "series:andor",
+      "title": "Andor",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2022-09-21",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-af8563f24a8d",
+            "locator": "First arc / premiere date"
+          },
+          {
+            "sourceId": "cat01-1ae7015ece1d",
+            "locator": "P580 / start time"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-63f2a0eff02c",
+          "locator": "Browse Series; current title membership"
+        },
+        {
+          "sourceId": "cat01-457222d6008f",
+          "locator": "Title and introduction / live-action series"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:clone-wars-micro",
+      "recordId": "series:clone-wars-micro",
+      "title": "Clone Wars: 2D Micro-Series",
+      "group": "core",
+      "unit": "work",
+      "format": "2D animated micro-series",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Outside canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2003-11-07",
+        "precision": "day",
+        "medium": "Television",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-f0a08df52ebe",
+            "locator": "US Cartoon Network / 7 November 2003"
+          },
+          {
+            "sourceId": "cat01-67acd7f63654",
+            "locator": "Chapter 1 / release date, United States"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-05ce7b6b21f1",
+          "locator": "Named production identities; 2021 streaming availability is not their original premiere"
+        },
+        {
+          "sourceId": "cat01-96f1e30a2f54",
+          "locator": "Production overview"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:maul-shadow-lord",
+      "recordId": "series:maul-shadow-lord",
+      "title": "Maul – Shadow Lord",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2026-04-06",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-0e7c208e27a9",
+            "locator": "Release date"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-63f2a0eff02c",
+          "locator": "Browse Series; current title membership"
+        },
+        {
+          "sourceId": "cat01-2805b349e461",
+          "locator": "Animated series / Lucasfilm Animation"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:obi-wan",
+      "recordId": "series:obi-wan",
+      "title": "Obi-Wan Kenobi",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action limited series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2022-05-26",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check. May 26 is the US Pacific date; May 27 Eastern is the same launch instant.",
+        "evidence": [
+          {
+            "sourceId": "cat01-01a112a4f24d",
+            "locator": "26 May 9 p.m. PT; same instant as 27 May midnight ET"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-63f2a0eff02c",
+          "locator": "Browse Series; current title membership"
+        },
+        {
+          "sourceId": "cat01-1a3ee0bb982d",
+          "locator": "Page 1 / limited series"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:skeleton-crew",
+      "recordId": "series:skeleton-crew",
+      "title": "Skeleton Crew",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2024-12-02",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-4aad8ecc31ff",
+            "locator": "December 2 at 6 p.m. PT"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-63f2a0eff02c",
+          "locator": "Browse Series; current title membership"
+        },
+        {
+          "sourceId": "cat01-aa145ecb44eb",
+          "locator": "New live-action series"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:rebels",
+      "recordId": "series:rebels",
+      "title": "Star Wars Rebels",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2014-09-26",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check. WATCH Disney XD September 26 precedes the October 3 linear-TV showing; the pilot remains part of this series.",
+        "evidence": [
+          {
+            "sourceId": "cat01-acd4b2f26b0b",
+            "locator": "Revised authenticated streaming premiere"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-63f2a0eff02c",
+          "locator": "Browse Series; current title membership"
+        },
+        {
+          "sourceId": "cat01-2f947bb9acc9",
+          "locator": "Lucasfilm Animation series"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:acolyte",
+      "recordId": "series:acolyte",
+      "title": "The Acolyte",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2024-06-04",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-d7faf5440f62",
+            "locator": "Disney+ debut June 4, 2024"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-63f2a0eff02c",
+          "locator": "Browse Series; current title membership"
+        },
+        {
+          "sourceId": "cat01-d7faf5440f62",
+          "locator": "New live-action storytelling"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:bad-batch",
+      "recordId": "series:bad-batch",
+      "title": "The Bad Batch",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2021-05-04",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-5399d5889a32",
+            "locator": "Release-day announcement"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-63f2a0eff02c",
+          "locator": "Browse Series; current title membership"
+        },
+        {
+          "sourceId": "cat01-f7676349ed74",
+          "locator": "Production overview"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:clone-wars-series",
+      "recordId": "series:clone-wars-series",
+      "title": "The Clone Wars",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated series",
+      "era": "Across eras",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2008-10-03",
+        "precision": "day",
+        "medium": "Television",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-57842e8e67b8",
+            "locator": "Ashley Eckstein interview / film debut versus television premiere"
+          },
+          {
+            "sourceId": "cat01-4da2977ad867",
+            "locator": "P580 / start time"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-63f2a0eff02c",
+          "locator": "Browse Series; current title membership"
+        },
+        {
+          "sourceId": "cat01-25ae77ecdaa7",
+          "locator": "Production introduction / television animation"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "series:mandalorian",
+      "recordId": "series:mandalorian",
+      "title": "The Mandalorian",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "previous_scoped_review"
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "included",
+      "originalUsRelease": {
+        "date": "2019-11-12",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "previously_reviewed",
+        "note": "Previously reviewed original US premiere retained; evidence below is the prior dated review, not a new 28 October fact check.",
+        "evidence": [
+          {
+            "sourceId": "cat01-3b95d3622ae1",
+            "locator": "Release date"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-63f2a0eff02c",
+          "locator": "Browse Series; current title membership"
+        },
+        {
+          "sourceId": "cat01-43313a4e3e07",
+          "locator": "Series overview"
+        }
+      ],
+      "followUp": [
+        "Existing episode/credit/appearance gaps remain; see the master TODO."
+      ]
+    },
+    {
+      "id": "catalogue:book-of-boba-fett",
+      "recordId": null,
+      "title": "The Book of Boba Fett",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-27d6985a3722",
+            "locator": "Chronological Order: canon-screen placement is a provisional catalogue classification"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2021-12-29",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": [
+          {
+            "sourceId": "cat01-942616d9c5af",
+            "locator": "Release Date; series identity"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-942616d9c5af",
+          "locator": "Release Date; series identity"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "A",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:resistance",
+      "recordId": null,
+      "title": "Star Wars Resistance",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-27d6985a3722",
+            "locator": "Chronological Order: canon-screen placement is a provisional catalogue classification"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2018-10-07",
+        "precision": "day",
+        "medium": "Television",
+        "status": "catalogue_launch_reference",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": [
+          {
+            "sourceId": "cat01-369dec4c772a",
+            "locator": "The Recruit: Original Air Date; Disney Channel ET/PT"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-369dec4c772a",
+          "locator": "The Recruit: Original Air Date; Disney Channel ET/PT"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "A",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:tales-of-the-jedi",
+      "recordId": null,
+      "title": "Tales of the Jedi",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated anthology series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-27d6985a3722",
+            "locator": "Chronological Order: canon-screen placement is a provisional catalogue classification"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2022-10-26",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": [
+          {
+            "sourceId": "cat01-d2f47a8a6510",
+            "locator": "Release Date; Animation / Anthology"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-d2f47a8a6510",
+          "locator": "Release Date; Animation / Anthology"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "A",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:tales-of-the-empire",
+      "recordId": null,
+      "title": "Tales of the Empire",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated anthology series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-27d6985a3722",
+            "locator": "Chronological Order: canon-screen placement is a provisional catalogue classification"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2024-05-04",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": [
+          {
+            "sourceId": "cat01-21fe8af967c4",
+            "locator": "Release Date; Animation / Anthology"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-21fe8af967c4",
+          "locator": "Release Date; Animation / Anthology"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "A",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:tales-of-the-underworld",
+      "recordId": null,
+      "title": "Tales of the Underworld",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated anthology series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-27d6985a3722",
+            "locator": "Chronological Order: canon-screen placement is a provisional catalogue classification"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2025-05-04",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": [
+          {
+            "sourceId": "cat01-a9943d8cd423",
+            "locator": "Release Date; Animation / Anthology"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-a9943d8cd423",
+          "locator": "Release Date; Animation / Anthology"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "A",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:visions",
+      "recordId": null,
+      "title": "Star Wars: Visions",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated anthology series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2021-09-22",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Non-mainline anthology; work-specific continuity evidence is still to be attached. Volumes are parts of the anthology, not duplicate series. Lucasfilm index currently shows 2019; contemporary 2021 debut takes precedence.",
+        "evidence": [
+          {
+            "sourceId": "cat01-3bd4f8a65ac7",
+            "locator": "Contemporary launch: makes its debut today"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-3bd4f8a65ac7",
+          "locator": "Contemporary launch: makes its debut today"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "B",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:ninth-jedi",
+      "recordId": null,
+      "title": "Star Wars: Visions Presents — The Ninth Jedi",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated limited series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2026-08-05",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Separate limited series; do not confuse with the 2021 Visions short or its Volume 3 continuation. Mainline-canon classification remains unassessed.",
+        "evidence": [
+          {
+            "sourceId": "cat01-a309b21e37d7",
+            "locator": "Release Date; eight linked episodes; now streaming"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-a309b21e37d7",
+          "locator": "Release Date; eight linked episodes; now streaming"
+        },
+        {
+          "sourceId": "cat01-c7a50a62a470",
+          "locator": "August 5, 2026; new eight-episode series now streaming; identifies its earlier shorts"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "B",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:young-jedi-adventures",
+      "recordId": null,
+      "title": "Young Jedi Adventures",
+      "group": "core",
+      "unit": "work",
+      "format": "Preschool animated series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-27d6985a3722",
+            "locator": "Chronological Order: canon-screen placement is a provisional catalogue classification"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2023-05-04",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Simultaneous Disney+ / Disney Junior launch. Current series metadata shows August 14, 2024 and is not used as the original premiere. Companion shorts are catalogued separately.",
+        "evidence": [
+          {
+            "sourceId": "cat01-aaea135e90d0",
+            "locator": "May 4, 2023 publication; now streaming and airing on Disney Junior"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-aaea135e90d0",
+          "locator": "May 4, 2023 publication; now streaming and airing on Disney Junior"
+        },
+        {
+          "sourceId": "cat01-f9f88fd37b6a",
+          "locator": "Current header shows August 14, 2024; do not overwrite the original 2023 launch"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "B",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:forces-of-destiny",
+      "recordId": null,
+      "title": "Star Wars Forces of Destiny",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated micro-series",
+      "era": "Disney",
+      "continuity": {
+        "label": "Canon",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-27d6985a3722",
+            "locator": "Chronological Order: canon-screen placement is a provisional catalogue classification"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2017-07-03",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": [
+          {
+            "sourceId": "cat01-3b7dcff7a28e",
+            "locator": "July 3, 2017; first installment; Disney YouTube debut today"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-3b7dcff7a28e",
+          "locator": "July 3, 2017; first installment; Disney YouTube debut today"
+        },
+        {
+          "sourceId": "cat01-cb262a4dd37e",
+          "locator": "Explicit relationship to Star Wars canon; animated micro-series"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "B",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:holiday-special-1978",
+      "recordId": null,
+      "title": "The Star Wars Holiday Special",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action / animated television variety special",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "1978-11-17",
+        "precision": "day",
+        "medium": "Television",
+        "status": "catalogue_launch_reference",
+        "note": "Historical variety special. Its animated Wookiee segment is a component, not a second independent 1978 broadcast. Individual continuity elements need separate assessment.",
+        "evidence": [
+          {
+            "sourceId": "cat01-14ebc1b83fdd",
+            "locator": "CBS original November 17, 1978 broadcast"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-14ebc1b83fdd",
+          "locator": "CBS original November 17, 1978 broadcast"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "C",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:caravan-of-courage",
+      "recordId": null,
+      "title": "Caravan of Courage: An Ewok Adventure",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action television film",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Outside canon / Legends",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-e9b6a1fac501",
+            "locator": "Pre-2014 screen work classification needs work-specific confirmation; provisional inference only"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "1984-11-25",
+        "precision": "day",
+        "medium": "Television",
+        "status": "catalogue_launch_reference",
+        "note": "Original US title The Ewok Adventure; Caravan of Courage is an alias, not another work. Non-US theatrical releases and 2021 streaming are not original US premieres.",
+        "evidence": [
+          {
+            "sourceId": "cat01-82a3249d1501",
+            "locator": "Explicit US television airing November 25, 1984; original title The Ewok Adventure"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-82a3249d1501",
+          "locator": "Explicit US television airing November 25, 1984; original title The Ewok Adventure"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "C",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:battle-for-endor",
+      "recordId": null,
+      "title": "Ewoks: The Battle for Endor",
+      "group": "core",
+      "unit": "work",
+      "format": "Live-action television film",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Outside canon / Legends",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-e9b6a1fac501",
+            "locator": "Pre-2014 screen work classification needs work-specific confirmation; provisional inference only"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "1985-11",
+        "precision": "month",
+        "medium": "Television",
+        "status": "exact_us_premiere_pending",
+        "note": "Month precision only: the exact original US day remains unestablished by the selected primary source.",
+        "evidence": [
+          {
+            "sourceId": "cat01-413c59533b78",
+            "locator": "Premiered on ABC in November 1985"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-413c59533b78",
+          "locator": "Premiered on ABC in November 1985"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "C",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:droids",
+      "recordId": null,
+      "title": "Star Wars: Droids",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated television series",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Outside canon / Legends",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-e9b6a1fac501",
+            "locator": "Pre-2014 screen work classification needs work-specific confirmation; provisional inference only"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "1985",
+        "precision": "year",
+        "medium": "Television",
+        "status": "exact_us_premiere_pending",
+        "note": "Year precision only; exact US premiere day remains pending. Droids: The Adventures of R2-D2 and C-3PO is an alias, not a duplicate work.",
+        "evidence": [
+          {
+            "sourceId": "cat01-b63b2be5f88c",
+            "locator": "ABC debut in 1985; thirteen episodes plus The Great Heep"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-b63b2be5f88c",
+          "locator": "ABC debut in 1985; thirteen episodes plus The Great Heep"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "C",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:ewoks",
+      "recordId": null,
+      "title": "Star Wars: Ewoks",
+      "group": "core",
+      "unit": "work",
+      "format": "Animated television series",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Outside canon / Legends",
+        "confidence": "provisional",
+        "evidence": [
+          {
+            "sourceId": "cat01-e9b6a1fac501",
+            "locator": "Pre-2014 screen work classification needs work-specific confirmation; provisional inference only"
+          }
+        ]
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "1985",
+        "precision": "year",
+        "medium": "Television",
+        "status": "exact_us_premiere_pending",
+        "note": "Year precision only; exact US premiere day remains pending. The All New Ewoks is the second-season title, not another series.",
+        "evidence": [
+          {
+            "sourceId": "cat01-eb4e60ff9d96",
+            "locator": "ABC debut in 1985; second season as The All New Ewoks"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-eb4e60ff9d96",
+          "locator": "ABC debut in 1985; second season as The All New Ewoks"
+        }
+      ],
+      "relation": null,
+      "queueBatch": "C",
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:great-heep",
+      "recordId": null,
+      "title": "The Great Heep",
+      "group": "shorts",
+      "unit": "work",
+      "format": "Animated television special",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Television",
+        "status": "exact_us_premiere_pending",
+        "note": "Companion TV movie; not one of the thirteen ordinary episodes. Exact original US date needs independent evidence.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-b63b2be5f88c",
+          "locator": "Distinct TV movie named in Droids production history"
+        }
+      ],
+      "relation": {
+        "type": "related_to",
+        "parentId": "catalogue:droids"
+      },
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:faithful-wookiee",
+      "recordId": null,
+      "title": "The Story of the Faithful Wookiee",
+      "group": "shorts",
+      "unit": "component",
+      "format": "Animated segment / short",
+      "era": "Lucas",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Television",
+        "status": "exact_us_premiere_pending",
+        "note": "The 1978 story is a segment of Holiday Special; 2021 standalone streaming availability does not create a new 2021 production.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-b63b2be5f88c",
+          "locator": "Animated short in the 1978 Holiday Special"
+        },
+        {
+          "sourceId": "cat01-05ce7b6b21f1",
+          "locator": "Named production identities; 2021 streaming availability is not their original premiere"
+        }
+      ],
+      "relation": {
+        "type": "part_of",
+        "parentId": "catalogue:holiday-special-1978"
+      },
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:galaxy-of-adventures",
+      "recordId": null,
+      "title": "Star Wars Galaxy of Adventures",
+      "group": "shorts",
+      "unit": "work",
+      "format": "Animated retelling shorts",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2018-11-30",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": [
+          {
+            "sourceId": "cat01-996a77a1af19",
+            "locator": "November 30, 2018: opening paragraph says the first shorts arrive today on Star Wars Kids and YouTube."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-996a77a1af19",
+          "locator": "November 30, 2018: opening paragraph says the first shorts arrive today on Star Wars Kids and YouTube."
+        },
+        {
+          "sourceId": "cat01-ed53c270ff5d",
+          "locator": "Announced first six shorts for November 30, 2018"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:galaxy-of-creatures",
+      "recordId": null,
+      "title": "Star Wars Galaxy of Creatures",
+      "group": "shorts",
+      "unit": "work",
+      "format": "Animated educational story shorts",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2021-10-14",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": [
+          {
+            "sourceId": "cat01-60eb91cbd735",
+            "locator": "October 14, 2021; first two episodes available now"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-60eb91cbd735",
+          "locator": "October 14, 2021; first two episodes available now"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:galactic-pals",
+      "recordId": null,
+      "title": "Star Wars Galactic Pals",
+      "group": "shorts",
+      "unit": "work",
+      "format": "Animated educational story shorts",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": "2022-04-12",
+        "precision": "day",
+        "medium": "Streaming",
+        "status": "catalogue_launch_reference",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": [
+          {
+            "sourceId": "cat01-ae3fb5727461",
+            "locator": "April 12, 2022; first two episodes available now"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-ae3fb5727461",
+          "locator": "April 12, 2022; first two episodes available now"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:roll-out",
+      "recordId": null,
+      "title": "Star Wars Roll Out",
+      "group": "shorts",
+      "unit": "work",
+      "format": "Stylised animated shorts",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "release_confirmation_pending",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unknown",
+        "medium": "Streaming",
+        "status": "unverified",
+        "note": "Official announcement on August 7, 2019 planned an August 9 launch. Actual first US publication remains to be confirmed.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-9e5925ca5cde",
+          "locator": "August 7, 2019 announcement of a planned August 9 launch; not confirmation of actual release."
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ],
+      "announcedLaunch": {
+        "date": "2019-08-09",
+        "evidence": [
+          {
+            "sourceId": "cat01-9e5925ca5cde",
+            "locator": "August 7, 2019 announcement; first release August 9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "catalogue:blips",
+      "recordId": null,
+      "title": "Star Wars: Blips",
+      "group": "shorts",
+      "unit": "work",
+      "format": "Animated short / short-series container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Original US day and work-specific continuity remain pending; being in a current streaming guide is not a premiere-date source.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Animated Shorts named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:zen",
+      "recordId": null,
+      "title": "Zen: Grogu and Dust Bunnies",
+      "group": "shorts",
+      "unit": "work",
+      "format": "Animated short / short-series container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Original US day and work-specific continuity remain pending; being in a current streaming guide is not a premiere-date source.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Animated Shorts named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:young-jedi-shorts",
+      "recordId": null,
+      "title": "Young Jedi Adventures Shorts",
+      "group": "shorts",
+      "unit": "component",
+      "format": "Animated short / short-series container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Original US day and work-specific continuity remain pending; being in a current streaming guide is not a premiere-date source.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Animated Shorts named entry"
+        }
+      ],
+      "relation": {
+        "type": "part_of",
+        "parentId": "catalogue:young-jedi-adventures"
+      },
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:rebels-shorts",
+      "recordId": null,
+      "title": "Star Wars Rebels Shorts",
+      "group": "shorts",
+      "unit": "component",
+      "format": "Animated short / short-series container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Original US day and work-specific continuity remain pending; being in a current streaming guide is not a premiere-date source.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Animated Shorts named entry"
+        }
+      ],
+      "relation": {
+        "type": "part_of",
+        "parentId": "series:rebels"
+      },
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-mandalorian",
+      "recordId": null,
+      "title": "LEGO Star Wars: The Mandalorian",
+      "group": "lego",
+      "unit": "work",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-0b887db5c248",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-pieces-of-the-past",
+      "recordId": null,
+      "title": "LEGO Star Wars: Rebuild the Galaxy — Pieces of the Past",
+      "group": "lego",
+      "unit": "work",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-0b887db5c248",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-rebuild",
+      "recordId": null,
+      "title": "LEGO Star Wars: Rebuild the Galaxy",
+      "group": "lego",
+      "unit": "work",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-0b887db5c248",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-summer",
+      "recordId": null,
+      "title": "LEGO Star Wars Summer Vacation",
+      "group": "lego",
+      "unit": "work",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-0b887db5c248",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-terrifying",
+      "recordId": null,
+      "title": "LEGO Star Wars Terrifying Tales",
+      "group": "lego",
+      "unit": "work",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-0b887db5c248",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-holiday",
+      "recordId": null,
+      "title": "LEGO Star Wars Holiday Special",
+      "group": "lego",
+      "unit": "work",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-0b887db5c248",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-freemaker",
+      "recordId": null,
+      "title": "LEGO Star Wars: The Freemaker Adventures",
+      "group": "lego",
+      "unit": "work",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-0b887db5c248",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-yoda",
+      "recordId": null,
+      "title": "LEGO Star Wars: The Yoda Chronicles / The New Yoda Chronicles",
+      "group": "lego",
+      "unit": "collection",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import.",
+        "Grouped original/New Yoda Chronicles container: split named specials only after their distinct identities and first-US dates are established."
+      ]
+    },
+    {
+      "id": "catalogue:lego-all-stars",
+      "recordId": null,
+      "title": "LEGO Star Wars: All-Stars",
+      "group": "lego",
+      "unit": "work",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-droid-tales",
+      "recordId": null,
+      "title": "LEGO Star Wars: Droid Tales",
+      "group": "lego",
+      "unit": "work",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-resistance-rises",
+      "recordId": null,
+      "title": "LEGO Star Wars: The Resistance Rises",
+      "group": "lego",
+      "unit": "work",
+      "format": "LEGO story-series / special container",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Grouped companion inventory. Exact US original date, unit boundaries and non-mainline continuity require the later LEGO intake review.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Named production or grouped Yoda Chronicles specials"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-freemaker-shorts",
+      "recordId": null,
+      "title": "LEGO Star Wars: The Freemaker Adventures Shorts",
+      "group": "lego",
+      "unit": "component",
+      "format": "Companion shorts",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Animated Shorts named entry"
+        }
+      ],
+      "relation": {
+        "type": "part_of",
+        "parentId": "catalogue:lego-freemaker"
+      },
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lego-all-stars-shorts",
+      "recordId": null,
+      "title": "LEGO Star Wars: All-Stars Shorts",
+      "group": "lego",
+      "unit": "component",
+      "format": "Companion shorts",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Catalogue reference only. Confirm original US context and scoped metadata before adding a public work page.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Animated Shorts named entry"
+        }
+      ],
+      "relation": {
+        "type": "part_of",
+        "parentId": "catalogue:lego-all-stars"
+      },
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:gallery-mando",
+      "recordId": null,
+      "title": "Disney Gallery: The Mandalorian",
+      "group": "documentary",
+      "unit": "work",
+      "format": "Documentary / behind-the-scenes / factual special",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Separate factual-programme group. No fictional continuity classification and no original US date adopted from current availability.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Documentaries / Specials named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:gallery-boba",
+      "recordId": null,
+      "title": "Disney Gallery: The Book of Boba Fett",
+      "group": "documentary",
+      "unit": "work",
+      "format": "Documentary / behind-the-scenes / factual special",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Separate factual-programme group. No fictional continuity classification and no original US date adopted from current availability.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Documentaries / Specials named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:master-apprentice",
+      "recordId": null,
+      "title": "Master & Apprentice: A Special Look at Ahsoka",
+      "group": "documentary",
+      "unit": "work",
+      "format": "Documentary / behind-the-scenes / factual special",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Separate factual-programme group. No fictional continuity classification and no original US date adopted from current availability.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Documentaries / Specials named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:under-helmet",
+      "recordId": null,
+      "title": "Under the Helmet: The Legacy of Boba Fett",
+      "group": "documentary",
+      "unit": "work",
+      "format": "Documentary / behind-the-scenes / factual special",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Separate factual-programme group. No fictional continuity classification and no original US date adopted from current availability.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Documentaries / Specials named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:jedi-return",
+      "recordId": null,
+      "title": "Obi-Wan Kenobi: A Jedi’s Return",
+      "group": "documentary",
+      "unit": "work",
+      "format": "Documentary / behind-the-scenes / factual special",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Separate factual-programme group. No fictional continuity classification and no original US date adopted from current availability.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Documentaries / Specials named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:empire-dreams",
+      "recordId": null,
+      "title": "Empire of Dreams: The Story of the Star Wars Trilogy",
+      "group": "documentary",
+      "unit": "work",
+      "format": "Documentary / behind-the-scenes / factual special",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Separate factual-programme group. No fictional continuity classification and no original US date adopted from current availability.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Documentaries / Specials named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:light-magic",
+      "recordId": null,
+      "title": "Light & Magic",
+      "group": "documentary",
+      "unit": "work",
+      "format": "Documentary / behind-the-scenes / factual special",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Separate factual-programme group. No fictional continuity classification and no original US date adopted from current availability.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Documentaries / Specials named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:rise-resistance-doc",
+      "recordId": null,
+      "title": "Star Wars: Rise of the Resistance | Disneyland Resort",
+      "group": "documentary",
+      "unit": "work",
+      "format": "Documentary / behind-the-scenes / factual special",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Separate factual-programme group. No fictional continuity classification and no original US date adopted from current availability.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Documentaries / Specials named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:galaxys-edge-doc",
+      "recordId": null,
+      "title": "Star Wars: Galaxy’s Edge | Disneyland Resort",
+      "group": "documentary",
+      "unit": "work",
+      "format": "Documentary / behind-the-scenes / factual special",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Separate factual-programme group. No fictional continuity classification and no original US date adopted from current availability.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Documentaries / Specials named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:galaxys-edge-special",
+      "recordId": null,
+      "title": "Star Wars: Galaxy’s Edge — Adventure Awaits",
+      "group": "documentary",
+      "unit": "work",
+      "format": "Documentary / behind-the-scenes / factual special",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Separate factual-programme group. No fictional continuity classification and no original US date adopted from current availability.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Documentaries / Specials named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:biomes",
+      "recordId": null,
+      "title": "Star Wars Biomes",
+      "group": "ambient",
+      "unit": "work",
+      "format": "Ambient / illustrative supplementary programme",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Supplementary viewing group; not a new narrative film, series season or story edition.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Additive Content named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:sounds",
+      "recordId": null,
+      "title": "Star Wars Galaxy of Sounds",
+      "group": "ambient",
+      "unit": "work",
+      "format": "Ambient / illustrative supplementary programme",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Supplementary viewing group; not a new narrative film, series season or story edition.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Additive Content named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:flythroughs",
+      "recordId": null,
+      "title": "Star Wars Vehicle Flythroughs",
+      "group": "ambient",
+      "unit": "work",
+      "format": "Ambient / illustrative supplementary programme",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Supplementary viewing group; not a new narrative film, series season or story edition.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Additive Content named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:lofi",
+      "recordId": null,
+      "title": "Sabine’s Loth-Cat Lofi",
+      "group": "ambient",
+      "unit": "work",
+      "format": "Ambient / illustrative supplementary programme",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed",
+        "evidence": []
+      },
+      "publicationStatus": "released",
+      "archiveStatus": "missing",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Streaming",
+        "status": "exact_us_premiere_pending",
+        "note": "Supplementary viewing group; not a new narrative film, series season or story edition.",
+        "evidence": []
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-27d6985a3722",
+          "locator": "Additive Content named entry"
+        }
+      ],
+      "relation": null,
+      "queueBatch": null,
+      "followUp": [
+        "Write an original introduction, source key credits and confirm US premiere scope before import."
+      ]
+    },
+    {
+      "id": "catalogue:starfighter",
+      "recordId": null,
+      "title": "Star Wars: Starfighter",
+      "group": "announced",
+      "unit": "work",
+      "format": "Live-action film",
+      "era": "Disney",
+      "continuity": {
+        "label": "Not assessed",
+        "confidence": "unassessed"
+      },
+      "publicationStatus": "announced",
+      "archiveStatus": "not_yet_released",
+      "originalUsRelease": {
+        "date": null,
+        "precision": "unestablished",
+        "medium": "Theatrical",
+        "status": "not_released",
+        "evidence": []
+      },
+      "announcedRelease": {
+        "date": "2027-05-28",
+        "evidence": [
+          {
+            "sourceId": "cat01-1a7365bcab6b",
+            "locator": "Release Date May 28, 2027; upcoming relative to October 28, 2026"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "sourceId": "cat01-1a7365bcab6b",
+          "locator": "Release Date May 28, 2027; upcoming relative to October 28, 2026"
+        }
+      ],
+      "followUp": [
+        "Recheck release status before creating a released-work entry."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cat01-435183d5d203",
+      "url": "https://www.starwars.com/films",
+      "title": "Star Wars films index",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-63f2a0eff02c",
+      "url": "https://www.starwars.com/series",
+      "title": "Star Wars series index",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-27d6985a3722",
+      "url": "https://www.starwars.com/news/star-wars-movies-and-series-guide",
+      "title": "Official viewing guide",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Archive grouping from the named episode sequence; no source descriptions or images copied.",
+      "archiveSourceId": "film02-viewing-guide",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-0b887db5c248",
+      "url": "https://www.lucasfilm.com/productions/",
+      "title": "Lucasfilm production index",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-05ce7b6b21f1",
+      "url": "https://www.starwars.com/news/star-wars-vintage-collection-disney-plus",
+      "title": "Vintage collection announcement",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "archiveSourceId": "screen04-micro-vintage",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-e9b6a1fac501",
+      "url": "https://www.starwars.com/news/the-legendary-star-wars-expanded-universe-turns-a-new-page",
+      "title": "Continuity announcement",
+      "checkedAt": "2026-10-25",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "archiveSourceId": "continuity-2014",
+      "kind": "official",
+      "license": "Not assessed",
+      "revision": "",
+      "attribution": "",
+      "previousCheckedAt": "2026-10-25"
+    },
+    {
+      "id": "cat01-16c4f3869835",
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/55187",
+      "title": "AFI Catalog — Star Wars (1977)",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "archiveSourceId": "pilot-afi-hope",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "AFI Catalog",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-66e5d2b23a44",
+      "url": "https://www.wikidata.org/w/index.php?title=Q17738&oldid=2560637606",
+      "title": "Wikidata — Star Wars: Episode IV – A New Hope",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "CC0 structured metadata; selected statements reviewed individually.",
+      "archiveSourceId": "pilot-wd-Q17738",
+      "kind": "open",
+      "license": "CC0-1.0",
+      "revision": "2560637606",
+      "attribution": "Wikidata contributors",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-b18f3327f525",
+      "url": "https://www.starwars.com/news/from-a-certain-point-of-view-what-is-the-best-star-wars-viewing-order",
+      "title": "StarWars.com — Theatrical viewing-order discussion",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "archiveSourceId": "pilot-live-films",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-343ca5bf0825",
+      "url": "https://www.starwars.com/films/star-wars-episode-ii-attack-of-the-clones",
+      "title": "StarWars.com — Attack of the Clones",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "archiveSourceId": "film02-film-clones",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-89ba5b8e1ed5",
+      "url": "https://catalog.afi.com/Film/62580-STAR-WARS-EPISODE-II-ATTACK-OF-THE-CLONES",
+      "title": "AFI Catalog — Attack of the Clones",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "archiveSourceId": "film02-afi-clones",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "AFI Catalog",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-a8d3b4a6b2ff",
+      "url": "https://catalog.afi.com/Film/58057-RETURN-OF-THE-JEDI",
+      "title": "AFI Catalog — Return of the Jedi (1983)",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "archiveSourceId": "screen04-jedi-afi",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "AFI Catalog",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-a0a4e3c765f9",
+      "url": "https://www.starwars.com/films/star-wars-episode-iii-revenge-of-the-sith",
+      "title": "StarWars.com — Revenge of the Sith",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "archiveSourceId": "film02-film-sith",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-dbce01c595a8",
+      "url": "https://catalog.afi.com/Film/63617-STAR-WARS-EPISODE-III-REVENGE-OF-THE-SITH",
+      "title": "AFI Catalog — Revenge of the Sith",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "archiveSourceId": "film02-afi-sith",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "AFI Catalog",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-b4210efe8b0a",
+      "url": "https://www.starwars.com/films/rogue-one",
+      "title": "StarWars.com — Rogue One",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "archiveSourceId": "official-rogue-one",
+      "kind": "official",
+      "license": "Not assessed",
+      "revision": "",
+      "attribution": "",
+      "previousCheckedAt": "2026-10-25"
+    },
+    {
+      "id": "cat01-735c30784fbc",
+      "url": "https://d23.com/a-to-z/solo-star-wars-story-film/",
+      "title": "D23 A to Z — Solo",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "archiveSourceId": "film03-solo-d23",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "D23",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-fc246394b9b8",
+      "url": "https://www.starwars.com/films/star-wars-the-clone-wars",
+      "title": "StarWars.com — The Clone Wars (film)",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "archiveSourceId": "film02-film-clone-film",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-051456690d55",
+      "url": "https://catalog.afi.com/Film/64766-STAR-WARS-THE-CLONE-WARS",
+      "title": "AFI Catalog — The Clone Wars (2008 film)",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "archiveSourceId": "film02-afi-clone-film",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "AFI Catalog",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-60bb0f293b30",
+      "url": "https://catalog.afi.com/Film/56403-THE-EMPIRESTRIKESBACK",
+      "title": "AFI Catalog — The Empire Strikes Back (1980)",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "archiveSourceId": "pilot-afi-empire",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "AFI Catalog",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-f57e4f265379",
+      "url": "https://www.wikidata.org/w/index.php?title=Q181795&oldid=2560657672",
+      "title": "Wikidata — Star Wars: Episode V – The Empire Strikes Back",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "CC0 structured metadata; selected statements reviewed individually.",
+      "archiveSourceId": "pilot-wd-Q181795",
+      "kind": "open",
+      "license": "CC0-1.0",
+      "revision": "2560657672",
+      "attribution": "Wikidata contributors",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-7bc890c1fe77",
+      "url": "https://www.starwars.com/films/star-wars-episode-vii-the-force-awakens",
+      "title": "StarWars.com — The Force Awakens",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "archiveSourceId": "film02-film-force",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-7de9d4e2230c",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/70754",
+      "title": "AFI Catalog — The Force Awakens",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "archiveSourceId": "film02-afi-force",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "AFI Catalog",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-cb4b5ec94d0c",
+      "url": "https://d23.com/a-to-z/star-wars-last-jedi-film/",
+      "title": "D23 A to Z — The Last Jedi",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "archiveSourceId": "film03-last-d23",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "D23",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-046ec9c25918",
+      "url": "https://www.starwars.com/films/star-wars-the-mandalorian-and-grogu",
+      "title": "StarWars.com — The Mandalorian and Grogu",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "archiveSourceId": "film03-mando-film",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-35da6cefedba",
+      "url": "https://www.starwars.com/news/star-wars-the-mandalorian-and-grogu-cast",
+      "title": "StarWars.com — Meet the cast of The Mandalorian and Grogu",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "archiveSourceId": "film03-mando-cast",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-0319a23a7030",
+      "url": "https://www.starwars.com/films/star-wars-episode-i-the-phantom-menace",
+      "title": "StarWars.com — The Phantom Menace",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "archiveSourceId": "film02-film-phantom",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-da6a297d2e29",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/61712",
+      "title": "AFI Catalog — The Phantom Menace",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "archiveSourceId": "film02-afi-phantom",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "AFI Catalog",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-5489902d06a7",
+      "url": "https://d23.com/a-to-z/star-wars-the-rise-of-skywalker/",
+      "title": "D23 A to Z — The Rise of Skywalker",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, independently written archive summaries and source links only. No source prose, film transcript, images, video or database dump redistributed.",
+      "archiveSourceId": "film03-rise-d23",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "D23",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-2f06274fc0c9",
+      "url": "https://www.starwars.com/news/ahsoka-new-premiere-date",
+      "title": "Ahsoka — premiere moved to August 22",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "archiveSourceId": "screen05-ahsoka-date",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Lucasfilm / StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-0368d02cec5c",
+      "url": "https://www.starwars.com/news/ahsoka-is-here",
+      "title": "Ahsoka — first-season production and cast",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "archiveSourceId": "screen05-ahsoka-production",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Lucasfilm / StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-a68956065c5e",
+      "url": "https://www.starwars.com/news/ahsoka-season-2",
+      "title": "Ahsoka season 2 — announced January 20, 2027 premiere",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "archiveSourceId": "screen05-ahsoka-season2",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Lucasfilm / StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-af8563f24a8d",
+      "url": "https://www.starwars.com/news/andor-revisited-rewatch-season-1-arc-1",
+      "title": "StarWars.com — Andor Revisited, season 1 arc 1",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "archiveSourceId": "pilot-andor-arc1",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-1ae7015ece1d",
+      "url": "https://www.wikidata.org/w/index.php?title=Q60462338&oldid=2539521041",
+      "title": "Wikidata — Andor",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "CC0 structured metadata; selected statements reviewed individually.",
+      "archiveSourceId": "pilot-wd-Q60462338",
+      "kind": "open",
+      "license": "CC0-1.0",
+      "revision": "2539521041",
+      "attribution": "Wikidata contributors",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-457222d6008f",
+      "url": "https://www.starwars.com/news/cassian-andor-live-action-series-announced",
+      "title": "StarWars.com — Cassian Andor live-action series announcement",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "archiveSourceId": "pilot-andor-format",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-f0a08df52ebe",
+      "url": "https://www.awn.com/news/animated-force-takes-cartoon-network-clone-wars",
+      "title": "AWN — Clone Wars premieres on Cartoon Network",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "archiveSourceId": "screen04-micro-premiere",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Animation World Network",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-67acd7f63654",
+      "url": "https://www.intanibase.com/iad_entries/entry?shortID=22141",
+      "title": "Internet Animation Database — Clone Wars Chapter 1",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "archiveSourceId": "screen04-micro-chapter1",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Internet Animation Database",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-96f1e30a2f54",
+      "url": "https://www.lucasfilm.com/productions/the-clone-wars-microseries/",
+      "title": "Lucasfilm — Clone Wars 2D Micro-Series",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "archiveSourceId": "official-clone-wars-micro",
+      "kind": "official",
+      "license": "Not assessed",
+      "revision": "",
+      "attribution": "",
+      "previousCheckedAt": "2026-10-25"
+    },
+    {
+      "id": "cat01-0e7c208e27a9",
+      "url": "https://www.starwars.com/series/star-wars-maul-shadow-lord",
+      "title": "Maul – Shadow Lord — official series and ten chapters",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "archiveSourceId": "screen05-maul-series",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Lucasfilm / StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-2805b349e461",
+      "url": "https://www.starwars.com/news/star-wars-maul-shadow-lord-first-trailer-poster-art",
+      "title": "Maul – Shadow Lord — first trailer and production overview",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "archiveSourceId": "screen05-maul-production",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Lucasfilm / StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-c4369159f4ff",
+      "url": "https://www.starwars.com/news/star-wars-maul-shadow-lord-season-2",
+      "title": "Maul – Shadow Lord — season 2 development announcement",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "archiveSourceId": "screen05-maul-season2",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Lucasfilm / StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-01a112a4f24d",
+      "url": "https://mobilesyrup.com/2022/05/26/obi-wan-kenobi-disney-plus-early-premiere-may-2022/",
+      "title": "Obi-Wan Kenobi — contemporary report of early Disney+ launch",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "archiveSourceId": "screen05-obi-early",
+      "kind": "reference",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Bradly Shankar / MobileSyrup",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-1a3ee0bb982d",
+      "url": "https://lumiere-a.akamaihd.net/v1/documents/obi-wan_kenobi_production_brief_final_5-25-22_28755282.pdf",
+      "title": "Disney+ — Obi-Wan Kenobi production brief, 25 May 2022",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "archiveSourceId": "screen05-obi-brief",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "The Walt Disney Studios / Disney+",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-4aad8ecc31ff",
+      "url": "https://www.starwars.com/news/skeleton-crew-premiere-date",
+      "title": "Skeleton Crew — early December 2 premiere",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "archiveSourceId": "screen05-skeleton-date",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Lucasfilm / StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-aa145ecb44eb",
+      "url": "https://www.starwars.com/news/skeleton-crew-in-theaters",
+      "title": "Skeleton Crew — select US theater screenings",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "archiveSourceId": "screen05-skeleton-theaters",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "Lucasfilm / StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-acd4b2f26b0b",
+      "url": "https://www.starwars.com/news/star-wars-rebels-spark-of-rebellion-to-debut-early-on-watch-disney-xd",
+      "title": "StarWars.com — Spark of Rebellion streaming debut moved earlier",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "archiveSourceId": "screen04-rebels-streaming-update",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-2f947bb9acc9",
+      "url": "https://www.starwars.com/news/star-wars-rebels-spark-of-rebellion-premieres-friday-october-3-on-disney-channel",
+      "title": "StarWars.com — Rebels premiere and production credits",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "archiveSourceId": "screen04-rebels-production",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-d7faf5440f62",
+      "url": "https://www.lucasfilm.com/productions/the-acolyte/",
+      "title": "Lucasfilm — The Acolyte production overview",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "archiveSourceId": "official-acolyte",
+      "kind": "official",
+      "license": "Not assessed",
+      "revision": "",
+      "attribution": "",
+      "previousCheckedAt": "2026-10-25"
+    },
+    {
+      "id": "cat01-5399d5889a32",
+      "url": "https://www.starwars.com/news/bad-batch-first-look-aftermath",
+      "title": "StarWars.com — Aftermath is now streaming",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "archiveSourceId": "screen04-batch-premiere",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-f7676349ed74",
+      "url": "https://www.lucasfilm.com/productions/star-wars-the-bad-batch/",
+      "title": "Lucasfilm — The Bad Batch",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "archiveSourceId": "official-bad-batch",
+      "kind": "official",
+      "license": "Not assessed",
+      "revision": "",
+      "attribution": "",
+      "previousCheckedAt": "2026-10-25"
+    },
+    {
+      "id": "cat01-57842e8e67b8",
+      "url": "https://www.starwars.com/news/her-universe-star-wars-the-clone-wars",
+      "title": "StarWars.com — The Clone Wars tenth anniversary",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "archiveSourceId": "pilot-clone-cast",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-4da2977ad867",
+      "url": "https://www.wikidata.org/w/index.php?title=Q632672&oldid=2558709181",
+      "title": "Wikidata — Star Wars: The Clone Wars",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "CC0 structured metadata; selected statements reviewed individually.",
+      "archiveSourceId": "pilot-wd-Q632672",
+      "kind": "open",
+      "license": "CC0-1.0",
+      "revision": "2558709181",
+      "attribution": "Wikidata contributors",
+      "previousCheckedAt": "2026-10-26"
+    },
+    {
+      "id": "cat01-25ae77ecdaa7",
+      "url": "https://www.lucasfilm.com/productions/star-wars-the-clone-wars/",
+      "title": "Lucasfilm — The Clone Wars television series",
+      "checkedAt": "2026-10-26",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "archiveSourceId": "official-clone-wars-series",
+      "kind": "official",
+      "license": "Not assessed",
+      "revision": "",
+      "attribution": "",
+      "previousCheckedAt": "2026-10-25"
+    },
+    {
+      "id": "cat01-3b95d3622ae1",
+      "url": "https://www.starwars.com/series/the-mandalorian",
+      "title": "StarWars.com — The Mandalorian series",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "archiveSourceId": "screen04-mando-series",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-43313a4e3e07",
+      "url": "https://www.starwars.com/news/everything-we-know-about-the-mandalorian",
+      "title": "StarWars.com — The Mandalorian production overview (2019)",
+      "checkedAt": "2026-10-27",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "archiveSourceId": "screen04-mando-production",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-942616d9c5af",
+      "url": "https://www.starwars.com/series/the-book-of-boba-fett",
+      "title": "The Book of Boba Fett — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-369dec4c772a",
+      "url": "https://www.starwars.com/news/the-recruit-episode-guide-star-wars-resistance",
+      "title": "Star Wars Resistance — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-d2f47a8a6510",
+      "url": "https://www.starwars.com/series/tales-of-the-jedi",
+      "title": "Tales of the Jedi — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-21fe8af967c4",
+      "url": "https://www.starwars.com/series/tales-of-the-empire",
+      "title": "Tales of the Empire — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-a9943d8cd423",
+      "url": "https://www.starwars.com/series/tales-of-the-underworld",
+      "title": "Tales of the Underworld — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-3bd4f8a65ac7",
+      "url": "https://www.starwars.com/news/star-wars-visions-is-here",
+      "title": "Star Wars: Visions — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-c7a50a62a470",
+      "url": "https://www.starwars.com/news/star-wars-visions-presents-the-ninth-jedi-trailer",
+      "title": "The Ninth Jedi launch update",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-a309b21e37d7",
+      "url": "https://www.starwars.com/series/star-wars-visions-presents-the-ninth-jedi",
+      "title": "Star Wars: Visions Presents — The Ninth Jedi — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-f9f88fd37b6a",
+      "url": "https://www.starwars.com/series/star-wars-young-jedi-adventures",
+      "title": "Young Jedi Adventures current series page",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-aaea135e90d0",
+      "url": "https://www.starwars.com/news/star-wars-young-jedi-adventures-interview",
+      "title": "Young Jedi Adventures — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-cb262a4dd37e",
+      "url": "https://www.starwars.com/news/rey-ahsoka-tano-and-more-iconic-heroes-to-star-in-new-star-wars-forces-of-destiny-animated-micro-series",
+      "title": "Forces of Destiny announcement",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-3b7dcff7a28e",
+      "url": "https://www.starwars.com/news/five-highlights-from-star-wars-forces-of-destiny-sands-of-jakku",
+      "title": "Star Wars Forces of Destiny — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-14ebc1b83fdd",
+      "url": "https://www.starwars.com/news/life-day-origins",
+      "title": "The Star Wars Holiday Special — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-82a3249d1501",
+      "url": "https://www.starwars.com/news/9-things-you-never-knew-about-the-ewok-adventure",
+      "title": "Caravan of Courage: An Ewok Adventure — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-413c59533b78",
+      "url": "https://www.lucasfilm.com/productions/ewoks-the-battle-for-endor/",
+      "title": "Ewoks: The Battle for Endor — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-b63b2be5f88c",
+      "url": "https://www.lucasfilm.com/productions/star-wars-droids/",
+      "title": "Star Wars: Droids — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-eb4e60ff9d96",
+      "url": "https://www.lucasfilm.com/productions/ewoks/",
+      "title": "Star Wars: Ewoks — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-ed53c270ff5d",
+      "url": "https://www.starwars.com/news/star-wars-galaxy-of-adventures",
+      "title": "Star Wars Galaxy of Adventures — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-60eb91cbd735",
+      "url": "https://www.starwars.com/news/star-wars-galaxy-of-creatures",
+      "title": "Star Wars Galaxy of Creatures — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-ae3fb5727461",
+      "url": "https://www.starwars.com/news/star-wars-galactic-pals",
+      "title": "Star Wars Galactic Pals — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-9e5925ca5cde",
+      "url": "https://www.starwars.com/news/star-wars-roll-out",
+      "title": "Star Wars Roll Out — catalogue reference",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-1a7365bcab6b",
+      "url": "https://www.starwars.com/films/star-wars-starfighter",
+      "title": "Starfighter official film page",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Reference links and selected factual metadata only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": ""
+    },
+    {
+      "id": "cat01-45dbb5c6b8b2",
+      "url": "https://www.starwars.com/films/star-wars-episode-vi-return-of-the-jedi",
+      "title": "Jedi current title page",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "archiveSourceId": "screen04-jedi-film",
+      "kind": "official",
+      "license": "Reference only",
+      "revision": "",
+      "attribution": "StarWars.com",
+      "previousCheckedAt": "2026-10-27"
+    },
+    {
+      "id": "cat01-996a77a1af19",
+      "url": "https://www.starwars.com/news/lucasfilm-reimagined-classic-moments-star-wars-galaxy-of-adventures-exclusive",
+      "title": "Galaxy of Adventures launch-day production interview",
+      "checkedAt": "2026-10-28",
+      "reuseBasis": "Selected factual metadata and source links only; no source prose or media copied.",
+      "kind": "official",
+      "license": "No open content licence identified",
+      "revision": "",
+      "attribution": "StarWars.com"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "jedi-title-page-date",
+      "recordId": "films:3",
+      "field": "release_date",
+      "retained": "1983-05-25",
+      "rejectedForAutomaticImport": "1983-05-01",
+      "note": "The current official title page differs from the AFI theatrical date. Preserve the established May 25 US date; a generic page field does not establish another cut or release.",
+      "evidence": [
+        {
+          "sourceId": "cat01-45dbb5c6b8b2",
+          "locator": "Release Date currently May 1, 1983"
+        },
+        {
+          "sourceId": "cat01-a8d3b4a6b2ff",
+          "locator": "Film header: 25 May 1983"
+        }
+      ]
+    },
+    {
+      "id": "young-jedi-later-season-header",
+      "recordId": null,
+      "field": "original_us_release",
+      "retained": "2023-05-04",
+      "rejectedForAutomaticImport": "2024-08-14",
+      "note": "Current series header is not adopted as first-series premiere; contemporary 2023 debut evidence is retained."
+    },
+    {
+      "id": "visions-index-year",
+      "recordId": null,
+      "field": "release_year",
+      "retained": "2021",
+      "rejectedForAutomaticImport": "2019",
+      "note": "Lucasfilm overview index year conflicts with the contemporary September 2021 launch article."
+    }
+  ],
+  "announcements": [
+    {
+      "recordId": "series:ahsoka",
+      "season": 2,
+      "status": "announced",
+      "date": "2027-01-20",
+      "evidence": [
+        {
+          "sourceId": "cat01-a68956065c5e",
+          "locator": "January 20, 2027; still future on catalogue audit date"
+        }
+      ]
+    },
+    {
+      "recordId": "series:maul-shadow-lord",
+      "season": 2,
+      "status": "in_development",
+      "date": null,
+      "evidence": [
+        {
+          "sourceId": "cat01-c4369159f4ff",
+          "locator": "April 2, 2026 announcement; in the works, no exact launch adopted"
+        }
+      ]
+    }
+  ],
+  "existingAudit": {
+    "count": 24,
+    "mode": "Prior release/format evidence reconciled against the live official work indexes; original fact values and prior citation check dates retained. Selected exceptions re-read 2026-10-28.",
+    "missingEvidence": []
+  },
+  "queue": [
+    {
+      "id": "A",
+      "ids": [
+        "catalogue:book-of-boba-fett",
+        "catalogue:resistance",
+        "catalogue:tales-of-the-jedi",
+        "catalogue:tales-of-the-empire",
+        "catalogue:tales-of-the-underworld"
+      ]
+    },
+    {
+      "id": "B",
+      "ids": [
+        "catalogue:visions",
+        "catalogue:ninth-jedi",
+        "catalogue:young-jedi-adventures",
+        "catalogue:forces-of-destiny"
+      ]
+    },
+    {
+      "id": "C",
+      "ids": [
+        "catalogue:holiday-special-1978",
+        "catalogue:caravan-of-courage",
+        "catalogue:battle-for-endor",
+        "catalogue:droids",
+        "catalogue:ewoks"
+      ]
+    }
+  ],
+  "provisionalContinuityNote": "Canon/Legends suggestions on missing works remain catalogue decisions, not published verified facts. Unknown cases stay Not assessed. Documentary/ambient programmes have no fictional continuity assignment."
+}

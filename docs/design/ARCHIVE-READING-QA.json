@@ -1,0 +1,842 @@
+{
+  "checkedAt": "2026-10-28",
+  "screens": [
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/archive",
+      "readingSystem": true,
+      "width": 1440,
+      "clippedDecorations": [
+        {
+          "class": "feature-lines",
+          "tag": "DIV",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/films",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/series",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#dda28c",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/people",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/planets",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/starships",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/vehicles",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/species",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/timeline",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#b8ade0",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/sources",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/films/a-new-hope",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/series/the-mandalorian",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#dda28c",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/people/luke-skywalker",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/planets/tatooine",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/starships/millennium-falcon",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/vehicles/at-at",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/species/wookie",
+      "readingSystem": true,
+      "width": 1440
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/archive",
+      "readingSystem": true,
+      "width": 1024,
+      "clippedDecorations": [
+        {
+          "class": "feature-lines",
+          "tag": "DIV",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/films",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/series",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#dda28c",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/people",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/planets",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/starships",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/vehicles",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/species",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/timeline",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#b8ade0",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/sources",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/films/a-new-hope",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/series/the-mandalorian",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#dda28c",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/people/luke-skywalker",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/planets/tatooine",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/starships/millennium-falcon",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/vehicles/at-at",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/species/wookie",
+      "readingSystem": true,
+      "width": 1024
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/archive",
+      "readingSystem": true,
+      "width": 390,
+      "clippedDecorations": [
+        {
+          "class": "feature-orbit",
+          "tag": "DIV",
+          "text": ""
+        },
+        {
+          "class": "feature-lines",
+          "tag": "DIV",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/films",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/series",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#dda28c",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/people",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/planets",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/starships",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/vehicles",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/species",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/timeline",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#b8ade0",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/sources",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/films/a-new-hope",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/series/the-mandalorian",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#dda28c",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/people/luke-skywalker",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/planets/tatooine",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/starships/millennium-falcon",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/vehicles/at-at",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/species/wookie",
+      "readingSystem": true,
+      "width": 390
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/archive",
+      "readingSystem": true,
+      "width": 320,
+      "clippedDecorations": [
+        {
+          "class": "feature-orbit",
+          "tag": "DIV",
+          "text": ""
+        },
+        {
+          "class": "feature-lines",
+          "tag": "DIV",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/films",
+      "readingSystem": true,
+      "width": 320,
+      "clippedDecorations": [
+        {
+          "class": "motif-cut",
+          "tag": "path",
+          "text": ""
+        },
+        {
+          "class": "motif-faint",
+          "tag": "path",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/series",
+      "readingSystem": true,
+      "width": 320,
+      "clippedDecorations": [
+        {
+          "class": "motif-horizon",
+          "tag": "path",
+          "text": ""
+        },
+        {
+          "class": "motif-faint",
+          "tag": "path",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "accent": "#dda28c",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/people",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/planets",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/starships",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/vehicles",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/species",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/timeline",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#b8ade0",
+      "bodyFont": null,
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/sources",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/films/a-new-hope",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#e2bb78",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/series/the-mandalorian",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#dda28c",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/people/luke-skywalker",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/planets/tatooine",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/starships/millennium-falcon",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#91c5e5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/vehicles/at-at",
+      "readingSystem": true,
+      "width": 320
+    },
+    {
+      "accent": "#83c7b5",
+      "bodyFont": "16px",
+      "documentOverflow": false,
+      "legend": 1,
+      "missingAnchors": 0,
+      "overflowing": [],
+      "path": "/species/wookie",
+      "readingSystem": true,
+      "width": 320
+    }
+  ],
+  "functional": [
+    {
+      "name": "Film search, empty state, clear filters and pagination",
+      "passed": true
+    },
+    {
+      "name": "Grid/list switch and selected record preview",
+      "passed": true
+    },
+    {
+      "name": "Timeline media filters retain historical sourced events",
+      "passed": true
+    },
+    {
+      "name": "Mobile episode/review keyboard disclosures and Pershing source jump",
+      "passed": true
+    },
+    {
+      "name": "Legacy fields retain explicit pending state and open-circle symbol",
+      "passed": true
+    },
+    {
+      "name": "Approved cinematic homepage remains outside archive reading layout",
+      "passed": true
+    }
+  ],
+  "logs": []
+}

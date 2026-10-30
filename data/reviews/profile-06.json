@@ -1,0 +1,1215 @@
+{
+  "version": 1,
+  "id": "PROFILE-06",
+  "checkedAt": "2026-10-29",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "Five existing Alderaan, Hoth, Dagobah, Bespin and Endor dossiers: all forty inherited fields assessed, explicit planet/moon/settlement boundaries, qualitative landscapes and selected work/context links. Deleted-scene and edition boundaries retained. No new records, episode rows, dates, editions or credits.",
+  "sources": [
+    {
+      "id": "profile06-alderaan",
+      "title": "Alderaan — official Databank",
+      "url": "https://www.starwars.com/databank/alderaan",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Planet/Core World identity, lush valleys and mountains, Bail representation, Leia’s upbringing, destruction and selected film/series list. No exact diameter, population, gravity, day/year lengths, water percentage or temperate climate established. No Raymus birthplace inferred."
+    },
+    {
+      "id": "profile06-hoth",
+      "title": "Hoth — official Databank",
+      "url": "https://www.starwars.com/databank/hoth",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Planet identity, cold climate, glaciers and plains, Echo Base and Empire appearance. Related Snowspeeder description explicitly states Hoth service. Snow and ice do not establish 100 percent surface water or a numerical climate."
+    },
+    {
+      "id": "profile06-dagobah",
+      "title": "Dagobah — official Databank",
+      "url": "https://www.starwars.com/databank/dagobah",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Planet identity, humid wetlands, swamps and jungle, Yoda’s later home, Empire/Return and Clone Wars work contexts. No precise planetary numerical measurements; murky is not retained as a climate classification."
+    },
+    {
+      "id": "profile06-bespin",
+      "title": "Bespin — official Databank",
+      "url": "https://www.starwars.com/databank/bespin",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Gas giant, gaseous terrain, habitable atmospheric band and floating Cloud City. Selected Empire connection and named Lando/Lobot service associations. Cloud City conditions are not the whole planet; no exact Storm IV model alias or original-1983 Return appearance inferred."
+    },
+    {
+      "id": "profile06-endor",
+      "title": "Endor — official Databank",
+      "url": "https://www.starwars.com/databank/endor",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Forest-moon identity, forests plus listed grasslands/mountains, Ewok home and Return/Rise work contexts. This dossier is the forest moon, not a parent planet or the oceanic moon Kef Bir. No precise numerical fields or temperate climate established."
+    },
+    {
+      "id": "profile06-dagobah-deleted",
+      "title": "Revenge of the Sith at 20: Revisiting the Cut Scenes",
+      "url": "https://www.starwars.com/news/revenge-of-the-sith-deleted-scenes",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Amy Richau, 4 May 2025, Yoda’s Journey: Exiled to Dagobah is a deleted scene available as a Disney+ extra. Used to explain why the inherited Dagobah/Sith film link is not verified as a released-film scene. No home-video release event added."
+    },
+    {
+      "id": "profile06-wicket-w-warrick",
+      "title": "Wicket W. Warrick — official Databank",
+      "url": "https://www.starwars.com/databank/wicket-w-warrick",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Biography/history explicitly places Wicket’s upbringing and homeworld on the forest moon of Endor. Used only for the existing resident identity; old Wicket title/slug and all personal facts remain unchanged."
+    },
+    {
+      "id": "profile06-kef-bir",
+      "title": "Kef Bir — official Databank",
+      "url": "https://www.starwars.com/databank/kef-bir",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Explicitly distinguishes the oceanic moon with second-Death-Star wreckage from the famous forest moon of Endor. Identity boundary only; no new world record, global water percentage or parent-planet measurement."
+    }
+  ],
+  "sourceUpdates": [],
+  "records": [
+    {
+      "id": "planets:2",
+      "summary": {
+        "text": "Alderaan is a Core World remembered for its valleys, mountains and cultural life. Bail Organa represents it in the Republic, and Leia grows up in its royal family. The Death Star later destroys the planet to demonstrate the Empire’s power.",
+        "evidence": [
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "Main profile and selected metadata/history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as current-canon foundation",
+            "note": "Current screen-world identity, not certification of old numerical metadata."
+          },
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "Main profile and named screen appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy world: original short description, all eight inherited fields assessed, explicit world classification and selected work/context links. Numeric ID, title, slug and origin retained.",
+      "limitations": [
+        "The selected landscape is valleys and mountains; the old grasslands component and temperate climate are not independently established. No population, global water percentage or orbital/rotation precision is supplied.",
+        "Leia’s upbringing is distinct from her birth on Polis Massa. Raymus Antilles’s inherited resident connection remains pending; his ship’s Alderaanian service alone is not personal residence evidence.",
+        "Only the stated details and selected connections are checked. Raw unestablished values and source IDs remain in the audit but are withheld from current published facts and collection previews. Other legacy relationships remain pending.",
+        "No new records, episode rows, credits, dates or editions. Original-US release research scope retained. A public reference is not an open text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "terrain",
+          "value": "Valleys; mountains",
+          "expectedValue": "grasslands, mountains",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Main profile / lush valleys and snow-capped mountains; Terrain / Mountains",
+              "note": "Replaces the inherited grasslands list with the selected supported landscape description; not an exhaustive terrain inventory."
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "value": "Planet",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "History / explicitly a planet",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "region",
+          "value": "Core Worlds",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "History / Core World of Alderaan",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "rotation_period",
+          "expectedValue": "24",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "orbital_period",
+          "expectedValue": "364",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "diameter",
+          "expectedValue": "12500",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "climate",
+          "expectedValue": "temperate",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected descriptions do not establish this inherited planet-wide climate label. Habitable atmospheric layers or settlement conditions are not applied to the entire world.",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "gravity",
+          "expectedValue": "1 standard",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "surface_water",
+          "expectedValue": "40",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The sources do not establish a global surface-water percentage. Ice, wetlands, lakes, clouds and the absence of a solid surface are not converted into the inherited percentage.",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "population",
+          "expectedValue": "2000000000",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Appearances / A New Hope",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "series:obi-wan",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Appearances / Obi-Wan Kenobi",
+              "note": "Series-level context only; no new episode-level assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level context only; no new episode-level assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "people:5",
+          "relation": "residents",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "History / Leia raised as Bail’s adopted daughter; Related / Bail Organa",
+              "note": "Upbringing/home context, not Leia’s birthplace."
+            }
+          ]
+        },
+        {
+          "targetId": "people:68",
+          "relation": "residents",
+          "evidence": [
+            {
+              "sourceId": "profile06-alderaan",
+              "locator": "Related / Royal Palace, Breha Organa and Bail Organa / royal household and family",
+              "note": "Royal household context, not a birthplace or permanent residence at every moment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:4",
+      "summary": {
+        "text": "Hoth is an ice-covered planet where the Rebel Alliance establishes Echo Base. Its cold plains and glaciers shelter dangerous wildlife, and the rebels adapt their speeders to patrol the freezing environment.",
+        "evidence": [
+          {
+            "sourceId": "profile06-hoth",
+            "locator": "Main profile and selected metadata/history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as current-canon foundation",
+            "note": "Current screen-world identity, not certification of old numerical metadata."
+          },
+          {
+            "sourceId": "profile06-hoth",
+            "locator": "Main profile and named screen appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy world: original short description, all eight inherited fields assessed, explicit world classification and selected work/context links. Numeric ID, title, slug and origin retained.",
+      "limitations": [
+        "Snow and ice do not establish the inherited 100 percent surface-water value. No numerical population, diameter, gravity or day/year lengths established. Unknown population remains a retained placeholder, not zero.",
+        "Only the stated details and selected connections are checked. Raw unestablished values and source IDs remain in the audit but are withheld from current published facts and collection previews. Other legacy relationships remain pending.",
+        "No new records, episode rows, credits, dates or editions. Original-US release research scope retained. A public reference is not an open text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "climate",
+          "value": "Cold",
+          "expectedValue": "frozen",
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Climate / Cold",
+              "note": "Qualitative climate label, no temperatures inferred."
+            }
+          ]
+        },
+        {
+          "key": "terrain",
+          "value": "Glaciers; plains",
+          "expectedValue": "tundra, ice caves, mountain ranges",
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Terrain / Glaciers and Plains",
+              "note": "No automatic certification of every inherited cave or mountain-range component."
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "value": "Planet",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Main profile / sixth planet in the Hoth system",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "notable_location",
+          "value": "Echo Base",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Main profile / site of Rebel Alliance Echo Base",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "rotation_period",
+          "expectedValue": "23",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "orbital_period",
+          "expectedValue": "549",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "diameter",
+          "expectedValue": "7200",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "gravity",
+          "expectedValue": "1.1 standard",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "surface_water",
+          "expectedValue": "100",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The sources do not establish a global surface-water percentage. Ice, wetlands, lakes, clouds and the absence of a solid surface are not converted into the inherited percentage.",
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "population",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved.",
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:14",
+          "relation": "vehicles",
+          "evidence": [
+            {
+              "sourceId": "profile06-hoth",
+              "locator": "Related / Snowspeeder / Alliance modifies T-47 airspeeders while stationed on Hoth",
+              "note": "Cold-adapted vehicle association only; no inherited speed, dimensions or production metadata verified."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:5",
+      "summary": {
+        "text": "Dagobah is a humid world of swamps and jungle, abundant in life and closely connected to the Force. Yoda makes it his refuge from the Empire and later teaches Luke there.",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah",
+            "locator": "Main profile and selected metadata/history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as current-canon foundation",
+            "note": "Current screen-world identity, not certification of old numerical metadata."
+          },
+          {
+            "sourceId": "profile06-dagobah",
+            "locator": "Main profile and named screen appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy world: original short description, all eight inherited fields assessed, explicit world classification and selected work/context links. Numeric ID, title, slug and origin retained.",
+      "limitations": [
+        "Yoda’s home during exile is not his birthplace. Humid is a supported qualitative description; murky is not used as a scientific climate class. Wetlands do not establish eight percent surface water.",
+        "The inherited Revenge of the Sith connection remains legacy. The official cut-scenes article identifies Exiled to Dagobah as deleted material available separately as an extra; this is not proof that Dagobah appears in the released film. No deleted-scene work or edition is created.",
+        "Only the stated details and selected connections are checked. Raw unestablished values and source IDs remain in the audit but are withheld from current published facts and collection previews. Other legacy relationships remain pending.",
+        "No new records, episode rows, credits, dates or editions. Original-US release research scope retained. A public reference is not an open text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "climate",
+          "value": "Humid",
+          "expectedValue": "murky",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Main profile / explicitly humid wetlands",
+              "note": "Replaces murky, a visibility description, with the supported qualitative humidity description; no temperature or full climate model inferred."
+            }
+          ]
+        },
+        {
+          "key": "terrain",
+          "value": "Swamps; jungle",
+          "expectedValue": "swamp, jungles",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Main profile / swamp-covered planet and dense jungle undergrowth; Terrain / Swamps",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "value": "Planet",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Main profile / swamp-covered planet",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "notable_resident",
+          "value": "Yoda during his exile",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Main profile / home to Yoda during his final years",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "appearance_scope",
+          "value": "Yoda’s arrival in Revenge of the Sith is a deleted scene, available separately as an extra",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah-deleted",
+              "locator": "Yoda’s Journey / Exiled to Dagobah",
+              "note": "Deleted material is not promoted to a released-film appearance; no new edition or date."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "rotation_period",
+          "expectedValue": "23",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "orbital_period",
+          "expectedValue": "341",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "diameter",
+          "expectedValue": "8900",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "gravity",
+          "expectedValue": "N/A",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved.",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "surface_water",
+          "expectedValue": "8",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The sources do not establish a global surface-water percentage. Ice, wetlands, lakes, clouds and the absence of a solid surface are not converted into the inherited percentage.",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "population",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved.",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level context only; no new episode-level assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "people:20",
+          "relation": "residents",
+          "evidence": [
+            {
+              "sourceId": "profile06-dagobah",
+              "locator": "Main profile / home to Yoda during his final years",
+              "note": "Exile residence, not birthplace or his original homeworld."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:6",
+      "summary": {
+        "text": "Bespin is a gas giant with a habitable band in its atmosphere. Floating mining settlements occupy that layer, including Cloud City, where Lando Calrissian’s administration becomes entangled with the Empire.",
+        "evidence": [
+          {
+            "sourceId": "profile06-bespin",
+            "locator": "Main profile and selected metadata/history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as current-canon foundation",
+            "note": "Current screen-world identity, not certification of old numerical metadata."
+          },
+          {
+            "sourceId": "profile06-bespin",
+            "locator": "Main profile and named screen appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy world: original short description, all eight inherited fields assessed, explicit world classification and selected work/context links. Numeric ID, title, slug and origin retained.",
+      "limitations": [
+        "Bespin is the planet and Cloud City is a settlement within its atmosphere. The mixed inherited gravity value, temperate label, six-million population and zero percent surface water are not established as planet-wide measurements.",
+        "The modern Databank lists Return of the Jedi, but this review does not establish the original-1983 versus later-edition boundary and adds no new Return connection. The existing Empire connection is checked. The Cloud Car list alone does not establish the exact inherited Storm IV model alias.",
+        "Lobot’s city employment is represented as a scoped association; his inherited resident link remains pending. Lando’s earlier verified reverse administrator connection is preserved unchanged.",
+        "Only the stated details and selected connections are checked. Raw unestablished values and source IDs remain in the audit but are withheld from current published facts and collection previews. Other legacy relationships remain pending.",
+        "No new records, episode rows, credits, dates or editions. Original-US release research scope retained. A public reference is not an open text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "terrain",
+          "value": "Gaseous",
+          "expectedValue": "gas giant",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Terrain / Gaseous",
+              "note": "The old gas giant terrain label is represented separately as world classification; no solid ground or surface-water value inferred."
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "value": "Gas giant",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Main profile / immense gas giant",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "notable_location",
+          "value": "Cloud City, a floating mining settlement in the habitable atmospheric band",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Main profile / habitable stratum and Cloud City",
+              "note": "City and planet are distinct; city gravity, climate or inhabitants are not whole-planet statistics."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "rotation_period",
+          "expectedValue": "12",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "orbital_period",
+          "expectedValue": "5110",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "diameter",
+          "expectedValue": "118000",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "climate",
+          "expectedValue": "temperate",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected descriptions do not establish this inherited planet-wide climate label. Habitable atmospheric layers or settlement conditions are not applied to the entire world.",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "gravity",
+          "expectedValue": "1.5 (surface), 1 standard (Cloud City)",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "surface_water",
+          "expectedValue": "0",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The sources do not establish a global surface-water percentage. Ice, wetlands, lakes, clouds and the absence of a solid surface are not converted into the inherited percentage.",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "population",
+          "expectedValue": "6000000",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "people:25",
+          "relation": "associated_with",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Main profile and Related / Cloud City / Lando as former administrator",
+              "note": "Administration of Cloud City within Bespin’s atmosphere, not birthplace or permanent planetary residence."
+            }
+          ]
+        },
+        {
+          "targetId": "people:26",
+          "relation": "associated_with",
+          "evidence": [
+            {
+              "sourceId": "profile06-bespin",
+              "locator": "Related / Cloud City and Lobot / aide and computer liaison",
+              "note": "Explicit city-service association. The separate inherited residents relation is left pending rather than inferred from employment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:7",
+      "summary": {
+        "text": "The forest moon of Endor is the Ewoks’ home and the site of the rebel ground assault against the second Death Star’s shield generator. Its forests become a battlefield where local knowledge helps the Alliance defeat the Empire.",
+        "evidence": [
+          {
+            "sourceId": "profile06-endor",
+            "locator": "Main profile and selected metadata/history / original archive paraphrase",
+            "note": ""
+          },
+          {
+            "sourceId": "profile06-wicket-w-warrick",
+            "locator": "Return of the Jedi history / Ewok alliance and shield-generator attack",
+            "note": "Additional evidence for the forest-moon battle summary."
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as current-canon foundation",
+            "note": "Current screen-world identity, not certification of old numerical metadata."
+          },
+          {
+            "sourceId": "profile06-endor",
+            "locator": "Main profile and named screen appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy world: original short description, all eight inherited fields assessed, explicit world classification and selected work/context links. Numeric ID, title, slug and origin retained.",
+      "limitations": [
+        "This dossier is the forest moon. Kef Bir is the distinct oceanic moon where second-Death-Star wreckage lies; neither Kef Bir nor a parent gas giant is merged here. The Rise of Skywalker work-level link does not relocate the wreckage to the forest moon.",
+        "No temperate climate, exact population, diameter, gravity, day/year lengths or global water percentage established. No new Ewok film/series placeholders are created; older Wicket identity metadata remains pending.",
+        "Only the stated details and selected connections are checked. Raw unestablished values and source IDs remain in the audit but are withheld from current published facts and collection previews. Other legacy relationships remain pending.",
+        "No new records, episode rows, credits, dates or editions. Original-US release research scope retained. A public reference is not an open text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "terrain",
+          "value": "Forests; grasslands; mountains",
+          "expectedValue": "forests, mountains, lakes",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Main profile / lush forest home; Terrain / Grasslands and Mountains",
+              "note": "Replaces the inherited lake component with the selected listed terrain; not an exhaustive map."
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "value": "Forest moon",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Main profile / forest moon of Endor",
+              "note": "This existing dossier denotes the forest moon, not a parent planet or the whole system."
+            },
+            {
+              "sourceId": "profile06-kef-bir",
+              "locator": "Main profile / oceanic Kef Bir distinguished from the famous Forest Moon",
+              "note": "Kef Bir’s oceans and Death Star wreckage are not assigned to this forest-moon dossier."
+            }
+          ]
+        },
+        {
+          "key": "native_species",
+          "value": "Ewok",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Main profile / forest home of the Ewok species",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "rotation_period",
+          "expectedValue": "18",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "orbital_period",
+          "expectedValue": "402",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "diameter",
+          "expectedValue": "4900",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "climate",
+          "expectedValue": "temperate",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected descriptions do not establish this inherited planet-wide climate label. Habitable atmospheric layers or settlement conditions are not applied to the entire world.",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "gravity",
+          "expectedValue": "0.85 standard",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "surface_water",
+          "expectedValue": "8",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The sources do not establish a global surface-water percentage. Ice, wetlands, lakes, clouds and the absence of a solid surface are not converted into the inherited percentage.",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "population",
+          "expectedValue": "30000000",
+          "expectedSourceId": "legacy-planets",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "films:rise-skywalker",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Appearances / The Rise of Skywalker",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "people:30",
+          "relation": "residents",
+          "evidence": [
+            {
+              "sourceId": "profile06-wicket-w-warrick",
+              "locator": "Biography gallery opening / grew up in Bright Tree Village on his homeworld; history / forest moon of Endor",
+              "note": "Same existing Wicket dossier, whose old title and slug are retained. Upbringing/home context only."
+            }
+          ]
+        },
+        {
+          "targetId": "species:9",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "profile06-endor",
+              "locator": "Main profile and species / Ewok",
+              "note": "Native species association only; no old numerical species traits verified."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

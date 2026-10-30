@@ -1,0 +1,4172 @@
+{
+  "version": 1,
+  "id": "pilot-04",
+  "checkedAt": "2026-10-27",
+  "reviewer": "Archive editorial review",
+  "scope": "Return of the Jedi plus four series: Clone Wars 2D Micro-Series, Rebels, The Mandalorian and The Bad Batch. Selected facts, contributors, connections and cinema/TV/streaming dates.",
+  "sources": [
+    {
+      "id": "screen04-jedi-afi",
+      "title": "AFI Catalog — Return of the Jedi (1983)",
+      "url": "https://catalog.afi.com/Film/58057-RETURN-OF-THE-JEDI",
+      "kind": "reference",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "AFI Catalog",
+      "revision": "",
+      "note": "Original 1983 cast, screenplay/story, photography, editing and music. Later replacement imagery is not assigned to the original production."
+    },
+    {
+      "id": "screen04-jedi-film",
+      "title": "StarWars.com — Return of the Jedi",
+      "url": "https://www.starwars.com/films/star-wars-episode-vi-return-of-the-jedi",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Selected story/Databank connections; current imagery is not proof of every original-cut shot."
+    },
+    {
+      "id": "screen04-jedi-opening",
+      "title": "StarWars.com — Return of the Jedi opening",
+      "url": "https://www.starwars.com/video/star-wars-episode-vi-return-of-the-jedi-opening-crawl",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official external viewing link only; no crawl transcript imported."
+    },
+    {
+      "id": "screen04-jedi-2023",
+      "title": "StarWars.com — Return of the Jedi 40th anniversary release",
+      "url": "https://www.starwars.com/news/swce-2023-return-of-the-jedi-40th-anniversary",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "US window 28 April–4 May 2023; UK 28 April–1 May. No particular cut/master established."
+    },
+    {
+      "id": "screen04-micro-production",
+      "title": "Lucasfilm — Clone Wars 2D Micro-Series",
+      "url": "https://www.lucasfilm.com/productions/the-clone-wars-microseries/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "25 original chapters, three TV seasons, 2003–2005; selected directing, production and English voice roles. Distinct from 2008 CGI series and outside current canon."
+    },
+    {
+      "id": "screen04-micro-premiere",
+      "title": "AWN — Clone Wars premieres on Cartoon Network",
+      "url": "https://www.awn.com/news/animated-force-takes-cartoon-network-clone-wars",
+      "kind": "reference",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "Animation World Network",
+      "revision": "",
+      "note": "Contemporary 7 November 2003 US broadcast report. Announced first 20 chapters are not the completed-series count."
+    },
+    {
+      "id": "screen04-micro-chapter1",
+      "title": "Internet Animation Database — Clone Wars Chapter 1",
+      "url": "https://www.intanibase.com/iad_entries/entry?shortID=22141",
+      "kind": "reference",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "Internet Animation Database",
+      "revision": "",
+      "note": "Selected opening-chapter voice roles and identity; no source summary copied."
+    },
+    {
+      "id": "screen04-micro-vintage",
+      "title": "StarWars.com — Vintage Collection arrives on Disney+",
+      "url": "https://www.starwars.com/news/star-wars-vintage-collection-disney-plus",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "2 April 2021 release-day announcement explicitly names 2D Micro-Series Volumes 1 and 2. No DVD or purchase dates."
+    },
+    {
+      "id": "screen04-rebels-production",
+      "title": "StarWars.com — Rebels premiere and production credits",
+      "url": "https://www.starwars.com/news/star-wars-rebels-spark-of-rebellion-premieres-friday-october-3-on-disney-channel",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Creators, launch-era executive producers, cast and TV schedule. Initial 29 September streaming date was later superseded; do not use it as the actual debut."
+    },
+    {
+      "id": "screen04-rebels-streaming-update",
+      "title": "StarWars.com — Spark of Rebellion streaming debut moved earlier",
+      "url": "https://www.starwars.com/news/star-wars-rebels-spark-of-rebellion-to-debut-early-on-watch-disney-xd",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "24 September update advances authenticated WATCH Disney XD debut to 26 September 2014, replacing 29 September. TV dates unchanged."
+    },
+    {
+      "id": "screen04-rebels-abc",
+      "title": "StarWars.com — Spark of Rebellion adds Vader scene for ABC",
+      "url": "https://www.starwars.com/news/abc-to-air-star-wars-rebels-spark-of-rebellion-with-a-new-scene-featuring-darth-vader",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "26 October 2014 ABC presentation has an added opening scene, with James Earl Jones as Vader. Version applies to the pilot, not the entire series."
+    },
+    {
+      "id": "screen04-rebels-abc-preview",
+      "title": "StarWars.com — Extended Spark of Rebellion preview",
+      "url": "https://www.starwars.com/video/star-wars-rebels-spark-of-rebellion-darth-vader-sneak-peek",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official preview explicitly calls this an extended version of the premiere movie."
+    },
+    {
+      "id": "screen04-rebels-finale",
+      "title": "StarWars.com — Rebels final TV schedule",
+      "url": "https://www.starwars.com/news/the-final-episodes-of-star-wars-rebels-begin-february-19-on-disney-xd",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "US finale 5 March 2018. One evening combines A Fool’s Hope and Family Reunion – and Farewell; programme slots are not automatically episode counts."
+    },
+    {
+      "id": "screen04-rebels-seasons",
+      "title": "StarWars.com — Through four seasons of Rebels",
+      "url": "https://www.starwars.com/news/through-four-seasons-star-wars-rebels-storytelling-bridge",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Four-season history; selected series appearances and worlds, not appearance in every episode."
+    },
+    {
+      "id": "screen04-rebels-writer",
+      "title": "StarWars.com — Rebels Season 2 production team",
+      "url": "https://www.starwars.com/news/disney-xd-orders-second-season-of-star-wars-rebels-ahead-of-television-premier",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Henry Gilroy is co-executive producer and supervising writer for Season 2; not the sole writer of all series episodes."
+    },
+    {
+      "id": "screen04-rebels-music",
+      "title": "StarWars.com — Kevin Kiner, Rebels composer",
+      "url": "https://www.starwars.com/video/star-wars-rebels-an-interview-with-composer-kevin-kiner",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Selected series composer credit, not a complete music-team inventory."
+    },
+    {
+      "id": "screen04-chopper-voice",
+      "title": "StarWars.com — Chopper and other droids",
+      "url": "https://www.starwars.com/news/20-star-wars-droids",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Chopper entry identifies Dave Filoni’s vocal performance."
+    },
+    {
+      "id": "screen04-mando-production",
+      "title": "StarWars.com — The Mandalorian production overview (2019)",
+      "url": "https://www.starwars.com/news/everything-we-know-about-the-mandalorian",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Contemporary creator, first-season director/producer, actor–character pairs, Razor Crest and AT-ST Raider. Not proof every actor appears in every season."
+    },
+    {
+      "id": "screen04-mando-lucasfilm",
+      "title": "Lucasfilm — The Mandalorian",
+      "url": "https://www.lucasfilm.com/productions/the-mandalorian/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Current heading credits Jon Favreau & Dave Filoni as creators; contemporary 2019 overview calls Favreau the series creator. This wording difference is recorded as an open credit-label issue, not silently ignored."
+    },
+    {
+      "id": "screen04-mando-series",
+      "title": "StarWars.com — The Mandalorian series",
+      "url": "https://www.starwars.com/series/the-mandalorian",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "12 November 2019 series premiere, Din Djarin and Grogu premise."
+    },
+    {
+      "id": "screen04-mando-season2",
+      "title": "StarWars.com — The Mandalorian Season 2 is here",
+      "url": "https://www.starwars.com/news/the-mandalorian-season-2-is-here",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "30 October 2020 release-day confirmation and selected Season 2 directors/producer scope."
+    },
+    {
+      "id": "screen04-mando-season3",
+      "title": "Disney+ Press — The Mandalorian Season 3 production credits",
+      "url": "https://press.disneyplus.com/news/disney-plus-star-wars-the-mandalorian-season-3-emmy-fyc-event-photos",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "Disney+ Press",
+      "revision": "",
+      "note": "All eight Season 3 episodes available; 1 March launch, Joseph Shirley composer, Jon Favreau head writer, Season 3 directors and production team."
+    },
+    {
+      "id": "screen04-mando-chapter24",
+      "title": "StarWars.com — The Mandalorian Chapter 24",
+      "url": "https://www.starwars.com/news/mando-download-chapter-24-the-return",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Season 3 finale is Chapter 24. Count is original numbered TV chapters through this season, excluding the feature and related specials."
+    },
+    {
+      "id": "screen04-mando-music",
+      "title": "StarWars.com — Ludwig Göransson to score The Mandalorian",
+      "url": "https://www.starwars.com/news/ludwig-goransson-to-compose-score-for-the-mandalorian",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Launch-era score; not a claim Göransson composed Season 3’s entire score."
+    },
+    {
+      "id": "screen04-mando-season2-music",
+      "title": "StarWars.com — The Mandalorian Season 2 trailer highlights",
+      "url": "https://www.starwars.com/news/the-mandalorian-season-two-trailer-highlights",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Confirms continuation of Göransson’s music in Season 2."
+    },
+    {
+      "id": "screen04-batch-production",
+      "title": "Lucasfilm — The Bad Batch",
+      "url": "https://www.lucasfilm.com/productions/star-wars-the-bad-batch/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Creator, original series premise and current production role descriptions. Job titles differ from early season announcements; current roles are scoped explicitly."
+    },
+    {
+      "id": "screen04-batch-premiere",
+      "title": "StarWars.com — Aftermath is now streaming",
+      "url": "https://www.starwars.com/news/bad-batch-first-look-aftermath",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "4 May 2021 first episode release-day confirmation; 70-minute premiere is not 70 episodes."
+    },
+    {
+      "id": "screen04-batch-season2",
+      "title": "StarWars.com — The Bad Batch Season 2 arrives",
+      "url": "https://www.starwars.com/news/the-bad-batch-season-2-is-here",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "4 January 2023 two-episode premiere."
+    },
+    {
+      "id": "screen04-batch-season3",
+      "title": "StarWars.com — The Bad Batch final-season schedule",
+      "url": "https://www.starwars.com/news/the-bad-batch-season-3-trailer",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Final Season 3 premieres 21 February 2024; 15 numbered episodes with 1 May finale."
+    },
+    {
+      "id": "screen04-batch-finale",
+      "title": "StarWars.com — Dee Bradley Baker and Michelle Ang on the finale",
+      "url": "https://www.starwars.com/news/the-bad-batch-series-finale-dee-bradley-baker-michelle-ang-interview",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "1 May 2024 release-day confirmation; Baker voices Clone Force 99 and Ang voices Omega. Tech is not assumed to appear in every season."
+    },
+    {
+      "id": "screen04-batch-creators",
+      "title": "StarWars.com — Brad Rau and Jennifer Corbett retrospective",
+      "url": "https://www.starwars.com/news/the-bad-batch-series-end-interview",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Rau supervising director, Corbett head writer and executive producers; names the six-member family. These are supervisory roles, not every episode’s directing/writing credit."
+    },
+    {
+      "id": "screen04-batch-music",
+      "title": "StarWars.com — Kevin Kiner celebrates John Williams",
+      "url": "https://www.starwars.com/news/john-williams-birthday",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Kevin Kiner identified as composer for The Bad Batch and Rebels. A selected credit, not the entire Kiner family’s role breakdown."
+    },
+    {
+      "id": "screen04-batch-aftermath",
+      "title": "StarWars.com — Aftermath episode guide",
+      "url": "https://www.starwars.com/series/the-bad-batch/aftermath-episode-guide",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Episode-specific Databank confirms selected characters and Kamino; not every-series-episode evidence."
+    },
+    {
+      "id": "screen04-batch-series",
+      "title": "StarWars.com — The Bad Batch series",
+      "url": "https://www.starwars.com/series/star-wars-the-bad-batch",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Series-specific Databank lists AT-TE, Kamino, Coruscant and other selected connections."
+    },
+    {
+      "id": "screen04-ghost",
+      "title": "Star Wars Databank — Ghost",
+      "url": "https://www.starwars.com/databank/ghost",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Rebels appearance, Hera/Chopper and modified light-freighter identity; no technical specifications imported."
+    },
+    {
+      "id": "screen04-lothal",
+      "title": "Star Wars Databank — Lothal",
+      "url": "https://www.starwars.com/databank/lothal",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "World identity and explicit Rebels appearance."
+    },
+    {
+      "id": "screen04-at-dp",
+      "title": "Star Wars Databank — AT-DP walker",
+      "url": "https://www.starwars.com/databank/at-dp-walker",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Rebels vehicle; Lothal patrol and forced clearance of farmland."
+    },
+    {
+      "id": "screen04-nevarro",
+      "title": "Star Wars Databank — Nevarro",
+      "url": "https://www.starwars.com/databank/nevarro",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "World identity and explicit television-series appearance."
+    },
+    {
+      "id": "screen04-marauder",
+      "title": "Star Wars Databank — Marauder",
+      "url": "https://www.starwars.com/databank/marauder",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Bad Batch transport identity, explicit series appearance and selected Hunter/Wrecker/Crosshair descriptions."
+    },
+    {
+      "id": "screen04-pabu",
+      "title": "Star Wars Databank — Pabu",
+      "url": "https://www.starwars.com/databank/pabu",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Refuge for Clone Force 99 and Omega; explicit series appearance."
+    },
+    {
+      "id": "screen04-mando-emmy",
+      "title": "StarWars.com — The Mandalorian Season 2 Emmy credits",
+      "url": "https://www.starwars.com/news/the-mandalorian-receives-24-emmy-award-nominations",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; no source prose, transcripts, images, video or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official season-specific actor pairs and nominated episode writing/photography/editing/music roles. Award nominations are not release dates. The page has a typo in a separate Chapter 15/16 editing entry, which is not adopted."
+    }
+  ],
+  "records": [
+    {
+      "id": "people:ezra-bridger",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "ezra-bridger",
+        "title": "Ezra Bridger",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A young orphan who joins the Ghost crew and learns from Kanan.",
+        "evidence": [
+          {
+            "sourceId": "screen04-rebels-production",
+            "locator": "Synopsis / Ghost crew",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:kanan-jarrus",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "kanan-jarrus",
+        "title": "Kanan Jarrus",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Jedi survivor who helps the Ghost crew resist Imperial rule.",
+        "evidence": [
+          {
+            "sourceId": "screen04-rebels-production",
+            "locator": "Synopsis / Ghost crew",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:hera-syndulla",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "hera-syndulla",
+        "title": "Hera Syndulla",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Ghost’s pilot and a leader of its rebel crew.",
+        "evidence": [
+          {
+            "sourceId": "screen04-rebels-production",
+            "locator": "Synopsis / Ghost crew",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:sabine-wren",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "sabine-wren",
+        "title": "Sabine Wren",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A warrior in the Ghost crew’s fight against the Empire.",
+        "evidence": [
+          {
+            "sourceId": "screen04-rebels-production",
+            "locator": "Synopsis / Ghost crew",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:zeb-orrelios",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "zeb-orrelios",
+        "title": "Garazeb “Zeb” Orrelios",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The formidable fighter who serves with the Ghost crew.",
+        "evidence": [
+          {
+            "sourceId": "screen04-rebels-production",
+            "locator": "Synopsis / Ghost crew",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:chopper",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "chopper",
+        "title": "Chopper (C1-10P)",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Ghost crew’s grumbling astromech droid.",
+        "evidence": [
+          {
+            "sourceId": "screen04-rebels-production",
+            "locator": "Synopsis / Ghost crew",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:hunter",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "hunter",
+        "title": "Hunter",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The leader of Clone Force 99, whose loyalty shifts from Republic service to his chosen family.",
+        "evidence": [
+          {
+            "sourceId": "screen04-marauder",
+            "locator": "Profile / Hunter",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:wrecker",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "wrecker",
+        "title": "Wrecker",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Clone Force 99’s strong-willed demolitions specialist.",
+        "evidence": [
+          {
+            "sourceId": "screen04-marauder",
+            "locator": "Profile / Wrecker",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:crosshair",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "crosshair",
+        "title": "Crosshair",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The sharp-eyed clone sniper whose allegiance divides him from his former squad.",
+        "evidence": [
+          {
+            "sourceId": "screen04-marauder",
+            "locator": "Profile / Crosshair",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:tech",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "tech",
+        "title": "Tech",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A member of Clone Force 99 whose story carries a lasting cost for his comrades.",
+        "evidence": [
+          {
+            "sourceId": "screen04-batch-finale",
+            "locator": "Series story / Tech",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:echo",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "echo",
+        "title": "Echo",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A veteran clone who travels with Clone Force 99 after the Republic’s fall.",
+        "evidence": [
+          {
+            "sourceId": "screen04-batch-creators",
+            "locator": "Series story / Echo",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:omega",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "omega",
+        "title": "Omega",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A young clone who becomes part of the Bad Batch’s family on the run.",
+        "evidence": [
+          {
+            "sourceId": "screen04-batch-production",
+            "locator": "Series story / Omega",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:asajj-ventress",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "asajj-ventress",
+        "title": "Asajj Ventress",
+        "year": null,
+        "era": "Across eras",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A warrior introduced in the 2003 micro-series and reinterpreted in later Star Wars animation.",
+        "evidence": [
+          {
+            "sourceId": "screen04-micro-production",
+            "locator": "Story / Asajj Ventress",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "starships:ghost",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "ghost",
+        "title": "Ghost",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Hera Syndulla’s modified freighter, used as a mobile base by the rebels of Lothal.",
+        "evidence": [
+          {
+            "sourceId": "screen04-ghost",
+            "locator": "Profile / freighter and rebel base",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "starships:marauder",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "marauder",
+        "title": "Marauder",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Clone Force 99’s modified shuttle, used for transport and combat across the galaxy.",
+        "evidence": [
+          {
+            "sourceId": "screen04-marauder",
+            "locator": "Profile / shuttle and gunship",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "starships:razor-crest-original",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "razor-crest-original",
+        "title": "Razor Crest (original ship)",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Din Djarin’s worn transport and home during his early travels with Grogu; a different vessel from the later New Republic gift.",
+        "evidence": [
+          {
+            "sourceId": "screen04-mando-production",
+            "locator": "Vehicles / original Razor Crest",
+            "note": ""
+          },
+          {
+            "sourceId": "film03-mando-razor",
+            "locator": "Opening / original destroyed ship versus replacement",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "planets:lothal",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "lothal",
+        "title": "Lothal",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An agricultural and industrial world whose people face occupation by the Empire.",
+        "evidence": [
+          {
+            "sourceId": "screen04-lothal",
+            "locator": "Profile / farmland and Imperial factories",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "planets:nevarro",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "nevarro",
+        "title": "Nevarro",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A volcanic world that becomes a meeting point for bounty hunters, Mandalorians and Imperial remnants.",
+        "evidence": [
+          {
+            "sourceId": "screen04-nevarro",
+            "locator": "Profile / black sands, lava and factions",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "planets:pabu",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "pabu",
+        "title": "Pabu",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A remote island refuge that offers Omega and Clone Force 99 a possible home.",
+        "evidence": [
+          {
+            "sourceId": "screen04-pabu",
+            "locator": "Profile / island village and sanctuary",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "vehicles:at-dp",
+      "primary": false,
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "at-dp-walker",
+        "title": "AT-DP walker",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An Imperial patrol walker used against Lothal’s farmers and rebel fighters.",
+        "evidence": [
+          {
+            "sourceId": "screen04-at-dp",
+            "locator": "Profile / patrols and Lothal",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "vehicles:at-st-raider",
+      "primary": false,
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "at-st-raider",
+        "title": "AT-ST Raider",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A salvaged Imperial walker rebuilt by raiders during the early New Republic era.",
+        "evidence": [
+          {
+            "sourceId": "screen04-mando-production",
+            "locator": "Vehicles / repurposed AT-ST Raider",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected series connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "films:3",
+      "primary": true,
+      "summary": {
+        "text": "Luke and his friends attempt to rescue Han before joining the attack on a second Death Star. On Endor and aboard the battle station, the struggle for the Rebellion becomes inseparable from Luke’s hopes for his father.",
+        "evidence": [
+          {
+            "sourceId": "screen04-jedi-film",
+            "locator": "Story / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "screenplay",
+          "value": "Lawrence Kasdan, George Lucas",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Writers / screenplay",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "story",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Writers / Story",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "John Williams",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Music / composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "cinematography",
+          "value": "Alan Hume",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Photography / director of photography",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "editing",
+          "value": "Sean Barton, Marcia Lucas, Duwayne Dunham",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Film editors",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episode_id",
+          "value": "6",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "History / Episode VI heading",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Original trilogy",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "History / third Star Wars film",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original film details",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Traditional receding opening crawl.",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-opening",
+              "locator": "Official opening description",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_video_url",
+          "value": "https://www.starwars.com/video/star-wars-episode-vi-return-of-the-jedi-opening-crawl",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-opening",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Richard Marquand",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Director / Richard Marquand",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Howard Kazanjian",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Producer / Howard Kazanjian",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Executive producer / George Lucas",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lawrence Kasdan",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Screenwriter / Lawrence Kasdan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Screenwriter / George Lucas",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Story",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Story / George Lucas",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Alan Hume",
+          "role": "Director of photography",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Director of photography / Alan Hume",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Sean Barton",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Editor / Sean Barton",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Marcia Lucas",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Editor / Marcia Lucas",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Duwayne Dunham",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Editor / Duwayne Dunham",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Composer / John Williams",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Mark Hamill",
+          "role": "Actor",
+          "characterName": "Luke Skywalker",
+          "characterRecordId": "people:1",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Mark Hamill as Luke Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Harrison Ford",
+          "role": "Actor",
+          "characterName": "Han Solo",
+          "characterRecordId": "people:14",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Harrison Ford as Han Solo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Fisher",
+          "role": "Actor",
+          "characterName": "Leia Organa",
+          "characterRecordId": "people:5",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Carrie Fisher as Leia Organa",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Billy Dee Williams",
+          "role": "Actor",
+          "characterName": "Lando Calrissian",
+          "characterRecordId": "people:25",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Billy Dee Williams as Lando Calrissian",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Anthony Daniels",
+          "role": "Actor",
+          "characterName": "C-3PO",
+          "characterRecordId": "people:2",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Anthony Daniels as C-3PO",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Peter Mayhew",
+          "role": "Actor",
+          "characterName": "Chewbacca",
+          "characterRecordId": "people:13",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Peter Mayhew as Chewbacca",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Sebastian Shaw",
+          "role": "Actor",
+          "characterName": "Anakin Skywalker",
+          "characterRecordId": "people:11",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Sebastian Shaw as Anakin Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ian McDiarmid",
+          "role": "Actor",
+          "characterName": "Emperor Palpatine",
+          "characterRecordId": "people:21",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Ian McDiarmid as Emperor Palpatine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Frank Oz",
+          "role": "Puppet performer",
+          "characterName": "Yoda",
+          "characterRecordId": "people:20",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Frank Oz as Yoda",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "James Earl Jones",
+          "role": "Voice performer",
+          "characterName": "Darth Vader",
+          "characterRecordId": "people:4",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / James Earl Jones as Darth Vader",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David Prowse",
+          "role": "Physical performance",
+          "characterName": "Darth Vader",
+          "characterRecordId": "people:4",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / David Prowse as Darth Vader",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Alec Guinness",
+          "role": "Actor",
+          "characterName": "Obi-Wan Kenobi",
+          "characterRecordId": "people:10",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Alec Guinness as Obi-Wan Kenobi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kenny Baker",
+          "role": "Actor",
+          "characterName": "R2-D2",
+          "characterRecordId": "people:3",
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Kenny Baker as R2-D2",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Warwick Davis",
+          "role": "Actor",
+          "characterName": "Wicket",
+          "characterRecordId": null,
+          "scope": "Original film production (1983)",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Warwick Davis as Wicket",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Luke Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:14",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Han Solo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:5",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Leia Organa",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:25",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Lando Calrissian",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:2",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / C-3PO",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:13",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Chewbacca",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:11",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Anakin Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:21",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Emperor Palpatine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:20",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Yoda",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:4",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / Darth Vader",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:3",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-afi",
+              "locator": "Original cast / R2-D2",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-film",
+              "locator": "Story / Databank / Tatooine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:7",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-film",
+              "locator": "Story / Databank / Endor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-film",
+              "locator": "Story / Databank / Millennium Falcon",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:19",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-film",
+              "locator": "Story / Databank / AT-ST Walker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:30",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-jedi-film",
+              "locator": "Story / Databank / Speeder Bike",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Review 04: selected production facts, scoped credits, connections and cinema/TV/streaming releases.",
+        "limitations": [
+          "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+          "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+          "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+          "The five previously checked original-release/director/producer fields and 1997 history retain their earlier citations. 2023/2024 screenings do not identify a particular supplied master. Later home-video changes are outside the date scope."
+        ]
+      }
+    },
+    {
+      "id": "series:clone-wars-micro",
+      "primary": true,
+      "summary": {
+        "text": "Anakin, Obi-Wan and the Jedi wage a fast-moving series of campaigns between Attack of the Clones and Revenge of the Sith. This stylized 2D interpretation introduces threats and battles that belong to the earlier continuity.",
+        "evidence": [
+          {
+            "sourceId": "screen04-micro-production",
+            "locator": "Story / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "Genndy Tartakovsky",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "25 shorts directed by Tartakovsky",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Geraldine Symon",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Genndy Tartakovsky, Claudia Katz, Brian A. Miller, George Lucas",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "3 original TV seasons",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Three seasons",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episodes",
+          "value": "25 original chapters",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "25 episodic shorts",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2003–2005",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Television run",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2003-11-07",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-premiere",
+              "locator": "US Cartoon Network / 7 November 2003",
+              "note": ""
+            },
+            {
+              "sourceId": "screen04-micro-chapter1",
+              "locator": "Chapter 1 / release date, United States",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US Cartoon Network TV premiere; Disney+ grouped the series as Volumes 1 and 2 in 2021.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-vintage",
+              "locator": "Vintage Collection / 2D Micro-Series Volumes 1 and 2",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "2D animated micro-series",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Production overview",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Genndy Tartakovsky",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Director / Genndy Tartakovsky",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Genndy Tartakovsky",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Executive producer / Genndy Tartakovsky",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Claudia Katz",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Executive producer / Claudia Katz",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Brian A. Miller",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Executive producer / Brian A. Miller",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Executive producer / George Lucas",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jennifer Pelphrey",
+          "role": "Supervising producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Supervising producer / Jennifer Pelphrey",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Geraldine Symon",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Producer / Geraldine Symon",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "James Arnold Taylor",
+          "role": "Voice performer",
+          "characterName": "Obi-Wan Kenobi",
+          "characterRecordId": "people:10",
+          "scope": "Original English-language 2003 micro-series; appearances vary by chapter",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Voice performers / Obi-Wan Kenobi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tom Kane",
+          "role": "Voice performer",
+          "characterName": "Yoda",
+          "characterRecordId": "people:20",
+          "scope": "Original English-language 2003 micro-series; appearances vary by chapter",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Voice performers / Yoda",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Terrence “T.C.” Carson",
+          "role": "Voice performer",
+          "characterName": "Mace Windu",
+          "characterRecordId": "people:51",
+          "scope": "Original English-language 2003 micro-series; appearances vary by chapter",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Voice performers / Mace Windu",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Anthony Daniels",
+          "role": "Voice performer",
+          "characterName": "C-3PO",
+          "characterRecordId": "people:2",
+          "scope": "Original English-language 2003 micro-series; appearances vary by chapter",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Voice performers / C-3PO",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:11",
+          "relation": "features",
+          "note": "2003 micro-series interpretation; this link does not establish the events in current canon.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Story / Anakin Skywalker",
+              "note": "2003 micro-series interpretation; this link does not establish the events in current canon."
+            }
+          ]
+        },
+        {
+          "targetId": "people:10",
+          "relation": "features",
+          "note": "2003 micro-series interpretation; this link does not establish the events in current canon.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Story / Obi-Wan Kenobi",
+              "note": "2003 micro-series interpretation; this link does not establish the events in current canon."
+            }
+          ]
+        },
+        {
+          "targetId": "people:35",
+          "relation": "features",
+          "note": "2003 micro-series interpretation; this link does not establish the events in current canon.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Story / Padmé Amidala",
+              "note": "2003 micro-series interpretation; this link does not establish the events in current canon."
+            }
+          ]
+        },
+        {
+          "targetId": "people:3",
+          "relation": "features",
+          "note": "2003 micro-series interpretation; this link does not establish the events in current canon.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Story / R2-D2",
+              "note": "2003 micro-series interpretation; this link does not establish the events in current canon."
+            }
+          ]
+        },
+        {
+          "targetId": "people:2",
+          "relation": "features",
+          "note": "2003 micro-series interpretation; this link does not establish the events in current canon.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Story / C-3PO",
+              "note": "2003 micro-series interpretation; this link does not establish the events in current canon."
+            }
+          ]
+        },
+        {
+          "targetId": "people:79",
+          "relation": "features",
+          "note": "2003 micro-series interpretation; this link does not establish the events in current canon.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Story / General Grievous",
+              "note": "2003 micro-series interpretation; this link does not establish the events in current canon."
+            }
+          ]
+        },
+        {
+          "targetId": "people:asajj-ventress",
+          "relation": "features",
+          "note": "2003 micro-series interpretation; this link does not establish the events in current canon.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Story / Asajj Ventress",
+              "note": "2003 micro-series interpretation; this link does not establish the events in current canon."
+            }
+          ]
+        },
+        {
+          "targetId": "people:20",
+          "relation": "features",
+          "note": "2003 micro-series interpretation.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Voice performers / Yoda",
+              "note": "2003 micro-series interpretation."
+            }
+          ]
+        },
+        {
+          "targetId": "people:51",
+          "relation": "features",
+          "note": "2003 micro-series interpretation.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-production",
+              "locator": "Voice performers / Mace Windu",
+              "note": "2003 micro-series interpretation."
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Review 04: selected production facts, scoped credits, connections and cinema/TV/streaming releases.",
+        "limitations": [
+          "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+          "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+          "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+          "25 chapters in three original seasons must not be confused with two streaming volumes, the 2008 film or the 2008 CGI series. Detailed writing/music roles and chapter-specific vehicles/worlds still need individual evidence."
+        ]
+      }
+    },
+    {
+      "id": "series:rebels",
+      "primary": true,
+      "summary": {
+        "text": "On occupied Lothal, the crew of the Ghost turns local resistance into a wider rebellion. Ezra’s arrival draws a small found family into conflicts that reach far beyond their homeworld.",
+        "evidence": [
+          {
+            "sourceId": "screen04-rebels-production",
+            "locator": "Story / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "creator",
+          "value": "Dave Filoni, Simon Kinberg, Carrie Beck",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Created by",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Dave Filoni, Simon Kinberg, Greg Weisman (launch production)",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Launch-era executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "supervising_writer",
+          "value": "Henry Gilroy (Season 2)",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-writer",
+              "locator": "Season 2 production team",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Kevin Kiner",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-music",
+              "locator": "Composer interview",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "4",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-seasons",
+              "locator": "Four-season retrospective",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2014–2018",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-finale",
+              "locator": "Premiere history and final schedule",
+              "note": ""
+            },
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "2014 launch schedule",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2014-09-26",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-streaming-update",
+              "locator": "Revised authenticated streaming premiere",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US WATCH Disney XD premiere of Spark of Rebellion; Disney Channel TV: 3 October 2014; weekly Disney XD series: 13 October.",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-streaming-update",
+              "locator": "26 September update / subsequent TV dates",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Animated series",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Lucasfilm Animation series",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Dave Filoni",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Creator / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Simon Kinberg",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Creator / Simon Kinberg",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Beck",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Creator / Carrie Beck",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Launch-era production; not every season",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Executive producer / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Simon Kinberg",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Launch-era production; not every season",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Executive producer / Simon Kinberg",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Greg Weisman",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Launch-era production; not every season",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Executive producer / Greg Weisman",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Henry Gilroy",
+          "role": "Supervising writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-writer",
+              "locator": "Supervising writer / Henry Gilroy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Henry Gilroy",
+          "role": "Co-executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-writer",
+              "locator": "Co-executive producer / Henry Gilroy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kevin Kiner",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-music",
+              "locator": "Composer / Kevin Kiner",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Freddie Prinze Jr.",
+          "role": "Voice performer",
+          "characterName": "Kanan Jarrus",
+          "characterRecordId": "people:kanan-jarrus",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Voice cast / Freddie Prinze Jr. as Kanan Jarrus",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Vanessa Marshall",
+          "role": "Voice performer",
+          "characterName": "Hera Syndulla",
+          "characterRecordId": "people:hera-syndulla",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Voice cast / Vanessa Marshall as Hera Syndulla",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Steve Blum",
+          "role": "Voice performer",
+          "characterName": "Zeb Orrelios",
+          "characterRecordId": "people:zeb-orrelios",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Voice cast / Steve Blum as Zeb Orrelios",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tiya Sircar",
+          "role": "Voice performer",
+          "characterName": "Sabine Wren",
+          "characterRecordId": "people:sabine-wren",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Voice cast / Tiya Sircar as Sabine Wren",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Taylor Gray",
+          "role": "Voice performer",
+          "characterName": "Ezra Bridger",
+          "characterRecordId": "people:ezra-bridger",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Voice cast / Taylor Gray as Ezra Bridger",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David Oyelowo",
+          "role": "Voice performer",
+          "characterName": "Agent Kallus",
+          "characterRecordId": null,
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Voice cast / David Oyelowo as Agent Kallus",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jason Isaacs",
+          "role": "Voice performer",
+          "characterName": "The Grand Inquisitor",
+          "characterRecordId": null,
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Voice cast / Jason Isaacs as The Grand Inquisitor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Voice performer",
+          "characterName": "Chopper",
+          "characterRecordId": "people:chopper",
+          "scope": "Original English-language series; selected recurring role",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-chopper-voice",
+              "locator": "Chopper entry / sounds performed by Filoni",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:kanan-jarrus",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Ghost crew / Kanan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:hera-syndulla",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Ghost crew / Hera",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:zeb-orrelios",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Ghost crew / Zeb",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:sabine-wren",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Ghost crew / Sabine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ezra-bridger",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Ghost crew / Ezra",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:chopper",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Ghost crew / Chopper",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:ghost",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-ghost",
+              "locator": "Appearances / Rebels",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:lothal",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-lothal",
+              "locator": "Appearances / Rebels",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:at-dp",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-at-dp",
+              "locator": "Appearances / Rebels",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:4",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-abc",
+              "locator": "Added Vader opening scene",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ahsoka-tano",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-seasons",
+              "locator": "Season 2 / Ahsoka",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:captain-rex",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-seasons",
+              "locator": "Kanan and Rex",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:44",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-seasons",
+              "locator": "Twin Suns / Maul",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:3",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-seasons",
+              "locator": "Season 4 / Yavin 4",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Review 04: selected production facts, scoped credits, connections and cinema/TV/streaming releases.",
+        "limitations": [
+          "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+          "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+          "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+          "The launch movie, its two episode parts, later ABC added-scene version, weekly series and bonus shorts are distinguished. A complete episode total is left pending until multi-part counting is explicitly normalized."
+        ]
+      }
+    },
+    {
+      "id": "series:mandalorian",
+      "primary": true,
+      "summary": {
+        "text": "A bounty hunter’s decision to protect Grogu changes his place in the galaxy. Their travels through the early New Republic bring them into conflict with Imperial remnants and into the divided world of the Mandalorians.",
+        "evidence": [
+          {
+            "sourceId": "screen04-mando-series",
+            "locator": "Story / original archive paraphrase",
+            "note": ""
+          },
+          {
+            "sourceId": "screen04-mando-lucasfilm",
+            "locator": "Production story / creator header wording differs from contemporary source",
+            "note": "Open issue: creator-credit wording differs between official pages."
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "creator",
+          "value": "Jon Favreau",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Story / series creator",
+              "note": ""
+            },
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Series created by Jon Favreau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "head_writer",
+          "value": "Jon Favreau (Season 3)",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Showrunner / head writer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Jon Favreau, Dave Filoni, Kathleen Kennedy, Colin Wilson (launch production)",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Behind the scenes / executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Ludwig Göransson (Seasons 1–2); Joseph Shirley (Season 3)",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Season 3 composer Joseph Shirley",
+              "note": ""
+            },
+            {
+              "sourceId": "screen04-mando-music",
+              "locator": "Original score announcement",
+              "note": ""
+            },
+            {
+              "sourceId": "screen04-mando-season2-music",
+              "locator": "Season 2 / returning Göransson score",
+              "note": ""
+            },
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Chapter 16 / original dramatic score / Ludwig Göransson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "3 released seasons reviewed",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Season 3 / eight episodes",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episodes",
+          "value": "24 numbered chapters through Season 3",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-chapter24",
+              "locator": "Chapter 24 / Season 3 finale",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2019–2023 (reviewed television seasons)",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Season 3 launch / March 1, 2023",
+              "note": ""
+            },
+            {
+              "sourceId": "screen04-mando-series",
+              "locator": "2019 premiere",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2019-11-12",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-series",
+              "locator": "Release date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US Disney+ series premiere; later season launches are separate events. The 2026 feature is a separate work.",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-series",
+              "locator": "Series premiere / November 12, 2019",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action series",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Series overview",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Jon Favreau",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Creator / Jon Favreau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Favreau",
+          "role": "Screenwriter / head writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 3 supervisory role; not every episode’s sole writing credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Screenwriter / head writer / Jon Favreau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Favreau",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Launch production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Executive producer / Jon Favreau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Launch production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Executive producer / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Launch production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Executive producer / Kathleen Kennedy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Colin Wilson",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Launch production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Executive producer / Colin Wilson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Series premiere",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Director / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Deborah Chow",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected Season 1 episodes",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Director / Deborah Chow",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rick Famuyiwa",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected Season 1 episodes",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Director / Rick Famuyiwa",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Bryce Dallas Howard",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected Season 1 episodes",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Director / Bryce Dallas Howard",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Taika Waititi",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected Season 1 episodes",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Director / Taika Waititi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rick Famuyiwa",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected Season 3 episodes",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Director / Rick Famuyiwa",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rachel Morrison",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected Season 3 episodes",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Director / Rachel Morrison",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lee Isaac Chung",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected Season 3 episodes",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Director / Lee Isaac Chung",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carl Weathers",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected Season 3 episodes",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Director / Carl Weathers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Peter Ramsey",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected Season 3 episodes",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Director / Peter Ramsey",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Bryce Dallas Howard",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected Season 3 episodes",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Director / Bryce Dallas Howard",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ludwig Göransson",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Seasons 1–2",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season2-music",
+              "locator": "Composer / Ludwig Göransson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Joseph Shirley",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 3",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-season3",
+              "locator": "Composer / Joseph Shirley",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Pedro Pascal",
+          "role": "Actor",
+          "characterName": "Din Djarin",
+          "characterRecordId": "people:din-djarin",
+          "scope": "Original English-language series; selected Season 1 role, appearances vary",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Characters / Pedro Pascal as Din Djarin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gina Carano",
+          "role": "Actor",
+          "characterName": "Cara Dune",
+          "characterRecordId": null,
+          "scope": "Original English-language series; selected Season 1 role, appearances vary",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Characters / Gina Carano as Cara Dune",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carl Weathers",
+          "role": "Actor",
+          "characterName": "Greef Karga",
+          "characterRecordId": null,
+          "scope": "Original English-language series; selected Season 1 role, appearances vary",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Characters / Carl Weathers as Greef Karga",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Giancarlo Esposito",
+          "role": "Actor",
+          "characterName": "Moff Gideon",
+          "characterRecordId": null,
+          "scope": "Original English-language series; selected Season 1 role, appearances vary",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Characters / Giancarlo Esposito as Moff Gideon",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ming-Na Wen",
+          "role": "Actor",
+          "characterName": "Fennec Shand",
+          "characterRecordId": null,
+          "scope": "Original English-language series; selected Season 1 role, appearances vary",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Characters / Ming-Na Wen as Fennec Shand",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Nick Nolte",
+          "role": "Voice performer",
+          "characterName": "Kuiil",
+          "characterRecordId": null,
+          "scope": "Original English-language series; selected Season 1 role, appearances vary",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Characters / Nick Nolte as Kuiil",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Taika Waititi",
+          "role": "Voice performer",
+          "characterName": "IG-11",
+          "characterRecordId": null,
+          "scope": "Original English-language series; selected Season 1 role, appearances vary",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Characters / Taika Waititi as IG-11",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, Chapter 13: The Jedi",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Season 2, Chapter 13: The Jedi / Screenwriter / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Favreau",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, Chapter 16: The Rescue",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Season 2, Chapter 16: The Rescue / Screenwriter / Jon Favreau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Matthew Jensen",
+          "role": "Director of photography",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, Chapter 15: The Believer",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Season 2, Chapter 15: The Believer / Director of photography / Matthew Jensen",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Baz Idoine",
+          "role": "Director of photography",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, Chapter 13: The Jedi",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Season 2, Chapter 13: The Jedi / Director of photography / Baz Idoine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Andrew S. Eisen",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, Chapter 13: The Jedi",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Season 2, Chapter 13: The Jedi / Editor / Andrew S. Eisen",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rosario Dawson",
+          "role": "Actor",
+          "characterName": "Ahsoka Tano",
+          "characterRecordId": "people:ahsoka-tano",
+          "scope": "Selected Season 2 appearances",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Selected Season 2 appearances / Actor / Rosario Dawson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Temuera Morrison",
+          "role": "Actor",
+          "characterName": "Boba Fett",
+          "characterRecordId": "people:22",
+          "scope": "Selected Season 2 appearances",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Selected Season 2 appearances / Actor / Temuera Morrison",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Katee Sackhoff",
+          "role": "Actor",
+          "characterName": "Bo-Katan Kryze",
+          "characterRecordId": null,
+          "scope": "Selected Season 2 appearances",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Selected Season 2 appearances / Actor / Katee Sackhoff",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:din-djarin",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Main character / Pedro Pascal",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:grogu",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-series",
+              "locator": "Series synopsis / Grogu",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:razor-crest-original",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Vehicles / Razor Crest",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:nevarro",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-nevarro",
+              "locator": "Appearances / The Mandalorian",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:at-st-raider",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-production",
+              "locator": "Vehicles / AT-ST Raider",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ahsoka-tano",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Season 2 introduction / Ahsoka Tano",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:22",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Season 2 introduction / Boba Fett",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-mando-emmy",
+              "locator": "Season 2 introduction / Luke Skywalker",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Review 04: selected production facts, scoped credits, connections and cinema/TV/streaming releases.",
+        "limitations": [
+          "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+          "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+          "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+          "Three released TV seasons/Chapters 1–24 are reviewed; the 2026 feature, LEGO retelling, podcast and The Book of Boba Fett are not additional seasons or recut editions. No cancellation or future-season claim is made. Göransson’s and Shirley’s score scopes differ."
+        ]
+      }
+    },
+    {
+      "id": "series:bad-batch",
+      "primary": true,
+      "summary": {
+        "text": "Clone Force 99 rejects the Empire’s demands and tries to build a life beyond military service. With Omega joining their family, the squad’s missions become a struggle to protect one another in a changing galaxy.",
+        "evidence": [
+          {
+            "sourceId": "screen04-batch-production",
+            "locator": "Story / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "creator",
+          "value": "Dave Filoni",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Creator",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "supervising_director",
+          "value": "Brad Rau",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-creators",
+              "locator": "Executive producer / supervising director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "head_writer",
+          "value": "Jennifer Corbett",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-creators",
+              "locator": "Executive producer / head writer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Dave Filoni, Athena Portillo, Carrie Beck, Brad Rau, Jennifer Corbett",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Current production overview / executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Kevin Kiner (selected series score credit)",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-music",
+              "locator": "Kevin Kiner / The Bad Batch",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "3",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-season3",
+              "locator": "Final third season",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2021–2024",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-finale",
+              "locator": "Finale / three years since 2021 debut",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2021-05-04",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-premiere",
+              "locator": "Release-day announcement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US Disney+ series premiere; later seasons and finale are separate events.",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-premiere",
+              "locator": "Aftermath available on Disney+",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Animated series",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Production overview",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Dave Filoni",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Creator / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Production overview / reviewed series roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Executive producer / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Athena Portillo",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Production overview / reviewed series roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Executive producer / Athena Portillo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Beck",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Production overview / reviewed series roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Executive producer / Carrie Beck",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Brad Rau",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Production overview / reviewed series roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Executive producer / Brad Rau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jennifer Corbett",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Production overview / reviewed series roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Executive producer / Jennifer Corbett",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Brad Rau",
+          "role": "Supervising director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-creators",
+              "locator": "Supervising director / Brad Rau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jennifer Corbett",
+          "role": "Head writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-creators",
+              "locator": "Head writer / Jennifer Corbett",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kevin Kiner",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series music credit; not a complete music-team inventory",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-music",
+              "locator": "Composer / Kevin Kiner",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dee Bradley Baker",
+          "role": "Voice performer",
+          "characterName": "Hunter",
+          "characterRecordId": "people:hunter",
+          "scope": "Original English-language series; appearances and survival vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-finale",
+              "locator": "Clone Force 99 voices / Hunter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dee Bradley Baker",
+          "role": "Voice performer",
+          "characterName": "Wrecker",
+          "characterRecordId": "people:wrecker",
+          "scope": "Original English-language series; appearances and survival vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-finale",
+              "locator": "Clone Force 99 voices / Wrecker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dee Bradley Baker",
+          "role": "Voice performer",
+          "characterName": "Tech",
+          "characterRecordId": "people:tech",
+          "scope": "Original English-language series; appearances and survival vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-finale",
+              "locator": "Clone Force 99 voices / Tech",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dee Bradley Baker",
+          "role": "Voice performer",
+          "characterName": "Echo",
+          "characterRecordId": "people:echo",
+          "scope": "Original English-language series; appearances and survival vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-finale",
+              "locator": "Clone Force 99 voices / Echo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dee Bradley Baker",
+          "role": "Voice performer",
+          "characterName": "Crosshair",
+          "characterRecordId": "people:crosshair",
+          "scope": "Original English-language series; appearances and survival vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-finale",
+              "locator": "Clone Force 99 voices / Crosshair",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Michelle Ang",
+          "role": "Voice performer",
+          "characterName": "Omega",
+          "characterRecordId": "people:omega",
+          "scope": "Original English-language series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-finale",
+              "locator": "Omega / Michelle Ang",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:hunter",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-aftermath",
+              "locator": "Databank: Aftermath / Hunter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:wrecker",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-aftermath",
+              "locator": "Databank: Aftermath / Wrecker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:tech",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-aftermath",
+              "locator": "Databank: Aftermath / Tech",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:echo",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-aftermath",
+              "locator": "Databank: Aftermath / Echo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:crosshair",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-aftermath",
+              "locator": "Databank: Aftermath / Crosshair",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:omega",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-aftermath",
+              "locator": "Databank: Aftermath / Omega",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:marauder",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-marauder",
+              "locator": "Appearances / The Bad Batch",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:pabu",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-pabu",
+              "locator": "Appearances / The Bad Batch",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-aftermath",
+              "locator": "Databank: Aftermath / Kamino",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:kanan-jarrus",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-aftermath",
+              "locator": "Databank: Aftermath / Kanan Jarrus (Caleb Dume)",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:53",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-series",
+              "locator": "Series Databank / AT-TE Walker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:9",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-series",
+              "locator": "Series Databank / Coruscant",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:asajj-ventress",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Production still / Asajj Ventress",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:captain-rex",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen04-batch-production",
+              "locator": "Production still / Captain Rex",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Review 04: selected production facts, scoped credits, connections and cinema/TV/streaming releases.",
+        "limitations": [
+          "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+          "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+          "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+          "Supervising director and head writer are not substituted for every episode’s director and writer. Complete episode totals and full composer-team role breakdown remain pending; no 70-episode count is inferred from the 70-minute premiere."
+        ]
+      }
+    }
+  ],
+  "issues": [
+    {
+      "recordId": "films:3",
+      "field": "complete_episode_and_master_inventory",
+      "status": "pending",
+      "note": "Complete episode-level cast/crew/appearance and territory/master audit remains outside this selected batch."
+    },
+    {
+      "recordId": "series:clone-wars-micro",
+      "field": "complete_episode_and_master_inventory",
+      "status": "pending",
+      "note": "Complete episode-level cast/crew/appearance and territory/master audit remains outside this selected batch."
+    },
+    {
+      "recordId": "series:rebels",
+      "field": "complete_episode_and_master_inventory",
+      "status": "pending",
+      "note": "Complete episode-level cast/crew/appearance and territory/master audit remains outside this selected batch."
+    },
+    {
+      "recordId": "series:mandalorian",
+      "field": "complete_episode_and_master_inventory",
+      "status": "pending",
+      "note": "Complete episode-level cast/crew/appearance and territory/master audit remains outside this selected batch."
+    },
+    {
+      "recordId": "series:bad-batch",
+      "field": "complete_episode_and_master_inventory",
+      "status": "pending",
+      "note": "Complete episode-level cast/crew/appearance and territory/master audit remains outside this selected batch."
+    },
+    {
+      "recordId": "series:mandalorian",
+      "field": "creator_credit_wording",
+      "status": "pending",
+      "note": "Contemporary 2019 StarWars.com calls Jon Favreau the series creator; current Lucasfilm overview labels Favreau and Dave Filoni as creators. Field follows the contemporary description; formal on-screen credit-label comparison is still pending."
+    }
+  ]
+}

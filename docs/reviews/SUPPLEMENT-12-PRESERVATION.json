@@ -1,0 +1,110 @@
+{
+  "records": {
+    "before": 449,
+    "after": 462,
+    "added": 13,
+    "missingOrChanged": 0
+  },
+  "sources": {
+    "before": 502,
+    "after": 520,
+    "added": 18,
+    "missingOrChanged": 0
+  },
+  "facts": {
+    "before": 2560,
+    "after": 2573,
+    "added": 13,
+    "missingOrChanged": 0
+  },
+  "links": {
+    "before": 1613,
+    "after": 1642,
+    "added": 29,
+    "missingOrChanged": 0
+  },
+  "record_sources": {
+    "before": 1302,
+    "after": 1368,
+    "added": 66,
+    "missingOrChanged": 0
+  },
+  "contributors": {
+    "before": 307,
+    "after": 307,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "credits": {
+    "before": 576,
+    "after": 576,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "citations": {
+    "before": 2858,
+    "after": 3033,
+    "added": 175,
+    "missingOrChanged": 0
+  },
+  "review_issues": {
+    "before": 42,
+    "after": 42,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "film_editions": {
+    "before": 26,
+    "after": 26,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "release_events": {
+    "before": 82,
+    "after": 82,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "edition_credits": {
+    "before": 10,
+    "after": 10,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episodes": {
+    "before": 151,
+    "after": 151,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_credits": {
+    "before": 65,
+    "after": 65,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_links": {
+    "before": 409,
+    "after": 477,
+    "added": 68,
+    "missingOrChanged": 0
+  },
+  "episode_reviews": {
+    "before": 43,
+    "after": 48,
+    "added": 5,
+    "missingOrChanged": 0
+  },
+  "fact_assessments": {
+    "before": 59,
+    "after": 59,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "citationIdentity": "Prior citation content and multiplicity retained. Only generated numeric surrogate IDs ignored because profile batches run after supplements.",
+  "record_reviews": {
+    "allowedChange": "series:rebels limitations/checked_at only",
+    "newSupportingReviews": 13
+  },
+  "reverseSourceFix": "Supplement work-link sources are now associated with both dossiers, including historical supplements. Associations are provenance only; target facts, profile review status and connection assertions are unchanged."
+}

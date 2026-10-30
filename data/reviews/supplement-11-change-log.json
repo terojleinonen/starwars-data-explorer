@@ -1,0 +1,2190 @@
+[
+  {
+    "recordId": "people:agent-kallus",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:agent-kallus",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Imperial Security Bureau agent",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Caption 13 / Aresko briefs the ISB agent",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 23–24 / confrontation with Zeb",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:cumberlayne-aresko",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:cumberlayne-aresko",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Commandant and Lothal academy instructor",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Caption 3 / full name and local enforcement",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Caption 1 / academy assessment",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:myles-grint",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:myles-grint",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Taskmaster and Lothal academy instructor",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Caption 3 / full name and local enforcement",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Caption 1 / academy assessment",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:cikatro-vizago",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:cikatro-vizago",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Lothal crime lord and Ghost crew contact",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Caption 15 / arms transaction and information",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 1, 18–21 / job and failed handover",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:wullffwarro",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:wullffwarro",
+    "field": "family_connection",
+    "before": null,
+    "after": {
+      "key": "family_connection",
+      "value": "Kitwarr’s father",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 32, 38, 43 / named father, rescue and reunion",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:kitwarr",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:kitwarr",
+    "field": "family_connection",
+    "before": null,
+    "after": {
+      "key": "family_connection",
+      "value": "Wullffwarro’s son",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 32, 41, 43 / identity, escape and reunion",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:maketh-tua",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:maketh-tua",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Imperial minister arranging a deal on Garel",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 2–11 / shuttle journey and translation ruse",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-garel-databank",
+          "locator": "Main profile / named minister and weapons deal",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:amda-wabo",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:amda-wabo",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Weapons seller meeting Minister Tua",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 2, 10–14 / negotiation and cargo",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:rx-24",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:rx-24",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Star commuter shuttle pilot on the Lothal–Garel route",
+      "evidence": [
+        {
+          "sourceId": "supp11-star-commuter-shuttle-databank",
+          "locator": "Main profile and Related RX-24 / route and pilot",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 4–6 / pilot and droid seating order",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:morad-sumar",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:morad-sumar",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Farmer on Lothal",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 6–7, 17–21 / named farmer, demand and rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:supply-master-lyste",
+    "field": "limitations",
+    "before": [
+      "The reviewed gallery identifies him by the early rank Supply Master Lyste. A fuller name, later ranks and other appearances are not established in this review."
+    ],
+    "after": [
+      "The reviewed gallery identifies him by the early rank Supply Master Lyste. A fuller name, later ranks and other appearances are not established in this review."
+    ]
+  },
+  {
+    "recordId": "people:supply-master-lyste",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Imperial supply master targeting local farms",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 7, 17–21 / named officer and farm attack",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:gall-trayvis",
+    "field": "limitations",
+    "before": [
+      "The early broadcast is reviewed as a transmission. Its claim that Luminara is alive is false; it is not adopted as a factual profile statement. Later revelations about Trayvis remain outside this batch."
+    ],
+    "after": [
+      "The early broadcast is reviewed as a transmission. Its claim that Luminara is alive is false; it is not adopted as a factual profile statement. Later revelations about Trayvis remain outside this batch."
+    ]
+  },
+  {
+    "recordId": "people:gall-trayvis",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "HoloNet broadcaster claiming to be in exile",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Caption 4 / interrupted news brief and claim about Luminara",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:zare-leonis",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:zare-leonis",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Undercover cadet searching for Dhara",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 9–15, 27–29 / cooperation, missing sister and decision to stay",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:jai-kell",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:jai-kell",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Academy cadet helped to escape by Ezra",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 3, 16, 18, 22–23 / named cadet, warning and escape",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-ranks-trivia",
+          "locator": "Caption 1 / Jai Kell is one cadet, not separate Jai and Kell characters",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:nazhros-oleg",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:nazhros-oleg",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "Cadet at Lothal’s Imperial Academy",
+      "evidence": [
+        {
+          "sourceId": "supp11-oleg-databank",
+          "locator": "Main profile / full name and academy conduct",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 4, 20, 22–23 / training and escape confrontation",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "planets:kessel",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "planets:kessel",
+    "field": "notable_site",
+    "before": null,
+    "after": {
+      "key": "notable_site",
+      "value": "Spice mines",
+      "evidence": [
+        {
+          "sourceId": "supp11-kessel-databank",
+          "locator": "Main profile / mining world",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 31–43 / spice mines and rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "planets:garel",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "planets:garel",
+    "field": "climate",
+    "before": null,
+    "after": {
+      "key": "climate",
+      "value": "Temperate",
+      "evidence": [
+        {
+          "sourceId": "supp11-garel-databank",
+          "locator": "Main profile and Climate / deal location and temperate climate",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 4, 9–14 / arrival and cargo",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "planets:stygeon-prime",
+    "field": "limitations",
+    "before": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ],
+    "after": [
+      "Only this original short profile, the selected fact and cited Rebels connection are checked. Later story developments, complete biographies, technical specifications and other appearances remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "planets:stygeon-prime",
+    "field": "notable_site",
+    "before": null,
+    "after": {
+      "key": "notable_site",
+      "value": "The Spire prison",
+      "evidence": [
+        {
+          "sourceId": "supp11-stygeon-prime-databank",
+          "locator": "Main profile / world and prison",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 5–12 / prison mission",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "starships:phantom-original",
+    "field": "limitations",
+    "before": [
+      "The original shuttle is distinct from the later Phantom II. No exact model, dimensions, ownership history or complete appearance list is inferred."
+    ],
+    "after": [
+      "The original shuttle is distinct from the later Phantom II. No exact model, dimensions, ownership history or complete appearance list is inferred."
+    ]
+  },
+  {
+    "recordId": "starships:phantom-original",
+    "field": "starship_role",
+    "before": null,
+    "after": {
+      "key": "starship_role",
+      "value": "The Ghost’s original short-range shuttle",
+      "evidence": [
+        {
+          "sourceId": "supp11-the-phantom-databank",
+          "locator": "Main profile / shuttle role",
+          "note": ""
+        },
+        {
+          "sourceId": "screen04-ghost",
+          "locator": "Main profile / original Phantom distinguished from Phantom II",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 6, 9, 20 / prison mission",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 19, 21, 25 / convoy interception",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "starships:ezra-zeb-tie-fighter",
+    "field": "limitations",
+    "before": [
+      "This is the individual fighter stolen in Fighter Flight, not the generic legacy TIE/LN profile. No technical specifications inherited. The crew’s claim that it crashed is not treated as confirmed destruction."
+    ],
+    "after": [
+      "This is the individual fighter stolen in Fighter Flight, not the generic legacy TIE/LN profile. No technical specifications inherited. The crew’s claim that it crashed is not treated as confirmed destruction."
+    ]
+  },
+  {
+    "recordId": "starships:ezra-zeb-tie-fighter",
+    "field": "early_rebels_role",
+    "before": null,
+    "after": {
+      "key": "early_rebels_role",
+      "value": "TIE fighter stolen by Ezra and Zeb in Fighter Flight",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 12–15, 19–22 / theft, rescue and claimed crash",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "starships:star-commuter-shuttle",
+    "field": "limitations",
+    "before": [
+      "This is a craft-type profile with one reviewed Rebels service, not a claim that every later shuttle is this individual ship. Resistance-era history in the source does not establish Rebels appearances by its later passengers."
+    ],
+    "after": [
+      "This is a craft-type profile with one reviewed Rebels service, not a claim that every later shuttle is this individual ship. Resistance-era history in the source does not establish Rebels appearances by its later passengers."
+    ]
+  },
+  {
+    "recordId": "starships:star-commuter-shuttle",
+    "field": "starship_role",
+    "before": null,
+    "after": {
+      "key": "starship_role",
+      "value": "Short-range interplanetary passenger shuttle",
+      "evidence": [
+        {
+          "sourceId": "supp11-star-commuter-shuttle-databank",
+          "locator": "Main profile / transport role and route",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 2–9 / passenger journey",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "vehicles:imperial-troop-transport",
+    "field": "limitations",
+    "before": [
+      "This is the vehicle type, not one individual hull or the separately recorded Multi-Troop Transport. Other variants, dimensions and Mandalorian appearances are outside this batch."
+    ],
+    "after": [
+      "This is the vehicle type, not one individual hull or the separately recorded Multi-Troop Transport. Other variants, dimensions and Mandalorian appearances are outside this batch."
+    ]
+  },
+  {
+    "recordId": "vehicles:imperial-troop-transport",
+    "field": "manufacturer",
+    "before": null,
+    "after": {
+      "key": "manufacturer",
+      "value": "Ubrikkian Industries",
+      "evidence": [
+        {
+          "sourceId": "supp11-imperial-troop-transport-databank",
+          "locator": "Main profile / manufacturer and transport role",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 10, 17–21 / occupation vehicles",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Caption 23 / training and breakout",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "limitations",
+    "before": [
+      "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "Normalized count: 75 numbered parts across four seasons (15/22/22/16), grouped into 66 official guide entries (14/20/19/13). This is an archive counting convention, not a universal count of playable streaming items. The four introductory shorts and the ABC revised pilot are excluded. Individual credits and appearances within combined parts are not inferred.",
+      "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    ],
+    "after": [
+      "The first five season-one guide entries (six numbered parts) have episode reviews against 46 selected profiles using named official text evidence. Omitted connections remain unestablished, not absent. This is not a full scene or cast census; the other 61 guide entries await selected-profile appearance review.",
+      "The combined Spark of Rebellion guide remains one review for parts 1–2. The later ABC Vader opening is excluded from original-pilot connections and remains a distinct documented version. No scene is assigned to an individual pilot part without evidence.",
+      "Obi-Wan’s holocron message, Trayvis’s broadcast and Luminara’s projected bait are transmissions. Luminara’s remains are also shown. Remote contacts followed by physical scenes use a single direct row with context; mentions, aliases and repeated names are not extra characters.",
+      "The original Phantom, later Phantom II, an individual stolen TIE fighter and the generic legacy TIE/LN type are not conflated. Exact unnamed ship models, other scenes, complete credits and technical specifications remain unreviewed.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Normalized count: 75 numbered parts across four seasons (15/22/22/16), grouped into 66 official guide entries (14/20/19/13). This is an archive counting convention, not a universal count of playable streaming items. The four introductory shorts and the ABC revised pilot are excluded. Individual credits and appearances within combined parts are not inferred.",
+      "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    ]
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:ezra-bridger",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 2–12, 25–45 / Ezra joins the crew",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:kanan-jarrus",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 5–12, 33–45 / Kanan and rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:hera-syndulla",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 10–15, 33–43 / Hera pilots the Ghost",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:sabine-wren",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 5–12, 21–24, 33–43 / Sabine",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:zeb-orrelios",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 5–12, 18–20, 33–43 / Zeb",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:chopper",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 21–24 / Chopper disables gravity",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:agent-kallus",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 13, 21–26, 33–42 / pursuit and physical confrontation",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:cumberlayne-aresko",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 3, 13 / occupation and briefing",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:myles-grint",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Caption 3 / local enforcement",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:cikatro-vizago",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Caption 15 / transaction with Kanan and Hera",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:wullffwarro",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 32, 35, 38, 43 / prisoner and rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:kitwarr",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 32, 37, 41, 43 / prisoner and rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "planets:lothal",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 2–15, 44–45 / opening, Tarkintown and return",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "planets:kessel",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 32–43 / prison rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "starships:ghost",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 9–12, 21–24, 31–43 / crew ship and rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:10",
+      "relation": "appearance",
+      "representation": "transmission",
+      "note": "Recorded holocron message played by Ezra and Kanan; no physical Obi-Wan scene.",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Captions 25, 45 / holocron message",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:grand-inquisitor",
+      "relation": "appearance",
+      "representation": "transmission",
+      "note": "Remote contact in the original ending. The gallery’s opening Vader scene belongs to the later ABC version and is excluded here.",
+      "evidence": [
+        {
+          "sourceId": "supp11-spark-of-rebellion-gallery",
+          "locator": "Caption 46 / Kallus reports the Jedi",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:ezra-bridger",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 5, 24 / Ezra’s ruse and intervention",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:kanan-jarrus",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 6, 22, 25 / Kanan and droid return",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:hera-syndulla",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 17, 22 / Hera and rebel operation",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:sabine-wren",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 2, 9–14, 22 / Sabine’s translation ruse",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:zeb-orrelios",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 2, 17, 23–24 / Zeb and confrontation",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:chopper",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Caption 5 / Chopper in the passenger ruse",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:maketh-tua",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 2, 9–14, 17 / minister and negotiations",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:amda-wabo",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 2, 10–14 / seller and cargo",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:rx-24",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 4–6 / shuttle pilot",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:2",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 3, 7–11, 19, 25 / C-3PO and return",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:3",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 3, 14, 22, 25 / R2-D2 and return",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:cikatro-vizago",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 18–21 / weapons handover",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:agent-kallus",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "Earlier remote contacts and a later physical confrontation with Zeb.",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 17, 19, 23–24 / remote calls and later physical duel",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:68",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Caption 25 / Bail receives his droids",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "planets:garel",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 4, 9–14 / destination and cargo theft",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "planets:lothal",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Caption 18 / rendezvous with Vizago",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "starships:ghost",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 15–18, 22 / escape and landing",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "starships:star-commuter-shuttle",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Captions 2–9 / shuttle journey",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "vehicles:at-dp",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-droids-in-distress-gallery",
+          "locator": "Caption 22 / attacking walkers",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:ezra-bridger",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 1–24 / errand, theft and rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:kanan-jarrus",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 2–4, 16 / life aboard the Ghost",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:hera-syndulla",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 5, 16 / sends the pair and receives their call",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:sabine-wren",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 2, 23 / painting and mural",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:zeb-orrelios",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 1–24 / errand, theft and rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:chopper",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 1, 16, 24 / bowl, game and conflict",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:morad-sumar",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 6–7, 17–21 / farm and rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:supply-master-lyste",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 7, 17–21 / land demand and attack",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "planets:lothal",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 6–21 / Lothal market and farms",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "starships:ghost",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 1–5, 16, 23–24 / crew’s home ship",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "starships:ezra-zeb-tie-fighter",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 12–15, 19–22 / stolen fighter and rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "vehicles:imperial-troop-transport",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-fighter-flight-gallery",
+          "locator": "Captions 10, 17–21 / troop transports and farmers",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:ezra-bridger",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 1–3, 6–22 / training and prison mission",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:kanan-jarrus",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 1–22 / training, trap and escape",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:hera-syndulla",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 4, 6, 9, 20 / Phantom pilot",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:sabine-wren",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 4, 6, 8, 15–21 / rescue team",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:zeb-orrelios",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 1–3, 6, 8, 15–21 / training and rescue team",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:chopper",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Caption 6 / remains on the Ghost",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:grand-inquisitor",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 12–21 / physical duel and pursuit",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "planets:lothal",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Caption 22 / return and continued training",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "starships:ghost",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Caption 6 / Chopper stays aboard",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "starships:phantom-original",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 6, 9, 20 / shuttle and escape",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:gall-trayvis",
+      "relation": "appearance",
+      "representation": "transmission",
+      "note": "Broadcast claim that Luminara is alive; the claim proves false.",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Caption 4 / interrupted HoloNet broadcast",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:64",
+      "relation": "appearance",
+      "representation": "transmission",
+      "note": "Recorded hologram used as bait; her physical remains are also revealed. No living rescue or Force-spirit appearance.",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 10–12 / projected image, coffin and trap",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-luminara-unduli-databank",
+          "locator": "Main profile and history / execution and holographic bait",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "planets:stygeon-prime",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-rise-of-the-old-masters-gallery",
+          "locator": "Captions 5–12 / Spire prison mission",
+          "note": ""
+        },
+        {
+          "sourceId": "supp11-stygeon-prime-databank",
+          "locator": "Main profile / Spire on Stygeon Prime",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:ezra-bridger",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 2–29 / undercover academy mission",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:kanan-jarrus",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 7, 19, 21, 25 / Phantom interception",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:hera-syndulla",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 7, 21, 24–25 / Ghost interception",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:sabine-wren",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 17, 26 / escape support",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:zeb-orrelios",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 17, 26 / escape support",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:chopper",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 7–17, 22–23 / undercover droid and escape",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:cumberlayne-aresko",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 1, 16, 27 / training, call and arrival",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:myles-grint",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 1, 27 / training and arrival",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:agent-kallus",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 8–11 / office and decoder theft",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:zare-leonis",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 9–18, 23–29 / decoder, escape and decision to stay",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:jai-kell",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 3, 16, 18, 22–23 / cadet and escape",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:nazhros-oleg",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 4, 20, 22–23 / assessment and walker",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:grand-inquisitor",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "Earlier remote contact followed by physical arrival at the academy.",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 16, 28 / remote call and later physical arrival",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "planets:lothal",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 1–18, 26–29 / academy and return",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "starships:ghost",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 7, 21, 24–25 / convoy interception",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "starships:phantom-original",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 19, 21, 25 / piloted by Kanan",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "vehicles:at-dp",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Captions 20, 23, 26 / training and breakout walkers",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_link",
+    "episodeId": "series:rebels:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "vehicles:imperial-troop-transport",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp11-breaking-ranks-gallery",
+          "locator": "Caption 23 / firing training vehicles",
+          "note": ""
+        }
+      ]
+    }
+  }
+]

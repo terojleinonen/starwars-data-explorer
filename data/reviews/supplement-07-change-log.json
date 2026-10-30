@@ -1,0 +1,2599 @@
+[
+  {
+    "recordId": "planets:mapuzo",
+    "field": "limitations",
+    "before": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ],
+    "after": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "planets:mapuzo",
+    "field": "terrain",
+    "before": null,
+    "after": {
+      "key": "terrain",
+      "value": "Terraced surface mines",
+      "evidence": [
+        {
+          "sourceId": "supp07-mapuzo-official-databank",
+          "locator": "Main Databank profile",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "planets:nur",
+    "field": "limitations",
+    "before": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ],
+    "after": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "planets:nur",
+    "field": "classification",
+    "before": null,
+    "after": {
+      "key": "classification",
+      "value": "Moon",
+      "evidence": [
+        {
+          "sourceId": "supp07-nur-official-databank",
+          "locator": "Main profile: Nur is a watery moon",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "planets:jabiim",
+    "field": "limitations",
+    "before": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ],
+    "after": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "planets:jabiim",
+    "field": "terrain",
+    "before": null,
+    "after": {
+      "key": "terrain",
+      "value": "Mud beneath a hardened crust",
+      "evidence": [
+        {
+          "sourceId": "supp07-jabiim-official-databank",
+          "locator": "Main Databank profile",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "planets:at-achrann",
+    "field": "limitations",
+    "before": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ],
+    "after": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "planets:at-achrann",
+    "field": "classification",
+    "before": null,
+    "after": {
+      "key": "classification",
+      "value": "Planet",
+      "evidence": [
+        {
+          "sourceId": "supp07-at-achrann-official-databank",
+          "locator": "Main Databank profile",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "planets:lanupa",
+    "field": "limitations",
+    "before": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ],
+    "after": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "planets:lanupa",
+    "field": "terrain",
+    "before": null,
+    "after": {
+      "key": "terrain",
+      "value": "Skull Ridge Mountain",
+      "evidence": [
+        {
+          "sourceId": "supp07-lanupa-official-databank",
+          "locator": "Main Databank profile",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "people:ned-b",
+    "field": "limitations",
+    "before": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ],
+    "after": [
+      "Only this short profile and the cited series association have been reviewed; technical specifications and a complete appearance history remain unreviewed."
+    ]
+  },
+  {
+    "recordId": "people:ned-b",
+    "field": "classification",
+    "before": null,
+    "after": {
+      "key": "classification",
+      "value": "Loader droid",
+      "evidence": [
+        {
+          "sourceId": "supp07-ned-b-official-databank",
+          "locator": "Main Databank profile",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "limitations",
+    "before": [
+      "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "All six final episode writing credits are covered, with Story by, Teleplay by and Written by kept separate. This is not the complete end-credit roll. May 26 Pacific and May 27 Eastern describe the same original launch.",
+      "The documentary A Jedi’s Return and unofficial fan-made film edits are separate from this six-part limited series.",
+      "No officially documented alternate cut was identified in the earlier scoped release search; absence of documentation does not prove that no variation exists. Worldwide and Finnish release histories remain incomplete."
+    ],
+    "after": [
+      "All released episodes were reviewed against the selected profile cohort recorded with each episode. This is not a complete cast, location or vehicle inventory; an unlinked profile remains unestablished, not absent.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "All six final episode writing credits are covered, with Story by, Teleplay by and Written by kept separate. This is not the complete end-credit roll. May 26 Pacific and May 27 Eastern describe the same original launch.",
+      "The documentary A Jedi’s Return and unofficial fan-made film edits are separate from this six-part limited series.",
+      "No officially documented alternate cut was identified in the earlier scoped release search; absence of documentation does not prove that no variation exists. Worldwide and Finnish release histories remain incomplete."
+    ]
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": {
+      "id": "series:obi-wan:s1e1:link:0",
+      "episode_id": "series:obi-wan:s1e1",
+      "target_id": "people:10",
+      "relation": "appearance",
+      "note": "",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "people:10",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Story Gallery: Kenobi working and visiting Owen",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:1",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Story Gallery: Luke at the Lars homestead",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": {
+      "id": "series:obi-wan:s1e1:link:2",
+      "episode_id": "series:obi-wan:s1e1",
+      "target_id": "people:6",
+      "relation": "appearance",
+      "note": "",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "people:6",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Story Gallery: Owen confronts Kenobi",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": {
+      "id": "series:obi-wan:s1e1:link:1",
+      "episode_id": "series:obi-wan:s1e1",
+      "target_id": "people:5",
+      "relation": "appearance",
+      "note": "",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "people:5",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Story Gallery: Leia on Alderaan and her abduction",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:68",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Story Gallery: Bail visits Kenobi on Tatooine",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:reva",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Story Gallery: Inquisitors on Tatooine",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:grand-inquisitor",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Story Gallery: Inquisitors questioning the town",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": {
+      "id": "series:obi-wan:s1e1:link:3",
+      "episode_id": "series:obi-wan:s1e1",
+      "target_id": "planets:1",
+      "relation": "setting",
+      "note": "",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "planets:1",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Story Gallery: Tatooine scenes",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": {
+      "id": "series:obi-wan:s1e1:link:4",
+      "episode_id": "series:obi-wan:s1e1",
+      "target_id": "planets:2",
+      "relation": "setting",
+      "note": "",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "planets:2",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Story Gallery: Alderaan palace scenes",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:2",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Trivia: C-3PO at the reception; R2-D2 seen afterward",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "people:3",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Trivia: C-3PO at the reception; R2-D2 seen afterward",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "planets:9",
+      "relation": "setting",
+      "representation": "flashback",
+      "note": "Opening Order 66 sequence.",
+      "evidence": [
+        {
+          "sourceId": "supp06-obi-part1",
+          "locator": "Story Gallery: Order 66 opening at the Jedi Temple",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:10",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part2",
+          "locator": "Story Gallery: Kenobi searches for Leia",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:5",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part2",
+          "locator": "Story Gallery: Leia’s rescue",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:haja-estree",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part2",
+          "locator": "Story Gallery: Haja assists their escape",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:reva",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part2",
+          "locator": "Story Gallery: Reva pursues Kenobi",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:grand-inquisitor",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part2",
+          "locator": "Story Gallery: Reva attacks the Grand Inquisitor",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:4",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part2",
+          "locator": "Story Gallery: Final bacta-tank scene",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "planets:daiyu",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part2",
+          "locator": "Story Gallery: Rescue and pursuit on Daiyu",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:10",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iii-guide",
+          "locator": "Story Gallery: Obi-Wan and Leia meet Tala",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:5",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iii-guide",
+          "locator": "Story Gallery: Leia travels with Obi-Wan",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:4",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iii-guide",
+          "locator": "Story Gallery: Vader confronts Obi-Wan",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:reva",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iii-guide",
+          "locator": "Story Gallery: Reva pursues Leia through the passage",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:tala-durith",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iii-guide",
+          "locator": "Story Gallery: Tala rescues the fugitives",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:ned-b",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iii-guide",
+          "locator": "Story Gallery: NED-B helps rescue Obi-Wan",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "planets:mapuzo",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iii-guide",
+          "locator": "Story Gallery: Safehouse and pursuit on Mapuzo",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "planets:13",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iii-guide",
+          "locator": "Story Gallery: Vader issues orders on Mustafar",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:10",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iv-guide",
+          "locator": "Story Gallery: Kenobi infiltrates the fortress",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:5",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iv-guide",
+          "locator": "Story Gallery: Leia interrogated and rescued",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:reva",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iv-guide",
+          "locator": "Story Gallery: Reva interrogates Leia",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:4",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iv-guide",
+          "locator": "Story Gallery: Vader confronts Reva",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:tala-durith",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iv-guide",
+          "locator": "Story Gallery: Tala assists infiltration and escape",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "planets:jabiim",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iv-guide",
+          "locator": "Story Gallery: Kenobi’s recovery and the escape refuge",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "planets:nur",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-iv-guide",
+          "locator": "Story Gallery: Fortress Inquisitorius rescue",
+          "note": ""
+        },
+        {
+          "sourceId": "supp07-nur-official-databank",
+          "locator": "Main profile: fortress on Nur",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:10",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-v-guide",
+          "locator": "Story Gallery: Kenobi negotiates and escapes",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:5",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-v-guide",
+          "locator": "Story Gallery: Leia helps open the hangar",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:4",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-v-guide",
+          "locator": "Story Gallery: Vader assaults the refuge",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:reva",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-v-guide",
+          "locator": "Story Gallery: Reva attacks Vader",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:grand-inquisitor",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-v-guide",
+          "locator": "Story Gallery: Grand Inquisitor returns",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:tala-durith",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-v-guide",
+          "locator": "Story Gallery: Tala’s last stand",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:ned-b",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-v-guide",
+          "locator": "Story Gallery: NED-B protects Tala",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "planets:jabiim",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-v-guide",
+          "locator": "Story Gallery: Hidden Path refuge siege",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:11",
+      "relation": "appearance",
+      "representation": "flashback",
+      "note": "Training duel in an earlier period.",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-v-guide",
+          "locator": "Story Gallery: Anakin and Obi-Wan’s earlier training duel",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:68",
+      "relation": "appearance",
+      "representation": "transmission",
+      "note": "Recorded message; not physically at the refuge.",
+      "evidence": [
+        {
+          "sourceId": "supp07-obi-wan-kenobi-part-v-guide",
+          "locator": "Story Gallery: Bail’s recorded message",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:10",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Kenobi confronts Vader and later visits the Organas",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:5",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Leia returns to Alderaan",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:4",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Final duel with Kenobi",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:reva",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Reva pursues Luke",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:6",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Owen defends the homestead",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:7",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Beru defends the homestead",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:1",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Luke escapes Reva and meets Ben",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:68",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Organa family on Alderaan",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:haja-estree",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Haja accompanies the fugitives",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "planets:1",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Reva and the Lars family; Kenobi’s departure",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "planets:2",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Leia returns home",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:21",
+      "relation": "appearance",
+      "representation": "transmission",
+      "note": "Remote conversation with Vader.",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Vader contacts the Emperor",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_link",
+    "episodeId": "series:obi-wan:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:32",
+      "relation": "appearance",
+      "representation": "force_spirit",
+      "note": "Appears to Kenobi as a Force spirit.",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-part6",
+          "locator": "Story Gallery: Qui-Gon greets Kenobi",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "limitations",
+    "before": [
+      "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "Released season 1 only. WGA staff writers are not automatically credited with writing an episode. Episodes 5–6 are written by Myung Joh Wesner; the other six are the Ford & Watts team.",
+      "No future renewal or cancellation claim is made. The December 2 cinema screenings covered episodes 1–2, not a separate film.",
+      "No officially documented alternate cut was identified in the earlier scoped release search; absence of documentation does not prove that no variation exists. Worldwide and Finnish release histories remain incomplete."
+    ],
+    "after": [
+      "All released episodes were reviewed against the selected profile cohort recorded with each episode. This is not a complete cast, location or vehicle inventory; an unlinked profile remains unestablished, not absent.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "Released season 1 only. WGA staff writers are not automatically credited with writing an episode. Episodes 5–6 are written by Myung Joh Wesner; the other six are the Ford & Watts team.",
+      "No future renewal or cancellation claim is made. The December 2 cinema screenings covered episodes 1–2, not a separate film.",
+      "No officially documented alternate cut was identified in the earlier scoped release search; absence of documentation does not prove that no variation exists. Worldwide and Finnish release histories remain incomplete."
+    ]
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e1",
+    "before": {
+      "id": "series:skeleton-crew:s1e1:link:0",
+      "episode_id": "series:skeleton-crew:s1e1",
+      "target_id": "people:wim",
+      "relation": "appearance",
+      "note": "",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "people:wim",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 1: schoolchildren discover and board the buried ship",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e1",
+    "before": {
+      "id": "series:skeleton-crew:s1e1:link:1",
+      "episode_id": "series:skeleton-crew:s1e1",
+      "target_id": "people:neel",
+      "relation": "appearance",
+      "note": "",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "people:neel",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 1: schoolchildren discover and board the buried ship",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e1",
+    "before": {
+      "id": "series:skeleton-crew:s1e1:link:2",
+      "episode_id": "series:skeleton-crew:s1e1",
+      "target_id": "people:fern",
+      "relation": "appearance",
+      "note": "",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "people:fern",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 1: schoolchildren discover and board the buried ship",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e1",
+    "before": {
+      "id": "series:skeleton-crew:s1e1:link:3",
+      "episode_id": "series:skeleton-crew:s1e1",
+      "target_id": "people:kb",
+      "relation": "appearance",
+      "note": "",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "people:kb",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 1: schoolchildren discover and board the buried ship",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e1",
+    "before": null,
+    "after": {
+      "targetId": "starships:onyx-cinder",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 1: discovery and departure aboard the Onyx Cinder",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e1",
+    "before": {
+      "id": "series:skeleton-crew:s1e1:link:4",
+      "episode_id": "series:skeleton-crew:s1e1",
+      "target_id": "planets:at-attin",
+      "relation": "setting",
+      "note": "",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "planets:at-attin",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 1: scenes on At Attin",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e1",
+    "before": {
+      "id": "series:skeleton-crew:s1e1:link:5",
+      "episode_id": "series:skeleton-crew:s1e1",
+      "target_id": "vehicles:fern-kb-hoverbike",
+      "relation": "appearance",
+      "note": "Vehicle appearance; not a spacecraft.",
+      "representation": "unspecified"
+    },
+    "after": {
+      "targetId": "vehicles:fern-kb-hoverbike",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "Vehicle appearance; not a spacecraft.",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 1: Fern and KB’s hoverbike",
+          "note": ""
+        },
+        {
+          "sourceId": "supp06-skeleton-ep1",
+          "locator": "Story synopsis: Fern and KB working on their hoverbike",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:wim",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 2: children in the pirate port",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:neel",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 2: children in the pirate port",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:fern",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 2: children in the pirate port",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:kb",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 2: children in the pirate port",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:jod-na-nawood",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 2: Jod meets the children in a cell",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "people:sm-33",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 2: SM-33 protects the children at the port",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "starships:onyx-cinder",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 2: the group travels or escapes aboard the Onyx Cinder",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e2",
+    "before": null,
+    "after": {
+      "targetId": "planets:at-attin",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-1-2-official-highlights",
+          "locator": "Episode 2: parents’ scenes on At Attin",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:wim",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-3-official-highlights",
+          "locator": "Episode 3: escape and visit to the observatory",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:neel",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-3-official-highlights",
+          "locator": "Episode 3: escape and visit to the observatory",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:fern",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-3-official-highlights",
+          "locator": "Episode 3: escape and visit to the observatory",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:kb",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-3-official-highlights",
+          "locator": "Episode 3: escape and visit to the observatory",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:jod-na-nawood",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-3-official-highlights",
+          "locator": "Episode 3: Jod helps the group escape",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "people:sm-33",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-3-official-highlights",
+          "locator": "Episode 3: SM-33 flies with the group",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "starships:onyx-cinder",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-3-official-highlights",
+          "locator": "Episode 3: the group travels or escapes aboard the Onyx Cinder",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e3",
+    "before": null,
+    "after": {
+      "targetId": "planets:at-attin",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-3-official-highlights",
+          "locator": "Episode 3: parents’ scenes on At Attin",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:wim",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-4-official-highlights",
+          "locator": "Episode 4: children encounter the warring clans",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:neel",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-4-official-highlights",
+          "locator": "Episode 4: children encounter the warring clans",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:fern",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-4-official-highlights",
+          "locator": "Episode 4: children encounter the warring clans",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:kb",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-4-official-highlights",
+          "locator": "Episode 4: children encounter the warring clans",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:jod-na-nawood",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-4-official-highlights",
+          "locator": "Episode 4: Jod assists Neel and stops SM-33",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "people:sm-33",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-4-official-highlights",
+          "locator": "Episode 4: SM-33 recalls his former captain’s orders",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "starships:onyx-cinder",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-4-official-highlights",
+          "locator": "Episode 4: the group travels or escapes aboard the Onyx Cinder",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e4",
+    "before": null,
+    "after": {
+      "targetId": "planets:at-achrann",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-4-official-highlights",
+          "locator": "Episode 4: children visit At Achrann",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:wim",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-5-official-highlights",
+          "locator": "Episode 5: spa and pirate lair",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:neel",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-5-official-highlights",
+          "locator": "Episode 5: spa and pirate lair",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:fern",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-5-official-highlights",
+          "locator": "Episode 5: spa and pirate lair",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:kb",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-5-official-highlights",
+          "locator": "Episode 5: spa and pirate lair",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:jod-na-nawood",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-5-official-highlights",
+          "locator": "Episode 5: Jod betrays the children in the lair",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "people:sm-33",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-5-official-highlights",
+          "locator": "Episode 5: SM-33 is restrained at the spa, then follows Jod’s order",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "starships:onyx-cinder",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-5-official-highlights",
+          "locator": "Episode 5: the group travels or escapes aboard the Onyx Cinder",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e5",
+    "before": null,
+    "after": {
+      "targetId": "planets:lanupa",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-5-official-highlights",
+          "locator": "Episode 5: Lanupa spa and mountain lair",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:wim",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-6-official-highlights",
+          "locator": "Episode 6: split groups reunite and escape Lanupa",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:neel",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-6-official-highlights",
+          "locator": "Episode 6: split groups reunite and escape Lanupa",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:fern",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-6-official-highlights",
+          "locator": "Episode 6: split groups reunite and escape Lanupa",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:kb",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-6-official-highlights",
+          "locator": "Episode 6: split groups reunite and escape Lanupa",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "people:jod-na-nawood",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-6-official-highlights",
+          "locator": "Episode 6: Jod is put on trial by Brutus",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "starships:onyx-cinder",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-6-official-highlights",
+          "locator": "Episode 6: the group travels or escapes aboard the Onyx Cinder",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e6",
+    "before": null,
+    "after": {
+      "targetId": "planets:lanupa",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-6-official-highlights",
+          "locator": "Episode 6: escape from Lanupa",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e7",
+    "before": null,
+    "after": {
+      "targetId": "people:wim",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-7-official-highlights",
+          "locator": "Episode 7: escape aboard the Onyx Cinder and return home",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e7",
+    "before": null,
+    "after": {
+      "targetId": "people:neel",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-7-official-highlights",
+          "locator": "Episode 7: escape aboard the Onyx Cinder and return home",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e7",
+    "before": null,
+    "after": {
+      "targetId": "people:fern",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-7-official-highlights",
+          "locator": "Episode 7: escape aboard the Onyx Cinder and return home",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e7",
+    "before": null,
+    "after": {
+      "targetId": "people:kb",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-7-official-highlights",
+          "locator": "Episode 7: escape aboard the Onyx Cinder and return home",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e7",
+    "before": null,
+    "after": {
+      "targetId": "people:jod-na-nawood",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-7-official-highlights",
+          "locator": "Episode 7: Jod seizes the Onyx Cinder and reaches At Attin",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e7",
+    "before": null,
+    "after": {
+      "targetId": "people:sm-33",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-7-official-highlights",
+          "locator": "Episode 7: SM-33 helps the escape before being decapitated",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e7",
+    "before": null,
+    "after": {
+      "targetId": "starships:onyx-cinder",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-7-official-highlights",
+          "locator": "Episode 7: the group travels or escapes aboard the Onyx Cinder",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e7",
+    "before": null,
+    "after": {
+      "targetId": "planets:at-attin",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-7-official-highlights",
+          "locator": "Episode 7: scenes on At Attin",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e8",
+    "before": null,
+    "after": {
+      "targetId": "people:wim",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-8-official-highlights",
+          "locator": "Episode 8: children resist the pirates and summon help",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e8",
+    "before": null,
+    "after": {
+      "targetId": "people:neel",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-8-official-highlights",
+          "locator": "Episode 8: children resist the pirates and summon help",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e8",
+    "before": null,
+    "after": {
+      "targetId": "people:fern",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-8-official-highlights",
+          "locator": "Episode 8: children resist the pirates and summon help",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e8",
+    "before": null,
+    "after": {
+      "targetId": "people:kb",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-8-official-highlights",
+          "locator": "Episode 8: children resist the pirates and summon help",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e8",
+    "before": null,
+    "after": {
+      "targetId": "people:jod-na-nawood",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-8-official-highlights",
+          "locator": "Episode 8: Jod confronts the children in the tower",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e8",
+    "before": null,
+    "after": {
+      "targetId": "people:sm-33",
+      "relation": "appearance",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-8-official-highlights",
+          "locator": "Episode 8: SM-33 is reactivated as a head to help KB fly",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e8",
+    "before": null,
+    "after": {
+      "targetId": "starships:onyx-cinder",
+      "relation": "featured_ship",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-8-official-highlights",
+          "locator": "Episode 8: the group travels or escapes aboard the Onyx Cinder",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_link",
+    "episodeId": "series:skeleton-crew:s1e8",
+    "before": null,
+    "after": {
+      "targetId": "planets:at-attin",
+      "relation": "setting",
+      "representation": "direct",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp07-skeleton-crew-episode-8-official-highlights",
+          "locator": "Episode 8: scenes on At Attin",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:bad-batch",
+    "field": "limitations",
+    "before": [
+      "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "47 episodes across three seasons (16/16/15), including the extended premiere as one. Season-level supervisors are not substituted for individual episode directors or writers; the full music-team role breakdown remains pending."
+    ],
+    "after": [
+      "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "47 episodes across three seasons (16/16/15), including the extended premiere as one. Selected additional music contributors are now sourced; final episode-by-episode music credits, recording/editing personnel and assignments remain pending. Album roles apply only to the named cues."
+    ]
+  },
+  {
+    "recordId": "series:bad-batch",
+    "field": "music_contributors",
+    "before": null,
+    "after": {
+      "key": "music_contributors",
+      "value": "Selected score contributors: Sean Kiner, Deana Kiner; additional music: Peter Lam. Episode-specific final credits remain under review.",
+      "evidence": [
+        {
+          "sourceId": "supp07-sean-and-deana-kiner-composer-biography",
+          "locator": "About: The Bad Batch composing work",
+          "note": ""
+        },
+        {
+          "sourceId": "supp07-peter-lam-composer-biography",
+          "locator": "Biography: additional music",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:bad-batch",
+    "field": "music_credit_scope",
+    "before": null,
+    "after": {
+      "key": "music_credit_scope",
+      "value": "Soundtrack cue composition, album production and album mixing are listed with an album scope. They are not substituted for final episode credits.",
+      "evidence": [
+        {
+          "sourceId": "supp07-the-bad-batch-season-one-soundtrack-volume-1-track-credits",
+          "locator": "Track 1, 6 and 13 credits: separate production, mixing and composing roles",
+          "note": ""
+        }
+      ]
+    }
+  }
+]

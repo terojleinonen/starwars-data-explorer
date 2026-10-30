@@ -1,0 +1,4625 @@
+[
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "summary",
+    "before": "",
+    "after": "Luke’s life on Tatooine is interrupted by a message carried by two droids. His encounter with Obi-Wan draws him into the rebellion and a mission to rescue Leia."
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "director",
+    "before": {
+      "value": "George Lucas",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "pilot-afi-hope",
+        "pilot-wd-Q17738"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "pilot-afi-hope",
+        "pilot-wd-Q17738"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "producer",
+    "before": {
+      "value": "Gary Kurtz, Rick McCallum",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Gary Kurtz",
+      "sourceIds": [
+        "pilot-afi-hope"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "pilot-afi-hope"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "release_date",
+    "before": {
+      "value": "1977-05-25",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "1977-05-25",
+      "sourceIds": [
+        "pilot-afi-hope",
+        "pilot-wd-Q17738"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US theatrical release",
+      "sourceIds": [
+        "pilot-afi-hope"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Scrolling prologue",
+      "sourceIds": [
+        "pilot-hope-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "opening_video_url",
+    "before": null,
+    "after": {
+      "value": "https://www.starwars.com/video/star-wars-episode-iv-a-new-hope-opening-crawl",
+      "sourceIds": [
+        "pilot-hope-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "opening_version_note",
+    "before": null,
+    "after": {
+      "value": "The 1977 opening has no episode number or A New Hope subtitle. These were added in the 1981 re-release.",
+      "sourceIds": [
+        "pilot-hope-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "episode_id",
+    "before": {
+      "value": "4",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "4",
+      "sourceIds": [
+        "pilot-hope-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "collection",
+    "before": {
+      "value": "Original trilogy",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Original trilogy",
+      "sourceIds": [
+        "pilot-trilogy"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:1",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "pilot-live-films"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "summary",
+    "before": "",
+    "after": "The rebels are scattered as the Empire closes in. Luke seeks Yoda’s guidance on Dagobah while Han and Leia try to escape pursuit, bringing their paths towards a confrontation on Bespin."
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "director",
+    "before": {
+      "value": "Irvin Kershner",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Irvin Kershner",
+      "sourceIds": [
+        "pilot-afi-empire",
+        "pilot-wd-Q181795"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "Leigh Brackett; Lawrence Kasdan",
+      "sourceIds": [
+        "pilot-afi-empire"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "story",
+    "before": null,
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "pilot-afi-empire"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "producer",
+    "before": {
+      "value": "Gary Kurtz, Rick McCallum",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Gary Kurtz",
+      "sourceIds": [
+        "pilot-afi-empire"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "pilot-afi-empire"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "release_date",
+    "before": {
+      "value": "1980-05-17",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "1980-05-21",
+      "sourceIds": [
+        "pilot-afi-empire",
+        "pilot-wd-Q181795"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US theatrical release; earlier screening dates are separate events",
+      "sourceIds": [
+        "pilot-afi-empire",
+        "pilot-wd-Q181795"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Scrolling prologue",
+      "sourceIds": [
+        "pilot-empire-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "opening_video_url",
+    "before": null,
+    "after": {
+      "value": "https://www.starwars.com/video/star-wars-episode-v-the-empire-strikes-back-opening-crawl",
+      "sourceIds": [
+        "pilot-empire-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "episode_id",
+    "before": {
+      "value": "5",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "5",
+      "sourceIds": [
+        "pilot-empire-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "collection",
+    "before": {
+      "value": "Original trilogy",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Original trilogy",
+      "sourceIds": [
+        "pilot-trilogy"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "films:2",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "pilot-live-films"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:andor",
+    "field": "summary",
+    "before": "A grounded political thriller tracing Cassian Andor’s path towards rebellion.",
+    "after": "Cassian’s search for a way out of Imperial control becomes a commitment to rebellion. The series follows the people building resistance and the institutions trying to stop them before Rogue One."
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:andor",
+    "field": "creator",
+    "before": {
+      "value": "Tony Gilroy",
+      "source_id": "official-andor",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Tony Gilroy",
+      "sourceIds": [
+        "pilot-andor-production",
+        "pilot-wd-Q60462338"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:andor",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2022-09-21",
+      "sourceIds": [
+        "pilot-andor-arc1",
+        "pilot-wd-Q60462338"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:andor",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "Series premiere; not the season 2 launch",
+      "sourceIds": [
+        "pilot-andor-arc1"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:andor",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "2",
+      "sourceIds": [
+        "pilot-wd-Q60462338",
+        "pilot-andor-launch"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:andor",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "value": "24",
+      "sourceIds": [
+        "pilot-wd-Q60462338",
+        "pilot-andor-launch"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:andor",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2022–2025",
+      "sourceIds": [
+        "pilot-wd-Q60462338"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:andor",
+    "field": "format",
+    "before": {
+      "value": "Live-action series",
+      "source_id": "official-andor",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action series",
+      "sourceIds": [
+        "pilot-andor-format"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:clone-wars-series",
+    "field": "summary",
+    "before": "An animated series exploring the people and conflicts of the Clone Wars. Its production spans both creative eras.",
+    "after": "Anakin, Obi-Wan and Ahsoka fight alongside the Republic’s clone army. Their campaigns reveal how the war changes soldiers, civilians and the Jedi as the Republic moves towards its fall."
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:clone-wars-series",
+    "field": "creator",
+    "before": {
+      "value": "George Lucas",
+      "source_id": "official-clone-wars-series",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "pilot-clone-production",
+        "pilot-wd-Q632672"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:clone-wars-series",
+    "field": "supervising_director",
+    "before": null,
+    "after": {
+      "value": "Dave Filoni",
+      "sourceIds": [
+        "pilot-clone-production",
+        "pilot-clone-final"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:clone-wars-series",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2008-10-03",
+      "sourceIds": [
+        "pilot-clone-cast",
+        "pilot-wd-Q632672"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:clone-wars-series",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US television series premiere; excludes the August 2008 film",
+      "sourceIds": [
+        "pilot-clone-cast"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:clone-wars-series",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2008–2020",
+      "sourceIds": [
+        "pilot-wd-Q632672"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:clone-wars-series",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "7",
+      "sourceIds": [
+        "pilot-clone-count",
+        "pilot-wd-Q632672"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:clone-wars-series",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "value": "133",
+      "sourceIds": [
+        "pilot-clone-count",
+        "pilot-wd-Q632672"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "series:clone-wars-series",
+    "field": "format",
+    "before": {
+      "value": "Animated series",
+      "source_id": "official-clone-wars-series",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Animated series",
+      "sourceIds": [
+        "pilot-clone-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "people:cassian-andor",
+    "field": "summary",
+    "before": "",
+    "after": "An operative whose path into the rebellion connects the events of Andor and Rogue One."
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "people:luthen-rael",
+    "field": "summary",
+    "before": "",
+    "after": "A secret organiser who uses an antiquities business as cover for his work against the Empire."
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "people:ahsoka-tano",
+    "field": "summary",
+    "before": "",
+    "after": "Anakin’s former apprentice, whose choices during the Clone Wars lead her beyond the Jedi Order."
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "people:captain-rex",
+    "field": "summary",
+    "before": "",
+    "after": "A clone officer who serves with Anakin and Ahsoka during the Clone Wars."
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "planets:ferrix",
+    "field": "summary",
+    "before": "",
+    "after": "A salvage-trade world whose workers and families form a close community under Imperial pressure."
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "planets:aldhani",
+    "field": "summary",
+    "before": "",
+    "after": "An occupied world where Imperial military priorities collide with local traditions."
+  },
+  {
+    "batch": "pilot-01",
+    "recordId": "starships:fondor-haulcraft",
+    "field": "summary",
+    "before": "",
+    "after": "The modified haulcraft used by Luthen Rael in his covert work."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "people:rey",
+    "field": "summary",
+    "before": "",
+    "after": "A scavenger from Jakku whose encounter with a Resistance droid draws her into the conflict with the First Order."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "people:finn",
+    "field": "summary",
+    "before": "",
+    "after": "A stormtrooper who leaves the First Order and becomes Rey’s ally."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "people:poe-dameron",
+    "field": "summary",
+    "before": "",
+    "after": "A Resistance pilot played by Oscar Isaac in The Force Awakens."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "people:kylo-ren",
+    "field": "summary",
+    "before": "",
+    "after": "A First Order warrior whose pursuit of the Resistance brings him into conflict with Rey and Finn."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "planets:jakku",
+    "field": "summary",
+    "before": "",
+    "after": "A desert frontier world where scavengers recover useful parts from the wreckage of past battles."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "vehicles:reys-speeder",
+    "field": "summary",
+    "before": "",
+    "after": "A repulsorlift vehicle assembled by Rey to carry salvage across Jakku."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "summary",
+    "before": "",
+    "after": "Two Jedi escort Naboo’s queen away from an invasion and meet a young slave, Anakin, on Tatooine. Their attempt to free Naboo reveals the return of the Sith."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "director",
+    "before": {
+      "value": "George Lucas",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "film02-afi-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "film02-afi-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "producer",
+    "before": {
+      "value": "Rick McCallum",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Rick McCallum",
+      "sourceIds": [
+        "film02-afi-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "John Williams",
+      "sourceIds": [
+        "film02-afi-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "release_date",
+    "before": {
+      "value": "1999-05-19",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "1999-05-19",
+      "sourceIds": [
+        "film02-film-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "Original US theatrical release",
+      "sourceIds": [
+        "film02-afi-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "collection",
+    "before": {
+      "value": "Prequel trilogy",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Prequel trilogy",
+      "sourceIds": [
+        "film02-viewing-guide"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "film02-afi-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "episode_id",
+    "before": {
+      "value": "1",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "1",
+      "sourceIds": [
+        "film02-film-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "cinematography",
+    "before": null,
+    "after": {
+      "value": "David Tattersall",
+      "sourceIds": [
+        "film02-afi-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "editing",
+    "before": null,
+    "after": {
+      "value": "Paul Martin Smith; Ben Burtt",
+      "sourceIds": [
+        "film02-afi-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Scrolling prologue",
+      "sourceIds": [
+        "film02-opening-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:4",
+    "field": "opening_video_url",
+    "before": null,
+    "after": {
+      "value": "https://www.starwars.com/video/star-wars-episode-i-the-phantom-menace-opening-crawl",
+      "sourceIds": [
+        "film02-opening-phantom"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "summary",
+    "before": "",
+    "after": "Anakin is assigned to protect Padmé as a separatist crisis threatens the Republic. Obi-Wan follows the trail of an assassination plot into the beginnings of the Clone Wars."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "director",
+    "before": {
+      "value": "George Lucas",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "film02-afi-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "George Lucas; Jonathan Hales",
+      "sourceIds": [
+        "film02-afi-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "producer",
+    "before": {
+      "value": "Rick McCallum",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Rick McCallum",
+      "sourceIds": [
+        "film02-afi-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "John Williams",
+      "sourceIds": [
+        "film02-afi-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "release_date",
+    "before": {
+      "value": "2002-05-16",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "2002-05-16",
+      "sourceIds": [
+        "film02-film-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "Original US theatrical release",
+      "sourceIds": [
+        "film02-afi-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "collection",
+    "before": {
+      "value": "Prequel trilogy",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Prequel trilogy",
+      "sourceIds": [
+        "film02-viewing-guide"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "film02-afi-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "episode_id",
+    "before": {
+      "value": "2",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "2",
+      "sourceIds": [
+        "film02-film-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "story",
+    "before": null,
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "film02-afi-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "cinematography",
+    "before": null,
+    "after": {
+      "value": "David Tattersall",
+      "sourceIds": [
+        "film02-afi-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "editing",
+    "before": null,
+    "after": {
+      "value": "Ben Burtt",
+      "sourceIds": [
+        "film02-afi-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Scrolling prologue",
+      "sourceIds": [
+        "film02-opening-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:5",
+    "field": "opening_video_url",
+    "before": null,
+    "after": {
+      "value": "https://www.starwars.com/video/star-wars-episode-ii-attack-of-the-clones-opening-crawl",
+      "sourceIds": [
+        "film02-opening-clones"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "summary",
+    "before": "",
+    "after": "As the Clone Wars approach their end, Anakin’s fears and Palpatine’s influence divide him from the Jedi. The Republic falls and Darth Vader emerges."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "director",
+    "before": {
+      "value": "George Lucas",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "film02-afi-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "film02-afi-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "producer",
+    "before": {
+      "value": "Rick McCallum",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Rick McCallum",
+      "sourceIds": [
+        "film02-afi-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "John Williams",
+      "sourceIds": [
+        "film02-afi-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "release_date",
+    "before": {
+      "value": "2005-05-19",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "2005-05-19",
+      "sourceIds": [
+        "film02-film-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "Original US theatrical release",
+      "sourceIds": [
+        "film02-afi-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "collection",
+    "before": {
+      "value": "Prequel trilogy",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Prequel trilogy",
+      "sourceIds": [
+        "film02-viewing-guide"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "film02-afi-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "episode_id",
+    "before": {
+      "value": "3",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "3",
+      "sourceIds": [
+        "film02-film-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "cinematography",
+    "before": null,
+    "after": {
+      "value": "David Tattersall",
+      "sourceIds": [
+        "film02-afi-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "editing",
+    "before": null,
+    "after": {
+      "value": "Roger Barton; Ben Burtt",
+      "sourceIds": [
+        "film02-afi-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Scrolling prologue",
+      "sourceIds": [
+        "film02-opening-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:6",
+    "field": "opening_video_url",
+    "before": null,
+    "after": {
+      "value": "https://www.starwars.com/video/star-wars-episode-iii-revenge-of-the-sith-opening-crawl",
+      "sourceIds": [
+        "film02-opening-sith"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "summary",
+    "before": "The animated theatrical chapter that preceded the 2008 television series.",
+    "after": "Anakin and his new apprentice Ahsoka try to rescue Jabba’s kidnapped son. Dooku and Ventress work to turn the mission against the Republic."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "director",
+    "before": null,
+    "after": {
+      "value": "Dave Filoni",
+      "sourceIds": [
+        "film02-afi-clone-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "Henry Gilroy; Steven Melching; Scott Murphy",
+      "sourceIds": [
+        "film02-afi-clone-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "producer",
+    "before": null,
+    "after": {
+      "value": "Catherine Winder",
+      "sourceIds": [
+        "film02-afi-clone-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Kevin Kiner",
+      "sourceIds": [
+        "film02-clone-press"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2008-08-15",
+      "sourceIds": [
+        "film02-film-clone-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "Original US theatrical release",
+      "sourceIds": [
+        "film02-afi-clone-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "collection",
+    "before": {
+      "value": "Animated feature",
+      "source_id": "official-clone-wars-film",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Animated feature",
+      "sourceIds": [
+        "film02-afi-clone-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "format",
+    "before": {
+      "value": "Animated film",
+      "source_id": "official-clone-wars-film",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Animated film",
+      "sourceIds": [
+        "film02-afi-clone-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "film02-clone-press"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "original_music",
+    "before": null,
+    "after": {
+      "value": "John Williams",
+      "sourceIds": [
+        "film02-clone-press"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:clone-wars-film",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Narrated newsreel prologue",
+      "sourceIds": [
+        "film02-clone-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "summary",
+    "before": "A new generation takes its first steps into the Skywalker saga.",
+    "after": "Rey and the former stormtrooper Finn join Han Solo in a struggle against the First Order. A droid carrying a clue to Luke Skywalker draws them toward the Resistance."
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "director",
+    "before": null,
+    "after": {
+      "value": "J.J. Abrams",
+      "sourceIds": [
+        "film02-afi-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "J.J. Abrams; Lawrence Kasdan; Michael Arndt",
+      "sourceIds": [
+        "film02-lucasfilm-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "producer",
+    "before": null,
+    "after": {
+      "value": "Kathleen Kennedy; J.J. Abrams; Bryan Burk",
+      "sourceIds": [
+        "film02-afi-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "John Williams",
+      "sourceIds": [
+        "film02-afi-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2015-12-18",
+      "sourceIds": [
+        "film02-film-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "Original US theatrical release",
+      "sourceIds": [
+        "film02-afi-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "collection",
+    "before": {
+      "value": "Sequel trilogy",
+      "source_id": "official-force-awakens",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Sequel trilogy",
+      "sourceIds": [
+        "film02-viewing-guide"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "official-force-awakens",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "film02-afi-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "episode_id",
+    "before": {
+      "value": "7",
+      "source_id": "official-force-awakens",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "7",
+      "sourceIds": [
+        "film02-film-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "cinematography",
+    "before": null,
+    "after": {
+      "value": "Dan Mindel",
+      "sourceIds": [
+        "film02-afi-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "editing",
+    "before": null,
+    "after": {
+      "value": "Maryann Brandon; Mary Jo Markey",
+      "sourceIds": [
+        "film02-afi-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Scrolling prologue",
+      "sourceIds": [
+        "film02-opening-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-02",
+    "recordId": "films:force-awakens",
+    "field": "opening_video_url",
+    "before": null,
+    "after": {
+      "value": "https://www.starwars.com/video/star-wars-episode-vii-the-force-awakens-opening-crawl",
+      "sourceIds": [
+        "film02-opening-force"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "people:jyn-erso",
+    "field": "summary",
+    "before": "",
+    "after": "A rebel recruit whose mission brings her to the heart of the Empire’s Death Star project."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "people:k-2so",
+    "field": "summary",
+    "before": "",
+    "after": "An Imperial security droid reprogrammed to serve the Rebel Alliance."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "people:qira",
+    "field": "summary",
+    "before": "",
+    "after": "A figure from Han Solo’s youth who becomes entangled with the criminal world he enters."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "people:rose-tico",
+    "field": "summary",
+    "before": "",
+    "after": "A Resistance mechanic who joins Finn on a mission to help their pursued fleet."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "people:din-djarin",
+    "field": "summary",
+    "before": "",
+    "after": "A Mandalorian bounty hunter who raises Grogu and takes on missions for the New Republic."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "people:grogu",
+    "field": "summary",
+    "before": "",
+    "after": "A Force-sensitive foundling who chooses to travel with his protector, Din Djarin."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "people:colonel-ward",
+    "field": "summary",
+    "before": "",
+    "after": "A New Republic officer who recruits Din Djarin and Grogu for a mission against Imperial warlords."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "people:rotta",
+    "field": "summary",
+    "before": "",
+    "after": "Jabba the Hutt’s son, whose life connects the Clone Wars era with the later adventures of Din Djarin and Grogu."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "planets:scarif",
+    "field": "summary",
+    "before": "",
+    "after": "A tropical world fortified by the Empire, with a heavily defended military installation."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "planets:crait",
+    "field": "summary",
+    "before": "",
+    "after": "A salt-covered mineral world where the fleeing Resistance seeks shelter in an abandoned rebel outpost."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "planets:ahch-to",
+    "field": "summary",
+    "before": "",
+    "after": "A remote ocean world whose ancient Jedi sanctuary becomes Luke Skywalker’s place of exile."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "planets:exegol",
+    "field": "summary",
+    "before": "",
+    "after": "A hidden Sith world in the Unknown Regions, sheltering a citadel and a surviving cult."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "starships:u-wing",
+    "field": "summary",
+    "before": "",
+    "after": "A Rebel transport designed to deliver troops into dangerous landing zones and support them from the air."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "starships:razor-crest-2026",
+    "field": "summary",
+    "before": "",
+    "after": "A factory-condition Razor Crest given to Din Djarin by Colonel Ward, replacing the ship lost during his earlier journeys."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "vehicles:resistance-ski-speeder",
+    "field": "summary",
+    "before": "",
+    "after": "An old low-altitude craft kept balanced by a strut, used by the Resistance on Crait."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "vehicles:conveyex",
+    "field": "summary",
+    "before": "",
+    "after": "An armored cargo train targeted by Beckett’s crew during a coaxium robbery on Vandor."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "summary",
+    "before": "A standalone chapter follows the mission behind the Death Star plans.",
+    "after": "Jyn Erso joins a rebel operation to obtain the Death Star plans. The mission forces a divided group to risk everything for a weakness in the Empire’s new weapon."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "director",
+    "before": null,
+    "after": {
+      "value": "Gareth Edwards",
+      "sourceIds": [
+        "film03-rogue-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "producer",
+    "before": null,
+    "after": {
+      "value": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "sourceIds": [
+        "film03-rogue-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "Chris Weitz, Tony Gilroy",
+      "sourceIds": [
+        "film03-rogue-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "story",
+    "before": null,
+    "after": {
+      "value": "John Knoll, Gary Whitta",
+      "sourceIds": [
+        "film03-rogue-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Michael Giacchino",
+      "sourceIds": [
+        "film03-rogue-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "cinematography",
+    "before": null,
+    "after": {
+      "value": "Greig Fraser",
+      "sourceIds": [
+        "film03-rogue-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "editing",
+    "before": null,
+    "after": {
+      "value": "John Gilroy, Jabez Olssen, Colin Goudie",
+      "sourceIds": [
+        "film03-rogue-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2016-12-16",
+      "sourceIds": [
+        "film03-rogue-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US theatrical opening; earlier international openings are not the US date.",
+      "sourceIds": [
+        "film03-rogue-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "collection",
+    "before": {
+      "value": "A Star Wars Story",
+      "source_id": "official-rogue-one",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "A Star Wars Story",
+      "sourceIds": [
+        "film03-rogue-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "official-rogue-one",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "film03-rogue-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rogue-one",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Dramatic prologue; no traditional receding opening crawl.",
+      "sourceIds": [
+        "film03-rogue-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "summary",
+    "before": "The saga’s eighth episode follows a new apprentice and a Resistance under pressure.",
+    "after": "Rey seeks Luke Skywalker on Ahch-To while the Resistance fleet struggles to escape pursuit. Finn and Rose attempt a rescue plan as the conflict draws both sides toward Crait."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "director",
+    "before": {
+      "value": "Rian Johnson",
+      "source_id": "official-last-jedi",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Rian Johnson",
+      "sourceIds": [
+        "film03-last-crew"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "Rian Johnson",
+      "sourceIds": [
+        "film03-last-crew"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "producer",
+    "before": null,
+    "after": {
+      "value": "Kathleen Kennedy, Ram Bergman",
+      "sourceIds": [
+        "film03-last-crew"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "J.J. Abrams, Jason McGatlin, Tom Karnowski",
+      "sourceIds": [
+        "film03-last-crew"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "John Williams",
+      "sourceIds": [
+        "film03-last-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2017-12-15",
+      "sourceIds": [
+        "film03-last-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US theatrical opening; Belgium and France opened on 13 December 2017.",
+      "sourceIds": [
+        "film03-last-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "collection",
+    "before": {
+      "value": "Sequel trilogy",
+      "source_id": "official-last-jedi",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Sequel trilogy",
+      "sourceIds": [
+        "film03-last-crew"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "episode_id",
+    "before": {
+      "value": "8",
+      "source_id": "official-last-jedi",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "8",
+      "sourceIds": [
+        "film03-last-crew"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "official-last-jedi",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "film03-last-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Traditional receding opening crawl.",
+      "sourceIds": [
+        "film03-last-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:last-jedi",
+    "field": "opening_video_url",
+    "before": null,
+    "after": {
+      "value": "https://www.starwars.com/video/star-wars-episode-viii-the-last-jedi-opening-crawl",
+      "sourceIds": [
+        "film03-last-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "summary",
+    "before": "A standalone adventure explores the early life of Han Solo.",
+    "after": "A young Han Solo leaves Corellia and falls in with a crew of thieves. His first adventures with Chewbacca and Lando entangle him in a dangerous coaxium job and the criminal syndicates behind it."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "director",
+    "before": {
+      "value": "Ron Howard",
+      "source_id": "official-solo",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Ron Howard",
+      "sourceIds": [
+        "film03-solo-lucasfilm"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "Lawrence Kasdan, Jonathan Kasdan",
+      "sourceIds": [
+        "film03-solo-lucasfilm"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "producer",
+    "before": null,
+    "after": {
+      "value": "Kathleen Kennedy, Allison Shearmur, Simon Emanuel",
+      "sourceIds": [
+        "film03-solo-disney"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "John Powell",
+      "sourceIds": [
+        "film03-solo-music"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "original_music",
+    "before": null,
+    "after": {
+      "value": "John Williams — Han Solo theme and original Star Wars musical material",
+      "sourceIds": [
+        "film03-solo-music"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "cinematography",
+    "before": null,
+    "after": {
+      "value": "Bradford Young",
+      "sourceIds": [
+        "film03-solo-photography"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2018-05-25",
+      "sourceIds": [
+        "film03-solo-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US theatrical opening; the regional 23 May listing is not the US date.",
+      "sourceIds": [
+        "film03-solo-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "collection",
+    "before": {
+      "value": "A Star Wars Story",
+      "source_id": "official-solo",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "A Star Wars Story",
+      "sourceIds": [
+        "film03-solo-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "official-solo",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "film03-solo-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:solo",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Introductory text cards rather than a traditional receding crawl.",
+      "sourceIds": [
+        "film03-mando-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "summary",
+    "before": "The ninth episode brings the Skywalker saga to its conclusion.",
+    "after": "Rey and her friends search for a path to a hidden Sith threat while the Resistance prepares its last stand. Kylo Ren’s choices and Rey’s family history bring their conflict to Exegol."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "director",
+    "before": {
+      "value": "J.J. Abrams",
+      "source_id": "official-rise-skywalker",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "J.J. Abrams",
+      "sourceIds": [
+        "film03-rise-disney-stream"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "Chris Terrio, J.J. Abrams",
+      "sourceIds": [
+        "film03-rise-disney-stream"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "story",
+    "before": null,
+    "after": {
+      "value": "Derek Connolly, Colin Trevorrow, J.J. Abrams, Chris Terrio",
+      "sourceIds": [
+        "film03-rise-disney-stream"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "producer",
+    "before": null,
+    "after": {
+      "value": "Kathleen Kennedy, J.J. Abrams, Michelle Rejwan",
+      "sourceIds": [
+        "film03-rise-disney-stream"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Callum Greene, Tommy Gormley, Jason McGatlin",
+      "sourceIds": [
+        "film03-rise-disney-stream"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "John Williams",
+      "sourceIds": [
+        "film03-rise-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2019-12-20",
+      "sourceIds": [
+        "film03-rise-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US theatrical opening; Belgium and France opened on 18 December 2019.",
+      "sourceIds": [
+        "film03-rise-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "collection",
+    "before": {
+      "value": "Sequel trilogy",
+      "source_id": "official-rise-skywalker",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Sequel trilogy",
+      "sourceIds": [
+        "film03-rise-lucasfilm"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "episode_id",
+    "before": {
+      "value": "9",
+      "source_id": "official-rise-skywalker",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "9",
+      "sourceIds": [
+        "film03-rise-lucasfilm"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "official-rise-skywalker",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "film03-rise-d23"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Traditional receding opening crawl.",
+      "sourceIds": [
+        "film03-rise-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:rise-skywalker",
+    "field": "opening_video_url",
+    "before": null,
+    "after": {
+      "value": "https://www.starwars.com/video/star-wars-episode-ix-the-rise-of-skywalker-opening-crawl",
+      "sourceIds": [
+        "film03-rise-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "summary",
+    "before": "Din Djarin and Grogu’s story continues on the big screen.",
+    "after": "Din Djarin and Grogu accept a New Republic mission against surviving Imperial warlords. Their journey brings new allies, Hutt power struggles and a replacement for Din’s lost ship."
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "director",
+    "before": {
+      "value": "Jon Favreau",
+      "source_id": "official-mandalorian-grogu",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Jon Favreau",
+      "sourceIds": [
+        "film03-mando-final-credits"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "Jon Favreau, Dave Filoni, Noah Kloor",
+      "sourceIds": [
+        "film03-mando-final-credits"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "producer",
+    "before": null,
+    "after": {
+      "value": "Kathleen Kennedy, Ian Bryce, Jon Favreau, Dave Filoni",
+      "sourceIds": [
+        "film03-mando-final-credits"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Karen Gilchrist, John Bartnicki, Carrie Beck",
+      "sourceIds": [
+        "film03-mando-final-credits"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Ludwig Göransson",
+      "sourceIds": [
+        "film03-mando-final-credits"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2026-05-22",
+      "sourceIds": [
+        "film03-mando-film"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US theatrical opening; Disney+ US IMAX Enhanced presentation followed on 2 September 2026.",
+      "sourceIds": [
+        "film03-mando-september"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "collection",
+    "before": {
+      "value": "Standalone feature",
+      "source_id": "official-mandalorian-grogu",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Standalone feature",
+      "sourceIds": [
+        "film03-mando-imax-stream"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "official-mandalorian-grogu",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "film03-mando-cast"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Three introductory sentences on text cards; no traditional receding crawl.",
+      "sourceIds": [
+        "film03-mando-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-03",
+    "recordId": "films:mandalorian-grogu",
+    "field": "opening_video_url",
+    "before": null,
+    "after": {
+      "value": "https://www.starwars.com/video/opening-crawl-star-wars-the-mandalorian-and-grogu",
+      "sourceIds": [
+        "film03-mando-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:ezra-bridger",
+    "field": "summary",
+    "before": "",
+    "after": "A young orphan who joins the Ghost crew and learns from Kanan."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:kanan-jarrus",
+    "field": "summary",
+    "before": "",
+    "after": "A Jedi survivor who helps the Ghost crew resist Imperial rule."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:hera-syndulla",
+    "field": "summary",
+    "before": "",
+    "after": "The Ghost’s pilot and a leader of its rebel crew."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:sabine-wren",
+    "field": "summary",
+    "before": "",
+    "after": "A warrior in the Ghost crew’s fight against the Empire."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:zeb-orrelios",
+    "field": "summary",
+    "before": "",
+    "after": "The formidable fighter who serves with the Ghost crew."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:chopper",
+    "field": "summary",
+    "before": "",
+    "after": "The Ghost crew’s grumbling astromech droid."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:hunter",
+    "field": "summary",
+    "before": "",
+    "after": "The leader of Clone Force 99, whose loyalty shifts from Republic service to his chosen family."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:wrecker",
+    "field": "summary",
+    "before": "",
+    "after": "Clone Force 99’s strong-willed demolitions specialist."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:crosshair",
+    "field": "summary",
+    "before": "",
+    "after": "The sharp-eyed clone sniper whose allegiance divides him from his former squad."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:tech",
+    "field": "summary",
+    "before": "",
+    "after": "A member of Clone Force 99 whose story carries a lasting cost for his comrades."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:echo",
+    "field": "summary",
+    "before": "",
+    "after": "A veteran clone who travels with Clone Force 99 after the Republic’s fall."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:omega",
+    "field": "summary",
+    "before": "",
+    "after": "A young clone who becomes part of the Bad Batch’s family on the run."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "people:asajj-ventress",
+    "field": "summary",
+    "before": "",
+    "after": "A warrior introduced in the 2003 micro-series and reinterpreted in later Star Wars animation."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "starships:ghost",
+    "field": "summary",
+    "before": "",
+    "after": "Hera Syndulla’s modified freighter, used as a mobile base by the rebels of Lothal."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "starships:marauder",
+    "field": "summary",
+    "before": "",
+    "after": "Clone Force 99’s modified shuttle, used for transport and combat across the galaxy."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "starships:razor-crest-original",
+    "field": "summary",
+    "before": "",
+    "after": "Din Djarin’s worn transport and home during his early travels with Grogu; a different vessel from the later New Republic gift."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "planets:lothal",
+    "field": "summary",
+    "before": "",
+    "after": "An agricultural and industrial world whose people face occupation by the Empire."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "planets:nevarro",
+    "field": "summary",
+    "before": "",
+    "after": "A volcanic world that becomes a meeting point for bounty hunters, Mandalorians and Imperial remnants."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "planets:pabu",
+    "field": "summary",
+    "before": "",
+    "after": "A remote island refuge that offers Omega and Clone Force 99 a possible home."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "vehicles:at-dp",
+    "field": "summary",
+    "before": "",
+    "after": "An Imperial patrol walker used against Lothal’s farmers and rebel fighters."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "vehicles:at-st-raider",
+    "field": "summary",
+    "before": "",
+    "after": "A salvaged Imperial walker rebuilt by raiders during the early New Republic era."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "summary",
+    "before": "",
+    "after": "Luke and his friends attempt to rescue Han before joining the attack on a second Death Star. On Endor and aboard the battle station, the struggle for the Rebellion becomes inseparable from Luke’s hopes for his father."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "screenplay",
+    "before": null,
+    "after": {
+      "value": "Lawrence Kasdan, George Lucas",
+      "sourceIds": [
+        "screen04-jedi-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "story",
+    "before": null,
+    "after": {
+      "value": "George Lucas",
+      "sourceIds": [
+        "screen04-jedi-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "John Williams",
+      "sourceIds": [
+        "screen04-jedi-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "cinematography",
+    "before": null,
+    "after": {
+      "value": "Alan Hume",
+      "sourceIds": [
+        "screen04-jedi-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "editing",
+    "before": null,
+    "after": {
+      "value": "Sean Barton, Marcia Lucas, Duwayne Dunham",
+      "sourceIds": [
+        "screen04-jedi-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "episode_id",
+    "before": {
+      "value": "6",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "6",
+      "sourceIds": [
+        "screen04-jedi-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "collection",
+    "before": {
+      "value": "Original trilogy",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Original trilogy",
+      "sourceIds": [
+        "screen04-jedi-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "format",
+    "before": {
+      "value": "Live-action film",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": {
+      "value": "Live-action film",
+      "sourceIds": [
+        "screen04-jedi-afi"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "opening_type",
+    "before": null,
+    "after": {
+      "value": "Traditional receding opening crawl.",
+      "sourceIds": [
+        "screen04-jedi-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "films:3",
+    "field": "opening_video_url",
+    "before": null,
+    "after": {
+      "value": "https://www.starwars.com/video/star-wars-episode-vi-return-of-the-jedi-opening-crawl",
+      "sourceIds": [
+        "screen04-jedi-opening"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:clone-wars-micro",
+    "field": "summary",
+    "before": "Genndy Tartakovsky’s animated micro-series offers a separate vision of the Clone Wars.",
+    "after": "Anakin, Obi-Wan and the Jedi wage a fast-moving series of campaigns between Attack of the Clones and Revenge of the Sith. This stylized 2D interpretation introduces threats and battles that belong to the earlier continuity."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:clone-wars-micro",
+    "field": "director",
+    "before": null,
+    "after": {
+      "value": "Genndy Tartakovsky",
+      "sourceIds": [
+        "screen04-micro-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:clone-wars-micro",
+    "field": "producer",
+    "before": null,
+    "after": {
+      "value": "Geraldine Symon",
+      "sourceIds": [
+        "screen04-micro-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:clone-wars-micro",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Genndy Tartakovsky, Claudia Katz, Brian A. Miller, George Lucas",
+      "sourceIds": [
+        "screen04-micro-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:clone-wars-micro",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "3 original TV seasons",
+      "sourceIds": [
+        "screen04-micro-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:clone-wars-micro",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "value": "25 original chapters",
+      "sourceIds": [
+        "screen04-micro-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:clone-wars-micro",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2003–2005",
+      "sourceIds": [
+        "screen04-micro-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:clone-wars-micro",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2003-11-07",
+      "sourceIds": [
+        "screen04-micro-premiere",
+        "screen04-micro-chapter1"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:clone-wars-micro",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US Cartoon Network TV premiere; Disney+ grouped the series as Volumes 1 and 2 in 2021.",
+      "sourceIds": [
+        "screen04-micro-vintage"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:clone-wars-micro",
+    "field": "format",
+    "before": {
+      "value": "Animated micro-series",
+      "source_id": "official-clone-wars-micro",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "2D animated micro-series",
+      "sourceIds": [
+        "screen04-micro-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:rebels",
+    "field": "summary",
+    "before": "The crew of the Ghost finds its place in a growing rebellion.",
+    "after": "On occupied Lothal, the crew of the Ghost turns local resistance into a wider rebellion. Ezra’s arrival draws a small found family into conflicts that reach far beyond their homeworld."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:rebels",
+    "field": "creator",
+    "before": null,
+    "after": {
+      "value": "Dave Filoni, Simon Kinberg, Carrie Beck",
+      "sourceIds": [
+        "screen04-rebels-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:rebels",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Dave Filoni, Simon Kinberg, Greg Weisman (launch production)",
+      "sourceIds": [
+        "screen04-rebels-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:rebels",
+    "field": "supervising_writer",
+    "before": null,
+    "after": {
+      "value": "Henry Gilroy (Season 2)",
+      "sourceIds": [
+        "screen04-rebels-writer"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:rebels",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Kevin Kiner",
+      "sourceIds": [
+        "screen04-rebels-music"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:rebels",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "4",
+      "sourceIds": [
+        "screen04-rebels-seasons"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:rebels",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2014–2018",
+      "sourceIds": [
+        "screen04-rebels-finale",
+        "screen04-rebels-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:rebels",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2014-09-26",
+      "sourceIds": [
+        "screen04-rebels-streaming-update"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:rebels",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US WATCH Disney XD premiere of Spark of Rebellion; Disney Channel TV: 3 October 2014; weekly Disney XD series: 13 October.",
+      "sourceIds": [
+        "screen04-rebels-streaming-update"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:rebels",
+    "field": "format",
+    "before": {
+      "value": "Animated series",
+      "source_id": "official-rebels",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Animated series",
+      "sourceIds": [
+        "screen04-rebels-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "summary",
+    "before": "A lone bounty hunter’s journey opens a new corner of the galaxy.",
+    "after": "A bounty hunter’s decision to protect Grogu changes his place in the galaxy. Their travels through the early New Republic bring them into conflict with Imperial remnants and into the divided world of the Mandalorians."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "creator",
+    "before": null,
+    "after": {
+      "value": "Jon Favreau",
+      "sourceIds": [
+        "screen04-mando-production",
+        "screen04-mando-emmy"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "head_writer",
+    "before": null,
+    "after": {
+      "value": "Jon Favreau (Season 3)",
+      "sourceIds": [
+        "screen04-mando-season3"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Jon Favreau, Dave Filoni, Kathleen Kennedy, Colin Wilson (launch production)",
+      "sourceIds": [
+        "screen04-mando-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Ludwig Göransson (Seasons 1–2); Joseph Shirley (Season 3)",
+      "sourceIds": [
+        "screen04-mando-season3",
+        "screen04-mando-music",
+        "screen04-mando-season2-music",
+        "screen04-mando-emmy"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "3 released seasons reviewed",
+      "sourceIds": [
+        "screen04-mando-season3"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "value": "24 numbered chapters through Season 3",
+      "sourceIds": [
+        "screen04-mando-chapter24"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2019–2023 (reviewed television seasons)",
+      "sourceIds": [
+        "screen04-mando-season3",
+        "screen04-mando-series"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2019-11-12",
+      "sourceIds": [
+        "screen04-mando-series"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US Disney+ series premiere; later season launches are separate events. The 2026 feature is a separate work.",
+      "sourceIds": [
+        "screen04-mando-series"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:mandalorian",
+    "field": "format",
+    "before": {
+      "value": "Live-action series",
+      "source_id": "official-mandalorian",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action series",
+      "sourceIds": [
+        "screen04-mando-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "summary",
+    "before": "An unusual clone unit looks for its place in a galaxy transformed.",
+    "after": "Clone Force 99 rejects the Empire’s demands and tries to build a life beyond military service. With Omega joining their family, the squad’s missions become a struggle to protect one another in a changing galaxy."
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "creator",
+    "before": {
+      "value": "Dave Filoni",
+      "source_id": "official-bad-batch",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Dave Filoni",
+      "sourceIds": [
+        "screen04-batch-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "supervising_director",
+    "before": null,
+    "after": {
+      "value": "Brad Rau",
+      "sourceIds": [
+        "screen04-batch-creators"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "head_writer",
+    "before": null,
+    "after": {
+      "value": "Jennifer Corbett",
+      "sourceIds": [
+        "screen04-batch-creators"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Dave Filoni, Athena Portillo, Carrie Beck, Brad Rau, Jennifer Corbett",
+      "sourceIds": [
+        "screen04-batch-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Kevin Kiner (selected series score credit)",
+      "sourceIds": [
+        "screen04-batch-music"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "3",
+      "sourceIds": [
+        "screen04-batch-season3"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2021–2024",
+      "sourceIds": [
+        "screen04-batch-finale"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2021-05-04",
+      "sourceIds": [
+        "screen04-batch-premiere"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US Disney+ series premiere; later seasons and finale are separate events.",
+      "sourceIds": [
+        "screen04-batch-premiere"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-04",
+    "recordId": "series:bad-batch",
+    "field": "format",
+    "before": {
+      "value": "Animated series",
+      "source_id": "official-bad-batch",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Animated series",
+      "sourceIds": [
+        "screen04-batch-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:reva",
+    "field": "summary",
+    "before": "",
+    "after": "An Inquisitor who pursues surviving Jedi during Imperial rule."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:tala-durith",
+    "field": "summary",
+    "before": "",
+    "after": "An ally encountered by Obi-Wan during his journey under Imperial rule."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:grand-inquisitor",
+    "field": "summary",
+    "before": "",
+    "after": "The leader of the Empire’s Jedi-hunting Inquisitors."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:haja-estree",
+    "field": "summary",
+    "before": "",
+    "after": "A con man on Daiyu who poses as a Jedi while helping fugitives."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "planets:daiyu",
+    "field": "summary",
+    "before": "",
+    "after": "An urban world where fugitives and bounty hunters cross paths."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "starships:scythe",
+    "field": "summary",
+    "before": "",
+    "after": "A transport used by the Empire’s Inquisitors."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:morgan-elsbeth",
+    "field": "summary",
+    "before": "",
+    "after": "An ally of Grand Admiral Thrawn who pursues his return from exile."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:baylan-skoll",
+    "field": "summary",
+    "before": "",
+    "after": "A lightsaber-wielding opponent encountered by Ahsoka and her allies."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:shin-hati",
+    "field": "summary",
+    "before": "",
+    "after": "A warrior aligned with Baylan Skoll during Ahsoka’s search for Thrawn."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:huyang",
+    "field": "summary",
+    "before": "",
+    "after": "A droid companion whose archives preserve stories of the Jedi."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:grand-admiral-thrawn",
+    "field": "summary",
+    "before": "",
+    "after": "An Imperial leader whose return from exile threatens the New Republic."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "planets:peridea",
+    "field": "summary",
+    "before": "",
+    "after": "A distant world where Thrawn and Ezra have been living in exile."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "starships:ahsoka-t6-shuttle",
+    "field": "summary",
+    "before": "",
+    "after": "Ahsoka’s rotating-wing shuttle used during the New Republic era."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "starships:eye-of-sion",
+    "field": "summary",
+    "before": "",
+    "after": "A hyperspace ring commanded by Morgan Elsbeth for journeys beyond the known galaxy."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "vehicles:sabine-speeder-bike",
+    "field": "summary",
+    "before": "",
+    "after": "A modified Imperial speeder bike decorated and used by Sabine Wren."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:wim",
+    "field": "summary",
+    "before": "",
+    "after": "One of four children who leave their homeworld aboard the Onyx Cinder."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:fern",
+    "field": "summary",
+    "before": "",
+    "after": "One of the young travelers searching for a way home in Skeleton Crew."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:kb",
+    "field": "summary",
+    "before": "",
+    "after": "One of the four children drawn into Skeleton Crew’s space adventure."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:neel",
+    "field": "summary",
+    "before": "",
+    "after": "One of the young travelers whose journey takes them far from home."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:jod-na-nawood",
+    "field": "summary",
+    "before": "",
+    "after": "A mysterious adult who crosses paths with the children in Skeleton Crew."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:sm-33",
+    "field": "summary",
+    "before": "",
+    "after": "The droid first mate of the Onyx Cinder."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "planets:at-attin",
+    "field": "summary",
+    "before": "",
+    "after": "An orderly world whose residents live alongside service droids."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "starships:onyx-cinder",
+    "field": "summary",
+    "before": "",
+    "after": "The starship that carries four children away from their homeworld."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "vehicles:fern-kb-hoverbike",
+    "field": "summary",
+    "before": "",
+    "after": "A shared speeder modified by Fern and KB with a stronger engine."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:mae-aniseya",
+    "field": "summary",
+    "before": "",
+    "after": "Osha’s twin sister, whose path draws her into a violent conflict with the Jedi."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:osha-aniseya",
+    "field": "summary",
+    "before": "",
+    "after": "A former Jedi learner whose past becomes central to the investigation in The Acolyte."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:sol",
+    "field": "summary",
+    "before": "",
+    "after": "A Jedi Master investigating crimes connected to his former learner Osha."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:the-stranger",
+    "field": "summary",
+    "before": "",
+    "after": "A masked dark-side warrior portrayed by Manny Jacinto in The Acolyte."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:jecki-lon",
+    "field": "summary",
+    "before": "",
+    "after": "A Jedi Padawan portrayed by Dafne Keen in The Acolyte."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "planets:brendok",
+    "field": "summary",
+    "before": "",
+    "after": "A forested world with a fortress inhabited by a coven of witches."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "starships:fallon-freighter",
+    "field": "summary",
+    "before": "",
+    "after": "A cargo vessel commanded by Captain Blex."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "starships:jedi-vector",
+    "field": "summary",
+    "before": "",
+    "after": "A starfighter designed for pilots trained in the Force."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:devon-izara",
+    "field": "summary",
+    "before": "",
+    "after": "A young Jedi learner who crosses paths with Maul after the rise of the Empire."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:brander-lawson",
+    "field": "summary",
+    "before": "",
+    "after": "A police detective on Janix, voiced by Wagner Moura."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:two-boots",
+    "field": "summary",
+    "before": "",
+    "after": "Brander Lawson’s police-droid partner on Janix."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "people:eeko-dio-daki",
+    "field": "summary",
+    "before": "",
+    "after": "The Jedi Master teaching Devon Izara after the fall of the Jedi Order."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "planets:janix",
+    "field": "summary",
+    "before": "",
+    "after": "A self-governed world where law enforcement and rival crime syndicates maintain an uneasy balance."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "vehicles:at-ac",
+    "field": "summary",
+    "before": "",
+    "after": "An Imperial patrol walker related in appearance to the AT-ST."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "summary",
+    "before": "An old Jedi’s story resumes during the reign of the Empire.",
+    "after": "Hiding from the Empire on Tatooine, Obi-Wan is drawn into a rescue mission that brings him face to face with the consequences of Anakin’s fall."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "director",
+    "before": {
+      "value": "Deborah Chow",
+      "source_id": "official-obi-wan",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Deborah Chow",
+      "sourceIds": [
+        "screen05-obi-brief"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "writer",
+    "before": null,
+    "after": {
+      "value": "Joby Harold (selected series writing credit)",
+      "sourceIds": [
+        "screen05-obi-cast"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Kathleen Kennedy, Michelle Rejwan, Deborah Chow, Ewan McGregor, Joby Harold",
+      "sourceIds": [
+        "screen05-obi-cast"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Natalie Holt (series score)",
+      "sourceIds": [
+        "screen05-obi-brief"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "original_theme",
+    "before": null,
+    "after": {
+      "value": "John Williams (Obi-Wan theme)",
+      "sourceIds": [
+        "screen05-obi-brief"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "cinematography",
+    "before": null,
+    "after": {
+      "value": "Chung-Hoon Chung",
+      "sourceIds": [
+        "screen05-obi-brief"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "editing",
+    "before": null,
+    "after": {
+      "value": "Nicolas De Toth, Kelley Dixon",
+      "sourceIds": [
+        "screen05-obi-brief"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "value": "6",
+      "sourceIds": [
+        "screen05-obi-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "1 limited series",
+      "sourceIds": [
+        "screen05-obi-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2022",
+      "sourceIds": [
+        "screen05-obi-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2022-05-26",
+      "sourceIds": [
+        "screen05-obi-early"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US Disney+ two-episode premiere, 9 p.m. Pacific on May 26 / midnight Eastern on May 27; one launch.",
+      "sourceIds": [
+        "screen05-obi-early"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:obi-wan",
+    "field": "format",
+    "before": {
+      "value": "Live-action limited series",
+      "source_id": "official-obi-wan",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action limited series",
+      "sourceIds": [
+        "screen05-obi-brief"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "summary",
+    "before": "Ahsoka Tano investigates a threat emerging after the fall of the Empire.",
+    "after": "Ahsoka and her allies search for a missing friend while trying to stop an exiled Imperial leader from returning. Their journey draws together old bonds and new threats after the Empire’s fall."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "creator",
+    "before": {
+      "value": "Dave Filoni",
+      "source_id": "official-ahsoka",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Dave Filoni",
+      "sourceIds": [
+        "screen05-ahsoka-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "writer",
+    "before": null,
+    "after": {
+      "value": "Dave Filoni (season 1)",
+      "sourceIds": [
+        "screen05-ahsoka-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "director",
+    "before": null,
+    "after": {
+      "value": "Dave Filoni, Steph Green, Peter Ramsey, Jennifer Getzinger, Geeta Vasant Patel, Rick Famuyiwa (season 1)",
+      "sourceIds": [
+        "screen05-ahsoka-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Dave Filoni, Jon Favreau, Kathleen Kennedy, Colin Wilson, Carrie Beck (season 1)",
+      "sourceIds": [
+        "screen05-ahsoka-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Kevin Kiner (selected season-1 score credit)",
+      "sourceIds": [
+        "screen05-ahsoka-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "value": "8 (season 1)",
+      "sourceIds": [
+        "screen05-ahsoka-young"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "1 released season reviewed",
+      "sourceIds": [
+        "screen05-ahsoka-young"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2023 (released season reviewed)",
+      "sourceIds": [
+        "screen05-ahsoka-young"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2023-08-22",
+      "sourceIds": [
+        "screen05-ahsoka-date"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US Disney+ two-episode premiere at 6 p.m. Pacific; earlier August 23 plan was changed.",
+      "sourceIds": [
+        "screen05-ahsoka-date"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "format",
+    "before": {
+      "value": "Live-action series",
+      "source_id": "official-ahsoka",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action series",
+      "sourceIds": [
+        "screen05-ahsoka-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:ahsoka",
+    "field": "announced_next_season",
+    "before": null,
+    "after": {
+      "value": "Season 2 announced for January 20, 2027; not yet released at this review.",
+      "sourceIds": [
+        "screen05-ahsoka-season2"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "summary",
+    "before": "Four children find themselves far from home in a coming-of-age space adventure.",
+    "after": "Four children stumble into a journey far beyond home aboard an old starship. Their search for a route back brings them into the company of a mysterious stranger and dangerous pirates."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "creator",
+    "before": {
+      "value": "Jon Watts and Christopher Ford",
+      "source_id": "official-skeleton-crew",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Jon Watts, Christopher Ford",
+      "sourceIds": [
+        "screen05-skeleton-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "writer",
+    "before": null,
+    "after": {
+      "value": "Christopher Ford, Jon Watts; Myung Joh Wesner (two episodes)",
+      "sourceIds": [
+        "screen05-skeleton-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "director",
+    "before": null,
+    "after": {
+      "value": "Jon Watts, David Lowery, Daniel Kwan, Daniel Scheinert, Jake Schreier, Bryce Dallas Howard, Lee Isaac Chung (season 1)",
+      "sourceIds": [
+        "screen05-skeleton-directors"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Christopher Ford, Jon Watts, Jon Favreau, Dave Filoni, Kathleen Kennedy, Colin Wilson",
+      "sourceIds": [
+        "screen05-skeleton-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Mick Giacchino",
+      "sourceIds": [
+        "screen05-skeleton-music"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "value": "8 (season 1)",
+      "sourceIds": [
+        "screen05-skeleton-directors"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "1 released season reviewed",
+      "sourceIds": [
+        "screen05-skeleton-directors"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2024–2025 (season 1)",
+      "sourceIds": [
+        "screen05-skeleton-finale",
+        "screen05-skeleton-date"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2024-12-02",
+      "sourceIds": [
+        "screen05-skeleton-date"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US Disney+ two-episode premiere at 6 p.m. Pacific; the December 3 plan was advanced.",
+      "sourceIds": [
+        "screen05-skeleton-date"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:skeleton-crew",
+    "field": "format",
+    "before": {
+      "value": "Live-action series",
+      "source_id": "official-skeleton-crew",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action series",
+      "sourceIds": [
+        "screen05-skeleton-theaters"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "summary",
+    "before": "A mystery unfolds in a period before the prequel trilogy.",
+    "after": "A former Jedi learner is caught up in an investigation into attacks on Jedi. As she reunites with her old teacher, the search exposes competing accounts of a tragedy shared by two sisters."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "creator",
+    "before": {
+      "value": "Leslye Headland",
+      "source_id": "official-acolyte",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Leslye Headland",
+      "sourceIds": [
+        "screen05-acolyte-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "showrunner",
+    "before": null,
+    "after": {
+      "value": "Leslye Headland",
+      "sourceIds": [
+        "screen05-acolyte-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "writer",
+    "before": null,
+    "after": {
+      "value": "Leslye Headland, Jason Micallef, Charmaine DeGraté, Jasmyne Flournoy, Eileen Shim, Claire Kiechel, Kor Adana, Cameron Squires, Jocelyn Bioh, Jen Richards (season 1; episode scope in credits)",
+      "sourceIds": [
+        "screen05-acolyte-wga"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "director",
+    "before": null,
+    "after": {
+      "value": "Leslye Headland, Kogonada, Alex Garcia Lopez, Hanelle Culpepper (season 1)",
+      "sourceIds": [
+        "screen05-acolyte-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Leslye Headland, Kathleen Kennedy, Simon Emanuel, Jeff F. King, Jason Micallef",
+      "sourceIds": [
+        "screen05-acolyte-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Michael Abels",
+      "sourceIds": [
+        "screen05-acolyte-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "value": "8 (season 1)",
+      "sourceIds": [
+        "screen05-acolyte-twins"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "1 released season reviewed",
+      "sourceIds": [
+        "screen05-acolyte-guide"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2024",
+      "sourceIds": [
+        "screen05-acolyte-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2024-06-04",
+      "sourceIds": [
+        "screen05-acolyte-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US Disney+ two-episode streaming premiere; selected US cinema previews were held June 3.",
+      "sourceIds": [
+        "screen05-acolyte-launch"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:acolyte",
+    "field": "format",
+    "before": {
+      "value": "Live-action series",
+      "source_id": "official-acolyte",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Live-action series",
+      "sourceIds": [
+        "screen05-acolyte-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "summary",
+    "before": "An animated chapter follows Maul after the events of The Clone Wars.",
+    "after": "In the early Imperial era, Maul attempts to rebuild his underworld power on Janix. His ambitions intersect with local law enforcement and a young Jedi learner searching for a future."
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "creator",
+    "before": {
+      "value": "Dave Filoni",
+      "source_id": "official-maul-shadow-lord",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Dave Filoni",
+      "sourceIds": [
+        "screen05-maul-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "developed_by",
+    "before": null,
+    "after": {
+      "value": "Dave Filoni, Matt Michnovetz",
+      "sourceIds": [
+        "screen05-maul-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "supervising_director",
+    "before": null,
+    "after": {
+      "value": "Brad Rau",
+      "sourceIds": [
+        "screen05-maul-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "head_writer",
+    "before": null,
+    "after": {
+      "value": "Matt Michnovetz",
+      "sourceIds": [
+        "screen05-maul-cast"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "executive_producer",
+    "before": null,
+    "after": {
+      "value": "Dave Filoni, Athena Yvette Portillo, Matt Michnovetz, Brad Rau, Carrie Beck, Josh Rimes",
+      "sourceIds": [
+        "screen05-maul-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "composer",
+    "before": null,
+    "after": {
+      "value": "Kevin Kiner, Sean Kiner, Deana Kiner",
+      "sourceIds": [
+        "screen05-maul-music"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "value": "10 (season 1)",
+      "sourceIds": [
+        "screen05-maul-series"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "seasons",
+    "before": null,
+    "after": {
+      "value": "1 released season reviewed",
+      "sourceIds": [
+        "screen05-maul-season2",
+        "screen05-maul-cast"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "release_years",
+    "before": null,
+    "after": {
+      "value": "2026 (released season reviewed)",
+      "sourceIds": [
+        "screen05-maul-series"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "release_date",
+    "before": null,
+    "after": {
+      "value": "2026-04-06",
+      "sourceIds": [
+        "screen05-maul-series"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "release_scope",
+    "before": null,
+    "after": {
+      "value": "US Disney+ two-episode first-season premiere; finale May 4. Announced season 2 is not counted as released.",
+      "sourceIds": [
+        "screen05-maul-rollout"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "format",
+    "before": {
+      "value": "Animated series",
+      "source_id": "official-maul-shadow-lord",
+      "review_status": "reference"
+    },
+    "after": {
+      "value": "Animated series",
+      "sourceIds": [
+        "screen05-maul-production"
+      ],
+      "reviewStatus": "verified"
+    }
+  },
+  {
+    "batch": "pilot-05",
+    "recordId": "series:maul-shadow-lord",
+    "field": "announced_next_season",
+    "before": null,
+    "after": {
+      "value": "Season 2 confirmed in development; release date not established by the reviewed announcement.",
+      "sourceIds": [
+        "screen05-maul-season2"
+      ],
+      "reviewStatus": "verified"
+    }
+  }
+]

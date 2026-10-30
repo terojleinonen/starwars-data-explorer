@@ -1,0 +1,1791 @@
+{
+  "version": 1,
+  "id": "PROFILE-08",
+  "checkedAt": "2026-10-30",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "Five existing Y-wing, A-wing, Vader TIE Advanced, Fett Firespray and Naboo Royal Starship dossiers: all sixty inherited fields assessed, sourced nominal dimensions and individual/type/variant boundaries. No new records, episodes, credits, dates or editions.",
+  "sources": [
+    {
+      "id": "profile08-y-wing-starfighter",
+      "title": "Y-wing Starfighter — official Databank",
+      "url": "https://www.starwars.com/databank/y-wing-starfighter",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, current nominal 23.4 m dimension, named work list and all twelve History Gallery captions read 30 October 2026. Republic/Alliance design family and selected pilot/weapon context. The dimension is not independently established for every BTL subtype or the Resistance BTA successor."
+    },
+    {
+      "id": "profile08-a-wing-fighter",
+      "title": "A-wing Fighter — official Databank",
+      "url": "https://www.starwars.com/databank/a-wing-fighter",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, current nominal 6.9 m length and named work list read 30 October 2026. Family-level description spans Alliance and later Resistance use; it does not establish the inherited exact RZ-1 model label, manufacturer, seating or universal specifications across variants."
+    },
+    {
+      "id": "profile08-darth-vader-s-tie-fighter",
+      "title": "Darth Vader’s TIE Fighter — official Databank",
+      "url": "https://www.starwars.com/databank/darth-vader-s-tie-fighter",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, named Vader experimental fighter, current 5.8 m dimension and A New Hope/Rebels work list. Not the Grand Inquisitor’s distinct prototype, ordinary TIE/LN or a manufacturer/operating specification sheet."
+    },
+    {
+      "id": "profile08-Naboo-Royal-Starship",
+      "title": "Naboo Royal Starship — official Databank",
+      "url": "https://www.starwars.com/databank/Naboo-Royal-Starship",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, explicit J-type 327 Nubian identity, 76 m length, lack of offensive weapons, shields, hyperdrive and Ric Olie piloting. No exact numerical hyperdrive rating, manufacturer, seating or operational statistics established."
+    },
+    {
+      "id": "profile08-resistance-y-wing-starfighter",
+      "title": "Resistance Y-wing starfighter — official Databank",
+      "url": "https://www.starwars.com/databank/resistance-y-wing-starfighter",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Boundary evidence only: the later Resistance design is explicitly BTA. Its Rise of Skywalker context is not used to certify the inherited BTL model, every earlier dimension or a new earlier-ship appearance."
+    },
+    {
+      "id": "profile08-a-wing-trainer-rz-1t",
+      "title": "A-wing trainer (RZ-1T) — official Databank",
+      "url": "https://www.starwars.com/databank/a-wing-trainer-rz-1t",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Boundary evidence only: named two-occupant training design used by Kanan/Ezra. Training occupancy is not a standard A-wing crew or passenger specification and does not automatically create two new piloting links to the generic fighter."
+    },
+    {
+      "id": "profile08-ric-olie",
+      "title": "Ric Olie — official Databank",
+      "url": "https://www.starwars.com/databank/ric-olie",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Named Royal Starship pilot and Bravo Flight leader. Piloting a named vessel is not proof of the vessel’s full crew requirement, nor does this review assess Ric’s legacy character statistics."
+    },
+    {
+      "id": "profile08-tie-model-label",
+      "title": "Darth Vader Bow TIE Cookies — official introductory model label",
+      "url": "https://www.starwars.com/news/darth-vader-bow-tie-fighter-cookies",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Jenn Fujikawa, 14 June 2018, opening lore introduction names TIE Advanced X1 and explicitly connects it with Darth Vader’s experimental fighter. Official lifestyle feature, not a technical sheet: only the model name is used. Recipe, artwork and cookie dimensions are not imported or interpreted as vessel data."
+    }
+  ],
+  "sourceUpdates": [],
+  "records": [
+    {
+      "id": "starships:11",
+      "summary": {
+        "text": "Y-wings serve Republic and rebel pilots in fighter and bomber roles. Their long service includes the campaign against the Malevolence and Gold Squadron’s attack at Yavin; later Resistance craft belong to an evolved design.",
+        "evidence": [
+          {
+            "sourceId": "profile08-y-wing-starfighter",
+            "locator": "Main profile and selected metadata/history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as current-canon foundation",
+            "note": "Current screen vessel/station identity, not certification of old numerical metadata."
+          },
+          {
+            "sourceId": "profile08-y-wing-starfighter",
+            "locator": "Main profile and named screen appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy vessel or station: original short description, all twelve inherited fields assessed, explicit individual/type/station boundaries and selected work/context links. Numeric ID, title, slug and origin retained.",
+      "limitations": [
+        "The current generic page’s 23.4 m differs from the inherited 14. The scope spans Republic and stripped-down Alliance designs; this is a source-profile nominal dimension, not a universal measurement of every BTL model or every exposed-hull configuration. The exact inherited BTL label remains unestablished in this selected source set.",
+        "The separately documented Resistance BTA is not merged into the inherited BTL specification. Its Rise of Skywalker scene is not added here. The current official work list names Andor and The Mandalorian and Grogu; those work-level contexts do not identify an episode, scene variant or a new date.",
+        "The old atmosphere value is literally 1000km, without a time denominator; it is not silently repaired into km/h. No manufacturer, cost, crew/passenger requirement, cargo mass, consumable endurance, numerical hyperdrive rating or MGLT established. A specific C-3PO passenger scene does not certify a fixed passenger count.",
+        "Only the stated details and selected connections are checked. Raw unestablished values and source IDs remain in the audit but are withheld from current published facts and collection previews. Other legacy relationships remain pending.",
+        "No new records, episode rows, credits, dates or editions. Original-US release research scope retained. A public reference is not an open text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "length",
+          "value": "23.4 m",
+          "expectedValue": "14",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Dimensions / Length 23.4 m",
+              "note": "Current nominal dimension on the generic Y-wing page. Replaces inherited 14; does not establish every BTL subtype, stripped hull or later BTA configuration."
+            }
+          ]
+        },
+        {
+          "key": "starship_class",
+          "value": "Starfighter and bomber",
+          "expectedValue": "assault starfighter",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Main profile / dogfights and bombing capital ships and ground targets",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "identity_scope",
+          "value": "Republic/Alliance Y-wing design family; the Resistance BTA is a later version",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Main profile and History Gallery captions 1–12 / Republic and Alliance service",
+              "note": ""
+            },
+            {
+              "sourceId": "profile08-resistance-y-wing-starfighter",
+              "locator": "Main profile / explicitly later BTA Y-wing",
+              "note": "Different version; not corroboration of an exact BTL model label or a uniform dimension."
+            }
+          ]
+        },
+        {
+          "key": "combat_role",
+          "value": "Fighter engagements and bombing attacks against ships and ground targets",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Main profile / selected combat roles",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "armament",
+          "value": "Proton torpedoes used by Alliance Y-wings at Yavin",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "History Gallery captions 9–11 / Gold Squadron and proton-torpedo attack",
+              "note": "Selected Alliance combat equipment, not an exhaustive cross-variant weapons inventory."
+            }
+          ]
+        },
+        {
+          "key": "protection",
+          "value": "Shields and armor protect Alliance-era fighters during the Yavin attack",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "History Gallery caption 10 / shielding and armor",
+              "note": "Qualitative protection only; no shield strength or inherited crew capacity established."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "model",
+          "expectedValue": "BTL Y-wing",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration.",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "manufacturer",
+          "expectedValue": "Koensayr Manufacturing",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "cost_in_credits",
+          "expectedValue": "134999",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "max_atmosphering_speed",
+          "expectedValue": "1000km",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The inherited value is literally 1000km, without a time denominator. The reviewed source supplies no atmospheric speed. It is not silently repaired to km/h; raw text and source remain recoverable.",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "crew",
+          "expectedValue": "2",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "passengers",
+          "expectedValue": "0",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "cargo_capacity",
+          "expectedValue": "110",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "consumables",
+          "expectedValue": "1 week",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "hyperdrive_rating",
+          "expectedValue": "1.0",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class.",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "MGLT",
+          "expectedValue": "80",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Appearances / A New Hope",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "films:mandalorian-grogu",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Appearances / The Mandalorian and Grogu",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "series:andor",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Appearances / Andor",
+              "note": "Series-level context only; no new episode-level assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level context only; no new episode-level assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level context only; no new episode-level assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "people:3",
+          "relation": "pilots",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "History Gallery caption 8 / explicitly Artoo’s capable piloting during escape",
+              "note": "Named pilot role, not a required human/droid crew count."
+            }
+          ]
+        },
+        {
+          "targetId": "people:2",
+          "relation": "transported",
+          "evidence": [
+            {
+              "sourceId": "profile08-y-wing-starfighter",
+              "locator": "History Gallery caption 8 / C-3PO and R2-D2 escape in a Y-wing",
+              "note": "Onboard character in a specific event, not proof of nominal passenger capacity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:28",
+      "summary": {
+        "text": "A-wings are fast fighters used for rapid attacks by the Rebel Alliance and later evolved for Resistance service. The family includes specialized training craft, while an Alliance A-wing delivers the bridge strike that dooms Executor at Endor.",
+        "evidence": [
+          {
+            "sourceId": "profile08-a-wing-fighter",
+            "locator": "Main profile and selected metadata/history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as current-canon foundation",
+            "note": "Current screen vessel/station identity, not certification of old numerical metadata."
+          },
+          {
+            "sourceId": "profile08-a-wing-fighter",
+            "locator": "Main profile and named screen appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy vessel or station: original short description, all twelve inherited fields assessed, explicit individual/type/station boundaries and selected work/context links. Numeric ID, title, slug and origin retained.",
+      "limitations": [
+        "The current page’s 6.9 m is a nominal dimension for its family-level profile, not proof that the RZ-1, RZ-1T and evolved Resistance design all share that size. The exact inherited RZ-1 label and combined manufacturer string remain unestablished.",
+        "The RZ-1T trainer has two occupants in its own source; that fact does not verify standard crew or passengers and does not create generic-fighter piloting links for Kanan and Ezra. The Last Jedi connection is explicitly family-level and does not move Alliance technical figures into a later configuration.",
+        "The old Arvel Crynyd pilot link remains legacy: the selected Executor source names an A-wing but not its pilot. No cost, atmospheric speed, crew/passenger count, cargo mass, consumables, numerical hyperdrive rating or MGLT established.",
+        "Only the stated details and selected connections are checked. Raw unestablished values and source IDs remain in the audit but are withheld from current published facts and collection previews. Other legacy relationships remain pending.",
+        "No new records, episode rows, credits, dates or editions. Original-US release research scope retained. A public reference is not an open text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "length",
+          "value": "6.9 m",
+          "expectedValue": "9.6",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Dimensions / Length 6.9 m",
+              "note": "Current nominal dimension on the family-level Databank page, replacing 9.6; not every fighter, trainer or Resistance variant."
+            }
+          ]
+        },
+        {
+          "key": "starship_class",
+          "value": "Starfighter",
+          "expectedValue": "Starfighter",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Main profile / explicitly A-wing starfighter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "identity_scope",
+          "value": "A-wing design family; trainer and later evolved Resistance configurations are not a single technical specification",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Main profile / Alliance service and continued evolution",
+              "note": ""
+            },
+            {
+              "sourceId": "profile08-a-wing-trainer-rz-1t",
+              "locator": "Main profile / explicitly RZ-1T training craft with room for instructor and learner",
+              "note": "Separate configuration, not the standard fighter’s certified seating."
+            }
+          ]
+        },
+        {
+          "key": "combat_role",
+          "value": "Rapid strikes",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Main profile / lightning-strike role",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "propulsion",
+          "value": "Two large engines",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Main profile / twin engines",
+              "note": "Qualitative design feature only; no inherited numerical speed certified."
+            }
+          ]
+        },
+        {
+          "key": "relative_speed",
+          "value": "Described as faster than the TIE interceptor",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Main profile / explicit comparative speed",
+              "note": "Comparison only; not a numerical MGLT or atmospheric speed measurement."
+            }
+          ]
+        },
+        {
+          "key": "armament",
+          "value": "Pivoting wingtip laser cannons",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Main profile / pivoting laser cannons",
+              "note": "No exact count inferred from the page’s ambiguous pair/wingtip wording."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "model",
+          "expectedValue": "RZ-1 A-wing Interceptor",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration.",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "manufacturer",
+          "expectedValue": "Alliance Underground Engineering, Incom Corporation",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "cost_in_credits",
+          "expectedValue": "175000",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "max_atmosphering_speed",
+          "expectedValue": "1300",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "crew",
+          "expectedValue": "1",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The standard fighter’s required crew is not established. The separately named RZ-1T trainer’s two occupants do not certify the inherited one-person standard crew or a standard passenger capacity.",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "passengers",
+          "expectedValue": "0",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "cargo_capacity",
+          "expectedValue": "40",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "consumables",
+          "expectedValue": "1 week",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "hyperdrive_rating",
+          "expectedValue": "1.0",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class.",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "MGLT",
+          "expectedValue": "120",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "films:last-jedi",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Appearances / The Last Jedi",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile08-a-wing-fighter",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level context only; no new episode-level assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "starships:15",
+          "relation": "attacked",
+          "evidence": [
+            {
+              "sourceId": "profile07-executor",
+              "locator": "Main profile / a rebel A-wing strikes Executor’s command bridge",
+              "note": "A family-level craft connection, not evidence naming Arvel Crynyd or assigning a fixed model to every A-wing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:13",
+      "summary": {
+        "text": "Darth Vader uses an experimental TIE fighter to attack the rebels above the first Death Star. This dossier follows Vader’s craft and its named screen contexts, with the Grand Inquisitor’s prototype kept separate.",
+        "evidence": [
+          {
+            "sourceId": "profile08-darth-vader-s-tie-fighter",
+            "locator": "Main profile and selected metadata/history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Reign of the Empire",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as current-canon foundation",
+            "note": "Current screen vessel/station identity, not certification of old numerical metadata."
+          },
+          {
+            "sourceId": "profile08-darth-vader-s-tie-fighter",
+            "locator": "Main profile and named screen appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy vessel or station: original short description, all twelve inherited fields assessed, explicit individual/type/station boundaries and selected work/context links. Numeric ID, title, slug and origin retained.",
+      "limitations": [
+        "The model label is explicitly named in an official lifestyle-feature introduction; that source is used only for the label. The fighter’s own Databank establishes Vader, the experimental design, blaster cannons and 5.8 m dimension. The inherited full Twin Ion Engine wording is normalized rather than treated as independently sourced prose.",
+        "The Grand Inquisitor’s prototype is separate. Its S-foils and tracker launcher are not transferred, and Sienar’s attribution for the tracking projectile is not proof of Vader’s craft manufacturer. Ordinary single-pilot TIE descriptions do not verify this vessel’s inherited crew capacity.",
+        "No manufacturer, price, atmospheric speed, crew/passenger count, cargo, consumables, hyperdrive rating or MGLT established. This work-level Rebels connection does not retrospectively identify a particular finale fighter or create an episode row.",
+        "Only the stated details and selected connections are checked. Raw unestablished values and source IDs remain in the audit but are withheld from current published facts and collection previews. Other legacy relationships remain pending.",
+        "No new records, episode rows, credits, dates or editions. Original-US release research scope retained. A public reference is not an open text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "model",
+          "value": "TIE Advanced x1",
+          "expectedValue": "Twin Ion Engine Advanced x1",
+          "evidence": [
+            {
+              "sourceId": "profile08-tie-model-label",
+              "locator": "Opening lore paragraph / TIE Advanced X1 tied to Vader’s experimental fighter",
+              "note": "Official lifestyle-feature model name only; not a technical specification or an independent expansion of TIE into the inherited long wording."
+            },
+            {
+              "sourceId": "vader-identity",
+              "locator": "History / A New Hope attack / explicitly TIE Advanced starfighter",
+              "note": "Connects the named screen vessel to the model-name introduction; no additional technical values."
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "value": "5.8 m",
+          "expectedValue": "9.2",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Dimensions / Length 5.8 m",
+              "note": "Current nominal length for Vader’s named fighter, replacing 9.2. Not the Inquisitor’s distinct prototype."
+            }
+          ]
+        },
+        {
+          "key": "starship_class",
+          "value": "Experimental starfighter",
+          "expectedValue": "Starfighter",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Main profile / distinctive experimental TIE fighter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "identity_scope",
+          "value": "Vader’s experimental TIE fighter, distinct from the Grand Inquisitor’s prototype",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Main profile / named pilot and experimental fighter",
+              "note": ""
+            },
+            {
+              "sourceId": "supp12-inquisitor-s-tie-advanced-prototype-databank",
+              "locator": "Main profile / distinct Inquisitor craft with S-foils and tracker launcher",
+              "note": "Identity boundary only."
+            }
+          ]
+        },
+        {
+          "key": "armament",
+          "value": "Blaster cannons",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Main profile / cannons used against rebel starfighters",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "combat_context",
+          "value": "Vader attacks rebel starfighters above the first Death Star",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Main profile / named Death Star engagement",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "manufacturer",
+          "expectedValue": "Sienar Fleet Systems",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "cost_in_credits",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved.",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "max_atmosphering_speed",
+          "expectedValue": "1200",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "crew",
+          "expectedValue": "1",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "passengers",
+          "expectedValue": "0",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "cargo_capacity",
+          "expectedValue": "150",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "consumables",
+          "expectedValue": "5 days",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "hyperdrive_rating",
+          "expectedValue": "1.0",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class.",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "MGLT",
+          "expectedValue": "105",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Appearances / A New Hope",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level context only; no new episode-level assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "people:4",
+          "relation": "pilots",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Main profile / Vader explicitly pilots the fighter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:9",
+          "relation": "operated_near",
+          "evidence": [
+            {
+              "sourceId": "profile08-darth-vader-s-tie-fighter",
+              "locator": "Main profile / explicitly above the first Death Star",
+              "note": "Space combat near DS-1, not Death Star II and not a docking/ownership claim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:21",
+      "summary": {
+        "text": "Jango Fett’s pursuit ship passes to Boba and survives damage, repair and changes of possession. The same vessel, historically named Slave I, becomes a tool of Boba’s bounty-hunting career and later missions.",
+        "evidence": [
+          {
+            "sourceId": "supp09-boba-fett-s-starship-official-databank",
+            "locator": "Main profile and selected metadata/history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as current-canon foundation",
+            "note": "Current screen vessel/station identity, not certification of old numerical metadata."
+          },
+          {
+            "sourceId": "supp09-boba-fett-s-starship-official-databank",
+            "locator": "Main profile and named screen appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy vessel or station: original short description, all twelve inherited fields assessed, explicit individual/type/station boundaries and selected work/context links. Numeric ID, title, slug and origin retained.",
+      "limitations": [
+        "The existing Slave 1 title, numeric ID and slug remain; Slave I in source captions and the current Boba Fett’s starship heading describe the same inherited vessel. A changed public heading does not create a new hull or erase the historic name.",
+        "The source gives a modified KSE Firespray-31-class craft; KSE alone is not treated as independent expansion of the inherited full Kuat Systems Engineering manufacturer string. Current selected sources do not establish 21.5 m length, cost, speed, fixed crew/passengers, cargo, consumables, numerical hyperdrive rating or MGLT.",
+        "Aurra’s actual piloting and Hondo/Katooni’s operation appear in history, but no new character profiles or unsourced pilot roles are created in this five-profile batch. The Book of Boba Fett remains a catalogue/inventory task; its absence from this old work list is not an absence claim. No new film or episode contexts are inferred merely from Boba’s other appearances.",
+        "Only the stated details and selected connections are checked. Raw unestablished values and source IDs remain in the audit but are withheld from current published facts and collection previews. Other legacy relationships remain pending.",
+        "No new records, episode rows, credits, dates or editions. Original-US release research scope retained. A public reference is not an open text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "model",
+          "value": "Modified Firespray-31-class patrol and attack craft",
+          "expectedValue": "Firespray-31-class patrol and attack",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History Gallery caption 1 / modified KSE Firespray-31-class patrol and attack craft",
+              "note": "Supports the model family and modified individual; KSE is not expanded into a manufacturer name without separate evidence."
+            }
+          ]
+        },
+        {
+          "key": "starship_class",
+          "value": "Pursuit and patrol craft",
+          "expectedValue": "Patrol craft",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Main profile / pursuit craft; History Gallery caption 1 / patrol and attack craft",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "known_as",
+          "value": "Slave I; the same vessel currently profiled as Boba Fett’s starship",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History image captions and Related / Jango’s named Slave I; main profile / inheritance",
+              "note": "Numeric ID, inherited title Slave 1 and slug retained; no duplicate ship."
+            }
+          ]
+        },
+        {
+          "key": "ownership_history",
+          "value": "Jango Fett, then Boba; Hondo repairs and possesses it before Boba reclaims it",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Main profile and History / inheritance, Hondo repair and Boba’s reclamation",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "armament",
+          "value": "Jango-era laser cannons and seismic charges",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History / Geonosis pursuit; History Gallery captions 2–4",
+              "note": "Time-scoped selected equipment, not every configuration or full weapons inventory."
+            }
+          ]
+        },
+        {
+          "key": "configuration_history",
+          "value": "Damaged during Aurra’s escape, rebuilt by Hondo, later reclaimed by Boba",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History / Florrum crash, repair and later reclamation; History Gallery captions 10–12",
+              "note": "Repaired named vessel, not another Firespray hull or a new record."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "manufacturer",
+          "expectedValue": "Kuat Systems Engineering",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected history caption abbreviates the craft label as KSE but does not independently expand it into the inherited full company name. That exact manufacturer string remains unestablished here; raw value retained.",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "cost_in_credits",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved.",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "expectedValue": "21.5",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "max_atmosphering_speed",
+          "expectedValue": "1000",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "crew",
+          "expectedValue": "1",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "passengers",
+          "expectedValue": "6",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "cargo_capacity",
+          "expectedValue": "70000",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "consumables",
+          "expectedValue": "1 month",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "hyperdrive_rating",
+          "expectedValue": "3.0",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class.",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "MGLT",
+          "expectedValue": "70",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Appearances / Attack of the Clones",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "series:mandalorian",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Appearances / The Mandalorian",
+              "note": "Series-level context only; no new episode-level assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level context only; no new episode-level assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "people:22",
+          "relation": "pilots",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History / image explicitly Boba Fett piloting Slave I",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:69",
+          "relation": "pilots",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History / Jango’s active Geonosis pursuit and weapons; History Gallery captions 3–4",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:22",
+          "relation": "owned_by",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Main profile and History / inheritance and later reclamation",
+              "note": "Boba’s ownership, with temporary Hondo possession described separately."
+            }
+          ]
+        },
+        {
+          "targetId": "people:69",
+          "relation": "formerly_owned_by",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "Main profile and History / Jango’s earlier ownership",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:hondo-ohnaka",
+          "relation": "formerly_owned_by",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History / Hondo repaired it and added it to his collection",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:hondo-ohnaka",
+          "relation": "repaired_by",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History / repairs after Aurra’s crash",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:10",
+          "relation": "operated_from",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History / Jango based on Kamino; History Gallery captions 1–3 / departure",
+              "note": "Named ship’s base/departure context, not manufacture or a planetary surface statistic."
+            }
+          ]
+        },
+        {
+          "targetId": "planets:11",
+          "relation": "visited",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History / Geonosis pursuit; History Gallery captions 3–4 / arrival and descent",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:14",
+          "relation": "transported",
+          "evidence": [
+            {
+              "sourceId": "supp09-boba-fett-s-starship-official-databank",
+              "locator": "History / carbonite-frozen Solo aboard after Cloud City; Video / Put Captain Solo in the Cargo Hold",
+              "note": "Specific transported captive, not proof of a six-passenger standard capacity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:40",
+      "summary": {
+        "text": "Queen Amidala escapes Naboo’s blockade aboard a polished royal transport flown by Ric Olié. Damage to its hyperdrive forces a stop on Tatooine, where the group obtains a replacement component before continuing the mission.",
+        "evidence": [
+          {
+            "sourceId": "profile08-Naboo-Royal-Starship",
+            "locator": "Main profile and selected metadata/history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Fall of the Jedi",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as current-canon foundation",
+            "note": "Current screen vessel/station identity, not certification of old numerical metadata."
+          },
+          {
+            "sourceId": "profile08-Naboo-Royal-Starship",
+            "locator": "Main profile and named screen appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy vessel or station: original short description, all twelve inherited fields assessed, explicit individual/type/station boundaries and selected work/context links. Numeric ID, title, slug and origin retained.",
+      "limitations": [
+        "This dossier follows the Phantom Menace J-type 327 vessel. Other legacy Naboo diplomatic barges, yachts and star skiffs retain their own records; no later appearance or manufacturer is assigned simply because another silver Naboo craft looks related.",
+        "The inherited model and 76 m dimension are established. The source does not certify the yacht class label or combined Theed/Nubia manufacturer string. Offensive weapons are explicitly absent, but shields and a hyperdrive are explicitly present.",
+        "T-14 is the replacement generator designation, not a hyperdrive class. No price, atmospheric speed, crew/passenger capacity, cargo mass, consumables, numerical rating 1.8 or MGLT established. Ric’s named piloting and Padmé’s carriage do not establish eight crew or certify another linked person’s statistics.",
+        "Only the stated details and selected connections are checked. Raw unestablished values and source IDs remain in the audit but are withheld from current published facts and collection previews. Other legacy relationships remain pending.",
+        "No new records, episode rows, credits, dates or editions. Original-US release research scope retained. A public reference is not an open text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "model",
+          "value": "J-type 327 Nubian royal starship",
+          "expectedValue": "J-type 327 Nubian royal starship",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Main profile / explicitly J-type 327 Nubian vessel",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "value": "76 m",
+          "expectedValue": "76",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Dimensions / Length 76 m",
+              "note": "Confirms the inherited numerical length with explicit metre units."
+            }
+          ]
+        },
+        {
+          "key": "armament",
+          "value": "No offensive weaponry",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Main profile / explicitly lacks offensive weaponry",
+              "note": "An explicit absence of offensive weapons; not an inference of absent shielding or every possible defensive system."
+            }
+          ]
+        },
+        {
+          "key": "protection",
+          "value": "Strong shields",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Main profile / explicit shields",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "propulsion",
+          "value": "Equipped with a hyperdrive; numerical class not established here",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Main profile / damaged hyperdrive",
+              "note": "Presence and damage do not verify inherited rating 1.8."
+            }
+          ]
+        },
+        {
+          "key": "replacement_component",
+          "value": "T-14 hyperdrive generator obtained on Tatooine",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Main profile / named replacement generator",
+              "note": "A component designation, not a numerical hyperdrive rating."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "manufacturer",
+          "expectedValue": "Theed Palace Space Vessel Engineering Corps, Nubia Star Drives",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "cost_in_credits",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved.",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "max_atmosphering_speed",
+          "expectedValue": "920",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "crew",
+          "expectedValue": "8",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "passengers",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved.",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "cargo_capacity",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved.",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "consumables",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved.",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "hyperdrive_rating",
+          "expectedValue": "1.8",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class.",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "MGLT",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved.",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "starship_class",
+          "expectedValue": "yacht",
+          "expectedSourceId": "legacy-starships",
+          "status": "unestablished",
+          "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero.",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Reviewed main profile and selected metadata / field-assessment scope only",
+              "note": "Research assessment, not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Appearances / The Phantom Menace",
+              "note": "Selected work-level context; no assertion about every edition or every scene."
+            }
+          ]
+        },
+        {
+          "targetId": "people:39",
+          "relation": "pilots",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Main profile / explicitly piloted by Ric Olie",
+              "note": ""
+            },
+            {
+              "sourceId": "profile08-ric-olie",
+              "locator": "Main profile / flying Amidala’s Royal Starship to and from Naboo",
+              "note": "Named pilot evidence only; Ric’s character dossier is not newly reviewed here."
+            }
+          ]
+        },
+        {
+          "targetId": "people:35",
+          "relation": "used_by",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Main profile / Queen Amidala and retinue escape aboard",
+              "note": "Passenger/royal user context, not proof that Padmé piloted or required seating count."
+            }
+          ]
+        },
+        {
+          "targetId": "planets:8",
+          "relation": "operated_from",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Main profile / Naboo blockade escape; Locations / Naboo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:1",
+          "relation": "visited",
+          "evidence": [
+            {
+              "sourceId": "profile08-Naboo-Royal-Starship",
+              "locator": "Main profile / damaged vessel reaches Tatooine for replacement generator",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

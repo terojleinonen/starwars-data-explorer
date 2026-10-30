@@ -1,0 +1,2159 @@
+{
+  "batch": "PROFILE-07",
+  "checkedAt": "2026-10-30",
+  "changes": [
+    {
+      "recordId": "starships:10",
+      "field": "profile",
+      "before": {
+        "id": "starships:10",
+        "category": "starships",
+        "legacy_id": "10",
+        "slug": "millennium-falcon",
+        "title": "Millennium Falcon",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "A heavily modified light freighter, the Millennium Falcon passes from Lando to Han and becomes home to Han and Chewbacca. Its changing owners and crews adapt the ship for smuggling, rescue and decisive rebel and Resistance missions.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "model",
+      "before": {
+        "record_id": "starships:10",
+        "key": "model",
+        "value": "YT-1300 light freighter",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "YT-1300 light freighter",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-falcon-feature",
+            "locator": "Opening and Specs and Features / explicitly YT-1300",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "starships:10",
+        "key": "manufacturer",
+        "value": "Corellian Engineering Corporation",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Corellian Engineering Corporation",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-falcon-manufacturer",
+            "locator": "Opening lore paragraph / company explicitly built the Millennium Falcon",
+            "note": "Official lifestyle-feature introduction; not a technical sheet or inference from Corellian origin."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "length",
+      "before": {
+        "record_id": "starships:10",
+        "key": "length",
+        "value": "34.37",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "34.75 m",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Dimensions / Length 34.75 m",
+            "note": "Replaces inherited 34.37 with the current nominal Databank dimension. Not a measurement of every historical exterior or physical film set."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "starship_class",
+      "before": {
+        "record_id": "starships:10",
+        "key": "starship_class",
+        "value": "Light freighter",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Light freighter",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Main profile / modified Corellian light freighter",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "configuration_scope",
+      "before": null,
+      "after": {
+        "value": "Exterior and equipment modified by successive owners; current nominal length is not every historical configuration",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Main profile and Solo history / remodeling, auxiliary craft lost and later form",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "armament",
+      "before": null,
+      "after": {
+        "value": "Han-era modifications include quad lasers and concussion-missile launchers",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-falcon-feature",
+            "locator": "Specs and Features / Han’s subsequent armament modifications",
+            "note": "Owner/time-scoped equipment, not every earlier or later configuration."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "navigation",
+      "before": null,
+      "after": {
+        "value": "L3-37’s brain integrated into the navigation computer during the Kessel escape",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-falcon-feature",
+            "locator": "Specs and Features / L3-37 and astrogation computer",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "starships:10",
+        "key": "cost_in_credits",
+        "value": "100000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "starships:10",
+        "key": "max_atmosphering_speed",
+        "value": "1050",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "crew",
+      "before": {
+        "record_id": "starships:10",
+        "key": "crew",
+        "value": "4",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "passengers",
+      "before": {
+        "record_id": "starships:10",
+        "key": "passengers",
+        "value": "6",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "starships:10",
+        "key": "cargo_capacity",
+        "value": "100000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "consumables",
+      "before": {
+        "record_id": "starships:10",
+        "key": "consumables",
+        "value": "2 months",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "hyperdrive_rating",
+      "before": {
+        "record_id": "starships:10",
+        "key": "hyperdrive_rating",
+        "value": "0.5",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "MGLT",
+      "before": {
+        "record_id": "starships:10",
+        "key": "MGLT",
+        "value": "75",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": {
+        "record_id": "starships:10",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Appearances / A New Hope",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": {
+        "record_id": "starships:10",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": {
+        "record_id": "starships:10",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:force-awakens",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Appearances / The Force Awakens",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:last-jedi",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Appearances / The Last Jedi",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:solo",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Appearances / Solo",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:rise-skywalker",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Appearances / The Rise of Skywalker",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": {
+        "record_id": "starships:10",
+        "target_id": "people:13",
+        "relation": "pilots",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:13",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Original trilogy history and Related / Han and Chewbacca at the controls",
+            "note": "Named pilot/co-pilot roles, not the ship’s fixed crew capacity."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": {
+        "record_id": "starships:10",
+        "target_id": "people:14",
+        "relation": "pilots",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:14",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Original trilogy history / Han at the controls",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": {
+        "record_id": "starships:10",
+        "target_id": "people:25",
+        "relation": "pilots",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:25",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Return history / Lando takes the Falcon into the second Death Star",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": {
+        "record_id": "starships:10",
+        "target_id": "people:31",
+        "relation": "pilots",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:31",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Related / Nien Nunb explicitly Lando’s Falcon co-pilot at Endor",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:10",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:rey",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "film02-millennium-falcon",
+            "locator": "Sequel history / Rey and Chewbacca pilot into the Unknown Regions",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "profile",
+      "before": {
+        "id": "starships:3",
+        "category": "starships",
+        "legacy_id": "3",
+        "slug": "star-destroyer",
+        "title": "Star Destroyer",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Imperial Star Destroyers project the Empire’s military power across star systems. Their weapons and tractor beams support a hangar that carries smaller craft and can hold captured ships; this dossier describes the Imperial type family.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "length",
+      "before": {
+        "record_id": "starships:3",
+        "key": "length",
+        "value": "1,600",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "1600 m",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Dimensions / Length 1600 m",
+            "note": "Nominal dimension of the referenced Imperial family, not every Star Destroyer, named hull or subtype."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "starship_class",
+      "before": {
+        "record_id": "starships:3",
+        "key": "starship_class",
+        "value": "Star Destroyer",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Star Destroyer",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Main profile / Imperial capital-ship identity",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "identity_scope",
+      "before": null,
+      "after": {
+        "value": "Imperial Star Destroyer type family; no individual hull or I/II subtype established",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Main profile and selected dimensions / family-level description",
+            "note": "Do not generalize into Republic attack cruisers or the larger Super Star Destroyer family."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "role",
+      "before": null,
+      "after": {
+        "value": "Capital ship carrying smaller craft and holding captured vessels",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Main profile / belly hangar and embarked/captured craft",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "armament",
+      "before": null,
+      "after": {
+        "value": "Turbolasers and tractor-beam projectors",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Main profile / weapon and tractor-beam emplacements",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "model",
+      "before": {
+        "record_id": "starships:3",
+        "key": "model",
+        "value": "Imperial I-class Star Destroyer",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "starships:3",
+        "key": "manufacturer",
+        "value": "Kuat Drive Yards",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "starships:3",
+        "key": "cost_in_credits",
+        "value": "150000000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "starships:3",
+        "key": "max_atmosphering_speed",
+        "value": "975",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "crew",
+      "before": {
+        "record_id": "starships:3",
+        "key": "crew",
+        "value": "47,060",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "passengers",
+      "before": {
+        "record_id": "starships:3",
+        "key": "passengers",
+        "value": "n/a",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "starships:3",
+        "key": "cargo_capacity",
+        "value": "36000000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "consumables",
+      "before": {
+        "record_id": "starships:3",
+        "key": "consumables",
+        "value": "2 years",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "hyperdrive_rating",
+      "before": {
+        "record_id": "starships:3",
+        "key": "hyperdrive_rating",
+        "value": "2.0",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "MGLT",
+      "before": {
+        "record_id": "starships:3",
+        "key": "MGLT",
+        "value": "60",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "link",
+      "before": {
+        "record_id": "starships:3",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Appearances / A New Hope",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "link",
+      "before": {
+        "record_id": "starships:3",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "link",
+      "before": {
+        "record_id": "starships:3",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:rogue-one",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Appearances / Rogue One",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:andor",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Appearances / Andor",
+            "note": "Series-level context only; no new episode-level assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:rebels",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Appearances / Star Wars Rebels",
+            "note": "Series-level context only; no new episode-level assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:3",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:maul-shadow-lord",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-star-destroyer",
+            "locator": "Appearances / Maul – Shadow Lord",
+            "note": "Series-level context only; no new episode-level assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "profile",
+      "before": {
+        "id": "starships:9",
+        "category": "starships",
+        "legacy_id": "9",
+        "slug": "death-star",
+        "title": "Death Star",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "The first Death Star is a mobile Imperial battle station built around a planet-destroying superlaser. Tarkin uses it against Alderaan, but Luke’s attack at Yavin exploits a weakness that destroys the station.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "model",
+      "before": {
+        "record_id": "starships:9",
+        "key": "model",
+        "value": "DS-1 Orbital Battle Station",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "DS-1 Orbital Battle Station",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star-intel",
+            "locator": "Opening / formal designation DS-1",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "starship_class",
+      "before": {
+        "record_id": "starships:9",
+        "key": "starship_class",
+        "value": "Deep Space Mobile Battlestation",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Mobile space battle station",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "Main profile / space station",
+            "note": "Mobility additionally established by the separately cited hyperdrive field."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "hyperdrive_rating",
+      "before": {
+        "record_id": "starships:9",
+        "key": "hyperdrive_rating",
+        "value": "4.0",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "4",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star-intel",
+            "locator": "Hyperspace paragraph / class 4 hyperdrive",
+            "note": "Preserves the rating meaning while normalizing inherited 4.0; not a speed or journey-time measurement."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "crew",
+      "before": {
+        "record_id": "starships:9",
+        "key": "crew",
+        "value": "342,953",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Over 1.1 million to over 1.2 million, depending on mission; includes garrisons and operations",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star-intel",
+            "locator": "Staffing paragraph / mission-dependent 1.1+ to 1.2+ million",
+            "note": "Replaces 342,953 with the published approximate total staffing scope. This is not a fixed operating crew count or a crew/passenger sum."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "equatorial_diameter",
+      "before": null,
+      "after": {
+        "value": "160 km",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star-intel",
+            "locator": "Closing paragraph / 160 kilometers wide at its equator",
+            "note": "Separate equatorial-diameter field. Does not silently replace the inherited length or describe the second station."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "weapon",
+      "before": null,
+      "after": {
+        "value": "Planet-destroying superlaser",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "Main profile and Weapons / Death Star Superlaser",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "identity_scope",
+      "before": null,
+      "after": {
+        "value": "First Death Star destroyed at Yavin, distinct from the later station near Endor",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "History / Luke destroys the first station",
+            "note": ""
+          },
+          {
+            "sourceId": "profile07-death-star-ii",
+            "locator": "Main profile / explicitly a second station near Endor",
+            "note": "Different station and later wreckage; no new record or measurements imported."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "starships:9",
+        "key": "manufacturer",
+        "value": "Imperial Department of Military Research, Sienar Fleet Systems",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "starships:9",
+        "key": "cost_in_credits",
+        "value": "1000000000000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "length",
+      "before": {
+        "record_id": "starships:9",
+        "key": "length",
+        "value": "120000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "starships:9",
+        "key": "max_atmosphering_speed",
+        "value": "n/a",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "passengers",
+      "before": {
+        "record_id": "starships:9",
+        "key": "passengers",
+        "value": "843,342",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "starships:9",
+        "key": "cargo_capacity",
+        "value": "1000000000000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "consumables",
+      "before": {
+        "record_id": "starships:9",
+        "key": "consumables",
+        "value": "3 years",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "MGLT",
+      "before": {
+        "record_id": "starships:9",
+        "key": "MGLT",
+        "value": "10",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "link",
+      "before": {
+        "record_id": "starships:9",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "Appearances / A New Hope",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:rogue-one",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "Appearances / Rogue One",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:andor",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "Appearances / Andor",
+            "note": "Series-level context only; no new episode-level assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:2",
+        "relation": "destroyed",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "History / Tarkin destroys Alderaan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:11",
+        "relation": "constructed_near",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "History / station took shape in space above Geonosis",
+            "note": "Orbital construction context, not a surface landing or a planet-wide industrial specification."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:3",
+        "relation": "targeted",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star-intel",
+            "locator": "Hyperspace paragraph / pursuit to the rebel base on Yavin 4",
+            "note": "Targeted rebel moon; no claim that the station landed there."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:12",
+        "relation": "commanded_by",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "History / Tarkin oversees project and commands station",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:9",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:1",
+        "relation": "destroyed_by",
+        "evidence": [
+          {
+            "sourceId": "profile07-death-star",
+            "locator": "History / Luke’s proton-torpedo attack destroys station",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "profile",
+      "before": {
+        "id": "starships:22",
+        "category": "starships",
+        "legacy_id": "22",
+        "slug": "imperial-shuttle",
+        "title": "Imperial shuttle",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "The Lambda-class Imperial shuttle carries cargo and passengers, including senior Imperial leaders. Two folding side wings change its silhouette between flight and landing, and its defensive weapons and hyperdrive support independent travel.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "model",
+      "before": {
+        "record_id": "starships:22",
+        "key": "model",
+        "value": "Lambda-class T-4a shuttle",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Lambda-class shuttle",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-shuttle",
+            "locator": "Main profile / explicitly Lambda-class",
+            "note": "Supported family name; exact inherited T-4a suffix is not established by the selected source."
+          },
+          {
+            "sourceId": "profile07-imperial-sentinel-class-shuttle",
+            "locator": "Main profile / Sentinel explicitly a larger cousin of Lambda",
+            "note": "Distinct type; its manufacturer statement is not evidence for Lambda."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "starship_class",
+      "before": {
+        "record_id": "starships:22",
+        "key": "starship_class",
+        "value": "Armed government transport",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Armed multi-purpose transport",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-shuttle",
+            "locator": "Main profile / passenger and cargo duties plus armament",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "wing_configuration",
+      "before": null,
+      "after": {
+        "value": "One fixed central wing and two folding side wings",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-shuttle",
+            "locator": "Main profile / stationary center foil and articulated side wings",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "armament",
+      "before": null,
+      "after": {
+        "value": "Forward, wing-mounted and rear defensive laser batteries",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-shuttle",
+            "locator": "Main profile / distribution of double laser cannons",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "propulsion",
+      "before": null,
+      "after": {
+        "value": "Equipped with a hyperdrive; numerical rating not established here",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-shuttle",
+            "locator": "Main profile / hyperdrive present",
+            "note": "Presence of a hyperdrive does not establish the inherited rating 1.0."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "starships:22",
+        "key": "manufacturer",
+        "value": "Sienar Fleet Systems",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "starships:22",
+        "key": "cost_in_credits",
+        "value": "240000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "length",
+      "before": {
+        "record_id": "starships:22",
+        "key": "length",
+        "value": "20",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "starships:22",
+        "key": "max_atmosphering_speed",
+        "value": "850",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "crew",
+      "before": {
+        "record_id": "starships:22",
+        "key": "crew",
+        "value": "6",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "passengers",
+      "before": {
+        "record_id": "starships:22",
+        "key": "passengers",
+        "value": "20",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "starships:22",
+        "key": "cargo_capacity",
+        "value": "80000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "consumables",
+      "before": {
+        "record_id": "starships:22",
+        "key": "consumables",
+        "value": "2 months",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "hyperdrive_rating",
+      "before": {
+        "record_id": "starships:22",
+        "key": "hyperdrive_rating",
+        "value": "1.0",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "MGLT",
+      "before": {
+        "record_id": "starships:22",
+        "key": "MGLT",
+        "value": "50",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "link",
+      "before": {
+        "record_id": "starships:22",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-shuttle",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:maul-shadow-lord",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-shuttle",
+            "locator": "Appearances / Maul – Shadow Lord",
+            "note": "Series-level context only; no new episode-level assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:4",
+        "relation": "used_by",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-shuttle",
+            "locator": "Main profile / Darth Vader uses Lambda shuttles",
+            "note": "User/passenger association, not a pilot role."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:21",
+        "relation": "used_by",
+        "evidence": [
+          {
+            "sourceId": "profile07-imperial-shuttle",
+            "locator": "Main profile / Emperor Palpatine uses Lambda shuttles",
+            "note": "User/passenger association, not a pilot role."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "profile",
+      "before": {
+        "id": "starships:15",
+        "category": "starships",
+        "legacy_id": "15",
+        "slug": "executor",
+        "title": "Executor",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Executor is Darth Vader’s flagship and the leading ship of Death Squadron. It hunts the rebels from Hoth to Bespin before its command bridge is struck during the Battle of Endor and the ship is destroyed.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "length",
+      "before": {
+        "record_id": "starships:15",
+        "key": "length",
+        "value": "19000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "19000 m",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Dimensions / Length 19000 m",
+            "note": "Current official dimension for the named ship; no scale estimate from images."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "starship_class",
+      "before": {
+        "record_id": "starships:15",
+        "key": "starship_class",
+        "value": "Star dreadnought",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Super Star Destroyer",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Video / Destruction of the Executor / explicitly Super Star Destroyer",
+            "note": "Named vessel identity, not certification of every Executor-class/star-dreadnought specification."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "role",
+      "before": null,
+      "after": {
+        "value": "Vader’s flagship leading Death Squadron",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Main profile / flagship and squadron",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "command_history",
+      "before": null,
+      "after": {
+        "value": "First Admiral Ozzel; later Admiral Piett",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Main profile / explicit command succession",
+            "note": "Successive command assignments; no new officer records or performance credits."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Destroyed at Endor after an A-wing struck the command bridge",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Main profile / bridge strike, loss of control and collision",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "model",
+      "before": {
+        "record_id": "starships:15",
+        "key": "model",
+        "value": "Executor-class star dreadnought",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "starships:15",
+        "key": "manufacturer",
+        "value": "Kuat Drive Yards, Fondor Shipyards",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "starships:15",
+        "key": "cost_in_credits",
+        "value": "1143350000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "starships:15",
+        "key": "max_atmosphering_speed",
+        "value": "n/a",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "crew",
+      "before": {
+        "record_id": "starships:15",
+        "key": "crew",
+        "value": "279,144",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "passengers",
+      "before": {
+        "record_id": "starships:15",
+        "key": "passengers",
+        "value": "38000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "starships:15",
+        "key": "cargo_capacity",
+        "value": "250000000",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "consumables",
+      "before": {
+        "record_id": "starships:15",
+        "key": "consumables",
+        "value": "6 years",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "hyperdrive_rating",
+      "before": {
+        "record_id": "starships:15",
+        "key": "hyperdrive_rating",
+        "value": "2.0",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "MGLT",
+      "before": {
+        "record_id": "starships:15",
+        "key": "MGLT",
+        "value": "40",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "link",
+      "before": {
+        "record_id": "starships:15",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "link",
+      "before": {
+        "record_id": "starships:15",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:4",
+        "relation": "flagship_of",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Main profile / flagship of Darth Vader",
+            "note": "Flagship relationship, not a piloting credit."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:4",
+        "relation": "operated_near",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Main profile / Death Squadron’s assault on Hoth",
+            "note": "Space/orbital operation, not a surface landing."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:6",
+        "relation": "operated_near",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Main profile / pursuit to Bespin",
+            "note": "Space context, not Cloud City docking or surface landing."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:15",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:7",
+        "relation": "destroyed_near",
+        "evidence": [
+          {
+            "sourceId": "profile07-executor",
+            "locator": "Main profile / destruction during Battle of Endor",
+            "note": "Battle near the forest moon; not a crash onto the moon or the first Death Star."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3658 @@
+{
+  "version": 1,
+  "id": "SUPPLEMENT-16",
+  "checkedAt": "2026-10-29",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "Rebels season-two guide entries 12–16: 66 selected episode connections (64 additive, two rechecked), eighteen introductory supporting profiles, explicit transmission/identity boundaries and retained official-source discrepancies. No release, edition, credit or episode inventory expansion.",
+  "sources": [
+    {
+      "id": "supp16-a-princess-on-lothal-gallery",
+      "title": "A Princess on Lothal — official episode gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/a-princess-on-lothal-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Read all 21 expanded narrative captions on 29 October 2026, with all pagination completed. One-based locators. Selected released-scene image checks are explicitly identified; a plan, photograph, map, memory or related profile alone does not establish living physical presence. No captions or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-a-princess-on-lothal-trivia",
+      "title": "A Princess on Lothal — official trivia gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/a-princess-on-lothal-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Read all five trivia captions on 29 October 2026. Released identities and explicit exclusions only; development names, Legends designs, drawings, clothing references and script-only lines do not become appearances. The Lasat outpost description conflicts with an earlier station description and is not silently reconciled.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-the-protector-of-concord-dawn-gallery",
+      "title": "The Protector of Concord Dawn — official episode gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/the-protector-of-concord-dawn-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Read all 24 expanded narrative captions on 29 October 2026, with all pagination completed. One-based locators. Selected released-scene image checks are explicitly identified; a plan, photograph, map, memory or related profile alone does not establish living physical presence. No captions or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-the-protector-of-concord-dawn-trivia",
+      "title": "The Protector of Concord Dawn — official trivia gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/the-protector-of-concord-dawn-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Read all five trivia captions on 29 October 2026. Released identities and explicit exclusions only; development names, Legends designs, drawings, clothing references and script-only lines do not become appearances. The Lasat outpost description conflicts with an earlier station description and is not silently reconciled.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-legends-of-the-lasat-gallery",
+      "title": "Legends of the Lasat — official episode gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/legends-of-the-lasat-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Read all 25 expanded narrative captions on 29 October 2026, with all pagination completed. One-based locators. Selected released-scene image checks are explicitly identified; a plan, photograph, map, memory or related profile alone does not establish living physical presence. No captions or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-legends-of-the-lasat-trivia",
+      "title": "Legends of the Lasat — official trivia gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/legends-of-the-lasat-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Read all five trivia captions on 29 October 2026. Released identities and explicit exclusions only; development names, Legends designs, drawings, clothing references and script-only lines do not become appearances. The Lasat outpost description conflicts with an earlier station description and is not silently reconciled.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-the-call-gallery",
+      "title": "The Call — official episode gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/the-call-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Read all 27 expanded narrative captions on 29 October 2026, with all pagination completed. One-based locators. Selected released-scene image checks are explicitly identified; a plan, photograph, map, memory or related profile alone does not establish living physical presence. No captions or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-the-call-trivia",
+      "title": "The Call — official trivia gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/the-call-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Read all five trivia captions on 29 October 2026. Released identities and explicit exclusions only; development names, Legends designs, drawings, clothing references and script-only lines do not become appearances. The Lasat outpost description conflicts with an earlier station description and is not silently reconciled.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-homecoming-gallery",
+      "title": "Homecoming — official episode gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/homecoming-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Read all 28 expanded narrative captions on 29 October 2026, with all pagination completed. One-based locators. Selected released-scene image checks are explicitly identified; a plan, photograph, map, memory or related profile alone does not establish living physical presence. No captions or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-homecoming-trivia",
+      "title": "Homecoming — official trivia gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/homecoming-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Read all five trivia captions on 29 October 2026. Released identities and explicit exclusions only; development names, Legends designs, drawings, clothing references and script-only lines do not become appearances. The Lasat outpost description conflicts with an earlier station description and is not silently reconciled.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-hammerhead-corvette",
+      "title": "Hammerhead Corvette — official Databank",
+      "url": "https://www.starwars.com/databank/hammerhead-corvette",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-lothal-depot",
+      "title": "Lothal Depot — official Databank",
+      "url": "https://www.starwars.com/databank/lothal-depot",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-yogar-lyste",
+      "title": "Yogar Lyste — official Databank",
+      "url": "https://www.starwars.com/databank/yogar-lyste",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-fenn-rau",
+      "title": "Fenn Rau — official Databank",
+      "url": "https://www.starwars.com/databank/fenn-rau",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-the-protectors-camp",
+      "title": "The Protectors Camp — official Databank",
+      "url": "https://www.starwars.com/databank/the-protectors-camp",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-fang-fighter",
+      "title": "Fang Fighter — official Databank",
+      "url": "https://www.starwars.com/databank/fang-fighter",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-gron",
+      "title": "Gron — official Databank",
+      "url": "https://www.starwars.com/databank/gron",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-chava",
+      "title": "Chava — official Databank",
+      "url": "https://www.starwars.com/databank/chava",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-lira-san",
+      "title": "Lira San — official Databank",
+      "url": "https://www.starwars.com/databank/lira-san",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-purrgil",
+      "title": "Purrgil — official Databank",
+      "url": "https://www.starwars.com/databank/purrgil",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-yushyn",
+      "title": "Yushyn — official Databank",
+      "url": "https://www.starwars.com/databank/yushyn",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-asteroid-belt-gas-refinery",
+      "title": "Asteroid Belt Gas Refinery — official Databank",
+      "url": "https://www.starwars.com/databank/asteroid-belt-gas-refinery",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-mining-guild-tie-fighter",
+      "title": "Mining Guild TIE fighter — official Databank",
+      "url": "https://www.starwars.com/databank/mining-guild-tie-fighter",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-cham-syndulla",
+      "title": "Cham Syndulla — official Databank",
+      "url": "https://www.starwars.com/databank/cham-syndulla",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-numa",
+      "title": "Numa — official Databank",
+      "url": "https://www.starwars.com/databank/numa",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-gobi-glie",
+      "title": "Gobi Glie — official Databank",
+      "url": "https://www.starwars.com/databank/gobi-glie",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-mouse-droid",
+      "title": "Mouse Droid — official Databank",
+      "url": "https://www.starwars.com/databank/mouse-droid",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-quasar-fire-class-cruiser-carrier",
+      "title": "Quasar Fire-class cruiser-carrier — official Databank",
+      "url": "https://www.starwars.com/databank/quasar-fire-class-cruiser-carrier",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp16-lasat",
+      "title": "Lasat — official Databank",
+      "url": "https://www.starwars.com/databank/lasat",
+      "kind": "official",
+      "checkedAt": "2026-10-29",
+      "note": "Main profile and cited selected history/metadata read 29 October 2026. One original introductory description and one selected fact only; existing officer identity evidence is separately scoped. Not a full biography, specification or appearance inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive descriptions, attribution and links only. Public accessibility is not an open text, image, video or audio licence.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    }
+  ],
+  "sourceUpdates": [],
+  "records": [
+    {
+      "id": "starships:hammerhead-corvette",
+      "newRecord": {
+        "category": "starships",
+        "slug": "hammerhead-corvette",
+        "title": "Hammerhead corvette — type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Leia brings three of these transports to Lothal under cover of a relief mission. The rebels stage their theft to keep Alderaan’s support concealed.",
+        "evidence": [
+          {
+            "sourceId": "supp16-hammerhead-corvette",
+            "locator": "Main profile / Leia’s three Hammerhead corvettes",
+            "note": ""
+          },
+          {
+            "sourceId": "supp16-a-princess-on-lothal-trivia",
+            "locator": "Caption 4 / released hull markings P1–P3",
+            "note": "Type-family profile; no individual Scarif ship identity or Knights of the Old Republic specifications inferred."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "season_two_role",
+          "value": "Three transports delivered to the rebels on Lothal",
+          "evidence": [
+            {
+              "sourceId": "supp16-hammerhead-corvette",
+              "locator": "Main profile / Leia’s three Hammerhead corvettes",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-a-princess-on-lothal-trivia",
+              "locator": "Caption 4 / released hull markings P1–P3",
+              "note": "Type-family profile; no individual Scarif ship identity or Knights of the Old Republic specifications inferred."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-hammerhead-corvette",
+              "locator": "Main profile / Leia’s three Hammerhead corvettes",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-a-princess-on-lothal-trivia",
+              "locator": "Caption 4 / released hull markings P1–P3",
+              "note": "Type-family profile; no individual Scarif ship identity or Knights of the Old Republic specifications inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:lothal-depot",
+      "newRecord": {
+        "category": "planets",
+        "slug": "lothal-depot",
+        "title": "Lothal Depot",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An Imperial-controlled landing area receives Leia’s relief ships. Its security measures force the rebels to free the transports through a staged raid.",
+        "evidence": [
+          {
+            "sourceId": "supp16-lothal-depot",
+            "locator": "Main profile / landing area, gravity locks and escape",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "value": "Landing area on Lothal; not a separate world",
+          "evidence": [
+            {
+              "sourceId": "supp16-lothal-depot",
+              "locator": "Main profile / landing area, gravity locks and escape",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-lothal-depot",
+              "locator": "Main profile / landing area, gravity locks and escape",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:fenn-rau",
+      "newRecord": {
+        "category": "people",
+        "slug": "fenn-rau",
+        "title": "Fenn Rau",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The leader of Concord Dawn’s Protectors initially opposes the rebels while accepting Imperial payment. Kanan and Sabine capture him, gaining safe passage through the system without killing him.",
+        "evidence": [
+          {
+            "sourceId": "supp16-fenn-rau",
+            "locator": "Main profile / Protectors leadership and capture",
+            "note": ""
+          },
+          {
+            "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+            "locator": "Captions 22–24 / conditional safe passage",
+            "note": "A forced accommodation here is not the same as his later voluntary commitment to the rebellion."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "season_two_role",
+          "value": "Leader of the Protectors of Concord Dawn",
+          "evidence": [
+            {
+              "sourceId": "supp16-fenn-rau",
+              "locator": "Main profile / Protectors leadership and capture",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+              "locator": "Captions 22–24 / conditional safe passage",
+              "note": "A forced accommodation here is not the same as his later voluntary commitment to the rebellion."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-fenn-rau",
+              "locator": "Main profile / Protectors leadership and capture",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+              "locator": "Captions 22–24 / conditional safe passage",
+              "note": "A forced accommodation here is not the same as his later voluntary commitment to the rebellion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:protectors-camp",
+      "newRecord": {
+        "category": "planets",
+        "slug": "protectors-camp",
+        "title": "The Protectors Camp",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Fenn Rau’s warriors operate from this base on a moon in the Concord Dawn system. Kanan and Sabine infiltrate the camp and sabotage its fighters.",
+        "evidence": [
+          {
+            "sourceId": "supp16-the-protectors-camp",
+            "locator": "Main profile / camp on the system’s third moon",
+            "note": "A camp, not the legacy Concord Dawn planet or a new duplicate planet."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "location",
+          "value": "Third moon of the Concord Dawn system",
+          "evidence": [
+            {
+              "sourceId": "supp16-the-protectors-camp",
+              "locator": "Main profile / camp on the system’s third moon",
+              "note": "A camp, not the legacy Concord Dawn planet or a new duplicate planet."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-the-protectors-camp",
+              "locator": "Main profile / camp on the system’s third moon",
+              "note": "A camp, not the legacy Concord Dawn planet or a new duplicate planet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:fang-fighter",
+      "newRecord": {
+        "category": "starships",
+        "slug": "fang-fighter",
+        "title": "Fang fighter — type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Protectors use these agile combat craft under Fenn Rau’s leadership. Their attack on Phoenix Squadron prompts the rebels’ mission to the Protectors’ camp.",
+        "evidence": [
+          {
+            "sourceId": "supp16-fang-fighter",
+            "locator": "Main profile / Protectors’ fighter and Fenn Rau’s pilot training",
+            "note": ""
+          },
+          {
+            "sourceId": "supp16-fang-fighter",
+            "locator": "Video / A-wing escape / explicitly the Protector episode",
+            "note": "Not a Gauntlet transport or a named individual hull."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "operators",
+          "value": "Mandalorian Protectors of Concord Dawn",
+          "evidence": [
+            {
+              "sourceId": "supp16-fang-fighter",
+              "locator": "Main profile / Protectors’ fighter and Fenn Rau’s pilot training",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-fang-fighter",
+              "locator": "Video / A-wing escape / explicitly the Protector episode",
+              "note": "Not a Gauntlet transport or a named individual hull."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-fang-fighter",
+              "locator": "Main profile / Protectors’ fighter and Fenn Rau’s pilot training",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-fang-fighter",
+              "locator": "Video / A-wing escape / explicitly the Protector episode",
+              "note": "Not a Gauntlet transport or a named individual hull."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:gron",
+      "newRecord": {
+        "category": "people",
+        "slug": "gron",
+        "title": "Gron",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Lasat survivor once served under Zeb in the Honor Guard. After escaping Imperial custody with Chava, he helps follow a ritual toward a new home.",
+        "evidence": [
+          {
+            "sourceId": "supp16-gron",
+            "locator": "Main profile / former service and rescue",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "earlier_role",
+          "value": "Honor Guard soldier who served under Zeb",
+          "evidence": [
+            {
+              "sourceId": "supp16-gron",
+              "locator": "Main profile / former service and rescue",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-gron",
+              "locator": "Main profile / former service and rescue",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:chava",
+      "newRecord": {
+        "category": "people",
+        "slug": "chava",
+        "title": "Chava the Wise",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Chava preserves the Lasat’s traditions after the loss of Lasan. She believes Zeb can guide the survivors to their ancestral home and leads the ritual aboard the Ghost.",
+        "evidence": [
+          {
+            "sourceId": "supp16-chava",
+            "locator": "Main profile / elder mystic and prophecy",
+            "note": ""
+          },
+          {
+            "sourceId": "supp16-legends-of-the-lasat-gallery",
+            "locator": "Captions 12–19 / ritual and Zeb’s role",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Lasat mystic",
+          "evidence": [
+            {
+              "sourceId": "supp16-chava",
+              "locator": "Main profile / elder mystic and prophecy",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Captions 12–19 / ritual and Zeb’s role",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-chava",
+              "locator": "Main profile / elder mystic and prophecy",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Captions 12–19 / ritual and Zeb’s role",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:lira-san",
+      "newRecord": {
+        "category": "planets",
+        "slug": "lira-san",
+        "title": "Lira San",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Hidden beyond an energy anomaly, this world becomes the destination of the Lasat survivors. Zeb finds that other Lasat already live there and brings Gron and Chava to join them.",
+        "evidence": [
+          {
+            "sourceId": "supp16-lira-san",
+            "locator": "Main profile / hidden original homeworld and discovery",
+            "note": ""
+          },
+          {
+            "sourceId": "supp16-legends-of-the-lasat-gallery",
+            "locator": "Captions 24–25 / actual arrival, landing and existing population",
+            "note": "The mapped destination becomes an actual visit; not Lasan or a second Lirasan identity."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "season_two_role",
+          "value": "Lasat ancestral home reached by Zeb, Gron and Chava",
+          "evidence": [
+            {
+              "sourceId": "supp16-lira-san",
+              "locator": "Main profile / hidden original homeworld and discovery",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Captions 24–25 / actual arrival, landing and existing population",
+              "note": "The mapped destination becomes an actual visit; not Lasan or a second Lirasan identity."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-lira-san",
+              "locator": "Main profile / hidden original homeworld and discovery",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Captions 24–25 / actual arrival, landing and existing population",
+              "note": "The mapped destination becomes an actual visit; not Lasan or a second Lirasan identity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:lasat",
+      "newRecord": {
+        "category": "species",
+        "slug": "lasat",
+        "title": "Lasat",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Zeb, Gron and Chava belong to a people devastated by the Empire’s attack on Lasan. Their journey to Lira San reveals that the species survives beyond the refugees they knew.",
+        "evidence": [
+          {
+            "sourceId": "supp16-lasat",
+            "locator": "Main profile / humanoid alien species",
+            "note": ""
+          },
+          {
+            "sourceId": "supp16-legends-of-the-lasat-gallery",
+            "locator": "Caption 25 / surviving Lasat on Lira San",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "value": "Humanoid species",
+          "evidence": [
+            {
+              "sourceId": "supp16-lasat",
+              "locator": "Main profile / humanoid alien species",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Caption 25 / surviving Lasat on Lira San",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-lasat",
+              "locator": "Main profile / humanoid alien species",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Caption 25 / surviving Lasat on Lira San",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:purrgil",
+      "newRecord": {
+        "category": "species",
+        "slug": "purrgil",
+        "title": "Purrgil",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "These space-dwelling creatures consume gas and can travel through hyperspace. Ezra’s encounter with a pod helps the rebels reconsider the animals while securing fuel.",
+        "evidence": [
+          {
+            "sourceId": "supp16-purrgil",
+            "locator": "Main profile / gas sustenance and hyperspace ability",
+            "note": ""
+          },
+          {
+            "sourceId": "supp16-the-call-gallery",
+            "locator": "Captions 26–27 / gas use and observed jump",
+            "note": "No invented royal subspecies or individual Purrgil King identity."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "ability",
+          "value": "Natural hyperspace travel",
+          "evidence": [
+            {
+              "sourceId": "supp16-purrgil",
+              "locator": "Main profile / gas sustenance and hyperspace ability",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-call-gallery",
+              "locator": "Captions 26–27 / gas use and observed jump",
+              "note": "No invented royal subspecies or individual Purrgil King identity."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-purrgil",
+              "locator": "Main profile / gas sustenance and hyperspace ability",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-call-gallery",
+              "locator": "Captions 26–27 / gas use and observed jump",
+              "note": "No invented royal subspecies or individual Purrgil King identity."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:yushyn",
+      "newRecord": {
+        "category": "people",
+        "slug": "yushyn",
+        "title": "Yushyn",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Mining Guild boss runs a refinery allied with the Empire. His order to attack the approaching purrgil brings him into conflict with the rebels and the creatures.",
+        "evidence": [
+          {
+            "sourceId": "supp16-yushyn",
+            "locator": "Main profile / facility, fuel and purrgil confrontation",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Mining Guild refinery operator",
+          "evidence": [
+            {
+              "sourceId": "supp16-yushyn",
+              "locator": "Main profile / facility, fuel and purrgil confrontation",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-yushyn",
+              "locator": "Main profile / facility, fuel and purrgil confrontation",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:asteroid-belt-gas-refinery",
+      "newRecord": {
+        "category": "planets",
+        "slug": "asteroid-belt-gas-refinery",
+        "title": "Asteroid Belt Gas Refinery",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A gas-processing facility stands on a small planetoid. The rebels take its fuel and protect the purrgil before destroying the installation.",
+        "evidence": [
+          {
+            "sourceId": "supp16-asteroid-belt-gas-refinery",
+            "locator": "Main profile / small planetoid facility and raid",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "value": "Gas refinery on a small planetoid; not an entire named planet",
+          "evidence": [
+            {
+              "sourceId": "supp16-asteroid-belt-gas-refinery",
+              "locator": "Main profile / small planetoid facility and raid",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-asteroid-belt-gas-refinery",
+              "locator": "Main profile / small planetoid facility and raid",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:mining-guild-tie-fighter",
+      "newRecord": {
+        "category": "starships",
+        "slug": "mining-guild-tie-fighter",
+        "title": "Mining Guild TIE fighter — type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Mining Guild’s yellow fighters have cut-away stabilizers that improve visibility. They defend its refinery during the rebels’ encounter with the purrgil.",
+        "evidence": [
+          {
+            "sourceId": "supp16-mining-guild-tie-fighter",
+            "locator": "Main profile / yellow scheme, guild service and notched stabilizers",
+            "note": ""
+          },
+          {
+            "sourceId": "supp16-the-call-gallery",
+            "locator": "Captions 5–6, 16, 21 / modified Mining Guild fighters",
+            "note": "Distinct from standard Imperial-service TIEs; no generic TIE/LN performance data copied."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "design_feature",
+          "value": "Notched stabilizers for improved visibility",
+          "evidence": [
+            {
+              "sourceId": "supp16-mining-guild-tie-fighter",
+              "locator": "Main profile / yellow scheme, guild service and notched stabilizers",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-call-gallery",
+              "locator": "Captions 5–6, 16, 21 / modified Mining Guild fighters",
+              "note": "Distinct from standard Imperial-service TIEs; no generic TIE/LN performance data copied."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-mining-guild-tie-fighter",
+              "locator": "Main profile / yellow scheme, guild service and notched stabilizers",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-call-gallery",
+              "locator": "Captions 5–6, 16, 21 / modified Mining Guild fighters",
+              "note": "Distinct from standard Imperial-service TIEs; no generic TIE/LN performance data copied."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:cham-syndulla",
+      "newRecord": {
+        "category": "people",
+        "slug": "cham-syndulla",
+        "title": "Cham Syndulla",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Hera’s father leads resistance to Imperial occupation on Ryloth. Their disagreement over destroying or capturing a carrier tests their relationship before they cooperate in the escape.",
+        "evidence": [
+          {
+            "sourceId": "supp16-cham-syndulla",
+            "locator": "Main profile / father and freedom fighter; Rebels history / carrier mission",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "family_connection",
+          "value": "Hera Syndulla’s father",
+          "evidence": [
+            {
+              "sourceId": "supp16-cham-syndulla",
+              "locator": "Main profile / father and freedom fighter; Rebels history / carrier mission",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-cham-syndulla",
+              "locator": "Main profile / father and freedom fighter; Rebels history / carrier mission",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:numa",
+      "newRecord": {
+        "category": "people",
+        "slug": "numa",
+        "title": "Numa",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Once a child caught in the Clone Wars on Ryloth, Numa later fights alongside Cham Syndulla. During the carrier operation she and Gobi support Hera’s plan to help the wider rebellion.",
+        "evidence": [
+          {
+            "sourceId": "supp16-numa",
+            "locator": "The Dark Times / soldier, carrier mission and support for the rebels",
+            "note": "The main profile’s childhood height is not assigned to her adult Rebels appearance."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "season_two_role",
+          "value": "Ryloth resistance fighter accompanying Cham Syndulla",
+          "evidence": [
+            {
+              "sourceId": "supp16-numa",
+              "locator": "The Dark Times / soldier, carrier mission and support for the rebels",
+              "note": "The main profile’s childhood height is not assigned to her adult Rebels appearance."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-numa",
+              "locator": "The Dark Times / soldier, carrier mission and support for the rebels",
+              "note": "The main profile’s childhood height is not assigned to her adult Rebels appearance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:gobi-glie",
+      "newRecord": {
+        "category": "people",
+        "slug": "gobi-glie",
+        "title": "Gobi Glie",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Ryloth resistance fighter and friend of the Syndulla family, Gobi accompanies Cham on the carrier mission. He eventually backs Hera’s decision to capture the ship.",
+        "evidence": [
+          {
+            "sourceId": "supp16-gobi-glie",
+            "locator": "Main profile and The Dark Times / resistance fighter and carrier mission",
+            "note": "Family friendship does not establish a biological uncle relationship."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Ryloth resistance fighter",
+          "evidence": [
+            {
+              "sourceId": "supp16-gobi-glie",
+              "locator": "Main profile and The Dark Times / resistance fighter and carrier mission",
+              "note": "Family friendship does not establish a biological uncle relationship."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-gobi-glie",
+              "locator": "Main profile and The Dark Times / resistance fighter and carrier mission",
+              "note": "Family friendship does not establish a biological uncle relationship."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:mouse-droid",
+      "newRecord": {
+        "category": "people",
+        "slug": "mouse-droid",
+        "title": "Mouse droid — type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Small utility droids carry messages and perform routine jobs aboard ships and installations. Sabine turns a captured unit into a remotely driven diversion during the carrier mission.",
+        "evidence": [
+          {
+            "sourceId": "supp16-mouse-droid",
+            "locator": "Main profile / simple repair, messaging and guidance tasks",
+            "note": ""
+          },
+          {
+            "sourceId": "supp16-homecoming-gallery",
+            "locator": "Caption 18 / captured mouse droid used by Sabine",
+            "note": "Type-level appearance; not a new named individual or a remote-only character hologram."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "function",
+          "value": "Utility, repair, messaging and guidance tasks",
+          "evidence": [
+            {
+              "sourceId": "supp16-mouse-droid",
+              "locator": "Main profile / simple repair, messaging and guidance tasks",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-homecoming-gallery",
+              "locator": "Caption 18 / captured mouse droid used by Sabine",
+              "note": "Type-level appearance; not a new named individual or a remote-only character hologram."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-mouse-droid",
+              "locator": "Main profile / simple repair, messaging and guidance tasks",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-homecoming-gallery",
+              "locator": "Caption 18 / captured mouse droid used by Sabine",
+              "note": "Type-level appearance; not a new named individual or a remote-only character hologram."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:captured-quasar-carrier",
+      "newRecord": {
+        "category": "starships",
+        "slug": "captured-quasar-carrier",
+        "title": "The captured Quasar carrier",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The rebels seize an Imperial carrier over Ryloth with help from Cham’s fighters. Its hangar gives Phoenix Squadron a much-needed place to land.",
+        "evidence": [
+          {
+            "sourceId": "supp16-quasar-fire-class-cruiser-carrier",
+            "locator": "Main profile / cruiser-carrier and the Ghost/Cham capture",
+            "note": "Episode-specific captured ship; not the destroyed Phoenix Home, Sato’s earlier command ship or the Legends Flurry. No later proper-name alias inferred."
+          }
+        ]
+      },
+      "scope": "Introductory supporting profile and one selected fact for Rebels season-two guide entries 12–16; not a complete biography, specification or appearance history.",
+      "limitations": [
+        "Only this original introductory description, one selected fact and cited Rebels connection are checked. Full biography, other productions, measurements and exhaustive appearance inventories remain pending.",
+        "A type, settlement, screen-era role or editorial scene label does not establish every similar object, an entire world, permanent allegiance or an inherited numerical specification."
+      ],
+      "facts": [
+        {
+          "key": "model",
+          "value": "Quasar Fire-class cruiser-carrier",
+          "evidence": [
+            {
+              "sourceId": "supp16-quasar-fire-class-cruiser-carrier",
+              "locator": "Main profile / cruiser-carrier and the Ghost/Cham capture",
+              "note": "Episode-specific captured ship; not the destroyed Phoenix Home, Sato’s earlier command ship or the Legends Flurry. No later proper-name alias inferred."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp16-quasar-fire-class-cruiser-carrier",
+              "locator": "Main profile / cruiser-carrier and the Ghost/Cham capture",
+              "note": "Episode-specific captured ship; not the destroyed Phoenix Home, Sato’s earlier command ship or the Legends Flurry. No later proper-name alias inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:nixus-hub-218",
+      "scope": "Add a source-scope clarification to the existing station profile without resolving the later outpost identity or changing its earlier reviewed facts.",
+      "limitations": [
+        "The station description and earlier episode remain supported by Brothers of the Broken Horn trivia 2. Legends of the Lasat trivia 4 reuses Nixus Hub 218 for an outpost described as on the same world as the earlier hub; location correspondence remains unresolved. No current Lasat setting link or duplicate place is inferred.",
+        "Only the introductory description, original classification, this source-scope clarification and separately cited earlier connections are checked. Full location history and source reconciliation remain pending.",
+        "A type is not one individual across episodes. Editorial place labels are not canonical proper names. No unsupported technical values, species assumptions or inherited legacy specifications are added."
+      ],
+      "facts": [
+        {
+          "key": "source_scope",
+          "value": "The later Lasat outpost uses the Nixus Hub 218 name, but its location correspondence to this station remains unresolved",
+          "evidence": [
+            {
+              "sourceId": "supp16-legends-of-the-lasat-trivia",
+              "locator": "Caption 4 / Nixus Hub 218 outpost and same-world wording",
+              "note": "Does not resolve equivalence with the earlier station."
+            },
+            {
+              "sourceId": "supp14-brothers-of-the-broken-horn-trivia",
+              "locator": "Caption 2 / Nixus Hub 218 station",
+              "note": "Original station wording and prior episode evidence retained."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": []
+    },
+    {
+      "id": "series:rebels",
+      "scope": "Rebels season-two guide entries 12–16: 148 selected profiles, released official narrative/trivia/Databank evidence, scoped image checks and retained source discrepancies. Boundaries between physical scenes, transmissions, references and uncertain identities. Original-US date scope retained. No releases, editions, credits or episode inventory expanded.",
+      "limitations": [
+        "Season-two guide entries 12–16 now have scoped reviews against 148 selected profiles: 66 checked connections, including two earlier rows rechecked and 64 additive rows. Twenty-nine of 66 Rebels guides are reviewed; 37 guides / 44 numbered parts remain pending. Earlier selected reviews and their episode boundaries survive. Omitted links remain unestablished, not absent.",
+        "Nixus Hub 218 has conflicting station/world descriptions across official trivia sources; this batch does not silently merge the current outpost with the existing station. Homecoming’s reinforcement is a light cruiser in the released narrative and Numa history but a Star Destroyer in Cham’s history; the discrepancy is visible and scoped.",
+        "Sato’s Homecoming appearance is a holographic transmission. Concord Dawn’s camp is on the third moon, separate from an unreviewed legacy planet. Lyste’s promotion retains one identity; Fang, Mining Guild fighters and the captured Quasar carrier do not inherit other hull or Legends specifications. Drawings, photos, memories and script-only labels are not promoted to living physical appearances.",
+        "Legacy parents are visions, Ryder and the tracked loth-cat have mixed vision/physical contexts, and Stealth Strike Kallus is a transmission. Blood Sisters names Bail at the rendezvous but the selected still does not establish physical versus holographic form; that row remains unspecified with a visible limitation.",
+        "The Blade Wing B6 prototype, GX1 starbus, Titus’s experimental Interdictor and Liberator remain distinct from production B-wings, old shuttles, generic/Legends models and the destroyed Phoenix Home. Chandel is a planned destination; Mustafar monitoring and decorative/design references do not establish visits.",
+        "Lando’s Siege hologram, the Emperor’s ending contact and Sato’s generator briefing are transmissions. Tua and Kallus retain direct rows when actual scenes accompany remote contact. Force sensing does not replace the actual physical scenes of Ahsoka, Kanan and Vader.",
+        "The modified Seelos walker, legacy AT-TE family, AT-AT family and distinct episode variant are scoped separately. The abandoned medical station shares a design with Kaliida Shoals but is not identified as that station. Nixus Hub 218, Tarkintown and the medical station are places, not additional planets. A single Ghost/Phantom caption inconsistency is explained, not copied into an unsupported ship location.",
+        "Trayvis’s vision, broadcast and physical meeting share one direct row with context. Alton/Trayvis interviews, Fulcrum’s remote conversation and Bail’s holographic greeting are transmissions. Ahsoka’s finale reveal and Vader’s Lothal arrival are direct scenes; later Kallus-Fulcrum biography is not assigned to the season-one contact.",
+        "The Sovereign, communications light-cruiser family, stolen rescue transport, Broken Horn and two distinct stolen/borrowed TIEs retain separate identities and scope. Mustafar is only a planned destination in Rebel Resolve but a system setting in the finale. No Gideon/Trask hull, generic Lambda, A-wing or technical metadata inferred.",
+        "Path of the Jedi distinguishes nightmare visions from direct scenes and Yoda’s remote communication through the Force. Mixed direct/vision contexts use one direct row with explanation; no real crew deaths or physical Yoda temple visit are asserted.",
+        "Fort Anaxes is the Rebels-era asteroid base. The displayed parade TIE and Inquisitor’s pursuit fighter are distinct. The Relentless has no assumed subclass and the landing shuttle has no assumed Lambda/Theta identity. No legacy technical fields inherited.",
+        "The combined Spark of Rebellion guide remains one review for parts 1–2. The later ABC Vader opening is excluded from original-pilot connections and remains a distinct documented version. No scene is assigned to an individual pilot part without evidence.",
+        "Obi-Wan’s holocron message, Trayvis’s broadcast and Luminara’s projected bait are transmissions. Luminara’s remains are also shown. Remote contacts followed by physical scenes use a single direct row with context; mentions, aliases and repeated names are not extra characters.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Normalized count: 75 numbered parts across four seasons (15/22/22/16), grouped into 66 official guide entries (14/20/19/13). This is an archive counting convention, not a universal count of playable streaming items. The four introductory shorts and the ABC revised pilot are excluded. Individual credits and appearances within combined parts are not inferred.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ],
+      "facts": [],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "people:5",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-a-princess-on-lothal-gallery",
+              "locator": "Captions 2–20 / arrival, raid and staged loss",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:lothal-depot",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-lothal-depot",
+              "locator": "Main profile / named landing area and three detained cruisers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:hammerhead-corvette",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-a-princess-on-lothal-trivia",
+              "locator": "Caption 4 / Hammerhead corvettes marked P1–P3",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-a-princess-on-lothal-gallery",
+              "locator": "Captions 2–20 / three Alderaanian cruisers and theft",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:fenn-rau",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+              "locator": "Captions 3–24 / attack, duel, capture and conditional passage",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:protectors-camp",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-the-protectors-camp",
+              "locator": "Main profile / named camp on third moon",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+              "locator": "Captions 10–21 / actual infiltration",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:fang-fighter",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-fang-fighter",
+              "locator": "Main profile and Video / A-wing escape / Protectors’ fighter in the named episode",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+              "locator": "Captions 3–5, 13–21 / fighter attack and sabotage",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:gron",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Captions 6–25 / rescue, ritual and arrival",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:chava",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Captions 7–25 / rescue, ritual and arrival",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:lira-san",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Captions 24–25 / actual arrival, Zeb’s landing with Gron/Chava and return",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-lira-san",
+              "locator": "Main profile / discovered ancestral home",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:lasat",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Captions 3–7, 24–25 / Zeb, Gron, Chava and surviving Lasat",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:yushyn",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-the-call-gallery",
+              "locator": "Caption 23 / named refinery boss seized by purrgil",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:purrgil",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-the-call-gallery",
+              "locator": "Captions 3–27 / pod, rescue and observed hyperspace jump",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:asteroid-belt-gas-refinery",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-asteroid-belt-gas-refinery",
+              "locator": "Main profile / named refinery on a small planetoid",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-call-gallery",
+              "locator": "Captions 8–24 / actual refinery raid and destruction",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:mining-guild-tie-fighter",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-mining-guild-tie-fighter",
+              "locator": "Main profile and Video / I’ve Got ’Em / named The Call connection",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-call-gallery",
+              "locator": "Captions 5–6, 16, 21 / modified guild fighters",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:4",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-the-call-trivia",
+              "locator": "Caption 2 / explicitly Yushyn’s Rodian crew",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:cham-syndulla",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-homecoming-gallery",
+              "locator": "Captions 5–28 / physical mission and reconciliation",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:numa",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-homecoming-gallery",
+              "locator": "Captions 5, 11, 13, 18, 20 / mission and later comm",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:gobi-glie",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-homecoming-gallery",
+              "locator": "Captions 5, 11, 18, 20 / mission and later comm",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:mouse-droid",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-homecoming-gallery",
+              "locator": "Caption 18 / captured unit remotely driven by Sabine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:37",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-homecoming-gallery",
+              "locator": "Captions 3, 8, 24–28 / named Ryloth orbital mission and reports",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:16",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-homecoming-gallery",
+              "locator": "Captions 6, 8–11, 23, 25–26 / stolen bomber, attacks and explosive decoy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:captured-quasar-carrier",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp16-quasar-fire-class-cruiser-carrier",
+              "locator": "Main profile / specific Ghost/Cham captured carrier",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-homecoming-gallery",
+              "locator": "Captions 6–28 / boarding, capture and return to fleet",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "episodeReviews": [
+        {
+          "episodeId": "series:rebels:s2e12",
+          "scope": "One released guide entry reviewed against 148 selected profiles using complete official narrative/trivia galleries, selected Databank evidence and explicitly scoped image checks. Physical scenes and transmissions are distinguished. Omitted links remain unestablished, not absent.",
+          "consideredTargets": [
+            "people:ezra-bridger",
+            "people:kanan-jarrus",
+            "people:hera-syndulla",
+            "people:sabine-wren",
+            "people:zeb-orrelios",
+            "people:chopper",
+            "people:10",
+            "people:64",
+            "people:2",
+            "people:3",
+            "people:68",
+            "people:grand-inquisitor",
+            "people:4",
+            "people:20",
+            "people:12",
+            "people:ahsoka-tano",
+            "people:captain-rex",
+            "people:44",
+            "planets:lothal",
+            "planets:3",
+            "planets:14",
+            "starships:ghost",
+            "vehicles:at-dp",
+            "vehicles:8",
+            "people:agent-kallus",
+            "people:cumberlayne-aresko",
+            "people:myles-grint",
+            "people:cikatro-vizago",
+            "people:wullffwarro",
+            "people:kitwarr",
+            "people:maketh-tua",
+            "people:amda-wabo",
+            "people:rx-24",
+            "people:morad-sumar",
+            "people:supply-master-lyste",
+            "people:gall-trayvis",
+            "people:zare-leonis",
+            "people:jai-kell",
+            "people:nazhros-oleg",
+            "planets:kessel",
+            "planets:garel",
+            "planets:stygeon-prime",
+            "starships:phantom-original",
+            "starships:ezra-zeb-tie-fighter",
+            "starships:star-commuter-shuttle",
+            "vehicles:imperial-troop-transport",
+            "people:tseebo",
+            "people:old-jho",
+            "people:azmorigan",
+            "people:kassius-konstantine",
+            "planets:fort-anaxes-asteroid",
+            "species:fyrnock",
+            "species:loth-cat",
+            "species:puffer-pig",
+            "starships:inquisitor-tie-prototype",
+            "starships:empire-day-parade-prototype",
+            "starships:relentless",
+            "starships:fort-anaxes-landing-shuttle",
+            "starships:merchant-one",
+            "people:25",
+            "people:21",
+            "starships:22",
+            "starships:13",
+            "people:alton-kastle",
+            "planets:lothal-senate-building",
+            "people:imperial-probe-droid",
+            "people:courier-droid",
+            "people:interrogation-droid",
+            "vehicles:patrol-transport",
+            "starships:imperial-light-cruiser",
+            "starships:sovereign",
+            "starships:broken-horn",
+            "starships:mustafar-rescue-transport",
+            "planets:13",
+            "starships:5",
+            "starships:2",
+            "starships:28",
+            "vehicles:sabine-speeder-bike",
+            "vehicles:30",
+            "vehicles:50",
+            "starships:3",
+            "people:jun-sato",
+            "people:willie-w1-le",
+            "starships:phoenix-home",
+            "people:commander-wolffe",
+            "people:gregor",
+            "planets:seelos",
+            "vehicles:modified-at-te",
+            "species:joopa",
+            "people:hondo-ohnaka",
+            "people:fifth-brother",
+            "people:seventh-sister",
+            "people:id9-seeker-droid",
+            "planets:abandoned-republic-medical-station",
+            "planets:nixus-hub-218",
+            "planets:tarkintown",
+            "vehicles:18",
+            "vehicles:53",
+            "people:11",
+            "planets:9",
+            "planets:shantipole",
+            "people:bg-81",
+            "planets:ibaar",
+            "people:eesh-fahm",
+            "starships:blade-wing-prototype",
+            "people:quarrie",
+            "people:ketsu-onyo",
+            "starships:shadow-caster",
+            "people:eg-86",
+            "starships:gx1-starbus",
+            "people:vaux",
+            "people:brom-titus",
+            "starships:titus-interdictor",
+            "planets:takobo",
+            "people:pypey",
+            "people:alora",
+            "people:darja",
+            "people:oora",
+            "people:ryder-azadi",
+            "people:ephraim-bridger",
+            "people:mira-bridger",
+            "starships:liberator",
+            "starships:29",
+            "people:16",
+            "starships:hammerhead-corvette",
+            "planets:lothal-depot",
+            "people:fenn-rau",
+            "planets:protectors-camp",
+            "starships:fang-fighter",
+            "people:gron",
+            "people:chava",
+            "planets:lira-san",
+            "species:lasat",
+            "species:purrgil",
+            "people:yushyn",
+            "planets:asteroid-belt-gas-refinery",
+            "starships:mining-guild-tie-fighter",
+            "people:cham-syndulla",
+            "people:numa",
+            "people:gobi-glie",
+            "people:mouse-droid",
+            "starships:captured-quasar-carrier",
+            "people:5",
+            "planets:2",
+            "planets:53",
+            "planets:37",
+            "species:4",
+            "vehicles:16"
+          ],
+          "notes": [
+            "Lieutenant Lyste is the same officer as the existing Supply Master Lyste dossier: the official Yogar profile explicitly describes the promotion. No duplicate Yogar identity or retroactive title change is created.",
+            "Bail sends the mission, Alderaan is discussed and Ezra looks at a family photograph. These facts do not establish a living Bail/Ephraim/Mira scene or a visit to Alderaan. Leia is physically present on Lothal.",
+            "Lothal Depot is a landing area within Lothal, not another planet. The three Hammerhead hulls are marked P1–P3; a type-family connection does not identify a particular later Scarif hull or import Knights of the Old Republic specifications.",
+            "The walker’s precise model and the lieutenant’s shuttle identity remain unestablished in this selected review. No AT-DP, AT-AT or Lambda/Sentinel row is silently inferred from generic walker/shuttle wording."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp16-a-princess-on-lothal-gallery",
+              "locator": "Complete expanded narrative gallery / selected-profile review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-rebels-s2e12",
+              "locator": "Episode guide / story identity",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-a-princess-on-lothal-trivia",
+              "locator": "Complete trivia gallery / released identities and exclusions",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:ezra-bridger",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 3–21 / grief, disguise and staged theft",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:kanan-jarrus",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 1–21 / rendezvous and theft",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 1, 10, 13–15 / briefing, physical arrival and cover",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 1, 9 / briefing and rendezvous signal",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:zeb-orrelios",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Caption 10 / physical staged capture",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:sabine-wren",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 13–15 / explosives and cruiser release",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:5",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 2–20 / arrival, raid and staged loss",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:ryder-azadi",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 1, 3, 9–21 / refusal, rescue and participation",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:lothal",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 1–21 / outskirts, landing area and raid",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:ghost",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 10–15, 21 / arrival, planning and cover",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:supply-master-lyste",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Same existing officer after promotion; not another Yogar Lyste profile.",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 5, 7, 20 / Lieutenant Lyste and Leia",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp16-yogar-lyste",
+                  "locator": "The Dark Times / explicitly formerly Supply Master, later Lieutenant; Leia’s relief mission",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:lothal-depot",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-lothal-depot",
+                  "locator": "Main profile / named landing area and three detained cruisers",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:hammerhead-corvette",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "Type-family connection, not one identified later Scarif hull.",
+              "evidence": [
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-trivia",
+                  "locator": "Caption 4 / Hammerhead corvettes marked P1–P3",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp16-a-princess-on-lothal-gallery",
+                  "locator": "Captions 2–20 / three Alderaanian cruisers and theft",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:rebels:s2e13",
+          "scope": "One released guide entry reviewed against 148 selected profiles using complete official narrative/trivia galleries, selected Databank evidence and explicitly scoped image checks. Physical scenes and transmissions are distinguished. Omitted links remain unestablished, not absent.",
+          "consideredTargets": [
+            "people:ezra-bridger",
+            "people:kanan-jarrus",
+            "people:hera-syndulla",
+            "people:sabine-wren",
+            "people:zeb-orrelios",
+            "people:chopper",
+            "people:10",
+            "people:64",
+            "people:2",
+            "people:3",
+            "people:68",
+            "people:grand-inquisitor",
+            "people:4",
+            "people:20",
+            "people:12",
+            "people:ahsoka-tano",
+            "people:captain-rex",
+            "people:44",
+            "planets:lothal",
+            "planets:3",
+            "planets:14",
+            "starships:ghost",
+            "vehicles:at-dp",
+            "vehicles:8",
+            "people:agent-kallus",
+            "people:cumberlayne-aresko",
+            "people:myles-grint",
+            "people:cikatro-vizago",
+            "people:wullffwarro",
+            "people:kitwarr",
+            "people:maketh-tua",
+            "people:amda-wabo",
+            "people:rx-24",
+            "people:morad-sumar",
+            "people:supply-master-lyste",
+            "people:gall-trayvis",
+            "people:zare-leonis",
+            "people:jai-kell",
+            "people:nazhros-oleg",
+            "planets:kessel",
+            "planets:garel",
+            "planets:stygeon-prime",
+            "starships:phantom-original",
+            "starships:ezra-zeb-tie-fighter",
+            "starships:star-commuter-shuttle",
+            "vehicles:imperial-troop-transport",
+            "people:tseebo",
+            "people:old-jho",
+            "people:azmorigan",
+            "people:kassius-konstantine",
+            "planets:fort-anaxes-asteroid",
+            "species:fyrnock",
+            "species:loth-cat",
+            "species:puffer-pig",
+            "starships:inquisitor-tie-prototype",
+            "starships:empire-day-parade-prototype",
+            "starships:relentless",
+            "starships:fort-anaxes-landing-shuttle",
+            "starships:merchant-one",
+            "people:25",
+            "people:21",
+            "starships:22",
+            "starships:13",
+            "people:alton-kastle",
+            "planets:lothal-senate-building",
+            "people:imperial-probe-droid",
+            "people:courier-droid",
+            "people:interrogation-droid",
+            "vehicles:patrol-transport",
+            "starships:imperial-light-cruiser",
+            "starships:sovereign",
+            "starships:broken-horn",
+            "starships:mustafar-rescue-transport",
+            "planets:13",
+            "starships:5",
+            "starships:2",
+            "starships:28",
+            "vehicles:sabine-speeder-bike",
+            "vehicles:30",
+            "vehicles:50",
+            "starships:3",
+            "people:jun-sato",
+            "people:willie-w1-le",
+            "starships:phoenix-home",
+            "people:commander-wolffe",
+            "people:gregor",
+            "planets:seelos",
+            "vehicles:modified-at-te",
+            "species:joopa",
+            "people:hondo-ohnaka",
+            "people:fifth-brother",
+            "people:seventh-sister",
+            "people:id9-seeker-droid",
+            "planets:abandoned-republic-medical-station",
+            "planets:nixus-hub-218",
+            "planets:tarkintown",
+            "vehicles:18",
+            "vehicles:53",
+            "people:11",
+            "planets:9",
+            "planets:shantipole",
+            "people:bg-81",
+            "planets:ibaar",
+            "people:eesh-fahm",
+            "starships:blade-wing-prototype",
+            "people:quarrie",
+            "people:ketsu-onyo",
+            "starships:shadow-caster",
+            "people:eg-86",
+            "starships:gx1-starbus",
+            "people:vaux",
+            "people:brom-titus",
+            "starships:titus-interdictor",
+            "planets:takobo",
+            "people:pypey",
+            "people:alora",
+            "people:darja",
+            "people:oora",
+            "people:ryder-azadi",
+            "people:ephraim-bridger",
+            "people:mira-bridger",
+            "starships:liberator",
+            "starships:29",
+            "people:16",
+            "starships:hammerhead-corvette",
+            "planets:lothal-depot",
+            "people:fenn-rau",
+            "planets:protectors-camp",
+            "starships:fang-fighter",
+            "people:gron",
+            "people:chava",
+            "planets:lira-san",
+            "species:lasat",
+            "species:purrgil",
+            "people:yushyn",
+            "planets:asteroid-belt-gas-refinery",
+            "starships:mining-guild-tie-fighter",
+            "people:cham-syndulla",
+            "people:numa",
+            "people:gobi-glie",
+            "people:mouse-droid",
+            "starships:captured-quasar-carrier",
+            "people:5",
+            "planets:2",
+            "planets:53",
+            "planets:37",
+            "species:4",
+            "vehicles:16"
+          ],
+          "notes": [
+            "The official released image 1 physically shows Ezra and Zeb alongside the named briefing participants. Rex and Sato are physically present there; Chopper is explicitly assigned to the actual mission. A Ghost crew label alone does not identify the briefing vessel as the Ghost or Liberator.",
+            "The camp is on the third moon of the Concord Dawn system. This review adds the named camp as the visited setting, without certifying the old Concord Dawn planet’s identity, world statistics or a surface visit to that planet.",
+            "The Fang fighter is explicitly the Protectors’ craft in its Databank profile and named episode clip; the guide’s related Gauntlet design is not substituted. The visiting Imperial officer and shuttle in caption 10 remain without a named identity in the selected evidence; the image does not settle that officer’s name.",
+            "Kanan recalls Mygeeto and Rau’s Clone Wars actions. Mygeeto, Rako Hardeen, Obi-Wan, Boba Fett and the naming/design references are not new episode appearances. Rau’s conditional safe passage after capture is distinct from his later voluntary rebel allegiance."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+              "locator": "Complete expanded narrative gallery / selected-profile review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-rebels-s2e13",
+              "locator": "Episode guide / story identity",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-protector-of-concord-dawn-trivia",
+              "locator": "Complete trivia gallery / released identities and exclusions",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Captions 1–7, 23–24 / flight, injury and recovery",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:sabine-wren",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Captions 1–24 / flight, stowaway and capture",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:kanan-jarrus",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Captions 8–24 / infiltration and Rau capture",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Caption 8 / Kanan’s mission companion",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:captain-rex",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Caption 1 / named physical briefing",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:jun-sato",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Caption and released image 1 / physical briefing",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:ezra-bridger",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Released image 1 / Ezra visibly at the briefing",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:zeb-orrelios",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Released image 1 / Zeb visibly at the briefing",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:fenn-rau",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Captions 3–24 / attack, duel, capture and conditional passage",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:phantom-original",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Captions 9, 21 / mission and retrieval",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:28",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Captions 3–6 / Phoenix Squadron A-wings",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:protectors-camp",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-protectors-camp",
+                  "locator": "Main profile / named camp on third moon",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Captions 10–21 / actual infiltration",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:fang-fighter",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "Type-family association, not Gauntlet or an individual named hull.",
+              "evidence": [
+                {
+                  "sourceId": "supp16-fang-fighter",
+                  "locator": "Main profile and Video / A-wing escape / Protectors’ fighter in the named episode",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp16-the-protector-of-concord-dawn-gallery",
+                  "locator": "Captions 3–5, 13–21 / fighter attack and sabotage",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:rebels:s2e14",
+          "scope": "One released guide entry reviewed against 148 selected profiles using complete official narrative/trivia galleries, selected Databank evidence and explicitly scoped image checks. Physical scenes and transmissions are distinguished. Omitted links remain unestablished, not absent.",
+          "consideredTargets": [
+            "people:ezra-bridger",
+            "people:kanan-jarrus",
+            "people:hera-syndulla",
+            "people:sabine-wren",
+            "people:zeb-orrelios",
+            "people:chopper",
+            "people:10",
+            "people:64",
+            "people:2",
+            "people:3",
+            "people:68",
+            "people:grand-inquisitor",
+            "people:4",
+            "people:20",
+            "people:12",
+            "people:ahsoka-tano",
+            "people:captain-rex",
+            "people:44",
+            "planets:lothal",
+            "planets:3",
+            "planets:14",
+            "starships:ghost",
+            "vehicles:at-dp",
+            "vehicles:8",
+            "people:agent-kallus",
+            "people:cumberlayne-aresko",
+            "people:myles-grint",
+            "people:cikatro-vizago",
+            "people:wullffwarro",
+            "people:kitwarr",
+            "people:maketh-tua",
+            "people:amda-wabo",
+            "people:rx-24",
+            "people:morad-sumar",
+            "people:supply-master-lyste",
+            "people:gall-trayvis",
+            "people:zare-leonis",
+            "people:jai-kell",
+            "people:nazhros-oleg",
+            "planets:kessel",
+            "planets:garel",
+            "planets:stygeon-prime",
+            "starships:phantom-original",
+            "starships:ezra-zeb-tie-fighter",
+            "starships:star-commuter-shuttle",
+            "vehicles:imperial-troop-transport",
+            "people:tseebo",
+            "people:old-jho",
+            "people:azmorigan",
+            "people:kassius-konstantine",
+            "planets:fort-anaxes-asteroid",
+            "species:fyrnock",
+            "species:loth-cat",
+            "species:puffer-pig",
+            "starships:inquisitor-tie-prototype",
+            "starships:empire-day-parade-prototype",
+            "starships:relentless",
+            "starships:fort-anaxes-landing-shuttle",
+            "starships:merchant-one",
+            "people:25",
+            "people:21",
+            "starships:22",
+            "starships:13",
+            "people:alton-kastle",
+            "planets:lothal-senate-building",
+            "people:imperial-probe-droid",
+            "people:courier-droid",
+            "people:interrogation-droid",
+            "vehicles:patrol-transport",
+            "starships:imperial-light-cruiser",
+            "starships:sovereign",
+            "starships:broken-horn",
+            "starships:mustafar-rescue-transport",
+            "planets:13",
+            "starships:5",
+            "starships:2",
+            "starships:28",
+            "vehicles:sabine-speeder-bike",
+            "vehicles:30",
+            "vehicles:50",
+            "starships:3",
+            "people:jun-sato",
+            "people:willie-w1-le",
+            "starships:phoenix-home",
+            "people:commander-wolffe",
+            "people:gregor",
+            "planets:seelos",
+            "vehicles:modified-at-te",
+            "species:joopa",
+            "people:hondo-ohnaka",
+            "people:fifth-brother",
+            "people:seventh-sister",
+            "people:id9-seeker-droid",
+            "planets:abandoned-republic-medical-station",
+            "planets:nixus-hub-218",
+            "planets:tarkintown",
+            "vehicles:18",
+            "vehicles:53",
+            "people:11",
+            "planets:9",
+            "planets:shantipole",
+            "people:bg-81",
+            "planets:ibaar",
+            "people:eesh-fahm",
+            "starships:blade-wing-prototype",
+            "people:quarrie",
+            "people:ketsu-onyo",
+            "starships:shadow-caster",
+            "people:eg-86",
+            "starships:gx1-starbus",
+            "people:vaux",
+            "people:brom-titus",
+            "starships:titus-interdictor",
+            "planets:takobo",
+            "people:pypey",
+            "people:alora",
+            "people:darja",
+            "people:oora",
+            "people:ryder-azadi",
+            "people:ephraim-bridger",
+            "people:mira-bridger",
+            "starships:liberator",
+            "starships:29",
+            "people:16",
+            "starships:hammerhead-corvette",
+            "planets:lothal-depot",
+            "people:fenn-rau",
+            "planets:protectors-camp",
+            "starships:fang-fighter",
+            "people:gron",
+            "people:chava",
+            "planets:lira-san",
+            "species:lasat",
+            "species:purrgil",
+            "people:yushyn",
+            "planets:asteroid-belt-gas-refinery",
+            "starships:mining-guild-tie-fighter",
+            "people:cham-syndulla",
+            "people:numa",
+            "people:gobi-glie",
+            "people:mouse-droid",
+            "starships:captured-quasar-carrier",
+            "people:5",
+            "planets:2",
+            "planets:53",
+            "planets:37",
+            "species:4",
+            "vehicles:16"
+          ],
+          "notes": [
+            "The Nixus Hub 218 name in trivia 4 is not silently equated to the existing station profile: that caption places the outpost on the same world as the earlier hub, while Brothers of the Broken Horn trivia 2 calls its hub a station. Current location/identity remains unresolved. No duplicate hub or unreviewed world is created.",
+            "Lasan is recalled and Lira San is first mapped, then actually reached: captions 24–25 establish Zeb taking Gron and Chava there and returning. Lira San/Lirasan are spelling variants of one source identity, not two worlds. Lasan is not a present-day visited setting in this review.",
+            "Hondo has actual outpost scenes and later remote conversation, so the combined row is direct. Kallus is physically shown from his own bridge in released image 22 as well as contacted remotely; direct does not place him aboard the Ghost. His later rebel defection is not projected into this chase.",
+            "Chopper’s map is explicit; Kanan and Sabine are not individually established by the selected captions/images and receive no automatic crew-based connection. Ashla is a Force term, not an Ahsoka appearance. The script-only Gron line is not added as released dialogue.",
+            "Two earlier Zeb/Ghost rows are rechecked as direct with their original row IDs and references retained; their old evidence-check dates are refreshed. Other previous episode rows and evidence remain untouched."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp16-legends-of-the-lasat-gallery",
+              "locator": "Complete expanded narrative gallery / selected-profile review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-rebels-s2e14",
+              "locator": "Episode guide / story identity",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-legends-of-the-lasat-trivia",
+              "locator": "Complete trivia gallery / released identities and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp14-brothers-of-the-broken-horn-trivia",
+              "locator": "Caption 2 / prior Nixus Hub 218 station wording",
+              "note": "Retained conflicting location description; not a resolution of the identity."
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:ezra-bridger",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Captions 1–18 / rescue, Hondo contact and ritual",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Captions 1, 5 / outpost arrival and rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:zeb-orrelios",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Captions 3–25 / rescue, ritual, actual landing and return",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp06-rebels-lasat-scene",
+                  "locator": "Legends of the Lasat discussion → Zeb’s ritual in the Ghost cockpit",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Caption and released image 15 / map projection",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:hondo-ohnaka",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Captions 5, 8, 10–11, 18 / physical outpost scenes and later comm",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:gron",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Captions 6–25 / rescue, ritual and arrival",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chava",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Captions 7–25 / rescue, ritual and arrival",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:ghost",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Captions 1, 10–25 / rescue ship, anomaly passage and arrival",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp06-rebels-lasat-scene",
+                  "locator": "Legends of the Lasat discussion → yellow light in the cockpit of the Ghost during Zeb’s ritual",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "vehicles:8",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Caption 21 / pursuing TIE fighters",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:agent-kallus",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Actual scene aboard his own ship, plus remote contacts; not physically aboard the Ghost.",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Captions 11, 18–22 and released image 22 / communication, chase and physical bridge scene",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:lira-san",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "Actual visit, not only the map in caption 17.",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Captions 24–25 / actual arrival, Zeb’s landing with Gron/Chava and return",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp16-lira-san",
+                  "locator": "Main profile / discovered ancestral home",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:lasat",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Species-level connection only; not an inferred exact population.",
+              "evidence": [
+                {
+                  "sourceId": "supp16-legends-of-the-lasat-gallery",
+                  "locator": "Captions 3–7, 24–25 / Zeb, Gron, Chava and surviving Lasat",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:rebels:s2e15",
+          "scope": "One released guide entry reviewed against 148 selected profiles using complete official narrative/trivia galleries, selected Databank evidence and explicitly scoped image checks. Physical scenes and transmissions are distinguished. Omitted links remain unestablished, not absent.",
+          "consideredTargets": [
+            "people:ezra-bridger",
+            "people:kanan-jarrus",
+            "people:hera-syndulla",
+            "people:sabine-wren",
+            "people:zeb-orrelios",
+            "people:chopper",
+            "people:10",
+            "people:64",
+            "people:2",
+            "people:3",
+            "people:68",
+            "people:grand-inquisitor",
+            "people:4",
+            "people:20",
+            "people:12",
+            "people:ahsoka-tano",
+            "people:captain-rex",
+            "people:44",
+            "planets:lothal",
+            "planets:3",
+            "planets:14",
+            "starships:ghost",
+            "vehicles:at-dp",
+            "vehicles:8",
+            "people:agent-kallus",
+            "people:cumberlayne-aresko",
+            "people:myles-grint",
+            "people:cikatro-vizago",
+            "people:wullffwarro",
+            "people:kitwarr",
+            "people:maketh-tua",
+            "people:amda-wabo",
+            "people:rx-24",
+            "people:morad-sumar",
+            "people:supply-master-lyste",
+            "people:gall-trayvis",
+            "people:zare-leonis",
+            "people:jai-kell",
+            "people:nazhros-oleg",
+            "planets:kessel",
+            "planets:garel",
+            "planets:stygeon-prime",
+            "starships:phantom-original",
+            "starships:ezra-zeb-tie-fighter",
+            "starships:star-commuter-shuttle",
+            "vehicles:imperial-troop-transport",
+            "people:tseebo",
+            "people:old-jho",
+            "people:azmorigan",
+            "people:kassius-konstantine",
+            "planets:fort-anaxes-asteroid",
+            "species:fyrnock",
+            "species:loth-cat",
+            "species:puffer-pig",
+            "starships:inquisitor-tie-prototype",
+            "starships:empire-day-parade-prototype",
+            "starships:relentless",
+            "starships:fort-anaxes-landing-shuttle",
+            "starships:merchant-one",
+            "people:25",
+            "people:21",
+            "starships:22",
+            "starships:13",
+            "people:alton-kastle",
+            "planets:lothal-senate-building",
+            "people:imperial-probe-droid",
+            "people:courier-droid",
+            "people:interrogation-droid",
+            "vehicles:patrol-transport",
+            "starships:imperial-light-cruiser",
+            "starships:sovereign",
+            "starships:broken-horn",
+            "starships:mustafar-rescue-transport",
+            "planets:13",
+            "starships:5",
+            "starships:2",
+            "starships:28",
+            "vehicles:sabine-speeder-bike",
+            "vehicles:30",
+            "vehicles:50",
+            "starships:3",
+            "people:jun-sato",
+            "people:willie-w1-le",
+            "starships:phoenix-home",
+            "people:commander-wolffe",
+            "people:gregor",
+            "planets:seelos",
+            "vehicles:modified-at-te",
+            "species:joopa",
+            "people:hondo-ohnaka",
+            "people:fifth-brother",
+            "people:seventh-sister",
+            "people:id9-seeker-droid",
+            "planets:abandoned-republic-medical-station",
+            "planets:nixus-hub-218",
+            "planets:tarkintown",
+            "vehicles:18",
+            "vehicles:53",
+            "people:11",
+            "planets:9",
+            "planets:shantipole",
+            "people:bg-81",
+            "planets:ibaar",
+            "people:eesh-fahm",
+            "starships:blade-wing-prototype",
+            "people:quarrie",
+            "people:ketsu-onyo",
+            "starships:shadow-caster",
+            "people:eg-86",
+            "starships:gx1-starbus",
+            "people:vaux",
+            "people:brom-titus",
+            "starships:titus-interdictor",
+            "planets:takobo",
+            "people:pypey",
+            "people:alora",
+            "people:darja",
+            "people:oora",
+            "people:ryder-azadi",
+            "people:ephraim-bridger",
+            "people:mira-bridger",
+            "starships:liberator",
+            "starships:29",
+            "people:16",
+            "starships:hammerhead-corvette",
+            "planets:lothal-depot",
+            "people:fenn-rau",
+            "planets:protectors-camp",
+            "starships:fang-fighter",
+            "people:gron",
+            "people:chava",
+            "planets:lira-san",
+            "species:lasat",
+            "species:purrgil",
+            "people:yushyn",
+            "planets:asteroid-belt-gas-refinery",
+            "starships:mining-guild-tie-fighter",
+            "people:cham-syndulla",
+            "people:numa",
+            "people:gobi-glie",
+            "people:mouse-droid",
+            "starships:captured-quasar-carrier",
+            "people:5",
+            "planets:2",
+            "planets:53",
+            "planets:37",
+            "species:4",
+            "vehicles:16"
+          ],
+          "notes": [
+            "The Mining Guild fighters are modified yellow craft, distinct from the standard Imperial-service TIE/LN profile; no inherited speed, crew or combat statistics are transferred. The refinery is a facility on a planetoid, not a newly named entire planet.",
+            "The purrgil are actual animals and make an observed hyperspace jump. The Purrgil King label belongs to the script and does not create an individual or subspecies. Hera’s folklore about the origin of hyperspace travel is not treated as established technological history.",
+            "A Loth-cat face on Kanan’s helmet is decoration, not a live animal. Ezra’s vision through the creature’s eye does not establish a separate visited world. The named Rodian crew are supported by trivia 2; that note’s suggestion about atmosphere is not converted into a measured composition or universal species physiology.",
+            "Zeb is not individually established by the selected narrative evidence and receives no automatic crew-based appearance. Omitted links remain unestablished, not absent."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp16-the-call-gallery",
+              "locator": "Complete expanded narrative gallery / selected-profile review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-rebels-s2e15",
+              "locator": "Episode guide / story identity",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-the-call-trivia",
+              "locator": "Complete trivia gallery / released identities and exclusions",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:ezra-bridger",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-call-gallery",
+                  "locator": "Captions 2–27 / purrgil contact and fuel mission",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-call-gallery",
+                  "locator": "Captions 3–27 / flight, raid and departure",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:kanan-jarrus",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-call-gallery",
+                  "locator": "Captions 3, 6, 11–21 / defense and raid",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:sabine-wren",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-call-gallery",
+                  "locator": "Captions 2, 6, 11–21 / tracking, raid and explosives",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-call-gallery",
+                  "locator": "Caption 11 / actual descent with the raid party",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:yushyn",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-call-gallery",
+                  "locator": "Caption 23 / named refinery boss seized by purrgil",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:purrgil",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-call-gallery",
+                  "locator": "Captions 3–27 / pod, rescue and observed hyperspace jump",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:ghost",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-call-gallery",
+                  "locator": "Captions 1–27 / approach, refueling and departure",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:asteroid-belt-gas-refinery",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-asteroid-belt-gas-refinery",
+                  "locator": "Main profile / named refinery on a small planetoid",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp16-the-call-gallery",
+                  "locator": "Captions 8–24 / actual refinery raid and destruction",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:mining-guild-tie-fighter",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-mining-guild-tie-fighter",
+                  "locator": "Main profile and Video / I’ve Got ’Em / named The Call connection",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp16-the-call-gallery",
+                  "locator": "Captions 5–6, 16, 21 / modified guild fighters",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:4",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Species-level presence; no gas tolerance, age or inherited measurements inferred.",
+              "evidence": [
+                {
+                  "sourceId": "supp16-the-call-trivia",
+                  "locator": "Caption 2 / explicitly Yushyn’s Rodian crew",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:rebels:s2e16",
+          "scope": "One released guide entry reviewed against 148 selected profiles using complete official narrative/trivia galleries, selected Databank evidence and explicitly scoped image checks. Physical scenes and transmissions are distinguished. Omitted links remain unestablished, not absent.",
+          "consideredTargets": [
+            "people:ezra-bridger",
+            "people:kanan-jarrus",
+            "people:hera-syndulla",
+            "people:sabine-wren",
+            "people:zeb-orrelios",
+            "people:chopper",
+            "people:10",
+            "people:64",
+            "people:2",
+            "people:3",
+            "people:68",
+            "people:grand-inquisitor",
+            "people:4",
+            "people:20",
+            "people:12",
+            "people:ahsoka-tano",
+            "people:captain-rex",
+            "people:44",
+            "planets:lothal",
+            "planets:3",
+            "planets:14",
+            "starships:ghost",
+            "vehicles:at-dp",
+            "vehicles:8",
+            "people:agent-kallus",
+            "people:cumberlayne-aresko",
+            "people:myles-grint",
+            "people:cikatro-vizago",
+            "people:wullffwarro",
+            "people:kitwarr",
+            "people:maketh-tua",
+            "people:amda-wabo",
+            "people:rx-24",
+            "people:morad-sumar",
+            "people:supply-master-lyste",
+            "people:gall-trayvis",
+            "people:zare-leonis",
+            "people:jai-kell",
+            "people:nazhros-oleg",
+            "planets:kessel",
+            "planets:garel",
+            "planets:stygeon-prime",
+            "starships:phantom-original",
+            "starships:ezra-zeb-tie-fighter",
+            "starships:star-commuter-shuttle",
+            "vehicles:imperial-troop-transport",
+            "people:tseebo",
+            "people:old-jho",
+            "people:azmorigan",
+            "people:kassius-konstantine",
+            "planets:fort-anaxes-asteroid",
+            "species:fyrnock",
+            "species:loth-cat",
+            "species:puffer-pig",
+            "starships:inquisitor-tie-prototype",
+            "starships:empire-day-parade-prototype",
+            "starships:relentless",
+            "starships:fort-anaxes-landing-shuttle",
+            "starships:merchant-one",
+            "people:25",
+            "people:21",
+            "starships:22",
+            "starships:13",
+            "people:alton-kastle",
+            "planets:lothal-senate-building",
+            "people:imperial-probe-droid",
+            "people:courier-droid",
+            "people:interrogation-droid",
+            "vehicles:patrol-transport",
+            "starships:imperial-light-cruiser",
+            "starships:sovereign",
+            "starships:broken-horn",
+            "starships:mustafar-rescue-transport",
+            "planets:13",
+            "starships:5",
+            "starships:2",
+            "starships:28",
+            "vehicles:sabine-speeder-bike",
+            "vehicles:30",
+            "vehicles:50",
+            "starships:3",
+            "people:jun-sato",
+            "people:willie-w1-le",
+            "starships:phoenix-home",
+            "people:commander-wolffe",
+            "people:gregor",
+            "planets:seelos",
+            "vehicles:modified-at-te",
+            "species:joopa",
+            "people:hondo-ohnaka",
+            "people:fifth-brother",
+            "people:seventh-sister",
+            "people:id9-seeker-droid",
+            "planets:abandoned-republic-medical-station",
+            "planets:nixus-hub-218",
+            "planets:tarkintown",
+            "vehicles:18",
+            "vehicles:53",
+            "people:11",
+            "planets:9",
+            "planets:shantipole",
+            "people:bg-81",
+            "planets:ibaar",
+            "people:eesh-fahm",
+            "starships:blade-wing-prototype",
+            "people:quarrie",
+            "people:ketsu-onyo",
+            "starships:shadow-caster",
+            "people:eg-86",
+            "starships:gx1-starbus",
+            "people:vaux",
+            "people:brom-titus",
+            "starships:titus-interdictor",
+            "planets:takobo",
+            "people:pypey",
+            "people:alora",
+            "people:darja",
+            "people:oora",
+            "people:ryder-azadi",
+            "people:ephraim-bridger",
+            "people:mira-bridger",
+            "starships:liberator",
+            "starships:29",
+            "people:16",
+            "starships:hammerhead-corvette",
+            "planets:lothal-depot",
+            "people:fenn-rau",
+            "planets:protectors-camp",
+            "starships:fang-fighter",
+            "people:gron",
+            "people:chava",
+            "planets:lira-san",
+            "species:lasat",
+            "species:purrgil",
+            "people:yushyn",
+            "planets:asteroid-belt-gas-refinery",
+            "starships:mining-guild-tie-fighter",
+            "people:cham-syndulla",
+            "people:numa",
+            "people:gobi-glie",
+            "people:mouse-droid",
+            "starships:captured-quasar-carrier",
+            "people:5",
+            "planets:2",
+            "planets:53",
+            "planets:37",
+            "species:4",
+            "vehicles:16"
+          ],
+          "notes": [
+            "Sato is a holographic transmission in released image 3, not established as physically aboard the Ghost. Cham, Numa and Gobi have physical scenes as well as later conversation by comm; each has one combined direct row.",
+            "Numa is an adult resistance fighter here; her Databank’s childhood height is not applied to this appearance. Gobi is a close family friend, not a sourced biological uncle. Hera’s deceased mother is discussed, not established as a present-day living appearance.",
+            "The captured carrier is a Quasar Fire-class cruiser-carrier, distinct from the previously destroyed Phoenix Home, the Liberator and the Legends Flurry design reference. The precise later proper-name alias remains pending. The generic reinforcement shuttle is not assigned a Lambda or Sentinel identity.",
+            "The destroyed reinforcement vessel is called a light cruiser in narrative captions 24–26 and Numa’s official Rebels history; Cham’s history instead calls the reinforcement a Star Destroyer. This source discrepancy is retained. The selected row follows the released narrative plus Numa, and does not identify a named hull or verify numerical class specifications.",
+            "Ryloth is the named orbital context; this row does not assert a Ghost-crew surface landing. Boil’s name and the Tooka drawing on Numa’s clothes are references, not live appearances. The script-only ballad does not become a released performance."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp16-homecoming-gallery",
+              "locator": "Complete expanded narrative gallery / selected-profile review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-rebels-s2e16",
+              "locator": "Episode guide / story identity",
+              "note": ""
+            },
+            {
+              "sourceId": "supp16-homecoming-trivia",
+              "locator": "Complete trivia gallery / released identities and exclusions",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 4–28 / father, mission and reconciliation",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:kanan-jarrus",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 5–26 / mission and bridge capture",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:ezra-bridger",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 7–26 / mission, mind trick and bomber diversion",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:zeb-orrelios",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 1, 11, 22 / cargo, betrayal and defense",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:sabine-wren",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 11–26 / droid diversion, defense and explosives",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 11–12 / stunned and releases Hera",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cham-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 5–28 / physical mission and reconciliation",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:numa",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 5, 11, 13, 18, 20 / mission and later comm",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:gobi-glie",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 5, 11, 18, 20 / mission and later comm",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:mouse-droid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Caption 18 / captured unit remotely driven by Sabine",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:37",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 3, 8, 24–28 / named Ryloth orbital mission and reports",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:ghost",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Caption 1 / actual opening cargo transfer",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:28",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 2, 8–9, 27 / A-wings, staged attack and hangar",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "vehicles:16",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 6, 8–11, 23, 25–26 / stolen bomber, attacks and explosive decoy",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:jun-sato",
+              "relation": "appearance",
+              "representation": "transmission",
+              "note": "Transmission to the crew; physical presence aboard the Ghost is not established.",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Caption and released image 3 / Sato’s holographic mission suggestion",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:captured-quasar-carrier",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp16-quasar-fire-class-cruiser-carrier",
+                  "locator": "Main profile / specific Ghost/Cham captured carrier",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 6–28 / boarding, capture and return to fleet",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:imperial-light-cruiser",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "Type-family identity follows narrative and Numa. Cham’s separate Star Destroyer wording is a retained discrepancy; no named hull or technical data inferred.",
+              "evidence": [
+                {
+                  "sourceId": "supp16-homecoming-gallery",
+                  "locator": "Captions 24–26 / explicitly approaching light cruiser and explosive-bomber destruction",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp16-numa",
+                  "locator": "The Dark Times / explicitly an Imperial light cruiser destroyed over Ryloth",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

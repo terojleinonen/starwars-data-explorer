@@ -1,0 +1,518 @@
+{
+  "version": 1,
+  "id": "original-trilogy-editions-01",
+  "checkedAt": "2026-10-26",
+  "scope": "Original theatrical versions and 1997 Special Editions; selected US release events and selected revision credits, not complete version or end-credit coverage.",
+  "sources": [
+    {
+      "id": "editions-afi-jedi",
+      "title": "AFI Catalog — Return of the Jedi (1983)",
+      "url": "https://catalog.afi.com/Film/58057-RETURN-OF-THE-JEDI",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Individual historical facts and source linking only. No article, press-kit text, images or database dump redistributed.",
+      "attribution": "AFI Catalog — Return of the Jedi (1983)",
+      "revision": "",
+      "note": "Detailed original-production credits and original release date. Its historical note gives the initial 7 March 1997 date; this is not accepted as the actual Special Edition opening."
+    },
+    {
+      "id": "editions-release-register",
+      "title": "Box Office Mojo — Lucasfilm release register",
+      "url": "https://www.boxofficemojo.com/brand/bn4168284674/?sort=releaseDate&sortDir=asc",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Individual historical facts and source linking only. No article, press-kit text, images or database dump redistributed.",
+      "attribution": "Box Office Mojo — Lucasfilm release register",
+      "revision": "",
+      "note": "Manually checked original and 1997 Special Edition domestic theatrical dates only. Public reference, not an open-data licence or a bulk import. Domestic dates are recorded as US theatrical openings, not world premieres."
+    },
+    {
+      "id": "editions-presskit",
+      "title": "Lucasfilm / Fox — 1997 Special Edition press kit (preserved scan)",
+      "url": "https://starwarsviscomp.wordpress.com/wp-content/uploads/2025/02/se-press-kit-main.pdf",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Individual historical facts and source linking only. No article, press-kit text, images or database dump redistributed.",
+      "attribution": "Lucasfilm / Fox — 1997 Special Edition press kit (preserved scan)",
+      "revision": "",
+      "note": "Contemporary studio press material preserved on a third-party archive, not currently hosted by Lucasfilm. Used for attributed production intent and selected restoration credits. No transcript or scan is redistributed."
+    },
+    {
+      "id": "editions-mccallum",
+      "title": "StarWars.com — An Independent Future for Rick McCallum",
+      "url": "https://www.starwars.com/news/an-independent-future-for-rick-mccallum",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Individual historical facts and source linking only. No article, press-kit text, images or database dump redistributed.",
+      "attribution": "StarWars.com — An Independent Future for Rick McCallum",
+      "revision": "",
+      "note": "Corroborates McCallum’s collaboration with Lucas on the 1997 Special Edition trilogy. Specific Special Edition producer role is also stated in the contemporary press kit."
+    },
+    {
+      "id": "editions-oral-history",
+      "title": "StarWars.com — An Oral History",
+      "url": "https://www.starwars.com/news/starwars-com-an-oral-history",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Individual historical facts and source linking only. No article, press-kit text, images or database dump redistributed.",
+      "attribution": "StarWars.com — An Oral History",
+      "revision": "",
+      "note": "First-hand retrospective describing new digital effects and the one-week postponement of Return of the Jedi’s Special Edition opening."
+    },
+    {
+      "id": "editions-upi-preview",
+      "title": "UPI Archives — Special Edition release preview, 30 January 1997",
+      "url": "https://www.upi.com/Archives/1997/01/30/The-most-significant-film-event-of-1997-begins-this/6471854600400/",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Individual historical facts and source linking only. No article, press-kit text, images or database dump redistributed.",
+      "attribution": "UPI Archives — Special Edition release preview, 30 January 1997",
+      "revision": "",
+      "note": "Contemporary preview announces 7 March for Jedi. Stored as an announced date later superseded, not as an actual release. Includes Lucas and McCallum statements about the revision."
+    }
+  ],
+  "editions": [
+    {
+      "id": "films:1:theatrical-1977",
+      "recordId": "films:1",
+      "label": "Original theatrical version",
+      "year": 1977,
+      "kind": "original",
+      "summary": "Original theatrical release. Original-production credits are kept separate from later revision work.",
+      "scopeNote": "Selected US release history. Individual print, sound-mix and running-time variants are not yet catalogued.",
+      "evidence": [
+        {
+          "sourceId": "pilot-afi-hope",
+          "locator": "Original release date and detailed production credits",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:1:theatrical-1977:us-opening",
+          "date": "1977-05-25",
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "Original theatrical opening",
+          "status": "released",
+          "note": "US theatrical release; not a claim about the world premiere or Finnish release.",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Film heading / original release date",
+              "note": ""
+            },
+            {
+              "sourceId": "editions-release-register",
+              "locator": "Domestic release register / original film row",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:1:special-edition-1997",
+      "recordId": "films:1",
+      "label": "1997 Special Edition",
+      "year": 1997,
+      "kind": "revision",
+      "summary": "Revised theatrical version with restoration work and updated effects and sound. Lucas described the project as a chance to revisit earlier technical, time and budget constraints.",
+      "scopeNote": "Selected credits for the 1997 revision work only. Original filmmaking credits remain with the original production; later home-video revisions are not included here.",
+      "evidence": [
+        {
+          "sourceId": "editions-presskit",
+          "locator": "PDF page 4 (printed page 3), The Special Edition / Lucas’s stated reasons",
+          "note": ""
+        },
+        {
+          "sourceId": "editions-oral-history",
+          "locator": "Special Edition launch / new digital effects",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [
+        {
+          "person": "Rick McCallum",
+          "role": "Special Edition producer",
+          "evidence": [
+            {
+              "sourceId": "editions-presskit",
+              "locator": "PDF page 2 (printed page 1), Special Edition producer; page 4, The Special Edition",
+              "note": ""
+            },
+            {
+              "sourceId": "editions-mccallum",
+              "locator": "Career introduction / 1997 Special Edition trilogy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tom Kennedy",
+          "role": "Visual effects producer",
+          "evidence": [
+            {
+              "sourceId": "editions-presskit",
+              "locator": "PDF pages 6–7 (printed pages 5–6), The Restoration / ILM visual effects producer",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "films:1:special-edition-1997:us-opening",
+          "date": "1997-01-31",
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "Special Edition theatrical opening",
+          "status": "released",
+          "note": "Actual 1997 US theatrical opening; other territories require their own events.",
+          "evidence": [
+            {
+              "sourceId": "editions-release-register",
+              "locator": "Domestic release register / 1997 Special Edition row",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:2:theatrical-1980",
+      "recordId": "films:2",
+      "label": "Original theatrical version",
+      "year": 1980,
+      "kind": "original",
+      "summary": "Original theatrical release. Original-production credits are kept separate from later revision work.",
+      "scopeNote": "Selected US release history. Individual print, sound-mix and running-time variants are not yet catalogued.",
+      "evidence": [
+        {
+          "sourceId": "pilot-afi-empire",
+          "locator": "Original release date and detailed production credits",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:2:theatrical-1980:us-opening",
+          "date": "1980-05-21",
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "Original theatrical opening",
+          "status": "released",
+          "note": "US theatrical release; not a claim about the world premiere or Finnish release.",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Film heading / original release date",
+              "note": ""
+            },
+            {
+              "sourceId": "editions-release-register",
+              "locator": "Domestic release register / original film row",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:2:special-edition-1997",
+      "recordId": "films:2",
+      "label": "1997 Special Edition",
+      "year": 1997,
+      "kind": "revision",
+      "summary": "Revised theatrical version with restoration work and updated effects and sound. Lucas described the project as a chance to revisit earlier technical, time and budget constraints.",
+      "scopeNote": "Selected credits for the 1997 revision work only. Original filmmaking credits remain with the original production; later home-video revisions are not included here.",
+      "evidence": [
+        {
+          "sourceId": "editions-presskit",
+          "locator": "PDF page 4 (printed page 3), The Special Edition / Lucas’s stated reasons",
+          "note": ""
+        },
+        {
+          "sourceId": "editions-oral-history",
+          "locator": "Special Edition launch / new digital effects",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [
+        {
+          "person": "Rick McCallum",
+          "role": "Special Edition producer",
+          "evidence": [
+            {
+              "sourceId": "editions-presskit",
+              "locator": "PDF page 2 (printed page 1), Special Edition producer; page 4, The Special Edition",
+              "note": ""
+            },
+            {
+              "sourceId": "editions-mccallum",
+              "locator": "Career introduction / 1997 Special Edition trilogy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Carson",
+          "role": "Visual effects supervisor",
+          "evidence": [
+            {
+              "sourceId": "editions-presskit",
+              "locator": "PDF page 11 (printed page 10), The Visual Changes / The Empire Strikes Back",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "films:2:special-edition-1997:us-opening",
+          "date": "1997-02-21",
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "Special Edition theatrical opening",
+          "status": "released",
+          "note": "Actual 1997 US theatrical opening; other territories require their own events.",
+          "evidence": [
+            {
+              "sourceId": "editions-release-register",
+              "locator": "Domestic release register / 1997 Special Edition row",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:3:theatrical-1983",
+      "recordId": "films:3",
+      "label": "Original theatrical version",
+      "year": 1983,
+      "kind": "original",
+      "summary": "Original theatrical release. Original-production credits are kept separate from later revision work.",
+      "scopeNote": "Selected US release history. Individual print, sound-mix and running-time variants are not yet catalogued.",
+      "evidence": [
+        {
+          "sourceId": "editions-afi-jedi",
+          "locator": "Original release date and detailed production credits",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [
+        {
+          "person": "Richard Marquand",
+          "role": "Director",
+          "evidence": [
+            {
+              "sourceId": "editions-afi-jedi",
+              "locator": "Detailed production credits / Directors / Dir",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Howard Kazanjian",
+          "role": "Producer",
+          "evidence": [
+            {
+              "sourceId": "editions-afi-jedi",
+              "locator": "Detailed production credits / Producers / Prod",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Executive producer",
+          "evidence": [
+            {
+              "sourceId": "editions-afi-jedi",
+              "locator": "Detailed production credits / Producers / Exec prod",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "films:3:theatrical-1983:us-opening",
+          "date": "1983-05-25",
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "Original theatrical opening",
+          "status": "released",
+          "note": "US theatrical release; not a claim about the world premiere or Finnish release.",
+          "evidence": [
+            {
+              "sourceId": "editions-afi-jedi",
+              "locator": "Film heading / original release date",
+              "note": ""
+            },
+            {
+              "sourceId": "editions-release-register",
+              "locator": "Domestic release register / original film row",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:3:special-edition-1997",
+      "recordId": "films:3",
+      "label": "1997 Special Edition",
+      "year": 1997,
+      "kind": "revision",
+      "summary": "Revised theatrical version with restoration work and updated effects and sound. Lucas described the project as a chance to revisit earlier technical, time and budget constraints.",
+      "scopeNote": "Selected credits for the 1997 revision work only. Original filmmaking credits remain with the original production; later home-video revisions are not included here.",
+      "evidence": [
+        {
+          "sourceId": "editions-presskit",
+          "locator": "PDF page 4 (printed page 3), The Special Edition / Lucas’s stated reasons",
+          "note": ""
+        },
+        {
+          "sourceId": "editions-oral-history",
+          "locator": "Special Edition launch / new digital effects",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [
+        {
+          "person": "Rick McCallum",
+          "role": "Special Edition producer",
+          "evidence": [
+            {
+              "sourceId": "editions-presskit",
+              "locator": "PDF page 2 (printed page 1), Special Edition producer; page 4, The Special Edition",
+              "note": ""
+            },
+            {
+              "sourceId": "editions-mccallum",
+              "locator": "Career introduction / 1997 Special Edition trilogy",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "films:3:special-edition-1997:announced-us-opening",
+          "date": "1997-03-07",
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "Announced Special Edition opening",
+          "status": "superseded",
+          "note": "Announced in the January preview, then postponed by one week. This is not an actual opening.",
+          "evidence": [
+            {
+              "sourceId": "editions-upi-preview",
+              "locator": "30 January 1997 preview / planned Jedi release",
+              "note": ""
+            },
+            {
+              "sourceId": "editions-oral-history",
+              "locator": "Steve Sansweet recollection / Jedi release postponed by one week",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "films:3:special-edition-1997:us-opening",
+          "date": "1997-03-14",
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "Special Edition theatrical opening",
+          "status": "released",
+          "note": "Actual 1997 US theatrical opening; other territories require their own events.",
+          "evidence": [
+            {
+              "sourceId": "editions-release-register",
+              "locator": "Domestic release register / 1997 Special Edition row",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "recordId": "films:3",
+      "key": "director",
+      "value": "Richard Marquand",
+      "evidence": [
+        {
+          "sourceId": "editions-afi-jedi",
+          "locator": "Detailed production credits / Director",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:3",
+      "key": "producer",
+      "value": "Howard Kazanjian",
+      "evidence": [
+        {
+          "sourceId": "editions-afi-jedi",
+          "locator": "Detailed production credits / Producers / Prod",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:3",
+      "key": "executive_producer",
+      "value": "George Lucas",
+      "evidence": [
+        {
+          "sourceId": "editions-afi-jedi",
+          "locator": "Detailed production credits / Producers / Exec prod",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:3",
+      "key": "release_date",
+      "value": "1983-05-25",
+      "evidence": [
+        {
+          "sourceId": "editions-afi-jedi",
+          "locator": "Film heading / original release date",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:3",
+      "key": "release_scope",
+      "value": "Original US theatrical release; 1997 revision has its own event",
+      "evidence": [
+        {
+          "sourceId": "editions-release-register",
+          "locator": "Original and 1997 Special Edition domestic rows",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

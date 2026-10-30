@@ -1,0 +1,82 @@
+[
+  {
+    "input": "original-trilogy-editions-01",
+    "recordId": "films:3",
+    "field": "director",
+    "before": {
+      "value": "Richard Marquand",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": "Richard Marquand",
+    "evidence": [
+      {
+        "sourceId": "editions-afi-jedi",
+        "locator": "Detailed production credits / Director",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "input": "original-trilogy-editions-01",
+    "recordId": "films:3",
+    "field": "producer",
+    "before": {
+      "value": "Howard G. Kazanjian, George Lucas, Rick McCallum",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": "Howard Kazanjian",
+    "evidence": [
+      {
+        "sourceId": "editions-afi-jedi",
+        "locator": "Detailed production credits / Producers / Prod",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "input": "original-trilogy-editions-01",
+    "recordId": "films:3",
+    "field": "executive_producer",
+    "after": "George Lucas",
+    "evidence": [
+      {
+        "sourceId": "editions-afi-jedi",
+        "locator": "Detailed production credits / Producers / Exec prod",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "input": "original-trilogy-editions-01",
+    "recordId": "films:3",
+    "field": "release_date",
+    "before": {
+      "value": "1983-05-25",
+      "source_id": "legacy-films",
+      "review_status": "legacy"
+    },
+    "after": "1983-05-25",
+    "evidence": [
+      {
+        "sourceId": "editions-afi-jedi",
+        "locator": "Film heading / original release date",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "input": "original-trilogy-editions-01",
+    "recordId": "films:3",
+    "field": "release_scope",
+    "after": "Original US theatrical release; 1997 revision has its own event",
+    "evidence": [
+      {
+        "sourceId": "editions-release-register",
+        "locator": "Original and 1997 Special Edition domestic rows",
+        "note": ""
+      }
+    ]
+  }
+]

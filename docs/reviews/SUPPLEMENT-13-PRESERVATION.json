@@ -1,0 +1,151 @@
+{
+  "records": {
+    "before": 462,
+    "after": 472,
+    "added": 10,
+    "missingOrChanged": 0
+  },
+  "facts": {
+    "before": 2584,
+    "after": 2594,
+    "added": 10,
+    "missingOrChanged": 0
+  },
+  "links": {
+    "before": 1670,
+    "after": 1692,
+    "added": 22,
+    "missingOrChanged": 0
+  },
+  "record_sources": {
+    "before": 1435,
+    "after": 1474,
+    "added": 39,
+    "missingOrChanged": 0
+  },
+  "contributors": {
+    "before": 307,
+    "after": 307,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "credits": {
+    "before": 576,
+    "after": 576,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "citations": {
+    "before": 3160,
+    "after": 3310,
+    "added": 150,
+    "missingOrChanged": 0
+  },
+  "review_issues": {
+    "before": 42,
+    "after": 42,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "film_editions": {
+    "before": 26,
+    "after": 26,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "release_events": {
+    "before": 82,
+    "after": 82,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "edition_credits": {
+    "before": 10,
+    "after": 10,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "review_batches": {
+    "before": 16,
+    "after": 17,
+    "added": 1,
+    "missingOrChanged": 0
+  },
+  "review_supplements": {
+    "before": 109,
+    "after": 120,
+    "added": 11,
+    "missingOrChanged": 0
+  },
+  "episodes": {
+    "before": 151,
+    "after": 151,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_credits": {
+    "before": 65,
+    "after": 65,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_links": {
+    "before": 477,
+    "after": 547,
+    "added": 70,
+    "missingOrChanged": 0
+  },
+  "episode_reviews": {
+    "before": 48,
+    "after": 52,
+    "added": 4,
+    "missingOrChanged": 0
+  },
+  "fact_assessments": {
+    "before": 89,
+    "after": 89,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "sources": {
+    "before": 527,
+    "after": 543,
+    "added": 16,
+    "allowedChange": {
+      "supp09-moff-gideon-s-light-cruiser-official-databank": [
+        "title",
+        "note"
+      ]
+    },
+    "allOldSourceIdsUrlsCheckDatesRightsRetained": true
+  },
+  "metadata": {
+    "allowedChange": "editorial_records +10; other values unchanged"
+  },
+  "citationIdentity": "All prior citation contents and multiplicities retained. Generated numeric IDs can move because profile batches run after supplements.",
+  "record_reviews": {
+    "allowedChange": "series:rebels limitations/checked_at only",
+    "newSupportingReviews": 10
+  },
+  "factStatuses": {
+    "legacy": 2060,
+    "verified": 445,
+    "unestablished": 89
+  },
+  "workLinkStatuses": {
+    "legacy": 1063,
+    "verified": 626,
+    "reference": 3
+  },
+  "newEpisodeRepresentations": {
+    "direct": 66,
+    "transmission": 4
+  },
+  "firstSeason": {
+    "guideEntries": 14,
+    "numberedParts": 15,
+    "selectedConnections": 217,
+    "guidesStillPendingOtherSeasons": 52,
+    "partsStillPendingOtherSeasons": 60
+  }
+}

@@ -1,0 +1,322 @@
+/* Shared archive reading system. The cinematic prologue lives outside this layout. */
+.archive-reading {
+  --reader-screen: #e2bb78;
+  --reader-person: #dda28c;
+  --reader-world: #83c7b5;
+  --reader-craft: #91c5e5;
+  --reader-source: #b8ade0;
+  --reader-text: #eeeef0;
+  --reader-muted: #bac1cb;
+  --reader-rule: #d0d9e323;
+  --reader-signal: #d26360;
+  --department-color: var(--reader-muted);
+  color: var(--reader-text);
+}
+.archive-reading [data-department="screen"] { --department-color: var(--reader-screen); }
+.archive-reading [data-department="person"] { --department-color: var(--reader-person); }
+.archive-reading [data-department="world"] { --department-color: var(--reader-world); }
+.archive-reading [data-department="craft"] { --department-color: var(--reader-craft); }
+.archive-reading [data-department="source"] { --department-color: var(--reader-source); }
+.archive-reading .archive-page { --reader-accent: var(--reader-screen); }
+.archive-reading .archive-page[data-department] { --reader-accent: var(--department-color); }
+.archive-reading .sources-page { --archive-accent: var(--reader-source); }
+.archive-reading :focus-visible { outline: 2px solid var(--reader-source); outline-offset: 4px; }
+.archive-reading :is(.dossier-hero, .collection-hero) > div > .eyebrow {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: var(--reader-accent, var(--reader-screen));
+  font-size: 11px;
+}
+.archive-reading :is(.dossier-hero, .collection-hero) > div > .eyebrow::before {
+  content: "";
+  width: 7px;
+  height: 20px;
+  flex-shrink: 0;
+  background: var(--reader-signal);
+}
+.archive-reading .dossier-summary { font-size: 17px; line-height: 1.8; max-width: 64ch; color: var(--reader-muted); }
+.archive-reading .dossier-tags > span { font-size: 12px; color: #d1d5db; }
+.archive-reading .dossier-tags > .dossier-source-status { border-color: #d0d9e34d; }
+.archive-reading .review-note { background: #0c1219ed; border-color: var(--reader-rule); border-left: 2px solid var(--reader-source); }
+.archive-reading .review-note .eyebrow { color: var(--reader-source); font-size: 11px; }
+.archive-reading .review-note :is(p:not(.eyebrow), li) { color: var(--reader-muted); font-size: 14px; }
+.archive-reading .review-note summary { color: var(--reader-source); min-height: 44px; padding-block: 10px; font-size: 14px; }
+.archive-reading .review-full-scope { padding-top: 12px; }
+.archive-reading .dossier-section-nav { flex-wrap: wrap; margin-bottom: 0; border-color: var(--reader-rule); }
+.archive-reading .dossier-section-nav > a { display: flex; align-items: baseline; gap: 10px; padding: 18px 16px; color: var(--department-color); font-size: 12px; line-height: 1.6; }
+.archive-reading .dossier-section-nav > a:first-child { padding-left: 0; }
+.archive-reading .dossier-section-nav span { margin: 0; color: var(--reader-text); font-size: 13px; }
+.archive-reading .dossier-section-nav > a:hover span { color: var(--department-color); }
+.archive-reading .archive-key { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center; padding-block: 20px 26px; }
+.archive-reading .archive-key-title { color: var(--reader-muted); font-size: 10px; letter-spacing: .12em; }
+.archive-reading .archive-key ul { display: flex; flex-wrap: wrap; gap: 12px 20px; list-style: none; }
+.archive-reading .archive-type-label { display: inline-flex; align-items: center; gap: 7px; color: var(--department-color); font-size: 12px; line-height: 1.6; }
+.archive-reading .archive-type-label svg { width: 17px; height: 17px; flex-shrink: 0; }
+.archive-reading .dossier-main { padding: 28px; background: #0c1219f0; border-top: 2px solid #d2636080; }
+.archive-reading .dossier-section { scroll-margin-top: 28px; }
+.archive-reading .dossier-section + .dossier-section { margin-top: 42px; padding-top: 32px; border-color: var(--reader-rule); }
+.archive-reading .archive-section-heading { padding-left: 15px; border-left: 2px solid var(--reader-accent, var(--reader-screen)); }
+.archive-reading .archive-section-heading .eyebrow { font-size: 11px; color: var(--reader-accent, var(--reader-screen)); margin-bottom: 9px; }
+.archive-reading #credits .archive-section-heading { border-color: var(--reader-person); }
+.archive-reading #credits .archive-section-heading .eyebrow { color: var(--reader-person); }
+.archive-reading #references .archive-section-heading { border-color: var(--reader-source); }
+.archive-reading #references .archive-section-heading .eyebrow { color: var(--reader-source); }
+.archive-reading #connections .archive-section-heading { border-color: var(--reader-rule); }
+.archive-reading #connections .archive-section-heading .eyebrow { color: var(--reader-muted); }
+.archive-reading .record-context { font-size: 14px; line-height: 1.8; color: var(--reader-muted); max-width: 70ch; }
+.archive-reading .dossier-facts { gap: 0 26px; }
+.archive-reading .dossier-facts > div { padding-block: 21px; border-color: var(--reader-rule); min-width: 0; }
+.archive-reading .dossier-facts dt { font-size: 13px; line-height: 1.7; color: var(--reader-muted); letter-spacing: 0; }
+.archive-reading .dossier-facts dt::before { content: ""; display: inline-block; width: 4px; height: 10px; margin-right: 8px; background: var(--department-color); }
+.archive-reading .dossier-facts dd { font-size: 16px; line-height: 1.75; color: var(--reader-text); }
+.archive-reading .detail-review-status { font-size: 12px; line-height: 1.6; color: var(--reader-muted); }
+.archive-reading .detail-review-status::before { content: "◇"; margin-right: 6px; }
+.archive-reading .detail-review-status[data-status="legacy"]::before { content: "○"; }
+.archive-reading .detail-review-status[data-checked="true"] { color: #cbd2da; }
+.archive-reading .detail-review-status[data-checked="true"]::before { content: "✓"; }
+.archive-reading .evidence-links { gap: 4px; }
+.archive-reading .evidence-links a { display: inline-flex; justify-content: center; align-items: center; min-width: 28px; min-height: 28px; padding-inline: 4px; margin: 0; font-size: 12px; line-height: 1.5; color: var(--reader-source); background: #b8ade00c; border-radius: 3px; }
+.archive-reading .evidence-links a:hover { background: #b8ade020; text-decoration: underline; text-underline-offset: 3px; }
+.archive-reading .credit-group h3 .archive-type-label { font-size: 15px; }
+.archive-reading .credit-list li { padding: 17px 12px; border-color: var(--reader-rule); }
+.archive-reading .credit-list li:nth-child(even) { background: #d0d9e304; }
+.archive-reading .credit-list strong { color: var(--reader-text); font-size: 16px; }
+.archive-reading .credit-list li > div > span { font-size: 14px; color: #d0d5dc; }
+.archive-reading .credit-list li > div > span a { color: var(--reader-person); }
+.archive-reading .credit-list small { font-size: 13px; color: var(--reader-muted); }
+.archive-reading .episode-seasons { margin-top: 25px; }
+.archive-reading .episode-season { border-color: var(--reader-rule); }
+.archive-reading .episode-season > summary { padding: 20px 14px; background: #e2bb7809; align-items: center; }
+.archive-reading .episode-season > summary::before { color: var(--reader-screen); font-size: 20px; }
+.archive-reading .episode-season > summary span { color: var(--reader-screen); font-size: 18px; }
+.archive-reading .episode-season > summary small { color: var(--reader-muted); font-size: 13px; }
+.archive-reading .episode-list { padding: 0; }
+.archive-reading .episode-list > li { padding: 26px 0; border-color: var(--reader-rule); }
+.archive-reading .episode-heading { align-items: flex-start; gap: 12px; }
+.archive-reading .episode-number { color: var(--reader-screen); font-size: 13px; line-height: 2; min-width: 30px; }
+.archive-reading .episode-heading h3 { color: var(--reader-text); font-size: 20px; line-height: 1.5; }
+.archive-reading .episode-heading > .evidence-links { justify-content: flex-end; max-width: 78px; flex-shrink: 0; }
+.archive-reading .episode-writing { font-size: 14px; }
+.archive-reading .episode-writing dt { color: var(--reader-person); }
+.archive-reading .episode-writing dd { color: var(--reader-text); }
+.archive-reading .episode-note { font-size: 14px; line-height: 1.8; color: var(--reader-muted); }
+.archive-reading .episode-connections { font-size: 14px; margin-top: 15px; }
+.archive-reading .episode-connections > summary { min-height: 44px; padding-block: 12px; color: #d8dde4; }
+.archive-reading .episode-review { margin: 8px 0 16px; padding: 0 14px; background: #b8ade008; border-left: 1px solid #b8ade060; }
+.archive-reading .episode-review > summary { display: list-item; padding-block: 12px; color: var(--reader-source); font-size: 13px; line-height: 1.7; }
+.archive-reading .episode-review > summary > span { display: inline-block; margin-left: 12px; color: var(--reader-muted); font-size: 12px; }
+.archive-reading .episode-review .episode-note:last-child { padding-bottom: 14px; }
+.archive-reading .episode-connections > ul { margin: 0; }
+.archive-reading .episode-connections > ul > li { padding: 15px 14px; align-items: flex-start; border-top: 1px solid var(--reader-rule); border-left: 2px solid color-mix(in srgb, var(--department-color) 65%, transparent); }
+.archive-reading .episode-connections > ul > li:nth-child(even) { background: #d0d9e305; }
+.archive-reading .episode-connection-body { min-width: 0; flex: 1; }
+.archive-reading .episode-identity { display: flex; flex-wrap: wrap; align-items: center; gap: 5px 14px; }
+.archive-reading .episode-identity > a { color: var(--reader-text); font-size: 16px; font-weight: 500; line-height: 1.65; overflow-wrap: anywhere; }
+.archive-reading .episode-identity > a:hover { text-decoration: underline; text-decoration-color: var(--department-color); text-underline-offset: 4px; }
+.archive-reading .episode-identity .archive-type-label { font-size: 11px; }
+.archive-reading .episode-identity .archive-type-label svg { width: 15px; height: 15px; }
+.archive-reading .episode-connection-meta { display: flex; flex-wrap: wrap; gap: 7px 12px; align-items: center; margin-top: 5px; color: var(--reader-muted); font-size: 13px; line-height: 1.7; }
+.archive-reading .representation-label { padding: 1px 7px; border: 1px solid #d0d9e345; border-radius: 2px; color: #e0e3e8; }
+.archive-reading .representation-label::before { content: "◷"; margin-right: 6px; }
+.archive-reading .representation-label[data-representation="transmission"]::before { content: "≋"; }
+.archive-reading .representation-label[data-representation="force_spirit"]::before { content: "✧"; }
+.archive-reading .episode-connection-note { margin-top: 7px; font-size: 13px; line-height: 1.8; color: var(--reader-muted); }
+.archive-reading .episode-connections > ul > li > .evidence-links { flex-shrink: 0; justify-content: flex-end; max-width: 72px; }
+.archive-reading .relation-group > h3 { color: var(--department-color); }
+.archive-reading .relation-group > h3 .archive-type-label { font-size: 16px; }
+.archive-reading .relation-group > h3 > span { color: var(--department-color); font-size: 13px; }
+.archive-reading .sourced-relation { padding-bottom: 14px; background: #d0d9e304; border-left: 2px solid color-mix(in srgb, var(--department-color) 65%, transparent); border-bottom-color: var(--reader-rule); }
+.archive-reading .sourced-relations .sourced-relation > a { font-size: 15px; color: var(--reader-text); }
+.archive-reading .sourced-relations .sourced-relation > a:hover { color: var(--department-color); }
+.archive-reading .relation-links svg { color: var(--department-color); }
+.archive-reading .sourced-relation > div { flex-wrap: wrap; gap: 5px 12px; }
+.archive-reading .source-entry { gap: 16px; border-color: var(--reader-rule); }
+.archive-reading .source-entry-number { color: var(--reader-source); font-size: 14px; line-height: 1.7; }
+.archive-reading .source-kind { color: var(--reader-source); font-size: 11px; }
+.archive-reading .source-entry h3 { color: var(--reader-text); font-size: 17px; line-height: 1.6; }
+.archive-reading .source-entry p { color: var(--reader-muted); font-size: 14px; line-height: 1.8; }
+.archive-reading .source-entry a { color: var(--reader-source); font-size: 14px; min-height: 44px; }
+.archive-reading .source-use-note strong { color: #c9c0e7; }
+.archive-reading .source-evidence summary { color: var(--reader-source); font-size: 14px; padding-block: 10px; min-height: 44px; }
+.archive-reading .source-evidence li { color: var(--reader-muted); font-size: 13px; }
+.archive-reading .source-entry:target { background: #b8ade00b; box-shadow: -3px 0 var(--reader-source); padding-inline: 14px; }
+.archive-reading .dossier-references > .text-link { color: var(--reader-source); font-size: 14px; }
+.archive-reading .dossier-sidebar { background: #0c1219f0; border-color: var(--reader-rule); border-top: 2px solid #d2636080; }
+.archive-reading .dossier-sidebar .eyebrow { font-size: 11px; color: var(--reader-muted); }
+.archive-reading .dossier-sidebar dt { font-size: 12px; color: var(--reader-muted); }
+.archive-reading .dossier-sidebar dd { font-size: 14px; color: var(--reader-text); }
+.archive-reading .sidebar-connection-count strong { color: var(--reader-accent, var(--reader-screen)); }
+.archive-reading .sidebar-connection-count span { color: var(--reader-muted); font-size: 10px; }
+.archive-reading .dossier-sidebar > a { color: var(--reader-accent, var(--reader-screen)); font-size: 13px; min-height: 44px; }
+.archive-reading .edition-entry { background: #e2bb7805; border-color: var(--reader-rule); }
+.archive-reading .edition-entry :is(.eyebrow, .edition-year), .archive-reading .edition-releases li > span { color: var(--reader-screen); }
+.archive-reading .edition-entry .eyebrow { font-size: 11px; }
+.archive-reading .edition-entry > p { color: var(--reader-muted); font-size: 14px; }
+.archive-reading .edition-releases p { color: var(--reader-muted); font-size: 14px; }
+.archive-reading .edition-releases .release-event-label { color: var(--reader-screen); }
+.archive-reading .edition-releases li > span { font-size: 12px; }
+.archive-reading .edition-releases strong { font-size: 18px; }
+
+@media (max-width: 1200px) {
+  .archive-reading .dossier-main { padding: 24px; }
+  .archive-reading .dossier-facts { grid-template-columns: 1fr; }
+  .archive-reading .relation-links { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  .archive-reading .dossier-main { padding: 22px 18px; margin-inline: -8px; }
+  .archive-reading .dossier-section-nav { justify-content: flex-start; }
+  .archive-reading .dossier-section-nav > a, .archive-reading .dossier-section-nav > a:first-child { padding: 12px 10px; gap: 7px; }
+  .archive-reading .dossier-section-nav span { font-size: 12px; }
+  .archive-reading .archive-key { gap: 13px; padding-block: 20px; }
+  .archive-reading .archive-key ul { gap: 10px 16px; }
+  .archive-reading .archive-key-title { flex-basis: 100%; }
+  .archive-reading .dossier-summary { font-size: 16px; }
+  .archive-reading .episode-heading { flex-wrap: wrap; gap: 8px; }
+  .archive-reading .episode-heading h3 { font-size: 18px; flex-basis: calc(100% - 40px); }
+  .archive-reading .episode-heading > .evidence-links { margin-left: 38px; max-width: none; justify-content: flex-start; }
+  .archive-reading .episode-connections > ul > li { padding-inline: 11px; }
+  .archive-reading .episode-connections > ul > li > .evidence-links { max-width: 44px; }
+  .archive-reading .episode-season > summary { padding-inline: 12px; }
+  .archive-reading .episode-season > summary small { margin-left: 23px; }
+  .archive-reading .episode-review > summary > span { display: block; margin-left: 0; }
+  .archive-reading .credit-list li { padding-inline: 4px; }
+  .archive-reading .source-entry { gap: 10px; }
+  .archive-reading .source-entry:target { padding-inline: 7px; }
+}
+@media (pointer: coarse) {
+  .archive-reading .evidence-links a { min-width: 44px; min-height: 44px; }
+}
+
+/* Collections, navigation and the source register share the same reading hierarchy. */
+.archive-reading .archive-nav > a { font-size: 13px; line-height: 1.6; min-height: 44px; }
+.archive-reading .archive-nav > a > span { font-size: 11px; }
+.archive-reading .nav-heading { font-size: 10px; }
+.archive-reading .archive-breadcrumb { font-size: 12px; line-height: 1.7; }
+.archive-reading .breadcrumb-collection { font-size: 10px; }
+.archive-reading .dossier-insignia { color: var(--reader-accent); }
+.archive-reading .collection-description { font-size: 17px; line-height: 1.8; max-width: 60ch; color: var(--reader-muted); }
+.archive-reading .collection-hero-art > span { font-size: 10px; }
+.archive-reading .collection-stats { border-color: var(--reader-rule); }
+.archive-reading .collection-stats span, .archive-reading .collection-stat-note { font-size: 11px; color: var(--reader-muted); }
+.archive-reading .catalogue-search { background: #0c1219ed; }
+.archive-reading .catalogue-search input { font-size: 16px; min-height: 48px; }
+.archive-reading .catalogue-select { background: #0c1219ed; min-width: 150px; }
+.archive-reading .catalogue-select > span { font-size: 11px; color: var(--reader-muted); }
+.archive-reading .catalogue-select select { font-size: 14px; line-height: 1.6; background: #0c1219; }
+.archive-reading .view-controls button { min-width: 44px; min-height: 48px; }
+.archive-reading .catalogue-meta > p { font-size: 13px; }
+.archive-reading .era-filters button { font-size: 13px; min-height: 44px; }
+.archive-reading .record-card-label { font-size: 11px; }
+.archive-reading .record-card-caption h3 { font-size: 16px; line-height: 1.6; }
+.archive-reading .record-card-caption p { font-size: 13px; color: var(--reader-muted); }
+.archive-reading .record-list { border-color: var(--reader-rule); }
+.archive-reading .record-list-head { padding-block: 16px; font-size: 11px; color: var(--reader-muted); }
+.archive-reading .record-list-row { background: #0c1219ed; min-height: 90px; border-color: var(--reader-rule); }
+.archive-reading .record-list-row:nth-child(even) { background: #101820ed; }
+.archive-reading .record-list-row[data-selected="true"] { background: color-mix(in srgb, var(--archive-accent) 9%, #0c1219); }
+.archive-reading .record-list-number { font-size: 11px; color: var(--reader-muted); }
+.archive-reading .record-list-identity > strong { font-size: 16px; line-height: 1.6; white-space: normal; overflow-wrap: anywhere; }
+.archive-reading .record-list-identity > small { font-size: 12px; color: var(--reader-muted); }
+.archive-reading .record-list-fact { font-size: 13px; color: #d0d5dc; overflow-wrap: anywhere; }
+.archive-reading .record-preview { background: #0c1219ed; border-color: var(--reader-rule); }
+.archive-reading .preview-insignia > span { font-size: 10px; color: var(--reader-muted); }
+.archive-reading .provenance-tag { font-size: 13px; line-height: 1.8; color: var(--reader-muted); }
+.archive-reading .preview-facts dt { font-size: 12px; line-height: 1.7; color: var(--reader-muted); }
+.archive-reading .preview-facts dd { font-size: 16px; line-height: 1.7; color: var(--reader-text); }
+.archive-reading .preview-connections { font-size: 13px; color: var(--reader-muted); }
+.archive-reading .archive-primary { min-height: 48px; font-size: 13px; }
+.archive-reading .catalogue-pagination { gap: 18px; flex-wrap: wrap; }
+.archive-reading .catalogue-pagination > p, .archive-reading .catalogue-pagination > div > span { font-size: 11px; line-height: 1.7; }
+.archive-reading .catalogue-pagination button { min-width: 44px; min-height: 44px; }
+.archive-reading .collection-footnote { font-size: 13px; line-height: 1.8; color: var(--reader-muted); }
+.archive-reading .archive-empty { background: #0c1219ed; }
+.archive-reading .archive-empty > span { font-size: 11px; }
+.archive-reading .archive-empty p { font-size: 16px; }
+.archive-reading .archive-empty button { font-size: 14px; min-height: 44px; }
+.archive-reading .identity-note > span { font-size: 11px; }
+.archive-reading .identity-note > p, .archive-reading .identity-note > a { font-size: 14px; line-height: 1.8; }
+.archive-reading .connections-pending, .archive-reading .opening-source-link { font-size: 14px; }
+.archive-reading .edition-producer p { font-size: 14px; }
+.archive-reading .edition-credit-details summary { font-size: 14px; min-height: 44px; padding-block: 10px; }
+.archive-reading .overview-hero-copy > p:not(.eyebrow) { font-size: 16px; line-height: 1.8; max-width: 40ch; }
+.archive-reading .overview-hero .eyebrow, .archive-reading .overview-hero-caption { font-size: 10px; line-height: 1.8; }
+.archive-reading .overview-stats { background: #0c1219d9; }
+.archive-reading .overview-stats span { font-size: 11px; line-height: 1.7; }
+.archive-reading .heading-with-link > a { font-size: 13px; min-height: 44px; }
+.archive-reading .featured-work p { font-size: 15px; line-height: 1.8; max-width: 30ch; }
+.archive-reading .feature-top, .archive-reading .feature-kicker, .archive-reading .feature-bottom { font-size: 11px; line-height: 1.7; }
+.archive-reading .collection-directory > a { background: #0c1219e8; border-top: 2px solid var(--department-color); }
+.archive-reading .directory-top { font-size: 10px; line-height: 1.8; color: var(--department-color); }
+.archive-reading .archive-origin-note p:not(.eyebrow) { font-size: 15px; line-height: 1.8; color: var(--reader-muted); }
+.archive-reading .archive-origin-note .eyebrow { font-size: 11px; }
+.archive-reading .archive-origin-note > a { color: var(--reader-source); font-size: 13px; min-height: 44px; }
+.archive-reading .source-summary-grid { background: #0c1219e8; }
+.archive-reading .source-summary-grid > div > span { font-size: 11px; line-height: 1.7; color: var(--reader-source); }
+.archive-reading .source-summary-grid p { font-size: 14px; line-height: 1.8; color: var(--reader-muted); }
+.archive-reading .source-methodology { padding: 28px; background: #0c1219f0; border-top: 2px solid #d2636080; }
+.archive-reading .source-methodology .eyebrow { font-size: 11px; color: var(--reader-source); }
+.archive-reading .source-methodology h3 { color: var(--reader-text); font-size: 18px; line-height: 1.6; }
+.archive-reading .source-methodology p { font-size: 16px; line-height: 1.85; color: var(--reader-muted); max-width: 65ch; }
+.archive-reading .source-registry { padding: 28px; background: #0c1219f0; border-color: var(--reader-rule); }
+.archive-reading .registry-row { align-items: flex-start; gap: 18px; border-color: var(--reader-rule); }
+.archive-reading .registry-row > div { min-width: 0; }
+.archive-reading .registry-row h3 { font-size: 17px; line-height: 1.6; color: var(--reader-text); overflow-wrap: anywhere; }
+.archive-reading .registry-row p { font-size: 14px; line-height: 1.8; color: var(--reader-muted); overflow-wrap: anywhere; }
+.archive-reading .registry-row > a { flex-shrink: 0; min-width: 44px; min-height: 44px; color: var(--reader-source); }
+.archive-reading .timeline-context { font-size: 15px; line-height: 1.8; color: var(--reader-muted); }
+.archive-reading .timeline-controls { flex-wrap: wrap; gap: 12px 20px; }
+.archive-reading .timeline-controls button { font-size: 14px; min-height: 44px; }
+.archive-reading .timeline-controls > span { font-size: 11px; line-height: 1.7; color: var(--reader-muted); }
+.archive-reading .timeline-entry { background: #0c1219ed; grid-template-columns: 90px minmax(0, 1fr) minmax(0, .8fr) 16px; }
+.archive-reading .timeline-kind { font-size: 11px; line-height: 1.7; overflow-wrap: anywhere; color: var(--reader-screen); }
+.archive-reading .timeline-entry > h3 { font-size: 16px; line-height: 1.7; overflow-wrap: anywhere; color: var(--reader-text); }
+.archive-reading .timeline-entry > span:nth-last-child(2) { display: block; font-size: 13px; line-height: 1.8; color: var(--reader-muted); overflow-wrap: anywhere; }
+.archive-reading .archive-footer { font-size: 10px; line-height: 1.8; }
+.archive-reading .archive-footer a { font-size: 12px; min-height: 44px; }
+
+@media (max-width: 1200px) {
+  .archive-reading .catalogue-toolbar { flex-wrap: wrap; }
+  .archive-reading .catalogue-search { flex-basis: calc(100% - 105px); }
+  .archive-reading .catalogue-select { flex: 1; max-width: none; }
+}
+@media (max-width: 1000px) {
+  .archive-reading .timeline-entry { grid-template-columns: minmax(0, 1fr) 16px; gap: 6px 14px; }
+  .archive-reading .timeline-entry > :is(.timeline-kind, h3, span:nth-last-child(2)) { grid-column: 1; text-align: left; }
+  .archive-reading .timeline-entry > svg { grid-column: 2; grid-row: 1 / span 3; }
+}
+@media (max-width: 760px) {
+  .archive-reading .archive-nav > a { font-size: 12px; }
+  .archive-reading .archive-breadcrumb { font-size: 11px; }
+  .archive-reading .breadcrumb-collection { display: none; }
+  .archive-reading .collection-description { font-size: 16px; }
+  .archive-reading .collection-stats span { font-size: 10px; }
+  .archive-reading .catalogue-select { min-width: 0; flex-basis: calc(50% - 10px); }
+  .archive-reading .catalogue-select select { font-size: 16px; }
+  .archive-reading .record-card-label { font-size: 10px; }
+  .archive-reading .record-card-caption h3 { font-size: 15px; }
+  .archive-reading .record-card-caption p { font-size: 12px; }
+  .archive-reading .record-list-fact { max-width: 70px; font-size: 12px; }
+  .archive-reading .record-list-number { font-size: 10px; }
+  .archive-reading .record-list-row { grid-template-columns: 22px minmax(0, 1fr) auto 28px; gap: 8px; padding-inline: 10px; }
+  .archive-reading .record-list-identity > strong { font-size: 15px; }
+  .archive-reading .source-methodology, .archive-reading .source-registry { padding: 22px 18px; margin-inline: -8px; }
+  .archive-reading .source-summary-grid { grid-template-columns: 1fr; }
+  .archive-reading .source-summary-grid > div, .archive-reading .source-summary-grid > div:first-child { padding: 22px 18px; border-left: 0; border-bottom: 1px solid var(--reader-rule); }
+  .archive-reading .overview-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .archive-reading .overview-stats > div, .archive-reading .overview-stats > div:first-child { padding: 20px 16px; }
+  .archive-reading .overview-stats span { font-size: 10px; }
+  .archive-reading .directory-top { font-size: 9px; }
+  .archive-reading .feature-top { flex-wrap: wrap; }
+  .archive-reading .timeline-year { grid-template-columns: 1fr; gap: 15px; }
+  .archive-reading .timeline-year > div { padding-left: 16px; }
+  .archive-reading .timeline-controls > span { flex-basis: 100%; margin-left: 0; }
+}
+
+/* Reviewed field gaps are distinct from unreviewed imports and verified values. */
+.archive-reading .detail-review-status[data-status="unestablished"]::before { content: "?"; }
+.archive-reading .fact-assessment-note { display: block; margin-top: 8px; font-size: 13px; line-height: 1.75; color: var(--reader-muted); }
+
+/* Temple visions and remote Force contact have explicit text and distinct symbols. */
+.archive-reading .representation-label[data-representation="vision"]::before { content: "◇"; }
+.archive-reading .representation-label[data-representation="force_communication"]::before { content: "✦"; }

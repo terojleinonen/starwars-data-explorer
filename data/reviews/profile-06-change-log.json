@@ -1,0 +1,1371 @@
+{
+  "batch": "PROFILE-06",
+  "checkedAt": "2026-10-29",
+  "changes": [
+    {
+      "recordId": "planets:2",
+      "field": "profile",
+      "before": {
+        "id": "planets:2",
+        "category": "planets",
+        "legacy_id": "2",
+        "slug": "alderaan",
+        "title": "Alderaan",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Alderaan is a Core World remembered for its valleys, mountains and cultural life. Bail Organa represents it in the Republic, and Leia grows up in its royal family. The Death Star later destroys the planet to demonstrate the Empire’s power.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:2",
+        "key": "terrain",
+        "value": "grasslands, mountains",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Valleys; mountains",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "Main profile / lush valleys and snow-capped mountains; Terrain / Mountains",
+            "note": "Replaces the inherited grasslands list with the selected supported landscape description; not an exhaustive terrain inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Planet",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "History / explicitly a planet",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "region",
+      "before": null,
+      "after": {
+        "value": "Core Worlds",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "History / Core World of Alderaan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:2",
+        "key": "rotation_period",
+        "value": "24",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:2",
+        "key": "orbital_period",
+        "value": "364",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:2",
+        "key": "diameter",
+        "value": "12500",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:2",
+        "key": "climate",
+        "value": "temperate",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected descriptions do not establish this inherited planet-wide climate label. Habitable atmospheric layers or settlement conditions are not applied to the entire world."
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:2",
+        "key": "gravity",
+        "value": "1 standard",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:2",
+        "key": "surface_water",
+        "value": "40",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The sources do not establish a global surface-water percentage. Ice, wetlands, lakes, clouds and the absence of a solid surface are not converted into the inherited percentage."
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "population",
+      "before": {
+        "record_id": "planets:2",
+        "key": "population",
+        "value": "2000000000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "link",
+      "before": {
+        "record_id": "planets:2",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "Appearances / A New Hope",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "link",
+      "before": {
+        "record_id": "planets:2",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:obi-wan",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "Appearances / Obi-Wan Kenobi",
+            "note": "Series-level context only; no new episode-level assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "Appearances / The Clone Wars",
+            "note": "Series-level context only; no new episode-level assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "link",
+      "before": {
+        "record_id": "planets:2",
+        "target_id": "people:5",
+        "relation": "residents",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:5",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "History / Leia raised as Bail’s adopted daughter; Related / Bail Organa",
+            "note": "Upbringing/home context, not Leia’s birthplace."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:2",
+      "field": "link",
+      "before": {
+        "record_id": "planets:2",
+        "target_id": "people:68",
+        "relation": "residents",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:68",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile06-alderaan",
+            "locator": "Related / Royal Palace, Breha Organa and Bail Organa / royal household and family",
+            "note": "Royal household context, not a birthplace or permanent residence at every moment."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "profile",
+      "before": {
+        "id": "planets:4",
+        "category": "planets",
+        "legacy_id": "4",
+        "slug": "hoth",
+        "title": "Hoth",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Hoth is an ice-covered planet where the Rebel Alliance establishes Echo Base. Its cold plains and glaciers shelter dangerous wildlife, and the rebels adapt their speeders to patrol the freezing environment.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:4",
+        "key": "climate",
+        "value": "frozen",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Cold",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-hoth",
+            "locator": "Climate / Cold",
+            "note": "Qualitative climate label, no temperatures inferred."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:4",
+        "key": "terrain",
+        "value": "tundra, ice caves, mountain ranges",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Glaciers; plains",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-hoth",
+            "locator": "Terrain / Glaciers and Plains",
+            "note": "No automatic certification of every inherited cave or mountain-range component."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Planet",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-hoth",
+            "locator": "Main profile / sixth planet in the Hoth system",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "notable_location",
+      "before": null,
+      "after": {
+        "value": "Echo Base",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-hoth",
+            "locator": "Main profile / site of Rebel Alliance Echo Base",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:4",
+        "key": "rotation_period",
+        "value": "23",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:4",
+        "key": "orbital_period",
+        "value": "549",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:4",
+        "key": "diameter",
+        "value": "7200",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:4",
+        "key": "gravity",
+        "value": "1.1 standard",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:4",
+        "key": "surface_water",
+        "value": "100",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The sources do not establish a global surface-water percentage. Ice, wetlands, lakes, clouds and the absence of a solid surface are not converted into the inherited percentage."
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "population",
+      "before": {
+        "record_id": "planets:4",
+        "key": "population",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "link",
+      "before": {
+        "record_id": "planets:4",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile06-hoth",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "vehicles:14",
+        "relation": "vehicles",
+        "evidence": [
+          {
+            "sourceId": "profile06-hoth",
+            "locator": "Related / Snowspeeder / Alliance modifies T-47 airspeeders while stationed on Hoth",
+            "note": "Cold-adapted vehicle association only; no inherited speed, dimensions or production metadata verified."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "profile",
+      "before": {
+        "id": "planets:5",
+        "category": "planets",
+        "legacy_id": "5",
+        "slug": "dagobah",
+        "title": "Dagobah",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Dagobah is a humid world of swamps and jungle, abundant in life and closely connected to the Force. Yoda makes it his refuge from the Empire and later teaches Luke there.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:5",
+        "key": "climate",
+        "value": "murky",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Humid",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah",
+            "locator": "Main profile / explicitly humid wetlands",
+            "note": "Replaces murky, a visibility description, with the supported qualitative humidity description; no temperature or full climate model inferred."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:5",
+        "key": "terrain",
+        "value": "swamp, jungles",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Swamps; jungle",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah",
+            "locator": "Main profile / swamp-covered planet and dense jungle undergrowth; Terrain / Swamps",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Planet",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah",
+            "locator": "Main profile / swamp-covered planet",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "notable_resident",
+      "before": null,
+      "after": {
+        "value": "Yoda during his exile",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah",
+            "locator": "Main profile / home to Yoda during his final years",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "appearance_scope",
+      "before": null,
+      "after": {
+        "value": "Yoda’s arrival in Revenge of the Sith is a deleted scene, available separately as an extra",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah-deleted",
+            "locator": "Yoda’s Journey / Exiled to Dagobah",
+            "note": "Deleted material is not promoted to a released-film appearance; no new edition or date."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:5",
+        "key": "rotation_period",
+        "value": "23",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:5",
+        "key": "orbital_period",
+        "value": "341",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:5",
+        "key": "diameter",
+        "value": "8900",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:5",
+        "key": "gravity",
+        "value": "N/A",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:5",
+        "key": "surface_water",
+        "value": "8",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The sources do not establish a global surface-water percentage. Ice, wetlands, lakes, clouds and the absence of a solid surface are not converted into the inherited percentage."
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "population",
+      "before": {
+        "record_id": "planets:5",
+        "key": "population",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "link",
+      "before": {
+        "record_id": "planets:5",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "link",
+      "before": {
+        "record_id": "planets:5",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah",
+            "locator": "Appearances / The Clone Wars",
+            "note": "Series-level context only; no new episode-level assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:20",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah",
+            "locator": "Main profile / home to Yoda during his final years",
+            "note": "Exile residence, not birthplace or his original homeworld."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "profile",
+      "before": {
+        "id": "planets:6",
+        "category": "planets",
+        "legacy_id": "6",
+        "slug": "bespin",
+        "title": "Bespin",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Bespin is a gas giant with a habitable band in its atmosphere. Floating mining settlements occupy that layer, including Cloud City, where Lando Calrissian’s administration becomes entangled with the Empire.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:6",
+        "key": "terrain",
+        "value": "gas giant",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Gaseous",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-bespin",
+            "locator": "Terrain / Gaseous",
+            "note": "The old gas giant terrain label is represented separately as world classification; no solid ground or surface-water value inferred."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Gas giant",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-bespin",
+            "locator": "Main profile / immense gas giant",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "notable_location",
+      "before": null,
+      "after": {
+        "value": "Cloud City, a floating mining settlement in the habitable atmospheric band",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-bespin",
+            "locator": "Main profile / habitable stratum and Cloud City",
+            "note": "City and planet are distinct; city gravity, climate or inhabitants are not whole-planet statistics."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:6",
+        "key": "rotation_period",
+        "value": "12",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:6",
+        "key": "orbital_period",
+        "value": "5110",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:6",
+        "key": "diameter",
+        "value": "118000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:6",
+        "key": "climate",
+        "value": "temperate",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected descriptions do not establish this inherited planet-wide climate label. Habitable atmospheric layers or settlement conditions are not applied to the entire world."
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:6",
+        "key": "gravity",
+        "value": "1.5 (surface), 1 standard (Cloud City)",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:6",
+        "key": "surface_water",
+        "value": "0",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The sources do not establish a global surface-water percentage. Ice, wetlands, lakes, clouds and the absence of a solid surface are not converted into the inherited percentage."
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "population",
+      "before": {
+        "record_id": "planets:6",
+        "key": "population",
+        "value": "6000000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "link",
+      "before": {
+        "record_id": "planets:6",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile06-bespin",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:25",
+        "relation": "associated_with",
+        "evidence": [
+          {
+            "sourceId": "profile06-bespin",
+            "locator": "Main profile and Related / Cloud City / Lando as former administrator",
+            "note": "Administration of Cloud City within Bespin’s atmosphere, not birthplace or permanent planetary residence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:26",
+        "relation": "associated_with",
+        "evidence": [
+          {
+            "sourceId": "profile06-bespin",
+            "locator": "Related / Cloud City and Lobot / aide and computer liaison",
+            "note": "Explicit city-service association. The separate inherited residents relation is left pending rather than inferred from employment."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "profile",
+      "before": {
+        "id": "planets:7",
+        "category": "planets",
+        "legacy_id": "7",
+        "slug": "endor",
+        "title": "Endor",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "The forest moon of Endor is the Ewoks’ home and the site of the rebel ground assault against the second Death Star’s shield generator. Its forests become a battlefield where local knowledge helps the Alliance defeat the Empire.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:7",
+        "key": "terrain",
+        "value": "forests, mountains, lakes",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Forests; grasslands; mountains",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-endor",
+            "locator": "Main profile / lush forest home; Terrain / Grasslands and Mountains",
+            "note": "Replaces the inherited lake component with the selected listed terrain; not an exhaustive map."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Forest moon",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-endor",
+            "locator": "Main profile / forest moon of Endor",
+            "note": "This existing dossier denotes the forest moon, not a parent planet or the whole system."
+          },
+          {
+            "sourceId": "profile06-kef-bir",
+            "locator": "Main profile / oceanic Kef Bir distinguished from the famous Forest Moon",
+            "note": "Kef Bir’s oceans and Death Star wreckage are not assigned to this forest-moon dossier."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "native_species",
+      "before": null,
+      "after": {
+        "value": "Ewok",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-endor",
+            "locator": "Main profile / forest home of the Ewok species",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:7",
+        "key": "rotation_period",
+        "value": "18",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:7",
+        "key": "orbital_period",
+        "value": "402",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:7",
+        "key": "diameter",
+        "value": "4900",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:7",
+        "key": "climate",
+        "value": "temperate",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected descriptions do not establish this inherited planet-wide climate label. Habitable atmospheric layers or settlement conditions are not applied to the entire world."
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:7",
+        "key": "gravity",
+        "value": "0.85 standard",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:7",
+        "key": "surface_water",
+        "value": "8",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The sources do not establish a global surface-water percentage. Ice, wetlands, lakes, clouds and the absence of a solid surface are not converted into the inherited percentage."
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "population",
+      "before": {
+        "record_id": "planets:7",
+        "key": "population",
+        "value": "30000000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected public sources do not establish this inherited world value or its numerical precision. Scenic descriptions and settlement-level conditions are not converted into planetary measurements. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "link",
+      "before": {
+        "record_id": "planets:7",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile06-endor",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:rise-skywalker",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile06-endor",
+            "locator": "Appearances / The Rise of Skywalker",
+            "note": "Selected work-level context; no assertion about every edition or every scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "link",
+      "before": {
+        "record_id": "planets:7",
+        "target_id": "people:30",
+        "relation": "residents",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:30",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile06-wicket-w-warrick",
+            "locator": "Biography gallery opening / grew up in Bright Tree Village on his homeworld; history / forest moon of Endor",
+            "note": "Same existing Wicket dossier, whose old title and slug are retained. Upbringing/home context only."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:7",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:9",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile06-endor",
+            "locator": "Main profile and species / Ewok",
+            "note": "Native species association only; no old numerical species traits verified."
+          }
+        ]
+      }
+    }
+  ]
+}

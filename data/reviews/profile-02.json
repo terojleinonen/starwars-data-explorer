@@ -1,0 +1,1485 @@
+{
+  "version": 1,
+  "id": "PROFILE-02",
+  "checkedAt": "2026-10-28",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "First profile reviews of existing Obi-Wan Kenobi, Luminara Unduli, C-3PO, R2-D2 and Bail Organa identities. All 35 inherited fields assessed, published dimensions and scoped roles corrected, droid casing/type distinct from biological metadata. No episode or release expansion.",
+  "sources": [
+    {
+      "id": "profile02-obi-wan-kenobi",
+      "title": "Obi-Wan Kenobi — official Databank",
+      "url": "https://www.starwars.com/databank/obi-wan-kenobi",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, dimensions, selected history and work-level appearances. A location list does not establish Stewjon as birthplace. Recorded messages and Force-spirit scenes are not physical appearances in every work."
+    },
+    {
+      "id": "profile02-c-3po",
+      "title": "C-3PO — official Databank",
+      "url": "https://www.starwars.com/databank/c-3po",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, published 1.77 m height, protocol classification, construction by Anakin, changing exterior casing and selected work-level appearances. No inherited mass, construction year, eye colour or gender corroboration."
+    },
+    {
+      "id": "profile02-r2-d2",
+      "title": "R2-D2 — official Databank",
+      "url": "https://www.starwars.com/databank/r2-d2",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, published 1.09 m height, astromech classification, blue/white exterior in Phantom Menace history and selected work-level appearances. Naboo service/location does not establish a manufacturing homeworld; no individual Mandalorian finale appearance inferred."
+    },
+    {
+      "id": "profile02-bail-organa",
+      "title": "Bail Organa — official Databank",
+      "url": "https://www.starwars.com/databank/bail-organa",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, published 1.99 m height, Alderaan representation, adoption of Leia and selected work-level appearances. Source uses Bail Organa; inherited middle name, birthplace and birth year are not substantiated."
+    }
+  ],
+  "records": [
+    {
+      "id": "people:10",
+      "summary": {
+        "text": "A Jedi teacher and Republic general, Obi-Wan trains Anakin and later guides Luke. He survives the Jedi purge, lives in hiding as Ben, and continues to help Luke after death.",
+        "evidence": [
+          {
+            "sourceId": "profile02-obi-wan-kenobi",
+            "locator": "Main profile and selected history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation",
+            "note": "Scoped screen identities; not validation of legacy measurements or every source-page claim."
+          },
+          {
+            "sourceId": "profile02-obi-wan-kenobi",
+            "locator": "Main profile and selected screen identity",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy profile: original summary, all seven inherited fields assessed, selected current official metadata and work-level connections. Existing identity, title, slug and raw snapshots retained.",
+      "limitations": [
+        "The six selected film connections include post-death appearances in Empire and Jedi. Rebels includes both recorded-message and later physical contexts; this batch changes no episode classification. Stewjon in the location list does not establish the inherited homeworld relation.",
+        "Heights are the nominal dimensions currently published by the cited official Databank, converted from metres to archive centimetres. They are not measurements of performers or every prop, animation model, age or edition.",
+        "Only stated facts and selected connections are checked. Unestablished raw values remain in the audit but are withheld from published values. Other legacy relationships remain pending; a work-level connection is not an episode or physical-appearance assertion.",
+        "Original-US release scope retained. No dates, editions, episode rows or performance credits added. Public access does not grant a text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "value": "182",
+          "expectedValue": "182",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Dimensions / Height 1.82 m",
+              "note": "1.82 m = 182 cm; confirms the inherited number."
+            }
+          ]
+        },
+        {
+          "key": "jedi_rank",
+          "value": "Jedi Master",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Main profile / Jedi Master",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "known_as",
+          "value": "Ben",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Reign of the Empire history / assumed the alias Ben",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "77",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "auburn, white",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "fair",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "blue-gray",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "57BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed sources do not establish this exact birth or construction year. BBY dates are not inferred from story events, service history or a performer’s age.",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "This review does not treat pronouns, portrayal or a legacy n/a placeholder as independently sourced gender metadata. The imported field remains unestablished.",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Appearances / A New Hope",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Appearances / The Phantom Menace",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Appearances / Attack of the Clones",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "series:obi-wan",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Appearances / Obi-Wan Kenobi",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-obi-wan-kenobi",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:64",
+      "summary": {
+        "text": "Luminara is a Mirialan Jedi Master who teaches Barriss Offee and serves during the Clone Wars. After her execution, the Empire uses recordings of her captivity to trap surviving Jedi.",
+        "evidence": [
+          {
+            "sourceId": "supp11-luminara-unduli-databank",
+            "locator": "Main profile and selected history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation",
+            "note": "Scoped screen identities; not validation of legacy measurements or every source-page claim."
+          },
+          {
+            "sourceId": "supp11-luminara-unduli-databank",
+            "locator": "Main profile and selected screen identity",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy profile: original summary, all seven inherited fields assessed, selected current official metadata and work-level connections. Existing identity, title, slug and raw snapshots retained.",
+      "limitations": [
+        "Her Rebels connection concerns holographic bait and remains, not a surviving living prisoner or Force spirit. No exact execution date is inferred. The species name does not by itself establish Mirial as her birthplace/homeworld.",
+        "Heights are the nominal dimensions currently published by the cited official Databank, converted from metres to archive centimetres. They are not measurements of performers or every prop, animation model, age or edition.",
+        "Only stated facts and selected connections are checked. Unestablished raw values remain in the audit but are withheld from published values. Other legacy relationships remain pending; a work-level connection is not an episode or physical-appearance assertion.",
+        "Original-US release scope retained. No dates, editions, episode rows or performance credits added. Public access does not grant a text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "value": "176",
+          "expectedValue": "170",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Dimensions / Height 1.76 m",
+              "note": "1.76 m = 176 cm; replaces the imported 170 cm."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "value": "Green",
+          "expectedValue": "yellow",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Main profile / explicitly green-skinned Mirialan",
+              "note": "Corrects the unsupported imported yellow colour using text, not sampled image colour."
+            }
+          ]
+        },
+        {
+          "key": "jedi_rank",
+          "value": "Jedi Master",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Main profile / Jedi Master",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "apprentice",
+          "value": "Barriss Offee",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Main profile / trained Barriss Offee",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "56.2",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "black",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "blue",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "58BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed sources do not establish this exact birth or construction year. BBY dates are not inferred from story events, service history or a performer’s age.",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "female",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "This review does not treat pronouns, portrayal or a legacy n/a placeholder as independently sourced gender metadata. The imported field remains unestablished.",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Appearances / Attack of the Clones",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "species:29",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp11-luminara-unduli-databank",
+              "locator": "Main profile and Species / Mirialan",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:2",
+      "summary": {
+        "text": "C-3PO is a protocol droid built by Anakin to help his mother. Alongside R2-D2, he serves successive generations through the Republic, Rebellion and Resistance, often as an interpreter.",
+        "evidence": [
+          {
+            "sourceId": "profile02-c-3po",
+            "locator": "Main profile and selected history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation",
+            "note": "Scoped screen identities; not validation of legacy measurements or every source-page claim."
+          },
+          {
+            "sourceId": "profile02-c-3po",
+            "locator": "Main profile and selected screen identity",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy profile: original summary, all seven inherited fields assessed, selected current official metadata and work-level connections. Existing identity, title, slug and raw snapshots retained.",
+      "limitations": [
+        "Droid type is not a biological species, and a gender n/a import is not independently sourced metadata. The source describes changing casing; a permanent gold skin field would erase that history. The exact original construction date, mass, eye colour and complete component provenance remain open.",
+        "Heights are the nominal dimensions currently published by the cited official Databank, converted from metres to archive centimetres. They are not measurements of performers or every prop, animation model, age or edition.",
+        "Only stated facts and selected connections are checked. Unestablished raw values remain in the audit but are withheld from published values. Other legacy relationships remain pending; a work-level connection is not an episode or physical-appearance assertion.",
+        "Original-US release scope retained. No dates, editions, episode rows or performance credits added. Public access does not grant a text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "value": "177",
+          "expectedValue": "167",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Dimensions / Height 1.77 m",
+              "note": "1.77 m = 177 cm; replaces the imported 167 cm."
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "value": "Protocol droid",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Droid / Protocol Droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "builder",
+          "value": "Anakin Skywalker",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Main profile and Phantom Menace history / built by young Anakin",
+              "note": "The source establishes this construction story, not a complete history of every component."
+            }
+          ]
+        },
+        {
+          "key": "exterior_colour",
+          "value": "Varies by era: bare frame in The Phantom Menace, gray casing in Attack of the Clones, gold in Return of the Jedi",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "History / exposed early frame, gray casing on Anakin’s return, gold droid encountered by Ewoks",
+              "note": "An era-scoped casing description; not biological skin or a universal all-version finish."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "75",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "n/a",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The imported placeholder does not establish this characteristic. Unknown and not applicable are not equivalent; neither is converted to zero.",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "gold",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "This biological field is not used to publish the droid’s casing colour. The source-supported, era-scoped exterior description is recorded separately; the old raw label/value is retained for audit.",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "yellow",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "112BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed sources do not establish this exact birth or construction year. BBY dates are not inferred from story events, service history or a performer’s age.",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "n/a",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The imported placeholder does not establish this characteristic. Unknown and not applicable are not equivalent; neither is converted to zero.",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / A New Hope",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / The Phantom Menace",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / Attack of the Clones",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:force-awakens",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / The Force Awakens",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:rogue-one",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / Rogue One",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:last-jedi",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / The Last Jedi",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:rise-skywalker",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / The Rise of Skywalker",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "series:obi-wan",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / Obi-Wan Kenobi",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:ahsoka",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Appearances / Ahsoka",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "people:11",
+          "relation": "built_by",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Main profile and early history / Anakin built the droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:1",
+          "relation": "constructed_on",
+          "evidence": [
+            {
+              "sourceId": "profile02-c-3po",
+              "locator": "Phantom Menace history / construction by Anakin on Tatooine",
+              "note": "Construction story is not verification of an exact production year or the old generic homeworld relation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:3",
+      "summary": {
+        "text": "An astromech skilled in repairs and flight support, R2-D2 helps Padmé, Anakin and Luke. His missions repeatedly bring him together with C-3PO, including the delivery of the Death Star plans.",
+        "evidence": [
+          {
+            "sourceId": "profile02-r2-d2",
+            "locator": "Main profile and selected history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation",
+            "note": "Scoped screen identities; not validation of legacy measurements or every source-page claim."
+          },
+          {
+            "sourceId": "profile02-r2-d2",
+            "locator": "Main profile and selected screen identity",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy profile: original summary, all seven inherited fields assessed, selected current official metadata and work-level connections. Existing identity, title, slug and raw snapshots retained.",
+      "limitations": [
+        "Naboo service is not a verified manufacturing origin. No construction year or exact mass is established. The current Databank’s Mandalorian appearance list establishes a series connection only; it does not resolve the earlier selected-source gap for the season-two finale or create an episode row.",
+        "Heights are the nominal dimensions currently published by the cited official Databank, converted from metres to archive centimetres. They are not measurements of performers or every prop, animation model, age or edition.",
+        "Only stated facts and selected connections are checked. Unestablished raw values remain in the audit but are withheld from published values. Other legacy relationships remain pending; a work-level connection is not an episode or physical-appearance assertion.",
+        "Original-US release scope retained. No dates, editions, episode rows or performance credits added. Public access does not grant a text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "value": "109",
+          "expectedValue": "96",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Dimensions / Height 1.09 m",
+              "note": "1.09 m = 109 cm; replaces the imported 96 cm."
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "value": "Astromech droid",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Droid / Astromech Droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "exterior_colour",
+          "value": "White and blue casing in The Phantom Menace",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Phantom Menace history / white and blue model",
+              "note": "Scoped exterior description from text; no biological skin or optical-sensor colour inferred."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "32",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "n/a",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The imported placeholder does not establish this characteristic. Unknown and not applicable are not equivalent; neither is converted to zero.",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "white, blue",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "This biological field is not used to publish the droid’s casing colour. The source-supported, era-scoped exterior description is recorded separately; the old raw label/value is retained for audit.",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "red",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "33BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed sources do not establish this exact birth or construction year. BBY dates are not inferred from story events, service history or a performer’s age.",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "n/a",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The imported placeholder does not establish this characteristic. Unknown and not applicable are not equivalent; neither is converted to zero.",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / A New Hope",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / The Phantom Menace",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / Attack of the Clones",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:force-awakens",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / The Force Awakens",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:rogue-one",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / Rogue One",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:last-jedi",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / The Last Jedi",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:rise-skywalker",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / The Rise of Skywalker",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "series:mandalorian",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / The Mandalorian",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:obi-wan",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / Obi-Wan Kenobi",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "planets:8",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "profile02-r2-d2",
+              "locator": "Locations / Naboo; Phantom Menace history / service during the escape",
+              "note": "Service/location does not prove a manufacturing homeworld."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:68",
+      "summary": {
+        "text": "Bail Organa represents Alderaan while quietly supporting resistance to Imperial rule. He and Breha adopt Leia and raise her as their daughter, linking his public duties with the emerging Rebellion.",
+        "evidence": [
+          {
+            "sourceId": "profile02-bail-organa",
+            "locator": "Main profile and selected history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation",
+            "note": "Scoped screen identities; not validation of legacy measurements or every source-page claim."
+          },
+          {
+            "sourceId": "profile02-bail-organa",
+            "locator": "Main profile and selected screen identity",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy profile: original summary, all seven inherited fields assessed, selected current official metadata and work-level connections. Existing identity, title, slug and raw snapshots retained.",
+      "limitations": [
+        "The inherited display title Bail Prestor Organa and old slug are retained for identity compatibility. The checked source uses Bail Organa and does not substantiate the middle name Prestor. No exact birth year, birthplace, mass, human species assertion, eye or hair colour is established in this selected review.",
+        "The Databank history paragraph describing Chandrila’s Ahsoka appears inconsistent with its surrounding senator context. It is not used as evidence, corrected by inference or imported. The work appearance list does not establish a filmed living Bail scene in A New Hope.",
+        "Heights are the nominal dimensions currently published by the cited official Databank, converted from metres to archive centimetres. They are not measurements of performers or every prop, animation model, age or edition.",
+        "Only stated facts and selected connections are checked. Unestablished raw values remain in the audit but are withheld from published values. Other legacy relationships remain pending; a work-level connection is not an episode or physical-appearance assertion.",
+        "Original-US release scope retained. No dates, editions, episode rows or performance credits added. Public access does not grant a text or media licence."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "value": "199",
+          "expectedValue": "191",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Dimensions / Height 1.99 m",
+              "note": "1.99 m = 199 cm; replaces the imported 191 cm."
+            }
+          ]
+        },
+        {
+          "key": "senate_role",
+          "value": "Alderaan’s representative in the Republic and Imperial Senates",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Main profile / Republic representation and continued Imperial Senate service",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "family_connection",
+          "value": "Leia’s adoptive father, with Breha Organa",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Main profile and adoption history / Bail and Breha adopted Leia",
+              "note": "Adoption is distinct from Leia’s biological parentage."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The imported placeholder does not establish this characteristic. Unknown and not applicable are not equivalent; neither is converted to zero.",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "black",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "tan",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed profile does not substantiate this imported value. It remains unestablished, not disproved or zero; no inference is made from an image or performer’s measurements.",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "67BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed sources do not establish this exact birth or construction year. BBY dates are not inferred from story events, service history or a performer’s age.",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "This review does not treat pronouns, portrayal or a legacy n/a placeholder as independently sourced gender metadata. The imported field remains unestablished.",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Reviewed profile, metadata and selected history / field-assessment scope only",
+              "note": "Research assessment; this citation does not verify the imported value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Appearances / Attack of the Clones",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "films:rogue-one",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Appearances / Rogue One",
+              "note": "Work-level appearance only; not an assertion about every cut, scene or form of appearance."
+            }
+          ]
+        },
+        {
+          "targetId": "series:andor",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Appearances / Andor",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:obi-wan",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Appearances / Obi-Wan Kenobi",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Appearances / The Bad Batch",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level connection only; it does not assign a scene, physical presence, season or episode."
+            }
+          ]
+        },
+        {
+          "targetId": "planets:2",
+          "relation": "represented",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Main profile / representative of Alderaan",
+              "note": "Representation and royal-family membership do not independently establish a birthplace."
+            }
+          ]
+        },
+        {
+          "targetId": "people:5",
+          "relation": "adoptive_parent_of",
+          "evidence": [
+            {
+              "sourceId": "profile02-bail-organa",
+              "locator": "Adoption history / Leia raised by Bail and Breha",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

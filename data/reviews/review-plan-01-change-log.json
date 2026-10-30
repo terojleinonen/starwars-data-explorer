@@ -1,0 +1,738 @@
+{
+  "plan": "PLAN-01",
+  "checkedAt": "2026-10-28",
+  "changes": [
+    {
+      "kind": "issue_update",
+      "recordId": "films:rogue-one",
+      "before": {
+        "id": 11,
+        "record_id": "films:rogue-one",
+        "batch_id": "pilot-03",
+        "field": "global_release_and_master_inventory",
+        "status": "pending",
+        "note": "Selected territory/provider events checked. Complete international cinema/TV/streaming schedule and frame-level master comparison remain outside this batch."
+      },
+      "after": {
+        "field": "extended_release_and_master_inventory",
+        "status": "deferred",
+        "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "films:last-jedi",
+      "before": {
+        "id": 12,
+        "record_id": "films:last-jedi",
+        "batch_id": "pilot-03",
+        "field": "global_release_and_master_inventory",
+        "status": "pending",
+        "note": "Selected territory/provider events checked. Complete international cinema/TV/streaming schedule and frame-level master comparison remain outside this batch."
+      },
+      "after": {
+        "field": "extended_release_and_master_inventory",
+        "status": "deferred",
+        "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "films:solo",
+      "before": {
+        "id": 13,
+        "record_id": "films:solo",
+        "batch_id": "pilot-03",
+        "field": "global_release_and_master_inventory",
+        "status": "pending",
+        "note": "Selected territory/provider events checked. Complete international cinema/TV/streaming schedule and frame-level master comparison remain outside this batch."
+      },
+      "after": {
+        "field": "extended_release_and_master_inventory",
+        "status": "deferred",
+        "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "films:rise-skywalker",
+      "before": {
+        "id": 14,
+        "record_id": "films:rise-skywalker",
+        "batch_id": "pilot-03",
+        "field": "global_release_and_master_inventory",
+        "status": "pending",
+        "note": "Selected territory/provider events checked. Complete international cinema/TV/streaming schedule and frame-level master comparison remain outside this batch."
+      },
+      "after": {
+        "field": "extended_release_and_master_inventory",
+        "status": "deferred",
+        "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "films:mandalorian-grogu",
+      "before": {
+        "id": 15,
+        "record_id": "films:mandalorian-grogu",
+        "batch_id": "pilot-03",
+        "field": "global_release_and_master_inventory",
+        "status": "pending",
+        "note": "Selected territory/provider events checked. Complete international cinema/TV/streaming schedule and frame-level master comparison remain outside this batch."
+      },
+      "after": {
+        "field": "extended_release_and_master_inventory",
+        "status": "deferred",
+        "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "films:3",
+      "before": {
+        "id": 18,
+        "record_id": "films:3",
+        "batch_id": "pilot-04",
+        "field": "complete_episode_and_master_inventory",
+        "status": "pending",
+        "note": "Complete episode-level cast/crew/appearance and territory/master audit remains outside this selected batch."
+      },
+      "after": {
+        "field": "film_credits_and_appearance_inventory",
+        "status": "pending",
+        "note": "Selected film credits and appearances remain incomplete; original-production and revision contributors must stay separate."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "series:clone-wars-micro",
+      "before": {
+        "id": 19,
+        "record_id": "series:clone-wars-micro",
+        "batch_id": "pilot-04",
+        "field": "complete_episode_and_master_inventory",
+        "status": "pending",
+        "note": "Complete episode-level cast/crew/appearance and territory/master audit remains outside this selected batch."
+      },
+      "after": {
+        "field": "episode_credits_and_appearance_inventory",
+        "status": "pending",
+        "note": "Complete scoped episode cast/crew and appearance coverage remains active. Previously accepted episode inventories, writing credits and selected-profile appearance reviews remain valid."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "series:rebels",
+      "before": {
+        "id": 20,
+        "record_id": "series:rebels",
+        "batch_id": "pilot-04",
+        "field": "complete_episode_and_master_inventory",
+        "status": "pending",
+        "note": "Complete episode-level cast/crew/appearance and territory/master audit remains outside this selected batch."
+      },
+      "after": {
+        "field": "episode_credits_and_appearance_inventory",
+        "status": "pending",
+        "note": "Complete scoped episode cast/crew and appearance coverage remains active. Previously accepted episode inventories, writing credits and selected-profile appearance reviews remain valid."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "series:mandalorian",
+      "before": {
+        "id": 21,
+        "record_id": "series:mandalorian",
+        "batch_id": "pilot-04",
+        "field": "complete_episode_and_master_inventory",
+        "status": "pending",
+        "note": "Complete episode-level cast/crew/appearance and territory/master audit remains outside this selected batch."
+      },
+      "after": {
+        "field": "episode_credits_and_appearance_inventory",
+        "status": "pending",
+        "note": "Complete scoped episode cast/crew and appearance coverage remains active. Previously accepted episode inventories, writing credits and selected-profile appearance reviews remain valid."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "series:bad-batch",
+      "before": {
+        "id": 22,
+        "record_id": "series:bad-batch",
+        "batch_id": "pilot-04",
+        "field": "complete_episode_and_master_inventory",
+        "status": "pending",
+        "note": "Complete episode-level cast/crew/appearance and territory/master audit remains outside this selected batch."
+      },
+      "after": {
+        "field": "episode_credits_and_appearance_inventory",
+        "status": "pending",
+        "note": "Complete scoped episode cast/crew and appearance coverage remains active. Previously accepted episode inventories, writing credits and selected-profile appearance reviews remain valid."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "series:obi-wan",
+      "before": {
+        "id": 24,
+        "record_id": "series:obi-wan",
+        "batch_id": "pilot-05",
+        "field": "complete_episode_and_master_inventory",
+        "status": "pending",
+        "note": "Complete cast/crew, shot-level master/edition comparison, worldwide television/streaming history and all episode appearances remain outside this selected review."
+      },
+      "after": {
+        "field": "episode_credits_and_appearance_inventory",
+        "status": "pending",
+        "note": "Complete scoped episode cast/crew and appearance coverage remains active. Previously accepted episode inventories, writing credits and selected-profile appearance reviews remain valid."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "series:ahsoka",
+      "before": {
+        "id": 25,
+        "record_id": "series:ahsoka",
+        "batch_id": "pilot-05",
+        "field": "complete_episode_and_master_inventory",
+        "status": "pending",
+        "note": "Complete cast/crew, shot-level master/edition comparison, worldwide television/streaming history and all episode appearances remain outside this selected review."
+      },
+      "after": {
+        "field": "episode_credits_and_appearance_inventory",
+        "status": "pending",
+        "note": "Complete scoped episode cast/crew and appearance coverage remains active. Previously accepted episode inventories, writing credits and selected-profile appearance reviews remain valid."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "series:skeleton-crew",
+      "before": {
+        "id": 26,
+        "record_id": "series:skeleton-crew",
+        "batch_id": "pilot-05",
+        "field": "complete_episode_and_master_inventory",
+        "status": "pending",
+        "note": "Complete cast/crew, shot-level master/edition comparison, worldwide television/streaming history and all episode appearances remain outside this selected review."
+      },
+      "after": {
+        "field": "episode_credits_and_appearance_inventory",
+        "status": "pending",
+        "note": "Complete scoped episode cast/crew and appearance coverage remains active. Previously accepted episode inventories, writing credits and selected-profile appearance reviews remain valid."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "series:acolyte",
+      "before": {
+        "id": 27,
+        "record_id": "series:acolyte",
+        "batch_id": "pilot-05",
+        "field": "complete_episode_and_master_inventory",
+        "status": "pending",
+        "note": "Complete cast/crew, shot-level master/edition comparison, worldwide television/streaming history and all episode appearances remain outside this selected review."
+      },
+      "after": {
+        "field": "episode_credits_and_appearance_inventory",
+        "status": "pending",
+        "note": "Complete scoped episode cast/crew and appearance coverage remains active. Previously accepted episode inventories, writing credits and selected-profile appearance reviews remain valid."
+      }
+    },
+    {
+      "kind": "issue_update",
+      "recordId": "series:maul-shadow-lord",
+      "before": {
+        "id": 28,
+        "record_id": "series:maul-shadow-lord",
+        "batch_id": "pilot-05",
+        "field": "complete_episode_and_master_inventory",
+        "status": "pending",
+        "note": "Complete cast/crew, shot-level master/edition comparison, worldwide television/streaming history and all episode appearances remain outside this selected review."
+      },
+      "after": {
+        "field": "episode_credits_and_appearance_inventory",
+        "status": "pending",
+        "note": "Complete scoped episode cast/crew and appearance coverage remains active. Previously accepted episode inventories, writing credits and selected-profile appearance reviews remain valid."
+      }
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "films:3",
+      "field": "extended_release_and_master_inventory",
+      "status": "deferred",
+      "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "series:clone-wars-micro",
+      "field": "extended_release_and_master_inventory",
+      "status": "deferred",
+      "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "series:rebels",
+      "field": "extended_release_and_master_inventory",
+      "status": "deferred",
+      "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "series:mandalorian",
+      "field": "extended_release_and_master_inventory",
+      "status": "deferred",
+      "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "series:bad-batch",
+      "field": "extended_release_and_master_inventory",
+      "status": "deferred",
+      "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "series:obi-wan",
+      "field": "extended_release_and_master_inventory",
+      "status": "deferred",
+      "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "series:ahsoka",
+      "field": "extended_release_and_master_inventory",
+      "status": "deferred",
+      "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "series:skeleton-crew",
+      "field": "extended_release_and_master_inventory",
+      "status": "deferred",
+      "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "series:acolyte",
+      "field": "extended_release_and_master_inventory",
+      "status": "deferred",
+      "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "series:maul-shadow-lord",
+      "field": "extended_release_and_master_inventory",
+      "status": "deferred",
+      "note": "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+    },
+    {
+      "kind": "issue_addition",
+      "recordId": "films:3",
+      "field": "official_title_page_release_metadata",
+      "status": "pending",
+      "note": "The current StarWars.com title-page metadata shows May 1, 1983; AFI lists May 25, 1983. Preserve the established original US theatrical date 1983-05-25. This source-field conflict does not establish another release or edit. The discrepancy remains under review."
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:1",
+      "before": [
+        "Selected credits and connections, not a complete filmography or appearance index.",
+        "Unreviewed imported connections remain marked separately."
+      ],
+      "after": [
+        "Selected credits and connections, not a complete filmography or appearance index.",
+        "Unreviewed imported connections remain marked separately.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:2",
+      "before": [
+        "Selected credits and connections, not a complete filmography or appearance index.",
+        "Unreviewed imported connections remain marked separately."
+      ],
+      "after": [
+        "Selected credits and connections, not a complete filmography or appearance index.",
+        "Unreviewed imported connections remain marked separately.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:3",
+      "before": [
+        "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+        "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+        "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+        "The five previously checked original-release/director/producer fields and 1997 history retain their earlier citations. 2023/2024 screenings do not identify a particular supplied master. Later home-video changes are outside the date scope."
+      ],
+      "after": [
+        "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+        "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+        "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+        "The five previously checked original-release/director/producer fields and 1997 history retain their earlier citations. 2023/2024 screenings do not identify a particular supplied master. Later home-video changes are outside the date scope.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:4",
+      "before": [
+        "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+        "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+        "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+        "Later streaming masters can differ from the original print. A platform availability date does not establish which edit or master was supplied. Physical-media dates remain outside the current scope."
+      ],
+      "after": [
+        "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+        "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+        "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+        "Later streaming masters can differ from the original print. A platform availability date does not establish which edit or master was supplied. Physical-media dates remain outside the current scope.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:5",
+      "before": [
+        "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+        "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+        "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+        "Later streaming masters can differ from the original print. A platform availability date does not establish which edit or master was supplied. Physical-media dates remain outside the current scope."
+      ],
+      "after": [
+        "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+        "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+        "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+        "Later streaming masters can differ from the original print. A platform availability date does not establish which edit or master was supplied. Physical-media dates remain outside the current scope.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:6",
+      "before": [
+        "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+        "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+        "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+        "Later streaming masters can differ from the original print. A platform availability date does not establish which edit or master was supplied. Physical-media dates remain outside the current scope."
+      ],
+      "after": [
+        "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+        "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+        "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+        "Later streaming masters can differ from the original print. A platform availability date does not establish which edit or master was supplied. Physical-media dates remain outside the current scope.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:clone-wars-film",
+      "before": [
+        "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+        "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+        "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+        "This is the 2008 feature film, separate from the television series. Netflix director’s-cut wording applies to series episodes; it does not establish an extended feature-film cut.",
+        "Film-specific world and vehicle appearances remain pending; a generic Databank series appearance label is insufficient."
+      ],
+      "after": [
+        "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+        "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+        "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+        "This is the 2008 feature film, separate from the television series. Netflix director’s-cut wording applies to series episodes; it does not establish an extended feature-film cut.",
+        "Film-specific world and vehicle appearances remain pending; a generic Databank series appearance label is insufficient.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:force-awakens",
+      "before": [
+        "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+        "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+        "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+        "No separately released extended narrative cut was established by the reviewed official references. 2D, 3D and IMAX are documented presentations, not evidence of a longer cut."
+      ],
+      "after": [
+        "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+        "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+        "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+        "No separately released extended narrative cut was established by the reviewed official references. 2D, 3D and IMAX are documented presentations, not evidence of a longer cut.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:last-jedi",
+      "before": [
+        "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+        "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+        "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+        "Score-only audio presentation is identified separately. Movies Anywhere purchase entitlement dates are outside scope; Disney+ extra availability is based on contemporary reporting, not an audited current platform catalogue."
+      ],
+      "after": [
+        "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+        "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+        "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+        "Score-only audio presentation is identified separately. Movies Anywhere purchase entitlement dates are outside scope; Disney+ extra availability is based on contemporary reporting, not an audited current platform catalogue.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:mandalorian-grogu",
+      "before": [
+        "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+        "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+        "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+        "The film, its official podcast and LEGO Star Wars: The Mandalorian special are separate works. No LEGO voice cast is assigned to the live-action film. The new Razor Crest is a different vessel from the destroyed television-series ship."
+      ],
+      "after": [
+        "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+        "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+        "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+        "The film, its official podcast and LEGO Star Wars: The Mandalorian special are separate works. No LEGO voice cast is assigned to the live-action film. The new Razor Crest is a different vessel from the destroyed television-series ship.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:rise-skywalker",
+      "before": [
+        "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+        "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+        "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+        "Story credit includes Derek Connolly and Colin Trevorrow; the final screenplay credit is Chris Terrio and J.J. Abrams. Unreleased scripts, fan edits and rumours are not release versions."
+      ],
+      "after": [
+        "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+        "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+        "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+        "Story credit includes Derek Connolly and Colin Trevorrow; the final screenplay credit is Chris Terrio and J.J. Abrams. Unreleased scripts, fan edits and rumours are not release versions.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:rogue-one",
+      "before": [
+        "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+        "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+        "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+        "AFI’s 138-minute runtime conflicts with Disney’s 134-minute listing. Runtime is deliberately not adopted and does not create an alternate-cut record."
+      ],
+      "after": [
+        "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+        "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+        "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+        "AFI’s 138-minute runtime conflicts with Disney’s 134-minute listing. Runtime is deliberately not adopted and does not create an alternate-cut record.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "films:solo",
+      "before": [
+        "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+        "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+        "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+        "Ron Howard is the final released-film director. Deleted/extended bonus scenes and expanded novelizations do not establish a released alternate feature cut; earlier production direction is not silently converted into final co-director credit."
+      ],
+      "after": [
+        "Selected factual fields, final production credits and connections only; this is not the complete end-credit roll or appearance inventory.",
+        "Release history covers selected cinema, television and streaming events with explicit territory. It is not a worldwide release calendar; DVD, Blu-ray and digital-purchase dates are outside scope.",
+        "Version research is documentary: no frame-by-frame, language-track or supplied-master comparison. Unverified alternate cuts are not added. Public source access does not grant an open reuse licence.",
+        "Ron Howard is the final released-film director. Deleted/extended bonus scenes and expanded novelizations do not establish a released alternate feature cut; earlier production direction is not silently converted into final co-director credit.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:acolyte",
+      "before": [
+        "Reviewed released 2024 season, eight episodes. WGA staff-season labels and final-credit dates are not treated as release evidence.",
+        "Adult Mae and Osha have separate cast entries. Younger performers, stunt doubles, complete supporting cast and all world appearances remain outside this selected cast review.",
+        "Complete end credits, episode-by-episode appearances, worldwide/Finland releases and frame-level master comparisons remain pending. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists."
+      ],
+      "after": [
+        "Reviewed released 2024 season, eight episodes. WGA staff-season labels and final-credit dates are not treated as release evidence.",
+        "Adult Mae and Osha have separate cast entries. Younger performers, stunt doubles, complete supporting cast and all world appearances remain outside this selected cast review.",
+        "Complete end credits and episode-by-episode appearances remain pending; worldwide/Finland release histories and exhaustive frame-level master comparisons are deferred. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:ahsoka",
+      "before": [
+        "Production credits cover the released 2023 first season. Season 2 is announced for January 20, 2027 and is not counted as released.",
+        "Ray Stevenson’s Baylan credit belongs to season 1; future casting does not replace it. A special theatrical screening of episode 5 is not evidence of an expanded cut.",
+        "Complete end credits, episode-by-episode appearances, worldwide/Finland releases and frame-level master comparisons remain pending. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists."
+      ],
+      "after": [
+        "Production credits cover the released 2023 first season. Season 2 is announced for January 20, 2027 and is not counted as released.",
+        "Ray Stevenson’s Baylan credit belongs to season 1; future casting does not replace it. A special theatrical screening of episode 5 is not evidence of an expanded cut.",
+        "Complete end credits and episode-by-episode appearances remain pending; worldwide/Finland release histories and exhaustive frame-level master comparisons are deferred. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:andor",
+      "before": [
+        "Selected cast and scoped production credits; not every contributor is listed.",
+        "Episode records and a complete appearance index are a later review stage.",
+        "Series totals refer to released seasons as checked on 26 October 2026."
+      ],
+      "after": [
+        "Selected cast and scoped production credits; not every contributor is listed.",
+        "Episode records and a complete appearance index are a later review stage.",
+        "Series totals refer to released seasons as checked on 26 October 2026.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:bad-batch",
+      "before": [
+        "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "47 episodes across three seasons (16/16/15), including the extended premiere as one. Selected additional music contributors are now sourced; final episode-by-episode music credits, recording/editing personnel and assignments remain pending. Album roles apply only to the named cues."
+      ],
+      "after": [
+        "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "47 episodes across three seasons (16/16/15), including the extended premiere as one. Selected additional music contributors are now sourced; final episode-by-episode music credits, recording/editing personnel and assignments remain pending. Album roles apply only to the named cues.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:clone-wars-micro",
+      "before": [
+        "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+        "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+        "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+        "25 chapters in three original seasons must not be confused with two streaming volumes, the 2008 film or the 2008 CGI series. Detailed writing/music roles and chapter-specific vehicles/worlds still need individual evidence."
+      ],
+      "after": [
+        "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+        "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+        "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+        "25 chapters in three original seasons must not be confused with two streaming volumes, the 2008 film or the 2008 CGI series. Detailed writing/music roles and chapter-specific vehicles/worlds still need individual evidence.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:clone-wars-series",
+      "before": [
+        "This record covers the 2008–2020 television series, not the 2008 film or 2003 micro-series.",
+        "Selected English voice cast and production roles only. Writers are scoped to the cited work.",
+        "Episode-level credits, broadcast order and a complete appearance index remain to be reviewed."
+      ],
+      "after": [
+        "This record covers the 2008–2020 television series, not the 2008 film or 2003 micro-series.",
+        "Selected English voice cast and production roles only. Writers are scoped to the cited work.",
+        "Episode-level credits, broadcast order and a complete appearance index remain to be reviewed.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:mandalorian",
+      "before": [
+        "Seasons 1–2, Chapters 1–16, have selected-profile episode reviews. Season 2 uses 43 considered profiles. This is not a full cast, world or vehicle inventory; omitted connections remain unestablished, not absent. Season 3 still needs a systematic appearance review.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "Released television Chapters 1–24 only. The feature, LEGO retelling and The Book of Boba Fett are separate works. WGA final Created by and Lucasfilm’s current editorial Creator wording are explicitly distinguished."
+      ],
+      "after": [
+        "Seasons 1–2, Chapters 1–16, have selected-profile episode reviews. Season 2 uses 43 considered profiles. This is not a full cast, world or vehicle inventory; omitted connections remain unestablished, not absent. Season 3 still needs a systematic appearance review.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "Released television Chapters 1–24 only. The feature, LEGO retelling and The Book of Boba Fett are separate works. WGA final Created by and Lucasfilm’s current editorial Creator wording are explicitly distinguished.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:maul-shadow-lord",
+      "before": [
+        "Released season 1 reviewed: ten chapters, April–May 2026. Season 2 is in development; no released second season or exact second-season release date is claimed.",
+        "Matt and Matthew Michnovetz refer to the same credited writer; head-writer responsibility does not mean sole authorship or direction of every episode. Voice roles are for this series, not automatically the films.",
+        "Complete end credits, episode-by-episode appearances, worldwide/Finland releases and frame-level master comparisons remain pending. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists."
+      ],
+      "after": [
+        "Released season 1 reviewed: ten chapters, April–May 2026. Season 2 is in development; no released second season or exact second-season release date is claimed.",
+        "Matt and Matthew Michnovetz refer to the same credited writer; head-writer responsibility does not mean sole authorship or direction of every episode. Voice roles are for this series, not automatically the films.",
+        "Complete end credits and episode-by-episode appearances remain pending; worldwide/Finland release histories and exhaustive frame-level master comparisons are deferred. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:obi-wan",
+      "before": [
+        "All released episodes were reviewed against the selected profile cohort recorded with each episode. This is not a complete cast, location or vehicle inventory; an unlinked profile remains unestablished, not absent.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "All six final episode writing credits are covered, with Story by, Teleplay by and Written by kept separate. This is not the complete end-credit roll. May 26 Pacific and May 27 Eastern describe the same original launch.",
+        "The documentary A Jedi’s Return and unofficial fan-made film edits are separate from this six-part limited series.",
+        "No officially documented alternate cut was identified in the earlier scoped release search; absence of documentation does not prove that no variation exists. Worldwide and Finnish release histories remain incomplete."
+      ],
+      "after": [
+        "All released episodes were reviewed against the selected profile cohort recorded with each episode. This is not a complete cast, location or vehicle inventory; an unlinked profile remains unestablished, not absent.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "All six final episode writing credits are covered, with Story by, Teleplay by and Written by kept separate. This is not the complete end-credit roll. May 26 Pacific and May 27 Eastern describe the same original launch.",
+        "The documentary A Jedi’s Return and unofficial fan-made film edits are separate from this six-part limited series.",
+        "No officially documented alternate cut was identified in the earlier scoped release search; absence of documentation does not prove that no variation exists. Worldwide and Finnish release research is deferred under the current US-original scope.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:rebels",
+      "before": [
+        "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "Normalized count: 75 numbered parts across four seasons (15/22/22/16), grouped into 66 official guide entries (14/20/19/13). This is an archive counting convention, not a universal count of playable streaming items. The four introductory shorts and the ABC revised pilot are excluded. Individual credits and appearances within combined parts are not inferred."
+      ],
+      "after": [
+        "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "Normalized count: 75 numbered parts across four seasons (15/22/22/16), grouped into 66 official guide entries (14/20/19/13). This is an archive counting convention, not a universal count of playable streaming items. The four introductory shorts and the ABC revised pilot are excluded. Individual credits and appearances within combined parts are not inferred.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    },
+    {
+      "kind": "limitations",
+      "recordId": "series:skeleton-crew",
+      "before": [
+        "All released episodes were reviewed against the selected profile cohort recorded with each episode. This is not a complete cast, location or vehicle inventory; an unlinked profile remains unestablished, not absent.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "Released season 1 only. WGA staff writers are not automatically credited with writing an episode. Episodes 5–6 are written by Myung Joh Wesner; the other six are the Ford & Watts team.",
+        "No future renewal or cancellation claim is made. The December 2 cinema screenings covered episodes 1–2, not a separate film.",
+        "No officially documented alternate cut was identified in the earlier scoped release search; absence of documentation does not prove that no variation exists. Worldwide and Finnish release histories remain incomplete."
+      ],
+      "after": [
+        "All released episodes were reviewed against the selected profile cohort recorded with each episode. This is not a complete cast, location or vehicle inventory; an unlinked profile remains unestablished, not absent.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "Released season 1 only. WGA staff writers are not automatically credited with writing an episode. Episodes 5–6 are written by Myung Joh Wesner; the other six are the Ford & Watts team.",
+        "No future renewal or cancellation claim is made. The December 2 cinema screenings covered episodes 1–2, not a separate film.",
+        "No officially documented alternate cut was identified in the earlier scoped release search; absence of documentation does not prove that no variation exists. Worldwide and Finnish release research is deferred under the current US-original scope.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ]
+    }
+  ]
+}

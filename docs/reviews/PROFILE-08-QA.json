@@ -1,0 +1,2262 @@
+{
+  "states": [
+    {
+      "label": "Profile facts / y-wing",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Proton torpedoes used by Alliance Y-wings at Yavin\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[4]",
+          "value": "Fighter engagements and bombing attacks against ships and ground targets\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[3]",
+          "value": "Republic/Alliance Y-wing design family; the Resistance BTA is a later version\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "23.4 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited value is literally 1000km, without a time denominator. The reviewed source supplies no atmospheric speed. It is not silently repaired to km/h; raw text and source remain recoverable."
+        },
+        {
+          "label": "Model \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "protection \n[4]",
+          "value": "Shields and armor protect Alliance-era fighters during the Yavin attack\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Starfighter and bomber\nChecked with sources"
+        }
+      ],
+      "heading": "Y-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/y-wing#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Profile facts / a-wing",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Pivoting wingtip laser cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[2]",
+          "value": "Rapid strikes\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe standard fighter’s required crew is not established. The separately named RZ-1T trainer’s two occupants do not certify the inherited one-person standard crew or a standard passenger capacity."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[2]\n[3]",
+          "value": "A-wing design family; trainer and later evolved Resistance configurations are not a single technical specification\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "6.9 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "propulsion \n[2]",
+          "value": "Two large engines\nChecked with sources"
+        },
+        {
+          "label": "relative speed \n[2]",
+          "value": "Described as faster than the TIE interceptor\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "A-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/a-wing#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Profile facts / tie-advanced-x1",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Blaster cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat context \n[4]",
+          "value": "Vader attacks rebel starfighters above the first Death Star\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[5]",
+          "value": "Vader’s experimental TIE fighter, distinct from the Grand Inquisitor’s prototype\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "5.8 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]\n[3]",
+          "value": "TIE Advanced x1\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Experimental starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "TIE ADVANCED X1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/tie-advanced-x1#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Profile facts / slave-1",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Jango-era laser cannons and seismic charges\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "configuration history \n[2]",
+          "value": "Damaged during Aurra’s escape, rebuilt by Hondo, later reclaimed by Boba\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Known as \n[2]",
+          "value": "Slave I; the same vessel currently profiled as Boba Fett’s starship\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected history caption abbreviates the craft label as KSE but does not independently expand it into the inherited full company name. That exact manufacturer string remains unestablished here; raw value retained."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Modified Firespray-31-class patrol and attack craft\nChecked with sources"
+        },
+        {
+          "label": "ownership history \n[2]",
+          "value": "Jango Fett, then Boba; Hondo repairs and possesses it before Boba reclaims it\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Pursuit and patrol craft\nChecked with sources"
+        }
+      ],
+      "heading": "SLAVE 1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/slave-1#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Profile facts / naboo-royal-starship",
+      "facts": [
+        {
+          "label": "MGLT \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Armament \n[3]",
+          "value": "No offensive weaponry\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Consumables \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Cost \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Length \n[3]",
+          "value": "76 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[3]",
+          "value": "J-type 327 Nubian royal starship\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "propulsion \n[3]",
+          "value": "Equipped with a hyperdrive; numerical class not established here\nChecked with sources"
+        },
+        {
+          "label": "protection \n[3]",
+          "value": "Strong shields\nChecked with sources"
+        },
+        {
+          "label": "replacement component \n[3]",
+          "value": "T-14 hyperdrive generator obtained on Tatooine\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        }
+      ],
+      "heading": "NABOO ROYAL STARSHIP",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/naboo-royal-starship#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Profile facts / y-wing",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Proton torpedoes used by Alliance Y-wings at Yavin\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[4]",
+          "value": "Fighter engagements and bombing attacks against ships and ground targets\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[3]",
+          "value": "Republic/Alliance Y-wing design family; the Resistance BTA is a later version\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "23.4 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited value is literally 1000km, without a time denominator. The reviewed source supplies no atmospheric speed. It is not silently repaired to km/h; raw text and source remain recoverable."
+        },
+        {
+          "label": "Model \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "protection \n[4]",
+          "value": "Shields and armor protect Alliance-era fighters during the Yavin attack\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Starfighter and bomber\nChecked with sources"
+        }
+      ],
+      "heading": "Y-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/y-wing#attributes",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Profile facts / a-wing",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Pivoting wingtip laser cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[2]",
+          "value": "Rapid strikes\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe standard fighter’s required crew is not established. The separately named RZ-1T trainer’s two occupants do not certify the inherited one-person standard crew or a standard passenger capacity."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[2]\n[3]",
+          "value": "A-wing design family; trainer and later evolved Resistance configurations are not a single technical specification\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "6.9 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "propulsion \n[2]",
+          "value": "Two large engines\nChecked with sources"
+        },
+        {
+          "label": "relative speed \n[2]",
+          "value": "Described as faster than the TIE interceptor\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "A-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/a-wing#attributes",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Profile facts / tie-advanced-x1",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Blaster cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat context \n[4]",
+          "value": "Vader attacks rebel starfighters above the first Death Star\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[5]",
+          "value": "Vader’s experimental TIE fighter, distinct from the Grand Inquisitor’s prototype\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "5.8 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]\n[3]",
+          "value": "TIE Advanced x1\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Experimental starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "TIE ADVANCED X1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/tie-advanced-x1#attributes",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Profile facts / slave-1",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Jango-era laser cannons and seismic charges\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "configuration history \n[2]",
+          "value": "Damaged during Aurra’s escape, rebuilt by Hondo, later reclaimed by Boba\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Known as \n[2]",
+          "value": "Slave I; the same vessel currently profiled as Boba Fett’s starship\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected history caption abbreviates the craft label as KSE but does not independently expand it into the inherited full company name. That exact manufacturer string remains unestablished here; raw value retained."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Modified Firespray-31-class patrol and attack craft\nChecked with sources"
+        },
+        {
+          "label": "ownership history \n[2]",
+          "value": "Jango Fett, then Boba; Hondo repairs and possesses it before Boba reclaims it\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Pursuit and patrol craft\nChecked with sources"
+        }
+      ],
+      "heading": "SLAVE 1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/slave-1#attributes",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Profile facts / naboo-royal-starship",
+      "facts": [
+        {
+          "label": "MGLT \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Armament \n[3]",
+          "value": "No offensive weaponry\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Consumables \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Cost \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Length \n[3]",
+          "value": "76 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[3]",
+          "value": "J-type 327 Nubian royal starship\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "propulsion \n[3]",
+          "value": "Equipped with a hyperdrive; numerical class not established here\nChecked with sources"
+        },
+        {
+          "label": "protection \n[3]",
+          "value": "Strong shields\nChecked with sources"
+        },
+        {
+          "label": "replacement component \n[3]",
+          "value": "T-14 hyperdrive generator obtained on Tatooine\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        }
+      ],
+      "heading": "NABOO ROYAL STARSHIP",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/naboo-royal-starship#attributes",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Expanded review / y-wing",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Proton torpedoes used by Alliance Y-wings at Yavin\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[4]",
+          "value": "Fighter engagements and bombing attacks against ships and ground targets\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[3]",
+          "value": "Republic/Alliance Y-wing design family; the Resistance BTA is a later version\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "23.4 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited value is literally 1000km, without a time denominator. The reviewed source supplies no atmospheric speed. It is not silently repaired to km/h; raw text and source remain recoverable."
+        },
+        {
+          "label": "Model \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "protection \n[4]",
+          "value": "Shields and armor protect Alliance-era fighters during the Yavin attack\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Starfighter and bomber\nChecked with sources"
+        }
+      ],
+      "heading": "Y-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/y-wing#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Expanded review / a-wing",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Pivoting wingtip laser cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[2]",
+          "value": "Rapid strikes\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe standard fighter’s required crew is not established. The separately named RZ-1T trainer’s two occupants do not certify the inherited one-person standard crew or a standard passenger capacity."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[2]\n[3]",
+          "value": "A-wing design family; trainer and later evolved Resistance configurations are not a single technical specification\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "6.9 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "propulsion \n[2]",
+          "value": "Two large engines\nChecked with sources"
+        },
+        {
+          "label": "relative speed \n[2]",
+          "value": "Described as faster than the TIE interceptor\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "A-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/a-wing#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Expanded review / tie-advanced-x1",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Blaster cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat context \n[4]",
+          "value": "Vader attacks rebel starfighters above the first Death Star\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[5]",
+          "value": "Vader’s experimental TIE fighter, distinct from the Grand Inquisitor’s prototype\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "5.8 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]\n[3]",
+          "value": "TIE Advanced x1\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Experimental starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "TIE ADVANCED X1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/tie-advanced-x1#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Expanded review / slave-1",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Jango-era laser cannons and seismic charges\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "configuration history \n[2]",
+          "value": "Damaged during Aurra’s escape, rebuilt by Hondo, later reclaimed by Boba\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Known as \n[2]",
+          "value": "Slave I; the same vessel currently profiled as Boba Fett’s starship\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected history caption abbreviates the craft label as KSE but does not independently expand it into the inherited full company name. That exact manufacturer string remains unestablished here; raw value retained."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Modified Firespray-31-class patrol and attack craft\nChecked with sources"
+        },
+        {
+          "label": "ownership history \n[2]",
+          "value": "Jango Fett, then Boba; Hondo repairs and possesses it before Boba reclaims it\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Pursuit and patrol craft\nChecked with sources"
+        }
+      ],
+      "heading": "SLAVE 1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/slave-1#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Expanded review / naboo-royal-starship",
+      "facts": [
+        {
+          "label": "MGLT \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Armament \n[3]",
+          "value": "No offensive weaponry\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Consumables \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Cost \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Length \n[3]",
+          "value": "76 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[3]",
+          "value": "J-type 327 Nubian royal starship\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "propulsion \n[3]",
+          "value": "Equipped with a hyperdrive; numerical class not established here\nChecked with sources"
+        },
+        {
+          "label": "protection \n[3]",
+          "value": "Strong shields\nChecked with sources"
+        },
+        {
+          "label": "replacement component \n[3]",
+          "value": "T-14 hyperdrive generator obtained on Tatooine\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        }
+      ],
+      "heading": "NABOO ROYAL STARSHIP",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/naboo-royal-starship#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Expanded review / y-wing",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Proton torpedoes used by Alliance Y-wings at Yavin\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[4]",
+          "value": "Fighter engagements and bombing attacks against ships and ground targets\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[3]",
+          "value": "Republic/Alliance Y-wing design family; the Resistance BTA is a later version\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "23.4 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited value is literally 1000km, without a time denominator. The reviewed source supplies no atmospheric speed. It is not silently repaired to km/h; raw text and source remain recoverable."
+        },
+        {
+          "label": "Model \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "protection \n[4]",
+          "value": "Shields and armor protect Alliance-era fighters during the Yavin attack\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Starfighter and bomber\nChecked with sources"
+        }
+      ],
+      "heading": "Y-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/y-wing#attributes",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Expanded review / a-wing",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Pivoting wingtip laser cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[2]",
+          "value": "Rapid strikes\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe standard fighter’s required crew is not established. The separately named RZ-1T trainer’s two occupants do not certify the inherited one-person standard crew or a standard passenger capacity."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[2]\n[3]",
+          "value": "A-wing design family; trainer and later evolved Resistance configurations are not a single technical specification\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "6.9 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "propulsion \n[2]",
+          "value": "Two large engines\nChecked with sources"
+        },
+        {
+          "label": "relative speed \n[2]",
+          "value": "Described as faster than the TIE interceptor\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "A-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/a-wing#attributes",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Expanded review / tie-advanced-x1",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Blaster cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat context \n[4]",
+          "value": "Vader attacks rebel starfighters above the first Death Star\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[5]",
+          "value": "Vader’s experimental TIE fighter, distinct from the Grand Inquisitor’s prototype\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "5.8 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]\n[3]",
+          "value": "TIE Advanced x1\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Experimental starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "TIE ADVANCED X1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/tie-advanced-x1#attributes",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Expanded review / slave-1",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Jango-era laser cannons and seismic charges\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "configuration history \n[2]",
+          "value": "Damaged during Aurra’s escape, rebuilt by Hondo, later reclaimed by Boba\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Known as \n[2]",
+          "value": "Slave I; the same vessel currently profiled as Boba Fett’s starship\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected history caption abbreviates the craft label as KSE but does not independently expand it into the inherited full company name. That exact manufacturer string remains unestablished here; raw value retained."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Modified Firespray-31-class patrol and attack craft\nChecked with sources"
+        },
+        {
+          "label": "ownership history \n[2]",
+          "value": "Jango Fett, then Boba; Hondo repairs and possesses it before Boba reclaims it\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Pursuit and patrol craft\nChecked with sources"
+        }
+      ],
+      "heading": "SLAVE 1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/slave-1#attributes",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Expanded review / naboo-royal-starship",
+      "facts": [
+        {
+          "label": "MGLT \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Armament \n[3]",
+          "value": "No offensive weaponry\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Consumables \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Cost \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Length \n[3]",
+          "value": "76 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[3]",
+          "value": "J-type 327 Nubian royal starship\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "propulsion \n[3]",
+          "value": "Equipped with a hyperdrive; numerical class not established here\nChecked with sources"
+        },
+        {
+          "label": "protection \n[3]",
+          "value": "Strong shields\nChecked with sources"
+        },
+        {
+          "label": "replacement component \n[3]",
+          "value": "T-14 hyperdrive generator obtained on Tatooine\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        }
+      ],
+      "heading": "NABOO ROYAL STARSHIP",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/naboo-royal-starship#attributes",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Expanded review / y-wing",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Proton torpedoes used by Alliance Y-wings at Yavin\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[4]",
+          "value": "Fighter engagements and bombing attacks against ships and ground targets\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[3]",
+          "value": "Republic/Alliance Y-wing design family; the Resistance BTA is a later version\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "23.4 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited value is literally 1000km, without a time denominator. The reviewed source supplies no atmospheric speed. It is not silently repaired to km/h; raw text and source remain recoverable."
+        },
+        {
+          "label": "Model \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "protection \n[4]",
+          "value": "Shields and armor protect Alliance-era fighters during the Yavin attack\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Starfighter and bomber\nChecked with sources"
+        }
+      ],
+      "heading": "Y-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/y-wing#attributes",
+      "textOverflow": [],
+      "width": 320
+    },
+    {
+      "label": "Expanded review / a-wing",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Pivoting wingtip laser cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[2]",
+          "value": "Rapid strikes\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe standard fighter’s required crew is not established. The separately named RZ-1T trainer’s two occupants do not certify the inherited one-person standard crew or a standard passenger capacity."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[2]\n[3]",
+          "value": "A-wing design family; trainer and later evolved Resistance configurations are not a single technical specification\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "6.9 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "propulsion \n[2]",
+          "value": "Two large engines\nChecked with sources"
+        },
+        {
+          "label": "relative speed \n[2]",
+          "value": "Described as faster than the TIE interceptor\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "A-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/a-wing#attributes",
+      "textOverflow": [],
+      "width": 320
+    },
+    {
+      "label": "Expanded review / tie-advanced-x1",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Blaster cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat context \n[4]",
+          "value": "Vader attacks rebel starfighters above the first Death Star\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[5]",
+          "value": "Vader’s experimental TIE fighter, distinct from the Grand Inquisitor’s prototype\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "5.8 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]\n[3]",
+          "value": "TIE Advanced x1\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Experimental starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "TIE ADVANCED X1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/tie-advanced-x1#attributes",
+      "textOverflow": [],
+      "width": 320
+    },
+    {
+      "label": "Expanded review / slave-1",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Jango-era laser cannons and seismic charges\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "configuration history \n[2]",
+          "value": "Damaged during Aurra’s escape, rebuilt by Hondo, later reclaimed by Boba\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Known as \n[2]",
+          "value": "Slave I; the same vessel currently profiled as Boba Fett’s starship\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected history caption abbreviates the craft label as KSE but does not independently expand it into the inherited full company name. That exact manufacturer string remains unestablished here; raw value retained."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Modified Firespray-31-class patrol and attack craft\nChecked with sources"
+        },
+        {
+          "label": "ownership history \n[2]",
+          "value": "Jango Fett, then Boba; Hondo repairs and possesses it before Boba reclaims it\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Pursuit and patrol craft\nChecked with sources"
+        }
+      ],
+      "heading": "SLAVE 1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/slave-1#attributes",
+      "textOverflow": [],
+      "width": 320
+    },
+    {
+      "label": "Expanded review / naboo-royal-starship",
+      "facts": [
+        {
+          "label": "MGLT \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Armament \n[3]",
+          "value": "No offensive weaponry\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Consumables \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Cost \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Length \n[3]",
+          "value": "76 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[3]",
+          "value": "J-type 327 Nubian royal starship\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "propulsion \n[3]",
+          "value": "Equipped with a hyperdrive; numerical class not established here\nChecked with sources"
+        },
+        {
+          "label": "protection \n[3]",
+          "value": "Strong shields\nChecked with sources"
+        },
+        {
+          "label": "replacement component \n[3]",
+          "value": "T-14 hyperdrive generator obtained on Tatooine\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[3]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        }
+      ],
+      "heading": "NABOO ROYAL STARSHIP",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/naboo-royal-starship#attributes",
+      "textOverflow": [],
+      "width": 320
+    },
+    {
+      "label": "Filtered Y-wing collection / desktop",
+      "facts": [],
+      "heading": "BUILT FOR\nTHE UNKNOWN.",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Filtered Fett vessel collection / phone",
+      "facts": [],
+      "heading": "BUILT FOR\nTHE UNKNOWN.",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "A-wing nominal length / source jump expanded",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Pivoting wingtip laser cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[2]",
+          "value": "Rapid strikes\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe standard fighter’s required crew is not established. The separately named RZ-1T trainer’s two occupants do not certify the inherited one-person standard crew or a standard passenger capacity."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[2]\n[3]",
+          "value": "A-wing design family; trainer and later evolved Resistance configurations are not a single technical specification\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "6.9 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "propulsion \n[2]",
+          "value": "Two large engines\nChecked with sources"
+        },
+        {
+          "label": "relative speed \n[2]",
+          "value": "Described as faster than the TIE interceptor\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "A-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/a-wing#source-profile08-a-wing-fighter",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Vader model label / scoped lifestyle-source evidence on phone",
+      "facts": [
+        {
+          "label": "MGLT \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[4]",
+          "value": "Blaster cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat context \n[4]",
+          "value": "Vader attacks rebel starfighters above the first Death Star\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value and source are preserved."
+        },
+        {
+          "label": "Crew \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[4]\n[5]",
+          "value": "Vader’s experimental TIE fighter, distinct from the Grand Inquisitor’s prototype\nChecked with sources"
+        },
+        {
+          "label": "Length \n[4]",
+          "value": "5.8 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]\n[3]",
+          "value": "TIE Advanced x1\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[4]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[4]",
+          "value": "Experimental starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "TIE ADVANCED X1",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/tie-advanced-x1#source-profile08-tie-model-label",
+      "textOverflow": [],
+      "width": 390
+    },
+    {
+      "label": "Previously checked record / regression",
+      "facts": [
+        {
+          "label": "Composer \n[144]",
+          "value": "Kevin Kiner\nChecked with sources"
+        },
+        {
+          "label": "Creator \n[148]",
+          "value": "Dave Filoni, Simon Kinberg, Carrie Beck\nChecked with sources"
+        },
+        {
+          "label": "Episode counting rule \n[146]\n[256]",
+          "value": "Count each numbered part once; keep nine two-part stories grouped in the guide. Exclude four introductory shorts and the ABC pilot revision. Streaming-item counts vary by grouping.\nChecked with sources"
+        },
+        {
+          "label": "Episodes \n[146]\n[256]",
+          "value": "75 numbered parts across four seasons (15 / 22 / 22 / 16); 66 combined guide entries\nChecked with sources"
+        },
+        {
+          "label": "Executive producer \n[148]",
+          "value": "Dave Filoni, Simon Kinberg, Greg Weisman (launch production)\nChecked with sources"
+        },
+        {
+          "label": "Format \n[148]",
+          "value": "Animated series\nChecked with sources"
+        },
+        {
+          "label": "Original US release \n[217]",
+          "value": "2014-09-26\nChecked with sources"
+        },
+        {
+          "label": "Release context \n[217]",
+          "value": "US WATCH Disney XD premiere of Spark of Rebellion; Disney Channel TV: 3 October 2014; weekly Disney XD series: 13 October.\nChecked with sources"
+        },
+        {
+          "label": "Series run \n[147]\n[148]",
+          "value": "2014–2018\nChecked with sources"
+        },
+        {
+          "label": "Seasons \n[218]",
+          "value": "4\nChecked with sources"
+        },
+        {
+          "label": "Supervising writer \n[145]",
+          "value": "Henry Gilroy (Season 2)\nChecked with sources"
+        }
+      ],
+      "heading": "STAR WARS REBELS",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/series/star-wars-rebels#episode-s2e18",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Previously checked record / regression",
+      "facts": [
+        {
+          "label": "MGLT \n[8]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[7]",
+          "value": "Han-era modifications include quad lasers and concussion-missile launchers\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[8]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "configuration scope \n[8]",
+          "value": "Exterior and equipment modified by successive owners; current nominal length is not every historical configuration\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[8]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[8]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[8]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Hyperdrive rating \n[8]",
+          "value": "Not established\nReviewed · unresolved\nThe source establishes a hyperdrive or hyperspace capability, but not this inherited numerical rating. Speed boasts and journey distances are not converted into a hyperdrive class."
+        },
+        {
+          "label": "Length \n[8]",
+          "value": "34.75 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[4]",
+          "value": "Corellian Engineering Corporation\nChecked with sources"
+        },
+        {
+          "label": "Atmospheric speed \n[8]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[7]",
+          "value": "YT-1300 light freighter\nChecked with sources"
+        },
+        {
+          "label": "navigation \n[7]",
+          "value": "L3-37’s brain integrated into the navigation computer during the Kessel escape\nChecked with sources"
+        },
+        {
+          "label": "Passengers \n[8]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Starship class \n[8]",
+          "value": "Light freighter\nChecked with sources"
+        }
+      ],
+      "heading": "MILLENNIUM FALCON",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/millennium-falcon#attributes",
+      "textOverflow": [],
+      "width": 1280
+    },
+    {
+      "label": "Final screenshot / A-wing source nominal length and unresolved fields",
+      "facts": [
+        {
+          "label": "MGLT \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Armament \n[2]",
+          "value": "Pivoting wingtip laser cannons\nChecked with sources"
+        },
+        {
+          "label": "Cargo capacity \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "combat role \n[2]",
+          "value": "Rapid strikes\nChecked with sources"
+        },
+        {
+          "label": "Consumables \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Cost \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Crew \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe standard fighter’s required crew is not established. The separately named RZ-1T trainer’s two occupants do not certify the inherited one-person standard crew or a standard passenger capacity."
+        },
+        {
+          "label": "Hyperdrive rating \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected evidence does not establish this inherited numerical hyperdrive rating. Travel references, a named pilot or another variant do not independently certify a hyperdrive class."
+        },
+        {
+          "label": "identity scope \n[2]\n[3]",
+          "value": "A-wing design family; trainer and later evolved Resistance configurations are not a single technical specification\nChecked with sources"
+        },
+        {
+          "label": "Length \n[2]",
+          "value": "6.9 m\nChecked with sources"
+        },
+        {
+          "label": "Manufacturer \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Atmospheric speed \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Model \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected source does not establish this exact inherited model/subclass label. A generic family name is not certification of a subtype or every historical configuration."
+        },
+        {
+          "label": "Passengers \n[2]",
+          "value": "Not established\nReviewed · unresolved\nThe selected public sources do not establish this inherited vessel value or its numerical precision. Generic class descriptions, named ships, screen models and historical configurations are not interchangeable technical specifications. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "propulsion \n[2]",
+          "value": "Two large engines\nChecked with sources"
+        },
+        {
+          "label": "relative speed \n[2]",
+          "value": "Described as faster than the TIE interceptor\nChecked with sources"
+        },
+        {
+          "label": "Starship class \n[2]",
+          "value": "Starfighter\nChecked with sources"
+        }
+      ],
+      "heading": "A-WING",
+      "missingAnchors": [],
+      "overflow": false,
+      "path": "/starships/a-wing#attributes",
+      "textOverflow": [],
+      "width": 1248
+    }
+  ],
+  "logs": [],
+  "result": {
+    "states": 32,
+    "noOverflow": true,
+    "allSourceAnchorsResolve": true,
+    "no404": true,
+    "noWarningErrorLogs": true
+  }
+}

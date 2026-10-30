@@ -1,0 +1,3019 @@
+{
+  "version": 1,
+  "id": "pilot-01",
+  "checkedAt": "2026-10-26",
+  "reviewer": "Archive editorial review",
+  "scope": "Four-title pilot: selected production facts, original summaries, scoped credits and selected connections. Not a complete episode or appearance audit.",
+  "sources": [
+    {
+      "id": "pilot-afi-hope",
+      "title": "AFI Catalog — Star Wars (1977)",
+      "url": "https://catalog.afi.com/Catalog/MovieDetails/55187",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "AFI Catalog",
+      "revision": "",
+      "note": "Detailed production and cast credits, not the abbreviated overview. Original-production roles are kept separate from later editions."
+    },
+    {
+      "id": "pilot-afi-empire",
+      "title": "AFI Catalog — The Empire Strikes Back (1980)",
+      "url": "https://catalog.afi.com/Film/56403-THE-EMPIRESTRIKESBACK",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "AFI Catalog",
+      "revision": "",
+      "note": "Detailed credits distinguish director, second-unit director, screenplay and story. Release date is scoped to US theatrical release."
+    },
+    {
+      "id": "pilot-hope-film",
+      "title": "StarWars.com — A New Hope",
+      "url": "https://www.starwars.com/films/star-wars-episode-iv-a-new-hope",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official film description and selected Databank connections; not an original-cut appearance list."
+    },
+    {
+      "id": "pilot-empire-film",
+      "title": "StarWars.com — The Empire Strikes Back",
+      "url": "https://www.starwars.com/films/star-wars-episode-v-the-empire-strikes-back",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official film description and selected Databank connections."
+    },
+    {
+      "id": "pilot-hope-opening",
+      "title": "StarWars.com — A New Hope opening",
+      "url": "https://www.starwars.com/video/star-wars-episode-iv-a-new-hope-opening-crawl",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official video link only. The page distinguishes the 1977 title from the 1981 revised opening. No crawl transcript is stored."
+    },
+    {
+      "id": "pilot-empire-opening",
+      "title": "StarWars.com — The Empire Strikes Back opening",
+      "url": "https://www.starwars.com/video/star-wars-episode-v-the-empire-strikes-back-opening-crawl",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official video link only; no transcript or local video copy."
+    },
+    {
+      "id": "pilot-andor-production",
+      "title": "Lucasfilm — Andor",
+      "url": "https://www.lucasfilm.com/productions/andor/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Creator and production introduction. Season-specific credits are not assumed to apply to all episodes."
+    },
+    {
+      "id": "pilot-andor-arc1",
+      "title": "StarWars.com — Andor Revisited, season 1 arc 1",
+      "url": "https://www.starwars.com/news/andor-revisited-rewatch-season-1-arc-1",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "First broadcast date, early episode credits, performer–character pairs and Ferrix."
+    },
+    {
+      "id": "pilot-andor-arc2",
+      "title": "StarWars.com — Andor Revisited, season 1 arc 2",
+      "url": "https://www.starwars.com/news/andor-revisited-rewatch-season-1-arc-2",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Directors and writers of season 1 episodes 4–7; scope retained explicitly."
+    },
+    {
+      "id": "pilot-andor-launch",
+      "title": "StarWars.com — Andor creator and cast",
+      "url": "https://www.starwars.com/news/andor-launch-interview-gilroy-and-cast",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Selected performer–character pairs. The planned episode total is corroborated against the later structured-data snapshot."
+    },
+    {
+      "id": "pilot-andor-season2",
+      "title": "StarWars.com — Andor season 2 trailer and credits",
+      "url": "https://www.starwars.com/news/andor-season-2-teaser-trailer-key-art-reveal",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Season 2 writer and director blocks; not season 1 credits."
+    },
+    {
+      "id": "pilot-andor-music",
+      "title": "StarWars.com — The sounds of Ghorman",
+      "url": "https://www.starwars.com/news/andor-season-2-sounds-of-ghorman",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Distinguishes Brandon Roberts and Nicholas Britell and their season-specific contributions."
+    },
+    {
+      "id": "pilot-clone-production",
+      "title": "Lucasfilm — The Clone Wars television series",
+      "url": "https://www.lucasfilm.com/productions/star-wars-the-clone-wars/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Creator, executive producer, supervising director and story premise. Separate from the 2008 film and the 2003 micro-series."
+    },
+    {
+      "id": "pilot-clone-cast",
+      "title": "StarWars.com — The Clone Wars tenth anniversary",
+      "url": "https://www.starwars.com/news/her-universe-star-wars-the-clone-wars",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Television premiere date and selected English voice performers, distinct from the theatrical film."
+    },
+    {
+      "id": "pilot-clone-final",
+      "title": "StarWars.com — The Clone Wars final-season announcement",
+      "url": "https://www.starwars.com/news/star-wars-the-clone-wars-returns-on-disney-february-21",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Final-season executive producer/supervising director and voice performers."
+    },
+    {
+      "id": "pilot-clone-count",
+      "title": "StarWars.com — Darren Marshall interview",
+      "url": "https://www.starwars.com/news/star-wars-insider-darren-marshall-interview",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Explicitly describes seven seasons and 133 episodes."
+    },
+    {
+      "id": "pilot-clone-panel",
+      "title": "StarWars.com — The Clone Wars SDCC 2018 panel",
+      "url": "https://www.starwars.com/news/sdcc-2018-12-things-we-learned-from-the-star-wars-the-clone-wars-panel",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Kevin Kiner identified as composer."
+    },
+    {
+      "id": "pilot-clone-writers",
+      "title": "StarWars.com — The Clone Wars SDCC 2012 panel",
+      "url": "https://www.starwars.com/news/the-quotable-clone-wars-panel-report-from-san-diego-comic-con",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Matt Michnovetz identified as head writer at the 2012 panel and writer of the Umbara arc. Not a claim of sole authorship of the series."
+    },
+    {
+      "id": "pilot-cassian",
+      "title": "StarWars.com Databank — Cassian Andor",
+      "url": "https://www.starwars.com/databank/cassian-andor",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Introductory description and/or explicit television-series appearance. Associated location or vehicle alone is not treated as episode evidence."
+    },
+    {
+      "id": "pilot-luthen",
+      "title": "StarWars.com Databank — Luthen Rael",
+      "url": "https://www.starwars.com/databank/luthen-rael",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Introductory description and/or explicit television-series appearance. Associated location or vehicle alone is not treated as episode evidence."
+    },
+    {
+      "id": "pilot-ahsoka",
+      "title": "StarWars.com Databank — Ahsoka Tano",
+      "url": "https://www.starwars.com/databank/ahsoka-tano",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Introductory description and/or explicit television-series appearance. Associated location or vehicle alone is not treated as episode evidence."
+    },
+    {
+      "id": "pilot-rex",
+      "title": "StarWars.com Databank — Clone Captain Rex",
+      "url": "https://www.starwars.com/databank/clone-captain-rex",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Introductory description and/or explicit television-series appearance. Associated location or vehicle alone is not treated as episode evidence."
+    },
+    {
+      "id": "pilot-ferrix",
+      "title": "StarWars.com Databank — Ferrix",
+      "url": "https://www.starwars.com/databank/ferrix",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Introductory description and/or explicit television-series appearance. Associated location or vehicle alone is not treated as episode evidence."
+    },
+    {
+      "id": "pilot-aldhani",
+      "title": "StarWars.com Databank — Aldhani",
+      "url": "https://www.starwars.com/databank/aldhani",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Introductory description and/or explicit television-series appearance. Associated location or vehicle alone is not treated as episode evidence."
+    },
+    {
+      "id": "pilot-coruscant",
+      "title": "StarWars.com Databank — Coruscant",
+      "url": "https://www.starwars.com/databank/coruscant",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Introductory description and/or explicit television-series appearance. Associated location or vehicle alone is not treated as episode evidence."
+    },
+    {
+      "id": "pilot-kamino",
+      "title": "StarWars.com Databank — Kamino",
+      "url": "https://www.starwars.com/databank/kamino",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Introductory description and/or explicit television-series appearance. Associated location or vehicle alone is not treated as episode evidence."
+    },
+    {
+      "id": "pilot-atte",
+      "title": "StarWars.com Databank — AT-TE Walker",
+      "url": "https://www.starwars.com/databank/at-te-walker",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Introductory description and/or explicit television-series appearance. Associated location or vehicle alone is not treated as episode evidence."
+    },
+    {
+      "id": "pilot-republic-cruiser",
+      "title": "StarWars.com Databank — Republic Attack Cruiser",
+      "url": "https://www.starwars.com/databank/republic-attack-cruiser",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Introductory description and/or explicit television-series appearance. Associated location or vehicle alone is not treated as episode evidence."
+    },
+    {
+      "id": "pilot-wd-Q17738",
+      "title": "Wikidata — Star Wars: Episode IV – A New Hope",
+      "url": "https://www.wikidata.org/w/index.php?title=Q17738&oldid=2560637606",
+      "kind": "open",
+      "checkedAt": "2026-10-26",
+      "license": "CC0-1.0",
+      "reuseBasis": "CC0 structured metadata; selected statements reviewed individually.",
+      "attribution": "Wikidata contributors",
+      "revision": "2560637606",
+      "note": "Pinned revision of selected structured statements. Conflicting or unspecific credits are reviewed individually rather than imported automatically."
+    },
+    {
+      "id": "pilot-wd-Q181795",
+      "title": "Wikidata — Star Wars: Episode V – The Empire Strikes Back",
+      "url": "https://www.wikidata.org/w/index.php?title=Q181795&oldid=2560657672",
+      "kind": "open",
+      "checkedAt": "2026-10-26",
+      "license": "CC0-1.0",
+      "reuseBasis": "CC0 structured metadata; selected statements reviewed individually.",
+      "attribution": "Wikidata contributors",
+      "revision": "2560657672",
+      "note": "Pinned revision of selected structured statements. Conflicting or unspecific credits are reviewed individually rather than imported automatically."
+    },
+    {
+      "id": "pilot-wd-Q60462338",
+      "title": "Wikidata — Andor",
+      "url": "https://www.wikidata.org/w/index.php?title=Q60462338&oldid=2539521041",
+      "kind": "open",
+      "checkedAt": "2026-10-26",
+      "license": "CC0-1.0",
+      "reuseBasis": "CC0 structured metadata; selected statements reviewed individually.",
+      "attribution": "Wikidata contributors",
+      "revision": "2539521041",
+      "note": "Pinned revision of selected structured statements. Conflicting or unspecific credits are reviewed individually rather than imported automatically."
+    },
+    {
+      "id": "pilot-wd-Q632672",
+      "title": "Wikidata — Star Wars: The Clone Wars",
+      "url": "https://www.wikidata.org/w/index.php?title=Q632672&oldid=2558709181",
+      "kind": "open",
+      "checkedAt": "2026-10-26",
+      "license": "CC0-1.0",
+      "reuseBasis": "CC0 structured metadata; selected statements reviewed individually.",
+      "attribution": "Wikidata contributors",
+      "revision": "2558709181",
+      "note": "Pinned revision of selected structured statements. Conflicting or unspecific credits are reviewed individually rather than imported automatically."
+    },
+    {
+      "id": "pilot-trilogy",
+      "title": "StarWars.com — Original-trilogy adaptations",
+      "url": "https://www.starwars.com/news/star-wars-adaptation-covers-revealed-presenting-the-new-original-trilogy",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Explicitly identifies the three original films through their adaptations."
+    },
+    {
+      "id": "pilot-live-films",
+      "title": "StarWars.com — Theatrical viewing-order discussion",
+      "url": "https://www.starwars.com/news/from-a-certain-point-of-view-what-is-the-best-star-wars-viewing-order",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Used only for its explicit live-action theatrical-film scope and named films, not its subjective viewing-order recommendation."
+    },
+    {
+      "id": "pilot-andor-format",
+      "title": "StarWars.com — Cassian Andor live-action series announcement",
+      "url": "https://www.starwars.com/news/cassian-andor-live-action-series-announced",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Editorial fact checking and source linking; no source prose, images or video redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Confirms the live-action format; its old production forecast is not used as a release date."
+    }
+  ],
+  "records": [
+    {
+      "id": "films:1",
+      "primary": true,
+      "summary": {
+        "text": "Luke’s life on Tatooine is interrupted by a message carried by two droids. His encounter with Obi-Wan draws him into the rebellion and a mission to rescue Leia.",
+        "evidence": [
+          {
+            "sourceId": "pilot-hope-film",
+            "locator": "Film introduction and synopsis",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Production credits / Directors",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q17738",
+              "locator": "P57 / director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Production credits / Writer",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q17738",
+              "locator": "P58 / screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Gary Kurtz",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Production credits / Producers / Prod",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Production credits / Producers / Exec prod",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "1977-05-25",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Film heading / release date",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q17738",
+              "locator": "P577 / 25 May 1977 / P291 United States",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US theatrical release",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Release date and US distribution details",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Scrolling prologue",
+          "evidence": [
+            {
+              "sourceId": "pilot-hope-opening",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_video_url",
+          "value": "https://www.starwars.com/video/star-wars-episode-iv-a-new-hope-opening-crawl",
+          "evidence": [
+            {
+              "sourceId": "pilot-hope-opening",
+              "locator": "Official video page",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_version_note",
+          "value": "The 1977 opening has no episode number or A New Hope subtitle. These were added in the 1981 re-release.",
+          "evidence": [
+            {
+              "sourceId": "pilot-hope-opening",
+              "locator": "Video-page historical note",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episode_id",
+          "value": "4",
+          "evidence": [
+            {
+              "sourceId": "pilot-hope-film",
+              "locator": "Official film heading / episode number",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Original trilogy",
+          "evidence": [
+            {
+              "sourceId": "pilot-trilogy",
+              "locator": "Introduction / original-trilogy titles",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "pilot-live-films",
+              "locator": "Release-order section / live-action theatrical scope",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "George Lucas",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed production credits / Screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gary Kurtz",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed production credits / Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed production credits / Executive producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gilbert Taylor",
+          "role": "Cinematographer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed production credits / Cinematographer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Paul Hirsch",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Marcia Lucas",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Richard Chew",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed production credits / Composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Mark Hamill",
+          "role": "Performer",
+          "characterName": "Luke Skywalker",
+          "characterRecordId": "people:1",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / Mark Hamill",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Harrison Ford",
+          "role": "Performer",
+          "characterName": "Han Solo",
+          "characterRecordId": "people:14",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / Harrison Ford",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Fisher",
+          "role": "Performer",
+          "characterName": "Leia Organa",
+          "characterRecordId": "people:5",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / Carrie Fisher",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Peter Cushing",
+          "role": "Performer",
+          "characterName": "Grand Moff Tarkin",
+          "characterRecordId": "people:12",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / Peter Cushing",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Alec Guinness",
+          "role": "Performer",
+          "characterName": "Obi-Wan Kenobi",
+          "characterRecordId": "people:10",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / Alec Guinness",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Anthony Daniels",
+          "role": "Performer",
+          "characterName": "C-3PO",
+          "characterRecordId": "people:2",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / Anthony Daniels",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kenny Baker",
+          "role": "Performer",
+          "characterName": "R2-D2",
+          "characterRecordId": "people:3",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / Kenny Baker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Peter Mayhew",
+          "role": "Performer",
+          "characterName": "Chewbacca",
+          "characterRecordId": "people:13",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / Peter Mayhew",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David Prowse",
+          "role": "Performer",
+          "characterName": "Darth Vader",
+          "characterRecordId": "people:4",
+          "scope": "Original English-language film",
+          "note": "On-screen performance; voice credited separately.",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / David Prowse",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "James Earl Jones",
+          "role": "Voice performer",
+          "characterName": "Darth Vader",
+          "characterRecordId": "people:4",
+          "scope": "Original English-language film",
+          "note": "Voice performance; separate from the on-screen performer.",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / James Earl Jones",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:14",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:5",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:12",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:2",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:3",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:13",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:4",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-hope",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-hope-film",
+              "locator": "Synopsis / Tatooine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:2",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-hope-film",
+              "locator": "Databank / Alderaan",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production details, performers and universe connections.",
+        "limitations": [
+          "Selected credits and connections, not a complete filmography or appearance index.",
+          "Unreviewed imported connections remain marked separately."
+        ]
+      }
+    },
+    {
+      "id": "films:2",
+      "primary": true,
+      "summary": {
+        "text": "The rebels are scattered as the Empire closes in. Luke seeks Yoda’s guidance on Dagobah while Han and Leia try to escape pursuit, bringing their paths towards a confrontation on Bespin.",
+        "evidence": [
+          {
+            "sourceId": "pilot-empire-film",
+            "locator": "Film synopsis",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "Irvin Kershner",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed credits / Directors / Dir",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q181795",
+              "locator": "P57 / director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "Leigh Brackett; Lawrence Kasdan",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed credits / Writers / Scr",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "story",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed credits / Writers / Story",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Gary Kurtz",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed credits / Producers / Prod",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed credits / Producers / Exec prod",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "1980-05-21",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Film heading / release date",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q181795",
+              "locator": "P577 / 21 May 1980 / P291 United States",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US theatrical release; earlier screening dates are separate events",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Film release date",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q181795",
+              "locator": "P577 / 17 May 1980 qualified as Washington, DC; 21 May qualified as US and UK",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Scrolling prologue",
+          "evidence": [
+            {
+              "sourceId": "pilot-empire-opening",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_video_url",
+          "value": "https://www.starwars.com/video/star-wars-episode-v-the-empire-strikes-back-opening-crawl",
+          "evidence": [
+            {
+              "sourceId": "pilot-empire-opening",
+              "locator": "Official video page",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episode_id",
+          "value": "5",
+          "evidence": [
+            {
+              "sourceId": "pilot-empire-film",
+              "locator": "Official film heading / episode number",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Original trilogy",
+          "evidence": [
+            {
+              "sourceId": "pilot-trilogy",
+              "locator": "Introduction / original-trilogy titles",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "pilot-live-films",
+              "locator": "Release-order section / live-action theatrical scope",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Irvin Kershner",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Leigh Brackett",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed production credits / Screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lawrence Kasdan",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed production credits / Screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Story",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed production credits / Story",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gary Kurtz",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed production credits / Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed production credits / Executive producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Peter Suschitzky",
+          "role": "Cinematographer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed production credits / Cinematographer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Paul Hirsch",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed production credits / Composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Mark Hamill",
+          "role": "Performer",
+          "characterName": "Luke Skywalker",
+          "characterRecordId": "people:1",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / Mark Hamill",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Harrison Ford",
+          "role": "Performer",
+          "characterName": "Han Solo",
+          "characterRecordId": "people:14",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / Harrison Ford",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Fisher",
+          "role": "Performer",
+          "characterName": "Leia Organa",
+          "characterRecordId": "people:5",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / Carrie Fisher",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Billy Dee Williams",
+          "role": "Performer",
+          "characterName": "Lando Calrissian",
+          "characterRecordId": "people:25",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / Billy Dee Williams",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Anthony Daniels",
+          "role": "Performer",
+          "characterName": "C-3PO",
+          "characterRecordId": "people:2",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / Anthony Daniels",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David Prowse",
+          "role": "Performer",
+          "characterName": "Darth Vader",
+          "characterRecordId": "people:4",
+          "scope": "Original English-language film",
+          "note": "On-screen performance; voice credited separately.",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / David Prowse",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "James Earl Jones",
+          "role": "Voice performer",
+          "characterName": "Darth Vader",
+          "characterRecordId": "people:4",
+          "scope": "Original English-language film",
+          "note": "Voice performance; separate from the on-screen performer.",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / James Earl Jones",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Peter Mayhew",
+          "role": "Performer",
+          "characterName": "Chewbacca",
+          "characterRecordId": "people:13",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / Peter Mayhew",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kenny Baker",
+          "role": "Performer",
+          "characterName": "R2-D2",
+          "characterRecordId": "people:3",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / Kenny Baker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Frank Oz",
+          "role": "Performer",
+          "characterName": "Yoda",
+          "characterRecordId": "people:20",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / Frank Oz",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Alec Guinness",
+          "role": "Performer",
+          "characterName": "Obi-Wan Kenobi",
+          "characterRecordId": "people:10",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / Alec Guinness",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:14",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:5",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:25",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:2",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:4",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:13",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:3",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:20",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-afi-empire",
+              "locator": "Detailed cast / corresponding character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:4",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-empire-film",
+              "locator": "Synopsis / Hoth",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:5",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-empire-film",
+              "locator": "Synopsis / Dagobah",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:6",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-empire-film",
+              "locator": "Synopsis / Bespin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:18",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-empire-film",
+              "locator": "Databank / AT-AT Walker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:19",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-empire-film",
+              "locator": "Databank / AT-ST Walker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:21",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-empire-film",
+              "locator": "Databank / Boba Fett’s starship",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production details, performers and universe connections.",
+        "limitations": [
+          "Selected credits and connections, not a complete filmography or appearance index.",
+          "Unreviewed imported connections remain marked separately."
+        ]
+      }
+    },
+    {
+      "id": "series:andor",
+      "primary": true,
+      "summary": {
+        "text": "Cassian’s search for a way out of Imperial control becomes a commitment to rebellion. The series follows the people building resistance and the institutions trying to stop them before Rogue One.",
+        "evidence": [
+          {
+            "sourceId": "pilot-andor-production",
+            "locator": "Production introduction and story",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "creator",
+          "value": "Tony Gilroy",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-production",
+              "locator": "Creator and production introduction",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q60462338",
+              "locator": "P170 / creator",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2022-09-21",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-arc1",
+              "locator": "First arc / premiere date",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q60462338",
+              "locator": "P580 / start time",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "Series premiere; not the season 2 launch",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-arc1",
+              "locator": "First arc / premiere date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "2",
+          "evidence": [
+            {
+              "sourceId": "pilot-wd-Q60462338",
+              "locator": "P2437 / number of seasons",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "Two-season plan; corroborated by completed-series structured data",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episodes",
+          "value": "24",
+          "evidence": [
+            {
+              "sourceId": "pilot-wd-Q60462338",
+              "locator": "P1113 / number of episodes",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "24-episode plan; corroborated by completed-series structured data",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2022–2025",
+          "evidence": [
+            {
+              "sourceId": "pilot-wd-Q60462338",
+              "locator": "P580 / start time and P582 / end time",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action series",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-format",
+              "locator": "Title and introduction / live-action series",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Tony Gilroy",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-production",
+              "locator": "Creator",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tony Gilroy",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Production introduction; season-specific lists may differ",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-production",
+              "locator": "Production introduction / executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tony Gilroy",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 1–3",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-arc1",
+              "locator": "First arc credits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Toby Haynes",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 1–3",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-arc1",
+              "locator": "First arc credits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dan Gilroy",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 4–6",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-arc2",
+              "locator": "Second arc credits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Susanna White",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 4–6",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-arc2",
+              "locator": "Second arc credits; article spells the name Susannah",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Stephen Schiff",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 7",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-arc2",
+              "locator": "Announcement credits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Benjamin Caron",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 7",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-arc2",
+              "locator": "Announcement credits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Nicholas Britell",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 and contributions to season 2",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-music",
+              "locator": "Music credits / Britell and Roberts",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Brandon Roberts",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-music",
+              "locator": "Music credits / Britell and Roberts",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tony Gilroy",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, episodes 1–3",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-season2",
+              "locator": "Season 2 credit blocks",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Beau Willimon",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, episodes 4–6",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-season2",
+              "locator": "Season 2 credit blocks",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dan Gilroy",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, episodes 7–9",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-season2",
+              "locator": "Season 2 credit blocks",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tom Bissell",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, episodes 10–12",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-season2",
+              "locator": "Season 2 credit blocks",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ariel Kleiman",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, episodes 1–6",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-season2",
+              "locator": "Season 2 credit blocks",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Janus Metz",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, episodes 7–9",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-season2",
+              "locator": "Season 2 credit blocks",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Alonso Ruizpalacios",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 2, episodes 10–12",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-season2",
+              "locator": "Season 2 credit blocks",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Diego Luna",
+          "role": "Performer",
+          "characterName": "Cassian Andor",
+          "characterRecordId": "people:cassian-andor",
+          "scope": "Selected series cast; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Genevieve O’Reilly",
+          "role": "Performer",
+          "characterName": "Mon Mothma",
+          "characterRecordId": "people:28",
+          "scope": "Selected series cast; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Stellan Skarsgård",
+          "role": "Performer",
+          "characterName": "Luthen Rael",
+          "characterRecordId": "people:luthen-rael",
+          "scope": "Selected series cast; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Fiona Shaw",
+          "role": "Performer",
+          "characterName": "Maarva Andor",
+          "characterRecordId": null,
+          "scope": "Selected series cast; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Adria Arjona",
+          "role": "Performer",
+          "characterName": "Bix Caleen",
+          "characterRecordId": null,
+          "scope": "Selected series cast; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Denise Gough",
+          "role": "Performer",
+          "characterName": "Dedra Meero",
+          "characterRecordId": null,
+          "scope": "Selected series cast; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kyle Soller",
+          "role": "Performer",
+          "characterName": "Syril Karn",
+          "characterRecordId": null,
+          "scope": "Selected series cast; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Forest Whitaker",
+          "role": "Performer",
+          "characterName": "Saw Gerrera",
+          "characterRecordId": null,
+          "scope": "Selected series cast; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:cassian-andor",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-cassian",
+              "locator": "Appearances / Andor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:luthen-rael",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-luthen",
+              "locator": "Appearances / Andor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:28",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-launch",
+              "locator": "Cast introduction / Mon Mothma",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:ferrix",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-ferrix",
+              "locator": "Appearances / Andor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:aldhani",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-aldhani",
+              "locator": "Appearances / Andor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:9",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-coruscant",
+              "locator": "Appearances / Andor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:fondor-haulcraft",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-luthen",
+              "locator": "Introduction / modified Fondor haulcraft",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:rogue-one",
+          "relation": "story_connection",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-andor-production",
+              "locator": "Production introduction / prequel relationship",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production details, performers and universe connections.",
+        "limitations": [
+          "Selected cast and scoped production credits; not every contributor is listed.",
+          "Episode records and a complete appearance index are a later review stage.",
+          "Series totals refer to released seasons as checked on 26 October 2026."
+        ]
+      }
+    },
+    {
+      "id": "series:clone-wars-series",
+      "primary": true,
+      "summary": {
+        "text": "Anakin, Obi-Wan and Ahsoka fight alongside the Republic’s clone army. Their campaigns reveal how the war changes soldiers, civilians and the Jedi as the Republic moves towards its fall.",
+        "evidence": [
+          {
+            "sourceId": "pilot-clone-production",
+            "locator": "Production introduction and story",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "creator",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "Creator",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q632672",
+              "locator": "P170 / creator",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "supervising_director",
+          "value": "Dave Filoni",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "Production introduction",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-clone-final",
+              "locator": "Final-season production credits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2008-10-03",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-cast",
+              "locator": "Ashley Eckstein interview / film debut versus television premiere",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q632672",
+              "locator": "P580 / start time",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US television series premiere; excludes the August 2008 film",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-cast",
+              "locator": "Interview / separate film and television dates",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2008–2020",
+          "evidence": [
+            {
+              "sourceId": "pilot-wd-Q632672",
+              "locator": "P580 / start time and P582 / end time",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "7",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-count",
+              "locator": "Introduction / seven seasons",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q632672",
+              "locator": "P2437 / number of seasons",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episodes",
+          "value": "133",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-count",
+              "locator": "Introduction / 133 episodes",
+              "note": ""
+            },
+            {
+              "sourceId": "pilot-wd-Q632672",
+              "locator": "P1113 / number of episodes",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Animated series",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "Production introduction / television animation",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "George Lucas",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "Creator",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "Production introduction",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Supervising director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "Production introduction",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Final season",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-final",
+              "locator": "Final-season production credits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kevin Kiner",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-panel",
+              "locator": "Panel participants / composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Matt Michnovetz",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 4, Umbara arc; selected writing credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-writers",
+              "locator": "The Writer’s Room / Umbara arc",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Matt Lanter",
+          "role": "Voice performer",
+          "characterName": "Anakin Skywalker",
+          "characterRecordId": "people:11",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-cast",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ashley Eckstein",
+          "role": "Voice performer",
+          "characterName": "Ahsoka Tano",
+          "characterRecordId": "people:ahsoka-tano",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-cast",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "James Arnold Taylor",
+          "role": "Voice performer",
+          "characterName": "Obi-Wan Kenobi",
+          "characterRecordId": "people:10",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-cast",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dee Bradley Baker",
+          "role": "Voice performer",
+          "characterName": "Captain Rex",
+          "characterRecordId": "people:captain-rex",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-cast",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Catherine Taber",
+          "role": "Voice performer",
+          "characterName": "Padmé Amidala",
+          "characterRecordId": "people:35",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-cast",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Sam Witwer",
+          "role": "Voice performer",
+          "characterName": "Maul",
+          "characterRecordId": "people:44",
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-final",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Katee Sackhoff",
+          "role": "Voice performer",
+          "characterName": "Bo-Katan Kryze",
+          "characterRecordId": null,
+          "scope": "Original English-language series; appearances vary by episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-final",
+              "locator": "Cast introduction / corresponding performer and character",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:11",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "The Story / Anakin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "The Story / Obi-Wan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:20",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "The Story / Yoda",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ahsoka-tano",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-ahsoka",
+              "locator": "Appearances / The Clone Wars",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:captain-rex",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-rex",
+              "locator": "Appearances / The Clone Wars",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:35",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-cast",
+              "locator": "Cast introduction / Padmé",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:67",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "The Story / Count Dooku",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:79",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-clone-production",
+              "locator": "The Story / General Grievous",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:9",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-coruscant",
+              "locator": "Appearances / The Clone Wars",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-kamino",
+              "locator": "Appearances / The Clone Wars",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:63",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-republic-cruiser",
+              "locator": "Appearances / The Clone Wars",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:53",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "pilot-atte",
+              "locator": "Appearances / The Clone Wars",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production details, performers and universe connections.",
+        "limitations": [
+          "This record covers the 2008–2020 television series, not the 2008 film or 2003 micro-series.",
+          "Selected English voice cast and production roles only. Writers are scoped to the cited work.",
+          "Episode-level credits, broadcast order and a complete appearance index remain to be reviewed."
+        ]
+      }
+    },
+    {
+      "id": "people:cassian-andor",
+      "primary": false,
+      "summary": {
+        "text": "An operative whose path into the rebellion connects the events of Andor and Rogue One.",
+        "evidence": [
+          {
+            "sourceId": "pilot-cassian",
+            "locator": "Introduction",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile and selected connections only.",
+        "limitations": [
+          "New supporting profile for the pilot. Technical and biographical attributes remain unfilled until separately checked."
+        ]
+      },
+      "newRecord": {
+        "category": "people",
+        "slug": "cassian-andor",
+        "title": "Cassian Andor",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "id": "people:luthen-rael",
+      "primary": false,
+      "summary": {
+        "text": "A secret organiser who uses an antiquities business as cover for his work against the Empire.",
+        "evidence": [
+          {
+            "sourceId": "pilot-luthen",
+            "locator": "Introduction",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile and selected connections only.",
+        "limitations": [
+          "New supporting profile for the pilot. Technical and biographical attributes remain unfilled until separately checked."
+        ]
+      },
+      "newRecord": {
+        "category": "people",
+        "slug": "luthen-rael",
+        "title": "Luthen Rael",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "id": "people:ahsoka-tano",
+      "primary": false,
+      "summary": {
+        "text": "Anakin’s former apprentice, whose choices during the Clone Wars lead her beyond the Jedi Order.",
+        "evidence": [
+          {
+            "sourceId": "pilot-ahsoka",
+            "locator": "Introduction",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile and selected connections only.",
+        "limitations": [
+          "New supporting profile for the pilot. Technical and biographical attributes remain unfilled until separately checked."
+        ]
+      },
+      "newRecord": {
+        "category": "people",
+        "slug": "ahsoka-tano",
+        "title": "Ahsoka Tano",
+        "year": null,
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "id": "people:captain-rex",
+      "primary": false,
+      "summary": {
+        "text": "A clone officer who serves with Anakin and Ahsoka during the Clone Wars.",
+        "evidence": [
+          {
+            "sourceId": "pilot-rex",
+            "locator": "Introduction",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile and selected connections only.",
+        "limitations": [
+          "New supporting profile for the pilot. Technical and biographical attributes remain unfilled until separately checked."
+        ]
+      },
+      "newRecord": {
+        "category": "people",
+        "slug": "captain-rex",
+        "title": "Captain Rex",
+        "year": null,
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "id": "planets:ferrix",
+      "primary": false,
+      "summary": {
+        "text": "A salvage-trade world whose workers and families form a close community under Imperial pressure.",
+        "evidence": [
+          {
+            "sourceId": "pilot-ferrix",
+            "locator": "Introduction",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile and selected connections only.",
+        "limitations": [
+          "New supporting profile for the pilot. Technical and biographical attributes remain unfilled until separately checked."
+        ]
+      },
+      "newRecord": {
+        "category": "planets",
+        "slug": "ferrix",
+        "title": "Ferrix",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "id": "planets:aldhani",
+      "primary": false,
+      "summary": {
+        "text": "An occupied world where Imperial military priorities collide with local traditions.",
+        "evidence": [
+          {
+            "sourceId": "pilot-aldhani",
+            "locator": "Introduction",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile and selected connections only.",
+        "limitations": [
+          "New supporting profile for the pilot. Technical and biographical attributes remain unfilled until separately checked."
+        ]
+      },
+      "newRecord": {
+        "category": "planets",
+        "slug": "aldhani",
+        "title": "Aldhani",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "id": "starships:fondor-haulcraft",
+      "primary": false,
+      "summary": {
+        "text": "The modified haulcraft used by Luthen Rael in his covert work.",
+        "evidence": [
+          {
+            "sourceId": "pilot-luthen",
+            "locator": "Introduction / modified Fondor haulcraft",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile and selected connections only.",
+        "limitations": [
+          "New supporting profile for the pilot. Technical and biographical attributes remain unfilled until separately checked."
+        ]
+      },
+      "newRecord": {
+        "category": "starships",
+        "slug": "fondor-haulcraft",
+        "title": "Luthen’s Fondor haulcraft",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      }
+    }
+  ],
+  "issues": [
+    {
+      "recordId": "films:1",
+      "field": "runtime",
+      "status": "pending",
+      "note": "AFI lists several durations; no runtime is published until a specific release version is established."
+    },
+    {
+      "recordId": "films:1",
+      "field": "producer",
+      "status": "resolved",
+      "note": "Original-production producer is Gary Kurtz. Prior combined legacy value remains in the immutable snapshot and change log; later-edition credits are outside this field."
+    },
+    {
+      "recordId": "films:2",
+      "field": "release_date",
+      "status": "resolved",
+      "note": "US theatrical release is 21 May 1980. The former 17 May value is preserved in the change log; Wikidata qualifies it as a Washington, DC event, not the same release event."
+    },
+    {
+      "recordId": "films:2",
+      "field": "screenplay",
+      "status": "resolved",
+      "note": "Screenplay credits and story credit are separate; second-unit directors are not presented as co-directors."
+    },
+    {
+      "recordId": "series:andor",
+      "field": "episode_credits",
+      "status": "pending",
+      "note": "Selected episode blocks are cited; complete season 1 credits and episode records remain outside this pilot."
+    },
+    {
+      "recordId": "series:clone-wars-series",
+      "field": "episode_credits",
+      "status": "pending",
+      "note": "Full episode credits and broadcast-versus-chronological ordering remain for the episode review stage."
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "version": 1,
+  "id": "films-03-editions",
+  "checkedAt": "2026-10-27",
+  "sources": [],
+  "editions": [
+    {
+      "id": "films:rogue-one:theatrical-2016",
+      "recordId": "films:rogue-one",
+      "label": "Original theatrical version",
+      "year": 2016,
+      "kind": "original",
+      "summary": "Released in 2D and stereoscopic 3D, including IMAX 3D. The initial exhibition formats do not by themselves establish a different narrative edit.",
+      "scopeNote": "Selected original-production credits only. This entry does not claim that every format, language or later streaming master is identical. No separately released extended narrative cut was established in the reviewed sources as of 27 October 2026.",
+      "evidence": [
+        {
+          "sourceId": "film03-rogue-d23",
+          "locator": "Original film release and exhibition formats",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:rogue-one:us-opening",
+          "date": "2016-12-16",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "original",
+          "status": "released",
+          "label": "Original US theatrical release",
+          "note": "US commercial opening; not a premiere gala, Finnish opening or worldwide earliest release.",
+          "evidence": [
+            {
+              "sourceId": "film03-rogue-d23",
+              "locator": "Release date / US opening",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:last-jedi:theatrical-2017",
+      "recordId": "films:last-jedi",
+      "label": "Original theatrical version",
+      "year": 2017,
+      "kind": "original",
+      "summary": "Original feature released in 2D, 3D and IMAX. A later music-only audio presentation is recorded separately.",
+      "scopeNote": "Selected original-production credits only. This entry does not claim that every format, language or later streaming master is identical. No separately released extended narrative cut was established in the reviewed sources as of 27 October 2026.",
+      "evidence": [
+        {
+          "sourceId": "film03-last-d23",
+          "locator": "Original film release and exhibition formats",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:last-jedi:us-opening",
+          "date": "2017-12-15",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "original",
+          "status": "released",
+          "label": "Original US theatrical release",
+          "note": "US commercial opening; not a premiere gala, Finnish opening or worldwide earliest release.",
+          "evidence": [
+            {
+              "sourceId": "film03-last-d23",
+              "locator": "Release date / US opening",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:solo:theatrical-2018",
+      "recordId": "films:solo",
+      "label": "Original theatrical version",
+      "year": 2018,
+      "kind": "original",
+      "summary": "Original feature released in 2D, 3D and IMAX. Deleted and extended bonus scenes are not an extended feature version.",
+      "scopeNote": "Selected original-production credits only. This entry does not claim that every format, language or later streaming master is identical. No separately released extended narrative cut was established in the reviewed sources as of 27 October 2026.",
+      "evidence": [
+        {
+          "sourceId": "film03-solo-d23",
+          "locator": "Original film release and exhibition formats",
+          "note": ""
+        },
+        {
+          "sourceId": "film03-solo-bonus",
+          "locator": "Official feature and separate bonus-content list / no extended feature announced",
+          "note": "Deleted or extended scenes and documentary extras are not a released alternate feature cut."
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:solo:us-opening",
+          "date": "2018-05-25",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "original",
+          "status": "released",
+          "label": "Original US theatrical release",
+          "note": "US commercial opening; not a premiere gala, Finnish opening or worldwide earliest release.",
+          "evidence": [
+            {
+              "sourceId": "film03-solo-d23",
+              "locator": "Release date / US opening",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:rise-skywalker:theatrical-2019",
+      "recordId": "films:rise-skywalker",
+      "label": "Original theatrical version",
+      "year": 2019,
+      "kind": "original",
+      "summary": "Original feature released in 2D, 3D, IMAX and IMAX 3D. The reviewed official feature and bonus listings do not establish a published extended story cut.",
+      "scopeNote": "Selected original-production credits only. This entry does not claim that every format, language or later streaming master is identical. No separately released extended narrative cut was established in the reviewed sources as of 27 October 2026.",
+      "evidence": [
+        {
+          "sourceId": "film03-rise-d23",
+          "locator": "Original film release and exhibition formats",
+          "note": ""
+        },
+        {
+          "sourceId": "film03-rise-bonus",
+          "locator": "Official feature and separate bonus-content list / no extended feature announced",
+          "note": "Deleted or extended scenes and documentary extras are not a released alternate feature cut."
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:rise-skywalker:us-opening",
+          "date": "2019-12-20",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "original",
+          "status": "released",
+          "label": "Original US theatrical release",
+          "note": "US commercial opening; not a premiere gala, Finnish opening or worldwide earliest release.",
+          "evidence": [
+            {
+              "sourceId": "film03-rise-d23",
+              "locator": "Release date / US opening",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:mandalorian-grogu:theatrical-2026",
+      "recordId": "films:mandalorian-grogu",
+      "label": "Original theatrical version",
+      "year": 2026,
+      "kind": "original",
+      "summary": "Original theatrical production, filmed for IMAX. The later IMAX Enhanced streaming presentation has separately confirmed expanded framing.",
+      "scopeNote": "Selected original-production credits only. This entry does not claim that every format, language or later streaming master is identical. No separately released extended narrative cut was established in the reviewed sources as of 27 October 2026.",
+      "evidence": [
+        {
+          "sourceId": "film03-mando-film",
+          "locator": "Original film release and exhibition formats",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:mandalorian-grogu:us-opening",
+          "date": "2026-05-22",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "original",
+          "status": "released",
+          "label": "Original US theatrical release",
+          "note": "US commercial opening; not a premiere gala, Finnish opening or worldwide earliest release.",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-film",
+              "locator": "Release date / US opening",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:last-jedi:score-only-2018",
+      "recordId": "films:last-jedi",
+      "label": "Score-only audio presentation",
+      "year": 2018,
+      "kind": "revision",
+      "summary": "The feature is presented with John Williams’s music instead of the usual dialogue and sound-effects mix. This is an audio presentation, not a longer narrative cut.",
+      "scopeNote": "Official featurette confirms the historical Movies Anywhere version. The 2018 year is corroborated by the December 2019 report’s reference to its release the previous year. No digital-purchase date is stored. The dated event below records US Disney+ extra availability, not the version’s first-ever publication; current availability has not been audited.",
+      "evidence": [
+        {
+          "sourceId": "film03-last-score-only",
+          "locator": "Score-only version description / Movies Anywhere",
+          "note": ""
+        },
+        {
+          "sourceId": "film03-last-score-streaming",
+          "locator": "Background / digital release the previous year, Movies Anywhere availability",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:last-jedi:score-only-disney-2019",
+          "date": "2019-12-26",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Streaming",
+          "eventType": "platform_launch",
+          "status": "released",
+          "label": "Disney+ score-only extra available",
+          "note": "Contemporary report of a separate extra available with the US film launch. Does not establish current availability or a new story edit.",
+          "evidence": [
+            {
+              "sourceId": "film03-last-score-streaming",
+              "locator": "26 December 2019 / Disney+ Extras score-only feature",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:mandalorian-grogu:imax-enhanced-2026",
+      "recordId": "films:mandalorian-grogu",
+      "label": "IMAX Enhanced streaming presentation",
+      "year": 2026,
+      "kind": "revision",
+      "summary": "Disney+ offers an expanded-aspect-ratio presentation. IMAX Enhanced sound powered by DTS is available on compatible equipment. This confirms a picture/audio presentation, not an extended narrative edit.",
+      "scopeNote": "US Disney+ event. The source does not establish the same sound support in every territory, language or device. Original production credits are not recast as conversion-team credits.",
+      "evidence": [
+        {
+          "sourceId": "film03-mando-imax-stream",
+          "locator": "IMAX Enhanced / expanded aspect ratio and compatible sound",
+          "note": ""
+        },
+        {
+          "sourceId": "film03-mando-bonus",
+          "locator": "September 2 update / film now streaming on Disney+",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:mandalorian-grogu:imax-disney-2026",
+          "date": "2026-09-02",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Streaming",
+          "eventType": "platform_launch",
+          "status": "released",
+          "label": "Disney+ IMAX Enhanced premiere",
+          "note": "Confirmed film presentation; not the separately premiered official podcast or LEGO special. Hardware and regional audio support vary.",
+          "evidence": [
+            {
+              "sourceId": "film03-mando-imax-stream",
+              "locator": "Film streaming launch / 2 September 2026",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "id": "films:rogue-one:imax-return-2022",
+      "date": "2022-08-26",
+      "dateEnd": null,
+      "territory": "US / Canada",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "label": "IMAX return with Andor preview",
+      "note": "A one-week return in 150 IMAX cinemas, with DMR presentation and separate Andor footage. Neither extra footage nor DMR proves an extended Rogue One story cut.",
+      "evidence": [
+        {
+          "sourceId": "film03-rogue-imax-2022",
+          "locator": "Rogue One IMAX section / 26 August, 150 cinemas, DMR",
+          "note": ""
+        }
+      ],
+      "recordId": "films:rogue-one",
+      "editionId": null
+    },
+    {
+      "id": "films:rogue-one:disney-us-2019",
+      "date": "2019-11-12",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "label": "Disney+ US catalogue launch",
+      "note": "Film availability at the US service launch. The supplied edit/master is not identified; this is not asserted to be the first streaming release.",
+      "evidence": [
+        {
+          "sourceId": "film02-disney-investor",
+          "locator": "Investor Day 2019 transcript / page 40 / Rogue One",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-disney-launch",
+          "locator": "12 November 2019 / US service launch",
+          "note": ""
+        }
+      ],
+      "recordId": "films:rogue-one",
+      "editionId": null
+    },
+    {
+      "id": "films:last-jedi:disney-us-2019",
+      "date": "2019-12-26",
+      "dateEnd": null,
+      "territory": "US / Canada",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "label": "Disney+ catalogue arrival",
+      "note": "Contemporary catalogue observation, corroborated by separate reporting. Main-film master unidentified; the score-only extra is a separate presentation.",
+      "evidence": [
+        {
+          "sourceId": "film03-last-disney-observation",
+          "locator": "26 December 2019 / US and Canada arrival",
+          "note": ""
+        },
+        {
+          "sourceId": "film03-last-score-streaming",
+          "locator": "Film arrival on Disney+ / 26 December",
+          "note": ""
+        }
+      ],
+      "recordId": "films:last-jedi",
+      "editionId": null
+    },
+    {
+      "id": "films:solo:disney-us-2020",
+      "date": "2020-07-10",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "label": "Disney+ catalogue arrival",
+      "note": "Official release-day confirmation. Availability does not identify the supplied film master or the first-ever streaming release.",
+      "evidence": [
+        {
+          "sourceId": "film03-solo-streaming",
+          "locator": "10 July 2020 / now streaming",
+          "note": ""
+        }
+      ],
+      "recordId": "films:solo",
+      "editionId": null
+    },
+    {
+      "id": "films:rise-skywalker:disney-us-2020",
+      "date": "2020-05-04",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "label": "Disney+ catalogue arrival",
+      "note": "Provider-specific film availability, supplied master unidentified. The Netherlands date is an explicit exception to the May 4 launch.",
+      "evidence": [
+        {
+          "sourceId": "film03-rise-disney-stream",
+          "locator": "Launch announcement / May the 4th",
+          "note": ""
+        }
+      ],
+      "recordId": "films:rise-skywalker",
+      "editionId": null
+    },
+    {
+      "id": "films:rise-skywalker:disney-nl-2020",
+      "date": "2020-05-05",
+      "dateEnd": null,
+      "territory": "Netherlands",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "label": "Disney+ catalogue arrival",
+      "note": "Provider-specific film availability, supplied master unidentified. The Netherlands date is an explicit exception to the May 4 launch.",
+      "evidence": [
+        {
+          "sourceId": "film03-rise-disney-stream",
+          "locator": "Launch announcement / Netherlands exception",
+          "note": ""
+        }
+      ],
+      "recordId": "films:rise-skywalker",
+      "editionId": null
+    },
+    {
+      "id": "films:last-jedi:marathon-2024",
+      "date": "2024-05-04",
+      "dateEnd": null,
+      "territory": "US (participating cinemas)",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "label": "Skywalker Saga Marathon",
+      "note": "Announced marathon date for all nine episodes. Individual title showtimes and supplied masters are not established.",
+      "evidence": [
+        {
+          "sourceId": "film02-marathon-2024",
+          "locator": "4 May 2024 / all nine Skywalker saga films",
+          "note": ""
+        }
+      ],
+      "recordId": "films:last-jedi",
+      "editionId": null
+    },
+    {
+      "id": "films:rise-skywalker:marathon-2024",
+      "date": "2024-05-04",
+      "dateEnd": null,
+      "territory": "US (participating cinemas)",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "label": "Skywalker Saga Marathon",
+      "note": "Announced marathon date for all nine episodes. Individual title showtimes and supplied masters are not established.",
+      "evidence": [
+        {
+          "sourceId": "film02-marathon-2024",
+          "locator": "4 May 2024 / all nine Skywalker saga films",
+          "note": ""
+        }
+      ],
+      "recordId": "films:rise-skywalker",
+      "editionId": null
+    }
+  ],
+  "facts": []
+}

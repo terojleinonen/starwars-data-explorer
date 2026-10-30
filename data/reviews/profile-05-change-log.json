@@ -1,0 +1,1777 @@
+{
+  "batch": "PROFILE-05",
+  "checkedAt": "2026-10-29",
+  "changes": [
+    {
+      "recordId": "people:35",
+      "field": "profile",
+      "before": {
+        "id": "people:35",
+        "category": "people",
+        "legacy_id": "35",
+        "slug": "padme-amidala",
+        "title": "Padmé Amidala",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Padmé serves Naboo first as queen and later as senator. She seeks a peaceful path through the Republic’s crises, while her marriage to Anakin and the birth of their twins tie her story to the Skywalker family.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "height",
+      "before": {
+        "record_id": "people:35",
+        "key": "height",
+        "value": "185",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "165",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Dimensions / Height 1.65 m",
+            "note": "1.65 m = 165 cm; replaces inherited 185 cm with the current nominal character dimension."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Human",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "political_roles",
+      "before": null,
+      "after": {
+        "value": "Queen of Naboo; later Senator of Naboo",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Main profile and prequel history / successive public offices",
+            "note": "Different periods, not two simultaneous offices."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "known_as",
+      "before": null,
+      "after": {
+        "value": "Padmé Naberrie; Amidala as her name in office",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Biography gallery, caption 1 / birth name and adopted name in office",
+            "note": "One person, not two identities or an inferred birth year."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "family_connection",
+      "before": null,
+      "after": {
+        "value": "Married to Anakin Skywalker; mother of Luke and Leia",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Attack of the Clones and Revenge of the Sith history / marriage and twins",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "mass",
+      "before": {
+        "record_id": "people:35",
+        "key": "mass",
+        "value": "45",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:35",
+        "key": "hair_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:35",
+        "key": "skin_color",
+        "value": "light",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:35",
+        "key": "eye_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:35",
+        "key": "birth_year",
+        "value": "46BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "gender",
+      "before": {
+        "record_id": "people:35",
+        "key": "gender",
+        "value": "female",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": {
+        "record_id": "people:35",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Appearances / The Phantom Menace",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": {
+        "record_id": "people:35",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Appearances / Attack of the Clones",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": {
+        "record_id": "people:35",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Appearances / The Clone Wars",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:clone-wars-film",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-clone-press",
+            "locator": "Cast / Catherine Taber as Padmé Amidala",
+            "note": "2008 film role, separate from the series. Studio production notes publicly hosted on a third-party mirror; existing source attribution retained. No new performer credit added."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": {
+        "record_id": "people:35",
+        "target_id": "planets:8",
+        "relation": "homeworld",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "planets:8",
+        "relation": "homeworld",
+        "evidence": [
+          {
+            "sourceId": "profile05-clones-story",
+            "locator": "Story gallery, caption 35 / Padmé’s home planet and Naboo wedding",
+            "note": "Explicit personal home-planet statement; not a birthplace or a review of Naboo’s old numerical fields."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:1",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": {
+        "record_id": "people:35",
+        "target_id": "starships:39",
+        "relation": "starships",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "starships:39",
+        "relation": "starships",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Vehicles / Naboo N-1 Starfighter",
+            "note": "Type-family association; old technical specifications remain pending."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "starships:40",
+        "relation": "starships",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Vehicles / Naboo Royal Starship",
+            "note": "Not the different Royal Cruiser, H-type yacht or star skiff."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:11",
+        "relation": "spouse_of",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Attack of the Clones history / secret marriage to Anakin",
+            "note": "Period-specific marriage; Anakin/Vader are one person, and the second dossier ID is not duplicated here."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:1",
+        "relation": "parent_of",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Revenge of the Sith history / gives birth to Luke",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:35",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:5",
+        "relation": "parent_of",
+        "evidence": [
+          {
+            "sourceId": "profile05-padme",
+            "locator": "Revenge of the Sith history / gives birth to Leia",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "profile",
+      "before": {
+        "id": "people:32",
+        "category": "people",
+        "legacy_id": "32",
+        "slug": "qui-gon-jinn",
+        "title": "Qui-Gon Jinn",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Qui-Gon follows the Living Force even when his judgment differs from the Jedi Council’s. He discovers Anakin on Tatooine and asks his apprentice Obi-Wan to continue the boy’s training; his guidance later reaches beyond death.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "height",
+      "before": {
+        "record_id": "people:32",
+        "key": "height",
+        "value": "193",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "193",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-qui-gon",
+            "locator": "Dimensions / Height 1.93 m",
+            "note": "1.93 m = 193 cm; current nominal profile dimension."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "jedi_rank",
+      "before": null,
+      "after": {
+        "value": "Jedi Master",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-qui-gon",
+            "locator": "Main profile / Jedi Master",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "philosophy",
+      "before": null,
+      "after": {
+        "value": "Student of the Living Force",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-qui-gon",
+            "locator": "Main profile and opening history / Living Force approach",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "mass",
+      "before": {
+        "record_id": "people:32",
+        "key": "mass",
+        "value": "89",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:32",
+        "key": "hair_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:32",
+        "key": "skin_color",
+        "value": "fair",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:32",
+        "key": "eye_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:32",
+        "key": "birth_year",
+        "value": "92BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "gender",
+      "before": {
+        "record_id": "people:32",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "link",
+      "before": {
+        "record_id": "people:32",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-qui-gon",
+            "locator": "Appearances / The Phantom Menace",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:obi-wan",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile05-qui-gon",
+            "locator": "Appearances / Obi-Wan Kenobi",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile05-qui-gon",
+            "locator": "Appearances / The Clone Wars",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:67",
+        "relation": "trained_by",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Attack of the Clones history / Dooku explicitly Qui-Gon’s former Master",
+            "note": "Jedi teaching relationship, before Dooku’s later Sith role."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:10",
+        "relation": "trained",
+        "evidence": [
+          {
+            "sourceId": "profile05-qui-gon",
+            "locator": "The Phantom Menace history / Obi-Wan explicitly his Padawan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:20",
+        "relation": "guided",
+        "evidence": [
+          {
+            "sourceId": "profile05-qui-gon",
+            "locator": "Clone Wars history / post-death guidance to Yoda",
+            "note": "Guidance through the Force, not a living-body reunion or a new episode link."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:32",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:8",
+        "relation": "died_on",
+        "evidence": [
+          {
+            "sourceId": "profile05-qui-gon",
+            "locator": "The Phantom Menace history / struck down during the battle for Naboo",
+            "note": "Named location context only; no exact death date introduced."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "profile",
+      "before": {
+        "id": "people:51",
+        "category": "people",
+        "legacy_id": "51",
+        "slug": "mace-windu",
+        "title": "Mace Windu",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Mace is a Jedi Master who defends the Order’s traditions and leads its forces during the Clone Wars. His growing concern about Palpatine culminates in an attempt to arrest the Chancellor.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "height",
+      "before": {
+        "record_id": "people:51",
+        "key": "height",
+        "value": "188",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "192",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-mace",
+            "locator": "Dimensions / Height 1.92 m",
+            "note": "1.92 m = 192 cm; replaces inherited 188 cm, not a performer measurement."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "jedi_rank",
+      "before": null,
+      "after": {
+        "value": "Jedi Master",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-mace",
+            "locator": "Main profile / Jedi Master",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "weapon",
+      "before": null,
+      "after": {
+        "value": "Amethyst-bladed lightsaber",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-mace",
+            "locator": "Main profile / explicitly amethyst-bladed weapon",
+            "note": "Weapon-blade description, not eye colour or skin metadata."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "mass",
+      "before": {
+        "record_id": "people:51",
+        "key": "mass",
+        "value": "84",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:51",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value is preserved."
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:51",
+        "key": "skin_color",
+        "value": "dark",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:51",
+        "key": "eye_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:51",
+        "key": "birth_year",
+        "value": "72BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "gender",
+      "before": {
+        "record_id": "people:51",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "link",
+      "before": {
+        "record_id": "people:51",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-mace",
+            "locator": "Appearances / The Phantom Menace",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "link",
+      "before": {
+        "record_id": "people:51",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-mace",
+            "locator": "Appearances / Attack of the Clones",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile05-mace",
+            "locator": "Appearances / The Clone Wars",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "link",
+      "before": {
+        "record_id": "people:51",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-mace",
+            "locator": "Revenge of the Sith history / Anakin reveals Sidious, arrest attempt and fall",
+            "note": "The source’s Appearances list omits this film; its named story history supplies separate explicit evidence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:clone-wars-film",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-clone-press",
+            "locator": "Featuring the Voices of / Samuel L. Jackson as Mace Windu",
+            "note": "2008 film role, separate from the television series. Studio production notes on an existing third-party mirror; no new performance credit added."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:9",
+        "relation": "served_on",
+        "evidence": [
+          {
+            "sourceId": "profile05-mace",
+            "locator": "Clone Wars history / much of the war spent on Coruscant directing Jedi",
+            "note": "Service location, not a birthplace or proof of the inherited Haruun Kal homeworld."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:51",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:21",
+        "relation": "confronted",
+        "evidence": [
+          {
+            "sourceId": "profile05-mace",
+            "locator": "Revenge of the Sith history / arrest attempt against Sidious",
+            "note": "One scoped encounter, not a permanent alliance or a new episode connection."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "profile",
+      "before": {
+        "id": "people:67",
+        "category": "people",
+        "legacy_id": "67",
+        "slug": "dooku",
+        "title": "Dooku",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Dooku leaves the Jedi and becomes Darth Tyranus, a disciple of Sidious. As the public leader of the Separatists, he helps drive the Clone Wars while serving his master’s hidden plan.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "height",
+      "before": {
+        "record_id": "people:67",
+        "key": "height",
+        "value": "193",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "193",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Dimensions / Height 1.93 m",
+            "note": "1.93 m = 193 cm; current nominal profile dimension."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "known_as",
+      "before": null,
+      "after": {
+        "value": "Count Dooku and Darth Tyranus — the same person",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Main profile / secret Sith name Darth Tyranus",
+            "note": "The title and Sith name do not create another character or dossier."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Former Jedi; later Sith Lord and Separatist leader",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Main profile / Jedi departure, Sidious apprenticeship and Separatist command",
+            "note": "Successive roles, not simultaneous permanent allegiances."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "mass",
+      "before": {
+        "record_id": "people:67",
+        "key": "mass",
+        "value": "80",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:67",
+        "key": "hair_color",
+        "value": "white",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:67",
+        "key": "skin_color",
+        "value": "fair",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:67",
+        "key": "eye_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:67",
+        "key": "birth_year",
+        "value": "102BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "gender",
+      "before": {
+        "record_id": "people:67",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "link",
+      "before": {
+        "record_id": "people:67",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Appearances / Attack of the Clones",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "link",
+      "before": {
+        "record_id": "people:67",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Appearances / The Clone Wars",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:clone-wars-film",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-film-clone-film",
+            "locator": "Film synopsis / Count Dooku seeks to defeat Anakin and Ahsoka",
+            "note": "The 2008 film is distinct from the television series; no new cast credit created."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "link",
+      "before": {
+        "record_id": "people:67",
+        "target_id": "planets:52",
+        "relation": "homeworld",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "planets:52",
+        "relation": "homeworld",
+        "evidence": [
+          {
+            "sourceId": "profile05-serenno",
+            "locator": "Main profile / explicitly Dooku’s home planet and ancestral lands",
+            "note": "Personal homeworld statement; not an exact birthplace or birth-year calculation."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:20",
+        "relation": "trained_by",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Main profile / trained by Yoda",
+            "note": "Earlier Jedi training, separate from later Sidious apprenticeship."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:32",
+        "relation": "trained",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Attack of the Clones history / Qui-Gon’s former Master",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:21",
+        "relation": "served_under",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Main profile / Sidious’s disciple and hidden plan",
+            "note": "Sith-period service; not permanent allegiance throughout his life."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "starships:58",
+        "relation": "starships",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku",
+            "locator": "Vehicles / Solar Sailer",
+            "note": "Vessel association only; no old numerical specifications verified."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:67",
+      "field": "link",
+      "before": {
+        "record_id": "people:67",
+        "target_id": "vehicles:55",
+        "relation": "vehicles",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "vehicles:55",
+        "relation": "vehicles",
+        "evidence": [
+          {
+            "sourceId": "profile05-dooku-speeder",
+            "locator": "Main profile / Count Dooku’s speeder explicitly also called Flitknot",
+            "note": "Existing vehicle-name match only; no dimensions, speed or all variants checked."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "profile",
+      "before": {
+        "id": "people:44",
+        "category": "people",
+        "legacy_id": "44",
+        "slug": "darth-maul",
+        "title": "Darth Maul",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Maul survives his defeat on Naboo and rebuilds his life around revenge. Once Sidious’s Sith apprentice, he later pursues power through criminal alliances and renewed confrontations with the Jedi.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "height",
+      "before": {
+        "record_id": "people:44",
+        "key": "height",
+        "value": "175",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "184",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Dimensions / Height 1.84 m",
+            "note": "1.84 m = 184 cm; replaces inherited 175 cm as the current nominal profile value. The source does not assign the measurement to a named prosthetic stage or establish that every earlier form was this tall."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Dathomirian Zabrak",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Main profile and Species / Zabrak from Dathomir; Dathomirian and Zabrak labels",
+            "note": "Regional/ancestral labels do not create two people or imply Iridonia as birthplace."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "known_as",
+      "before": null,
+      "after": {
+        "value": "Maul; Darth Maul during his service to Sidious",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul-limbs",
+            "locator": "Maybe He’s Born with It / apprentice-era Darth Maul",
+            "note": "Old Darth Maul title and numeric dossier ID remain; no second identity created."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Former Sith apprentice; later criminal leader",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Main profile and Clone Wars / Crimson Dawn history",
+            "note": "Different life periods; the Sith affiliation is not made permanent."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "body_modifications",
+      "before": null,
+      "after": {
+        "value": "Successive sets of mechanical legs after the Naboo duel",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul-limbs",
+            "locator": "Salvaged Spider Legs and subsequent prosthetic sections",
+            "note": "No exact height, mass or growth calculation inferred for any individual configuration."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "mass",
+      "before": {
+        "record_id": "people:44",
+        "key": "mass",
+        "value": "80",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:44",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value is preserved."
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:44",
+        "key": "skin_color",
+        "value": "red",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:44",
+        "key": "eye_color",
+        "value": "yellow",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:44",
+        "key": "birth_year",
+        "value": "54BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "gender",
+      "before": {
+        "record_id": "people:44",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "link",
+      "before": {
+        "record_id": "people:44",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Appearances / The Phantom Menace",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:solo",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Appearances / Solo",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Appearances / The Clone Wars",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:rebels",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Appearances / Star Wars Rebels",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:maul-shadow-lord",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Appearances / Maul – Shadow Lord",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "link",
+      "before": {
+        "record_id": "people:44",
+        "target_id": "planets:36",
+        "relation": "homeworld",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "planets:36",
+        "relation": "homeworld",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Clone Wars and Crimson Dawn history / explicitly his homeworld of Dathomir",
+            "note": "Not Iridonia; no exact birthplace or 54 BBY asserted."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "link",
+      "before": {
+        "record_id": "people:44",
+        "target_id": "species:22",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:22",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Species / Zabrak, alongside Dathomirian",
+            "note": "Confirms the existing species-family link only; the species record’s homeworld is not transferred to the individual."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "link",
+      "before": {
+        "record_id": "people:44",
+        "target_id": "vehicles:42",
+        "relation": "vehicles",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "vehicles:42",
+        "relation": "vehicles",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Vehicles / Sith Speeder",
+            "note": "Named type association only; no inherited specifications verified."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:44",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:21",
+        "relation": "trained_by",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "Main profile and Phantom Menace history / former master Sidious",
+            "note": "Former Sith apprenticeship, not permanent service in every later story."
+          }
+        ]
+      }
+    }
+  ]
+}

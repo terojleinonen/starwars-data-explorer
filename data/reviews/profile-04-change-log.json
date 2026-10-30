@@ -1,0 +1,2269 @@
+{
+  "batch": "PROFILE-04",
+  "checkedAt": "2026-10-28",
+  "changes": [
+    {
+      "sourceId": "vader-identity",
+      "field": "source_description",
+      "before": {
+        "note": "Supports Anakin Skywalker and Darth Vader as the same person. The two legacy profiles are retained, not counted as independently verified unique people."
+      },
+      "after": {
+        "note": "Originally registered for the Anakin/Vader identity reference. PROFILE-04 additionally checks the nominal armoured height, human classification, period-scoped role and selected screen/context connections. Existing identity, source URL and historical checked date remain; new assertions carry their own review dates. Public reference only, with no open text/media licence established. No source prose or media copied."
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "profile",
+      "before": {
+        "id": "people:1",
+        "category": "people",
+        "legacy_id": "1",
+        "slug": "luke-skywalker",
+        "title": "Luke Skywalker",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Raised on Tatooine, Luke leaves farm life to fight the Empire and learn the Jedi way. His compassion helps redeem his father; later, he teaches a new generation while confronting his own failures.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "height",
+      "before": {
+        "record_id": "people:1",
+        "key": "height",
+        "value": "172",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "172",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Dimensions / Height 1.72 m",
+            "note": "1.72 m = 172 cm; nominal adult dimension, not newborn size."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "birthplace",
+      "before": null,
+      "after": {
+        "value": "Polis Massa",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-polis-massa",
+            "locator": "Main profile and childbirth history / explicitly Luke and Leia born on Polis Massa",
+            "note": "Birthplace, distinct from Tatooine upbringing."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Human",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "jedi_rank",
+      "before": null,
+      "after": {
+        "value": "Jedi Knight in the Rebellion era; later Jedi Master",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Return of the Jedi history and main profile / Knight and later Master",
+            "note": "Rank changes across story eras."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "family_connection",
+      "before": null,
+      "after": {
+        "value": "Twin brother of Leia Organa",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Return of the Jedi history / Leia identified as twin sister",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "mass",
+      "before": {
+        "record_id": "people:1",
+        "key": "mass",
+        "value": "77",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:1",
+        "key": "hair_color",
+        "value": "blond",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:1",
+        "key": "skin_color",
+        "value": "fair",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:1",
+        "key": "eye_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:1",
+        "key": "birth_year",
+        "value": "19BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "gender",
+      "before": {
+        "record_id": "people:1",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": {
+        "record_id": "people:1",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Appearances / A New Hope",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": {
+        "record_id": "people:1",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": {
+        "record_id": "people:1",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": {
+        "record_id": "people:1",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:force-awakens",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Appearances / The Force Awakens",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:last-jedi",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Appearances / The Last Jedi",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          },
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Later history / Force projection from Ahch-To to Crait",
+            "note": "The work connection does not imply physical travel to Crait."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:rise-skywalker",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Appearances / The Rise of Skywalker",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          },
+          {
+            "sourceId": "profile04-rise-ending",
+            "locator": "Kristen Bates section, final scene / ephemeral Luke and Leia",
+            "note": "Later ephemeral scene; no physical resurrection assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:mandalorian",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Appearances / The Mandalorian",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:obi-wan",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Appearances / Obi-Wan Kenobi",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:rebels",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Appearances / Star Wars Rebels",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:1",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:1",
+        "relation": "grew_up_on",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Opening history / raised on Tatooine with aunt and uncle",
+            "note": "Upbringing, not a claim of birth there; the broad inherited homeworld relation is not normalized into a birthplace."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:15",
+        "relation": "born_on",
+        "evidence": [
+          {
+            "sourceId": "profile04-polis-massa",
+            "locator": "Main profile and childbirth history / explicitly Luke and Leia born on Polis Massa",
+            "note": "Birth site, not a full world metadata review or exact date."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:5",
+        "relation": "sibling_of",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Return of the Jedi history / twin sister Leia",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:10",
+        "relation": "trained_by",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "A New Hope history / Obi-Wan introduces Jedi training",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:20",
+        "relation": "trained_by",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Empire Strikes Back history / training with Yoda",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": {
+        "record_id": "people:1",
+        "target_id": "starships:12",
+        "relation": "starships",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "starships:12",
+        "relation": "starships",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Vehicles / X-wing Starfighter",
+            "note": "Type-family association; no unique hull or all technical data verified."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": {
+        "record_id": "people:1",
+        "target_id": "vehicles:14",
+        "relation": "vehicles",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "vehicles:14",
+        "relation": "vehicles",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Vehicles / Snowspeeder",
+            "note": "Type association, not every individual craft."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "vehicles:6",
+        "relation": "vehicles",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Vehicles / T-16 Skyhopper",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "vehicles:7",
+        "relation": "vehicles",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Vehicles / X-34 Landspeeder",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:1",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:ahch-to",
+        "relation": "resided_on",
+        "evidence": [
+          {
+            "sourceId": "profile04-luke",
+            "locator": "Later history / exile on Ahch-To",
+            "note": "Actual exile; the Crait confrontation is a projection through the Force."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "profile",
+      "before": {
+        "id": "people:5",
+        "category": "people",
+        "legacy_id": "5",
+        "slug": "leia-organa",
+        "title": "Leia Organa",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Raised in Alderaan’s royal family, Leia becomes a leader of the Rebellion and later founds the Resistance. Her public service and ties to the Skywalker family connect successive generations of the conflict.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "height",
+      "before": {
+        "record_id": "people:5",
+        "key": "height",
+        "value": "150",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "150",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Dimensions / Height 1.5 m",
+            "note": "1.5 m = 150 cm; nominal adult dimension."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "birthplace",
+      "before": null,
+      "after": {
+        "value": "Polis Massa",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-polis-massa",
+            "locator": "Main profile and childbirth history / explicitly Luke and Leia born on Polis Massa",
+            "note": "Birthplace, distinct from adoptive Alderaan upbringing."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Human",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "political_roles",
+      "before": null,
+      "after": {
+        "value": "Senator and Rebel leader; later founder of the Resistance",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Main profile and A New Hope / post-Endor history",
+            "note": "Roles span different eras, not one simultaneous office."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "family_connection",
+      "before": null,
+      "after": {
+        "value": "Twin of Luke Skywalker; adopted daughter of Bail Organa",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Birth/adoption history and embedded biography opening / twins and adoptive family",
+            "note": "Biological and adoptive family roles remain distinct."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "mass",
+      "before": {
+        "record_id": "people:5",
+        "key": "mass",
+        "value": "49",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:5",
+        "key": "hair_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:5",
+        "key": "skin_color",
+        "value": "light",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:5",
+        "key": "eye_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:5",
+        "key": "birth_year",
+        "value": "19BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "gender",
+      "before": {
+        "record_id": "people:5",
+        "key": "gender",
+        "value": "female",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": {
+        "record_id": "people:5",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Appearances / A New Hope",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": {
+        "record_id": "people:5",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": {
+        "record_id": "people:5",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": {
+        "record_id": "people:5",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:force-awakens",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Appearances / The Force Awakens",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:last-jedi",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Appearances / The Last Jedi",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:rogue-one",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Appearances / Rogue One",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:obi-wan",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Appearances / Obi-Wan Kenobi",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:rebels",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Appearances / Star Wars Rebels",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:rise-skywalker",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-rise-ending",
+            "locator": "Kristen Bates section, final scene / ephemeral Luke and Leia",
+            "note": "The Databank work list omits this film; the link has separate explicit scene evidence. Other living scenes are not reviewed by this ending citation."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:1",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:2",
+        "relation": "grew_up_on",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Birth/adoption history / raised on Alderaan",
+            "note": "Adoptive home and childhood, distinct from Polis Massa birthplace."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:15",
+        "relation": "born_on",
+        "evidence": [
+          {
+            "sourceId": "profile04-polis-massa",
+            "locator": "Main profile and childbirth history / explicitly Luke and Leia born on Polis Massa",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:1",
+        "relation": "sibling_of",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Main profile and embedded biography opening / Skywalker twins",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:5",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:68",
+        "relation": "adopted_by",
+        "evidence": [
+          {
+            "sourceId": "profile04-leia",
+            "locator": "Birth/adoption history / raised as Bail Organa’s daughter",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "profile",
+      "before": {
+        "id": "people:11",
+        "category": "people",
+        "legacy_id": "11",
+        "slug": "anakin-skywalker",
+        "title": "Anakin Skywalker",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Freed from slavery on Tatooine, Anakin trains with Obi-Wan and becomes a Jedi of the Clone Wars. His fear of loss helps drive his fall to the dark side and his transformation into Darth Vader.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "height",
+      "before": {
+        "record_id": "people:11",
+        "key": "height",
+        "value": "188",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "188",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Dimensions / Height 1.88 m",
+            "note": "1.88 m = 188 cm; nominal adult pre-armour profile, not a childhood measurement."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "jedi_rank",
+      "before": null,
+      "after": {
+        "value": "Jedi Knight during the Clone Wars",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Revenge of the Sith history / explicitly the Jedi Knight",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "apprentice",
+      "before": null,
+      "after": {
+        "value": "Ahsoka Tano",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Clone Wars history / Yoda assigns Ahsoka as Padawan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "known_as",
+      "before": null,
+      "after": {
+        "value": "Later Darth Vader — the same person",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Fall and redemption history / Anakin becomes Vader",
+            "note": "Two inherited dossier IDs represent one person, not two independently born characters."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "mass",
+      "before": {
+        "record_id": "people:11",
+        "key": "mass",
+        "value": "84",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:11",
+        "key": "hair_color",
+        "value": "blond",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:11",
+        "key": "skin_color",
+        "value": "fair",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:11",
+        "key": "eye_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:11",
+        "key": "birth_year",
+        "value": "41.9BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "gender",
+      "before": {
+        "record_id": "people:11",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": {
+        "record_id": "people:11",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Appearances / The Phantom Menace",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": {
+        "record_id": "people:11",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Appearances / Attack of the Clones",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": {
+        "record_id": "people:11",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          },
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Return of the Jedi history / redemption, unmasked death and spirit reunion",
+            "note": "Edition-specific imagery and performers remain covered by separate earlier version/credit evidence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Appearances / The Clone Wars",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:obi-wan",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Appearances / Obi-Wan Kenobi",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:rebels",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Appearances / Star Wars Rebels",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          },
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Closing history / Ahsoka’s temple vision of Anakin becoming Vader",
+            "note": "A work-level vision is not a living pre-armour Anakin visit to the temple."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:ahsoka",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Appearances / Ahsoka",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:clone-wars-film",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-film-clone-film",
+            "locator": "Film synopsis / Anakin and new Padawan Ahsoka",
+            "note": "The 2008 film is distinct from the television series of the same name."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": {
+        "record_id": "people:11",
+        "target_id": "starships:39",
+        "relation": "starships",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "starships:39",
+        "relation": "starships",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "The Phantom Menace history / flies a Naboo starfighter",
+            "note": "Type-family relation, without validating the old vessel specifications."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:1",
+        "relation": "grew_up_on",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Opening and Phantom Menace history / childhood slavery on Tatooine",
+            "note": "Residence/upbringing does not establish a birthplace or 41.9 BBY."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:10",
+        "relation": "trained_by",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "The Phantom Menace history / accepted as Obi-Wan’s apprentice",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:11",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:ahsoka-tano",
+        "relation": "trained",
+        "evidence": [
+          {
+            "sourceId": "profile04-anakin",
+            "locator": "Clone Wars history / Ahsoka as his Padawan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "profile",
+      "before": {
+        "id": "people:4",
+        "category": "people",
+        "legacy_id": "4",
+        "slug": "darth-vader",
+        "title": "Darth Vader",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Anakin Skywalker becomes Darth Vader, an armoured Sith Lord serving the Emperor. He hunts the Empire’s enemies, but his bond with Luke ultimately leads him to turn against his master.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "height",
+      "before": {
+        "record_id": "people:4",
+        "key": "height",
+        "value": "202",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "203",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Dimensions / Height 2.03 m",
+            "note": "2.03 m = 203 cm; replaces inherited 202 cm. Armoured Vader dimension, not Anakin’s childhood or pre-armour height."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Human",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Species / Human",
+            "note": "Cyborg augmentation does not create a second biological species or person."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "known_as",
+      "before": null,
+      "after": {
+        "value": "Anakin Skywalker — the same person",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Main profile and opening history / earlier identity",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Sith Lord and Imperial enforcer",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Main profile and early Imperial history / Sidious service",
+            "note": "Imperial-era role, not a statement about every life stage."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "mass",
+      "before": {
+        "record_id": "people:4",
+        "key": "mass",
+        "value": "136",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:4",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value is preserved."
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:4",
+        "key": "skin_color",
+        "value": "white",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:4",
+        "key": "eye_color",
+        "value": "yellow",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:4",
+        "key": "birth_year",
+        "value": "41.9BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "gender",
+      "before": {
+        "record_id": "people:4",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": {
+        "record_id": "people:4",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Appearances / A New Hope",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": {
+        "record_id": "people:4",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": {
+        "record_id": "people:4",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": {
+        "record_id": "people:4",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:rogue-one",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Appearances / Rogue One",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:obi-wan",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Appearances / Obi-Wan Kenobi",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:rebels",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Appearances / Star Wars Rebels",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:maul-shadow-lord",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Appearances / Maul – Shadow Lord",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:1",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": {
+        "record_id": "people:4",
+        "target_id": "starships:13",
+        "relation": "starships",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "starships:13",
+        "relation": "starships",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Vehicles and A New Hope history / Vader’s TIE Advanced",
+            "note": "Vader’s craft, not the different Inquisitor prototype from Rebels. Old technical specifications remain pending."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:21",
+        "relation": "served_under",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Main profile and early Imperial history / Darth Sidious as master",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:13",
+        "relation": "resided_on",
+        "evidence": [
+          {
+            "sourceId": "vader-identity",
+            "locator": "Castle history / resting at the Mustafar fortress",
+            "note": "Imperial-period residence, not birthplace or an appearance in every Mustafar episode."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "profile",
+      "before": {
+        "id": "people:12",
+        "category": "people",
+        "legacy_id": "12",
+        "slug": "wilhuff-tarkin",
+        "title": "Wilhuff Tarkin",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Born on Eriadu, Tarkin rises through Republic service into the Empire’s leadership. He oversees the Death Star project and later commands the station, using its power to impose Imperial rule.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "height",
+      "before": {
+        "record_id": "people:12",
+        "key": "height",
+        "value": "180",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "185",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Dimensions / Height 1.85 m",
+            "note": "1.85 m = 185 cm; replaces inherited 180 cm, not a performer measurement."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "birthplace",
+      "before": null,
+      "after": {
+        "value": "Eriadu",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Opening history / explicitly born on the Outer Rim planet Eriadu",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "political_roles",
+      "before": null,
+      "after": {
+        "value": "Republic officer; later Imperial Moff and Grand Moff",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Clone Wars and Imperial history / successive ranks",
+            "note": "Different periods, not one permanent rank or a newly inferred promotion date."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Death Star project oversight and later station command",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Main profile and Rogue One / A New Hope history",
+            "note": "Project oversight and later command are different phases, not sole authorship or construction credit."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "mass",
+      "before": {
+        "record_id": "people:12",
+        "key": "mass",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited placeholder does not establish the characteristic. Unknown, not applicable, absent and zero remain distinct; the raw value is preserved."
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:12",
+        "key": "hair_color",
+        "value": "auburn, grey",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:12",
+        "key": "skin_color",
+        "value": "fair",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:12",
+        "key": "eye_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:12",
+        "key": "birth_year",
+        "value": "64BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "gender",
+      "before": {
+        "record_id": "people:12",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "link",
+      "before": {
+        "record_id": "people:12",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Appearances / A New Hope",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "link",
+      "before": {
+        "record_id": "people:12",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:rogue-one",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Appearances / Rogue One",
+            "note": "Work-level context only; not every cut, age, actor image or form of presence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:bad-batch",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Appearances / The Bad Batch",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Appearances / The Clone Wars",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:rebels",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Appearances / Star Wars Rebels",
+            "note": "Series-level context only; no new episode, season or universal physical-presence assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "link",
+      "before": {
+        "record_id": "people:12",
+        "target_id": "planets:21",
+        "relation": "homeworld",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "planets:21",
+        "relation": "homeworld",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Opening history / explicitly born on Eriadu",
+            "note": "Individual birth statement, not a location-list inference; the world’s old metadata remains unreviewed."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:12",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "starships:9",
+        "relation": "commanded",
+        "evidence": [
+          {
+            "sourceId": "profile04-tarkin",
+            "locator": "Rogue One and A New Hope history / assumes control and commands Death Star",
+            "note": "The first battle station, not Death Star II, every construction phase or authorship of the technology."
+          }
+        ]
+      }
+    }
+  ]
+}

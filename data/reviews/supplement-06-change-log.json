@@ -1,0 +1,451 @@
+[
+  {
+    "recordId": "series:obi-wan",
+    "field": "limitations",
+    "before": [
+      "Six-part 2022 limited series reviewed. Documentary A Jedi’s Return and unofficial fan-made film edits are separate from the series.",
+      "Original US calendar date depends on time zone: May 26 Pacific and May 27 Eastern describe one launch, not two editions. Only selected writer credits are verified; a complete episode-level writing breakdown remains pending.",
+      "Complete end credits, episode-by-episode appearances, worldwide/Finland releases and frame-level master comparisons remain pending. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists."
+    ],
+    "after": [
+      "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "All six final episode writing credits are covered, with Story by, Teleplay by and Written by kept separate. This is not the complete end-credit roll. May 26 Pacific and May 27 Eastern describe the same original launch.",
+      "The documentary A Jedi’s Return and unofficial fan-made film edits are separate from this six-part limited series.",
+      "No officially documented alternate cut was identified in the earlier scoped release search; absence of documentation does not prove that no variation exists. Worldwide and Finnish release histories remain incomplete."
+    ]
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "writer",
+    "before": {
+      "record_id": "series:obi-wan",
+      "key": "writer",
+      "value": "Joby Harold (selected series writing credit)",
+      "source_id": "screen05-obi-cast",
+      "review_status": "verified"
+    },
+    "after": {
+      "key": "writer",
+      "value": "Joby Harold; Hossein Amini; Stuart Beattie; Hannah Friedman; Andrew Stanton — role and episode assignments below",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-obi",
+          "locator": "Episodes → Parts I–VI: separate final writing roles",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "episode_count_rule",
+    "before": null,
+    "after": {
+      "key": "episode_count_rule",
+      "value": "6 parts; each Part I–VI counted once",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-obi",
+          "locator": "Series total and Episodes table",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "credit",
+    "before": {
+      "id": "pilot-05:series:obi-wan:1",
+      "record_id": "series:obi-wan",
+      "contributor_id": "joby-harold",
+      "role": "Writer",
+      "character_name": "",
+      "character_record_id": null,
+      "scope": "Selected series writing credit; episode assignments and co-writers not fully reviewed",
+      "note": "",
+      "position": 1,
+      "edition_id": null
+    },
+    "after": {
+      "id": "pilot-05:series:obi-wan:1",
+      "scope": "Parts I–VI; exact writing roles listed under Episodes",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-obi",
+          "locator": "Episodes → Parts I–VI",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:obi-wan",
+    "field": "complete_writing_credits",
+    "before": "Joby Harold selected series writing credit checked; complete final episode-level writing/co-writing breakdown remains pending. Official catalogue May 27 and actual May 26 Pacific streaming time are explicitly distinguished.",
+    "after": "All six final WGA writing credits are recorded with their distinct roles and team lines."
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "limitations",
+    "before": [
+      "Reviewed released first season, eight episodes, 2024–2025. No future renewal or cancellation claim is made.",
+      "December 2 theatrical screenings covered the first two episodes, not a separate film. Detailed writing assignments remain pending beyond the announced writer selection.",
+      "Complete end credits, episode-by-episode appearances, worldwide/Finland releases and frame-level master comparisons remain pending. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists."
+    ],
+    "after": [
+      "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "Released season 1 only. WGA staff writers are not automatically credited with writing an episode. Episodes 5–6 are written by Myung Joh Wesner; the other six are the Ford & Watts team.",
+      "No future renewal or cancellation claim is made. The December 2 cinema screenings covered episodes 1–2, not a separate film.",
+      "No officially documented alternate cut was identified in the earlier scoped release search; absence of documentation does not prove that no variation exists. Worldwide and Finnish release histories remain incomplete."
+    ]
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "writer",
+    "before": {
+      "record_id": "series:skeleton-crew",
+      "key": "writer",
+      "value": "Christopher Ford, Jon Watts; Myung Joh Wesner (two episodes)",
+      "source_id": "screen05-skeleton-production",
+      "review_status": "verified"
+    },
+    "after": {
+      "key": "writer",
+      "value": "Christopher Ford & Jon Watts (episodes 1–4, 7–8); Myung Joh Wesner (episodes 5–6)",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-skeleton",
+          "locator": "Episodes → all eight final Written by rows",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "episode_count_rule",
+    "before": null,
+    "after": {
+      "key": "episode_count_rule",
+      "value": "8 season-one episodes; the simultaneous two-episode premiere counts as two",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-skeleton",
+          "locator": "Series total and Episodes table",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "credit",
+    "before": {
+      "id": "pilot-05:series:skeleton-crew:4",
+      "record_id": "series:skeleton-crew",
+      "contributor_id": "jon-watts",
+      "role": "Writer",
+      "character_name": "",
+      "character_record_id": null,
+      "scope": "Season 1 / announced writing roles; detailed assignments not fully reviewed",
+      "note": "",
+      "position": 4,
+      "edition_id": null
+    },
+    "after": {
+      "id": "pilot-05:series:skeleton-crew:4",
+      "scope": "Season 1, episodes 1–4 and 7–8; Ford & Watts writing team",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-skeleton",
+          "locator": "Episodes → 1–4, 7–8: Written by Christopher Ford & Jon Watts",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "credit",
+    "before": {
+      "id": "pilot-05:series:skeleton-crew:5",
+      "record_id": "series:skeleton-crew",
+      "contributor_id": "christopher-ford",
+      "role": "Writer",
+      "character_name": "",
+      "character_record_id": null,
+      "scope": "Season 1 / announced writing roles; detailed assignments not fully reviewed",
+      "note": "",
+      "position": 5,
+      "edition_id": null
+    },
+    "after": {
+      "id": "pilot-05:series:skeleton-crew:5",
+      "scope": "Season 1, episodes 1–4 and 7–8; Ford & Watts writing team",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-skeleton",
+          "locator": "Episodes → 1–4, 7–8: Written by Christopher Ford & Jon Watts",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "credit",
+    "before": {
+      "id": "pilot-05:series:skeleton-crew:6",
+      "record_id": "series:skeleton-crew",
+      "contributor_id": "myung-joh-wesner",
+      "role": "Writer",
+      "character_name": "",
+      "character_record_id": null,
+      "scope": "Season 1 / two episodes; exact episode assignments pending",
+      "note": "",
+      "position": 6,
+      "edition_id": null
+    },
+    "after": {
+      "id": "pilot-05:series:skeleton-crew:6",
+      "scope": "Season 1, episodes 5 and 6",
+      "note": "",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-skeleton",
+          "locator": "Episodes → 5–6: Written by Myung Joh Wesner",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:skeleton-crew",
+    "field": "complete_writing_assignments",
+    "before": "Announced Jon Watts/Christopher Ford writing roles and Myung Joh Wesner two-episode role checked; exact episode-level writing assignments remain pending.",
+    "after": "All eight final WGA episode assignments are recorded; Wesner is the sole credited writer of episodes 5 and 6."
+  },
+  {
+    "recordId": "series:mandalorian",
+    "field": "limitations",
+    "before": [
+      "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+      "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+      "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+      "Three released TV seasons/Chapters 1–24 are reviewed; the 2026 feature, LEGO retelling, podcast and The Book of Boba Fett are not additional seasons or recut editions. No cancellation or future-season claim is made. Göransson’s and Shirley’s score scopes differ."
+    ],
+    "after": [
+      "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "Released television Chapters 1–24 only. The feature, LEGO retelling and The Book of Boba Fett are separate works. WGA final Created by and Lucasfilm’s current editorial Creator wording are explicitly distinguished."
+    ]
+  },
+  {
+    "recordId": "series:mandalorian",
+    "field": "creator",
+    "before": {
+      "record_id": "series:mandalorian",
+      "key": "creator",
+      "value": "Jon Favreau",
+      "source_id": "screen04-mando-production",
+      "review_status": "verified"
+    },
+    "after": {
+      "key": "creator",
+      "value": "Jon Favreau — final Created by credit (WGA)",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-mando",
+          "locator": "Series Credit → Created by; Final Credits 09/17/2019",
+          "note": "This is a credit-decision date, not a release."
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:mandalorian",
+    "field": "creator_context",
+    "before": null,
+    "after": {
+      "key": "creator_context",
+      "value": "Lucasfilm’s current production overview labels Jon Favreau & Dave Filoni as Creator; WGA’s final Created by credit names Jon Favreau. These are different source statements.",
+      "evidence": [
+        {
+          "sourceId": "screen04-mando-lucasfilm",
+          "locator": "Production heading → Creator: Jon Favreau & Dave Filoni",
+          "note": ""
+        },
+        {
+          "sourceId": "supp06-wga-mando",
+          "locator": "Series Credit → Created by: Jon Favreau",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:mandalorian",
+    "field": "episode_count_rule",
+    "before": null,
+    "after": {
+      "key": "episode_count_rule",
+      "value": "24 television chapters: three reviewed seasons of eight; related films and spin-offs excluded",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-mando",
+          "locator": "3 Seasons — 24 Episodes and Episodes table",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:mandalorian",
+    "field": "credit",
+    "before": {
+      "id": "pilot-04:series:mandalorian:0",
+      "record_id": "series:mandalorian",
+      "contributor_id": "jon-favreau",
+      "role": "Creator",
+      "character_name": "",
+      "character_record_id": null,
+      "scope": "Selected series production",
+      "note": "",
+      "position": 0,
+      "edition_id": null
+    },
+    "after": {
+      "id": "pilot-04:series:mandalorian:0",
+      "scope": "Final Created by credit registered by WGA",
+      "note": "Lucasfilm’s current editorial overview also names Dave Filoni; see Creator context in Recorded details.",
+      "evidence": [
+        {
+          "sourceId": "supp06-wga-mando",
+          "locator": "Series Credit → Created by: Jon Favreau",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:mandalorian",
+    "field": "creator_credit_wording",
+    "before": "Contemporary 2019 StarWars.com calls Jon Favreau the series creator; current Lucasfilm overview labels Favreau and Dave Filoni as creators. Field follows the contemporary description; formal on-screen credit-label comparison is still pending.",
+    "after": "WGA final-credit register establishes Created by Jon Favreau; the current Lucasfilm editorial label naming both Favreau and Filoni is retained as a separately attributed statement, without claiming a frame-by-frame screen-credit inspection."
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "limitations",
+    "before": [
+      "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+      "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+      "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+      "The launch movie, its two episode parts, later ABC added-scene version, weekly series and bonus shorts are distinguished. A complete episode total is left pending until multi-part counting is explicitly normalized."
+    ],
+    "after": [
+      "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "Normalized count: 75 numbered parts across four seasons (15/22/22/16), grouped into 66 official guide entries (14/20/19/13). This is an archive counting convention, not a universal count of playable streaming items. The four introductory shorts and the ABC revised pilot are excluded. Individual credits and appearances within combined parts are not inferred."
+    ]
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "key": "episodes",
+      "value": "75 numbered parts across four seasons (15 / 22 / 22 / 16); 66 combined guide entries",
+      "evidence": [
+        {
+          "sourceId": "supp06-rebels-index",
+          "locator": "Episode Guides → season filters: 14, 20, 19, 13 combined guide entries",
+          "note": "75 is derived by summing normalized part ranges, not by treating every guide as one episode."
+        },
+        {
+          "sourceId": "supp06-rebels-season4-count",
+          "locator": "Updated Lucasfilm confirmation: season 4 consists of 16 episodes",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:rebels",
+    "field": "episode_count_rule",
+    "before": null,
+    "after": {
+      "key": "episode_count_rule",
+      "value": "Count each numbered part once; keep nine two-part stories grouped in the guide. Exclude four introductory shorts and the ABC pilot revision. Streaming-item counts vary by grouping.",
+      "evidence": [
+        {
+          "sourceId": "supp06-rebels-index",
+          "locator": "Episode Guides → season filters: 14, 20, 19, 13 combined guide entries",
+          "note": "75 is derived by summing normalized part ranges, not by treating every guide as one episode."
+        },
+        {
+          "sourceId": "supp06-rebels-season4-count",
+          "locator": "Updated Lucasfilm confirmation: season 4 consists of 16 episodes",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:bad-batch",
+    "field": "limitations",
+    "before": [
+      "Selected fields, contributors and connections only; not the complete credits roll or every episode’s appearances.",
+      "Cinema, television and streaming events are selected by provider and territory. Physical-media, digital-purchase and classification dates are excluded.",
+      "Documentary version research does not establish frame-by-frame identity, every language mix or every supplied master. Public references are not open media licences.",
+      "Supervising director and head writer are not substituted for every episode’s director and writer. Complete episode totals and full composer-team role breakdown remain pending; no 70-episode count is inferred from the 70-minute premiere."
+    ],
+    "after": [
+      "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+      "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+      "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+      "47 episodes across three seasons (16/16/15), including the extended premiere as one. Season-level supervisors are not substituted for individual episode directors or writers; the full music-team role breakdown remains pending."
+    ]
+  },
+  {
+    "recordId": "series:bad-batch",
+    "field": "episodes",
+    "before": null,
+    "after": {
+      "key": "episodes",
+      "value": "47 episodes across three seasons (16 / 16 / 15)",
+      "evidence": [
+        {
+          "sourceId": "supp06-batch-index",
+          "locator": "Episode Guides → season filters: Season 1 (16), Season 2 (16), Season 3 (15)",
+          "note": ""
+        }
+      ]
+    }
+  },
+  {
+    "recordId": "series:bad-batch",
+    "field": "episode_count_rule",
+    "before": null,
+    "after": {
+      "key": "episode_count_rule",
+      "value": "Each numbered episode counts once, including the long premiere. Same-day releases remain distinct episodes.",
+      "evidence": [
+        {
+          "sourceId": "supp06-batch-index",
+          "locator": "Episode-guide inventory and season totals",
+          "note": ""
+        }
+      ]
+    }
+  }
+]

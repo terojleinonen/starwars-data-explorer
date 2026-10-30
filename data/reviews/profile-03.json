@@ -1,0 +1,1526 @@
+{
+  "version": 1,
+  "id": "PROFILE-03",
+  "checkedAt": "2026-10-28",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "First profile reviews of existing Lando, Yoda, Palpatine, Han and Chewbacca identities. All 35 inherited fields assessed; conflicting Palpatine heights remain unresolved; selected roles, species metadata and work/context links sourced. No episode/release expansion.",
+  "sources": [
+    {
+      "id": "profile03-yoda",
+      "title": "Yoda — official Databank",
+      "url": "https://www.starwars.com/databank/yoda",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, published 0.66 m height, teaching experience, selected history and appearances. Species is explicitly Unknown. Training duration does not establish an exact birth year; Dagobah exile does not establish a birthplace. The displayed appearance list omits The Last Jedi, which is evidenced separately."
+    },
+    {
+      "id": "profile03-palpatine",
+      "title": "Emperor Palpatine (Darth Sidious) — official Databank",
+      "url": "https://www.starwars.com/databank/emperor-palpatine-darth-sidious/",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, identity, career and selected appearances. Dimensions visibly list 1.73 m and 1.78 m with no variant/era labels; no unique height selected. Alternate /databank/palpatine address was inaccessible and is not registered."
+    },
+    {
+      "id": "profile03-han",
+      "title": "Han Solo — official Databank",
+      "url": "https://www.starwars.com/databank/han-solo",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, 1.8 m height, human classification, Corellia childhood, Falcon role and selected works. A work appearance does not imply a living character scene in every film."
+    },
+    {
+      "id": "profile03-chewbacca",
+      "title": "Chewbacca — official Databank",
+      "url": "https://www.starwars.com/databank/chewbacca",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Main profile, 2.28 m height, Wookiee classification, bowcaster, Falcon role, selected work appearances and explicitly personal Kashyyyk homeworld history. No birth year inferred from the 190 Years Old clip title."
+    },
+    {
+      "id": "profile03-luke-gallery",
+      "title": "Luke Skywalker — official biography gallery",
+      "url": "https://www.starwars.com/databank/luke-skywalker-biography-gallery",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Selected expanded gallery captions 18 and 43 read directly in the browser: the green creature identified as Yoda, and Yoda’s spirit advising Luke. No full captions or images copied; not a complete Luke profile review."
+    },
+    {
+      "id": "profile03-last-jedi-yoda",
+      "title": "StarWars.com — The Last Jedi: Yoda’s lesson to Luke",
+      "url": "https://www.starwars.com/news/from-a-certain-point-of-view-what-is-the-best-scene-in-star-wars-the-last-jedi",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Dan Brooks section names Yoda’s Ahch-To scene in The Last Jedi. Used for scene/work identification, not the article’s subjective best-scene ranking."
+    },
+    {
+      "id": "profile03-kylo-vision",
+      "title": "Kylo Ren — official Databank",
+      "url": "https://www.starwars.com/databank/kylo-ren",
+      "kind": "official",
+      "checkedAt": "2026-10-28",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original archive summaries, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Selected Kef Bir history describes the vision of Han and Ben’s return to the light. Supports the form of Han’s later appearance, not a new living/Force-spirit assertion or a full Kylo profile review."
+    }
+  ],
+  "sourceUpdates": [
+    {
+      "id": "supp12-lando-databank",
+      "expectedNote": "Selected Rebels history explicitly places the sabacc game and later property on Lothal. No later Falcon journey or other biography propagated into Idiot’s Array. This does not review Lando’s inherited physical metadata.",
+      "note": "Originally registered for selected Rebels history. PROFILE-03 additionally checks published height, human classification and scoped Cloud City/Falcon context. Individual citations identify the detail and review date; the source is not an open licence or a complete biography/technical-data review."
+    }
+  ],
+  "records": [
+    {
+      "id": "people:25",
+      "summary": {
+        "text": "A gambler and Cloud City administrator, Lando becomes an ally of the Rebellion. His changing fortunes also bring him into contact with the Ghost crew and, later, the Resistance.",
+        "evidence": [
+          {
+            "sourceId": "supp12-lando-databank",
+            "locator": "Main profile and selected history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation",
+            "note": "Scoped screen identity; does not verify inherited physical data."
+          },
+          {
+            "sourceId": "supp12-lando-databank",
+            "locator": "Main profile and screen identity",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy identity: original description, all seven inherited fact fields assessed, selected current official metadata and work/context links. Original numeric ID, title, slug and raw import retained.",
+      "limitations": [
+        "Socorro is not corroborated as his homeworld by the selected sources. Bespin, Lothal and Pasaana contexts are not converted into birthplaces. Earlier Rebels episode links and their direct/vision classifications remain untouched.",
+        "Published nominal heights are converted from metres to archive centimetres. They are not measurements of performers or every age, prop, animation model or edition. Unassigned conflicting source values are not resolved by guessing.",
+        "Only the stated details and selected connections are checked. Unestablished raw values/source IDs remain in the audit but are withheld from published values and catalogue previews. Other legacy relationships remain pending.",
+        "Original-US release-date scope retained. No releases, editions, episode rows or performance credits added. Public reference access does not grant redistribution rights for text or media."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "value": "178",
+          "expectedValue": "177",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Dimensions / Height 1.78 m",
+              "note": "1.78 m = 178 cm; replaces inherited 177 cm."
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "value": "Human",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Species / Human",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "occupation",
+          "value": "Baron administrator of Cloud City during the Imperial era",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Main profile and Empire history / Cloud City administrator",
+              "note": "A period-specific role, not a permanent office across his lifetime."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "79",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "black",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "dark",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "31BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact birth year is established by the reviewed sources. Story dates, teaching duration, an age spoken at one moment and performer ages are not converted into a birth year here.",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "This review does not use pronouns or portrayal as independently sourced gender metadata. The inherited field remains unestablished.",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:solo",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Appearances / Solo",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:rise-skywalker",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Appearances / The Rise of Skywalker",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level connection only; not a new episode, season or physical-scene assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "starships:10",
+          "relation": "starships",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Vehicles / Millennium Falcon; Solo and later history",
+              "note": "Ownership and piloting change by era; not a claim of continuous ownership."
+            }
+          ]
+        },
+        {
+          "targetId": "species:1",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Species / Human",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:6",
+          "relation": "administered_on",
+          "evidence": [
+            {
+              "sourceId": "supp12-lando-databank",
+              "locator": "Empire history / Cloud City in Bespin’s atmosphere",
+              "note": "Career/location relation, not evidence of Socorro birthplace or a Bespin homeworld."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:20",
+      "summary": {
+        "text": "Yoda serves the Jedi Council and teaches generations of Jedi. Exile on Dagobah leads him to Luke, whom he later continues to guide after death.",
+        "evidence": [
+          {
+            "sourceId": "profile03-yoda",
+            "locator": "Main profile and selected history / original archive paraphrase",
+            "note": ""
+          },
+          {
+            "sourceId": "profile03-luke-gallery",
+            "locator": "Caption 43 / later guidance as a spirit",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation",
+            "note": "Scoped screen identity; does not verify inherited physical data."
+          },
+          {
+            "sourceId": "profile03-yoda",
+            "locator": "Main profile and screen identity",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy identity: original description, all seven inherited fact fields assessed, selected current official metadata and work/context links. Original numeric ID, title, slug and raw import retained.",
+      "limitations": [
+        "The official profile leaves the species unnamed. The inherited Yoda’s species group is not verified as a biological species name, and Dagobah residence is not a homeworld assertion. No exact birth year or mass established.",
+        "The current Databank appearance list omits The Last Jedi; that connection has separate official scene evidence. Remote guidance to Ezra, physical life scenes and later spirit scenes remain distinct; the earlier Through the Force episode row is unchanged.",
+        "Published nominal heights are converted from metres to archive centimetres. They are not measurements of performers or every age, prop, animation model or edition. Unassigned conflicting source values are not resolved by guessing.",
+        "Only the stated details and selected connections are checked. Unestablished raw values/source IDs remain in the audit but are withheld from published values and catalogue previews. Other legacy relationships remain pending.",
+        "Original-US release-date scope retained. No releases, editions, episode rows or performance credits added. Public reference access does not grant redistribution rights for text or media."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "value": "66",
+          "expectedValue": "66",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Dimensions / Height 0.66 m",
+              "note": "0.66 m = 66 cm; inherited number confirmed."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "value": "Green",
+          "expectedValue": "green",
+          "evidence": [
+            {
+              "sourceId": "profile03-luke-gallery",
+              "locator": "Caption 18 / green creature explicitly identified as Yoda",
+              "note": "Textual identification of Yoda, not a sampled image or a claim about every member of an unnamed species."
+            }
+          ]
+        },
+        {
+          "key": "jedi_rank",
+          "value": "Grand Master of the Jedi Council",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Opening history / Grand Master of the Jedi Council",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "teaching_experience",
+          "value": "More than 800 years",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Main profile / trained Jedi for over 800 years",
+              "note": "Teaching duration does not establish the inherited 896 BBY birth year."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "17",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "white",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "896BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact birth year is established by the reviewed sources. Story dates, teaching duration, an age spoken at one moment and performer ages are not converted into a birth year here.",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "This review does not use pronouns or portrayal as independently sourced gender metadata. The inherited field remains unestablished.",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Appearances / The Phantom Menace",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Appearances / Attack of the Clones",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level connection only; not a new episode, season or physical-scene assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level connection only; not a new episode, season or physical-scene assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:acolyte",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Appearances / The Acolyte",
+              "note": "Series-level connection only; not a new episode, season or physical-scene assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:last-jedi",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-last-jedi-yoda",
+              "locator": "Dan Brooks section / Yoda advises Luke on Ahch-To",
+              "note": "Post-death spirit context, not living physical presence."
+            },
+            {
+              "sourceId": "profile03-luke-gallery",
+              "locator": "Caption 43 / Yoda’s spirit at the library",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:5",
+          "relation": "resided_on",
+          "evidence": [
+            {
+              "sourceId": "profile03-yoda",
+              "locator": "Revenge of the Sith and Luke-training history / Dagobah exile",
+              "note": "Residence in later life, not birthplace or species origin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:21",
+      "summary": {
+        "text": "Palpatine hides the Sith identity Darth Sidious behind a public political career. He turns the Republic into an Empire, and his later return on Exegol extends the conflict beyond Endor.",
+        "evidence": [
+          {
+            "sourceId": "profile03-palpatine",
+            "locator": "Main profile and selected history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation",
+            "note": "Scoped screen identity; does not verify inherited physical data."
+          },
+          {
+            "sourceId": "profile03-palpatine",
+            "locator": "Main profile and screen identity",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy identity: original description, all seven inherited fact fields assessed, selected current official metadata and work/context links. Original numeric ID, title, slug and raw import retained.",
+      "limitations": [
+        "The Dimensions section lists 1.73 m and 1.78 m with no contextual labels. The old 170 cm is withheld; no attempt is made to assign one number to Chancellor, Emperor, Exegol body, performer or film edition.",
+        "The Naboo senator role and location list alone do not verify the inherited homeworld relation in this selected review. No exact birth year, weight, eye/skin/hair colour or body-transfer mechanism established. The Empire Day File Holo and later return retain distinct context; no episode/release rows changed.",
+        "Published nominal heights are converted from metres to archive centimetres. They are not measurements of performers or every age, prop, animation model or edition. Unassigned conflicting source values are not resolved by guessing.",
+        "Only the stated details and selected connections are checked. Unestablished raw values/source IDs remain in the audit but are withheld from published values and catalogue previews. Other legacy relationships remain pending.",
+        "Original-US release-date scope retained. No releases, editions, episode rows or performance credits added. Public reference access does not grant redistribution rights for text or media."
+      ],
+      "facts": [
+        {
+          "key": "known_as",
+          "value": "Sheev Palpatine; Darth Sidious",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Main profile / Sheev name and Sidious identity",
+              "note": "One existing identity, not a new duplicate character."
+            }
+          ]
+        },
+        {
+          "key": "political_roles",
+          "value": "Naboo senator → Supreme Chancellor → Emperor",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Main profile / political progression",
+              "note": "Sequence of roles, without newly inferred calendar dates."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "height",
+          "expectedValue": "170",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The official Databank currently lists both 1.73 m and 1.78 m without assigning them to a variant or era. Neither corroborates the inherited 170 cm. No value is selected, averaged or assigned to a body by inference; the height remains unresolved.",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Dimensions / both unassigned height values",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "mass",
+          "expectedValue": "75",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "grey",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "pale",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "yellow",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "82BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact birth year is established by the reviewed sources. Story dates, teaching duration, an age spoken at one moment and performer ages are not converted into a birth year here.",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "This review does not use pronouns or portrayal as independently sourced gender metadata. The inherited field remains unestablished.",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / The Phantom Menace",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / Attack of the Clones",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:rise-skywalker",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / The Rise of Skywalker",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:obi-wan",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / Obi-Wan Kenobi",
+              "note": "Series-level connection only; not a new episode, season or physical-scene assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / The Bad Batch",
+              "note": "Series-level connection only; not a new episode, season or physical-scene assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level connection only; not a new episode, season or physical-scene assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": "Series-level connection only; not a new episode, season or physical-scene assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:maul-shadow-lord",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Appearances / Maul – Shadow Lord",
+              "note": "Series-level connection only; not a new episode, season or physical-scene assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "species:1",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "profile03-palpatine",
+              "locator": "Species / Human",
+              "note": "Official metadata classification; no unassigned height or body-era inference."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:14",
+      "summary": {
+        "text": "Han’s life as a pilot and smuggler draws him into the Rebellion. His partnership with Chewbacca aboard the Millennium Falcon endures through adventures that also bind him to Leia and their son Ben.",
+        "evidence": [
+          {
+            "sourceId": "profile03-han",
+            "locator": "Main profile and selected history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation",
+            "note": "Scoped screen identity; does not verify inherited physical data."
+          },
+          {
+            "sourceId": "profile03-han",
+            "locator": "Main profile and screen identity",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy identity: original description, all seven inherited fact fields assessed, selected current official metadata and work/context links. Original numeric ID, title, slug and raw import retained.",
+      "limitations": [
+        "The Rise of Skywalker appearance is evidenced as a vision encountered by Ben. It does not establish Han’s physical resurrection or label him a Force spirit; the source’s uncertain metaphysics is not resolved.",
+        "Corellia childhood is not converted into a birth certificate or the exact inherited 29 BBY date. The generic Imperial shuttle relation remains unreviewed. No mass, hair/eye/skin colour or gender asserted from performer or visual inference.",
+        "Published nominal heights are converted from metres to archive centimetres. They are not measurements of performers or every age, prop, animation model or edition. Unassigned conflicting source values are not resolved by guessing.",
+        "Only the stated details and selected connections are checked. Unestablished raw values/source IDs remain in the audit but are withheld from published values and catalogue previews. Other legacy relationships remain pending.",
+        "Original-US release-date scope retained. No releases, editions, episode rows or performance credits added. Public reference access does not grant redistribution rights for text or media."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "value": "180",
+          "expectedValue": "180",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Dimensions / Height 1.8 m",
+              "note": "1.8 m = 180 cm; inherited number confirmed."
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "value": "Human",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Species / Human",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "starship_role",
+          "value": "Captain of the Millennium Falcon",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Main profile / captain and Chewbacca co-pilot",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "80",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "fair",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "29BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact birth year is established by the reviewed sources. Story dates, teaching duration, an age spoken at one moment and performer ages are not converted into a birth year here.",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "This review does not use pronouns or portrayal as independently sourced gender metadata. The inherited field remains unestablished.",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Appearances / A New Hope",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:force-awakens",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Appearances / The Force Awakens",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:solo",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Appearances / Solo",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:rise-skywalker",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Appearances / The Rise of Skywalker",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            },
+            {
+              "sourceId": "profile03-kylo-vision",
+              "locator": "Kef Bir history / Kylo has a vision of Han",
+              "note": "Form of appearance: vision; no physical resurrection or categorical Force-spirit assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "starships:10",
+          "relation": "starships",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Main profile and Vehicles / Millennium Falcon",
+              "note": "Selected captain/pilot relationship; does not verify every legacy vehicle link."
+            }
+          ]
+        },
+        {
+          "targetId": "species:1",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Species / Human",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:22",
+          "relation": "grew_up_on",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Main profile and Solo history / childhood on Corellia",
+              "note": "Childhood/origin story is scoped as growing up, not an independently verified birthplace."
+            }
+          ]
+        },
+        {
+          "targetId": "people:13",
+          "relation": "partners_with",
+          "evidence": [
+            {
+              "sourceId": "profile03-han",
+              "locator": "Main profile / Han and co-pilot Chewbacca",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:13",
+      "summary": {
+        "text": "A Wookiee pilot and warrior from Kashyyyk, Chewbacca forms a lasting partnership with Han. His skills aboard the Millennium Falcon help the Rebellion and later the Resistance.",
+        "evidence": [
+          {
+            "sourceId": "profile03-chewbacca",
+            "locator": "Main profile and selected history / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation",
+            "note": "Scoped screen identity; does not verify inherited physical data."
+          },
+          {
+            "sourceId": "profile03-chewbacca",
+            "locator": "Main profile and screen identity",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First scoped review of an existing legacy identity: original description, all seven inherited fact fields assessed, selected current official metadata and work/context links. Original numeric ID, title, slug and raw import retained.",
+      "limitations": [
+        "The 190 Years Old clip title does not establish an exact birth year; inherited 200 BBY remains unestablished. Fur colour is not inferred from imagery, skin remains unknown, and a species-wide lifespan or height is not substituted for personal metadata.",
+        "Kashyyyk is explicitly called his homeworld in the individual history, unlike a location-only inference. The existing AT-ST type link is scoped to the Endor commandeering; other old shuttle/vehicle links remain pending.",
+        "Published nominal heights are converted from metres to archive centimetres. They are not measurements of performers or every age, prop, animation model or edition. Unassigned conflicting source values are not resolved by guessing.",
+        "Only the stated details and selected connections are checked. Unestablished raw values/source IDs remain in the audit but are withheld from published values and catalogue previews. Other legacy relationships remain pending.",
+        "Original-US release-date scope retained. No releases, editions, episode rows or performance credits added. Public reference access does not grant redistribution rights for text or media."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "value": "228",
+          "expectedValue": "228",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Dimensions / Height 2.28 m",
+              "note": "2.28 m = 228 cm; inherited number confirmed."
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "value": "Wookiee",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Species / Wookiee",
+              "note": "Official spelling; the inherited species-record identity/title is retained."
+            }
+          ]
+        },
+        {
+          "key": "starship_role",
+          "value": "Millennium Falcon co-pilot",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Main profile and Solo history / co-pilot role",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "armament",
+          "value": "Bowcaster",
+          "expectedValue": null,
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Weapons / Bowcaster",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "112",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The imported placeholder does not establish the characteristic. Unknown, not applicable and zero remain distinct.",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "blue",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata.",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "200BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact birth year is established by the reviewed sources. Story dates, teaching duration, an age spoken at one moment and performer ages are not converted into a birth year here.",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "This review does not use pronouns or portrayal as independently sourced gender metadata. The inherited field remains unestablished.",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Reviewed profile and selected metadata/history / field-assessment scope only",
+              "note": "Research assessment; not corroboration of the inherited value."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Appearances / A New Hope",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Appearances / The Empire Strikes Back",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Appearances / Return of the Jedi",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:force-awakens",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Appearances / The Force Awakens",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:last-jedi",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Appearances / The Last Jedi",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:solo",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Appearances / Solo",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "films:rise-skywalker",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Appearances / The Rise of Skywalker",
+              "note": "Work-level connection; no universal cut, era or physical-presence assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Appearances / The Clone Wars",
+              "note": "Series-level connection only; not a new episode, season or physical-scene assertion."
+            }
+          ]
+        },
+        {
+          "targetId": "starships:10",
+          "relation": "starships",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Vehicles and main profile / Millennium Falcon co-pilot",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:3",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Species / Wookiee",
+              "note": "Identity of existing Wookie species group retained; no extra duplicate species profile."
+            }
+          ]
+        },
+        {
+          "targetId": "planets:14",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Kessel and post-Endor history / explicitly his homeworld Kashyyyk",
+              "note": "Individual homeworld explicitly stated, beyond a general species distribution or location list."
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:19",
+          "relation": "vehicles",
+          "evidence": [
+            {
+              "sourceId": "profile03-chewbacca",
+              "locator": "Return of the Jedi history / commandeered AT-ST on Endor",
+              "note": "Vehicle-type connection in the named battle, not identification with every AT-ST hull or confirmation of old specifications."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

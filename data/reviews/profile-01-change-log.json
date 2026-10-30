@@ -1,0 +1,1474 @@
+{
+  "batch": "PROFILE-01",
+  "checkedAt": "2026-10-28",
+  "changes": [
+    {
+      "recordId": "people:8",
+      "field": "profile",
+      "before": {
+        "id": "people:8",
+        "category": "people",
+        "legacy_id": "8",
+        "slug": "r5-d4",
+        "title": "R5-D4",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "R5-D4 is an astromech whose failed sale to Owen Lars gives R2-D2 a place at the Lars homestead. The same droid later joins Din’s journey into Mandalore’s ruins.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:8",
+      "field": "height",
+      "before": {
+        "record_id": "people:8",
+        "key": "height",
+        "value": "97",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "97",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-r5",
+            "locator": "Dimensions / Height 0.97 m",
+            "note": "Unit conversion: 0.97 m = 97 cm; the archive height unit is cm."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:8",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Astromech droid",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-r5",
+            "locator": "Droid type / Astromech Droid",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:8",
+      "field": "mass",
+      "before": {
+        "record_id": "people:8",
+        "key": "mass",
+        "value": "32",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:8",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:8",
+        "key": "hair_color",
+        "value": "n/a",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The imported placeholder does not establish this characteristic. Unknown and not applicable are not treated as equivalent."
+      }
+    },
+    {
+      "recordId": "people:8",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:8",
+        "key": "skin_color",
+        "value": "white, red",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The profile calls R5 a red astromech; that does not establish the complete imported white/red colour field."
+      }
+    },
+    {
+      "recordId": "people:8",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:8",
+        "key": "eye_color",
+        "value": "red",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "people:8",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:8",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The imported placeholder does not establish this characteristic. Unknown and not applicable are not treated as equivalent."
+      }
+    },
+    {
+      "recordId": "people:8",
+      "field": "gender",
+      "before": {
+        "record_id": "people:8",
+        "key": "gender",
+        "value": "n/a",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The imported placeholder does not establish this characteristic. Unknown and not applicable are not treated as equivalent."
+      }
+    },
+    {
+      "recordId": "people:8",
+      "field": "link",
+      "before": {
+        "record_id": "people:8",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile01-r5",
+            "locator": "Appearances / A New Hope",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:8",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:1",
+        "relation": "located_on",
+        "evidence": [
+          {
+            "sourceId": "profile01-r5",
+            "locator": "Locations / Tatooine",
+            "note": "Location is not proof of a manufacturing homeworld or birthplace."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "profile",
+      "before": {
+        "id": "planets:1",
+        "category": "planets",
+        "legacy_id": "1",
+        "slug": "tatooine",
+        "title": "Tatooine",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Tatooine is a desert world beneath two suns in the Outer Rim. Moisture farms and busy spaceports shape its frontier life, and both Anakin and Luke Skywalker once lived there.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:1",
+        "key": "climate",
+        "value": "arid",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Dry desert environment",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Main profile / harsh desert world",
+            "note": "Qualitative environmental description; no numeric weather model."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:1",
+        "key": "terrain",
+        "value": "desert",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Desert",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Main profile / desert world",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "region",
+      "before": null,
+      "after": {
+        "value": "Outer Rim",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Main profile / galactic region",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "suns",
+      "before": null,
+      "after": {
+        "value": "2",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Main profile / twin suns",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:1",
+        "key": "rotation_period",
+        "value": "23",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:1",
+        "key": "orbital_period",
+        "value": "304",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:1",
+        "key": "diameter",
+        "value": "10465",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:1",
+        "key": "gravity",
+        "value": "1 standard",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:1",
+        "key": "surface_water",
+        "value": "1",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "population",
+      "before": {
+        "record_id": "planets:1",
+        "key": "population",
+        "value": "200000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "link",
+      "before": {
+        "record_id": "planets:1",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Appearances / A New Hope",
+            "note": "Work-level appearance; not an exhaustive cut or scene inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "link",
+      "before": {
+        "record_id": "planets:1",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Work-level appearance; not an exhaustive cut or scene inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "link",
+      "before": {
+        "record_id": "planets:1",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Appearances / The Phantom Menace",
+            "note": "Work-level appearance; not an exhaustive cut or scene inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "link",
+      "before": {
+        "record_id": "planets:1",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Appearances / Attack of the Clones",
+            "note": "Work-level appearance; not an exhaustive cut or scene inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "link",
+      "before": {
+        "record_id": "planets:1",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Work-level appearance; not an exhaustive cut or scene inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "link",
+      "before": {
+        "record_id": "planets:1",
+        "target_id": "people:1",
+        "relation": "residents",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:1",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Main profile / Luke once called Tatooine home",
+            "note": "Historical residence, not a current census."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:1",
+      "field": "link",
+      "before": {
+        "record_id": "planets:1",
+        "target_id": "people:11",
+        "relation": "residents",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:11",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile01-tatooine",
+            "locator": "Main profile / Anakin once called Tatooine home",
+            "note": "Historical residence, not a current census."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "profile",
+      "before": {
+        "id": "planets:9",
+        "category": "planets",
+        "legacy_id": "9",
+        "slug": "coruscant",
+        "title": "Coruscant",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Coruscant’s planet-wide city houses the institutions of the Republic and later the Empire. Its government district and Jedi Temple sit above a layered urban world whose lower levels have a very different life.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:9",
+        "key": "climate",
+        "value": "temperate",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Artificial; temperate",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "pilot-coruscant",
+            "locator": "Climate / Artificial, Temperate",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:9",
+        "key": "terrain",
+        "value": "cityscape, mountains",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Planet-wide cityscape; exposed Umate peak",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-coruscant-intel",
+            "locator": "Cityscape paragraph and final Umate paragraph",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "population",
+      "before": {
+        "record_id": "planets:9",
+        "key": "population",
+        "value": "1000000000000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Trillions — qualitative estimate, not an exact census",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-coruscant-intel",
+            "locator": "Cityscape paragraph / trillions of people",
+            "note": "No epoch-specific exact census or 1,000,000,000,000 claim."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "region",
+      "before": null,
+      "after": {
+        "value": "Core Worlds",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-coruscant-intel",
+            "locator": "Galactic regions / Core Worlds",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "first_film_appearance",
+      "before": null,
+      "after": {
+        "value": "Return of the Jedi — 1997 Special Edition",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-coruscant-intel",
+            "locator": "Opening history / first on-screen appearance",
+            "note": "Not an appearance in the 1983 original cut; no release date event created."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:9",
+        "key": "rotation_period",
+        "value": "24",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:9",
+        "key": "orbital_period",
+        "value": "368",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:9",
+        "key": "diameter",
+        "value": "12240",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:9",
+        "key": "gravity",
+        "value": "1 standard",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:9",
+        "key": "surface_water",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The imported placeholder does not establish this characteristic. Unknown and not applicable are not treated as equivalent."
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "link",
+      "before": {
+        "record_id": "planets:9",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "pilot-coruscant",
+            "locator": "Appearances / The Phantom Menace",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "link",
+      "before": {
+        "record_id": "planets:9",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "pilot-coruscant",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "link",
+      "before": {
+        "record_id": "planets:9",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "pilot-coruscant",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:9",
+      "field": "link",
+      "before": {
+        "record_id": "planets:9",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile01-coruscant-intel",
+            "locator": "Opening history / Coruscant celebration in 1997 Special Edition",
+            "note": "Verified only for the 1997 Special Edition context; not the original 1983 film."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "profile",
+      "before": {
+        "id": "planets:8",
+        "category": "planets",
+        "legacy_id": "8",
+        "slug": "naboo",
+        "title": "Naboo",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Naboo combines green plains, wetlands and river cities with underwater Gungan settlements. Humans known as the Naboo and the indigenous Gungans share a world central to the prequel stories.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:8",
+        "key": "climate",
+        "value": "temperate",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Temperate",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "film02-naboo",
+            "locator": "Climate / Temperate",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:8",
+        "key": "terrain",
+        "value": "grassy hills, swamps, forests, mountains",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Hills, plains, swamps and urban settlements",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "film02-naboo",
+            "locator": "Terrain / Hills, Plains, Swamps, Urban",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "inhabitants",
+      "before": null,
+      "after": {
+        "value": "Naboo humans and indigenous Gungans",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "film02-naboo",
+            "locator": "Main profile / inhabitants",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:8",
+        "key": "rotation_period",
+        "value": "26",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:8",
+        "key": "orbital_period",
+        "value": "312",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:8",
+        "key": "diameter",
+        "value": "12120",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:8",
+        "key": "gravity",
+        "value": "1 standard",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:8",
+        "key": "surface_water",
+        "value": "12",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "population",
+      "before": {
+        "record_id": "planets:8",
+        "key": "population",
+        "value": "4500000000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "link",
+      "before": {
+        "record_id": "planets:8",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-naboo",
+            "locator": "Appearances / The Phantom Menace",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "link",
+      "before": {
+        "record_id": "planets:8",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-naboo",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "link",
+      "before": {
+        "record_id": "planets:8",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-naboo",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:8",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:12",
+        "relation": "native_inhabitants",
+        "evidence": [
+          {
+            "sourceId": "film02-naboo",
+            "locator": "Main profile / indigenous Gungans",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "profile",
+      "before": {
+        "id": "starships:12",
+        "category": "starships",
+        "legacy_id": "12",
+        "slug": "x-wing",
+        "title": "X-wing",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "The Alliance-era X-wing is a starfighter design used by Rebel pilots and later New Republic patrols. Its weapons, hyperdrive and astromech support make it suited to missions beyond a carrier fleet.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "model",
+      "before": {
+        "record_id": "starships:12",
+        "key": "model",
+        "value": "T-65 X-wing",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "T-65 X-wing family",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-new-republic-x-wings",
+            "locator": "Main profile / Incom T-65 design",
+            "note": "Family-level record; individual ships and later T-70 designs remain distinct."
+          },
+          {
+            "sourceId": "profile01-resistance-x-wing",
+            "locator": "Main profile / T-70 distinguished from Alliance T-65",
+            "note": "Variant boundary only; no T-70 specifications assigned to this record."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "starships:12",
+        "key": "manufacturer",
+        "value": "Incom Corporation",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Incom",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-new-republic-x-wings",
+            "locator": "Main profile / Incom T-65",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "starship_class",
+      "before": {
+        "record_id": "starships:12",
+        "key": "starship_class",
+        "value": "Starfighter",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Starfighter",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-x-wing",
+            "locator": "Main profile / Rebel Alliance starfighter",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "crew",
+      "before": {
+        "record_id": "starships:12",
+        "key": "crew",
+        "value": "1",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Pilot with astromech co-pilot support",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-x-wing",
+            "locator": "Main profile / astromech droid co-pilot",
+            "note": "Role description, not an independently verified numerical occupancy specification."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "length",
+      "before": {
+        "record_id": "starships:12",
+        "key": "length",
+        "value": "12.5",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "13.4 m",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-x-wing",
+            "locator": "Dimensions / Length 13.4 m",
+            "note": "Published dimension on the cited X-wing profile; not every X-wing variant or individual. Replaces the unsupported 12.5 m legacy value."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "armament",
+      "before": null,
+      "after": {
+        "value": "Four laser cannons; two proton torpedo launchers",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile01-x-wing",
+            "locator": "Main profile / weapons",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "starships:12",
+        "key": "cost_in_credits",
+        "value": "149999",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "starships:12",
+        "key": "max_atmosphering_speed",
+        "value": "1050",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "passengers",
+      "before": {
+        "record_id": "starships:12",
+        "key": "passengers",
+        "value": "0",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "starships:12",
+        "key": "cargo_capacity",
+        "value": "110",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "consumables",
+      "before": {
+        "record_id": "starships:12",
+        "key": "consumables",
+        "value": "1 week",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "hyperdrive_rating",
+      "before": {
+        "record_id": "starships:12",
+        "key": "hyperdrive_rating",
+        "value": "1.0",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "MGLT",
+      "before": {
+        "record_id": "starships:12",
+        "key": "MGLT",
+        "value": "100",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The reviewed public sources do not substantiate this imported value for the scoped record. It remains unestablished, not disproved or zero."
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "link",
+      "before": {
+        "record_id": "starships:12",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile01-x-wing",
+            "locator": "Appearances / A New Hope",
+            "note": "Alliance-era family-level link, not a specific individual ship."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "link",
+      "before": {
+        "record_id": "starships:12",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile01-x-wing",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": "Alliance-era family-level link, not a specific individual ship."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "link",
+      "before": {
+        "record_id": "starships:12",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile01-x-wing",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Alliance-era family-level link, not a specific individual ship."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "starships:12",
+      "field": "link",
+      "before": {
+        "record_id": "starships:12",
+        "target_id": "people:1",
+        "relation": "pilots",
+        "source_id": "legacy-starships",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:1",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "profile01-x-wing",
+            "locator": "Main profile / Luke destroys the Death Star in an X-wing",
+            "note": "A family/design relation, not identity with every Luke-associated individual spacecraft."
+          }
+        ]
+      }
+    }
+  ]
+}

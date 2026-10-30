@@ -1,0 +1,169 @@
+{
+  "records": {
+    "before": 543,
+    "after": 567,
+    "added": 24,
+    "missingOrChanged": 0
+  },
+  "sources": {
+    "before": 689,
+    "after": 722,
+    "added": 33,
+    "missingOrChanged": 0
+  },
+  "facts": {
+    "before": 2743,
+    "after": 2767,
+    "added": 24,
+    "missingOrChanged": 0
+  },
+  "record_sources": {
+    "before": 2008,
+    "after": 2097,
+    "added": 89,
+    "missingOrChanged": 0
+  },
+  "links": {
+    "before": 1978,
+    "after": 2030,
+    "added": 52,
+    "missingOrChanged": 0
+  },
+  "review_batches": {
+    "before": 26,
+    "after": 27,
+    "added": 1,
+    "missingOrChanged": 0
+  },
+  "contributors": {
+    "before": 307,
+    "after": 307,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "credits": {
+    "before": 576,
+    "after": 576,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "citations": {
+    "before": 4764,
+    "after": 5038,
+    "added": 274,
+    "missingOrChanged": 0
+  },
+  "review_issues": {
+    "before": 42,
+    "after": 42,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "film_editions": {
+    "before": 26,
+    "after": 26,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "release_events": {
+    "before": 82,
+    "after": 82,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "edition_credits": {
+    "before": 10,
+    "after": 10,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "review_supplements": {
+    "before": 196,
+    "after": 221,
+    "added": 25,
+    "missingOrChanged": 0
+  },
+  "episodes": {
+    "before": 151,
+    "after": 151,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_credits": {
+    "before": 65,
+    "after": 65,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_links": {
+    "before": 842,
+    "after": 924,
+    "added": 82,
+    "missingOrChanged": 0
+  },
+  "episode_reviews": {
+    "before": 72,
+    "after": 77,
+    "added": 5,
+    "missingOrChanged": 0
+  },
+  "fact_assessments": {
+    "before": 277,
+    "after": 277,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "allowedChanges": {
+    "editorialRecordsAdded": 24,
+    "existingReviewNotes": "series:rebels limitations and checked_at only",
+    "allPreviousReferenceContentsAndMultiplicitiesRetained": true,
+    "allPreviousSourceMetadataUnchanged": true,
+    "citationNumericIdsMayMove": true
+  },
+  "factStatuses": {
+    "verified": 660,
+    "unestablished": 277,
+    "legacy": 1830
+  },
+  "workLinkStatuses": {
+    "legacy": 989,
+    "verified": 1038,
+    "reference": 3
+  },
+  "newEpisodeRepresentations": {
+    "direct": 79,
+    "transmission": 1,
+    "unspecified": 2
+  },
+  "totals": {
+    "records": 567,
+    "sources": 722,
+    "facts": 2767,
+    "record_sources": 2097,
+    "links": 2030,
+    "metadata": 5,
+    "review_batches": 27,
+    "record_reviews": 353,
+    "contributors": 307,
+    "credits": 576,
+    "citations": 5038,
+    "review_issues": 42,
+    "film_editions": 26,
+    "release_events": 82,
+    "edition_credits": 10,
+    "review_supplements": 221,
+    "episodes": 151,
+    "episode_credits": 65,
+    "episode_links": 924,
+    "episode_reviews": 77,
+    "fact_assessments": 277
+  },
+  "rebels": {
+    "reviewedGuides": 39,
+    "pendingGuides": 27,
+    "pendingNumberedParts": 32,
+    "pendingBadBatch": 47,
+    "seasonTwoGuidesReviewed": 20,
+    "seasonTwoNumberedPartsReviewed": 22
+  }
+}

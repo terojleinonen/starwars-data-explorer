@@ -1,0 +1,3299 @@
+{
+  "version": 1,
+  "id": "pilot-02",
+  "checkedAt": "2026-10-26",
+  "reviewer": "Archive editorial review",
+  "scope": "Five-film review: Episodes I–III, the 2008 Clone Wars feature and The Force Awakens. Theatrical, television and streaming release dates only.",
+  "sources": [
+    {
+      "id": "film02-afi-phantom",
+      "title": "AFI Catalog — The Phantom Menace",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/61712",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "AFI Catalog",
+      "revision": "",
+      "note": "Selected original-production roles and cast. Post-1993 catalogue entries are abbreviated; omitted credits are not assumed absent. Runtime differences are not used to infer a new cut."
+    },
+    {
+      "id": "film02-afi-clones",
+      "title": "AFI Catalog — Attack of the Clones",
+      "url": "https://catalog.afi.com/Film/62580-STAR-WARS-EPISODE-II-ATTACK-OF-THE-CLONES",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "AFI Catalog",
+      "revision": "",
+      "note": "Selected original-production roles and cast. Post-1993 catalogue entries are abbreviated; omitted credits are not assumed absent. Runtime differences are not used to infer a new cut."
+    },
+    {
+      "id": "film02-afi-sith",
+      "title": "AFI Catalog — Revenge of the Sith",
+      "url": "https://catalog.afi.com/Film/63617-STAR-WARS-EPISODE-III-REVENGE-OF-THE-SITH",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "AFI Catalog",
+      "revision": "",
+      "note": "Selected original-production roles and cast. Post-1993 catalogue entries are abbreviated; omitted credits are not assumed absent. Runtime differences are not used to infer a new cut."
+    },
+    {
+      "id": "film02-afi-clone-film",
+      "title": "AFI Catalog — The Clone Wars (2008 film)",
+      "url": "https://catalog.afi.com/Film/64766-STAR-WARS-THE-CLONE-WARS",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "AFI Catalog",
+      "revision": "",
+      "note": "Selected original-production roles and cast. Post-1993 catalogue entries are abbreviated; omitted credits are not assumed absent. Runtime differences are not used to infer a new cut."
+    },
+    {
+      "id": "film02-afi-force",
+      "title": "AFI Catalog — The Force Awakens",
+      "url": "https://catalog.afi.com/Catalog/moviedetails/70754",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "AFI Catalog",
+      "revision": "",
+      "note": "Selected original-production roles and cast. Post-1993 catalogue entries are abbreviated; omitted credits are not assumed absent. Runtime differences are not used to infer a new cut."
+    },
+    {
+      "id": "film02-film-phantom",
+      "title": "StarWars.com — The Phantom Menace",
+      "url": "https://www.starwars.com/films/star-wars-episode-i-the-phantom-menace",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Film-specific synopsis, original release and selected connections; current presentation is not proof of the original cut or every imported appearance."
+    },
+    {
+      "id": "film02-film-clones",
+      "title": "StarWars.com — Attack of the Clones",
+      "url": "https://www.starwars.com/films/star-wars-episode-ii-attack-of-the-clones",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Film-specific synopsis, original release and selected connections; current presentation is not proof of the original cut or every imported appearance."
+    },
+    {
+      "id": "film02-film-sith",
+      "title": "StarWars.com — Revenge of the Sith",
+      "url": "https://www.starwars.com/films/star-wars-episode-iii-revenge-of-the-sith",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Film-specific synopsis, original release and selected connections; current presentation is not proof of the original cut or every imported appearance."
+    },
+    {
+      "id": "film02-film-clone-film",
+      "title": "StarWars.com — The Clone Wars (film)",
+      "url": "https://www.starwars.com/films/star-wars-the-clone-wars",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Film-specific synopsis, original release and selected connections; current presentation is not proof of the original cut or every imported appearance."
+    },
+    {
+      "id": "film02-film-force",
+      "title": "StarWars.com — The Force Awakens",
+      "url": "https://www.starwars.com/films/star-wars-episode-vii-the-force-awakens",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Film-specific synopsis, original release and selected connections; current presentation is not proof of the original cut or every imported appearance."
+    },
+    {
+      "id": "film02-opening-phantom",
+      "title": "StarWars.com — The Phantom Menace opening",
+      "url": "https://www.starwars.com/video/star-wars-episode-i-the-phantom-menace-opening-crawl",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official video link and opening format only. No transcript, embed or local video copy."
+    },
+    {
+      "id": "film02-opening-clones",
+      "title": "StarWars.com — Attack Of The Clones opening",
+      "url": "https://www.starwars.com/video/star-wars-episode-ii-attack-of-the-clones-opening-crawl",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official video link and opening format only. No transcript, embed or local video copy."
+    },
+    {
+      "id": "film02-opening-sith",
+      "title": "StarWars.com — Revenge Of The Sith opening",
+      "url": "https://www.starwars.com/video/star-wars-episode-iii-revenge-of-the-sith-opening-crawl",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official video link and opening format only. No transcript, embed or local video copy."
+    },
+    {
+      "id": "film02-opening-force",
+      "title": "StarWars.com — The Force Awakens opening",
+      "url": "https://www.starwars.com/video/star-wars-episode-vii-the-force-awakens-opening-crawl",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Official video link and opening format only. No transcript, embed or local video copy."
+    },
+    {
+      "id": "film02-lucasfilm-force",
+      "title": "Lucasfilm — The Force Awakens",
+      "url": "https://www.lucasfilm.com/productions/episode-vii/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Final screenplay includes Michael Arndt alongside Abrams and Kasdan. The 2014 preproduction announcement is not treated as final credits."
+    },
+    {
+      "id": "film02-d23-force",
+      "title": "D23 — The Force Awakens",
+      "url": "https://d23.com/a-to-z/star-wars-the-force-awakens-film/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "D23",
+      "revision": "",
+      "note": "Selected performer–character pairs, original 2D/3D/IMAX availability and music. Hollywood gala and theatrical opening are different events."
+    },
+    {
+      "id": "film02-clone-press",
+      "title": "Lucasfilm / Warner Bros. — The Clone Wars production notes (preserved text)",
+      "url": "https://montebubbles.net/star_wars_the_clone_wars.htm",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "Lucasfilm / Warner Bros.",
+      "revision": "",
+      "note": "Contemporary studio press notes preserved on a third-party site, not a current official host. Film-specific voices and exact music roles; no text is copied."
+    },
+    {
+      "id": "film02-clone-opening",
+      "title": "Pittsburgh Post-Gazette — The Clone Wars opening observation",
+      "url": "https://www.post-gazette.com/ae/2008/08/15/movie-review-star-wars-the-clone-wars/stories/200808150139",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "Pittsburgh Post-Gazette",
+      "revision": "",
+      "note": "Contemporary viewing report used only for the narrated newsreel opening, not for the reviewer’s opinion or plot prose."
+    },
+    {
+      "id": "film02-naboo",
+      "title": "StarWars.com Databank — Naboo",
+      "url": "https://www.starwars.com/databank/naboo",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Selected introductory facts and explicit film appearances. A generic The Clone Wars appearance label is not automatically assigned to the feature film."
+    },
+    {
+      "id": "film02-geonosis",
+      "title": "StarWars.com Databank — Geonosis",
+      "url": "https://www.starwars.com/databank/geonosis",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Selected introductory facts and explicit film appearances. A generic The Clone Wars appearance label is not automatically assigned to the feature film."
+    },
+    {
+      "id": "film02-mustafar",
+      "title": "StarWars.com Databank — Mustafar",
+      "url": "https://www.starwars.com/databank/mustafar",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Selected introductory facts and explicit film appearances. A generic The Clone Wars appearance label is not automatically assigned to the feature film."
+    },
+    {
+      "id": "film02-jakku",
+      "title": "StarWars.com Databank — Jakku",
+      "url": "https://www.starwars.com/databank/jakku",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Selected introductory facts and explicit film appearances. A generic The Clone Wars appearance label is not automatically assigned to the feature film."
+    },
+    {
+      "id": "film02-reys-speeder",
+      "title": "StarWars.com Databank — Reys Speeder",
+      "url": "https://www.starwars.com/databank/reys-speeder",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Selected introductory facts and explicit film appearances. A generic The Clone Wars appearance label is not automatically assigned to the feature film."
+    },
+    {
+      "id": "film02-naboo-n-1-starfighter",
+      "title": "StarWars.com Databank — Naboo N 1 Starfighter",
+      "url": "https://www.starwars.com/databank/naboo-n-1-starfighter",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Selected introductory facts and explicit film appearances. A generic The Clone Wars appearance label is not automatically assigned to the feature film."
+    },
+    {
+      "id": "film02-at-te-walker",
+      "title": "StarWars.com Databank — At Te Walker",
+      "url": "https://www.starwars.com/databank/at-te-walker",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Selected introductory facts and explicit film appearances. A generic The Clone Wars appearance label is not automatically assigned to the feature film."
+    },
+    {
+      "id": "film02-millennium-falcon",
+      "title": "StarWars.com Databank — Millennium Falcon",
+      "url": "https://www.starwars.com/databank/millennium-falcon",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Manually selected facts, original archive summaries and source links only. No source prose, images, film transcript or catalogue dump is redistributed.",
+      "attribution": "StarWars.com Databank",
+      "revision": "",
+      "note": "Selected introductory facts and explicit film appearances. A generic The Clone Wars appearance label is not automatically assigned to the feature film."
+    },
+    {
+      "id": "film02-viewing-guide",
+      "title": "StarWars.com — Film and series viewing guide",
+      "url": "https://www.starwars.com/news/star-wars-movies-and-series-guide",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Archive grouping from the named episode sequence; no source descriptions or images copied.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Supports the film/series distinction and episode sequence. Collection labels are archive groupings, not release-version identities."
+    }
+  ],
+  "records": [
+    {
+      "id": "people:rey",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "rey",
+        "title": "Rey",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A scavenger from Jakku whose encounter with a Resistance droid draws her into the conflict with the First Order.",
+        "evidence": [
+          {
+            "sourceId": "film02-film-force",
+            "locator": "Film synopsis / Rey",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile for the film review; selected identity and connection only.",
+        "limitations": [
+          "Biographical and technical fields remain unfilled until separately checked."
+        ]
+      }
+    },
+    {
+      "id": "people:finn",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "finn",
+        "title": "Finn",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A stormtrooper who leaves the First Order and becomes Rey’s ally.",
+        "evidence": [
+          {
+            "sourceId": "film02-lucasfilm-force",
+            "locator": "The Story / Finn",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile for the film review; selected identity and connection only.",
+        "limitations": [
+          "Biographical and technical fields remain unfilled until separately checked."
+        ]
+      }
+    },
+    {
+      "id": "people:poe-dameron",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "poe-dameron",
+        "title": "Poe Dameron",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Resistance pilot played by Oscar Isaac in The Force Awakens.",
+        "evidence": [
+          {
+            "sourceId": "film02-d23-force",
+            "locator": "Cast / Oscar Isaac as Poe Dameron",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile for the film review; selected identity and connection only.",
+        "limitations": [
+          "Biographical and technical fields remain unfilled until separately checked."
+        ]
+      }
+    },
+    {
+      "id": "people:kylo-ren",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "kylo-ren",
+        "title": "Kylo Ren",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A First Order warrior whose pursuit of the Resistance brings him into conflict with Rey and Finn.",
+        "evidence": [
+          {
+            "sourceId": "film02-lucasfilm-force",
+            "locator": "The Story / Kylo Ren",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile for the film review; selected identity and connection only.",
+        "limitations": [
+          "Biographical and technical fields remain unfilled until separately checked."
+        ]
+      }
+    },
+    {
+      "id": "planets:jakku",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "jakku",
+        "title": "Jakku",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A desert frontier world where scavengers recover useful parts from the wreckage of past battles.",
+        "evidence": [
+          {
+            "sourceId": "film02-jakku",
+            "locator": "Introduction / desert and wreckage",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile for the film review; selected identity and connection only.",
+        "limitations": [
+          "Biographical and technical fields remain unfilled until separately checked."
+        ]
+      }
+    },
+    {
+      "id": "vehicles:reys-speeder",
+      "primary": false,
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "reys-speeder",
+        "title": "Rey’s speeder",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A repulsorlift vehicle assembled by Rey to carry salvage across Jakku.",
+        "evidence": [
+          {
+            "sourceId": "film02-reys-speeder",
+            "locator": "Introduction / construction and use",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Introductory profile for the film review; selected identity and connection only.",
+        "limitations": [
+          "Biographical and technical fields remain unfilled until separately checked."
+        ]
+      }
+    },
+    {
+      "id": "films:4",
+      "primary": true,
+      "summary": {
+        "text": "Two Jedi escort Naboo’s queen away from an invasion and meet a young slave, Anakin, on Tatooine. Their attempt to free Naboo reveals the return of the Sith.",
+        "evidence": [
+          {
+            "sourceId": "film02-film-phantom",
+            "locator": "Official film synopsis",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Writers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Rick McCallum",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Producer(s)",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "John Williams",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Music",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "1999-05-19",
+          "evidence": [
+            {
+              "sourceId": "film02-film-phantom",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "Original US theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Details / US opening date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Prequel trilogy",
+          "evidence": [
+            {
+              "sourceId": "film02-viewing-guide",
+              "locator": "Named episodic films / release order",
+              "note": "Archive collection grouping; not a distinct cut or release event."
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Details / physical properties",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episode_id",
+          "value": "1",
+          "evidence": [
+            {
+              "sourceId": "film02-film-phantom",
+              "locator": "Official film title / episode number",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "cinematography",
+          "value": "David Tattersall",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Photography",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "editing",
+          "value": "Paul Martin Smith; Ben Burtt",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Film editor(s)",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Scrolling prologue",
+          "evidence": [
+            {
+              "sourceId": "film02-opening-phantom",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_video_url",
+          "value": "https://www.starwars.com/video/star-wars-episode-i-the-phantom-menace-opening-crawl",
+          "evidence": [
+            {
+              "sourceId": "film02-opening-phantom",
+              "locator": "Official opening video URL",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "George Lucas",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rick McCallum",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David Tattersall",
+          "role": "Cinematographer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Cinematographer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Paul Martin Smith",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ben Burtt",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gavin Bocquet",
+          "role": "Production designer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Production credits / Production designer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Liam Neeson",
+          "role": "Performer",
+          "characterName": "Qui-Gon Jinn",
+          "characterRecordId": "people:32",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Cast / Liam Neeson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ewan McGregor",
+          "role": "Performer",
+          "characterName": "Obi-Wan Kenobi",
+          "characterRecordId": "people:10",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Cast / Ewan McGregor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Natalie Portman",
+          "role": "Performer",
+          "characterName": "Padmé Amidala",
+          "characterRecordId": "people:35",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Cast / Natalie Portman",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jake Lloyd",
+          "role": "Performer",
+          "characterName": "Anakin Skywalker",
+          "characterRecordId": "people:11",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Cast / Jake Lloyd",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ian McDiarmid",
+          "role": "Performer",
+          "characterName": "Palpatine",
+          "characterRecordId": "people:21",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Cast / Ian McDiarmid",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:32",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Cast / Liam Neeson as Qui-Gon Jinn",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Cast / Ewan McGregor as Obi-Wan Kenobi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:35",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Cast / Natalie Portman as Padmé Amidala",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:11",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Cast / Jake Lloyd as Anakin Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:21",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-phantom",
+              "locator": "Cast / Ian McDiarmid as Palpatine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:44",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-film-phantom",
+              "locator": "Synopsis / Darth Maul",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-film-phantom",
+              "locator": "Synopsis / Tatooine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:8",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-film-phantom",
+              "locator": "Synopsis / Naboo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:35",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-film-phantom",
+              "locator": "Synopsis / Databank: The Phantom Menace / AAT",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:39",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-naboo-n-1-starfighter",
+              "locator": "Appearances / The Phantom Menace",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production facts, original-film cast and crew, universe connections and a scoped version/release audit.",
+        "limitations": [
+          "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+          "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+          "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+          "Later streaming masters can differ from the original print. A platform availability date does not establish which edit or master was supplied. Physical-media dates remain outside the current scope."
+        ]
+      }
+    },
+    {
+      "id": "films:5",
+      "primary": true,
+      "summary": {
+        "text": "Anakin is assigned to protect Padmé as a separatist crisis threatens the Republic. Obi-Wan follows the trail of an assassination plot into the beginnings of the Clone Wars.",
+        "evidence": [
+          {
+            "sourceId": "film02-film-clones",
+            "locator": "Official film synopsis",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "George Lucas; Jonathan Hales",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Writers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Rick McCallum",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Producer(s)",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "John Williams",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Music",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2002-05-16",
+          "evidence": [
+            {
+              "sourceId": "film02-film-clones",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "Original US theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Details / US opening date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Prequel trilogy",
+          "evidence": [
+            {
+              "sourceId": "film02-viewing-guide",
+              "locator": "Named episodic films / release order",
+              "note": "Archive collection grouping; not a distinct cut or release event."
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Details / physical properties",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episode_id",
+          "value": "2",
+          "evidence": [
+            {
+              "sourceId": "film02-film-clones",
+              "locator": "Official film title / episode number",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "story",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Writers / Story",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "cinematography",
+          "value": "David Tattersall",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Photography",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "editing",
+          "value": "Ben Burtt",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Film editor(s)",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Scrolling prologue",
+          "evidence": [
+            {
+              "sourceId": "film02-opening-clones",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_video_url",
+          "value": "https://www.starwars.com/video/star-wars-episode-ii-attack-of-the-clones-opening-crawl",
+          "evidence": [
+            {
+              "sourceId": "film02-opening-clones",
+              "locator": "Official opening video URL",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "George Lucas",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jonathan Hales",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Story",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Story",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rick McCallum",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David Tattersall",
+          "role": "Cinematographer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Cinematographer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ben Burtt",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gavin Bocquet",
+          "role": "Production designer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Production credits / Production designer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ewan McGregor",
+          "role": "Performer",
+          "characterName": "Obi-Wan Kenobi",
+          "characterRecordId": "people:10",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Cast / Ewan McGregor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Natalie Portman",
+          "role": "Performer",
+          "characterName": "Padmé Amidala",
+          "characterRecordId": "people:35",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Cast / Natalie Portman",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Hayden Christensen",
+          "role": "Performer",
+          "characterName": "Anakin Skywalker",
+          "characterRecordId": "people:11",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Cast / Hayden Christensen",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Frank Oz",
+          "role": "Voice performer",
+          "characterName": "Yoda",
+          "characterRecordId": "people:20",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Cast / Frank Oz",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ian McDiarmid",
+          "role": "Performer",
+          "characterName": "Palpatine",
+          "characterRecordId": "people:21",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Cast / Ian McDiarmid",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Cast / Ewan McGregor as Obi-Wan Kenobi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:35",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Cast / Natalie Portman as Padmé Amidala",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:11",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Cast / Hayden Christensen as Anakin Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:20",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Cast / Frank Oz as Yoda",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:21",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clones",
+              "locator": "Cast / Ian McDiarmid as Palpatine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:67",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-film-clones",
+              "locator": "Synopsis / Count Dooku",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:8",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-naboo",
+              "locator": "Appearances / Attack of the Clones",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:11",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-geonosis",
+              "locator": "Appearances / Attack of the Clones",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:47",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-film-clones",
+              "locator": "Databank: Attack of the Clones / AA-9 Coruscant freighter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:53",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-at-te-walker",
+              "locator": "Appearances / Attack of the Clones",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production facts, original-film cast and crew, universe connections and a scoped version/release audit.",
+        "limitations": [
+          "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+          "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+          "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+          "Later streaming masters can differ from the original print. A platform availability date does not establish which edit or master was supplied. Physical-media dates remain outside the current scope."
+        ]
+      }
+    },
+    {
+      "id": "films:6",
+      "primary": true,
+      "summary": {
+        "text": "As the Clone Wars approach their end, Anakin’s fears and Palpatine’s influence divide him from the Jedi. The Republic falls and Darth Vader emerges.",
+        "evidence": [
+          {
+            "sourceId": "film02-film-sith",
+            "locator": "Official film synopsis",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Writers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Rick McCallum",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Producer(s)",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "John Williams",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Music",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2005-05-19",
+          "evidence": [
+            {
+              "sourceId": "film02-film-sith",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "Original US theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Details / US opening date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Prequel trilogy",
+          "evidence": [
+            {
+              "sourceId": "film02-viewing-guide",
+              "locator": "Named episodic films / release order",
+              "note": "Archive collection grouping; not a distinct cut or release event."
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Details / physical properties",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episode_id",
+          "value": "3",
+          "evidence": [
+            {
+              "sourceId": "film02-film-sith",
+              "locator": "Official film title / episode number",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "cinematography",
+          "value": "David Tattersall",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Photography",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "editing",
+          "value": "Roger Barton; Ben Burtt",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Film editor(s)",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Scrolling prologue",
+          "evidence": [
+            {
+              "sourceId": "film02-opening-sith",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_video_url",
+          "value": "https://www.starwars.com/video/star-wars-episode-iii-revenge-of-the-sith-opening-crawl",
+          "evidence": [
+            {
+              "sourceId": "film02-opening-sith",
+              "locator": "Official opening video URL",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "George Lucas",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rick McCallum",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David Tattersall",
+          "role": "Cinematographer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Cinematographer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Roger Barton",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ben Burtt",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gavin Bocquet",
+          "role": "Production designer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Production credits / Production designer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ewan McGregor",
+          "role": "Performer",
+          "characterName": "Obi-Wan Kenobi",
+          "characterRecordId": "people:10",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Cast / Ewan McGregor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Natalie Portman",
+          "role": "Performer",
+          "characterName": "Padmé Amidala",
+          "characterRecordId": "people:35",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Cast / Natalie Portman",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Hayden Christensen",
+          "role": "Performer",
+          "characterName": "Anakin Skywalker",
+          "characterRecordId": "people:11",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Cast / Hayden Christensen",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ian McDiarmid",
+          "role": "Performer",
+          "characterName": "Palpatine",
+          "characterRecordId": "people:21",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Cast / Ian McDiarmid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Frank Oz",
+          "role": "Voice performer",
+          "characterName": "Yoda",
+          "characterRecordId": "people:20",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Cast / Frank Oz",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Cast / Ewan McGregor as Obi-Wan Kenobi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:35",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Cast / Natalie Portman as Padmé Amidala",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:11",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Cast / Hayden Christensen as Anakin Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:21",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Cast / Ian McDiarmid as Palpatine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:20",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-sith",
+              "locator": "Cast / Frank Oz as Yoda",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:4",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-film-sith",
+              "locator": "Synopsis / Anakin becomes Darth Vader",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:13",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-mustafar",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:53",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-at-te-walker",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-millennium-falcon",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production facts, original-film cast and crew, universe connections and a scoped version/release audit.",
+        "limitations": [
+          "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+          "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+          "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+          "Later streaming masters can differ from the original print. A platform availability date does not establish which edit or master was supplied. Physical-media dates remain outside the current scope."
+        ]
+      }
+    },
+    {
+      "id": "films:clone-wars-film",
+      "primary": true,
+      "summary": {
+        "text": "Anakin and his new apprentice Ahsoka try to rescue Jabba’s kidnapped son. Dooku and Ventress work to turn the mission against the Republic.",
+        "evidence": [
+          {
+            "sourceId": "film02-film-clone-film",
+            "locator": "Official film synopsis",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "Dave Filoni",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clone-film",
+              "locator": "Production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "Henry Gilroy; Steven Melching; Scott Murphy",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clone-film",
+              "locator": "Production credits / Writers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Catherine Winder",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clone-film",
+              "locator": "Production credits / Producer(s)",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Kevin Kiner",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Score by",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2008-08-15",
+          "evidence": [
+            {
+              "sourceId": "film02-film-clone-film",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "Original US theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clone-film",
+              "locator": "Details / US opening date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Animated feature",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clone-film",
+              "locator": "Details / Animation",
+              "note": "Archive collection grouping; not a distinct cut or release event."
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Animated film",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-clone-film",
+              "locator": "Details / physical properties",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "George Lucas",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Executive Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "original_music",
+          "value": "John Williams",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Original Star Wars Themes and Score by",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Narrated newsreel prologue",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-opening",
+              "locator": "Opening observation / 1940s-style newsreel",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Dave Filoni",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Henry Gilroy",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Steven Melching",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Scott Murphy",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Screenwriter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Catherine Winder",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "George Lucas",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Executive producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jason W. A. Tucker",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kevin Kiner",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Original themes and score",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Filmmakers / Original themes and score",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Matt Lanter",
+          "role": "Voice performer",
+          "characterName": "Anakin Skywalker",
+          "characterRecordId": "people:11",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Matt Lanter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ashley Eckstein",
+          "role": "Voice performer",
+          "characterName": "Ahsoka Tano",
+          "characterRecordId": "people:ahsoka-tano",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Ashley Eckstein",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "James Arnold Taylor",
+          "role": "Voice performer",
+          "characterName": "Obi-Wan Kenobi",
+          "characterRecordId": "people:10",
+          "scope": "Original English-language film",
+          "note": "Selected character only; additional voices in this film are not exhaustively indexed.",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / James Arnold Taylor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dee Bradley Baker",
+          "role": "Voice performer",
+          "characterName": "Captain Rex",
+          "characterRecordId": "people:captain-rex",
+          "scope": "Original English-language film",
+          "note": "Selected character only; additional voices in this film are not exhaustively indexed.",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Dee Bradley Baker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Tom Kane",
+          "role": "Voice performer",
+          "characterName": "Yoda",
+          "characterRecordId": "people:20",
+          "scope": "Original English-language film",
+          "note": "Selected character only; additional voices in this film are not exhaustively indexed.",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Tom Kane",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Nika Futterman",
+          "role": "Voice performer",
+          "characterName": "Asajj Ventress",
+          "characterRecordId": null,
+          "scope": "Original English-language film",
+          "note": "Selected character only; additional voices in this film are not exhaustively indexed.",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Nika Futterman",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ian Abercrombie",
+          "role": "Voice performer",
+          "characterName": "Palpatine",
+          "characterRecordId": "people:21",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Ian Abercrombie",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Corey Burton",
+          "role": "Voice performer",
+          "characterName": "Ziro the Hutt",
+          "characterRecordId": null,
+          "scope": "Original English-language film",
+          "note": "Selected character only; additional voices in this film are not exhaustively indexed.",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Corey Burton",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Catherine Taber",
+          "role": "Voice performer",
+          "characterName": "Padmé Amidala",
+          "characterRecordId": "people:35",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Catherine Taber",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Matthew Wood",
+          "role": "Voice performer",
+          "characterName": "Battle droids",
+          "characterRecordId": null,
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Matthew Wood",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kevin Michael Richardson",
+          "role": "Voice performer",
+          "characterName": "Jabba the Hutt",
+          "characterRecordId": "people:16",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Kevin Michael Richardson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David Acord",
+          "role": "Voice performer",
+          "characterName": "Rotta",
+          "characterRecordId": null,
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / David Acord",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Samuel L. Jackson",
+          "role": "Voice performer",
+          "characterName": "Mace Windu",
+          "characterRecordId": "people:51",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Samuel L. Jackson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Anthony Daniels",
+          "role": "Voice performer",
+          "characterName": "C-3PO",
+          "characterRecordId": "people:2",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Anthony Daniels",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Christopher Lee",
+          "role": "Voice performer",
+          "characterName": "Count Dooku",
+          "characterRecordId": "people:67",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Christopher Lee",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:11",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Matt Lanter as Anakin Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ahsoka-tano",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Ashley Eckstein as Ahsoka Tano",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / James Arnold Taylor as Obi-Wan Kenobi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:captain-rex",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Dee Bradley Baker as Captain Rex",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:20",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Tom Kane as Yoda",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:21",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Ian Abercrombie as Palpatine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:35",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Catherine Taber as Padmé Amidala",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:16",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Kevin Michael Richardson as Jabba the Hutt",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:51",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Samuel L. Jackson as Mace Windu",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:2",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Anthony Daniels as C-3PO",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:67",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-clone-press",
+              "locator": "Cast / Christopher Lee as Count Dooku",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production facts, original-film cast and crew, universe connections and a scoped version/release audit.",
+        "limitations": [
+          "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+          "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+          "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+          "This is the 2008 feature film, separate from the television series. Netflix director’s-cut wording applies to series episodes; it does not establish an extended feature-film cut.",
+          "Film-specific world and vehicle appearances remain pending; a generic Databank series appearance label is insufficient."
+        ]
+      }
+    },
+    {
+      "id": "films:force-awakens",
+      "primary": true,
+      "summary": {
+        "text": "Rey and the former stormtrooper Finn join Han Solo in a struggle against the First Order. A droid carrying a clue to Luke Skywalker draws them toward the Resistance.",
+        "evidence": [
+          {
+            "sourceId": "film02-film-force",
+            "locator": "Official film synopsis",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "J.J. Abrams",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "screenplay",
+          "value": "J.J. Abrams; Lawrence Kasdan; Michael Arndt",
+          "evidence": [
+            {
+              "sourceId": "film02-lucasfilm-force",
+              "locator": "Introduction / final screenplay credits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "producer",
+          "value": "Kathleen Kennedy; J.J. Abrams; Bryan Burk",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Producer(s)",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "John Williams",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Music",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2015-12-18",
+          "evidence": [
+            {
+              "sourceId": "film02-film-force",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "Original US theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Details / US opening date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "collection",
+          "value": "Sequel trilogy",
+          "evidence": [
+            {
+              "sourceId": "film02-viewing-guide",
+              "locator": "Named episodic films / release order",
+              "note": "Archive collection grouping; not a distinct cut or release event."
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action film",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Details / physical properties",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episode_id",
+          "value": "7",
+          "evidence": [
+            {
+              "sourceId": "film02-film-force",
+              "locator": "Official film title / episode number",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "cinematography",
+          "value": "Dan Mindel",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Photography",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "editing",
+          "value": "Maryann Brandon; Mary Jo Markey",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Film editor(s)",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_type",
+          "value": "Scrolling prologue",
+          "evidence": [
+            {
+              "sourceId": "film02-opening-force",
+              "locator": "Official opening video",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "opening_video_url",
+          "value": "https://www.starwars.com/video/star-wars-episode-vii-the-force-awakens-opening-crawl",
+          "evidence": [
+            {
+              "sourceId": "film02-opening-force",
+              "locator": "Official opening video URL",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "J.J. Abrams",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "J.J. Abrams",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-lucasfilm-force",
+              "locator": "Introduction / screenplay by Abrams, Kasdan and Arndt",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lawrence Kasdan",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-lucasfilm-force",
+              "locator": "Introduction / screenplay by Abrams, Kasdan and Arndt",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Michael Arndt",
+          "role": "Screenwriter",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-lucasfilm-force",
+              "locator": "Introduction / screenplay by Abrams, Kasdan and Arndt",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "J.J. Abrams",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Bryan Burk",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dan Mindel",
+          "role": "Cinematographer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Cinematographer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Maryann Brandon",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Mary Jo Markey",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Original film production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-afi-force",
+              "locator": "Production credits / Composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Harrison Ford",
+          "role": "Performer",
+          "characterName": "Han Solo",
+          "characterRecordId": "people:14",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Harrison Ford",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Mark Hamill",
+          "role": "Performer",
+          "characterName": "Luke Skywalker",
+          "characterRecordId": "people:1",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Mark Hamill",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Fisher",
+          "role": "Performer",
+          "characterName": "Leia Organa",
+          "characterRecordId": "people:5",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Carrie Fisher",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Adam Driver",
+          "role": "Performer",
+          "characterName": "Kylo Ren",
+          "characterRecordId": "people:kylo-ren",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Adam Driver",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Daisy Ridley",
+          "role": "Performer",
+          "characterName": "Rey",
+          "characterRecordId": "people:rey",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Daisy Ridley",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Boyega",
+          "role": "Performer",
+          "characterName": "Finn",
+          "characterRecordId": "people:finn",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / John Boyega",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Oscar Isaac",
+          "role": "Performer",
+          "characterName": "Poe Dameron",
+          "characterRecordId": "people:poe-dameron",
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Oscar Isaac",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lupita Nyong’o",
+          "role": "Performer",
+          "characterName": "Maz Kanata",
+          "characterRecordId": null,
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Lupita Nyong’o",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Andy Serkis",
+          "role": "Performer",
+          "characterName": "Snoke",
+          "characterRecordId": null,
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Andy Serkis",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Domhnall Gleeson",
+          "role": "Performer",
+          "characterName": "General Hux",
+          "characterRecordId": null,
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Domhnall Gleeson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gwendoline Christie",
+          "role": "Performer",
+          "characterName": "Captain Phasma",
+          "characterRecordId": null,
+          "scope": "Original English-language film",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Gwendoline Christie",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:14",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Harrison Ford as Han Solo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:1",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Mark Hamill as Luke Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:5",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Carrie Fisher as Leia Organa",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:kylo-ren",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Adam Driver as Kylo Ren",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:rey",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Daisy Ridley as Rey",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:finn",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / John Boyega as Finn",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:poe-dameron",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-d23-force",
+              "locator": "Cast / Oscar Isaac as Poe Dameron",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:13",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-film-force",
+              "locator": "Synopsis / Chewbacca",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:jakku",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-jakku",
+              "locator": "Appearances / The Force Awakens",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:reys-speeder",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-reys-speeder",
+              "locator": "Appearances / The Force Awakens",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:10",
+          "relation": "features",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "film02-millennium-falcon",
+              "locator": "Appearances / The Force Awakens",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production facts, original-film cast and crew, universe connections and a scoped version/release audit.",
+        "limitations": [
+          "Selected original English-language credits and connections, not complete end credits or a cut-by-cut appearance index.",
+          "Release dates are qualified by territory and medium. No DVD, Blu-ray, download-sale or classification dates are treated as release events.",
+          "The version search covers original theatrical presentations, documented edits and 3D conversions, selected theatrical returns and TV/streaming launches. It is not an exhaustive country-by-country screening calendar.",
+          "No separately released extended narrative cut was established by the reviewed official references. 2D, 3D and IMAX are documented presentations, not evidence of a longer cut."
+        ]
+      }
+    }
+  ],
+  "issues": [
+    {
+      "recordId": "films:4",
+      "field": "version_completeness",
+      "status": "pending",
+      "note": "Original 35mm/digital print differences and later streaming-master revisions need a shot-level source comparison; no claim that all releases use an identical cut."
+    },
+    {
+      "recordId": "films:5",
+      "field": "version_completeness",
+      "status": "pending",
+      "note": "Original 35mm/digital print differences and later streaming-master revisions need a shot-level source comparison; no claim that all releases use an identical cut."
+    },
+    {
+      "recordId": "films:6",
+      "field": "version_completeness",
+      "status": "pending",
+      "note": "Original 35mm/digital print differences and later streaming-master revisions need a shot-level source comparison; no claim that all releases use an identical cut."
+    },
+    {
+      "recordId": "films:clone-wars-film",
+      "field": "film_appearances",
+      "status": "pending",
+      "note": "Add film-specific locations and vehicles only when the evidence distinguishes the feature from the television series."
+    }
+  ]
+}

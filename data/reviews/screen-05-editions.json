@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "id": "screen-05-editions",
+  "checkedAt": "2026-10-27",
+  "sources": [],
+  "editions": [],
+  "releases": [
+    {
+      "id": "series:obi-wan:disney-premiere-2022",
+      "recordId": "series:obi-wan",
+      "date": "2022-05-26",
+      "territory": "US (Pacific date)",
+      "medium": "Streaming",
+      "eventType": "series_premiere",
+      "status": "released",
+      "label": "Disney+ two-episode premiere",
+      "note": "9 p.m. Pacific on May 26; midnight Eastern on May 27 is the same release instant. The official catalogue continues to list May 27. No alternate cut inferred.",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-early",
+          "locator": "Official announcement reproduced / PT and ET times",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:obi-wan:announced-premiere-2022",
+      "recordId": "series:obi-wan",
+      "date": "2022-05-27",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "announced_premiere",
+      "status": "superseded",
+      "label": "Previously announced premiere date",
+      "note": "The advertised launch was brought forward three hours in Pacific time. May 27 is still the Eastern date of the actual launch; this row preserves the earlier announcement, not a second release.",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-plan",
+          "locator": "Announced Friday May 27 premiere",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:obi-wan:finale-2022",
+      "recordId": "series:obi-wan",
+      "date": "2022-06-22",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "season_finale",
+      "status": "released",
+      "label": "Disney+ Part VI finale",
+      "note": "Final installment of the six-part limited series; not an alternate edition.",
+      "evidence": [
+        {
+          "sourceId": "screen05-obi-brief",
+          "locator": "Page 1 / finale Wednesday June 22",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:ahsoka:disney-premiere-2023",
+      "recordId": "series:ahsoka",
+      "date": "2023-08-22",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "series_premiere",
+      "status": "released",
+      "label": "Disney+ two-episode premiere",
+      "note": "US Pacific calendar date; the August 23 website article date is not a separate release.",
+      "evidence": [
+        {
+          "sourceId": "screen05-ahsoka-date",
+          "locator": "Updated two-episode premiere / 6 p.m. PT",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:ahsoka:announced-premiere-2023",
+      "recordId": "series:ahsoka",
+      "date": "2023-08-23",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "announced_premiere",
+      "status": "superseded",
+      "label": "Originally announced premiere",
+      "note": "US launch moved to August 22 at 6 p.m. PT. No second premiere or alternate edit.",
+      "evidence": [
+        {
+          "sourceId": "screen05-ahsoka-plan",
+          "locator": "June 7 / original Wednesday premiere",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:ahsoka:episode5-theaters-2023",
+      "recordId": "series:ahsoka",
+      "date": "2023-09-12",
+      "territory": "US (selected cinemas)",
+      "medium": "Theatrical",
+      "eventType": "episode_screening",
+      "status": "released",
+      "label": "Episode 5 theatrical fan screening",
+      "note": "Selected US cinemas only. Special showing of one episode; no new cut established. International city dates are not inferred from the US schedule.",
+      "evidence": [
+        {
+          "sourceId": "screen05-ahsoka-theaters",
+          "locator": "Ten US cities / September 12",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:ahsoka:season1-finale-2023",
+      "recordId": "series:ahsoka",
+      "date": "2023-10-03",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "season_finale",
+      "status": "released",
+      "label": "Disney+ season 1 finale",
+      "note": "US release of Part Eight; not the end of the entire continuing series.",
+      "evidence": [
+        {
+          "sourceId": "screen05-ahsoka-finale",
+          "locator": "Tuesday October 3 / finale episode 8",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:skeleton-crew:disney-premiere-2024",
+      "recordId": "series:skeleton-crew",
+      "date": "2024-12-02",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "series_premiere",
+      "status": "released",
+      "label": "Disney+ two-episode premiere",
+      "note": "US Pacific date; some international calendars have already reached December 3.",
+      "evidence": [
+        {
+          "sourceId": "screen05-skeleton-date",
+          "locator": "December 2 at 6 p.m. PT",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:skeleton-crew:announced-premiere-2024",
+      "recordId": "series:skeleton-crew",
+      "date": "2024-12-03",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "announced_premiere",
+      "status": "superseded",
+      "label": "Originally announced premiere",
+      "note": "US launch moved to December 2 at 6 p.m. Pacific. Not a second release or version.",
+      "evidence": [
+        {
+          "sourceId": "screen05-skeleton-production",
+          "locator": "Original December 3 premiere announcement",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:skeleton-crew:fan-screening-2024",
+      "recordId": "series:skeleton-crew",
+      "date": "2024-12-02",
+      "territory": "US (selected cinemas)",
+      "medium": "Theatrical",
+      "eventType": "episode_screening",
+      "status": "released",
+      "label": "Two-episode theatrical fan screening",
+      "note": "First two series episodes at selected US cinemas; no distinct edit established.",
+      "evidence": [
+        {
+          "sourceId": "screen05-skeleton-theaters",
+          "locator": "December 2 / 25 US locations",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:skeleton-crew:season1-finale-2025",
+      "recordId": "series:skeleton-crew",
+      "date": "2025-01-14",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "season_finale",
+      "status": "released",
+      "label": "Disney+ season 1 finale",
+      "note": "Eighth episode of the reviewed first season.",
+      "evidence": [
+        {
+          "sourceId": "screen05-skeleton-finale",
+          "locator": "Tuesday January 14 / episode 8",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:acolyte:fan-screening-2024",
+      "recordId": "series:acolyte",
+      "date": "2024-06-03",
+      "territory": "US (selected cinemas)",
+      "medium": "Theatrical",
+      "eventType": "episode_screening",
+      "status": "released",
+      "label": "Two-episode theatrical fan screening",
+      "note": "Selected US cinemas, two episodes; no separate feature or alternate edit established.",
+      "evidence": [
+        {
+          "sourceId": "screen05-acolyte-theaters",
+          "locator": "June 3 / 26 US locations",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:acolyte:disney-premiere-2024",
+      "recordId": "series:acolyte",
+      "date": "2024-06-04",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "series_premiere",
+      "status": "released",
+      "label": "Disney+ two-episode premiere",
+      "note": "US series streaming debut; the May 23 red-carpet event is not used as the public premiere.",
+      "evidence": [
+        {
+          "sourceId": "screen05-acolyte-launch",
+          "locator": "June 4 / two-episode premiere",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:acolyte:season1-finale-2024",
+      "recordId": "series:acolyte",
+      "date": "2024-07-16",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "season_finale",
+      "status": "released",
+      "label": "Disney+ season 1 finale",
+      "note": "Eighth episode of the released first season.",
+      "evidence": [
+        {
+          "sourceId": "screen05-acolyte-finale",
+          "locator": "Tuesday July 16 / episode 8 at 6 p.m. PT",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:maul-shadow-lord:disney-premiere-2026",
+      "recordId": "series:maul-shadow-lord",
+      "date": "2026-04-06",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "series_premiere",
+      "status": "released",
+      "label": "Disney+ two-episode season 1 premiere",
+      "note": "US Pacific release date; two chapters weekly. Does not mark the announced second season as released.",
+      "evidence": [
+        {
+          "sourceId": "screen05-maul-rollout",
+          "locator": "April 6 at 12 a.m. PT / two-episode premiere",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "series:maul-shadow-lord:season1-finale-2026",
+      "recordId": "series:maul-shadow-lord",
+      "date": "2026-05-04",
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "season_finale",
+      "status": "released",
+      "label": "Disney+ season 1 finale",
+      "note": "Final two chapters of the ten-chapter first season; local-midnight timing was stated in the updated rollout announcement.",
+      "evidence": [
+        {
+          "sourceId": "screen05-maul-cast",
+          "locator": "May 4 / all season-1 episodes now streaming",
+          "note": ""
+        },
+        {
+          "sourceId": "screen05-maul-rollout",
+          "locator": "Updated rollout / May 4 finale episodes at local midnight",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "facts": []
+}

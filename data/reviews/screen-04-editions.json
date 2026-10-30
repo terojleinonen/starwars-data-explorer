@@ -1,0 +1,483 @@
+{
+  "version": 1,
+  "id": "screen-04-editions",
+  "checkedAt": "2026-10-27",
+  "sources": [],
+  "editions": [
+    {
+      "id": "series:clone-wars-micro:streaming-volumes-2021",
+      "recordId": "series:clone-wars-micro",
+      "label": "Two-volume streaming compilation",
+      "year": 2021,
+      "kind": "revision",
+      "summary": "Disney+ groups the earlier 25-chapter micro-series into Volumes 1 and 2. The two-volume catalogue arrangement is distinct from its three original TV seasons.",
+      "scopeNote": "Compilation grouping only; no new story scenes, restoration, exact runtime or identical soundtrack/master is inferred.",
+      "evidence": [
+        {
+          "sourceId": "screen04-micro-vintage",
+          "locator": "Vintage Collection / Volume 1 & 2",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [],
+      "releases": [
+        {
+          "id": "series:clone-wars-micro:disney-2021",
+          "date": "2021-04-02",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Streaming",
+          "eventType": "platform_launch",
+          "status": "released",
+          "label": "Disney+ Vintage Collection arrival",
+          "note": "US catalogue arrival for both volumes; this is not the original TV premiere.",
+          "evidence": [
+            {
+              "sourceId": "screen04-micro-vintage",
+              "locator": "2 April 2021 release-day announcement",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "series:rebels:spark-original-2014",
+      "recordId": "series:rebels",
+      "label": "Spark of Rebellion — original premiere",
+      "year": 2014,
+      "kind": "original",
+      "summary": "The launch movie introduces the Ghost crew. Its authenticated streaming debut preceded the Disney Channel television premiere.",
+      "scopeNote": "Applies to the premiere programme, not a separate version of all four seasons. General series credits are not automatically assigned to this pilot edition.",
+      "evidence": [
+        {
+          "sourceId": "screen04-rebels-production",
+          "locator": "One-hour premiere programme",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [],
+      "releases": [
+        {
+          "id": "series:rebels:spark-watch-announced",
+          "date": "2014-09-29",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Streaming",
+          "eventType": "platform_launch",
+          "status": "superseded",
+          "label": "Initially announced WATCH Disney XD date — superseded",
+          "note": "Moved earlier to 26 September by the later official update. This is not an actual 29 September first release.",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "Initial streaming schedule",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "series:rebels:spark-watch-actual",
+          "date": "2014-09-26",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Streaming",
+          "eventType": "platform_launch",
+          "status": "released",
+          "label": "WATCH Disney XD authenticated premiere",
+          "note": "Verified US users received early access. Not an unrestricted public stream or digital-purchase release.",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-streaming-update",
+              "locator": "Updated Friday 26 September debut",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "series:rebels:spark-disney-channel",
+          "date": "2014-10-03",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Television",
+          "eventType": "television_premiere",
+          "status": "released",
+          "label": "Disney Channel premiere movie",
+          "note": "US television premiere; authenticated streaming had already started.",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-production",
+              "locator": "US Disney Channel schedule",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "series:rebels:spark-abc-2014",
+      "recordId": "series:rebels",
+      "label": "Spark of Rebellion — added Vader opening",
+      "year": 2014,
+      "kind": "revision",
+      "summary": "The ABC broadcast adds a scene with the Inquisitor and Darth Vader. James Earl Jones supplies Vader’s voice.",
+      "scopeNote": "A documented episode/premiere-movie revision, not an inference from a trailer or a blanket recut of the series. Later platform copies are not assumed to use this version.",
+      "evidence": [
+        {
+          "sourceId": "screen04-rebels-abc",
+          "locator": "Added opening scene / ABC broadcast",
+          "note": ""
+        },
+        {
+          "sourceId": "screen04-rebels-abc-preview",
+          "locator": "Official preview / extended version of premiere movie",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [
+        {
+          "person": "James Earl Jones",
+          "role": "Voice of Darth Vader (added opening scene)",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-abc",
+              "locator": "Added-scene voice credit",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "series:rebels:spark-abc",
+          "date": "2014-10-26",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Television",
+          "eventType": "television_revision",
+          "status": "released",
+          "label": "ABC added-scene broadcast",
+          "note": "US ABC broadcast with the new Vader scene.",
+          "evidence": [
+            {
+              "sourceId": "screen04-rebels-abc",
+              "locator": "Sunday 26 October 2014",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "id": "series:clone-wars-micro:cartoon-network-2003",
+      "date": "2003-11-07",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Television",
+      "eventType": "television_premiere",
+      "status": "released",
+      "label": "Cartoon Network series premiere",
+      "note": "Original short-chapter TV presentation; not the 2008 CGI series.",
+      "evidence": [
+        {
+          "sourceId": "screen04-micro-premiere",
+          "locator": "US broadcast premiere",
+          "note": ""
+        }
+      ],
+      "recordId": "series:clone-wars-micro",
+      "editionId": null
+    },
+    {
+      "id": "series:rebels:weekly-disney-xd",
+      "date": "2014-10-13",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Television",
+      "eventType": "weekly_series_launch",
+      "status": "released",
+      "label": "Disney XD weekly-series launch",
+      "note": "Regular weekly episodes begin after the Spark of Rebellion premiere movie.",
+      "evidence": [
+        {
+          "sourceId": "screen04-rebels-production",
+          "locator": "Monday 13 October US schedule",
+          "note": ""
+        }
+      ],
+      "recordId": "series:rebels",
+      "editionId": null
+    },
+    {
+      "id": "series:rebels:finale-2018",
+      "date": "2018-03-05",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Television",
+      "eventType": "series_finale",
+      "status": "released",
+      "label": "Disney XD series-finale evening",
+      "note": "A Fool’s Hope and Family Reunion – and Farewell air together; not a new feature film.",
+      "evidence": [
+        {
+          "sourceId": "screen04-rebels-finale",
+          "locator": "5 March finale schedule",
+          "note": ""
+        }
+      ],
+      "recordId": "series:rebels",
+      "editionId": null
+    },
+    {
+      "id": "series:rebels:disney-2019",
+      "date": "2019-11-12",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "label": "Disney+ US catalogue launch",
+      "note": "Series availability confirmed at launch. Supplied pilot edit and episode masters unidentified.",
+      "evidence": [
+        {
+          "sourceId": "film02-disney-lucasfilm-launch",
+          "locator": "Release-day page / Rebels named explicitly",
+          "note": ""
+        }
+      ],
+      "recordId": "series:rebels",
+      "editionId": null
+    },
+    {
+      "id": "series:mandalorian:premiere-2019",
+      "date": "2019-11-12",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "series_premiere",
+      "status": "released",
+      "label": "Disney+ series premiere",
+      "note": "US Disney+ launch; a new season is not a recut of an earlier season.",
+      "evidence": [
+        {
+          "sourceId": "screen04-mando-series",
+          "locator": "Release Date",
+          "note": ""
+        }
+      ],
+      "recordId": "series:mandalorian",
+      "editionId": null
+    },
+    {
+      "id": "series:mandalorian:season2-2020",
+      "date": "2020-10-30",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "season_premiere",
+      "status": "released",
+      "label": "Disney+ Season 2 premiere",
+      "note": "US Disney+ launch; a new season is not a recut of an earlier season.",
+      "evidence": [
+        {
+          "sourceId": "screen04-mando-season2",
+          "locator": "Now streaming / 30 October",
+          "note": ""
+        }
+      ],
+      "recordId": "series:mandalorian",
+      "editionId": null
+    },
+    {
+      "id": "series:mandalorian:season3-2023",
+      "date": "2023-03-01",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "season_premiere",
+      "status": "released",
+      "label": "Disney+ Season 3 premiere",
+      "note": "US Disney+ launch; a new season is not a recut of an earlier season.",
+      "evidence": [
+        {
+          "sourceId": "screen04-mando-season3",
+          "locator": "Season 3 launched March 1",
+          "note": ""
+        }
+      ],
+      "recordId": "series:mandalorian",
+      "editionId": null
+    },
+    {
+      "id": "series:bad-batch:premiere-2021",
+      "date": "2021-05-04",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "series_premiere",
+      "status": "released",
+      "label": "Disney+ series premiere",
+      "note": "US Disney+ event; no alternate cut or physical-media release is inferred.",
+      "evidence": [
+        {
+          "sourceId": "screen04-batch-premiere",
+          "locator": "Aftermath now streaming",
+          "note": ""
+        }
+      ],
+      "recordId": "series:bad-batch",
+      "editionId": null
+    },
+    {
+      "id": "series:bad-batch:season2-2023",
+      "date": "2023-01-04",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "season_premiere",
+      "status": "released",
+      "label": "Disney+ Season 2 premiere",
+      "note": "US Disney+ event; no alternate cut or physical-media release is inferred.",
+      "evidence": [
+        {
+          "sourceId": "screen04-batch-season2",
+          "locator": "Two-episode premiere now streaming",
+          "note": ""
+        }
+      ],
+      "recordId": "series:bad-batch",
+      "editionId": null
+    },
+    {
+      "id": "series:bad-batch:season3-2024",
+      "date": "2024-02-21",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "season_premiere",
+      "status": "released",
+      "label": "Disney+ final-season premiere",
+      "note": "US Disney+ event; no alternate cut or physical-media release is inferred.",
+      "evidence": [
+        {
+          "sourceId": "screen04-batch-season3",
+          "locator": "Three-episode premiere / 21 February",
+          "note": ""
+        }
+      ],
+      "recordId": "series:bad-batch",
+      "editionId": null
+    },
+    {
+      "id": "series:bad-batch:finale-2024",
+      "date": "2024-05-01",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "series_finale",
+      "status": "released",
+      "label": "Disney+ series finale",
+      "note": "US Disney+ event; no alternate cut or physical-media release is inferred.",
+      "evidence": [
+        {
+          "sourceId": "screen04-batch-finale",
+          "locator": "Finale now streaming / 1 May",
+          "note": ""
+        }
+      ],
+      "recordId": "series:bad-batch",
+      "editionId": null
+    },
+    {
+      "id": "films:3:anniversary-2023-us",
+      "date": "2023-04-28",
+      "dateEnd": "2023-05-04",
+      "territory": "US (selected cinemas)",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "label": "40th-anniversary cinema return",
+      "note": "Official limited screening window. Supplied edit/master not identified; not automatically the 1983 or 1997 version.",
+      "evidence": [
+        {
+          "sourceId": "screen04-jedi-2023",
+          "locator": "Territory-specific screening windows",
+          "note": ""
+        }
+      ],
+      "recordId": "films:3",
+      "editionId": null
+    },
+    {
+      "id": "films:3:anniversary-2023-uk",
+      "date": "2023-04-28",
+      "dateEnd": "2023-05-01",
+      "territory": "UK (selected cinemas)",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "label": "40th-anniversary cinema return",
+      "note": "Official limited screening window. Supplied edit/master not identified; not automatically the 1983 or 1997 version.",
+      "evidence": [
+        {
+          "sourceId": "screen04-jedi-2023",
+          "locator": "Territory-specific screening windows",
+          "note": ""
+        }
+      ],
+      "recordId": "films:3",
+      "editionId": null
+    },
+    {
+      "id": "films:3:disney-us-2019",
+      "date": "2019-11-12",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "label": "Disney+ US catalogue launch",
+      "note": "Catalogue availability; supplied later film master not identified.",
+      "evidence": [
+        {
+          "sourceId": "film02-disney-investor",
+          "locator": "Investor Day transcript / page 40 / first six Star Wars films",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-disney-launch",
+          "locator": "12 November 2019 / US service launch",
+          "note": ""
+        }
+      ],
+      "recordId": "films:3",
+      "editionId": null
+    },
+    {
+      "id": "films:3:marathon-2024",
+      "date": "2024-05-04",
+      "dateEnd": null,
+      "territory": "US (participating cinemas)",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "label": "Skywalker Saga Marathon",
+      "note": "Announced event date, not each individual title’s start time or a verified master.",
+      "evidence": [
+        {
+          "sourceId": "film02-marathon-2024",
+          "locator": "All nine Skywalker saga films / May 4",
+          "note": ""
+        }
+      ],
+      "recordId": "films:3",
+      "editionId": null
+    }
+  ],
+  "facts": []
+}

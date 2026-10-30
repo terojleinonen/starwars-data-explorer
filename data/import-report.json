@@ -1,0 +1,65 @@
+{
+  "reviews": {
+    "editions": 26,
+    "releases": 82,
+    "editionCredits": 10,
+    "supplementBatches": 13,
+    "episodeReviews": 77,
+    "episodeEntries": 151,
+    "episodeParts": 160,
+    "episodeCredits": 65,
+    "episodeLinks": 924,
+    "profileBatches": 8,
+    "reviewedLegacyProfiles": 40,
+    "unestablishedFields": 277,
+    "batches": 5,
+    "primaryRecords": 24,
+    "supportingRecords": 329,
+    "credits": 576,
+    "citations": 5038
+  },
+  "planning": {
+    "id": "PLAN-01",
+    "issueUpdates": 15,
+    "issueAdditions": 11,
+    "deferred": 15
+  },
+  "records": 567,
+  "facts": 2767,
+  "links": 2030,
+  "categories": [
+    {
+      "category": "films",
+      "count": 13
+    },
+    {
+      "category": "people",
+      "count": 237
+    },
+    {
+      "category": "planets",
+      "count": 120
+    },
+    {
+      "category": "series",
+      "count": 11
+    },
+    {
+      "category": "species",
+      "count": 48
+    },
+    {
+      "category": "starships",
+      "count": 84
+    },
+    {
+      "category": "vehicles",
+      "count": 54
+    }
+  ],
+  "skippedLinks": [],
+  "integrity": {
+    "integrity_check": "ok"
+  },
+  "foreignKeyProblems": []
+}

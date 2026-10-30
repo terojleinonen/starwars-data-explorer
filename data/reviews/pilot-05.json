@@ -1,0 +1,5755 @@
+{
+  "version": 1,
+  "id": "pilot-05",
+  "checkedAt": "2026-10-27",
+  "reviewer": "Editorial source review",
+  "scope": "Five remaining series: selected production facts, cast/crew, characters/worlds/ships/vehicles and cinema/TV/streaming release/version search; no physical-media or digital-purchase release dates.",
+  "sources": [
+    {
+      "id": "screen05-obi-production",
+      "title": "Lucasfilm — Obi-Wan Kenobi production overview",
+      "url": "https://www.lucasfilm.com/productions/obi-wan-kenobi/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Six-part limited story, director, selected cast and original story setting."
+    },
+    {
+      "id": "screen05-obi-brief",
+      "title": "Disney+ — Obi-Wan Kenobi production brief, 25 May 2022",
+      "url": "https://lumiere-a.akamaihd.net/v1/documents/obi-wan_kenobi_production_brief_final_5-25-22_28755282.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "The Walt Disney Studios / Disney+",
+      "revision": "",
+      "note": "Pages 1–5: selected crew, theme versus score, planned rollout and Inquisitor cast. Public studio PDF; no text or images copied."
+    },
+    {
+      "id": "screen05-obi-cast",
+      "title": "Obi-Wan Kenobi — cast and production announcement",
+      "url": "https://www.starwars.com/news/obi-wan-kenobi-series-cast",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Selected executive producers, Joby Harold as writer and Carmen Cuba as casting director."
+    },
+    {
+      "id": "screen05-obi-early",
+      "title": "Obi-Wan Kenobi — contemporary report of early Disney+ launch",
+      "url": "https://mobilesyrup.com/2022/05/26/obi-wan-kenobi-disney-plus-early-premiere-may-2022/",
+      "kind": "reference",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Bradly Shankar / MobileSyrup",
+      "revision": "",
+      "note": "Contemporary report embeds official launch announcement: 26 May 2022 9 p.m. Pacific / 27 May midnight Eastern. The official tweet is reproduced by the report but was not directly readable during review. This is a public reference, not a studio-hosted page."
+    },
+    {
+      "id": "screen05-obi-plan",
+      "title": "Obi-Wan Kenobi — announced two-episode May 27 premiere",
+      "url": "https://www.starwars.com/news/obi-wan-kenobi-may-27",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Earlier launch plan; actual Pacific time was advanced by three hours. May 27 remains correct for the same instant in Eastern time."
+    },
+    {
+      "id": "screen05-obi-part2",
+      "title": "Obi-Wan Kenobi — Part II episode guide",
+      "url": "https://www.starwars.com/series/obi-wan-kenobi/part-ii-guide",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Selected episode appearances, Daiyu and Scythe; not an all-episode inventory."
+    },
+    {
+      "id": "screen05-obi-part6",
+      "title": "Obi-Wan Kenobi — Part VI episode guide",
+      "url": "https://www.starwars.com/series/obi-wan-kenobi/part-vi-guide",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Selected finale character/setting connections; release date is supported separately by the studio brief."
+    },
+    {
+      "id": "screen05-obi-jones",
+      "title": "James Earl Jones — Lucasfilm remembrance",
+      "url": "https://www.starwars.com/news/james-earl-jones",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Explicitly includes the Obi-Wan Kenobi television credit. The archive records the credited voice separately from Hayden Christensen; no claim about a new recording session or audio-processing method."
+    },
+    {
+      "id": "screen05-daiyu",
+      "title": "Databank — Daiyu",
+      "url": "https://www.starwars.com/databank/daiyu",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Introductory world identity and named Obi-Wan Kenobi appearance."
+    },
+    {
+      "id": "screen05-scythe",
+      "title": "Databank — Scythe",
+      "url": "https://www.starwars.com/databank/scythe",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Introductory Inquisitor transport identity; series appearance supported by Part II guide."
+    },
+    {
+      "id": "screen05-ahsoka-production",
+      "title": "Ahsoka — first-season production and cast",
+      "url": "https://www.starwars.com/news/ahsoka-is-here",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "2023 cast, writer, directors, selected producers and composer. Its August 23 article date is not used as the actual US premiere date."
+    },
+    {
+      "id": "screen05-ahsoka-plan",
+      "title": "Ahsoka — original August 23 premiere announcement",
+      "url": "https://www.starwars.com/news/ahsoka-premiere-date",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Superseded US premiere plan."
+    },
+    {
+      "id": "screen05-ahsoka-date",
+      "title": "Ahsoka — premiere moved to August 22",
+      "url": "https://www.starwars.com/news/ahsoka-new-premiere-date",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Two-episode premiere and subsequent Tuesdays at 6 p.m. Pacific."
+    },
+    {
+      "id": "screen05-ahsoka-theaters",
+      "title": "Ahsoka — episode 5 theatrical fan event",
+      "url": "https://www.starwars.com/news/ahsoka-theatrical-event",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "September 12 US screening in ten cities; international locations are mentioned but their local calendar dates are not assumed from US Pacific timing."
+    },
+    {
+      "id": "screen05-ahsoka-finale",
+      "title": "Disney+ — October 2023 US schedule",
+      "url": "https://press.disneyplus.com/news/next-on-disney-plus-october-2023",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Disney+",
+      "revision": "",
+      "note": "October 3 / Ahsoka finale, episode 8."
+    },
+    {
+      "id": "screen05-ahsoka-season2",
+      "title": "Ahsoka season 2 — announced January 20, 2027 premiere",
+      "url": "https://www.starwars.com/news/ahsoka-season-2",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Future announcement checked 27 October 2026. Not counted as a released season or release event; Ray Stevenson season-1 role not overwritten by future cast."
+    },
+    {
+      "id": "screen05-ahsoka-young",
+      "title": "Ahsoka — behind the scenes with the cast",
+      "url": "https://www.starwars.com/news/ahsoka-behind-the-scenes",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Ariana Greenblatt as young Ahsoka, Hayden Christensen as Anakin; eight first-season episodes."
+    },
+    {
+      "id": "screen05-ahsoka-part5",
+      "title": "Ahsoka — Part Five: Shadow Warrior highlights",
+      "url": "https://www.starwars.com/news/ahsoka-part-5-shadow-warrior-highlights",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Anakin/Rex connections and episode-specific writing/directing by Dave Filoni."
+    },
+    {
+      "id": "screen05-ahsoka-part6",
+      "title": "Ahsoka — Part Six: Far, Far Away highlights",
+      "url": "https://www.starwars.com/news/ahsoka-part-6-far-far-away-highlights",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Peridea and Thrawn/Ezra story connections."
+    },
+    {
+      "id": "screen05-ahsoka-part8",
+      "title": "Ahsoka — Part Eight episode guide",
+      "url": "https://www.starwars.com/series/ahsoka/part-eight-the-jedi-the-witch-and-the-warlord-episode-guide",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Selected first-season characters and ships in the finale Databank."
+    },
+    {
+      "id": "screen05-ahsoka-t6",
+      "title": "Databank — Ahsoka’s T-6 Jedi Shuttle",
+      "url": "https://www.starwars.com/databank/ahsoka-s-t-6-jedi-shuttle",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Introductory ship identity and Ahsoka appearance."
+    },
+    {
+      "id": "screen05-eye-sion",
+      "title": "Databank — The Eye of Sion",
+      "url": "https://www.starwars.com/databank/the-eye-of-sion",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Morgan Elsbeth’s hyperspace ring and named Ahsoka appearance."
+    },
+    {
+      "id": "screen05-sabine-bike",
+      "title": "Databank — Sabine’s speeder bike",
+      "url": "https://www.starwars.com/databank/sabine-s-speeder-bike",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Ahsoka-era modified 614 AvA; not automatically the Rebels-era jumpspeeder."
+    },
+    {
+      "id": "screen05-skeleton-production",
+      "title": "Skeleton Crew — first trailer and production announcement",
+      "url": "https://www.starwars.com/news/skeleton-crew-official-trailer-key-art",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Named first-season cast, creators, showrunners, writing roles, producers and original December 3 plan."
+    },
+    {
+      "id": "screen05-skeleton-date",
+      "title": "Skeleton Crew — early December 2 premiere",
+      "url": "https://www.starwars.com/news/skeleton-crew-premiere-date",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Actual two-episode premiere at 6 p.m. Pacific, earlier than the December 3 plan."
+    },
+    {
+      "id": "screen05-skeleton-theaters",
+      "title": "Skeleton Crew — select US theater screenings",
+      "url": "https://www.starwars.com/news/skeleton-crew-in-theaters",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "December 2 two-episode fan screening in 25 US locations; not an alternate cut."
+    },
+    {
+      "id": "screen05-skeleton-directors",
+      "title": "Skeleton Crew — first-season episodic directors",
+      "url": "https://www.starwars.com/news/skeleton-crew-directed-by",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "All eight episodes with individual director assignments."
+    },
+    {
+      "id": "screen05-skeleton-music",
+      "title": "Skeleton Crew — composer Mick Giacchino",
+      "url": "https://www.starwars.com/news/skeleton-crew-mick-giacchino-composer-announce",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Mick Giacchino is the series composer; not his father Michael Giacchino."
+    },
+    {
+      "id": "screen05-skeleton-finale",
+      "title": "Disney+ — January 2025 US schedule",
+      "url": "https://press.disneyplus.com/news/next-on-disney-plus-january-2025",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Disney+",
+      "revision": "",
+      "note": "January 14 / episode 8."
+    },
+    {
+      "id": "screen05-at-attin",
+      "title": "Databank — At Attin",
+      "url": "https://www.starwars.com/databank/at-attin",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Introductory world identity and Skeleton Crew appearance."
+    },
+    {
+      "id": "screen05-onyx-cinder",
+      "title": "Databank — Onyx Cinder",
+      "url": "https://www.starwars.com/databank/onyx-cinder",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Introductory ship identity and Skeleton Crew appearance; technical dimensions not imported."
+    },
+    {
+      "id": "screen05-skeleton-bike",
+      "title": "Databank — Fern and KB’s hoverbike",
+      "url": "https://www.starwars.com/databank/fern-and-kb-s-hoverbike",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Modified shared hoverbike and named series appearance."
+    },
+    {
+      "id": "screen05-acolyte-production",
+      "title": "Lucasfilm — The Acolyte production overview",
+      "url": "https://www.lucasfilm.com/productions/the-acolyte/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Creator, directors, cast, series score, selected producers and story premise."
+    },
+    {
+      "id": "screen05-acolyte-launch",
+      "title": "The Acolyte — premiere and production announcement",
+      "url": "https://www.starwars.com/news/the-acolyte-teaser-poster",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "June 4 two-episode premiere and first-season director assignments."
+    },
+    {
+      "id": "screen05-acolyte-wga",
+      "title": "WGA Directory — The Acolyte final episode writing credits",
+      "url": "https://directories.wga.org/project/1246372/the-acolyte",
+      "kind": "reference",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Writers Guild of America West / East",
+      "revision": "",
+      "note": "Only season-1 episodes 101–108 final Written by entries used. Dates beside Final Credits are credit dates, not release dates. The staff listing for a season 2 is not proof of a produced or released second season. WGA notes some directory data are self-reported."
+    },
+    {
+      "id": "screen05-acolyte-cast",
+      "title": "The Acolyte — cast at launch event",
+      "url": "https://www.starwars.com/news/the-acolyte-premiere",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Named cast/character pairs. May 23 red-carpet premiere is not a general release date."
+    },
+    {
+      "id": "screen05-acolyte-twins",
+      "title": "The Acolyte — Amandla Stenberg on the twin roles",
+      "url": "https://www.starwars.com/news/the-acolyte-amandla-stenberg",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Adult Mae and Osha are separate roles played by Amandla Stenberg; eight episodes confirmed."
+    },
+    {
+      "id": "screen05-acolyte-theaters",
+      "title": "The Acolyte — June 3 US theatrical fan screening",
+      "url": "https://www.starwars.com/news/the-acolyte-in-theaters",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Two episodes, 26 selected US locations; not an expanded edit or a general theatrical feature."
+    },
+    {
+      "id": "screen05-acolyte-finale",
+      "title": "D23 — July 2024 Disney+ schedule",
+      "url": "https://d23.com/everything-coming-to-disney-in-july/",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "D23 / The Walt Disney Company",
+      "revision": "",
+      "note": "July 16 / episode 8 at 6 p.m. Pacific. Unlike the press July schedule, this listing explicitly includes the finale."
+    },
+    {
+      "id": "screen05-acolyte-guide",
+      "title": "The Acolyte — official series and eight episode guides",
+      "url": "https://www.starwars.com/series/the-acolyte",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Eight first-season guides and selected Databank connections."
+    },
+    {
+      "id": "screen05-brendok",
+      "title": "Databank — Brendok",
+      "url": "https://www.starwars.com/databank/brendok",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Introductory world identity and series appearance; no copied cosmology or population details."
+    },
+    {
+      "id": "screen05-fallon",
+      "title": "Databank — Fallon freighter",
+      "url": "https://www.starwars.com/databank/fallon-freighter",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Introductory ship identity and Acolyte appearance."
+    },
+    {
+      "id": "screen05-jedi-vector",
+      "title": "Databank — Jedi Vector",
+      "url": "https://www.starwars.com/databank/jedi-vector",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Jedi starfighter and named Acolyte appearance."
+    },
+    {
+      "id": "screen05-maul-production",
+      "title": "Maul – Shadow Lord — first trailer and production overview",
+      "url": "https://www.starwars.com/news/star-wars-maul-shadow-lord-first-trailer-poster-art",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Creator, developers, supervising director, selected crew, cast and ten-episode first-season plan."
+    },
+    {
+      "id": "screen05-maul-cast",
+      "title": "Maul – Shadow Lord — released season 1 cast",
+      "url": "https://www.starwars.com/news/star-wars-maul-shadow-lord-cast",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "May 4 release-day confirmation, named voice roles including Scott Whyte as Dryden Vos and head-writer role."
+    },
+    {
+      "id": "screen05-maul-music",
+      "title": "Maul – Shadow Lord — composers Kevin, Sean and Deana Kiner",
+      "url": "https://www.starwars.com/news/star-wars-maul-shadow-lord-soundtrack",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Original score by all three Kiners; selected episode-nine Vader appearance."
+    },
+    {
+      "id": "screen05-maul-season2",
+      "title": "Maul – Shadow Lord — season 2 development announcement",
+      "url": "https://www.starwars.com/news/star-wars-maul-shadow-lord-season-2",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Second season announced before season-1 launch. No exact release date is inferred."
+    },
+    {
+      "id": "screen05-maul-series",
+      "title": "Maul – Shadow Lord — official series and ten chapters",
+      "url": "https://www.starwars.com/series/star-wars-maul-shadow-lord",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "April 6 release date, chapters 1–10 and selected Databank appearances."
+    },
+    {
+      "id": "screen05-maul-rollout",
+      "title": "Maul – Shadow Lord — official release times and rollout",
+      "url": "https://www.starwars.com/news/star-wars-maul-shadow-lord-trailer",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Two episodes weekly April 6; finale on May 4 with local-midnight note. Time zones are not flattened into a worldwide calendar assertion."
+    },
+    {
+      "id": "screen05-janix",
+      "title": "Databank — Janix",
+      "url": "https://www.starwars.com/databank/janix",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Introductory world identity and named Maul series appearance."
+    },
+    {
+      "id": "screen05-at-ac",
+      "title": "Databank — AT-AC walker",
+      "url": "https://www.starwars.com/databank/at-ac-walker",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Named Maul and Bad Batch appearances; no assumption that all appearances are on Ord Mantell."
+    },
+    {
+      "id": "screen05-baylan",
+      "title": "Databank — Baylan Skoll",
+      "url": "https://www.starwars.com/databank/baylan-skoll",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Mercenary identity and relationship to Shin Hati; introductory profile only."
+    },
+    {
+      "id": "screen05-shin",
+      "title": "Databank — Shin Hati",
+      "url": "https://www.starwars.com/databank/shin-hati",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Apprentice of Baylan Skoll, Ahsoka series appearance; introductory profile only."
+    },
+    {
+      "id": "screen05-obi-lars",
+      "title": "Star Wars: Best of 2021 — returning Lars performers",
+      "url": "https://www.starwars.com/news/star-wars-best-of-2021",
+      "kind": "official",
+      "checkedAt": "2026-10-27",
+      "license": "Reference only",
+      "reuseBasis": "Selected facts, original archive summaries and source links only; source text, transcripts, images, video and catalogue dumps are not redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": "",
+      "note": "Explicitly states Joel Edgerton and Bonnie Piesse return as Owen and Beru in Obi-Wan Kenobi. Only this selected production paragraph is used; an inaccurate year in the separate press-brief biography is not imported."
+    }
+  ],
+  "records": [
+    {
+      "id": "people:reva",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "reva",
+        "title": "Reva (Third Sister)",
+        "year": null,
+        "era": "Across eras",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An Inquisitor who pursues surviving Jedi during Imperial rule.",
+        "evidence": [
+          {
+            "sourceId": "screen05-obi-brief",
+            "locator": "Pages 4–5 / Reva",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:tala-durith",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "tala-durith",
+        "title": "Tala Durith",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An ally encountered by Obi-Wan during his journey under Imperial rule.",
+        "evidence": [
+          {
+            "sourceId": "screen05-obi-production",
+            "locator": "Production overview / Indira Varma as Tala Durith",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:grand-inquisitor",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "grand-inquisitor",
+        "title": "The Grand Inquisitor",
+        "year": null,
+        "era": "Across eras",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The leader of the Empire’s Jedi-hunting Inquisitors.",
+        "evidence": [
+          {
+            "sourceId": "screen05-obi-brief",
+            "locator": "Page 4 / Grand Inquisitor",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:haja-estree",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "haja-estree",
+        "title": "Haja Estree",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A con man on Daiyu who poses as a Jedi while helping fugitives.",
+        "evidence": [
+          {
+            "sourceId": "screen05-daiyu",
+            "locator": "Related / Haja Estree",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "planets:daiyu",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "daiyu",
+        "title": "Daiyu",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An urban world where fugitives and bounty hunters cross paths.",
+        "evidence": [
+          {
+            "sourceId": "screen05-daiyu",
+            "locator": "Description / urban world",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "starships:scythe",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "scythe",
+        "title": "Scythe",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A transport used by the Empire’s Inquisitors.",
+        "evidence": [
+          {
+            "sourceId": "screen05-scythe",
+            "locator": "Description / Inquisitor transport",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:morgan-elsbeth",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "morgan-elsbeth",
+        "title": "Morgan Elsbeth",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An ally of Grand Admiral Thrawn who pursues his return from exile.",
+        "evidence": [
+          {
+            "sourceId": "screen05-ahsoka-part6",
+            "locator": "Part Six / Morgan and Thrawn",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:baylan-skoll",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "baylan-skoll",
+        "title": "Baylan Skoll",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A lightsaber-wielding opponent encountered by Ahsoka and her allies.",
+        "evidence": [
+          {
+            "sourceId": "screen05-baylan",
+            "locator": "Description / lightsaber-wielding mercenary",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:shin-hati",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "shin-hati",
+        "title": "Shin Hati",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A warrior aligned with Baylan Skoll during Ahsoka’s search for Thrawn.",
+        "evidence": [
+          {
+            "sourceId": "screen05-shin",
+            "locator": "Description / Baylan’s apprentice",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:huyang",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "huyang",
+        "title": "Professor Huyang",
+        "year": null,
+        "era": "Across eras",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A droid companion whose archives preserve stories of the Jedi.",
+        "evidence": [
+          {
+            "sourceId": "screen05-ahsoka-part6",
+            "locator": "Highlight 1 / Huyang’s archives",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:grand-admiral-thrawn",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "grand-admiral-thrawn",
+        "title": "Grand Admiral Thrawn",
+        "year": null,
+        "era": "Across eras",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An Imperial leader whose return from exile threatens the New Republic.",
+        "evidence": [
+          {
+            "sourceId": "screen05-ahsoka-part6",
+            "locator": "Introduction / Grand Admiral Thrawn",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "planets:peridea",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "peridea",
+        "title": "Peridea",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A distant world where Thrawn and Ezra have been living in exile.",
+        "evidence": [
+          {
+            "sourceId": "screen05-ahsoka-part6",
+            "locator": "Highlights 2–5 / Peridea",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "starships:ahsoka-t6-shuttle",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "ahsoka-t6-shuttle",
+        "title": "Ahsoka’s T-6 Jedi Shuttle",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Ahsoka’s rotating-wing shuttle used during the New Republic era.",
+        "evidence": [
+          {
+            "sourceId": "screen05-ahsoka-t6",
+            "locator": "Description / T-6 1974",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "starships:eye-of-sion",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "eye-of-sion",
+        "title": "The Eye of Sion",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A hyperspace ring commanded by Morgan Elsbeth for journeys beyond the known galaxy.",
+        "evidence": [
+          {
+            "sourceId": "screen05-eye-sion",
+            "locator": "Description / Morgan Elsbeth’s ship",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "vehicles:sabine-speeder-bike",
+      "primary": false,
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "sabine-speeder-bike",
+        "title": "Sabine’s speeder bike",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A modified Imperial speeder bike decorated and used by Sabine Wren.",
+        "evidence": [
+          {
+            "sourceId": "screen05-sabine-bike",
+            "locator": "Description / modified 614 AvA",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:wim",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "wim",
+        "title": "Wim",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "One of four children who leave their homeworld aboard the Onyx Cinder.",
+        "evidence": [
+          {
+            "sourceId": "screen05-skeleton-production",
+            "locator": "Premise and cast / Wim",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:fern",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "fern",
+        "title": "Fern",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "One of the young travelers searching for a way home in Skeleton Crew.",
+        "evidence": [
+          {
+            "sourceId": "screen05-skeleton-production",
+            "locator": "Premise and cast / Fern",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:kb",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "kb",
+        "title": "KB",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "One of the four children drawn into Skeleton Crew’s space adventure.",
+        "evidence": [
+          {
+            "sourceId": "screen05-skeleton-production",
+            "locator": "Premise and cast / KB",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:neel",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "neel",
+        "title": "Neel",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "One of the young travelers whose journey takes them far from home.",
+        "evidence": [
+          {
+            "sourceId": "screen05-skeleton-production",
+            "locator": "Premise and cast / Neel",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:jod-na-nawood",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "jod-na-nawood",
+        "title": "Jod Na Nawood",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A mysterious adult who crosses paths with the children in Skeleton Crew.",
+        "evidence": [
+          {
+            "sourceId": "screen05-skeleton-production",
+            "locator": "Premise and cast / Jod Na Nawood",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:sm-33",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "sm-33",
+        "title": "SM-33",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The droid first mate of the Onyx Cinder.",
+        "evidence": [
+          {
+            "sourceId": "screen05-skeleton-production",
+            "locator": "Premise and cast / SM-33",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "planets:at-attin",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "at-attin",
+        "title": "At Attin",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An orderly world whose residents live alongside service droids.",
+        "evidence": [
+          {
+            "sourceId": "screen05-at-attin",
+            "locator": "Description / peaceful world",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "starships:onyx-cinder",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "onyx-cinder",
+        "title": "Onyx Cinder",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The starship that carries four children away from their homeworld.",
+        "evidence": [
+          {
+            "sourceId": "screen05-onyx-cinder",
+            "locator": "Description / vessel of adventure",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "vehicles:fern-kb-hoverbike",
+      "primary": false,
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "fern-kb-hoverbike",
+        "title": "Fern and KB’s hoverbike",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A shared speeder modified by Fern and KB with a stronger engine.",
+        "evidence": [
+          {
+            "sourceId": "screen05-skeleton-bike",
+            "locator": "Description / modified hoverbike",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:mae-aniseya",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "mae-aniseya",
+        "title": "Mae Aniseya",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Osha’s twin sister, whose path draws her into a violent conflict with the Jedi.",
+        "evidence": [
+          {
+            "sourceId": "screen05-acolyte-twins",
+            "locator": "Twin roles / Mae",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:osha-aniseya",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "osha-aniseya",
+        "title": "Osha Aniseya",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A former Jedi learner whose past becomes central to the investigation in The Acolyte.",
+        "evidence": [
+          {
+            "sourceId": "screen05-acolyte-production",
+            "locator": "Story / Osha",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:sol",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "sol",
+        "title": "Sol",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Jedi Master investigating crimes connected to his former learner Osha.",
+        "evidence": [
+          {
+            "sourceId": "screen05-acolyte-production",
+            "locator": "Story / Master Sol",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:the-stranger",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "the-stranger",
+        "title": "The Stranger (alias Qimir)",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A masked dark-side warrior portrayed by Manny Jacinto in The Acolyte.",
+        "evidence": [
+          {
+            "sourceId": "screen05-acolyte-twins",
+            "locator": "Osha and the Stranger / Manny Jacinto",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:jecki-lon",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "jecki-lon",
+        "title": "Jecki Lon",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A Jedi Padawan portrayed by Dafne Keen in The Acolyte.",
+        "evidence": [
+          {
+            "sourceId": "screen05-acolyte-cast",
+            "locator": "Named cast / Jecki Lon",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "planets:brendok",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "brendok",
+        "title": "Brendok",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A forested world with a fortress inhabited by a coven of witches.",
+        "evidence": [
+          {
+            "sourceId": "screen05-brendok",
+            "locator": "Description / forests and coven fortress",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "starships:fallon-freighter",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "fallon-freighter",
+        "title": "Fallon freighter",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A cargo vessel commanded by Captain Blex.",
+        "evidence": [
+          {
+            "sourceId": "screen05-fallon",
+            "locator": "Description / Captain Blex’s freighter",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "starships:jedi-vector",
+      "primary": false,
+      "newRecord": {
+        "category": "starships",
+        "slug": "jedi-vector",
+        "title": "Jedi Vector",
+        "year": null,
+        "era": "Across eras",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A starfighter designed for pilots trained in the Force.",
+        "evidence": [
+          {
+            "sourceId": "screen05-jedi-vector",
+            "locator": "Description / Jedi starfighter",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:devon-izara",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "devon-izara",
+        "title": "Devon Izara",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A young Jedi learner who crosses paths with Maul after the rise of the Empire.",
+        "evidence": [
+          {
+            "sourceId": "screen05-maul-production",
+            "locator": "Premise and cast / Devon Izara",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:brander-lawson",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "brander-lawson",
+        "title": "Captain Brander Lawson",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A police detective on Janix, voiced by Wagner Moura.",
+        "evidence": [
+          {
+            "sourceId": "screen05-maul-rollout",
+            "locator": "March 16 trailer announcement / police detective Captain Brander Lawson",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:two-boots",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "two-boots",
+        "title": "Two-Boots",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Brander Lawson’s police-droid partner on Janix.",
+        "evidence": [
+          {
+            "sourceId": "screen05-maul-cast",
+            "locator": "Richard Ayoade / Two-Boots",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "people:eeko-dio-daki",
+      "primary": false,
+      "newRecord": {
+        "category": "people",
+        "slug": "eeko-dio-daki",
+        "title": "Eeko-Dio Daki",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Jedi Master teaching Devon Izara after the fall of the Jedi Order.",
+        "evidence": [
+          {
+            "sourceId": "screen05-maul-cast",
+            "locator": "Dennis Haysbert / Master Eeko-Dio Daki",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "planets:janix",
+      "primary": false,
+      "newRecord": {
+        "category": "planets",
+        "slug": "janix",
+        "title": "Janix",
+        "year": null,
+        "era": "Disney",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A self-governed world where law enforcement and rival crime syndicates maintain an uneasy balance.",
+        "evidence": [
+          {
+            "sourceId": "screen05-janix",
+            "locator": "Description / democracy and underworld",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "vehicles:at-ac",
+      "primary": false,
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "at-ac",
+        "title": "AT-AC walker",
+        "year": null,
+        "era": "Across eras",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An Imperial patrol walker related in appearance to the AT-ST.",
+        "evidence": [
+          {
+            "sourceId": "screen05-at-ac",
+            "locator": "Description / patrol walker",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [],
+      "credits": [],
+      "links": [],
+      "review": {
+        "scope": "Supporting identity and selected screen-production connection only.",
+        "limitations": [
+          "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+        ]
+      }
+    },
+    {
+      "id": "series:obi-wan",
+      "primary": true,
+      "summary": {
+        "text": "Hiding from the Empire on Tatooine, Obi-Wan is drawn into a rescue mission that brings him face to face with the consequences of Anakin’s fall.",
+        "evidence": [
+          {
+            "sourceId": "screen05-obi-production",
+            "locator": "Production overview / original archive paraphrase",
+            "note": ""
+          },
+          {
+            "sourceId": "screen05-obi-part2",
+            "locator": "Part II / search for Leia on Daiyu",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "director",
+          "value": "Deborah Chow",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Pages 1–2 / director of all six episodes",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "writer",
+          "value": "Joby Harold (selected series writing credit)",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-cast",
+              "locator": "Writer Joby Harold; not sole episode-writer claim",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Kathleen Kennedy, Michelle Rejwan, Deborah Chow, Ewan McGregor, Joby Harold",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-cast",
+              "locator": "Executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Natalie Holt (series score)",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / scored the series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "original_theme",
+          "value": "John Williams (Obi-Wan theme)",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / original Obi-Wan theme",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "cinematography",
+          "value": "Chung-Hoon Chung",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / director of photography",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "editing",
+          "value": "Nicolas De Toth, Kelley Dixon",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / editors",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episodes",
+          "value": "6",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Six-part story",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "1 limited series",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "2022 six-part story",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2022",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Released 2022",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2022-05-26",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-early",
+              "locator": "26 May 9 p.m. PT; same instant as 27 May midnight ET",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US Disney+ two-episode premiere, 9 p.m. Pacific on May 26 / midnight Eastern on May 27; one launch.",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-early",
+              "locator": "Explicit PT / ET launch times",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action limited series",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / limited series",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Deborah Chow",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "All six episodes / 2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Pages 1–2 / six-part series / Deborah Chow",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Joby Harold",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Selected series writing credit; episode assignments and co-writers not fully reviewed",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-cast",
+              "locator": "Selected writer credit / Joby Harold",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-cast",
+              "locator": "Executive producers / Kathleen Kennedy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Michelle Rejwan",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-cast",
+              "locator": "Executive producers / Michelle Rejwan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Deborah Chow",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-cast",
+              "locator": "Executive producers / Deborah Chow",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ewan McGregor",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-cast",
+              "locator": "Executive producers / Ewan McGregor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Joby Harold",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-cast",
+              "locator": "Executive producers / Joby Harold",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Natalie Holt",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series / selected production credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / Composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Williams",
+          "role": "Original theme composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series / selected production credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / Original theme composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Chung-Hoon Chung",
+          "role": "Director of photography",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series / selected production credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / Director of photography",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Nicolas De Toth",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series / selected production credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kelley Dixon",
+          "role": "Editor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series / selected production credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / Editor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Todd Cherniawsky",
+          "role": "Production designer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series / selected production credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / Production designer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Doug Chiang",
+          "role": "Production designer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series / selected production credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / Production designer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Suttirat Anne Larlarb",
+          "role": "Costume designer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series / selected production credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / Costume designer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Patrick Tubach",
+          "role": "Visual effects supervisor",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series / selected production credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / Visual effects supervisor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jonathan Eusebio",
+          "role": "Stunt coordinator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series / selected production credit",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Page 1 / Stunt coordinator",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carmen Cuba",
+          "role": "Casting director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-cast",
+              "locator": "Casting director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ewan McGregor",
+          "role": "Performer",
+          "characterName": "Obi-Wan Kenobi",
+          "characterRecordId": "people:10",
+          "scope": "2022 limited series / selected English-language cast",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Cast / Obi-Wan Kenobi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Hayden Christensen",
+          "role": "Performer",
+          "characterName": "Darth Vader",
+          "characterRecordId": "people:4",
+          "scope": "2022 limited series / selected English-language cast",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Cast / Darth Vader",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Moses Ingram",
+          "role": "Performer",
+          "characterName": "Reva / Third Sister",
+          "characterRecordId": "people:reva",
+          "scope": "2022 limited series / selected English-language cast",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Cast / Reva / Third Sister",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Indira Varma",
+          "role": "Performer",
+          "characterName": "Tala Durith",
+          "characterRecordId": "people:tala-durith",
+          "scope": "2022 limited series / selected English-language cast",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Cast / Tala Durith",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rupert Friend",
+          "role": "Performer",
+          "characterName": "The Grand Inquisitor",
+          "characterRecordId": "people:grand-inquisitor",
+          "scope": "2022 limited series / selected English-language cast",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Cast / The Grand Inquisitor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Joel Edgerton",
+          "role": "Performer",
+          "characterName": "Owen Lars",
+          "characterRecordId": "people:6",
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Cast biographies / Joel Edgerton",
+              "note": ""
+            },
+            {
+              "sourceId": "screen05-obi-lars",
+              "locator": "Returning performers / Owen and Beru Lars",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Bonnie Piesse",
+          "role": "Performer",
+          "characterName": "Beru Lars",
+          "characterRecordId": "people:7",
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Cast biographies / Bonnie Piesse",
+              "note": ""
+            },
+            {
+              "sourceId": "screen05-obi-lars",
+              "locator": "Returning performers / Owen and Beru Lars",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kumail Nanjiani",
+          "role": "Performer",
+          "characterName": "Haja",
+          "characterRecordId": "people:haja-estree",
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Cast biographies / Kumail Nanjiani",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Sung Kang",
+          "role": "Performer",
+          "characterName": "Fifth Brother",
+          "characterRecordId": null,
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Cast biographies / Sung Kang",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Vivien Lyra Blair",
+          "role": "Performer",
+          "characterName": "Leia Organa",
+          "characterRecordId": "people:5",
+          "scope": "2022 limited series",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Production overview / Princess Leia",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "James Earl Jones",
+          "role": "Credited voice",
+          "characterName": "Darth Vader",
+          "characterRecordId": "people:4",
+          "scope": "2022 limited series; credited voice, no new-recording claim",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-jones",
+              "locator": "Television credits / Obi-Wan Kenobi",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:4",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Cast / Darth Vader",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:reva",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Cast / Reva / Third Sister",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:tala-durith",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Cast / Tala Durith",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:grand-inquisitor",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Cast / The Grand Inquisitor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:6",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Cast biography / Joel Edgerton",
+              "note": ""
+            },
+            {
+              "sourceId": "screen05-obi-lars",
+              "locator": "Returning performers / Lars roles",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:7",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Cast biography / Bonnie Piesse",
+              "note": ""
+            },
+            {
+              "sourceId": "screen05-obi-lars",
+              "locator": "Returning performers / Lars roles",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:haja-estree",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-brief",
+              "locator": "Cast biography / Kumail Nanjiani",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:5",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Production overview / Princess Leia",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:10",
+          "relation": "story_connection",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-production",
+              "locator": "Story / Obi-Wan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:daiyu",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-part2",
+              "locator": "Part II / Databank / Daiyu",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:scythe",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-part2",
+              "locator": "Part II / Databank / Scythe",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:1",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-part2",
+              "locator": "Part II / Databank / Tatooine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:2",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-obi-part6",
+              "locator": "Part VI / Databank / Alderaan",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production facts, original summary, scoped cast/crew and connections; cinema, television and streaming releases reviewed.",
+        "limitations": [
+          "Six-part 2022 limited series reviewed. Documentary A Jedi’s Return and unofficial fan-made film edits are separate from the series.",
+          "Original US calendar date depends on time zone: May 26 Pacific and May 27 Eastern describe one launch, not two editions. Only selected writer credits are verified; a complete episode-level writing breakdown remains pending.",
+          "Complete end credits, episode-by-episode appearances, worldwide/Finland releases and frame-level master comparisons remain pending. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists."
+        ]
+      }
+    },
+    {
+      "id": "series:ahsoka",
+      "primary": true,
+      "summary": {
+        "text": "Ahsoka and her allies search for a missing friend while trying to stop an exiled Imperial leader from returning. Their journey draws together old bonds and new threats after the Empire’s fall.",
+        "evidence": [
+          {
+            "sourceId": "screen05-ahsoka-production",
+            "locator": "2023 story premise / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "creator",
+          "value": "Dave Filoni",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Created by",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "writer",
+          "value": "Dave Filoni (season 1)",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Written by",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "director",
+          "value": "Dave Filoni, Steph Green, Peter Ramsey, Jennifer Getzinger, Geeta Vasant Patel, Rick Famuyiwa (season 1)",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Series directors / 2023 first season",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Dave Filoni, Jon Favreau, Kathleen Kennedy, Colin Wilson, Carrie Beck (season 1)",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Kevin Kiner (selected season-1 score credit)",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Series composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episodes",
+          "value": "8 (season 1)",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-young",
+              "locator": "Eight episodes streaming",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "1 released season reviewed",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-young",
+              "locator": "2023 eight-episode first season",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2023 (released season reviewed)",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-young",
+              "locator": "2023 series / eight episodes",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2023-08-22",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-date",
+              "locator": "August 22 at 6 p.m. PT",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US Disney+ two-episode premiere at 6 p.m. Pacific; earlier August 23 plan was changed.",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-date",
+              "locator": "Updated premiere announcement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action series",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "New live-action series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "announced_next_season",
+          "value": "Season 2 announced for January 20, 2027; not yet released at this review.",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-season2",
+              "locator": "August 15, 2026 / future release announcement",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Dave Filoni",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Created by / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / 2023",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Written by / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / selected series director list, not every director on every episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Directors / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Steph Green",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / selected series director list, not every director on every episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Directors / Steph Green",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Peter Ramsey",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / selected series director list, not every director on every episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Directors / Peter Ramsey",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jennifer Getzinger",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / selected series director list, not every director on every episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Directors / Jennifer Getzinger",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Geeta Vasant Patel",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / selected series director list, not every director on every episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Directors / Geeta Vasant Patel",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rick Famuyiwa",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / selected series director list, not every director on every episode",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Directors / Rick Famuyiwa",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Executive producers / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Favreau",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Executive producers / Jon Favreau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Executive producers / Kathleen Kennedy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Colin Wilson",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Executive producers / Colin Wilson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Beck",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Executive producers / Carrie Beck",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Karen Gilchrist",
+          "role": "Co-executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Co-executive producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kevin Kiner",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / selected score credit, not a complete music-team inventory",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Series composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rosario Dawson",
+          "role": "Performer",
+          "characterName": "Ahsoka Tano",
+          "characterRecordId": "people:ahsoka-tano",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Ahsoka Tano",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Natasha Liu Bordizzo",
+          "role": "Performer",
+          "characterName": "Sabine Wren",
+          "characterRecordId": "people:sabine-wren",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Sabine Wren",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Mary Elizabeth Winstead",
+          "role": "Performer",
+          "characterName": "Hera Syndulla",
+          "characterRecordId": "people:hera-syndulla",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Hera Syndulla",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Diana Lee Inosanto",
+          "role": "Performer",
+          "characterName": "Morgan Elsbeth",
+          "characterRecordId": "people:morgan-elsbeth",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Morgan Elsbeth",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ray Stevenson",
+          "role": "Performer",
+          "characterName": "Baylan Skoll",
+          "characterRecordId": "people:baylan-skoll",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Baylan Skoll",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ivanna Sakhno",
+          "role": "Performer",
+          "characterName": "Shin Hati",
+          "characterRecordId": "people:shin-hati",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Shin Hati",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Eman Esfandi",
+          "role": "Performer",
+          "characterName": "Ezra Bridger",
+          "characterRecordId": "people:ezra-bridger",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Ezra Bridger",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lars Mikkelsen",
+          "role": "Performer",
+          "characterName": "Grand Admiral Thrawn",
+          "characterRecordId": "people:grand-admiral-thrawn",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Grand Admiral Thrawn",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David Tennant",
+          "role": "Voice performer",
+          "characterName": "Huyang",
+          "characterRecordId": "people:huyang",
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Huyang",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ariana Greenblatt",
+          "role": "Performer",
+          "characterName": "Ahsoka Tano",
+          "characterRecordId": "people:ahsoka-tano",
+          "scope": "Season 1, Part Five: Shadow Warrior / young Ahsoka",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-young",
+              "locator": "Young Ahsoka in Shadow Warrior",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Hayden Christensen",
+          "role": "Performer",
+          "characterName": "Anakin Skywalker",
+          "characterRecordId": "people:11",
+          "scope": "Season 1 / selected appearances",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-young",
+              "locator": "Cast / Anakin Skywalker",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:ahsoka-tano",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Ahsoka Tano",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:sabine-wren",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Sabine Wren",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:hera-syndulla",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Hera Syndulla",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:morgan-elsbeth",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Morgan Elsbeth",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:baylan-skoll",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Baylan Skoll",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:shin-hati",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Shin Hati",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ezra-bridger",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Ezra Bridger",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:grand-admiral-thrawn",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Grand Admiral Thrawn",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:huyang",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-production",
+              "locator": "Cast / Huyang",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:11",
+          "relation": "story_connection",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-part5",
+              "locator": "Part Five / Anakin Skywalker",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:captain-rex",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-part5",
+              "locator": "Highlight 3 / Captain Rex",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:ahsoka-t6-shuttle",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-part8",
+              "locator": "Part Eight / Databank / Ahsoka’s T-6 Jedi Shuttle",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:eye-of-sion",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-part8",
+              "locator": "Part Eight / Databank / The Eye of Sion",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:chopper",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-part8",
+              "locator": "Part Eight / Databank / Chopper",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:peridea",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-ahsoka-part6",
+              "locator": "Highlight 2 / Peridea",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:sabine-speeder-bike",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-sabine-bike",
+              "locator": "Appearances / Ahsoka",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production facts, original summary, scoped cast/crew and connections; cinema, television and streaming releases reviewed.",
+        "limitations": [
+          "Production credits cover the released 2023 first season. Season 2 is announced for January 20, 2027 and is not counted as released.",
+          "Ray Stevenson’s Baylan credit belongs to season 1; future casting does not replace it. A special theatrical screening of episode 5 is not evidence of an expanded cut.",
+          "Complete end credits, episode-by-episode appearances, worldwide/Finland releases and frame-level master comparisons remain pending. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists."
+        ]
+      }
+    },
+    {
+      "id": "series:skeleton-crew",
+      "primary": true,
+      "summary": {
+        "text": "Four children stumble into a journey far beyond home aboard an old starship. Their search for a route back brings them into the company of a mysterious stranger and dangerous pirates.",
+        "evidence": [
+          {
+            "sourceId": "screen05-skeleton-production",
+            "locator": "Premise / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "creator",
+          "value": "Jon Watts, Christopher Ford",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Creators",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "writer",
+          "value": "Christopher Ford, Jon Watts; Myung Joh Wesner (two episodes)",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Season writing / selected credits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "director",
+          "value": "Jon Watts, David Lowery, Daniel Kwan, Daniel Scheinert, Jake Schreier, Bryce Dallas Howard, Lee Isaac Chung (season 1)",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-directors",
+              "locator": "Individual episode director headings",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Christopher Ford, Jon Watts, Jon Favreau, Dave Filoni, Kathleen Kennedy, Colin Wilson",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Mick Giacchino",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-music",
+              "locator": "Series composer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episodes",
+          "value": "8 (season 1)",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-directors",
+              "locator": "All eight episodes",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "1 released season reviewed",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-directors",
+              "locator": "Eight first-season episodes",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2024–2025 (season 1)",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-finale",
+              "locator": "January 14 episode 8 / 2024 launch",
+              "note": ""
+            },
+            {
+              "sourceId": "screen05-skeleton-date",
+              "locator": "December 2, 2024 / US premiere",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2024-12-02",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-date",
+              "locator": "December 2 at 6 p.m. PT",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US Disney+ two-episode premiere at 6 p.m. Pacific; the December 3 plan was advanced.",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-date",
+              "locator": "Earlier debut",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action series",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-theaters",
+              "locator": "New live-action series",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Jon Watts",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Created by / Jon Watts",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Christopher Ford",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Created by / Christopher Ford",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Watts",
+          "role": "Showrunner",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Showrunners / Jon Watts",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Christopher Ford",
+          "role": "Showrunner",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Showrunners / Christopher Ford",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Watts",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / announced writing roles; detailed assignments not fully reviewed",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Season writing / Jon Watts",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Christopher Ford",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / announced writing roles; detailed assignments not fully reviewed",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Season writing / Christopher Ford",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Myung Joh Wesner",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / two episodes; exact episode assignments pending",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Two episodes written by Myung Joh Wesner",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Watts",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 1 and 8",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-directors",
+              "locator": "Director heading / episodes 1 and 8",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David Lowery",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 2 and 3",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-directors",
+              "locator": "Director heading / episodes 2 and 3",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Daniel Kwan",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 4",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-directors",
+              "locator": "Director heading / episodes 4",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Daniel Scheinert",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 4",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-directors",
+              "locator": "Director heading / episodes 4",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jake Schreier",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 5",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-directors",
+              "locator": "Director heading / episodes 5",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Bryce Dallas Howard",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 6",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-directors",
+              "locator": "Director heading / episodes 6",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lee Isaac Chung",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 7",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-directors",
+              "locator": "Director heading / episodes 7",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Christopher Ford",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Executive producers / Christopher Ford",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Watts",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Executive producers / Jon Watts",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jon Favreau",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Executive producers / Jon Favreau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Executive producers / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Executive producers / Kathleen Kennedy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Colin Wilson",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Executive producers / Colin Wilson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Chris Buongiorno",
+          "role": "Co-executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Co-executive producers / Chris Buongiorno",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Karen Gilchrist",
+          "role": "Co-executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Co-executive producers / Karen Gilchrist",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Beck",
+          "role": "Co-executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Co-executive producers / Carrie Beck",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Susan McNamara",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Producers / Susan McNamara",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "John Bartnicki",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Producers / John Bartnicki",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Mick Giacchino",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / original score",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-music",
+              "locator": "Series score",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ravi Cabot-Conyers",
+          "role": "Performer",
+          "characterName": "Wim",
+          "characterRecordId": "people:wim",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Cast / Wim",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Ryan Kiera Armstrong",
+          "role": "Performer",
+          "characterName": "Fern",
+          "characterRecordId": "people:fern",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Cast / Fern",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kyriana Kratter",
+          "role": "Performer",
+          "characterName": "KB",
+          "characterRecordId": "people:kb",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Cast / KB",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Robert Timothy Smith",
+          "role": "Performer",
+          "characterName": "Neel",
+          "characterRecordId": "people:neel",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Cast / Neel",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jude Law",
+          "role": "Performer",
+          "characterName": "Jod Na Nawood",
+          "characterRecordId": "people:jod-na-nawood",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Cast / Jod Na Nawood",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Nick Frost",
+          "role": "Voice performer",
+          "characterName": "SM-33",
+          "characterRecordId": "people:sm-33",
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "SM-33 voiced by Nick Frost",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:wim",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Cast / Wim",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:fern",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Cast / Fern",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:kb",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Cast / KB",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:neel",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Cast / Neel",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:jod-na-nawood",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "Cast / Jod Na Nawood",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:sm-33",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-production",
+              "locator": "SM-33 / first mate of Onyx Cinder",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:at-attin",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-at-attin",
+              "locator": "Appearances / Skeleton Crew",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:onyx-cinder",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-onyx-cinder",
+              "locator": "Appearances / Skeleton Crew",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:fern-kb-hoverbike",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-skeleton-bike",
+              "locator": "Appearances / Skeleton Crew",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production facts, original summary, scoped cast/crew and connections; cinema, television and streaming releases reviewed.",
+        "limitations": [
+          "Reviewed released first season, eight episodes, 2024–2025. No future renewal or cancellation claim is made.",
+          "December 2 theatrical screenings covered the first two episodes, not a separate film. Detailed writing assignments remain pending beyond the announced writer selection.",
+          "Complete end credits, episode-by-episode appearances, worldwide/Finland releases and frame-level master comparisons remain pending. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists."
+        ]
+      }
+    },
+    {
+      "id": "series:acolyte",
+      "primary": true,
+      "summary": {
+        "text": "A former Jedi learner is caught up in an investigation into attacks on Jedi. As she reunites with her old teacher, the search exposes competing accounts of a tragedy shared by two sisters.",
+        "evidence": [
+          {
+            "sourceId": "screen05-acolyte-production",
+            "locator": "Story / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "creator",
+          "value": "Leslye Headland",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Creator",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "showrunner",
+          "value": "Leslye Headland",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Showrunner",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "writer",
+          "value": "Leslye Headland, Jason Micallef, Charmaine DeGraté, Jasmyne Flournoy, Eileen Shim, Claire Kiechel, Kor Adana, Cameron Squires, Jocelyn Bioh, Jen Richards (season 1; episode scope in credits)",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by entries / episodes 101–108",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "director",
+          "value": "Leslye Headland, Kogonada, Alex Garcia Lopez, Hanelle Culpepper (season 1)",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Episodes 101–108 director assignments",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Leslye Headland, Kathleen Kennedy, Simon Emanuel, Jeff F. King, Jason Micallef",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Michael Abels",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Series score",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episodes",
+          "value": "8 (season 1)",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-twins",
+              "locator": "All eight episodes streaming",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "1 released season reviewed",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-guide",
+              "locator": "Season 1 guides / eight episodes",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2024",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Released 2024",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2024-06-04",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Disney+ debut June 4, 2024",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US Disney+ two-episode streaming premiere; selected US cinema previews were held June 3.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-launch",
+              "locator": "June 4 premiere, two episodes",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Live-action series",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "New live-action storytelling",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Leslye Headland",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Creator / Leslye Headland",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Leslye Headland",
+          "role": "Showrunner",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Showrunner / Leslye Headland",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Leslye Headland",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 1 and 2",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Director assignments / episodes 1 and 2",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kogonada",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 3 and 7",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Director assignments / episodes 3 and 7",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Alex Garcia Lopez",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 4 and 5",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Director assignments / episodes 4 and 5",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Hanelle Culpepper",
+          "role": "Director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episodes 6 and 8",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Director assignments / episodes 6 and 8",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Leslye Headland",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 1",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 101 / Leslye Headland",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Jason Micallef",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 2",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 102 / Jason Micallef",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Charmaine DeGraté",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 2",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 102 / Charmaine DeGraté",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Jasmyne Flournoy",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 3",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 103 / Jasmyne Flournoy",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Eileen Shim",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 3",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 103 / Eileen Shim",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Claire Kiechel",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 4",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 104 / Claire Kiechel",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Kor Adana",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 4",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 104 / Kor Adana",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Kor Adana",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 5",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 105 / Kor Adana",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Cameron Squires",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 5",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 105 / Cameron Squires",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Leslye Headland",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 6",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 106 / Leslye Headland",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Jocelyn Bioh",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 6",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 106 / Jocelyn Bioh",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Charmaine DeGraté",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 7",
+          "note": "WGA final-credit date is not a release date. Final source wording: Charmaine DeGrate and Jen Richards & Jasmyne Flournoy.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 107 / Charmaine DeGraté",
+              "note": "WGA final-credit date is not a release date. Final source wording: Charmaine DeGrate and Jen Richards & Jasmyne Flournoy."
+            }
+          ]
+        },
+        {
+          "person": "Jen Richards",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 7",
+          "note": "WGA final-credit date is not a release date. Final source wording: Charmaine DeGrate and Jen Richards & Jasmyne Flournoy.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 107 / Jen Richards",
+              "note": "WGA final-credit date is not a release date. Final source wording: Charmaine DeGrate and Jen Richards & Jasmyne Flournoy."
+            }
+          ]
+        },
+        {
+          "person": "Jasmyne Flournoy",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 7",
+          "note": "WGA final-credit date is not a release date. Final source wording: Charmaine DeGrate and Jen Richards & Jasmyne Flournoy.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 107 / Jasmyne Flournoy",
+              "note": "WGA final-credit date is not a release date. Final source wording: Charmaine DeGrate and Jen Richards & Jasmyne Flournoy."
+            }
+          ]
+        },
+        {
+          "person": "Jason Micallef",
+          "role": "Writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1, episode 8",
+          "note": "WGA final-credit date is not a release date.",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-wga",
+              "locator": "Final Written by / episode 108 / Jason Micallef",
+              "note": "WGA final-credit date is not a release date."
+            }
+          ]
+        },
+        {
+          "person": "Leslye Headland",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Executive producers / Leslye Headland",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kathleen Kennedy",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Executive producers / Kathleen Kennedy",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Simon Emanuel",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Executive producers / Simon Emanuel",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jeff F. King",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Executive producers / Jeff F. King",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jason Micallef",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Executive producers / Jason Micallef",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Charmaine DeGraté",
+          "role": "Co-executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Co-executive producers / Charmaine DeGraté",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kor Adana",
+          "role": "Co-executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Co-executive producers / Kor Adana",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rayne Roberts",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Producers / Rayne Roberts",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Damian Anderson",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Producers / Damian Anderson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Eileen Shim",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Producers / Eileen Shim",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rob Bredow",
+          "role": "Producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Producers / Rob Bredow",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Michael Abels",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Series score",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Amandla Stenberg",
+          "role": "Performer",
+          "characterName": "Mae Aniseya",
+          "characterRecordId": "people:mae-aniseya",
+          "scope": "Season 1 / adult twin roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-twins",
+              "locator": "Cast / Mae Aniseya",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Amandla Stenberg",
+          "role": "Performer",
+          "characterName": "Osha Aniseya",
+          "characterRecordId": "people:osha-aniseya",
+          "scope": "Season 1 / adult twin roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-twins",
+              "locator": "Cast / Osha Aniseya",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Lee Jung-jae",
+          "role": "Performer",
+          "characterName": "Sol",
+          "characterRecordId": "people:sol",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Cast / Sol",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Manny Jacinto",
+          "role": "Performer",
+          "characterName": "The Stranger / alias Qimir",
+          "characterRecordId": "people:the-stranger",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Cast / The Stranger / alias Qimir",
+              "note": ""
+            },
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Manny Jacinto / Qimir",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dafne Keen",
+          "role": "Performer",
+          "characterName": "Jecki Lon",
+          "characterRecordId": "people:jecki-lon",
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Cast / Jecki Lon",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Charlie Barnett",
+          "role": "Performer",
+          "characterName": "Yord Fandar",
+          "characterRecordId": null,
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Cast / Yord Fandar",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Jodie Turner-Smith",
+          "role": "Performer",
+          "characterName": "Mother Aniseya",
+          "characterRecordId": null,
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Cast / Mother Aniseya",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Rebecca Henderson",
+          "role": "Performer",
+          "characterName": "Vernestra Rwoh",
+          "characterRecordId": null,
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Cast / Vernestra Rwoh",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dean-Charles Chapman",
+          "role": "Performer",
+          "characterName": "Torbin",
+          "characterRecordId": null,
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Cast / Torbin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie-Anne Moss",
+          "role": "Performer",
+          "characterName": "Indara",
+          "characterRecordId": null,
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Cast / Indara",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Margarita Levieva",
+          "role": "Performer",
+          "characterName": "Mother Koril",
+          "characterRecordId": null,
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Cast / Mother Koril",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Joonas Suotamo",
+          "role": "Performer",
+          "characterName": "Kelnacca",
+          "characterRecordId": null,
+          "scope": "First season / original English-language production",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Cast / Kelnacca",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:mae-aniseya",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-twins",
+              "locator": "Cast / Mae Aniseya",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:osha-aniseya",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-twins",
+              "locator": "Cast / Osha Aniseya",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:sol",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Cast / Sol",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:the-stranger",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-production",
+              "locator": "Cast / The Stranger / alias Qimir",
+              "note": ""
+            },
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Manny Jacinto / Qimir",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:jecki-lon",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-cast",
+              "locator": "Cast / Jecki Lon",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:brendok",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-brendok",
+              "locator": "Appearances / The Acolyte",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:fallon-freighter",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-fallon",
+              "locator": "Appearances / The Acolyte",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:jedi-vector",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-jedi-vector",
+              "locator": "Appearances / The Acolyte",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:9",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-acolyte-guide",
+              "locator": "Databank / Coruscant",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production facts, original summary, scoped cast/crew and connections; cinema, television and streaming releases reviewed.",
+        "limitations": [
+          "Reviewed released 2024 season, eight episodes. WGA staff-season labels and final-credit dates are not treated as release evidence.",
+          "Adult Mae and Osha have separate cast entries. Younger performers, stunt doubles, complete supporting cast and all world appearances remain outside this selected cast review.",
+          "Complete end credits, episode-by-episode appearances, worldwide/Finland releases and frame-level master comparisons remain pending. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists."
+        ]
+      }
+    },
+    {
+      "id": "series:maul-shadow-lord",
+      "primary": true,
+      "summary": {
+        "text": "In the early Imperial era, Maul attempts to rebuild his underworld power on Janix. His ambitions intersect with local law enforcement and a young Jedi learner searching for a future.",
+        "evidence": [
+          {
+            "sourceId": "screen05-maul-production",
+            "locator": "Story premise / original archive paraphrase",
+            "note": ""
+          }
+        ]
+      },
+      "facts": [
+        {
+          "key": "creator",
+          "value": "Dave Filoni",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Created by",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "developed_by",
+          "value": "Dave Filoni, Matt Michnovetz",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Developed by",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "supervising_director",
+          "value": "Brad Rau",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Supervising director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "head_writer",
+          "value": "Matt Michnovetz",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Head Writer Matthew Michnovetz; also named Matt in production credits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "executive_producer",
+          "value": "Dave Filoni, Athena Yvette Portillo, Matt Michnovetz, Brad Rau, Carrie Beck, Josh Rimes",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Executive producers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "composer",
+          "value": "Kevin Kiner, Sean Kiner, Deana Kiner",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-music",
+              "locator": "Original music written by all three composers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "episodes",
+          "value": "10 (season 1)",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-series",
+              "locator": "Chapters 1–10",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "seasons",
+          "value": "1 released season reviewed",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-season2",
+              "locator": "Season 2 in development; first season premiered April 6",
+              "note": ""
+            },
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "All season-1 episodes now streaming / May 4",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_years",
+          "value": "2026 (released season reviewed)",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-series",
+              "locator": "April 6, 2026 / chapters 1–10",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_date",
+          "value": "2026-04-06",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-series",
+              "locator": "Release date",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "release_scope",
+          "value": "US Disney+ two-episode first-season premiere; finale May 4. Announced season 2 is not counted as released.",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-rollout",
+              "locator": "US Pacific premiere time / May 4 finale",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "format",
+          "value": "Animated series",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Animated series / Lucasfilm Animation",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "announced_next_season",
+          "value": "Season 2 confirmed in development; release date not established by the reviewed announcement.",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-season2",
+              "locator": "April 2, 2026 / season 2 confirmation",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [
+        {
+          "person": "Dave Filoni",
+          "role": "Creator",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Created by / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Developer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Developed by / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Matt Michnovetz",
+          "role": "Developer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Developed by / Matt Michnovetz",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Brad Rau",
+          "role": "Supervising director",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / supervising role, not sole episodic director",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Supervising director",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Matt Michnovetz",
+          "role": "Head writer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / head writer, not sole episodic author",
+          "note": "Production credits use Matt; interview heading also uses Matthew.",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Head Writer Matthew Michnovetz",
+              "note": "Production credits use Matt; interview heading also uses Matthew."
+            }
+          ]
+        },
+        {
+          "person": "Dave Filoni",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Executive producers / Dave Filoni",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Athena Portillo",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "Published as Athena Yvette Portillo in this production; the archive retains the same contributor identity as other series.",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Executive producers / Athena Yvette Portillo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Matt Michnovetz",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Executive producers / Matt Michnovetz",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Brad Rau",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Executive producers / Brad Rau",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Carrie Beck",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Executive producers / Carrie Beck",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Josh Rimes",
+          "role": "Executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Executive producers / Josh Rimes",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Alex Spotswood",
+          "role": "Co-executive producer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Reviewed first season / selected production roles",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-production",
+              "locator": "Co-executive producer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Kevin Kiner",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / series score",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-music",
+              "locator": "Original music / Kevin Kiner",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Sean Kiner",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / series score",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-music",
+              "locator": "Original music / Sean Kiner",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Deana Kiner",
+          "role": "Composer",
+          "characterName": "",
+          "characterRecordId": null,
+          "scope": "Season 1 / series score",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-music",
+              "locator": "Original music / Deana Kiner",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Sam Witwer",
+          "role": "Voice performer",
+          "characterName": "Maul",
+          "characterRecordId": "people:44",
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Maul",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Gideon Adlon",
+          "role": "Voice performer",
+          "characterName": "Devon Izara",
+          "characterRecordId": "people:devon-izara",
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Devon Izara",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Wagner Moura",
+          "role": "Voice performer",
+          "characterName": "Brander Lawson",
+          "characterRecordId": "people:brander-lawson",
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Brander Lawson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Richard Ayoade",
+          "role": "Voice performer",
+          "characterName": "Two-Boots",
+          "characterRecordId": "people:two-boots",
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Two-Boots",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Dennis Haysbert",
+          "role": "Voice performer",
+          "characterName": "Eeko-Dio Daki",
+          "characterRecordId": "people:eeko-dio-daki",
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Eeko-Dio Daki",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Chris Diamantopoulos",
+          "role": "Voice performer",
+          "characterName": "Looti Vario",
+          "characterRecordId": null,
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Looti Vario",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Charlie Bushnell",
+          "role": "Voice performer",
+          "characterName": "Rylee Lawson",
+          "characterRecordId": null,
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Rylee Lawson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Vanessa Marshall",
+          "role": "Voice performer",
+          "characterName": "Rook Kast",
+          "characterRecordId": null,
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Rook Kast",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "David W. Collins",
+          "role": "Voice performer",
+          "characterName": "Spybot",
+          "characterRecordId": null,
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Spybot",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "A.J. LoCascio",
+          "role": "Voice performer",
+          "characterName": "Marrok",
+          "characterRecordId": null,
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Marrok",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Steve Blum",
+          "role": "Voice performer",
+          "characterName": "Icarus",
+          "characterRecordId": null,
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Icarus",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "person": "Scott Whyte",
+          "role": "Voice performer",
+          "characterName": "Dryden Vos",
+          "characterRecordId": null,
+          "scope": "Season 1 / original English-language voice",
+          "note": "",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Dryden Vos",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "people:44",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Maul",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:devon-izara",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Devon Izara",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:brander-lawson",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Brander Lawson",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:two-boots",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Two-Boots",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:eeko-dio-daki",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-cast",
+              "locator": "Season 1 cast / Eeko-Dio Daki",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:janix",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-janix",
+              "locator": "Appearances / Maul – Shadow Lord",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:at-ac",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-at-ac",
+              "locator": "Appearances / Maul – Shadow Lord",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:4",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-music",
+              "locator": "Episode nine / Darth Vader",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:3",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-series",
+              "locator": "Databank / Imperial Star Destroyer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:22",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "screen05-maul-series",
+              "locator": "Databank / Imperial Shuttle",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "review": {
+        "scope": "Selected production facts, original summary, scoped cast/crew and connections; cinema, television and streaming releases reviewed.",
+        "limitations": [
+          "Released season 1 reviewed: ten chapters, April–May 2026. Season 2 is in development; no released second season or exact second-season release date is claimed.",
+          "Matt and Matthew Michnovetz refer to the same credited writer; head-writer responsibility does not mean sole authorship or direction of every episode. Voice roles are for this series, not automatically the films.",
+          "Complete end credits, episode-by-episode appearances, worldwide/Finland releases and frame-level master comparisons remain pending. No officially documented alternate cut was identified in this scoped search; absence of documentation is not proof that no variation exists."
+        ]
+      }
+    }
+  ],
+  "issues": [
+    {
+      "recordId": "series:obi-wan",
+      "field": "complete_episode_and_master_inventory",
+      "status": "pending",
+      "note": "Complete cast/crew, shot-level master/edition comparison, worldwide television/streaming history and all episode appearances remain outside this selected review."
+    },
+    {
+      "recordId": "series:ahsoka",
+      "field": "complete_episode_and_master_inventory",
+      "status": "pending",
+      "note": "Complete cast/crew, shot-level master/edition comparison, worldwide television/streaming history and all episode appearances remain outside this selected review."
+    },
+    {
+      "recordId": "series:skeleton-crew",
+      "field": "complete_episode_and_master_inventory",
+      "status": "pending",
+      "note": "Complete cast/crew, shot-level master/edition comparison, worldwide television/streaming history and all episode appearances remain outside this selected review."
+    },
+    {
+      "recordId": "series:acolyte",
+      "field": "complete_episode_and_master_inventory",
+      "status": "pending",
+      "note": "Complete cast/crew, shot-level master/edition comparison, worldwide television/streaming history and all episode appearances remain outside this selected review."
+    },
+    {
+      "recordId": "series:maul-shadow-lord",
+      "field": "complete_episode_and_master_inventory",
+      "status": "pending",
+      "note": "Complete cast/crew, shot-level master/edition comparison, worldwide television/streaming history and all episode appearances remain outside this selected review."
+    },
+    {
+      "recordId": "series:obi-wan",
+      "field": "complete_writing_credits",
+      "status": "pending",
+      "note": "Joby Harold selected series writing credit checked; complete final episode-level writing/co-writing breakdown remains pending. Official catalogue May 27 and actual May 26 Pacific streaming time are explicitly distinguished."
+    },
+    {
+      "recordId": "series:skeleton-crew",
+      "field": "complete_writing_assignments",
+      "status": "pending",
+      "note": "Announced Jon Watts/Christopher Ford writing roles and Myung Joh Wesner two-episode role checked; exact episode-level writing assignments remain pending."
+    },
+    {
+      "recordId": "series:acolyte",
+      "field": "wga_staff_season_label",
+      "status": "clarified",
+      "note": "WGA lists season-2 staff entries and 2023 final-credit dates. Neither establishes a released second season or a 2023 public release. Only season-1 final Written by entries used."
+    }
+  ]
+}

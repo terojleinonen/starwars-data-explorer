@@ -1,0 +1,991 @@
+{
+  "version": 1,
+  "id": "films-02-editions",
+  "checkedAt": "2026-10-26",
+  "sources": [
+    {
+      "id": "film02-phantom-3d-release",
+      "title": "Lucasfilm — Phantom Menace 3D release announcement (press-release reprint)",
+      "url": "https://www.awn.com/news/phantom-menace-3-d-coming-2012",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Lucasfilm/Fox press release dated 3 March 2011, preserved by Animation World Network. US 3D launch and ILM supervision."
+    },
+    {
+      "id": "film02-phantom-conversion",
+      "title": "fxguide — The Phantom Menace stereo conversion, John Knoll interview",
+      "url": "https://www.fxguide.com/fxfeatured/art-of-stereo-conversion-2d-to-3d-2012/",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "fxguide",
+      "revision": "",
+      "note": "First-hand technical interview: John Knoll supervised the conversion performed by Prime Focus. Conversion is not a claim of a new narrative cut."
+    },
+    {
+      "id": "film02-phantom-3d-viewing",
+      "title": "WIRED — The Phantom Menace 3D viewing report",
+      "url": "https://www.wired.com/2012/02/star-wars-phantom-menace-3d/",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "WIRED",
+      "revision": "",
+      "note": "Contemporary viewing report identifies digital Yoda in the 2012 theatrical conversion. Used only for this presentation difference; no review prose copied."
+    },
+    {
+      "id": "film02-clones-imax-interview",
+      "title": "in70mm — Interview with Lucasfilm’s Jim Ward, December 2002",
+      "url": "https://www.in70mm.com/news/2002/jim_ward/index.htm",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "in70mm",
+      "revision": "",
+      "note": "First-hand Lucasfilm interview confirms two-hour IMAX edit, 1.81:1 framing, DMR processing and November 1 launch. David Tattersall was not involved in conversion; original crew must not be assigned as conversion crew."
+    },
+    {
+      "id": "film02-clones-imax-release",
+      "title": "Fandango — Attack of the Clones: The IMAX Experience",
+      "url": "https://www.fandango.com/star-wars-episode-ii-attack-of-the-clones-the-imax-experience-53782/movie-overview",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "Fandango",
+      "revision": "",
+      "note": "Exhibitor/ticketing metadata corroborates the 1 November 2002 theatrical date and two-hour IMAX presentation."
+    },
+    {
+      "id": "film02-clones-bbfc",
+      "title": "BBFC — Attack of the Clones version register",
+      "url": "https://www.bbfc.co.uk/release/star-wars-episode-ii-attack-of-the-clones-q29sbgvjdglvbjpwwc0znda4nja",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "BBFC",
+      "revision": "",
+      "note": "Cinema entry documents a distributor cut to obtain PG. Classification dates are not release dates. Physical-media/VOD entries are not silently converted to streaming launch dates."
+    },
+    {
+      "id": "film02-prequel-3d-plans",
+      "title": "StarWars.com — Celebration VI closing ceremony",
+      "url": "https://www.starwars.com/news/swcvi-closing-ceremony",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Original 2013 planned 3D dates only. Both wide releases were postponed; do not display these as actual openings."
+    },
+    {
+      "id": "film02-prequel-3d-postponed",
+      "title": "Lucasfilm — 2013 3D postponement statement (preserved quotation)",
+      "url": "https://www.theforce.net/latestnews/story/Prioritizing_Episode_VII_LFL_Postpones_3D_ReReleases_150010.asp",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Contemporary reproduction of Lucasfilm’s statement, whose original URL is unavailable. Applies to wide 2013 theatrical releases, not later convention screenings."
+    },
+    {
+      "id": "film02-clones-3d-event",
+      "title": "Lucasfilm — Celebration Europe 3D screening announcement (preserved quotation)",
+      "url": "https://toschestation.net/attack-of-the-clones-3d-to-screen-at-celebration-europe/",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "Lucasfilm",
+      "revision": "",
+      "note": "Preserves the original official announcement of a limited July 26–28 2013 engagement in Essen. This event window is not a wide US release or an independently established first-screening day."
+    },
+    {
+      "id": "film02-celebration-retrospective",
+      "title": "Celebration — 2015 screening announcement (preserved quotation)",
+      "url": "https://starwarsautographnews.com/premiering-at-celebration-anaheim-revenge-of-the-sith-in-3d/",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "Celebration",
+      "revision": "",
+      "note": "Reproduces the organizer’s announcement and explicitly recalls Attack of the Clones screening at Celebration Europe in 2013. Third-party host, not current official website."
+    },
+    {
+      "id": "film02-sith-3d-event",
+      "title": "StarWars.com — Revenge of the Sith 3D at Celebration",
+      "url": "https://www.starwars.com/news/revenge-of-the-sith-3d-coming-to-star-wars-celebration",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Documents the 3D conversion and April 16–19 2015 Anaheim event window. The window must not be presented as the exact date of the first individual screening or a wide release."
+    },
+    {
+      "id": "film02-phantom-2024",
+      "title": "StarWars.com — The Phantom Menace 25th anniversary",
+      "url": "https://www.starwars.com/news/the-phantom-menace-25th-anniversary",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "May 3 2024 theatrical return. No statement that a newly extended cut was created."
+    },
+    {
+      "id": "film02-sith-2025",
+      "title": "StarWars.com — Revenge of the Sith 20th anniversary",
+      "url": "https://www.starwars.com/news/revenge-of-the-sith-20th-anniversary-theatrical-release",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "April 25 2025 selected US theatrical return, including 4DX presentation. Does not establish a new story edit or additional scenes."
+    },
+    {
+      "id": "film02-marathon-2024",
+      "title": "StarWars.com — Skywalker Saga cinema marathon",
+      "url": "https://www.starwars.com/news/skywalker-saga-marathon",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "All nine episodic films advertised as a May 4 2024 theatrical event. Event date only, not individual session times or proof of a specific master."
+    },
+    {
+      "id": "film02-disney-investor",
+      "title": "The Walt Disney Company — 2019 Investor Day transcript",
+      "url": "https://thewaltdisneycompany.com/app/uploads/2019/03/Disney_Investor_Day_2019_transcript.pdf",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "The Walt Disney Company",
+      "revision": "",
+      "note": "Page 40, Kathleen Kennedy: first two trilogies and The Force Awakens available at Disney+ launch. Combined with launch-day reports, not treated as a Finnish launch date."
+    },
+    {
+      "id": "film02-disney-launch",
+      "title": "The Walt Disney Company — Disney+ launch day",
+      "url": "https://thewaltdisneycompany.com/news/disney-launches-today-and-a-new-era-of-disney-entertainment-begins/",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "The Walt Disney Company",
+      "revision": "",
+      "note": "Actual November 12 2019 launch in US, Canada and Netherlands. We record US availability only, not first-ever streaming or the identity of the supplied master."
+    },
+    {
+      "id": "film02-disney-lucasfilm-launch",
+      "title": "StarWars.com — Disney+ is Here!",
+      "url": "https://www.starwars.com/news/disneyplus-is-here",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Launch-day confirmation that the Star Wars film library is streaming. Earlier title-specific plan is retained as a second citation."
+    },
+    {
+      "id": "film02-clone-netflix",
+      "title": "Netflix — The Clone Wars streaming launch press release",
+      "url": "https://www.prnewswire.com/news-releases/the-force-is-with-netflix-final-season-of-lucasfilms-star-wars-the-clone-wars-the-lost-missions-to-premiere-only-on-netflix-in-us-and-canada-on-march-7th-245344771.html",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "Netflix",
+      "revision": "",
+      "note": "Netflix’s own 13 February 2014 statement explicitly includes the feature film from March 7 in US and Canada. Director’s-cut wording refers to series episodes, not a newly extended film."
+    },
+    {
+      "id": "film02-force-starz",
+      "title": "STARZ — The Force Awakens TV and app launch (Business Wire reprint)",
+      "url": "https://br.advfn.com/noticias/BW/2016/artigo/71980537",
+      "kind": "reference",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "STARZ",
+      "revision": "",
+      "note": "STARZ’s syndicated press release: September 10 2016 US television premiere and app availability. Provider statement on a third-party host; current price information is not reused."
+    },
+    {
+      "id": "film02-force-imax",
+      "title": "StarWars.com — The Force Awakens IMAX 3D presentation",
+      "url": "https://www.starwars.com/news/get-a-first-look-at-the-star-wars-the-force-awakens-imax-3d-poster",
+      "kind": "official",
+      "checkedAt": "2026-10-26",
+      "license": "Reference only",
+      "reuseBasis": "Selected historical facts and source links only; no source text, images or catalogue dump redistributed.",
+      "attribution": "StarWars.com",
+      "revision": "",
+      "note": "Confirms December 18 2015 IMAX 3D alongside original release; no assertion of a separately extended narrative cut."
+    }
+  ],
+  "editions": [
+    {
+      "id": "films:4:theatrical-1999",
+      "recordId": "films:4",
+      "label": "Original theatrical version",
+      "year": 1999,
+      "kind": "original",
+      "summary": "Original feature-film production. Selected original English-language credits are attached here; later conversion work is kept separate.",
+      "scopeNote": "Original production, not a guarantee that later theatrical or streaming copies use the identical print, edit or master. Later platform dates are listed separately when the supplied master is unverified.",
+      "evidence": [
+        {
+          "sourceId": "film02-afi-phantom",
+          "locator": "Original film / production credits and US opening",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:4:original-us",
+          "date": "1999-05-19",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "original",
+          "status": "released",
+          "note": "Original US theatrical opening; gala screenings and other territories are distinct events.",
+          "label": "Original theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-film-phantom",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:5:theatrical-2002",
+      "recordId": "films:5",
+      "label": "Original theatrical version",
+      "year": 2002,
+      "kind": "original",
+      "summary": "Original feature-film production. Selected original English-language credits are attached here; later conversion work is kept separate.",
+      "scopeNote": "Original production, not a guarantee that later theatrical or streaming copies use the identical print, edit or master. Later platform dates are listed separately when the supplied master is unverified.",
+      "evidence": [
+        {
+          "sourceId": "film02-afi-clones",
+          "locator": "Original film / production credits and US opening",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:5:original-us",
+          "date": "2002-05-16",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "original",
+          "status": "released",
+          "note": "Original US theatrical opening; gala screenings and other territories are distinct events.",
+          "label": "Original theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-film-clones",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:6:theatrical-2005",
+      "recordId": "films:6",
+      "label": "Original theatrical version",
+      "year": 2005,
+      "kind": "original",
+      "summary": "Original feature-film production. Selected original English-language credits are attached here; later conversion work is kept separate.",
+      "scopeNote": "Original production, not a guarantee that later theatrical or streaming copies use the identical print, edit or master. Later platform dates are listed separately when the supplied master is unverified.",
+      "evidence": [
+        {
+          "sourceId": "film02-afi-sith",
+          "locator": "Original film / production credits and US opening",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:6:original-us",
+          "date": "2005-05-19",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "original",
+          "status": "released",
+          "note": "Original US theatrical opening; gala screenings and other territories are distinct events.",
+          "label": "Original theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-film-sith",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:clone-wars-film:theatrical-2008",
+      "recordId": "films:clone-wars-film",
+      "label": "Original theatrical version",
+      "year": 2008,
+      "kind": "original",
+      "summary": "Original feature-film production. Selected original English-language credits are attached here; later conversion work is kept separate.",
+      "scopeNote": "Original production, not a guarantee that later theatrical or streaming copies use the identical print, edit or master. Later platform dates are listed separately when the supplied master is unverified.",
+      "evidence": [
+        {
+          "sourceId": "film02-afi-clone-film",
+          "locator": "Original film / production credits and US opening",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:clone-wars-film:original-us",
+          "date": "2008-08-15",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "original",
+          "status": "released",
+          "note": "Original US theatrical opening; gala screenings and other territories are distinct events.",
+          "label": "Original theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-film-clone-film",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:force-awakens:theatrical-2015",
+      "recordId": "films:force-awakens",
+      "label": "Original theatrical version",
+      "year": 2015,
+      "kind": "original",
+      "summary": "Original feature-film production. Selected original English-language credits are attached here; later conversion work is kept separate.",
+      "scopeNote": "Original production, not a guarantee that later theatrical or streaming copies use the identical print, edit or master. Later platform dates are listed separately when the supplied master is unverified.",
+      "evidence": [
+        {
+          "sourceId": "film02-afi-force",
+          "locator": "Original film / production credits and US opening",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-force-imax",
+          "locator": "December 18 2015 IMAX 3D release",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": true,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:force-awakens:original-us",
+          "date": "2015-12-18",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "original",
+          "status": "released",
+          "note": "Original US theatrical opening; no DVD, Blu-ray or download-sale date. 2D, 3D and IMAX were offered on this date.",
+          "label": "Original theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-film-force",
+              "locator": "Release Date",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:4:3d-2012",
+      "recordId": "films:4",
+      "label": "2012 stereoscopic 3D conversion",
+      "year": 2012,
+      "kind": "revision",
+      "summary": "A stereoscopic theatrical conversion supervised by John Knoll and performed by Prime Focus. The 2012 presentation uses a digital Yoda instead of the puppet seen in most of the original 1999 version.",
+      "scopeNote": "A conversion and revised presentation; physical-media dates and a complete scene-change list are outside this release history.",
+      "evidence": [
+        {
+          "sourceId": "film02-phantom-conversion",
+          "locator": "Case study three / The Phantom Menace",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-phantom-3d-viewing",
+          "locator": "Viewing report / question 1, digital Yoda",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [
+        {
+          "person": "John Knoll",
+          "role": "Stereo conversion supervisor",
+          "evidence": [
+            {
+              "sourceId": "film02-phantom-conversion",
+              "locator": "Case study three / John Knoll supervised the stereo conversion",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "films:4:3d-us-2012",
+          "date": "2012-02-10",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "revision",
+          "status": "released",
+          "note": "US 3D theatrical launch, separate from the original 1999 release.",
+          "label": "Revised theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-phantom-3d-release",
+              "locator": "Lucasfilm/Fox press release / theatrical launch",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:5:imax-2002",
+      "recordId": "films:5",
+      "label": "2002 IMAX shortened edit",
+      "year": 2002,
+      "kind": "revision",
+      "summary": "A two-hour edit prepared for the IMAX film platter limit, digitally remastered and reframed for a 1.81:1 presentation. This is a documented edited version, beyond a change of projection format.",
+      "scopeNote": "Jim Ward confirms the edit and says original cinematographer David Tattersall was not involved in the conversion. Individual conversion contributors remain unverified; original crew are not reassigned here.",
+      "evidence": [
+        {
+          "sourceId": "film02-clones-imax-interview",
+          "locator": "Jim Ward answers / two-hour plate time, November 1 and 1.81:1",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:5:imax-us-2002",
+          "date": "2002-11-01",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "revision",
+          "status": "released",
+          "note": "Selected US IMAX theatres. The contemporaneous Lucasfilm interview confirms the launch.",
+          "label": "Revised theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-clones-imax-release",
+              "locator": "Release Date / Friday Nov 1 2002",
+              "note": ""
+            },
+            {
+              "sourceId": "film02-clones-imax-interview",
+              "locator": "Jim Ward answers / November 1 launch",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:5:uk-pg-2002",
+      "recordId": "films:5",
+      "label": "2002 UK PG cinema edit",
+      "year": 2002,
+      "kind": "revision",
+      "summary": "The UK distributor removed a head-butt to obtain a PG classification. BBFC records an uncut 12 option as available to the distributor.",
+      "scopeNote": "Cinema variant documented by the BBFC. Its 7 May 2002 classification date is not a release date. A verified launch date for this specific cut has not yet been added.",
+      "evidence": [
+        {
+          "sourceId": "film02-clones-bbfc",
+          "locator": "Cinema / 2002 / Cuts",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [],
+      "releases": []
+    },
+    {
+      "id": "films:5:3d-2013",
+      "recordId": "films:5",
+      "label": "Stereoscopic 3D conversion",
+      "year": 2013,
+      "kind": "revision",
+      "summary": "A completed stereoscopic conversion associated with limited Celebration screenings. The proposed wide 2013 release was postponed.",
+      "scopeNote": "The displayed convention dates are an event range. No exact first individual screening day or wide US 3D opening is asserted. Selected conversion crew remain unverified.",
+      "evidence": [
+        {
+          "sourceId": "film02-clones-3d-event",
+          "locator": "Preserved organizer announcement / July 26–28 engagement",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-celebration-retrospective",
+          "locator": "Organizer quotation / Clones screened at Celebration Europe in 2013",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:5:3d-event",
+          "date": "2013-07-26",
+          "dateEnd": "2013-07-28",
+          "territory": "DE · Essen",
+          "medium": "Theatrical",
+          "eventType": "event_screening",
+          "status": "released",
+          "note": "Convention screening window, not an exact first-session day or a wide theatrical release.",
+          "label": "Convention screening window",
+          "evidence": [
+            {
+              "sourceId": "film02-clones-3d-event",
+              "locator": "Preserved organizer announcement / July 26–28 engagement",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "films:5:3d-wide-postponed",
+          "date": "2013-09-20",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "revision",
+          "status": "superseded",
+          "note": "Planned wide US 3D release postponed in January 2013. Not an actual opening.",
+          "label": "Revised theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-prequel-3d-plans",
+              "locator": "Closing ceremony / originally announced 2013 dates",
+              "note": ""
+            },
+            {
+              "sourceId": "film02-prequel-3d-postponed",
+              "locator": "Lucasfilm statement / postponement of both autumn releases",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "films:6:3d-2015",
+      "recordId": "films:6",
+      "label": "Stereoscopic 3D conversion",
+      "year": 2015,
+      "kind": "revision",
+      "summary": "A completed stereoscopic conversion associated with limited Celebration screenings. The proposed wide 2013 release was postponed.",
+      "scopeNote": "The displayed convention dates are an event range. No exact first individual screening day or wide US 3D opening is asserted. Selected conversion crew remain unverified.",
+      "evidence": [
+        {
+          "sourceId": "film02-sith-3d-event",
+          "locator": "Announcement / Anaheim April 16–19 event window",
+          "note": ""
+        }
+      ],
+      "inheritOriginalCredits": false,
+      "credits": [],
+      "releases": [
+        {
+          "id": "films:6:3d-event",
+          "date": "2015-04-16",
+          "dateEnd": "2015-04-19",
+          "territory": "US · Anaheim",
+          "medium": "Theatrical",
+          "eventType": "event_screening",
+          "status": "released",
+          "note": "Convention screening window, not an exact first-session day or a wide theatrical release.",
+          "label": "Convention screening window",
+          "evidence": [
+            {
+              "sourceId": "film02-sith-3d-event",
+              "locator": "Announcement / Anaheim April 16–19 event window",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "id": "films:6:3d-wide-postponed",
+          "date": "2013-10-11",
+          "dateEnd": null,
+          "territory": "US",
+          "medium": "Theatrical",
+          "eventType": "revision",
+          "status": "superseded",
+          "note": "Planned wide US 3D release postponed in January 2013. Not an actual opening.",
+          "label": "Revised theatrical release",
+          "evidence": [
+            {
+              "sourceId": "film02-prequel-3d-plans",
+              "locator": "Closing ceremony / originally announced 2013 dates",
+              "note": ""
+            },
+            {
+              "sourceId": "film02-prequel-3d-postponed",
+              "locator": "Lucasfilm statement / postponement of both autumn releases",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "recordId": "films:4",
+      "editionId": null,
+      "id": "films:4:disneyplus-us",
+      "date": "2019-11-12",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "note": "US Disney+ availability, not the first-ever streaming release. The precise edit/master is not established by these sources.",
+      "label": "Disney+ US catalogue launch",
+      "evidence": [
+        {
+          "sourceId": "film02-disney-launch",
+          "locator": "Launch-day report / service live in US",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-disney-investor",
+          "locator": "PDF page 40 / Kathleen Kennedy / launch film selection",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-disney-lucasfilm-launch",
+          "locator": "12 November 2019 / Star Wars films streaming now",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:4",
+      "editionId": null,
+      "id": "films:4:marathon-2024",
+      "date": "2024-05-04",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "note": "Selected US cinemas; advertised event date, not an exact individual-film session time. The source does not identify the supplied master.",
+      "label": "Skywalker Saga cinema marathon",
+      "evidence": [
+        {
+          "sourceId": "film02-marathon-2024",
+          "locator": "All nine episodic films / advertised May 4 cinema marathon",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:5",
+      "editionId": null,
+      "id": "films:5:disneyplus-us",
+      "date": "2019-11-12",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "note": "US Disney+ availability, not the first-ever streaming release. The precise edit/master is not established by these sources.",
+      "label": "Disney+ US catalogue launch",
+      "evidence": [
+        {
+          "sourceId": "film02-disney-launch",
+          "locator": "Launch-day report / service live in US",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-disney-investor",
+          "locator": "PDF page 40 / Kathleen Kennedy / launch film selection",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-disney-lucasfilm-launch",
+          "locator": "12 November 2019 / Star Wars films streaming now",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:5",
+      "editionId": null,
+      "id": "films:5:marathon-2024",
+      "date": "2024-05-04",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "note": "Selected US cinemas; advertised event date, not an exact individual-film session time. The source does not identify the supplied master.",
+      "label": "Skywalker Saga cinema marathon",
+      "evidence": [
+        {
+          "sourceId": "film02-marathon-2024",
+          "locator": "All nine episodic films / advertised May 4 cinema marathon",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:6",
+      "editionId": null,
+      "id": "films:6:disneyplus-us",
+      "date": "2019-11-12",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "note": "US Disney+ availability, not the first-ever streaming release. The precise edit/master is not established by these sources.",
+      "label": "Disney+ US catalogue launch",
+      "evidence": [
+        {
+          "sourceId": "film02-disney-launch",
+          "locator": "Launch-day report / service live in US",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-disney-investor",
+          "locator": "PDF page 40 / Kathleen Kennedy / launch film selection",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-disney-lucasfilm-launch",
+          "locator": "12 November 2019 / Star Wars films streaming now",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:6",
+      "editionId": null,
+      "id": "films:6:marathon-2024",
+      "date": "2024-05-04",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "note": "Selected US cinemas; advertised event date, not an exact individual-film session time. The source does not identify the supplied master.",
+      "label": "Skywalker Saga cinema marathon",
+      "evidence": [
+        {
+          "sourceId": "film02-marathon-2024",
+          "locator": "All nine episodic films / advertised May 4 cinema marathon",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:force-awakens",
+      "editionId": null,
+      "id": "films:force-awakens:disneyplus-us",
+      "date": "2019-11-12",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "note": "US Disney+ availability, not the first-ever streaming release. The precise edit/master is not established by these sources.",
+      "label": "Disney+ US catalogue launch",
+      "evidence": [
+        {
+          "sourceId": "film02-disney-launch",
+          "locator": "Launch-day report / service live in US",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-disney-investor",
+          "locator": "PDF page 40 / Kathleen Kennedy / launch film selection",
+          "note": ""
+        },
+        {
+          "sourceId": "film02-disney-lucasfilm-launch",
+          "locator": "12 November 2019 / Star Wars films streaming now",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:force-awakens",
+      "editionId": null,
+      "id": "films:force-awakens:marathon-2024",
+      "date": "2024-05-04",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "note": "Selected US cinemas; advertised event date, not an exact individual-film session time. The source does not identify the supplied master.",
+      "label": "Skywalker Saga cinema marathon",
+      "evidence": [
+        {
+          "sourceId": "film02-marathon-2024",
+          "locator": "All nine episodic films / advertised May 4 cinema marathon",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:4",
+      "editionId": null,
+      "id": "films:4:anniversary-2024",
+      "date": "2024-05-03",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "note": "US theatrical return. The announcement does not identify a new story edit or the exact master.",
+      "label": "25th-anniversary theatrical return",
+      "evidence": [
+        {
+          "sourceId": "film02-phantom-2024",
+          "locator": "Theatrical return / May 3 2024",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:6",
+      "editionId": null,
+      "id": "films:6:anniversary-2025",
+      "date": "2025-04-25",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Theatrical",
+      "eventType": "rerelease",
+      "status": "released",
+      "note": "Several presentation formats including 4DX. Motion seats and effects do not establish a new narrative cut; supplied edit/master remains unverified.",
+      "label": "20th-anniversary theatrical return · includes 4DX",
+      "evidence": [
+        {
+          "sourceId": "film02-sith-2025",
+          "locator": "Selected US theatres / April 25 2025 / several formats including 4DX",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:clone-wars-film",
+      "editionId": null,
+      "id": "films:clone-wars-film:netflix-2014",
+      "date": "2014-03-07",
+      "dateEnd": null,
+      "territory": "US, CA",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "note": "Feature-film availability alongside the series. The reference to director’s-cut episodes does not establish an extended feature-film version.",
+      "label": "Netflix US & Canada catalogue launch",
+      "evidence": [
+        {
+          "sourceId": "film02-clone-netflix",
+          "locator": "Netflix statement / March 7 / feature film included",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:force-awakens",
+      "editionId": null,
+      "id": "films:force-awakens:starz-television",
+      "date": "2016-09-10",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Television",
+      "eventType": "television_premiere",
+      "status": "released",
+      "note": "US provider-specific launch; no new story edit is identified.",
+      "label": "STARZ US television premiere",
+      "evidence": [
+        {
+          "sourceId": "film02-force-starz",
+          "locator": "STARZ statement / September 10 / all six channels and app",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "recordId": "films:force-awakens",
+      "editionId": null,
+      "id": "films:force-awakens:starz-streaming",
+      "date": "2016-09-10",
+      "dateEnd": null,
+      "territory": "US",
+      "medium": "Streaming",
+      "eventType": "platform_launch",
+      "status": "released",
+      "note": "US provider-specific launch; no new story edit is identified.",
+      "label": "STARZ app availability",
+      "evidence": [
+        {
+          "sourceId": "film02-force-starz",
+          "locator": "STARZ statement / September 10 / all six channels and app",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "facts": []
+}
