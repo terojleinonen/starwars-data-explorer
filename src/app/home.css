@@ -1,15 +1,5 @@
 /* The prologue and the archive share one entry point. No additional hero image. */
 .site-header { display: flex; }
-.hero-destinations { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); margin-top: 31px; width: 100%; border: 1px solid #d6b88970; background: #080d10c9; }
-.hero-destinations > a { display: flex; align-items: center; justify-content: space-between; gap: 10px; height: 53px; min-width: 0; padding: 0 16px; color: #efede5; font-size: 11px; font-weight: 500; border-bottom: 2px solid var(--destination-accent); transition: background .18s, color .18s; }
-.hero-destinations > a + a { border-left: 1px solid #ffffff24; }
-.hero-destinations > a:first-child { background: var(--gold); border-bottom-color: var(--gold); color: #121311; font-weight: 600; }
-.hero-destinations > a > svg { width: 12px; height: 12px; color: var(--destination-accent); }
-.hero-destinations > a:first-child > svg { color: currentColor; }
-.hero-destinations > a:hover { background: #d6b88924; color: var(--destination-accent); }
-.hero-destinations > a:first-child:hover { background: #e7cca5; color: #121311; }
-.hero-destinations > a:focus-visible { position: relative; z-index: 1; outline-offset: -4px; }
-.hero .hero-side-note { bottom: 310px; }
 
 .home-archive { position: relative; padding-block: 96px 104px; }
 .home-archive-anchor { position: absolute; top: 0; }
@@ -72,15 +62,10 @@
 .home-archive-origin > a { flex-shrink: 0; color: #b8ade0; }
 
 @media (max-width: 1200px) {
-  .hero-destinations > a { padding-inline: 12px; gap: 7px; }
-  .hero-destinations > a > svg { display: none; }
   .home-archive .collection-directory { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 900px) {
   .hero .hero-side-note { display: none; }
-  .hero-destinations { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-  .hero-destinations > a { border: 1px solid #ffffff1a; border-bottom: 2px solid var(--destination-accent); }
-  .hero-destinations > a + a { border-left-color: #ffffff1a; }
   .hero { height: auto; min-height: 100svh; }
   .hero-content { padding-bottom: 120px; }
   .home-archive-intro { gap: 36px; }
@@ -89,8 +74,6 @@
 @media (max-width: 760px) {
   .hero { max-height: none; min-height: 100svh; height: auto; }
   .hero-content { padding-top: clamp(150px, 20svh, 200px); padding-bottom: 110px; }
-  .hero-destinations { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 26px; }
-  .hero-destinations > a { height: 51px; padding-inline: 12px; font-size: 10px; }
   .hero-side-note { display: none; }
   .home-archive { padding-block: 64px; }
   .home-archive-intro { grid-template-columns: 1fr; gap: 26px; margin-block: 34px; }
@@ -124,7 +107,6 @@
   .home-archive-origin p:not(.eyebrow) { font-size: 13px; }
 }
 @media (max-width: 360px) {
-  .hero-destinations > a { padding-inline: 8px; font-size: 9px; }
   .home-archive .directory-bottom h4 { font-size: 23px; }
   .home-archive .directory-top { font-size: 6px; }
 }

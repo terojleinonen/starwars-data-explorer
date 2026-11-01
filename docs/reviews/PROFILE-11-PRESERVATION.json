@@ -1,0 +1,151 @@
+{
+  "citations": {
+    "before": 5649,
+    "after": 5768,
+    "added": 119,
+    "missingOrChanged": 0
+  },
+  "record_sources": {
+    "before": 2282,
+    "after": 2330,
+    "added": 48,
+    "missingOrChanged": 0
+  },
+  "contributors": {
+    "before": 307,
+    "after": 307,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "credits": {
+    "before": 576,
+    "after": 576,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "record_reviews": {
+    "before": 392,
+    "after": 397,
+    "added": 5,
+    "missingOrChanged": 0
+  },
+  "review_issues": {
+    "before": 42,
+    "after": 42,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "film_editions": {
+    "before": 26,
+    "after": 26,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "release_events": {
+    "before": 82,
+    "after": 82,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "edition_credits": {
+    "before": 10,
+    "after": 10,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "review_supplements": {
+    "before": 252,
+    "after": 252,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episodes": {
+    "before": 151,
+    "after": 151,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_credits": {
+    "before": 65,
+    "after": 65,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_links": {
+    "before": 1048,
+    "after": 1048,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "episode_reviews": {
+    "before": 87,
+    "after": 87,
+    "added": 0,
+    "missingOrChanged": 0
+  },
+  "fact_assessments": {
+    "before": 343,
+    "after": 374,
+    "added": 31,
+    "missingOrChanged": 0
+  },
+  "review_batches": {
+    "before": 31,
+    "after": 32,
+    "added": 1,
+    "missingOrChanged": 0
+  },
+  "sources": {
+    "before": 786,
+    "after": 799,
+    "added": 13,
+    "existingScopeNotesChanged": 0,
+    "allSourceIdsUrlsTitlesCheckedDatesAndRightsRetained": true
+  },
+  "allowedChanges": {
+    "recordMetadata": 5,
+    "inheritedFieldsAssessed": 40,
+    "inheritedVerifiedOrCorrected": 9,
+    "unestablishedWithRawValuesRetained": 31,
+    "newFacts": 14,
+    "selectedLinksVerified": 38,
+    "inheritedLinksVerified": 19,
+    "newLinks": 19,
+    "numericIdentitiesTitlesSlugsOriginPreserved": true,
+    "sourceScopeNoteOnly": 0
+  },
+  "totals": {
+    "records": 596,
+    "sources": 799,
+    "facts": 2840,
+    "record_sources": 2330,
+    "links": 2147,
+    "metadata": 5,
+    "review_batches": 32,
+    "record_reviews": 397,
+    "contributors": 307,
+    "credits": 576,
+    "citations": 5768,
+    "review_issues": 42,
+    "film_editions": 26,
+    "release_events": 82,
+    "edition_credits": 10,
+    "review_supplements": 252,
+    "episodes": 151,
+    "episode_credits": 65,
+    "episode_links": 1048,
+    "episode_reviews": 87,
+    "fact_assessments": 374
+  },
+  "factStatuses": {
+    "verified": 751,
+    "unestablished": 374,
+    "legacy": 1715
+  },
+  "linkStatuses": {
+    "legacy": 950,
+    "verified": 1194,
+    "reference": 3
+  },
+  "remainingLegacyPlaceholders": 362
+}

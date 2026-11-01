@@ -1,0 +1,1927 @@
+{
+  "batch": "PROFILE-13",
+  "checkedAt": "2026-11-01",
+  "changes": [
+    {
+      "sourceId": "profile03-luke-gallery",
+      "field": "source_description",
+      "before": {
+        "note": "Selected expanded gallery captions 18 and 43 read directly in the browser: the green creature identified as Yoda, and Yoda’s spirit advising Luke. No full captions or images copied; not a complete Luke profile review."
+      },
+      "after": {
+        "note": "Selected expanded gallery captions 18 and 43 read directly in the browser: the green creature identified as Yoda, and Yoda’s spirit advising Luke. No full captions or images copied; not a complete Luke profile review. PROFILE-13 extension, checked 1 November 2026: Additional currently visible caption 17 explicitly describes Luke flying a snowspeeder at Hoth. Only that additional selected use is claimed; current page shows fifty images, not a newly completed full-gallery review."
+      }
+    },
+    {
+      "sourceId": "profile03-chewbacca",
+      "field": "source_description",
+      "before": {
+        "note": "Main profile, 2.28 m height, Wookiee classification, bowcaster, Falcon role, selected work appearances and explicitly personal Kashyyyk homeworld history. No birth year inferred from the 190 Years Old clip title."
+      },
+      "after": {
+        "note": "Main profile, 2.28 m height, Wookiee classification, bowcaster, Falcon role, selected work appearances and explicitly personal Kashyyyk homeworld history. No birth year inferred from the 190 Years Old clip title. PROFILE-13 extension, checked 1 November 2026: The direct Return of the Jedi history paragraph explicitly describes Chewbacca and two Ewoks commandeering an AT-ST on Endor. This is an operator relationship, not a revised nominal crew/passenger capacity or new personal-fact review."
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "profile",
+      "before": {
+        "id": "vehicles:18",
+        "category": "vehicles",
+        "legacy_id": "18",
+        "slug": "at-at",
+        "title": "AT-AT",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "The Empire deploys four-legged armored transports to move troops and break defended positions. AT-ATs lead the assault on Hoth, while earlier walkers also confront the rebels on Seelos. A wreck on Jakku later becomes Rey’s shelter.",
+        "era": "Lucas + Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "model",
+      "before": {
+        "record_id": "vehicles:18",
+        "key": "model",
+        "value": "All Terrain Armored Transport",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "All Terrain Armored Transport (AT-AT)",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at",
+            "locator": "Main heading and opening / explicit full type name",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "vehicle_class",
+      "before": {
+        "record_id": "vehicles:18",
+        "key": "vehicle_class",
+        "value": "assault walker",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Armored transport and combat walker",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at",
+            "locator": "Main profile / four-legged Imperial transport and combat vehicle",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "passengers",
+      "before": {
+        "record_id": "vehicles:18",
+        "key": "passengers",
+        "value": "40",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Up to 40 troops, depending on internal configuration",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-empire-vehicles",
+            "locator": "AT-AT section / configuration-dependent troop capacity",
+            "note": "Upper bound for selected configurations, not an invariant seating count."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "height",
+      "before": null,
+      "after": {
+        "value": "22.5 m",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at",
+            "locator": "Dimensions / Height 22.5 m",
+            "note": "Explicit metres prevent the person-height centimetre formatter from changing the unit."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "legs",
+      "before": null,
+      "after": {
+        "value": "Four",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at",
+            "locator": "Main profile / four-legged transport",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "operational_role",
+      "before": null,
+      "after": {
+        "value": "Ground transport, combat and intimidation",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at",
+            "locator": "Main profile / tactical and psychological use",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "vehicles:18",
+        "key": "manufacturer",
+        "value": "Kuat Drive Yards, Imperial Department of Military Research",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "vehicles:18",
+        "key": "cost_in_credits",
+        "value": "unknown",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "length",
+      "before": {
+        "record_id": "vehicles:18",
+        "key": "length",
+        "value": "20",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "vehicles:18",
+        "key": "max_atmosphering_speed",
+        "value": "60",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "crew",
+      "before": {
+        "record_id": "vehicles:18",
+        "key": "crew",
+        "value": "5",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "vehicles:18",
+        "key": "cargo_capacity",
+        "value": "1000",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "consumables",
+      "before": {
+        "record_id": "vehicles:18",
+        "key": "consumables",
+        "value": "unknown",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:18",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:18",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at",
+            "locator": "Appearances / Return of the Jedi",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:force-awakens",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at",
+            "locator": "Appearances / The Force Awakens",
+            "note": ""
+          },
+          {
+            "sourceId": "profile13-rey-home",
+            "locator": "Main profile and work list / toppled AT-AT on Jakku",
+            "note": "A wreck used as a home, not a live battlefield walker."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:mandalorian-grogu",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at",
+            "locator": "Appearances / The Mandalorian and Grogu",
+            "note": "Work-level family identity only; specific hulls, dimensions and scene forms not reviewed."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:rebels",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at",
+            "locator": "Appearances / Star Wars Rebels",
+            "note": ""
+          },
+          {
+            "sourceId": "profile13-at-at-pilots",
+            "locator": "Main history / early-model Seelos action",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:4",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at-pilots",
+            "locator": "Main history / Veers-led attack on Hoth",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:seelos",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-at-pilots",
+            "locator": "Main history / explicit early-model Seelos action",
+            "note": "Family scene; no automatic application of later nominal dimensions."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:18",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:jakku",
+        "relation": "wreck_on",
+        "evidence": [
+          {
+            "sourceId": "profile13-rey-home",
+            "locator": "Main profile / Jakku shelter inside toppled walker",
+            "note": "Wreck location, not an active ground campaign."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "profile",
+      "before": {
+        "id": "vehicles:19",
+        "category": "vehicles",
+        "legacy_id": "19",
+        "slug": "at-st",
+        "title": "AT-ST",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "The Empire’s two-legged scout walker patrols territory and supports larger ground vehicles. AT-STs fight on Hoth and Endor, where Chewbacca and Ewoks seize one. Marauders later use a modified walker against Sorgan’s villagers.",
+        "era": "Lucas + Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "model",
+      "before": {
+        "record_id": "vehicles:19",
+        "key": "model",
+        "value": "All Terrain Scout Transport",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "All Terrain Scout Transport (AT-ST)",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Direct lineage paragraph / explicit full name",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "crew",
+      "before": {
+        "record_id": "vehicles:19",
+        "key": "crew",
+        "value": "2",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "2",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Main profile / two-person craft",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "vehicle_class",
+      "before": {
+        "record_id": "vehicles:19",
+        "key": "vehicle_class",
+        "value": "walker",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Scout walker",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Main profile / scout walker and two-legged transport",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "height",
+      "before": null,
+      "after": {
+        "value": "9.04 m",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Dimensions / Height 9.04 m",
+            "note": "Height is distinct from length and explicit metres avoid centimetre formatting."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "ground_speed",
+      "before": null,
+      "after": {
+        "value": "Up to 90 km/h on flat ground",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-empire-vehicles",
+            "locator": "AT-ST section / explicit flat-terrain speed",
+            "note": "Ground speed, not atmospheric flight performance."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "armament",
+      "before": null,
+      "after": {
+        "value": "Chin-mounted laser cannons and side-mounted weapon pods",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Main profile / explicitly listed weapon positions",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "variant_scope",
+      "before": null,
+      "after": {
+        "value": "Marauders use a modified AT-ST raider on Sorgan",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-sanctuary-raider",
+            "locator": "Section 4 / discarded Imperial technology modified by marauders",
+            "note": ""
+          },
+          {
+            "sourceId": "supp08-the-mandalorian-chapter-4-official-story-gallery",
+            "locator": "Captions 1–2, 7–8 / named Sorgan setting and actual walker",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "vehicles:19",
+        "key": "manufacturer",
+        "value": "Kuat Drive Yards, Imperial Department of Military Research",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "vehicles:19",
+        "key": "cost_in_credits",
+        "value": "unknown",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "length",
+      "before": {
+        "record_id": "vehicles:19",
+        "key": "length",
+        "value": "2",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "vehicles:19",
+        "key": "max_atmosphering_speed",
+        "value": "90",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The article supports up to 90 km/h on flat ground, recorded separately as ground_speed. It does not establish an atmospheric-speed measurement despite the inherited matching raw number 90."
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "passengers",
+      "before": {
+        "record_id": "vehicles:19",
+        "key": "passengers",
+        "value": "0",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "vehicles:19",
+        "key": "cargo_capacity",
+        "value": "200",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "consumables",
+      "before": {
+        "record_id": "vehicles:19",
+        "key": "consumables",
+        "value": "none",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:19",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Appearances and main profile / The Empire Strikes Back and Hoth",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:19",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Appearances and main profile / Return of the Jedi and Endor",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:mandalorian",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Appearances / The Mandalorian",
+            "note": ""
+          },
+          {
+            "sourceId": "profile13-sanctuary-raider",
+            "locator": "Section 4 / actual modified AT-ST raider",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:19",
+        "target_id": "people:13",
+        "relation": "pilots",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:13",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "profile03-chewbacca",
+            "locator": "Direct Return of the Jedi history / Chewbacca and two Ewoks commandeer the AT-ST",
+            "note": "Actual vehicle operation; not regular Imperial crew certification."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:4",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Main profile / Battle of Hoth",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:7",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Main profile / Battle of Endor",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:sorgan",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "supp08-the-mandalorian-chapter-4-official-story-gallery",
+            "locator": "Captions 1–2, 7–8 / Sorgan village and current AT-ST",
+            "note": "Modified raider context, not a claim of Imperial command remaining in force."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "vehicles:76",
+        "relation": "design_lineage",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Second direct history paragraph / AT-RT predecessor",
+            "note": "Earlier type, not the same walker or automatic Clone Wars film appearance."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:19",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "vehicles:at-dp",
+        "relation": "design_lineage",
+        "evidence": [
+          {
+            "sourceId": "profile13-at-st",
+            "locator": "Second direct history paragraph / AT-DP between AT-RT and AT-ST",
+            "note": "Predecessor relationship, not an AT-ST scene in each AT-DP episode."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "profile",
+      "before": {
+        "id": "vehicles:14",
+        "category": "vehicles",
+        "legacy_id": "14",
+        "slug": "snowspeeder",
+        "title": "Snowspeeder",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Rebel mechanics adapt T-47 airspeeders to operate from the frozen Hoth base. A pilot and rear-facing gunner use the small craft for patrol and defense, with tow cables helping bring down armored Imperial walkers.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "model",
+      "before": {
+        "record_id": "vehicles:14",
+        "key": "model",
+        "value": "t-47 airspeeder",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "T-47 airspeeder",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-snowspeeder",
+            "locator": "Main profile / explicitly modified T-47 airspeeders",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "length",
+      "before": {
+        "record_id": "vehicles:14",
+        "key": "length",
+        "value": "4.5",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "5.3 m",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-snowspeeder",
+            "locator": "Dimensions / Length 5.3 m",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "crew",
+      "before": {
+        "record_id": "vehicles:14",
+        "key": "crew",
+        "value": "2",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "2",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-snowspeeder",
+            "locator": "Main profile / two-person vessel",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "vehicle_class",
+      "before": {
+        "record_id": "vehicles:14",
+        "key": "vehicle_class",
+        "value": "airspeeder",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Airspeeder",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-snowspeeder",
+            "locator": "Main profile / T-47 airspeeder",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "crew_roles",
+      "before": null,
+      "after": {
+        "value": "Pilot and rear-facing tail gunner",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-snowspeeder",
+            "locator": "Main profile / explicit positions",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "armament",
+      "before": null,
+      "after": {
+        "value": "Two forward laser cannons; rear harpoon with tow cable",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-snowspeeder",
+            "locator": "Main profile / explicitly described weapons",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "cold_adaptation",
+      "before": null,
+      "after": {
+        "value": "Rebel T-47s modified for Hoth patrol and base defense",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-snowspeeder",
+            "locator": "Main profile / cold-weather modifications",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "vehicles:14",
+        "key": "manufacturer",
+        "value": "Incom corporation",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "vehicles:14",
+        "key": "cost_in_credits",
+        "value": "unknown",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "vehicles:14",
+        "key": "max_atmosphering_speed",
+        "value": "650",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "passengers",
+      "before": {
+        "record_id": "vehicles:14",
+        "key": "passengers",
+        "value": "0",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "vehicles:14",
+        "key": "cargo_capacity",
+        "value": "10",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "consumables",
+      "before": {
+        "record_id": "vehicles:14",
+        "key": "consumables",
+        "value": "none",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:14",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-snowspeeder",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:14",
+        "target_id": "people:1",
+        "relation": "pilots",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:1",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "profile03-luke-gallery",
+            "locator": "Current caption 17 / Luke explicitly flies a snowspeeder against Imperial walkers",
+            "note": "Selected caption rechecked; no complete current fifty-image gallery claim."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:14",
+        "target_id": "people:18",
+        "relation": "pilots",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:18",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "profile09-wedge-antilles",
+            "locator": "Direct Hoth history / Rogue Three snowspeeder pilot with Janson",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:4",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile13-snowspeeder",
+            "locator": "Main profile / explicit Hoth base patrol and defense",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:14",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "vehicles:18",
+        "relation": "opposed",
+        "evidence": [
+          {
+            "sourceId": "profile09-wedge-antilles",
+            "locator": "Direct Hoth history / Wedge and Janson trip an AT-AT with tow cable",
+            "note": "Specific combat method; no claim of universal invulnerable walker armor."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "profile",
+      "before": {
+        "id": "vehicles:30",
+        "category": "vehicles",
+        "legacy_id": "30",
+        "slug": "imperial-speeder-bike",
+        "title": "Imperial Speeder Bike",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "The Aratech 74-Z serves the Empire as a fast patrol bike. On Endor, Luke and Leia seize the scouts’ machines during a forest chase, first sharing one before Luke takes another.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "model",
+      "before": {
+        "record_id": "vehicles:30",
+        "key": "model",
+        "value": "74-Z speeder bike",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "74-Z speeder bike",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-speeder-bike",
+            "locator": "Main profile / explicitly Aratech 74-Z",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "vehicles:30",
+        "key": "manufacturer",
+        "value": "Aratech Repulsor Company",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Aratech",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-speeder-bike",
+            "locator": "Main profile / manufacturers and named Aratech 74-Z",
+            "note": "Supported brand only; no unverified expansion of the company name."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "vehicle_class",
+      "before": {
+        "record_id": "vehicles:30",
+        "key": "vehicle_class",
+        "value": "speeder",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Speeder bike",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-speeder-bike",
+            "locator": "Main profile / named bike type",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "historical_use",
+      "before": null,
+      "after": {
+        "value": "Republic use during the Clone Wars; Imperial use in the Galactic Civil War",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-speeder-bike",
+            "locator": "Main profile and first two direct history paragraphs / time-scoped 74-Z use",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "riding_context",
+      "before": null,
+      "after": {
+        "value": "Luke and Leia share a commandeered 74-Z before Luke seizes another",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-bike-history",
+            "locator": "Captions 3–5 / actual Endor sequence",
+            "note": "Actual ride is not a certified design capacity."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "variant_scope",
+      "before": null,
+      "after": {
+        "value": "Reviewed Aratech 74-Z; other speeder-bike models remain separate",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-speeder-bike",
+            "locator": "Main and related named BARC/Lothal variants",
+            "note": "Broad page is not a single-model appearance or dimension inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "vehicles:30",
+        "key": "cost_in_credits",
+        "value": "8000",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "length",
+      "before": {
+        "record_id": "vehicles:30",
+        "key": "length",
+        "value": "3",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The broad Speeder Bike page lists 3.2 m but covers multiple models and does not explicitly assign that dimension to every Aratech 74-Z. The inherited 3 m is not verified or silently replaced with a universal 3.2 m."
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "vehicles:30",
+        "key": "max_atmosphering_speed",
+        "value": "360",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "crew",
+      "before": {
+        "record_id": "vehicles:30",
+        "key": "crew",
+        "value": "1",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "passengers",
+      "before": {
+        "record_id": "vehicles:30",
+        "key": "passengers",
+        "value": "1",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "vehicles:30",
+        "key": "cargo_capacity",
+        "value": "4",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "consumables",
+      "before": {
+        "record_id": "vehicles:30",
+        "key": "consumables",
+        "value": "1 day",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:30",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-bike-history",
+            "locator": "Captions 2–11 / explicit released Endor 74-Z chase and battle",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:30",
+        "target_id": "people:1",
+        "relation": "pilots",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:1",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "profile13-bike-history",
+            "locator": "Caption 5 / Luke takes over a second Imperial 74-Z",
+            "note": "Initially passenger on Leia’s bike, then an actual operator."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:30",
+        "target_id": "people:5",
+        "relation": "pilots",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:5",
+        "relation": "pilots",
+        "evidence": [
+          {
+            "sourceId": "profile13-bike-history",
+            "locator": "Captions 3–4, 8 / Leia controls the shared bike and later leaves it",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:7",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile13-speeder-bike",
+            "locator": "Second direct history paragraph / 74-Z patrols on Endor",
+            "note": ""
+          },
+          {
+            "sourceId": "profile13-bike-history",
+            "locator": "Captions 2–11 / forest chase and battle",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:30",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:19",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile13-speeder-bike",
+            "locator": "First direct history paragraph / Republic 74-Z use on Saleucami",
+            "note": "General explicitly named model activity; does not settle Stass’s conflicting personal model."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "profile",
+      "before": {
+        "id": "vehicles:4",
+        "category": "vehicles",
+        "legacy_id": "4",
+        "slug": "sand-crawler",
+        "title": "Sand Crawler",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Jawas use vast tracked crawlers as mobile homes and salvage transports. A suction system draws scrap and droids into the cargo chambers. These machines appear on Tatooine, while another crawler confronts the Mandalorian during his search for stolen parts.",
+        "era": "Lucas + Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "length",
+      "before": {
+        "record_id": "vehicles:4",
+        "key": "length",
+        "value": "36.8 ",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "40 m",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-sandcrawler",
+            "locator": "Dimensions / Length 40 m",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "vehicle_class",
+      "before": {
+        "record_id": "vehicles:4",
+        "key": "vehicle_class",
+        "value": "wheeled",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Tracked transport",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-sandcrawler",
+            "locator": "Main profile / huge treaded vehicle",
+            "note": "Tracks, not the inherited wheeled class."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "users",
+      "before": null,
+      "after": {
+        "value": "Jawas",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-sandcrawler",
+            "locator": "Main profile / explicit users",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "cargo_equipment",
+      "before": null,
+      "after": {
+        "value": "Magnetic suction tube for loading droids and scrap",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-sandcrawler",
+            "locator": "Main profile / explicit loading equipment",
+            "note": "Equipment function does not establish a numerical cargo-mass limit."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "function",
+      "before": null,
+      "after": {
+        "value": "Transport, shelter and salvage storage",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile13-sandcrawler",
+            "locator": "Main profile / homes, transport and cargo chambers",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "model",
+      "before": {
+        "record_id": "vehicles:4",
+        "key": "model",
+        "value": "Digger Crawler",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The inherited exact Digger Crawler model designation is not explicitly established by the selected Sandcrawler reference. A generic object name is not proof of that model."
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "manufacturer",
+      "before": {
+        "record_id": "vehicles:4",
+        "key": "manufacturer",
+        "value": "Corellia Mining Corporation",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "cost_in_credits",
+      "before": {
+        "record_id": "vehicles:4",
+        "key": "cost_in_credits",
+        "value": "150000",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "max_atmosphering_speed",
+      "before": {
+        "record_id": "vehicles:4",
+        "key": "max_atmosphering_speed",
+        "value": "30",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "crew",
+      "before": {
+        "record_id": "vehicles:4",
+        "key": "crew",
+        "value": "46",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "passengers",
+      "before": {
+        "record_id": "vehicles:4",
+        "key": "passengers",
+        "value": "30",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "cargo_capacity",
+      "before": {
+        "record_id": "vehicles:4",
+        "key": "cargo_capacity",
+        "value": "50000",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "consumables",
+      "before": {
+        "record_id": "vehicles:4",
+        "key": "consumables",
+        "value": "2 months",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:4",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-sandcrawler",
+            "locator": "Appearances / A New Hope",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "link",
+      "before": {
+        "record_id": "vehicles:4",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-vehicles",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-sandcrawler",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile13-sandcrawler",
+            "locator": "Appearances / The Phantom Menace",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:mandalorian",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "supp08-the-mandalorian-chapter-2-official-story-gallery",
+            "locator": "Captions 3–4 / named sandcrawler and actual chase",
+            "note": "Separate source for an own-profile work-list omission; not a new episode-row review."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "vehicles:4",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:1",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile13-jawa-sandcrawler",
+            "locator": "Main profile / Tatooine scavengers use sandcrawler homes",
+            "note": "Selected operation, not universal origin or every crawler’s operating world."
+          }
+        ]
+      }
+    }
+  ]
+}

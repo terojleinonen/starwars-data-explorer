@@ -1,0 +1,1378 @@
+{
+  "version": 1,
+  "id": "PROFILE-09",
+  "checkedAt": "2026-10-30",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "Five existing Biggs, Wedge, Porkins, Ackbar and Nien Nunb profiles: all 35 inherited fields assessed, five nominal heights verified, 30 unestablished raw values retained, sixteen new scoped facts and selected biography/work/craft links. No new records, episodes, credits, dates or editions.",
+  "sources": [
+    {
+      "id": "profile09-biggs-darklighter",
+      "title": "Biggs Darklighter — official Databank",
+      "url": "https://www.starwars.com/databank/biggs-darklighter",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "note": "Main profile, 1.83 m nominal height, work/vehicle list and all ten biography captions read. Gallery captions 1–5 depict deleted Tatooine material; captions 6–7 are a reunion with an edition boundary not established for every theatrical cut here. Gallery is not an original-1977 cut list.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile09-wedge-antilles",
+      "title": "Wedge Antilles — official Databank",
+      "url": "https://www.starwars.com/databank/wedge-antilles",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "note": "Main profile, 1.7 m nominal height, work list, four history sections and all ten biography captions read. Caption 10 explicitly identifies his Exegol Falcon gun-turret role; not Falcon piloting. Corellian upbringing is not an exact birth date/place assertion.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile09-jek-porkins",
+      "title": "Jek Porkins — official Databank",
+      "url": "https://www.starwars.com/databank/jek-porkins",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "note": "Main profile, 1.8 m nominal height and A New Hope/X-wing lists read. Homeworld is unnamed in this text. Official heading Jek Porkins does not independently establish the inherited Tono middle name. No profile biography gallery present.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile09-admiral-ackbar",
+      "title": "Admiral Ackbar — official Databank",
+      "url": "https://www.starwars.com/databank/admiral-ackbar",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "note": "Main profile, 1.8 m nominal height, explicit Mon Cala homeworld/Mon Calamari species, four history sections and all seventeen gallery captions read. Compact gallery expanded with its own next controls for captions 13–17. Caption 17 establishes death on the Raddus; a vehicle list does not make Ackbar a pilot.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile09-nien-nunb",
+      "title": "Nien Nunb — official Databank",
+      "url": "https://www.starwars.com/databank/nien-nunb",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "note": "Main profile, 1.6 m nominal height, Sullustan/native-Sullust statements, three history sections and all twelve gallery captions read. Falcon co-piloting, Resistance X-wing, ski speeder and Tantive IV roles remain separate; own source expressly establishes death at Exegol.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile09-biggs-interview",
+      "title": "Being Biggs: A Conversation with Garrick Hagon — deleted-scene context",
+      "url": "https://www.starwars.com/news/being-biggs-conversation-with-garrick-hagon",
+      "kind": "official",
+      "checkedAt": "2026-10-30",
+      "note": "Interview section on the Tatooine scenes being cut and separately presented as bonus material read. Used only to scope deleted material, without adding home-media dates or credit rows, or importing the actor’s life facts into the fictional person.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com; interview by John Dak Morton",
+      "revision": ""
+    }
+  ],
+  "sourceUpdates": [],
+  "records": [
+    {
+      "id": "people:9",
+      "summary": {
+        "text": "Luke’s childhood friend leaves Imperial service and joins the rebellion. Biggs flies an X-wing at Yavin, where he is killed during the Death Star attack. His filmed Tatooine conversations belong to deleted material rather than a verified released cut in this review.",
+        "evidence": [
+          {
+            "sourceId": "profile09-biggs-darklighter",
+            "locator": "Main profile / childhood, defection and battle outcome",
+            "note": ""
+          },
+          {
+            "sourceId": "profile09-biggs-interview",
+            "locator": "Tatooine deleted-scenes exchange / cut scenes separately presented as bonus material",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation; this profile’s explicitly named screen works",
+            "note": ""
+          },
+          {
+            "sourceId": "profile09-biggs-darklighter",
+            "locator": "Main profile / named screen identity and appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First review of this existing legacy identity: all seven inherited fields assessed, sourced nominal height, original short description and selected biography/work/craft relationships. Not a complete biography or episode/credit inventory.",
+      "limitations": [
+        "Tatooine is explicitly where Biggs grew up; the inherited homeworld relation is not promoted to an exact birth/origin claim. A separate grew_up_on relation records the supported childhood context.",
+        "The interview identifies the Tatooine conversations as deleted material. The current biography gallery includes those scenes and the Yavin reunion without an edition filter; it is not treated as an original-1977 cut inventory. No new edition or home-media dates are created.",
+        "The Antilles Extraction trivia names Biggs as an abandoned outline, while Hobbie’s generic Databank introduction mentions Biggs and its released-story history names Wedge/Sabine. That discrepancy remains documented; no Biggs Rebels connection is inferred.",
+        "The published height is the current source-profile nominal value, not a measured value for every screen age, costume or animation design.",
+        "A work connection is not an appearance in every edition or episode. Omitted links remain unestablished; no new release dates, editions, episode rows or credits are added."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "expectedValue": "183",
+          "value": "183",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Dimensions / Height 1.83 m converted to archive centimetres",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "occupation",
+          "expectedValue": null,
+          "value": "Rebel Alliance X-wing pilot",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Main profile and Vehicles / Rebel pilot and X-wing",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "fate",
+          "expectedValue": null,
+          "value": "Killed during the Battle of Yavin",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Main profile and biography caption 10 / death during trench attack",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "deleted_material",
+          "expectedValue": null,
+          "value": "Tatooine conversations with Luke: deleted material",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-interview",
+              "locator": "Tatooine deleted-scenes exchange / explicitly cut scenes",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "84",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No character mass is established by these selected public sources; actor measurements and visual size are not substitutes.",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "black",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited hair-colour classification. No colour value or biological absence is inferred from images, styling or a species label.",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "light",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited skin-colour classification. Lighting, image sampling and species-level descriptions do not certify a personal colour value.",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited eye-colour classification. Screen imagery alone is not used as a calibrated or textual colour source.",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "24BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact character birth year is established by the selected public sources. Story intervals, role duration and actor birth dates are not converted into a fictional birth year.",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No independently specified gender field was established in the selected sources. Pronouns or the performer alone are not used to certify this inherited classification.",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Appearances / A New Hope; biography captions 8–10 / released battle",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:12",
+          "relation": "starships",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Vehicles / X-wing; biography captions 8–10 / actual flying",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:1",
+          "relation": "grew_up_on",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Main profile / explicitly grew up on Tatooine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:1",
+          "relation": "friend_of",
+          "evidence": [
+            {
+              "sourceId": "profile09-biggs-darklighter",
+              "locator": "Main profile / Luke’s childhood friend",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:18",
+      "summary": {
+        "text": "Wedge leaves Imperial flight training with Sabine’s help and becomes a rebel pilot. He survives Yavin, flies a snowspeeder at Hoth and leads fighters at Endor. Decades later he returns to battle at Exegol in a Falcon gun turret.",
+        "evidence": [
+          {
+            "sourceId": "profile09-wedge-antilles",
+            "locator": "Main profile; History / Skystrike escape; biography caption 10 / Exegol turret",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation; this profile’s explicitly named screen works",
+            "note": ""
+          },
+          {
+            "sourceId": "profile09-wedge-antilles",
+            "locator": "Main profile / named screen identity and appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First review of this existing legacy identity: all seven inherited fields assessed, sourced nominal height, original short description and selected biography/work/craft relationships. Not a complete biography or episode/credit inventory.",
+      "limitations": [
+        "Corellian upbringing is explicit; the inherited homeworld link stays pending as an exact origin claim, with a separate grew_up_on link. No birth year is calculated.",
+        "The Skystrike defection is the released Wedge/Hobbie/Sabine story, not the abandoned Biggs outline. Earlier episode evidence and identifiers remain unchanged.",
+        "At Exegol Wedge occupies a Falcon gun turret. This does not make him the Falcon’s pilot. The legacy Hoth snowspeeder and earlier X-wing links retain their type and scene scope.",
+        "The published height is the current source-profile nominal value, not a measured value for every screen age, costume or animation design.",
+        "A work connection is not an appearance in every edition or episode. Omitted links remain unestablished; no new release dates, editions, episode rows or credits are added."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "expectedValue": "170",
+          "value": "170",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Dimensions / Height 1.7 m converted to archive centimetres",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "occupation",
+          "expectedValue": null,
+          "value": "Rebel pilot and Rogue Squadron veteran",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Main profile / post-Yavin veteran and Hoth pilot",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "callsign",
+          "expectedValue": null,
+          "value": "Red Two at the Battle of Yavin",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "History / Yavin section and biography caption 2 / call sign",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "rebels_role",
+          "expectedValue": null,
+          "value": "Skystrike cadet rescued by Sabine Wren alongside Hobbie Klivian",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "History / Imperial training and stolen TIE bomber escape",
+              "note": ""
+            },
+            {
+              "sourceId": "supp18-the-antilles-extraction-gallery",
+              "locator": "Captions 6–10 / released Wedge/Hobbie/Sabine defection",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "77",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No character mass is established by these selected public sources; actor measurements and visual size are not substitutes.",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited hair-colour classification. No colour value or biological absence is inferred from images, styling or a species label.",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "fair",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited skin-colour classification. Lighting, image sampling and species-level descriptions do not certify a personal colour value.",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "hazel",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited eye-colour classification. Screen imagery alone is not used as a calibrated or textual colour source.",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "21BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact character birth year is established by the selected public sources. Story intervals, role duration and actor birth dates are not converted into a fictional birth year.",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No independently specified gender field was established in the selected sources. Pronouns or the performer alone are not used to certify this inherited classification.",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Appearances and History / Yavin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:2",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Appearances and History / Hoth",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Appearances and History / Endor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:14",
+          "relation": "vehicles",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Main profile; History / personally piloting a snowspeeder at Hoth",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:12",
+          "relation": "starships",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "History / Yavin and Endor X-wing flying",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:22",
+          "relation": "grew_up_on",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "History / explicitly grew up on Corellia",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:rise-skywalker",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Appearances and biography caption 10 / actual Exegol return",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Appearances; History / Skystrike rescue",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:skystrike-academy",
+          "relation": "trained_at",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "History / Imperial academy training and escape",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:16",
+          "relation": "vehicles",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "History / Wedge piloted the stolen TIE bomber",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:10",
+          "relation": "gunner_aboard",
+          "evidence": [
+            {
+              "sourceId": "profile09-wedge-antilles",
+              "locator": "Biography caption 10 / one of the Falcon’s gun turrets at Exegol",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:19",
+      "summary": {
+        "text": "A trader and pilot driven away by Imperial occupation, Porkins joins the rebel assault at Yavin. A mechanical failure leaves his X-wing vulnerable, and Death Star fire destroys it before repairs can be made.",
+        "evidence": [
+          {
+            "sourceId": "profile09-jek-porkins",
+            "locator": "Main profile / trade, defection, Red Six and mechanical failure",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation; this profile’s explicitly named screen works",
+            "note": ""
+          },
+          {
+            "sourceId": "profile09-jek-porkins",
+            "locator": "Main profile / named screen identity and appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First review of this existing legacy identity: all seven inherited fields assessed, sourced nominal height, original short description and selected biography/work/craft relationships. Not a complete biography or episode/credit inventory.",
+      "limitations": [
+        "The source names no homeworld. The inherited Bestine IV connection remains unverified; Imperial occupation alone does not identify the world.",
+        "The official heading is Jek Porkins. The inherited title Jek Tono Porkins and numeric identity are preserved, but the additional middle name is not independently certified by this page.",
+        "The cause described is mechanical trouble followed by Death Star turbolaser fire, not a newly inferred TIE/Vader kill or an independently named astromech.",
+        "The published height is the current source-profile nominal value, not a measured value for every screen age, costume or animation design.",
+        "A work connection is not an appearance in every edition or episode. Omitted links remain unestablished; no new release dates, editions, episode rows or credits are added."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "expectedValue": "180",
+          "value": "180",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Dimensions / Height 1.8 m converted to archive centimetres",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "occupation",
+          "expectedValue": null,
+          "value": "Trader and pilot; later a Rebel Alliance fighter pilot",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Main profile / earlier trade and later rebel flying",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "callsign",
+          "expectedValue": null,
+          "value": "Red Six at the Battle of Yavin",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Main profile / explicit Red 6",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "fate",
+          "expectedValue": null,
+          "value": "Killed when Death Star turbolaser fire destroyed his disabled X-wing",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Main profile / mechanical trouble and turbolaser attack",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "110",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No character mass is established by these selected public sources; actor measurements and visual size are not substitutes.",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited hair-colour classification. No colour value or biological absence is inferred from images, styling or a species label.",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "fair",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited skin-colour classification. Lighting, image sampling and species-level descriptions do not certify a personal colour value.",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "blue",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited eye-colour classification. Screen imagery alone is not used as a calibrated or textual colour source.",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact character birth year is established by the selected public sources. Story intervals, role duration and actor birth dates are not converted into a fictional birth year.",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No independently specified gender field was established in the selected sources. Pronouns or the performer alone are not used to certify this inherited classification.",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Appearances / A New Hope; main profile / actual Yavin attack",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:12",
+          "relation": "starships",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Main profile and Vehicles / actual X-wing",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:9",
+          "relation": "operated_near",
+          "evidence": [
+            {
+              "sourceId": "profile09-jek-porkins",
+              "locator": "Main profile / first Death Star battle and its turbolaser attack",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:27",
+      "summary": {
+        "text": "Ackbar defends Mon Cala during the Clone Wars and later commands the rebel fleet at Endor. He serves the New Republic as a Grand Admiral before returning with Leia’s Resistance. He is killed when the First Order strikes the bridge of the Raddus.",
+        "evidence": [
+          {
+            "sourceId": "profile09-admiral-ackbar",
+            "locator": "Main profile and History / successive commands; biography caption 17 / Raddus death",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation; this profile’s explicitly named screen works",
+            "note": ""
+          },
+          {
+            "sourceId": "profile09-admiral-ackbar",
+            "locator": "Main profile / named screen identity and appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First review of this existing legacy identity: all seven inherited fields assessed, sourced nominal height, original short description and selected biography/work/craft relationships. Not a complete biography or episode/credit inventory.",
+      "limitations": [
+        "Mon Cala is explicitly his homeworld; Mon Calamari is his species, not another planet. Rank changes are time-scoped rather than applied unchanged to every era.",
+        "Command of a fleet and an associated cruiser type do not establish ship piloting. The earlier Raddus scene is not the named pilot Raddus or a new vessel record.",
+        "The Clone Wars link is television-series level, not an appearance in the separate 2008 feature or every episode. Endor’s second station is not the inherited first Death Star.",
+        "The published height is the current source-profile nominal value, not a measured value for every screen age, costume or animation design.",
+        "A work connection is not an appearance in every edition or episode. Omitted links remain unestablished; no new release dates, editions, episode rows or credits are added."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "expectedValue": "180",
+          "value": "180",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Dimensions / Height 1.8 m converted to archive centimetres",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "expectedValue": null,
+          "value": "Mon Calamari",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Species / explicit Mon Calamari",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "occupation",
+          "expectedValue": null,
+          "value": "Mon Calamari Guard captain during the Clone Wars; later Alliance admiral and New Republic Grand Admiral",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Main profile and History / separately scoped ranks",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "fate",
+          "expectedValue": null,
+          "value": "Killed when a First Order torpedo struck the Raddus bridge",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Biography caption 17 / attack on the bridge and death",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "83",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No character mass is established by these selected public sources; actor measurements and visual size are not substitutes.",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "none",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited hair-colour classification. No colour value or biological absence is inferred from images, styling or a species label.",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "brown mottle",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited skin-colour classification. Lighting, image sampling and species-level descriptions do not certify a personal colour value.",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "orange",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited eye-colour classification. Screen imagery alone is not used as a calibrated or textual colour source.",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "41BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact character birth year is established by the selected public sources. Story intervals, role duration and actor birth dates are not converted into a fictional birth year.",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No independently specified gender field was established in the selected sources. Pronouns or the performer alone are not used to certify this inherited classification.",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "planets:31",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Main profile / explicitly his homeworld Mon Cala",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Appearances; History / Endor fleet command",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:8",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Species / Mon Calamari",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:force-awakens",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Appearances; biography caption 16 / Resistance and Starkiller raid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:last-jedi",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Appearances; biography caption 17 / evacuation and bridge attack",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Appearances; History / Lee-Char and Mon Cala defense",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:27",
+          "relation": "associated_with",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Vehicles / named Mon Calamari Star Cruiser type association; no piloting claim",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:25",
+          "relation": "coordinated_with",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "History / Endor fleet and Lando’s fighter operations",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:18",
+          "relation": "coordinated_with",
+          "evidence": [
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "History / Endor fleet and Wedge’s fighter operations",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:31",
+      "summary": {
+        "text": "Nien Nunb is a Sullustan smuggler who becomes Lando’s Falcon co-pilot at Endor. He later flies with the Resistance, surviving Crait before taking the Tantive IV into the battle at Exegol. That final mission costs him his life.",
+        "evidence": [
+          {
+            "sourceId": "profile09-nien-nunb",
+            "locator": "Main profile and History / separate flying roles, Crait survival and Exegol outcome",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Across eras",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "continuity-2014",
+            "locator": "Original six films as the current-canon foundation; this profile’s explicitly named screen works",
+            "note": ""
+          },
+          {
+            "sourceId": "profile09-nien-nunb",
+            "locator": "Main profile / named screen identity and appearances",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "First review of this existing legacy identity: all seven inherited fields assessed, sourced nominal height, original short description and selected biography/work/craft relationships. Not a complete biography or episode/credit inventory.",
+      "limitations": [
+        "Native of Sullust and Sullustan are separately explicit homeworld/species claims. They do not verify an exact birth year or personal colours.",
+        "Falcon co-piloting at Endor, a Resistance X-wing at Starkiller Base, a ski speeder on Crait and Tantive IV at Exegol remain separate roles. The later fighter is not silently linked to the old Alliance X-wing profile.",
+        "Tantive IV is named in the source, but a type-only CR90 profile is not automatically the named hull. No new hull, Resistance X-wing or Raddus record is created in this batch.",
+        "The source explicitly states Nien’s death at Exegol. His survival of the Raddus bridge attack and Crait is not mistaken for death there. The earlier Mellcrawler story includes publishing history beyond this selected screen-record review.",
+        "The published height is the current source-profile nominal value, not a measured value for every screen age, costume or animation design.",
+        "A work connection is not an appearance in every edition or episode. Omitted links remain unestablished; no new release dates, editions, episode rows or credits are added."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "expectedValue": "160",
+          "value": "160",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Dimensions / Height 1.6 m converted to archive centimetres",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "expectedValue": null,
+          "value": "Sullustan",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Species / Sullustan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "occupation",
+          "expectedValue": null,
+          "value": "Smuggler and pilot serving the Rebel Alliance and later the Resistance",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Main profile / separately named services",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "endor_role",
+          "expectedValue": null,
+          "value": "Lando Calrissian’s Millennium Falcon co-pilot",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Main profile and biography captions 4–6 / Endor assignment",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "fate",
+          "expectedValue": null,
+          "value": "Killed aboard the Tantive IV during the Battle of Exegol",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Main profile and biography captions 11–12 / pilot assignment and loss",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "68",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No character mass is established by these selected public sources; actor measurements and visual size are not substitutes.",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "none",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited hair-colour classification. No colour value or biological absence is inferred from images, styling or a species label.",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "grey",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited skin-colour classification. Lighting, image sampling and species-level descriptions do not certify a personal colour value.",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "black",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish this inherited eye-colour classification. Screen imagery alone is not used as a calibrated or textual colour source.",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact character birth year is established by the selected public sources. Story intervals, role duration and actor birth dates are not converted into a fictional birth year.",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No independently specified gender field was established in the selected sources. Pronouns or the performer alone are not used to certify this inherited classification.",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Reviewed main profile, explicit metadata and specifically noted history scope / inherited field not established",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "planets:33",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Main profile / explicitly a native of Sullust",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Appearances and biography captions 4–7 / Endor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:10",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Species / Sullustan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:10",
+          "relation": "starships",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Main profile and History / Falcon co-piloting at Endor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:force-awakens",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Appearances and biography caption 9 / Resistance X-wing at Starkiller Base",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:last-jedi",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Appearances and biography caption 10 / Raddus survival and Crait",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:rise-skywalker",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Appearances and biography captions 11–12 / Tantive IV and Exegol",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:resistance-ski-speeder",
+          "relation": "vehicles",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "History / explicitly flew a ski speeder at Crait",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:25",
+          "relation": "co_pilot_for",
+          "evidence": [
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Main profile and biography captions 4–6 / Lando’s co-pilot",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

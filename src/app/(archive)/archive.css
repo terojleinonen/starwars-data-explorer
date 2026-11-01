@@ -1,9 +1,11 @@
 .archive-shell { --archive-accent: #dfbc86; background: #0a0e10; min-height: 100svh; }
 .archive-shell :focus-visible { outline-color: var(--archive-accent, var(--gold)); }
-.archive-header { min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: 20px 34px; border-bottom: 1px solid #ffffff20; background: #0b0f11; }
+.archive-header { position: relative; z-index: 20; min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: 20px 34px; border-bottom: 1px solid #ffffff20; background: #0b0f11; }
 .archive-header-label { font-size: 8px; letter-spacing: .17em; color: #a3aaa4; }
 .archive-header-label > span { margin-inline: 15px; color: #776d59; }
-.archive-home-link { display: flex; gap: 22px; align-items: center; font-size: 10px; color: #d8d9d0; }
+.archive-header-actions { display: flex; align-items: center; gap: 16px; }
+.archive-mobile-navigation { display: none; }
+.archive-home-link { min-height: 44px; display: flex; gap: 22px; align-items: center; font-size: 10px; color: #d8d9d0; }
 .archive-home-link svg { width: 14px; color: var(--gold); }
 .archive-layout { display: grid; grid-template-columns: 211px minmax(0,1fr); }
 .archive-sidebar { border-right: 1px solid #ffffff1c; background: #0b0f11; }
@@ -346,11 +348,19 @@
   .archive-header-label { display: none; }
   .archive-home-link { font-size: 9px; gap: 10px; }
   .archive-layout { display: block; }
-  .archive-sidebar { border-right: 0; border-bottom: 1px solid #ffffff24; }
-  .archive-nav { position: static; display: flex; min-height: 0; overflow-x: auto; align-items: center; gap: 6px; padding: 10px 17px; scrollbar-width: thin; }
-  .archive-nav > a { white-space: nowrap; font-size: 10px; gap: 8px; min-height: 35px; border-left: 0; border-bottom: 1px solid transparent; padding: 8px 12px; }
-  .archive-nav > a[aria-current="page"] { border-left: 0; border-bottom-color: var(--nav-accent); }
-  .archive-nav > a > i, .nav-heading, .nav-bottom { display: none; }
+  .archive-sidebar { display: none; }
+  .archive-header-actions { gap: 12px; }
+  .archive-mobile-navigation { display: block; }
+  .archive-menu-toggle { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 44px; padding: 0 12px; border: 1px solid #d6b88970; background: #10171de6; color: var(--paper); font-size: 11px; }
+  .archive-menu-toggle[aria-expanded="true"] { color: var(--gold); border-color: var(--gold); }
+  .archive-menu-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; }
+  .archive-mobile-panel { position: absolute; top: calc(100% - 1px); inset-inline: 20px; max-height: calc(100svh - 100px); overflow-y: auto; overscroll-behavior: contain; border: 1px solid #d6b88955; background: #0b1117; box-shadow: 0 20px 45px #0009; }
+  .archive-mobile-panel[hidden] { display: none; }
+  .archive-mobile-panel .archive-nav { position: static; min-height: 0; padding: 20px 14px; }
+  .archive-mobile-panel .archive-nav > a { min-height: 44px; padding: 10px 12px; }
+  .archive-mobile-panel .nav-heading { padding-bottom: 10px; }
+  .archive-mobile-panel .nav-heading-secondary { padding-top: 22px; }
+  .archive-mobile-panel .nav-bottom { display: none; }
   .archive-page { padding: 20px 22px 45px; }
   .archive-breadcrumb { gap: 8px; font-size: 8px; }
   .breadcrumb-collection { display: none; }

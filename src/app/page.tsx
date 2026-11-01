@@ -1,8 +1,6 @@
 import Link from "next/link";
-import type { CSSProperties } from "react";
+import HomeLink from "@/components/home-link";
 import HomeArchive from "@/components/home-archive";
-import { categories } from "@/lib/archive/config";
-import { categoryKeys } from "@/lib/archive/types";
 import "./home.css";
 import EraExplorer from "@/components/era-explorer";
 import MotionControl from "@/components/motion-control";
@@ -18,9 +16,9 @@ export default function HomePage() {
   return (
     <>
       <header className="site-header">
-        <a className="wordmark" href="#prologue" aria-label="Star Wars Universe home">
+        <HomeLink className="wordmark" aria-label="Star Wars Universe home">
           <OrbitMark /><span><span className="wordmark-top">STAR WARS</span><span className="wordmark-bottom">UNIVERSE</span></span>
-        </a>
+        </HomeLink>
       </header>
 
       <main id="main">
@@ -37,11 +35,7 @@ export default function HomePage() {
             <p className="eyebrow hero-eyebrow"><span className="tiny-star" aria-hidden="true">✦</span> A LONG TIME AGO. A STORY STILL UNFOLDING.</p>
             <h1 id="hero-title">A GALAXY<br /><span>OF STORIES.</span></h1>
             <p className="hero-description">From George Lucas’s original vision to new horizons.<br className="desktop-break" /> Discover the people, worlds, and connections<br className="desktop-break" /> that make a universe.</p>
-            <nav className="hero-destinations" aria-label="Explore the archive">
-              {categoryKeys.map(key => <Link key={key} href={`/${key}`} prefetch={false} style={{ "--destination-accent": categories[key].accent } as CSSProperties}>{categories[key].label}<Arrow diagonal /></Link>)}
-              <Link href="/timeline" prefetch={false} style={{ "--destination-accent": "#d6b889" } as CSSProperties}>Timeline<Arrow diagonal /></Link>
-              <Link href="/sources" prefetch={false} style={{ "--destination-accent": "#b8ade0" } as CSSProperties}>Sources<Arrow diagonal /></Link>
-            </nav>
+            <Link className="primary-link" href="/films" prefetch={false}>Enter Archive<Arrow /></Link>
           </div>
           <div className="hero-side-note" aria-hidden="true"><span className="coordinate-cross">+</span><span>BEYOND THE FAMILIAR<br />THERE IS ALWAYS MORE.</span></div>
           <div className="hero-bottom content-width">
@@ -81,7 +75,7 @@ export default function HomePage() {
       </main>
 
       <footer className="site-footer content-width">
-        <div className="footer-top"><a className="wordmark" href="#prologue" aria-label="Return to the beginning"><OrbitMark /><span><span className="wordmark-top">STAR WARS</span><span className="wordmark-bottom">UNIVERSE</span></span></a><a className="back-top" href="#prologue">Back to the stars <span>↑</span></a></div>
+        <div className="footer-top"><HomeLink className="wordmark" aria-label="Star Wars Universe home"><OrbitMark /><span><span className="wordmark-top">STAR WARS</span><span className="wordmark-bottom">UNIVERSE</span></span></HomeLink><a className="back-top" href="#prologue">Back to the stars <span>↑</span></a></div>
         <div className="footer-bottom"><p>An independent fan project. Not affiliated with Lucasfilm or Disney.<br />Star Wars and related names belong to their respective rights holders.</p><p>FIRST LOOK / 2026<br />Original illustrative artwork · Archive in development</p></div>
       </footer>
     </>

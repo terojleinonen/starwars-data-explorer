@@ -1,0 +1,1468 @@
+{
+  "batch": "PROFILE-10",
+  "checkedAt": "2026-10-31",
+  "changes": [
+    {
+      "recordId": "planets:22",
+      "field": "profile",
+      "before": {
+        "id": "planets:22",
+        "category": "planets",
+        "legacy_id": "22",
+        "slug": "corellia",
+        "title": "Corellia",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Corellia’s great shipyards build warships for the Empire, while other facilities dismantle the remains of its enemies. Han and Qi’ra spend their early lives among its street gangs before seeking a way off the industrial world.",
+        "era": "Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Planet",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-corellia",
+            "locator": "Main profile / explicitly industrial planet",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "region",
+      "before": null,
+      "after": {
+        "value": "Galactic Core",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-corellia",
+            "locator": "Main profile / explicitly the galactic Core",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "notable_feature",
+      "before": null,
+      "after": {
+        "value": "Large starship construction and dismantling yards",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-corellia",
+            "locator": "Main profile / TIE/Star Destroyer construction and repurposed Separatist dismantling yards",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:22",
+        "key": "rotation_period",
+        "value": "25",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No rotation period is established by the selected sources. The inherited number/placeholder is retained without inventing hours or converting a story interval into a planetary day."
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:22",
+        "key": "orbital_period",
+        "value": "329",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No orbital period is established by the selected sources. The inherited number/placeholder is retained; twin suns or a system label do not determine a year length."
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:22",
+        "key": "diameter",
+        "value": "11000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No diameter is established by the selected sources. Scenic imagery, a damaged-looking world or a local facility cannot supply a numerical planetary size."
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:22",
+        "key": "climate",
+        "value": "temperate",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected sources do not explicitly establish this inherited global climate classification. Industrial development, volcanic terrain or the colour of starlight does not determine a whole world’s climate."
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:22",
+        "key": "gravity",
+        "value": "1 standard",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No numerical gravity is established by the selected sources. Ordinary movement or a qualitative planet description does not certify a standard-gravity multiplier."
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:22",
+        "key": "terrain",
+        "value": "plains, urban, hills, forests",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected sources do not establish this inherited complete terrain list. Industrial shipyards or a system-level introduction do not certify the old plains/forests/deserts inventory."
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:22",
+        "key": "surface_water",
+        "value": "70",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No surface-water percentage is established by the selected sources. Oceans, swamps, lava or missing metadata do not imply a percentage, zero, or a universally solid surface."
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "population",
+      "before": {
+        "record_id": "planets:22",
+        "key": "population",
+        "value": "3000000000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact population is established by the selected sources. Named peoples, workers, a clan or a settlement do not certify a total world population at a specified date."
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:solo",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile10-corellia",
+            "locator": "Appearances / Solo: A Star Wars Story",
+            "note": "Work-level setting; not an every-edition scene inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:bad-batch",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile10-corellia",
+            "locator": "Appearances / The Bad Batch",
+            "note": "Series-level connection, not every episode."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:ahsoka",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile10-corellia",
+            "locator": "Appearances / Ahsoka",
+            "note": "Series-level connection, not every episode."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "link",
+      "before": {
+        "record_id": "planets:22",
+        "target_id": "people:14",
+        "relation": "residents",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:14",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile03-han",
+            "locator": "Main profile and first history section / explicitly childhood and living with White Worms",
+            "note": "Past childhood residence, not exact birthplace or permanent present residence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "link",
+      "before": {
+        "record_id": "planets:22",
+        "target_id": "people:18",
+        "relation": "residents",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:18",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile09-wedge-antilles",
+            "locator": "History / explicitly grew up on Corellia working as pilot/mechanic",
+            "note": "Past residence; the separate inherited personal homeworld assertion remains unchanged."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:qira",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile10-qi-ra",
+            "locator": "Main profile and first history section / explicitly lived in Corellian sewers and grew up in the Silo",
+            "note": "Past residence, not an independently certified birthplace."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "profile",
+      "before": {
+        "id": "planets:31",
+        "category": "planets",
+        "legacy_id": "31",
+        "slug": "mon-cala",
+        "title": "Mon Cala",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Mon Cala is an ocean world shared by the Mon Calamari and Quarren. Their uneasy peace collapses during the Clone Wars after the king’s assassination, and the young Lee-Char must unite the planet against Separatist interference.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:31",
+        "key": "climate",
+        "value": "temperate",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Temperate",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-mon-cala",
+            "locator": "Climate / explicit Temperate",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:31",
+        "key": "terrain",
+        "value": "oceans, reefs, islands",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Oceans",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-mon-cala",
+            "locator": "Terrain / explicit Oceans",
+            "note": "Reefs and kelp forests are described; the old additional islands inventory is not independently certified."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Ocean world",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-mon-cala",
+            "locator": "Main profile / explicitly aquatic world",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "also_known_as",
+      "before": null,
+      "after": {
+        "value": "Mon Calamari; Dac",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-mon-cala",
+            "locator": "Main profile / explicit alternate world names",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "native_peoples",
+      "before": null,
+      "after": {
+        "value": "Mon Calamari and Quarren",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-mon-cala",
+            "locator": "Main profile / shared homeworld of two peoples",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:31",
+        "key": "rotation_period",
+        "value": "21",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No rotation period is established by the selected sources. The inherited number/placeholder is retained without inventing hours or converting a story interval into a planetary day."
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:31",
+        "key": "orbital_period",
+        "value": "398",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No orbital period is established by the selected sources. The inherited number/placeholder is retained; twin suns or a system label do not determine a year length."
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:31",
+        "key": "diameter",
+        "value": "11030",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No diameter is established by the selected sources. Scenic imagery, a damaged-looking world or a local facility cannot supply a numerical planetary size."
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:31",
+        "key": "gravity",
+        "value": "1",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No numerical gravity is established by the selected sources. Ordinary movement or a qualitative planet description does not certify a standard-gravity multiplier."
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:31",
+        "key": "surface_water",
+        "value": "100",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No surface-water percentage is established by the selected sources. Oceans, swamps, lava or missing metadata do not imply a percentage, zero, or a universally solid surface."
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "population",
+      "before": {
+        "record_id": "planets:31",
+        "key": "population",
+        "value": "27000000000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact population is established by the selected sources. Named peoples, workers, a clan or a settlement do not certify a total world population at a specified date."
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile10-mon-cala",
+            "locator": "Appearances and main profile / named Clone Wars civil war",
+            "note": "Television series, not the separate 2008 feature."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "link",
+      "before": {
+        "record_id": "planets:31",
+        "target_id": "people:27",
+        "relation": "residents",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:27",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile09-admiral-ackbar",
+            "locator": "Main profile / explicit retirement to his homeworld Mon Cala",
+            "note": "Time-scoped actual residence; not a planetary appearance inferred from Ackbar’s film work list."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:31",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:8",
+        "relation": "native_species",
+        "evidence": [
+          {
+            "sourceId": "profile10-mon-cala",
+            "locator": "Main profile and species list / Mon Calamari share the world with Quarren",
+            "note": "World and species are separate identities despite the shared alternate name."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "profile",
+      "before": {
+        "id": "planets:33",
+        "category": "planets",
+        "legacy_id": "33",
+        "slug": "sullust",
+        "title": "Sullust",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "The Sullustans come from the planet Sullust. Named in Return of the Jedi, the world also provides an orbital battle setting in The Clone Wars. Battlefront later develops its volcanic ground environment, with rock and flowing lava.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:33",
+        "key": "terrain",
+        "value": "mountains, volcanoes, rocky deserts",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Volcanic rock and lava flows — Battlefront depiction",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-sullust-design",
+            "locator": "Introduction and Sullust landscape Q&A / molten rock, lava flows and volcanic environment",
+            "note": "Selected game environment, not a complete world survey or a claim that these landscapes were shown in Return of the Jedi."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Planet",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-sullustan",
+            "locator": "Main profile / explicitly planet Sullust",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "native_species",
+      "before": null,
+      "after": {
+        "value": "Sullustan",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-sullustan",
+            "locator": "Main profile / species from Sullust",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "appearance_scope",
+      "before": null,
+      "after": {
+        "value": "Named in Return of the Jedi; orbital setting in The Clone Wars; volcanic ground depicted in Battlefront",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-sullust-design",
+            "locator": "Introduction and landscape Q&A / film mention and ground design",
+            "note": ""
+          },
+          {
+            "sourceId": "profile10-nightsisters-gallery",
+            "locator": "Caption 1 / named orbital battle",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:33",
+        "key": "rotation_period",
+        "value": "20",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No rotation period is established by the selected sources. The inherited number/placeholder is retained without inventing hours or converting a story interval into a planetary day."
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:33",
+        "key": "orbital_period",
+        "value": "263",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No orbital period is established by the selected sources. The inherited number/placeholder is retained; twin suns or a system label do not determine a year length."
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:33",
+        "key": "diameter",
+        "value": "12780",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No diameter is established by the selected sources. Scenic imagery, a damaged-looking world or a local facility cannot supply a numerical planetary size."
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:33",
+        "key": "climate",
+        "value": "superheated",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected sources do not explicitly establish this inherited global climate classification. Industrial development, volcanic terrain or the colour of starlight does not determine a whole world’s climate."
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:33",
+        "key": "gravity",
+        "value": "1",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No numerical gravity is established by the selected sources. Ordinary movement or a qualitative planet description does not certify a standard-gravity multiplier."
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:33",
+        "key": "surface_water",
+        "value": "5",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No surface-water percentage is established by the selected sources. Oceans, swamps, lava or missing metadata do not imply a percentage, zero, or a universally solid surface."
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "population",
+      "before": {
+        "record_id": "planets:33",
+        "key": "population",
+        "value": "18500000000",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact population is established by the selected sources. Named peoples, workers, a clan or a settlement do not certify a total world population at a specified date."
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:10",
+        "relation": "native_species",
+        "evidence": [
+          {
+            "sourceId": "profile10-sullustan",
+            "locator": "Main profile / Sullustans explicitly from Sullust",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:31",
+        "relation": "homeworld_of",
+        "evidence": [
+          {
+            "sourceId": "profile09-nien-nunb",
+            "locator": "Main profile / explicitly native of Sullust",
+            "note": "Personal origin claim, not a permanent current residence or exact birth date."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:3",
+        "relation": "mentioned_in",
+        "evidence": [
+          {
+            "sourceId": "profile10-sullust-design",
+            "locator": "Introduction / Sullust mentioned briefly in Return of the Jedi",
+            "note": "Mention only; no world landscape appearance is claimed."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:33",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile10-nightsisters-gallery",
+            "locator": "Caption 1 / space battle explicitly over Sullust",
+            "note": "Orbital setting; no claim of a ground visit or a new episode-register row."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "profile",
+      "before": {
+        "id": "planets:36",
+        "category": "planets",
+        "legacy_id": "36",
+        "slug": "dathomir",
+        "title": "Dathomir",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Forests, mountains and swamps shape the red-lit world of Dathomir. During the Clone Wars the Nightsisters rule there, while the Nightbrothers live apart. Later, Maul and Ezra’s ritual awakens spirits in a cave sanctuary.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:36",
+        "key": "terrain",
+        "value": "forests, deserts, savannas",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Forests, mountains, swamps",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-dathomir",
+            "locator": "Terrain / explicit Forests, Mountains and Swamps",
+            "note": "The old deserts/savannas list is not certified by this source."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Planet",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-dathomir",
+            "locator": "Main profile / explicitly remote planet",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "clone_wars_context",
+      "before": null,
+      "after": {
+        "value": "Ruled by the Nightsisters during the Clone Wars; Nightbrothers lived separately",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-dathomir",
+            "locator": "Main profile and first prose history section / time-scoped clans and rule",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "identity_scope",
+      "before": null,
+      "after": {
+        "value": "Distinct from Peridea, the far-galaxy world of Dathomirian ancestors",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-peridea",
+            "locator": "Main profile / named ancestral world in another galaxy",
+            "note": ""
+          },
+          {
+            "sourceId": "profile10-ahsoka-finale",
+            "locator": "Highlight 7 / Peridea scenes distinguished from arrival at Dathomir",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:36",
+        "key": "rotation_period",
+        "value": "24",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No rotation period is established by the selected sources. The inherited number/placeholder is retained without inventing hours or converting a story interval into a planetary day."
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:36",
+        "key": "orbital_period",
+        "value": "491",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No orbital period is established by the selected sources. The inherited number/placeholder is retained; twin suns or a system label do not determine a year length."
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:36",
+        "key": "diameter",
+        "value": "10480",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No diameter is established by the selected sources. Scenic imagery, a damaged-looking world or a local facility cannot supply a numerical planetary size."
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:36",
+        "key": "climate",
+        "value": "temperate",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected sources do not explicitly establish this inherited global climate classification. Industrial development, volcanic terrain or the colour of starlight does not determine a whole world’s climate."
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:36",
+        "key": "gravity",
+        "value": "0.9",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No numerical gravity is established by the selected sources. Ordinary movement or a qualitative planet description does not certify a standard-gravity multiplier."
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:36",
+        "key": "surface_water",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No surface-water percentage is established by the selected sources. Oceans, swamps, lava or missing metadata do not imply a percentage, zero, or a universally solid surface."
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "population",
+      "before": {
+        "record_id": "planets:36",
+        "key": "population",
+        "value": "5200",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact population is established by the selected sources. Named peoples, workers, a clan or a settlement do not certify a total world population at a specified date."
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile10-dathomir",
+            "locator": "Appearances and prose history / Nightsister conflict during Clone Wars",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:rebels",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile10-dathomir",
+            "locator": "Fourth prose history section / explicitly Maul and Ezra’s ritual",
+            "note": "The page’s own prose establishes this omitted compact-list connection."
+          },
+          {
+            "sourceId": "supp19-visions-and-voices-gallery",
+            "locator": "Captions 4–10 / named world, cave and altar",
+            "note": "Existing selected episode evidence retained without reclassification."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:ahsoka",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile10-ahsoka-finale",
+            "locator": "Highlight 7 / Thrawn and the Great Mothers arriving at Dathomir",
+            "note": "Ahsoka/Sabine remain on Peridea; not the same world."
+          },
+          {
+            "sourceId": "profile10-dathomir",
+            "locator": "Appearances / Ahsoka",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "link",
+      "before": {
+        "record_id": "planets:36",
+        "target_id": "people:44",
+        "relation": "residents",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "people:44",
+        "relation": "residents",
+        "evidence": [
+          {
+            "sourceId": "profile05-maul",
+            "locator": "History / operating from his homeworld Dathomir as leader of Crimson Dawn",
+            "note": "A specifically described residence/operating context; not an inferred permanent address."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:asajj-ventress",
+        "relation": "birthplace_of",
+        "evidence": [
+          {
+            "sourceId": "profile10-asajj-ventress",
+            "locator": "First biography paragraph / explicitly born on Dathomir",
+            "note": "Only the birthplace relationship is reviewed, not Ventress’s full profile or later death/survival history."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:ezra-bridger",
+        "relation": "visited_by",
+        "evidence": [
+          {
+            "sourceId": "supp19-visions-and-voices-gallery",
+            "locator": "Captions 4–10 / actual ritual and rescue on Dathomir",
+            "note": "Visit is not a homeworld or residence claim."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:maul-dathomir-sanctuary",
+        "relation": "contains",
+        "evidence": [
+          {
+            "sourceId": "supp19-visions-and-voices-gallery",
+            "locator": "Captions 4–10 / sanctuary on explicitly named Dathomir",
+            "note": "Existing descriptive cave/altar node, not a new planet or certified formal place name."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:peridea",
+        "relation": "associated_with",
+        "evidence": [
+          {
+            "sourceId": "profile10-peridea",
+            "locator": "Main profile / Dathomirian ancestral connection",
+            "note": ""
+          },
+          {
+            "sourceId": "profile10-ahsoka-finale",
+            "locator": "Highlight 7 / two different worlds in closing scenes",
+            "note": "Cultural association, not identity."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "profile",
+      "before": {
+        "id": "planets:53",
+        "category": "planets",
+        "legacy_id": "53",
+        "slug": "concord-dawn",
+        "title": "Concord Dawn",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Concord Dawn names the Mandalorian-controlled system where Fenn Rau’s Protectors regulate a route needed by the rebels. Their camp is on the system’s third moon. The inherited world record is retained, with its planet-specific measurements unresolved.",
+        "era": "Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "identity_scope",
+      "before": null,
+      "after": {
+        "value": "Official introduction describes the Concord Dawn system; inherited planet-specific scope remains unresolved",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile10-concord-dawn",
+            "locator": "Main profile / explicitly system, not a planetary technical dossier",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "notable_location",
+      "before": null,
+      "after": {
+        "value": "Protectors camp on the system’s third moon",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "supp16-the-protectors-camp",
+            "locator": "Main profile / exact system/moon/camp hierarchy",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "rotation_period",
+      "before": {
+        "record_id": "planets:53",
+        "key": "rotation_period",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No rotation period is established by the selected sources. The inherited number/placeholder is retained without inventing hours or converting a story interval into a planetary day."
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "orbital_period",
+      "before": {
+        "record_id": "planets:53",
+        "key": "orbital_period",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No orbital period is established by the selected sources. The inherited number/placeholder is retained; twin suns or a system label do not determine a year length."
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "diameter",
+      "before": {
+        "record_id": "planets:53",
+        "key": "diameter",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No diameter is established by the selected sources. Scenic imagery, a damaged-looking world or a local facility cannot supply a numerical planetary size."
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "climate",
+      "before": {
+        "record_id": "planets:53",
+        "key": "climate",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected sources do not explicitly establish this inherited global climate classification. Industrial development, volcanic terrain or the colour of starlight does not determine a whole world’s climate."
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "gravity",
+      "before": {
+        "record_id": "planets:53",
+        "key": "gravity",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No numerical gravity is established by the selected sources. Ordinary movement or a qualitative planet description does not certify a standard-gravity multiplier."
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "terrain",
+      "before": {
+        "record_id": "planets:53",
+        "key": "terrain",
+        "value": "jungles, forests, deserts",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "The selected sources do not establish this inherited complete terrain list. Industrial shipyards or a system-level introduction do not certify the old plains/forests/deserts inventory."
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "surface_water",
+      "before": {
+        "record_id": "planets:53",
+        "key": "surface_water",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No surface-water percentage is established by the selected sources. Oceans, swamps, lava or missing metadata do not imply a percentage, zero, or a universally solid surface."
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "population",
+      "before": {
+        "record_id": "planets:53",
+        "key": "population",
+        "value": "unknown",
+        "source_id": "legacy-planets",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact population is established by the selected sources. Named peoples, workers, a clan or a settlement do not certify a total world population at a specified date."
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:rebels",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile10-concord-dawn",
+            "locator": "Appearances and main profile / rebel safe passage through system",
+            "note": "System/route context; not a claim that every scene is a landing on the same-named planet."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:fenn-rau",
+        "relation": "associated_with",
+        "evidence": [
+          {
+            "sourceId": "profile10-concord-dawn",
+            "locator": "Main profile / named leader of the system’s Protectors",
+            "note": "Command context, not a newly certified personal birthplace."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "planets:53",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:protectors-camp",
+        "relation": "associated_with",
+        "evidence": [
+          {
+            "sourceId": "supp16-the-protectors-camp",
+            "locator": "Main profile / base on third moon of system",
+            "note": "System association; not a statement that the camp is on the inherited planet."
+          }
+        ]
+      }
+    }
+  ]
+}

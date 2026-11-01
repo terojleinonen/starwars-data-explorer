@@ -1,0 +1,1557 @@
+{
+  "version": 1,
+  "id": "PROFILE-11",
+  "checkedAt": "2026-10-31",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "Five existing species profiles: Geonosian, Mon Calamari, Sullustan, Zabrak and Twi’lek. All forty inherited fields assessed; nine verified/corrected and 31 unestablished raw values retained. Fourteen new scoped facts and selected work/member/homeworld links. No new identities, episodes, release dates, editions or credits.",
+  "sources": [
+    {
+      "id": "profile11-geonosian",
+      "title": "Geonosian — official Databank",
+      "url": "https://www.starwars.com/databank/geonosian",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Main profile and explicitly named work list read. Winged, colonial description; no average height, lifespan or complete colour palette. Related cards alone do not establish individual screen appearances.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile11-mon-calamari",
+      "title": "Mon Calamari — official Databank",
+      "url": "https://www.starwars.com/databank/mon-calamari",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Main profile, amphibious/aquatic humanoid description, Mon Cala/Quarren context and five named screen works read. Descriptive physiology is not a real-world taxonomic class or a universal political allegiance.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile11-zabrak",
+      "title": "Zabrak — official Databank",
+      "url": "https://www.starwars.com/databank/zabrak",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Main profile and two named works read. Horns and marked skin are explicit; Eeth Koth and Maul are distinct examples. The Dathomir location and Nightbrother affiliation do not define all Zabrak or certify the inherited Iridonia species-homeworld row.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile11-twi-lek",
+      "title": "Twi’lek — official Databank",
+      "url": "https://www.starwars.com/databank/twi-lek",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Main profile, variable pigmentation, paired head-tails, Ryloth homeworld and seven named screen works read. No exact average height, lifespan, exhaustive colour list or mammalian taxonomy inferred. Original neutral description replaces the source’s evaluative framing.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile11-geonosian-language",
+      "title": "8 Things You Might Not Know About Geonosians — selected language and design sections",
+      "url": "https://www.starwars.com/news/much-to-learn-you-still-have-8-things-you-might-not-know-about-geonosians",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Dana Jennings, 10 February 2017. Sections 2, 4 and 6–7 read for production-versus-fiction boundaries and the explicit Geonosian language name. Animal recordings are sound-design sources, not a biological origin or proof of telepathy. Catalyst discussion does not place living Geonosians in Rogue One.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com; Dana Jennings",
+      "revision": ""
+    },
+    {
+      "id": "profile11-mon-calamari-adaptation",
+      "title": "10 Things You Might Not Know About Mon Calamari — selected physiology sections",
+      "url": "https://www.starwars.com/news/much-to-learn-you-still-have-10-things-you-might-not-know-about-mon-calamari",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Dana Jennings, 31 August 2016. Selected sections 2 and 5 establish living above/below water and age-related barbels/pigment changes. Section 10 was a then-future Rogue One announcement, not release verification. Mixed Legends/production passages do not certify every present-day canon detail.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com; Dana Jennings",
+      "revision": ""
+    },
+    {
+      "id": "profile11-twilek-culture",
+      "title": "Star Wars Inside Intel: Twi’lek Culture",
+      "url": "https://www.starwars.com/news/star-wars-inside-intel-twilek-culture",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Emily Shkoukani, 28 September 2021. Species identity, sentience, homeworld, language, lekku communication, family Kalikori and explicitly named screen examples read. Cultural tendencies are not compulsory behaviour for every individual. A novel character does not create a new screen appearance.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com; Emily Shkoukani, Lucasfilm Story Group",
+      "revision": ""
+    },
+    {
+      "id": "profile11-eeth-koth-iridonia",
+      "title": "Who’s Who on the Jedi Council — Eeth Koth section",
+      "url": "https://www.starwars.com/news/jedi-council",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Only the named Eeth Koth section used: Homeworld Iridonia, Species Iridonian Zabrak. Search snippets incorrectly juxtaposed its values with Plo Koon; full article has Dorin/Kel Dor under Plo Koon. An individual’s homeworld does not certify the homeworld of every Zabrak.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile11-nightbrothers",
+      "title": "Nightbrothers — official Databank",
+      "url": "https://www.starwars.com/databank/nightbrothers",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Main profile, male Zabrak warrior community on Dathomir, historical Nightsister governance and The Clone Wars series listing read. Group, location, sex and culture are scoped to Nightbrothers, not every member of the species. Game-related cards do not add screen works.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile11-poggle",
+      "title": "Poggle the Lesser — selected species and dimension metadata",
+      "url": "https://www.starwars.com/databank/poggle-the-lesser",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Main profile and Geonosian species label / 1.75 m individual height read. Used only for membership and the individual-versus-average boundary; no new personal height review, full biography or gallery inventory.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile11-ryloth",
+      "title": "Ryloth — selected language and homeworld introduction",
+      "url": "https://www.starwars.com/databank/ryloth",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Main introduction explicitly names the Twi’lek homeworld, lekku gestures and Twi’leki language. Only these species-context statements used; no review of Ryloth’s inherited climate, terrain, figures or full history gallery.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile11-aayla-secura",
+      "title": "Aayla Secura — selected species metadata",
+      "url": "https://www.starwars.com/databank/aayla-secura",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Species Twi’lek label and first history paragraph read for membership only. The existing Ayla Secura record/title/slug are retained; personal dimensions, other facts and full gallery not reviewed.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile11-eeth-koth",
+      "title": "Eeth Koth — selected individual dimension metadata",
+      "url": "https://www.starwars.com/databank/eeth-koth",
+      "kind": "official",
+      "checkedAt": "2026-10-31",
+      "note": "Main profile and 1.87 m individual height read. This does not establish a Zabrak mean or certify a new personal dossier review. No full gallery inventory.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    }
+  ],
+  "sourceUpdates": [],
+  "records": [
+    {
+      "id": "species:28",
+      "summary": {
+        "text": "The winged Geonosians inhabit hive colonies on Geonosis. Their factories arm the Separatists during the Clone Wars, and their engineers contribute to the first Death Star. In Rebels, Klik-Klak guards a queen egg after the Empire devastates his people.",
+        "evidence": [
+          {
+            "sourceId": "profile11-geonosian",
+            "locator": "Main profile / colonial, winged species and Death Star design",
+            "note": ""
+          },
+          {
+            "sourceId": "film02-geonosis",
+            "locator": "Main profile and final history / factories and Klik-Klak’s queen egg",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas + Disney",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "profile11-geonosian",
+            "locator": "Official current species identity and selected screen-work context",
+            "note": "Creative-era label describes selected screen contexts; it does not validate inherited statistics."
+          }
+        ]
+      },
+      "scope": "First scoped review of this inherited species identity: all eight legacy fields assessed, original short description, selected morphology/culture and named work/member/homeworld connections. Not a complete biological, demographic or screen-appearance inventory.",
+      "limitations": [
+        "The Geonosian language name is explicit in the official language discussion. Geonosian hive-mind is also used as a sound-design label; it is not imported as proof of literal telepathy.",
+        "Poggle and Klik-Klak have individual 1.75 m measurements; neither establishes the inherited 178 cm mean. The abandoned chameleon concept does not establish colour-changing physiology or the old colour lists.",
+        "Klik-Klak and his egg are scoped to the Geonosis aftermath. No absolute galaxy-wide extinction count, named hatched queen or later comic outcome is asserted. The existing Rebels work/episode evidence remains intact; Death Star design does not create a Rogue One species appearance.",
+        "Descriptive morphology is not a real-world biological class. An individual’s measurements, colours, birthplace, politics or occupation do not establish a species-wide average or rule.",
+        "Work-list links identify selected named works, not every episode, historical edition or representation. The Clone Wars here means the television series; no automatic link to the 2008 feature film. Omitted links remain unestablished rather than proving absence.",
+        "All eight inherited fields are assessed. Unestablished raw values and source IDs remain recoverable; unknown or none is not converted into zero or a biological absence. No new records, episodes, credits, editions or release events; release research remains original USA launch only."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "expectedValue": "insectoid",
+          "value": "Insectoid",
+          "evidence": [
+            {
+              "sourceId": "film02-geonosis",
+              "locator": "Main profile / explicitly insectoid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "designation",
+          "expectedValue": "sentient",
+          "value": "Sentient",
+          "evidence": [
+            {
+              "sourceId": "film02-geonosis",
+              "locator": "Main profile / explicitly sentient insectoids",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "expectedValue": "Geonosian",
+          "value": "Geonosian",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian-language",
+              "locator": "Section 6 / explicitly named Geonosian language",
+              "note": "Production sound sources are not a biological species origin."
+            }
+          ]
+        },
+        {
+          "key": "distinctive_features",
+          "expectedValue": null,
+          "value": "Wings",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian",
+              "locator": "Main profile / winged beings",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "settlements",
+          "expectedValue": null,
+          "value": "Hive colonies on Geonosis",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian",
+              "locator": "Main profile / nesting colonies",
+              "note": ""
+            },
+            {
+              "sourceId": "film02-geonosis",
+              "locator": "Main profile / spire-hives",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "historical_role",
+          "expectedValue": null,
+          "value": "Droid and weapon manufacturing for the Separatists",
+          "evidence": [
+            {
+              "sourceId": "film02-geonosis",
+              "locator": "Main profile / Clone Wars factories",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "average_height",
+          "expectedValue": "178",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide mean height in the selected sources. Individual heights and qualitative size do not establish the inherited mean.",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide mean height in the selected sources. Individual heights and qualitative size do not establish the inherited mean."
+            },
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Dimensions / Poggle’s individual 1.75 m",
+              "note": "Individual measurement only; not a population average."
+            }
+          ]
+        },
+        {
+          "key": "skin_colors",
+          "expectedValue": "green, brown",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No exact species-wide skin-colour palette explicitly established. Variation or one member does not certify the inherited list.",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No exact species-wide skin-colour palette explicitly established. Variation or one member does not certify the inherited list."
+            }
+          ]
+        },
+        {
+          "key": "hair_colors",
+          "expectedValue": "none",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide hair-colour or hair-absence rule established. A bald individual does not establish that all members lack hair.",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide hair-colour or hair-absence rule established. A bald individual does not establish that all members lack hair."
+            }
+          ]
+        },
+        {
+          "key": "eye_colors",
+          "expectedValue": "green, hazel",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No complete species-wide eye-colour palette explicitly established. An individual or illustration cannot verify the inherited list.",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No complete species-wide eye-colour palette explicitly established. An individual or illustration cannot verify the inherited list."
+            }
+          ]
+        },
+        {
+          "key": "average_lifespan",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide average lifespan in the selected sources. The inherited unknown is a source placeholder, not a verified biological fact.",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide average lifespan in the selected sources. The inherited unknown is a source placeholder, not a verified biological fact."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian",
+              "locator": "Appearances / Attack of the Clones",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile11-geonosian",
+              "locator": "Appearances / The Clone Wars television series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:11",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "film02-geonosis",
+              "locator": "Main profile and first history / evolved on Geonosis and homeworld",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:63",
+          "relation": "people",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Species / Geonosian",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:klik-klak",
+          "relation": "people",
+          "evidence": [
+            {
+              "sourceId": "supp20-klik-klak",
+              "locator": "Main profile and Species / Geonosian survivor",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:8",
+      "summary": {
+        "text": "Mon Calamari are amphibious humanoids from Mon Cala, a world they share with the Quarren. Their large eyes and webbed hands distinguish them. During the Galactic Civil War, Mon Calamari support the Rebellion with capital ships.",
+        "evidence": [
+          {
+            "sourceId": "profile11-mon-calamari",
+            "locator": "Main profile / physiology, homeworld and Rebel ship contribution",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas + Disney",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "profile11-mon-calamari",
+            "locator": "Official current species identity and selected screen-work context",
+            "note": "Creative-era label describes selected screen contexts; it does not validate inherited statistics."
+          }
+        ]
+      },
+      "scope": "First scoped review of this inherited species identity: all eight legacy fields assessed, original short description, selected morphology/culture and named work/member/homeworld connections. Not a complete biological, demographic or screen-appearance inventory.",
+      "limitations": [
+        "Amphibious humanoid describes the source’s physiology. It does not endorse amphibian as a real-world taxonomic class. Ackbar’s 1.8 m height cannot validate the old 160 cm species average.",
+        "Mon Calamari names a species and is also an alias of Mon Cala. Dac is a world alias, not a new species or a universal personal birthplace. Sharing a world with Quarren does not merge the species.",
+        "Age-related fading and barbels are explicit, but no exhaustive red/blue/brown/magenta palette, yellow-only eyes or no-hair rule is established. The 2016 article’s forward-looking Rogue One item is not used as release or present appearance verification.",
+        "The named compact work list is selected evidence. Other already sourced individual appearances and homeworld links are retained without being generalized into a complete species or planet appearance inventory.",
+        "Descriptive morphology is not a real-world biological class. An individual’s measurements, colours, birthplace, politics or occupation do not establish a species-wide average or rule.",
+        "Work-list links identify selected named works, not every episode, historical edition or representation. The Clone Wars here means the television series; no automatic link to the 2008 feature film. Omitted links remain unestablished rather than proving absence.",
+        "All eight inherited fields are assessed. Unestablished raw values and source IDs remain recoverable; unknown or none is not converted into zero or a biological absence. No new records, episodes, credits, editions or release events; release research remains original USA launch only."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "expectedValue": "amphibian",
+          "value": "Amphibious humanoid",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Main profile / aquatic humanoids and amphibious people",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "distinctive_features",
+          "expectedValue": null,
+          "value": "Large eyes and webbed hands",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Main profile / physical features",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "habitat_adaptation",
+          "expectedValue": null,
+          "value": "Can live both underwater and above the ocean",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari-adaptation",
+              "locator": "Section 2 / underwater and surface habitation",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "age_related_changes",
+          "expectedValue": null,
+          "value": "Barbels grow longer and skin pigmentation fades with age",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari-adaptation",
+              "locator": "Section 5 / ageing traits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "historical_role",
+          "expectedValue": null,
+          "value": "Supplied capital ships to the Rebel Alliance",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Main profile / Galactic Civil War contribution",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "designation",
+          "expectedValue": "sentient",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "The selected profile does not explicitly establish the inherited formal sentient designation; intelligent behaviour alone is not a cited classification here.",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "The selected profile does not explicitly establish the inherited formal sentient designation; intelligent behaviour alone is not a cited classification here."
+            }
+          ]
+        },
+        {
+          "key": "average_height",
+          "expectedValue": "160",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide mean height in the selected sources. Individual heights and qualitative size do not establish the inherited mean.",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide mean height in the selected sources. Individual heights and qualitative size do not establish the inherited mean."
+            },
+            {
+              "sourceId": "profile09-admiral-ackbar",
+              "locator": "Dimensions / Ackbar’s individual 1.8 m",
+              "note": "Individual measurement only; not a population average."
+            }
+          ]
+        },
+        {
+          "key": "skin_colors",
+          "expectedValue": "red, blue, brown, magenta",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No exact species-wide skin-colour palette explicitly established. Variation or one member does not certify the inherited list.",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No exact species-wide skin-colour palette explicitly established. Variation or one member does not certify the inherited list."
+            }
+          ]
+        },
+        {
+          "key": "hair_colors",
+          "expectedValue": "none",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide hair-colour or hair-absence rule established. A bald individual does not establish that all members lack hair.",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide hair-colour or hair-absence rule established. A bald individual does not establish that all members lack hair."
+            }
+          ]
+        },
+        {
+          "key": "eye_colors",
+          "expectedValue": "yellow",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No complete species-wide eye-colour palette explicitly established. An individual or illustration cannot verify the inherited list.",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No complete species-wide eye-colour palette explicitly established. An individual or illustration cannot verify the inherited list."
+            }
+          ]
+        },
+        {
+          "key": "average_lifespan",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide average lifespan in the selected sources. The inherited unknown is a source placeholder, not a verified biological fact.",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide average lifespan in the selected sources. The inherited unknown is a source placeholder, not a verified biological fact."
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "expectedValue": "Mon Calamarian",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit name for the inherited species language established in the selected sources. A character speaking a language does not certify its species-language label.",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit name for the inherited species language established in the selected sources. A character speaking a language does not certify its species-language label."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Appearances / Return of the Jedi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:force-awakens",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Appearances / The Force Awakens",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Appearances / The Clone Wars television series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:31",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "profile11-mon-calamari",
+              "locator": "Main profile / native oceans of Mon Cala",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:10",
+      "summary": {
+        "text": "Sullustans are humanoids native to Sullust, recognizable by their prominent cheek folds. Nien Nunb is one member of the species, serving as Lando Calrissian’s co-pilot at Endor. His individual career does not describe every Sullustan.",
+        "evidence": [
+          {
+            "sourceId": "profile10-sullustan",
+            "locator": "Main profile / humanoid species, homeworld, cheek folds and Nien Nunb",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas + Disney",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "profile10-sullustan",
+            "locator": "Official current species identity and selected screen-work context",
+            "note": "Creative-era label describes selected screen contexts; it does not validate inherited statistics."
+          }
+        ]
+      },
+      "scope": "First scoped review of this inherited species identity: all eight legacy fields assessed, original short description, selected morphology/culture and named work/member/homeworld connections. Not a complete biological, demographic or screen-appearance inventory.",
+      "limitations": [
+        "Humanoid is an explicit body-form description; it does not certify the old mammal classification. Nien Nunb’s 1.6 m is an individual measurement, not the old species mean of 180 cm.",
+        "The inherited Sullutese spelling is not silently corrected to another unsourced language label. No selected source establishes a language name, lifespan, complete pigmentation list or universal absence of hair.",
+        "Species appearances do not place the planet Sullust in those works. Borkus is a Sullustan in a diner on Abafar; the Related card alone does not move the diner to Sullust or add an individually reviewed Borkus dossier.",
+        "The existing Nien and Sullust profile reviews retain their separate selected work, craft and planetary-context evidence.",
+        "Descriptive morphology is not a real-world biological class. An individual’s measurements, colours, birthplace, politics or occupation do not establish a species-wide average or rule.",
+        "Work-list links identify selected named works, not every episode, historical edition or representation. The Clone Wars here means the television series; no automatic link to the 2008 feature film. Omitted links remain unestablished rather than proving absence.",
+        "All eight inherited fields are assessed. Unestablished raw values and source IDs remain recoverable; unknown or none is not converted into zero or a biological absence. No new records, episodes, credits, editions or release events; release research remains original USA launch only."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "expectedValue": "mammal",
+          "value": "Humanoid",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Main profile / explicitly humanoid beings",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "distinctive_features",
+          "expectedValue": null,
+          "value": "Two prominent cheek folds",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Main profile / cheek folds",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "designation",
+          "expectedValue": "sentient",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "The selected profile does not explicitly establish the inherited formal sentient designation; intelligent behaviour alone is not a cited classification here.",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "The selected profile does not explicitly establish the inherited formal sentient designation; intelligent behaviour alone is not a cited classification here."
+            }
+          ]
+        },
+        {
+          "key": "average_height",
+          "expectedValue": "180",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide mean height in the selected sources. Individual heights and qualitative size do not establish the inherited mean.",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide mean height in the selected sources. Individual heights and qualitative size do not establish the inherited mean."
+            },
+            {
+              "sourceId": "profile09-nien-nunb",
+              "locator": "Dimensions / Nien Nunb’s individual 1.6 m",
+              "note": "Individual measurement only; not a population average."
+            }
+          ]
+        },
+        {
+          "key": "skin_colors",
+          "expectedValue": "pale",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No exact species-wide skin-colour palette explicitly established. Variation or one member does not certify the inherited list.",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No exact species-wide skin-colour palette explicitly established. Variation or one member does not certify the inherited list."
+            }
+          ]
+        },
+        {
+          "key": "hair_colors",
+          "expectedValue": "none",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide hair-colour or hair-absence rule established. A bald individual does not establish that all members lack hair.",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide hair-colour or hair-absence rule established. A bald individual does not establish that all members lack hair."
+            }
+          ]
+        },
+        {
+          "key": "eye_colors",
+          "expectedValue": "black",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No complete species-wide eye-colour palette explicitly established. An individual or illustration cannot verify the inherited list.",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No complete species-wide eye-colour palette explicitly established. An individual or illustration cannot verify the inherited list."
+            }
+          ]
+        },
+        {
+          "key": "average_lifespan",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide average lifespan in the selected sources. The inherited unknown is a source placeholder, not a verified biological fact.",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide average lifespan in the selected sources. The inherited unknown is a source placeholder, not a verified biological fact."
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "expectedValue": "Sullutese",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit name for the inherited species language established in the selected sources. A character speaking a language does not certify its species-language label.",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit name for the inherited species language established in the selected sources. A character speaking a language does not certify its species-language label."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Appearances / Return of the Jedi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:force-awakens",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Appearances / The Force Awakens",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Appearances / The Clone Wars television series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:33",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Main profile / beings from Sullust",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:31",
+          "relation": "people",
+          "evidence": [
+            {
+              "sourceId": "profile10-sullustan",
+              "locator": "Main profile / Nien Nunb explicitly identified as Sullustan",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:22",
+      "summary": {
+        "text": "Zabrak are recognizable by the horns on their heads. Eeth Koth is identified as an Iridonian Zabrak, while Maul comes from Dathomir. The Nightbrothers are a Dathomirian community of Zabrak warriors, with a culture distinct from the species as a whole.",
+        "evidence": [
+          {
+            "sourceId": "profile11-zabrak",
+            "locator": "Main profile / horned species and two named examples",
+            "note": ""
+          },
+          {
+            "sourceId": "profile11-eeth-koth-iridonia",
+            "locator": "Eeth Koth section / Iridonian Zabrak and Iridonia",
+            "note": ""
+          },
+          {
+            "sourceId": "profile11-nightbrothers",
+            "locator": "Main profile / Dathomirian male Zabrak warrior community",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas + Disney",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "profile11-zabrak",
+            "locator": "Official current species identity and selected screen-work context",
+            "note": "Creative-era label describes selected screen contexts; it does not validate inherited statistics."
+          }
+        ]
+      },
+      "scope": "First scoped review of this inherited species identity: all eight legacy fields assessed, original short description, selected morphology/culture and named work/member/homeworld connections. Not a complete biological, demographic or screen-appearance inventory.",
+      "limitations": [
+        "The official species page names Dathomir as a location; it does not name it as the origin of every Zabrak. The Council article establishes Iridonia as Eeth Koth’s homeworld, not a universal species homeworld. The inherited species-to-Iridonia homeworld row therefore remains legacy.",
+        "Nightbrothers are a historical male warrior community on Dathomir, not a synonym for all Zabrak. Their sex, governance, hostility or combat skill is not generalized to the entire species; the separate ship The Nightbrother is not a biological group.",
+        "Maul’s own profile labels him both Dathomirian and Zabrak. These labels are retained in context without inventing an exhaustive subspecies taxonomy or merging the existing Dathomirian species record.",
+        "Eeth Koth’s 1.87 m and Maul’s nominal 1.84 m do not establish the inherited 180 cm species mean. No mammalian class, formal sentience designation, language, lifespan or complete eye/hair/skin palette is established by the selected sources.",
+        "Additional Solo, Rebels and Maul – Shadow Lord links represent the explicitly identified Zabrak Maul in his own named work list; they do not certify a whole-population scene. His existing biography and episode representation distinctions remain intact.",
+        "Descriptive morphology is not a real-world biological class. An individual’s measurements, colours, birthplace, politics or occupation do not establish a species-wide average or rule.",
+        "Work-list links identify selected named works, not every episode, historical edition or representation. The Clone Wars here means the television series; no automatic link to the 2008 feature film. Omitted links remain unestablished rather than proving absence.",
+        "All eight inherited fields are assessed. Unestablished raw values and source IDs remain recoverable; unknown or none is not converted into zero or a biological absence. No new records, episodes, credits, editions or release events; release research remains original USA launch only."
+      ],
+      "facts": [
+        {
+          "key": "distinctive_features",
+          "expectedValue": null,
+          "value": "A crown of horns on the head",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Main profile / distinctive horns",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "identity_scope",
+          "expectedValue": null,
+          "value": "Eeth Koth: Iridonian Zabrak; Maul: Zabrak from Dathomir",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth-iridonia",
+              "locator": "Eeth Koth section / species and homeworld",
+              "note": ""
+            },
+            {
+              "sourceId": "profile05-maul",
+              "locator": "Main profile and Species / Zabrak from Dathomir; Dathomirian label",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "cultural_group",
+          "expectedValue": null,
+          "value": "Nightbrothers — male Zabrak warrior community on Dathomir",
+          "evidence": [
+            {
+              "sourceId": "profile11-nightbrothers",
+              "locator": "Main profile / group identity and historical location",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "classification",
+          "expectedValue": "mammal",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "The selected source does not establish the inherited mammalian taxonomic classification. Horns or humanoid form alone do not establish mammalian biology.",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "The selected source does not establish the inherited mammalian taxonomic classification. Horns or humanoid form alone do not establish mammalian biology."
+            }
+          ]
+        },
+        {
+          "key": "designation",
+          "expectedValue": "sentient",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "The selected profile does not explicitly establish the inherited formal sentient designation; intelligent behaviour alone is not a cited classification here.",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "The selected profile does not explicitly establish the inherited formal sentient designation; intelligent behaviour alone is not a cited classification here."
+            }
+          ]
+        },
+        {
+          "key": "average_height",
+          "expectedValue": "180",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide mean height in the selected sources. Individual heights and qualitative size do not establish the inherited mean.",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide mean height in the selected sources. Individual heights and qualitative size do not establish the inherited mean."
+            },
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Dimensions / Eeth Koth’s individual 1.87 m",
+              "note": "Individual measurement only; not a population average."
+            }
+          ]
+        },
+        {
+          "key": "skin_colors",
+          "expectedValue": "pale, brown, red, orange, yellow",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No exact species-wide skin-colour palette explicitly established. Variation or one member does not certify the inherited list.",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No exact species-wide skin-colour palette explicitly established. Variation or one member does not certify the inherited list."
+            }
+          ]
+        },
+        {
+          "key": "hair_colors",
+          "expectedValue": "black",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide hair-colour or hair-absence rule established. A bald individual does not establish that all members lack hair.",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide hair-colour or hair-absence rule established. A bald individual does not establish that all members lack hair."
+            }
+          ]
+        },
+        {
+          "key": "eye_colors",
+          "expectedValue": "brown, orange",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No complete species-wide eye-colour palette explicitly established. An individual or illustration cannot verify the inherited list.",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No complete species-wide eye-colour palette explicitly established. An individual or illustration cannot verify the inherited list."
+            }
+          ]
+        },
+        {
+          "key": "average_lifespan",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide average lifespan in the selected sources. The inherited unknown is a source placeholder, not a verified biological fact.",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide average lifespan in the selected sources. The inherited unknown is a source placeholder, not a verified biological fact."
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "expectedValue": "Zabraki",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit name for the inherited species language established in the selected sources. A character speaking a language does not certify its species-language label.",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit name for the inherited species language established in the selected sources. A character speaking a language does not certify its species-language label."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Appearances / The Phantom Menace",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile11-zabrak",
+              "locator": "Appearances / The Clone Wars television series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:solo",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile05-maul",
+              "locator": "Main profile / Zabrak identity; Appearances / Solo",
+              "note": "Named species member; work-level relation does not convert his hologram into a physical scene."
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile05-maul",
+              "locator": "Main profile / Zabrak identity; Appearances / Star Wars Rebels",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:maul-shadow-lord",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile05-maul",
+              "locator": "Main profile / Zabrak identity; Appearances / Maul – Shadow Lord",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:44",
+          "relation": "people",
+          "evidence": [
+            {
+              "sourceId": "profile05-maul",
+              "locator": "Main profile and Species / Zabrak",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:54",
+          "relation": "people",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth-iridonia",
+              "locator": "Eeth Koth section / Species Iridonian Zabrak",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:36",
+          "relation": "associated_with",
+          "evidence": [
+            {
+              "sourceId": "profile11-nightbrothers",
+              "locator": "Main profile / Nightbrothers’ Dathomir community",
+              "note": "Location of a specific Zabrak community, not a universal species homeworld."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:15",
+      "summary": {
+        "text": "Twi’leks are humanoids from Ryloth with varied skin colours and paired head-tails called lekku. They communicate in Twi’leki and can also use lekku gestures. Many families preserve their history in a Kalikori, adding to it across generations.",
+        "evidence": [
+          {
+            "sourceId": "profile11-twi-lek",
+            "locator": "Main profile / humanoid identity, varied pigmentation, head-tails and Ryloth",
+            "note": ""
+          },
+          {
+            "sourceId": "profile11-twilek-culture",
+            "locator": "Species introduction; Kalikori and language paragraphs",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas + Disney",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "profile11-twi-lek",
+            "locator": "Official current species identity and selected screen-work context",
+            "note": "Creative-era label describes selected screen contexts; it does not validate inherited statistics."
+          }
+        ]
+      },
+      "scope": "First scoped review of this inherited species identity: all eight legacy fields assessed, original short description, selected morphology/culture and named work/member/homeworld connections. Not a complete biological, demographic or screen-appearance inventory.",
+      "limitations": [
+        "The inherited mammals label is replaced with the explicitly stated humanoid form; sentient is explicit in the Story Group article. Tall and thin does not establish a 200 cm species mean, and a rainbow of colours does not certify the inherited exhaustive seven-colour list.",
+        "Twi’leki is explicitly named in the species-culture article and Ryloth introduction. Lekku gestures complement spoken language; they do not establish a quantified telepathic ability or a sole language for every individual.",
+        "Kalikori traditions are described as common family practice, not mandatory for every Twi’lek. The original summary avoids copying the Databank’s aesthetic judgments or reducing the species to servitude.",
+        "The Mandalorian link is supported by the article’s explicit Xi’an screen example; it does not add Xi’an as a newly reviewed profile. Hera, Cham, Bib and Aayla membership links do not review their personal measurements or appearances. The old Ayla Secura title/slug are retained despite the official Aayla spelling.",
+        "Ryloth is the species homeworld, not necessarily each individual’s birthplace or current residence. No automatic world appearance in every species-linked work.",
+        "Descriptive morphology is not a real-world biological class. An individual’s measurements, colours, birthplace, politics or occupation do not establish a species-wide average or rule.",
+        "Work-list links identify selected named works, not every episode, historical edition or representation. The Clone Wars here means the television series; no automatic link to the 2008 feature film. Omitted links remain unestablished rather than proving absence.",
+        "All eight inherited fields are assessed. Unestablished raw values and source IDs remain recoverable; unknown or none is not converted into zero or a biological absence. No new records, episodes, credits, editions or release events; release research remains original USA launch only."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "expectedValue": "mammals",
+          "value": "Humanoid",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Main profile / explicitly humanoids",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "designation",
+          "expectedValue": "sentient",
+          "value": "Sentient",
+          "evidence": [
+            {
+              "sourceId": "profile11-twilek-culture",
+              "locator": "Species introduction / explicitly sentient aliens",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "language",
+          "expectedValue": "Twi'leki",
+          "value": "Twi’leki",
+          "evidence": [
+            {
+              "sourceId": "profile11-twilek-culture",
+              "locator": "Language paragraph / named spoken language",
+              "note": ""
+            },
+            {
+              "sourceId": "profile11-ryloth",
+              "locator": "Main introduction / Twi’leki alongside gestures",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "skin_colors",
+          "expectedValue": "orange, yellow, blue, green, pink, purple, tan",
+          "value": "Varied pigmentation; no exhaustive palette established",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Main profile / wide variation in skin pigmentation",
+              "note": "Qualitative replacement; not a verified enumeration of the inherited seven colours."
+            }
+          ]
+        },
+        {
+          "key": "distinctive_features",
+          "expectedValue": null,
+          "value": "Paired head-tails called lekku",
+          "evidence": [
+            {
+              "sourceId": "profile11-ryloth",
+              "locator": "Main introduction / paired prehensile head-tails",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "communication",
+          "expectedValue": null,
+          "value": "Lekku gestures complement spoken language",
+          "evidence": [
+            {
+              "sourceId": "profile11-twilek-culture",
+              "locator": "Lekku and language paragraphs / movement and speech",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "cultural_tradition",
+          "expectedValue": null,
+          "value": "Many families pass down and add to a Kalikori",
+          "evidence": [
+            {
+              "sourceId": "profile11-twilek-culture",
+              "locator": "Kalikori paragraph / common family tradition",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "average_height",
+          "expectedValue": "200",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide mean height in the selected sources. Individual heights and qualitative size do not establish the inherited mean.",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide mean height in the selected sources. Individual heights and qualitative size do not establish the inherited mean."
+            }
+          ]
+        },
+        {
+          "key": "hair_colors",
+          "expectedValue": "none",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide hair-colour or hair-absence rule established. A bald individual does not establish that all members lack hair.",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide hair-colour or hair-absence rule established. A bald individual does not establish that all members lack hair."
+            }
+          ]
+        },
+        {
+          "key": "eye_colors",
+          "expectedValue": "blue, brown, orange, pink",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No complete species-wide eye-colour palette explicitly established. An individual or illustration cannot verify the inherited list.",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No complete species-wide eye-colour palette explicitly established. An individual or illustration cannot verify the inherited list."
+            }
+          ]
+        },
+        {
+          "key": "average_lifespan",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-species",
+          "status": "unestablished",
+          "note": "No explicit species-wide average lifespan in the selected sources. The inherited unknown is a source placeholder, not a verified biological fact.",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit species-wide average lifespan in the selected sources. The inherited unknown is a source placeholder, not a verified biological fact."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Appearances / Return of the Jedi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Appearances / The Phantom Menace",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Appearances / Attack of the Clones",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:rogue-one",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Appearances / Rogue One",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Appearances / The Clone Wars television series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:mandalorian",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile11-twilek-culture",
+              "locator": "Final culture paragraph / explicitly Twi’lek Xi’an in The Mandalorian",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:37",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "profile11-twi-lek",
+              "locator": "Main profile / Twi’lek homeworld Ryloth",
+              "note": ""
+            },
+            {
+              "sourceId": "profile11-ryloth",
+              "locator": "Main introduction / species homeworld",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:45",
+          "relation": "people",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "First history paragraph / explicitly Twi’lek majordomo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:46",
+          "relation": "people",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Species and first history paragraph / Twi’lek",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:hera-syndulla",
+          "relation": "people",
+          "evidence": [
+            {
+              "sourceId": "profile11-twilek-culture",
+              "locator": "Homeworld / notable Twi’leks paragraph naming Hera",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:cham-syndulla",
+          "relation": "people",
+          "evidence": [
+            {
+              "sourceId": "supp16-cham-syndulla",
+              "locator": "Species / Twi’lek",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -36,7 +36,7 @@ export const viewport: Viewport = { themeColor: "#080b0d", colorScheme: "dark" }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable}`}>
+    <html lang="en" data-scroll-behavior="smooth" className={`${display.variable} ${body.variable}`}>
       <body>
         <a className="skip-link" href="#main">Skip to content</a>
         {children}

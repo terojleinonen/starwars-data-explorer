@@ -512,7 +512,8 @@ assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='planets:nixus-
 assert.match(rebels16.episodeReviews[2].notes[0],/conflicting|not silently|not silently equated/);assert.ok(rebels16.episodeReviews[2].evidence.some(e=>e.sourceId==='supp14-brothers-of-the-broken-horn-trivia'));
 assert.match(rebels16.episodeReviews[4].notes[3],/Star Destroyer/);assert.ok(rebels16.episodeReviews[4].links.find(l=>l.targetId==='starships:imperial-light-cruiser').evidence.some(e=>e.sourceId==='supp16-numa'));
 assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='planets:protectors-camp' AND key='location'").get().value,'Third moon of the Concord Dawn system');
-assert.equal(db.prepare("SELECT review_status FROM facts WHERE record_id='planets:53' AND key='terrain'").get().review_status,'legacy','A camp on a moon does not verify the old planet profile');
+assert.equal(db.prepare("SELECT review_status FROM facts WHERE record_id='planets:53' AND key='terrain'").get().review_status,'unestablished','PROFILE-10 explicitly assesses the inherited terrain without verifying the planet from a moon camp');
+assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='planets:53' AND key='terrain'").get().value,'jungles, forests, deserts','Original unestablished terrain remains recoverable');
 assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='starships:captured-quasar-carrier' AND key='model'").get().value,'Quasar Fire-class cruiser-carrier');
 assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='people:numa' AND key='height'").get(),undefined,'Childhood height is not projected onto an adult appearance');
 assert.equal(db.prepare("SELECT COUNT(*) AS n FROM records WHERE id LIKE '%purrgil-king%' OR id LIKE '%flurry%'").get().n,0);
@@ -572,6 +573,105 @@ assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episodes WHERE id IN ('series
 for(const r of supplement18.records.filter(r=>r.newRecord))assert.equal(r.facts.length,1,'An introductory profile does not validate a complete dossier');
 assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episode_reviews WHERE batch_id='SUPPLEMENT-18'").get().n,5);
 assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episode_links WHERE id LIKE 'SUPPLEMENT-18:%'").get().n,82);
+
+// Supplement 19: published scene identities, caption discrepancies and plans versus actual craft.
+const supplement19=supplements.find(b=>b.id==='SUPPLEMENT-19');assert.ok(supplement19);
+const rebels19=supplement19.records.find(r=>r.id==='series:rebels');
+assert.deepEqual(rebels19.episodeReviews.map(r=>r.episodeId),[7,8,9,10,11].map(n=>`series:rebels:s3e${n}`));
+assert.deepEqual(rebels19.episodeReviews.map(r=>r.links.length),[10,16,13,17,9]);
+assert.equal(supplement19.records.filter(r=>r.newRecord).length,15);
+assert.equal(supplement19.sources.length,24);
+for(const r of rebels19.episodeReviews){assert.equal(r.consideredTargets.length,211);assert.equal(new Set(r.consideredTargets).size,211);}
+for(const [ep,target] of [['s3e7','starships:phantom-ii'],['s3e7','planets:protectors-camp'],['s3e8','people:grand-admiral-thrawn'],['s3e8','people:kassius-konstantine'],['s3e8','starships:satos-hammer'],['s3e9','people:imperial-sentry-droid'],['s3e9','starships:imperial-cargo-ship'],['s3e10','people:governor-pryce'],['s3e10','people:sabine-wren'],['s3e10','planets:thrawns-office'],['s3e10','vehicles:at-dp'],['s3e10','vehicles:18'],['s3e11','people:44'],['s3e11','planets:36'],['s3e11','planets:maul-dathomir-sanctuary']])assert.equal(representation('series:rebels:'+ep,target),'direct');
+assert.equal(representation('series:rebels:s3e8','people:jun-sato'),'unspecified');
+for(const [ep,target] of [['s3e7','planets:mandalore'],['s3e7','people:imperial-probe-droid'],['s3e7','starships:phantom-original'],['s3e8','starships:liberator'],['s3e9','starships:last-chance'],['s3e9','people:ap-5'],['s3e9','people:general-kalani'],['s3e10','starships:tie-defender'],['s3e10','people:ahsoka-tano'],['s3e10','planets:atollon'],['s3e11','starships:nightbrother'],['s3e11','starships:phantom-ii'],['s3e11','people:10'],['s3e11','planets:1'],['s3e11','people:b1-battle-droid']])assert.equal(representation('series:rebels:'+ep,target),undefined,'Mentioned worlds, artifacts, plans, design ancestors and unresolved hulls are not actual appearances');
+assert.match(rebels19.episodeReviews[0].notes.join(' '),/third moon/);
+assert.match(rebels19.episodeReviews[3].notes.join(' '),/311.*310/);
+assert.match(rebels19.episodeReviews[4].notes.join(' '),/Caption 7.*caption 9.*trivia 7/i);
+assert.match(rebels19.episodeReviews[4].links.find(l=>l.targetId==='people:44').note,/visions.*physical/i);
+assert.ok(rebels19.episodeReviews[3].links.find(l=>l.targetId==='people:governor-pryce').evidence.some(e=>e.locator.includes('image 6')));
+assert.ok(rebels19.episodeReviews[3].links.find(l=>l.targetId==='people:sabine-wren').evidence.some(e=>e.locator.includes('image 9')));
+for(const r of supplement19.records.filter(r=>r.newRecord))assert.equal(r.facts.length,1,'Introductory scope does not certify a complete dossier');
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episode_reviews WHERE batch_id='SUPPLEMENT-19'").get().n,5);
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episode_links WHERE id LIKE 'SUPPLEMENT-19:%'").get().n,65);
+
+// Supplement 20: mixed gallery evidence, blank caption, historic art and separate shipboard office.
+const supplement20=supplements.find(b=>b.id==='SUPPLEMENT-20');assert.ok(supplement20);
+const rebels20=supplement20.records.find(r=>r.id==='series:rebels');
+assert.deepEqual(rebels20.episodeReviews.map(r=>r.episodeId),[12,14,15,16,17].map(n=>`series:rebels:s3e${n}`));
+assert.deepEqual(rebels20.episodeReviews.map(r=>r.links.length),[19,10,6,11,13]);
+assert.equal(supplement20.records.filter(r=>r.newRecord).length,14);assert.equal(supplement20.sources.length,23);
+for(const r of rebels20.episodeReviews){assert.equal(r.consideredTargets.length,226);assert.equal(new Set(r.consideredTargets).size,226);}
+for(const [ep,target] of [['s3e12','people:jun-sato'],['s3e12','people:68'],['s3e15','people:hera-syndulla']])assert.equal(representation('series:rebels:'+ep,target),'transmission');
+for(const [ep,target] of [['s3e12','people:captain-rex'],['s3e12','people:zeb-orrelios'],['s3e12','people:captain-brunson'],['s3e12','people:jumptroopers'],['s3e12','species:28'],['s3e12','starships:imperial-light-cruiser'],['s3e14','people:agent-kallus'],['s3e14','people:e-xd-infiltrator-droid'],['s3e14','starships:tactical-infiltration-pod'],['s3e14','starships:3'],['s3e16','people:clan-wren'],['s3e16','people:imperial-super-commandos'],['s3e16','planets:krownest'],['s3e16','planets:wren-stronghold'],['s3e17','people:wullf-yularen'],['s3e17','planets:thrawn-shipboard-office'],['s3e17','starships:3']])assert.equal(representation('series:rebels:'+ep,target),'direct');
+for(const [ep,target] of [['s3e12','starships:9'],['s3e12','planets:atollon'],['s3e12','people:chopper'],['s3e12','planets:imperial-construction-module'],['s3e14','people:captain-rex'],['s3e14','people:18'],['s3e14','people:hobbie-klivian'],['s3e14','vehicles:flash-speeder'],['s3e14','people:imperial-probe-droid'],['s3e14','planets:4'],['s3e15','people:bendu'],['s3e15','people:25'],['s3e15','people:ketsu-onyo'],['s3e15','species:purrgil'],['s3e15','species:puffer-pig'],['s3e16','planets:mandalore'],['s3e16','people:alrich-wren'],['s3e16','people:chopper'],['s3e16','starships:phantom-ii'],['s3e17','planets:thrawns-office'],['s3e17','planets:atollon'],['s3e17','people:imperial-sentry-droid'],['s3e17','starships:22']])assert.equal(representation('series:rebels:'+ep,target),undefined,'Drawings, abandoned outlines, unvisited destinations, unresolved models and different rooms do not become actual selected appearances');
+assert.match(rebels20.episodeReviews[0].notes.join(' '),/Caption 7.*Rex.*Zeb/s);assert.match(rebels20.episodeReviews[1].notes.join(' '),/Position 6 is blank/);
+assert.match(rebels20.episodeReviews[1].links.find(l=>l.targetId==='people:agent-kallus').note,/Remote warning plus physical scene/);
+assert.ok(rebels20.episodeReviews[1].links.find(l=>l.targetId==='people:agent-kallus').evidence.some(e=>e.sourceId==='supp20-through-imperial-eyes-gallery'&&e.locator.includes('image 2')));
+assert.ok(rebels20.episodeReviews[3].links.find(l=>l.targetId==='people:gar-saxon').evidence.some(e=>e.sourceId==='supp19-gar-saxon'&&e.locator.includes('explicit death')));
+assert.match(rebels20.episodeReviews[4].notes[0],/S3 E17.*eighteenth slot/);
+assert.deepEqual({...db.prepare("SELECT number_start,number_end FROM episodes WHERE id='series:rebels:s3e12'").get()},{number_start:12,number_end:13});assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episodes WHERE id='series:rebels:s3e13'").get().n,0);assert.equal(db.prepare("SELECT title FROM episodes WHERE id='series:rebels:s3e18'").get().title,'Secret Cargo');
+assert.match(db.prepare("SELECT value FROM facts WHERE record_id='planets:thrawn-shipboard-office' AND key='location'").get().value,/Aboard Thrawn/);assert.match(db.prepare("SELECT value FROM facts WHERE record_id='planets:thrawns-office' AND key='location'").get().value,/Lothal Imperial Factory/);
+assert.ok(rebels20.links.find(l=>l.targetId==='vehicles:flash-speeder').evidence.some(e=>e.note.includes('Series-level use only')));
+for(const r of supplement20.records.filter(r=>r.newRecord))assert.equal(r.facts.length,1,'Introductory evidence does not certify a complete dossier');
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episode_reviews WHERE batch_id='SUPPLEMENT-20'").get().n,5);assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episode_links WHERE id LIKE 'SUPPLEMENT-20:%'").get().n,59);
+
+// Supplement 21: complete season-three guide coverage, scene forms and non-interchangeable hulls.
+const supplement21=supplements.find(b=>b.id==='SUPPLEMENT-21');assert.ok(supplement21);
+const rebels21=supplement21.records.find(r=>r.id==='series:rebels');
+assert.deepEqual(rebels21.episodeReviews.map(r=>r.episodeId),[18,19,20,21].map(n=>`series:rebels:s3e${n}`));
+assert.deepEqual(rebels21.episodeReviews.map(r=>r.links.length),[21,11,13,31]);
+assert.equal(supplement21.records.filter(r=>r.newRecord).length,15);assert.equal(supplement21.sources.length,21);
+for(const r of rebels21.episodeReviews){assert.equal(r.consideredTargets.length,247);assert.equal(new Set(r.consideredTargets).size,247);}
+for(const [ep,target] of [['s3e18','people:28'],['s3e18','people:e-xd-infiltrator-droid'],['s3e18','starships:tie-defender'],['s3e18','planets:25'],['s3e18','starships:27'],['s3e18','starships:23'],['s3e19','people:18'],['s3e19','people:controller-lt-319'],['s3e19','planets:killun-71'],['s3e19','planets:killun-station'],['s3e19','species:neebray'],['s3e20','people:10'],['s3e20','people:kanan-jarrus'],['s3e20','people:1'],['s3e20','people:tusken-raiders'],['s3e20','species:dewback'],['s3e20','planets:atollon'],['s3e21','people:agent-kallus'],['s3e21','people:jan-dodonna'],['s3e21','people:ursa-wren'],['s3e21','people:tristan-wren'],['s3e21','people:imperial-death-troopers'],['s3e21','starships:atollon-blockade-interdictors'],['s3e21','starships:dornean-gunship'],['s3e21','vehicles:18']])assert.equal(representation('series:rebels:'+ep,target),'direct');
+for(const target of ['people:governor-pryce','people:kassius-konstantine','people:jan-dodonna'])assert.equal(representation('series:rebels:s3e18',target),'unspecified');
+for(const target of ['people:12','people:28'])assert.equal(representation('series:rebels:s3e21',target),'transmission');
+for(const [ep,target] of [['s3e18','people:imperial-probe-droid'],['s3e18','starships:tactical-infiltration-pod'],['s3e18','starships:17'],['s3e18','starships:chandrila-mistress'],['s3e18','vehicles:26'],['s3e18','species:8'],['s3e19','people:26'],['s3e19','planets:lothal'],['s3e19','planets:atollon'],['s3e19','starships:phantom-ii'],['s3e19','starships:imperial-cargo-ship'],['s3e20','people:moota-engatoo'],['s3e20','people:7'],['s3e20','starships:a-wing-trainer'],['s3e20','starships:nightbrother'],['s3e20','starships:ghost'],['s3e21','starships:titus-interdictor'],['s3e21','starships:phoenix-home'],['s3e21','starships:captured-quasar-carrier'],['s3e21','starships:tie-defender'],['s3e21','planets:3'],['s3e21','species:purrgil'],['s3e21','vehicles:at-dp']])assert.equal(representation('series:rebels:'+ep,target),undefined,'Generic words, unvisited targets, cut concepts, model reuse and unjoined hull identities do not establish selected physical appearances');
+assert.ok(rebels21.episodeReviews[0].links.find(l=>l.targetId==='people:e-xd-infiltrator-droid').evidence.some(e=>e.locator.includes('image 2')));
+assert.ok(rebels21.episodeReviews[0].links.find(l=>l.targetId==='planets:25').evidence.some(e=>e.sourceId==='supp21-mothma-dantooine'&&e.locator.includes('above Dantooine')));
+assert.ok(rebels21.episodeReviews[0].links.find(l=>l.targetId==='people:jan-dodonna').evidence.some(e=>e.sourceId==='supp21-zero-hour-trivia'&&e.locator.includes('Trivia 2')));
+assert.match(rebels21.episodeReviews[2].links.find(l=>l.targetId==='people:10').note,/recorded warning.*physical camp/);
+assert.match(rebels21.episodeReviews[2].links.find(l=>l.targetId==='people:kanan-jarrus').note,/Physical Atollon.*abandoned Tatooine/);
+assert.match(rebels21.episodeReviews[2].links.find(l=>l.targetId==='people:1').note,/Luke.*Ezra.*identities/);
+for(const target of ['people:ursa-wren','people:tristan-wren'])assert.ok(rebels21.episodeReviews[3].links.find(l=>l.targetId===target).evidence.some(e=>e.sourceId==='supp20-clan-wren'&&e.locator.includes('named released group image')));
+assert.match(rebels21.episodeReviews[3].notes.join(' '),/Phoenix Nest.*Phoenix Home.*captured-Quasar/s);
+assert.match(supplement21.records.find(r=>r.id==='starships:atollon-blockade-interdictors').limitations.join(' '),/Titus.*destroyed/);
+assert.ok(rebels21.links.find(l=>l.targetId==='starships:chandrila-mistress').evidence.some(e=>e.note.includes('Series-level identity only')));
+assert.deepEqual({...db.prepare("SELECT number_start,number_end FROM episodes WHERE id='series:rebels:s3e21'").get()},{number_start:21,number_end:22});
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episodes WHERE id='series:rebels:s3e22'").get().n,0);
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episodes e JOIN episode_reviews v ON v.episode_id=e.id WHERE e.record_id='series:rebels' AND e.season=3").get().n,19);
+assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episode_reviews WHERE batch_id='SUPPLEMENT-21'").get().n,4);assert.equal(db.prepare("SELECT COUNT(*) AS n FROM episode_links WHERE id LIKE 'SUPPLEMENT-21:%'").get().n,76);
+for(const r of supplement21.records.filter(r=>r.newRecord))assert.equal(r.facts.length,1,'Introductory profiles are not complete dossiers');
+
+// Supplement 22: combined guides, named identities, actual scene forms and variant boundaries.
+const supplement22=supplements.find(b=>b.id==='SUPPLEMENT-22');assert.ok(supplement22);
+const rebels22=supplement22.records.find(r=>r.id==='series:rebels');
+assert.deepEqual(rebels22.episodeReviews.map(r=>r.episodeId),[1,3,5,6,7].map(n=>`series:rebels:s4e${n}`));
+assert.deepEqual(rebels22.episodeReviews.map(r=>r.links.length),[14,25,14,15,10]);
+assert.equal(supplement22.records.filter(r=>r.newRecord).length,19);assert.equal(supplement22.sources.length,26);
+for(const r of rebels22.episodeReviews){assert.equal(r.consideredTargets.length,269);assert.equal(new Set(r.consideredTargets).size,269);}
+for(const [ep,target] of [['s4e1','people:alrich-wren'],['s4e1','people:tiber-saxon'],['s4e1','people:captain-hark'],['s4e1','people:bo-katan-kryze'],['s4e1','people:ursa-wren'],['s4e1','people:tristan-wren'],['s4e1','planets:mandalore'],['s4e3','people:saw-gerrera'],['s4e3','people:r4-c2'],['s4e3','people:edrio-two-tubes'],['s4e3','people:dt-f16'],['s4e3','people:mich-matt'],['s4e3','people:brom-titus'],['s4e3','planets:jalindi'],['s4e3','planets:jalindi-station'],['s4e3','planets:faos-station'],['s4e3','starships:freighter-2716'],['s4e3','starships:u-wing'],['s4e5','people:ryder-azadi'],['s4e5','people:valen-rudor'],['s4e5','vehicles:tx-225-gavr'],['s4e5','species:puffer-pig'],['s4e6','starships:tie-defender-elite'],['s4e6','planets:lothal-imperial-airfield'],['s4e6','people:imperial-probe-droid'],['s4e6','people:jai-kell'],['s4e6','species:loth-wolf'],['s4e7','species:loth-wolf'],['s4e7','species:noghri'],['s4e7','people:rukh'],['s4e7','people:grand-admiral-thrawn'],['s4e7','people:governor-pryce']])assert.equal(representation('series:rebels:'+ep,target),'direct');
+assert.equal(representation('series:rebels:s4e3','people:68'),'transmission');
+assert.equal(representation('series:rebels:s4e1','people:grand-admiral-thrawn'),'unspecified');assert.equal(representation('series:rebels:s4e7','people:28'),'unspecified');
+for(const [ep,target] of [['s4e1','people:gar-saxon'],['s4e1','people:saw-gerrera'],['s4e3','starships:titus-interdictor'],['s4e3','starships:9'],['s4e3','starships:imperial-light-cruiser'],['s4e3','people:gooti-terez'],['s4e5','people:old-jho'],['s4e5','people:nazhros-oleg'],['s4e5','starships:tie-defender'],['s4e5','planets:lothal-imperial-factory'],['s4e6','people:e-xd-infiltrator-droid'],['s4e6','vehicles:26'],['s4e6','starships:u-wing'],['s4e7','starships:tie-defender-elite'],['s4e7','starships:u-wing'],['s4e7','planets:3'],['s4e7','people:maketh-tua']])assert.equal(representation('series:rebels:'+ep,target),undefined,'Deleted ideas, later reports, aliases, salvaged components and generic hulls do not create selected appearances');
+assert.match(rebels22.episodeReviews[0].notes.join(' '),/caption 3.*Wren.*Bo-Katan/s);
+assert.match(rebels22.episodeReviews[1].links.find(l=>l.targetId==='people:saw-gerrera').note,/transmission.*physical/);
+assert.ok(rebels22.episodeReviews[1].links.find(l=>l.targetId==='people:edrio-two-tubes').evidence.some(e=>e.sourceId==='supp22-edrio-two-tubes'&&e.locator.includes('First direct Rebels history')));
+assert.match(rebels22.episodeReviews[1].notes.join(' '),/Faos.*Taos.*Wells/s);
+assert.match(rebels22.episodeReviews[2].links.find(l=>l.targetId==='people:ryder-azadi').note,/transmission.*physical/);
+assert.ok(rebels22.episodeReviews[2].links.find(l=>l.targetId==='vehicles:tx-225-gavr').evidence.some(e=>e.locator.includes('Trivia 5')));
+assert.match(supplement22.records.find(r=>r.id==='vehicles:tx-225-gavr').facts[0].value,/GAVr.*hovering/);
+assert.ok(rebels22.episodeReviews[3].links.find(l=>l.targetId==='people:imperial-probe-droid').evidence.some(e=>e.locator.includes('Trivia 5')));
+assert.match(rebels22.episodeReviews[3].notes.join(' '),/position 2 is blank/);
+assert.ok(rebels22.episodeReviews[4].links.find(l=>l.targetId==='people:grand-admiral-thrawn').evidence.some(e=>e.locator.includes('released image 5')));
+assert.ok(rebels22.episodeReviews[4].links.find(l=>l.targetId==='people:governor-pryce').evidence.some(e=>e.locator.includes('released image 3')));
+assert.match(rebels22.episodeReviews[4].links.find(l=>l.targetId==='species:noghri').note,/named member/);
+assert.match(rebels22.episodeReviews[4].notes.join(' '),/Caleb Dume.*same|Caleb Dume.*Kanan/s);
+for(const [id,start,end] of [['series:rebels:s4e1',1,2],['series:rebels:s4e3',3,4]])assert.deepEqual({...db.prepare('SELECT number_start,number_end FROM episodes WHERE id=?').get(id)},{number_start:start,number_end:end});
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episodes WHERE id IN ('series:rebels:s4e2','series:rebels:s4e4')").get().n,0);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_reviews WHERE batch_id='SUPPLEMENT-22'").get().n,5);assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_links WHERE id LIKE 'SUPPLEMENT-22:%'").get().n,78);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episodes e JOIN episode_reviews v ON v.episode_id=e.id WHERE e.record_id='series:rebels' AND e.season=4").get().n,5);
+for(const r of supplement22.records.filter(r=>r.newRecord))assert.equal(r.facts.length,1);
 
 console.log('Legacy profile review checks passed',JSON.stringify(checkProfileReviews(root,db)));
 db.close();

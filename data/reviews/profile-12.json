@@ -1,0 +1,1450 @@
+{
+  "version": 1,
+  "id": "PROFILE-12",
+  "checkedAt": "2026-11-01",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "Five existing personnel profiles: Mon Mothma, Bib Fortuna, retained Ayla/Aayla Secura, Eeth Koth and Poggle the Lesser. All 35 inherited fields assessed: eight verified/corrected and 27 unestablished raw values retained; sixteen new scoped facts and 43 checked links. No new identities, episode evidence, credits, editions or dates.",
+  "sources": [
+    {
+      "id": "profile12-mon-mothma",
+      "title": "Mon Mothma — official Databank",
+      "url": "https://www.starwars.com/databank/mon-mothma",
+      "kind": "official",
+      "checkedAt": "2026-11-01",
+      "note": "Main profile, 1.5 m nominal height, Human label, named work list and selected political-history paragraphs read. The Revenge of the Sith list item is qualified by the separate official deleted-scene account; later roles are not assigned simultaneously to every era. No complete gallery or production-credit intake.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile12-who-is-mon-mothma",
+      "title": "Who Is Mon Mothma? — released roles and deleted scenes",
+      "url": "https://www.starwars.com/news/who-is-mon-mothma",
+      "kind": "official",
+      "checkedAt": "2026-11-01",
+      "note": "Dustin Diehl, 8 April 2025. Behind the Scenes explicitly distinguishes the cut Revenge of the Sith scenes from released film/series roles. Selected Coruscant, Dantooine and Yavin paragraphs read. Its then-future Andor season-two language is not reused as a current release/status assertion.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com; Dustin Diehl",
+      "revision": ""
+    },
+    {
+      "id": "profile12-mothma-homeworld",
+      "title": "6 Things You Might Not Know About Mon Mothma — homeworld section",
+      "url": "https://www.starwars.com/news/6-things-you-might-not-know-about-mon-mothma",
+      "kind": "official",
+      "checkedAt": "2026-11-01",
+      "note": "Amy Ratcliffe, 10 May 2017. Section 1 explicitly calls Chandrila the family homeworld. Used for that personal homeworld claim only, not a precise birthplace, new chronology or blanket acceptance of all referenced books.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com; Amy Ratcliffe",
+      "revision": ""
+    },
+    {
+      "id": "profile12-boba-fett-bib",
+      "title": "Boba Fett — selected Bib Fortuna takeover history",
+      "url": "https://www.starwars.com/databank/boba-fett",
+      "kind": "official",
+      "checkedAt": "2026-11-01",
+      "note": "Only the final direct history paragraph on Boba/Fennec killing Bib Fortuna and taking the palace throne used. No review of Boba’s personal facts, ship specifications, full biography gallery or other appearances.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "profile12-fortuna-post-credits",
+      "title": "Empire Magazine Cracks Open The Book of Boba Fett — post-credits context",
+      "url": "https://www.starwars.com/news/the-book-of-boba-fett-empire-magazine",
+      "kind": "official",
+      "checkedAt": "2026-11-01",
+      "note": "Official StarWars.com Team article, 24 November 2021. Its own narrative explicitly places Boba/Fennec removing Bib Fortuna in a Mandalorian season-two post-credits scene. The linked magazine interviews, release promotion and media are not imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. No source prose, captions, media or database dump redistributed.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    }
+  ],
+  "sourceUpdates": [
+    {
+      "id": "supp09-bib-fortuna-official-databank",
+      "expectedNote": "Public official reference read for selected factual metadata. No prose or media redistributed.",
+      "note": "Earlier scope: Public official reference read for selected factual metadata. No prose or media redistributed. PROFILE-12 extension, checked 1 November 2026: Main profile, 1.8 m nominal height, language, species and selected court history read for the first personal review."
+    },
+    {
+      "id": "profile11-aayla-secura",
+      "expectedNote": "Species Twi’lek label and first history paragraph read for membership only. The existing Ayla Secura record/title/slug are retained; personal dimensions, other facts and full gallery not reviewed.",
+      "note": "Earlier scope: Species Twi’lek label and first history paragraph read for membership only. The existing Ayla Secura record/title/slug are retained; personal dimensions, other facts and full gallery not reviewed. PROFILE-12 extension, checked 1 November 2026: Main profile, explicit blue skin, 1.7 m nominal height, work/species metadata and three direct history paragraphs read for the first personal review; separate biography gallery not claimed complete."
+    },
+    {
+      "id": "profile11-eeth-koth",
+      "expectedNote": "Main profile and 1.87 m individual height read. This does not establish a Zabrak mean or certify a new personal dossier review. No full gallery inventory.",
+      "note": "Earlier scope: Main profile and 1.87 m individual height read. This does not establish a Zabrak mean or certify a new personal dossier review. No full gallery inventory. PROFILE-12 extension, checked 1 November 2026: Main profile, 1.87 m nominal height and named work list read for the first personal review; no new fate or whole-gallery claim."
+    },
+    {
+      "id": "profile11-poggle",
+      "expectedNote": "Main profile and Geonosian species label / 1.75 m individual height read. Used only for membership and the individual-versus-average boundary; no new personal height review, full biography or gallery inventory.",
+      "note": "Earlier scope: Main profile and Geonosian species label / 1.75 m individual height read. Used only for membership and the individual-versus-average boundary; no new personal height review, full biography or gallery inventory. PROFILE-12 extension, checked 1 November 2026: Main profile, 1.75 m nominal height, species/work list and three direct history paragraphs read for the first personal review; separate twelve-image gallery not claimed complete."
+    },
+    {
+      "id": "supp21-mothma-dantooine",
+      "expectedNote": "Kristin Baver, 8 June 2017. Selected Secret Cargo discussion explicitly places the Ghost speech above Dantooine. Used for orbital setting, not a surface visit, complete Mothma biography or new release date.",
+      "note": "Earlier scope: Kristin Baver, 8 June 2017. Selected Secret Cargo discussion explicitly places the Ghost speech above Dantooine. Used for orbital setting, not a surface visit, complete Mothma biography or new release date. PROFILE-12 extension, checked 1 November 2026: The explicit ginger-haired and blue-eye descriptions in the Secret Cargo / Rebels discussion were additionally read for scoped personal colour fields; no inference from images or lighting."
+    }
+  ],
+  "records": [
+    {
+      "id": "people:28",
+      "summary": {
+        "text": "Chandrila’s senator works against Palpatine’s growing power and helps bring rebel cells together. Mon Mothma later leads the Alliance and becomes Chancellor of the New Republic, carrying her political struggle into a different era.",
+        "evidence": [
+          {
+            "sourceId": "profile12-mon-mothma",
+            "locator": "Main profile and selected Senate/Alliance/Chancellor history",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas + Disney",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "profile12-mon-mothma",
+            "locator": "Official current character identity and selected screen-work context",
+            "note": "Era label describes selected screen contexts, not certification of every inherited field."
+          }
+        ]
+      },
+      "scope": "First scoped personal review: all seven inherited fields assessed, original short description, selected named roles, individual facts and work/place/species relationships. Not a complete biography, appearance inventory or end-credit review.",
+      "limitations": [
+        "The Databank’s Revenge of the Sith appearance list includes material the official Who Is Mon Mothma article explicitly identifies as deleted scenes. No ordinary released-film connection is added for that entry; the qualification is recorded as a separate fact.",
+        "The current published nominal height is 1.5 m (150 cm). Blue eyes and red/ginger hair are explicit in the official Rebels/Secret Cargo commentary, so those fields are qualified to that portrayal rather than inferred from images or generalized across every actor and era.",
+        "Chandrila is explicitly her homeworld in the separate political-background article, not a newly established exact birthplace. Coruscant residence, Yavin operation and the Dantooine orbital broadcast have distinct relationships. Ship carriage/personal-shuttle association does not establish piloting.",
+        "Her existing Rebels physical/transmission episode rows remain unchanged. The 2025 overview’s then-future Andor wording is not a current status claim; all era-specific roles are not simultaneous.",
+        "Each inherited field is assessed separately. Nominal published dimensions are not actor measurements or every costume/configuration, and photographs do not establish unsourced colour, mass, gender or birth-year fields. Unknown or none is not converted into zero or proof of biological absence.",
+        "Named work-level links are selected evidence, not every episode, edition, voice-only role or deleted scene. The Clone Wars here means the television series, not an automatic appearance in the 2008 feature. Omitted links remain unestablished rather than proving absence.",
+        "No new identities, episode-register entries/reviews, dates, editions or credits are added. Original-USA launch scope and all earlier episode/profile evidence remain intact."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "expectedValue": "150",
+          "value": "150",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Dimensions / Height 1.5 m converted to 150 cm",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "blue",
+          "value": "Blue — Rebels portrayal",
+          "evidence": [
+            {
+              "sourceId": "supp21-mothma-dantooine",
+              "locator": "Secret Cargo character discussion / explicit blue eyes",
+              "note": "Textual description, scoped to the reviewed portrayal; not colour sampled from an image."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "auburn",
+          "value": "Red — Rebels portrayal",
+          "evidence": [
+            {
+              "sourceId": "supp21-mothma-dantooine",
+              "locator": "Opening Secret Cargo discussion / explicitly ginger-haired",
+              "note": "Qualitative red/ginger wording replaces the unsupported exact auburn shade."
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "expectedValue": null,
+          "value": "Human",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Species / Human",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "political_roles",
+          "expectedValue": null,
+          "value": "Republic/Imperial senator; Rebel Alliance leader; New Republic Chancellor",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Main profile and selected political history / time-scoped roles",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "deleted_material",
+          "expectedValue": null,
+          "value": "Revenge of the Sith scenes were cut from the finished film",
+          "evidence": [
+            {
+              "sourceId": "profile12-who-is-mon-mothma",
+              "locator": "Behind the Scenes / explicitly deleted 2005 scenes",
+              "note": "Databank work-list entry is not sufficient proof of an ordinary released scene."
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No personal mass is explicitly stated in the selected public references. No value is inferred from appearance, species averages or an actor.",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No personal mass is explicitly stated in the selected public references. No value is inferred from appearance, species averages or an actor."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "fair",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal skin-colour statement established in the selected references. A species palette or illustration cannot certify the inherited individual value.",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal skin-colour statement established in the selected references. A species palette or illustration cannot certify the inherited individual value."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "48BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact personal birth year is explicitly established in the selected public references; the inherited year or unknown placeholder remains recoverable.",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No exact personal birth year is explicitly established in the selected public references; the inherited year or unknown placeholder remains recoverable."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "female",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish the inherited formal gender field; pronouns and actor identity alone are not used as its factual classification.",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "The selected sources do not explicitly establish the inherited formal gender field; pronouns and actor identity alone are not used as its factual classification."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Appearances / Return of the Jedi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:rogue-one",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Appearances / Rogue One",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Appearances / The Clone Wars television series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Appearances / Star Wars Rebels",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:andor",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Appearances / Andor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:ahsoka",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Appearances / Ahsoka",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:32",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "profile12-mothma-homeworld",
+              "locator": "Section 1 / explicitly their homeworld Chandrila",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:1",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Species / Human",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:9",
+          "relation": "residents",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Selected Imperial Senate history / Coruscant residence and family",
+              "note": "Historical residence, not permanent current address or birthplace."
+            }
+          ]
+        },
+        {
+          "targetId": "planets:25",
+          "relation": "operated_above",
+          "evidence": [
+            {
+              "sourceId": "supp21-mothma-dantooine",
+              "locator": "Secret Cargo discussion / explicitly above Dantooine",
+              "note": "Orbital broadcast, not a surface visit."
+            }
+          ]
+        },
+        {
+          "targetId": "planets:3",
+          "relation": "operated_on",
+          "evidence": [
+            {
+              "sourceId": "profile12-who-is-mon-mothma",
+              "locator": "A Rebel Leader / operating from the Yavin 4 base",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:ghost",
+          "relation": "transported_aboard",
+          "evidence": [
+            {
+              "sourceId": "supp21-secret-cargo-gallery",
+              "locator": "Captions 4–5, 9–10 / physically aboard the Ghost",
+              "note": "Carriage and speech, not piloting."
+            }
+          ]
+        },
+        {
+          "targetId": "starships:chandrila-mistress",
+          "relation": "associated_with",
+          "evidence": [
+            {
+              "sourceId": "supp21-chandrila-mistress",
+              "locator": "Main profile / explicitly Mothma’s personal shuttle",
+              "note": "Personal association, not an independently verified piloting scene."
+            }
+          ]
+        },
+        {
+          "targetId": "people:68",
+          "relation": "allies",
+          "evidence": [
+            {
+              "sourceId": "profile12-mon-mothma",
+              "locator": "Selected early resistance history / collaboration with Bail Organa",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:45",
+      "summary": {
+        "text": "Bib Fortuna manages access to Jabba’s court and serves as the Hutt’s adviser. After Jabba’s death he takes the palace throne, until Boba Fett and Fennec Shand return to seize power.",
+        "evidence": [
+          {
+            "sourceId": "supp09-bib-fortuna-official-databank",
+            "locator": "Main profile and selected court history",
+            "note": ""
+          },
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Final direct history paragraph / Bib Fortuna and throne takeover",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas + Disney",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "supp09-bib-fortuna-official-databank",
+            "locator": "Official current character identity and selected screen-work context",
+            "note": "Era label describes selected screen contexts, not certification of every inherited field."
+          }
+        ]
+      },
+      "scope": "First scoped personal review: all seven inherited fields assessed, original short description, selected named roles, individual facts and work/place/species relationships. Not a complete biography, appearance inventory or end-credit review.",
+      "limitations": [
+        "The own Databank lists The Book of Boba Fett but omits The Mandalorian. A separate official article explicitly places his takeover scene in the latter’s season-two post-credits; series-level evidence is added without altering the older episode review or starting a new production intake.",
+        "Ryloth is in the Locations list and is the species homeworld; neither statement independently establishes Bib’s personal birthplace/homeworld here. The old personal Ryloth row remains legacy. Tatooine court activity is recorded separately.",
+        "Huttese is explicitly his spoken language while he understands other tongues. This is not a universal Twi’lek language rule or a claim that he understands no other language. His main text’s past/present roles and later death are time-scoped.",
+        "Each inherited field is assessed separately. Nominal published dimensions are not actor measurements or every costume/configuration, and photographs do not establish unsourced colour, mass, gender or birth-year fields. Unknown or none is not converted into zero or proof of biological absence.",
+        "Named work-level links are selected evidence, not every episode, edition, voice-only role or deleted scene. The Clone Wars here means the television series, not an automatic appearance in the 2008 feature. Omitted links remain unestablished rather than proving absence.",
+        "No new identities, episode-register entries/reviews, dates, editions or credits are added. Original-USA launch scope and all earlier episode/profile evidence remain intact."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "expectedValue": "180",
+          "value": "180",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Dimensions / Height 1.8 m converted to 180 cm",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "expectedValue": null,
+          "value": "Twi’lek",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Species / Twi’lek",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "occupation",
+          "expectedValue": null,
+          "value": "Jabba’s majordomo; later palace ruler",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Main profile / service and takeover after Jabba’s death",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "spoken_language",
+          "expectedValue": null,
+          "value": "Huttese; understands other languages",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Main profile / explicit speech and comprehension distinction",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "fate",
+          "expectedValue": null,
+          "value": "Killed in Boba Fett and Fennec Shand’s palace takeover",
+          "evidence": [
+            {
+              "sourceId": "profile12-boba-fett-bib",
+              "locator": "Final direct history paragraph / return to kill Bib and take the throne",
+              "note": ""
+            },
+            {
+              "sourceId": "profile12-fortuna-post-credits",
+              "locator": "Main article / Mandalorian season-two post-credits takeover context",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No personal mass is explicitly stated in the selected public references. No value is inferred from appearance, species averages or an actor.",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No personal mass is explicitly stated in the selected public references. No value is inferred from appearance, species averages or an actor."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "none",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal hair-colour or universal absence-of-hair statement established. The inherited none is not biological proof.",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal hair-colour or universal absence-of-hair statement established. The inherited none is not biological proof."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "pale",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal skin-colour statement established in the selected references. A species palette or illustration cannot certify the inherited individual value.",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal skin-colour statement established in the selected references. A species palette or illustration cannot certify the inherited individual value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "pink",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal eye-colour statement established in the selected references. Images and lighting alone do not verify the inherited colour.",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal eye-colour statement established in the selected references. Images and lighting alone do not verify the inherited colour."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact personal birth year is explicitly established in the selected public references; the inherited year or unknown placeholder remains recoverable.",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No exact personal birth year is explicitly established in the selected public references; the inherited year or unknown placeholder remains recoverable."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish the inherited formal gender field; pronouns and actor identity alone are not used as its factual classification.",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "The selected sources do not explicitly establish the inherited formal gender field; pronouns and actor identity alone are not used as its factual classification."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Appearances / Return of the Jedi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Appearances / The Phantom Menace; first history / pod-race service",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:mandalorian",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile12-fortuna-post-credits",
+              "locator": "Main narrative / explicit Mandalorian season-two post-credits scene",
+              "note": "Separate from the abbreviated own-profile work list and the later Book of Boba Fett."
+            }
+          ]
+        },
+        {
+          "targetId": "species:15",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Species / Twi’lek",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:1",
+          "relation": "operated_on",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Main profile / underworld and court on Tatooine",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:16",
+          "relation": "worked_for",
+          "evidence": [
+            {
+              "sourceId": "supp09-bib-fortuna-official-databank",
+              "locator": "Main profile / majordomo and adviser to Jabba",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:22",
+          "relation": "killed_by",
+          "evidence": [
+            {
+              "sourceId": "profile12-boba-fett-bib",
+              "locator": "Final direct history / Boba/Fennec return to kill Bib",
+              "note": "Scoped takeover; not a new review of Boba’s own facts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:46",
+      "summary": {
+        "text": "Aayla Secura serves as a Jedi general during the Clone Wars. She helps rescue the captives on Geonosis and advises Ahsoka after Anakin is injured. Her troops later kill her on Felucia when Order 66 is issued.",
+        "evidence": [
+          {
+            "sourceId": "profile11-aayla-secura",
+            "locator": "Main profile and three direct history paragraphs / service, counsel and fate",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "profile11-aayla-secura",
+            "locator": "Official current character identity and selected screen-work context",
+            "note": "Era label describes selected screen contexts, not certification of every inherited field."
+          }
+        ]
+      },
+      "scope": "First scoped personal review: all seven inherited fields assessed, original short description, selected named roles, individual facts and work/place/species relationships. Not a complete biography, appearance inventory or end-credit review.",
+      "limitations": [
+        "The retained legacy title and route use Ayla Secura; the current official heading uses Aayla Secura. The official spelling is recorded without creating a second person or changing existing links.",
+        "The published nominal height is 1.7 m, replacing 178 cm; blue skin is explicit in the main prose. Lekku are not a source for universal absence of hair, and species colours do not establish eye colour.",
+        "Ryloth’s Locations label is not an explicit personal birthplace/homeworld statement. The inherited Ryloth homeworld row remains legacy. Geonosis rescue and Felucia death are separately narrated visits.",
+        "The selected explicit work list supports Episodes II/III and the television series. The inherited Phantom Menace row is not verified from this list, and omission is not proof of absence. Other voice-only, comic and game material remains outside this selected inventory. No formal master relationship with Ahsoka is inferred from a counseling scene.",
+        "Each inherited field is assessed separately. Nominal published dimensions are not actor measurements or every costume/configuration, and photographs do not establish unsourced colour, mass, gender or birth-year fields. Unknown or none is not converted into zero or proof of biological absence.",
+        "Named work-level links are selected evidence, not every episode, edition, voice-only role or deleted scene. The Clone Wars here means the television series, not an automatic appearance in the 2008 feature. Omitted links remain unestablished rather than proving absence.",
+        "No new identities, episode-register entries/reviews, dates, editions or credits are added. Original-USA launch scope and all earlier episode/profile evidence remain intact."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "expectedValue": "178",
+          "value": "170",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Dimensions / Height 1.7 m converted to 170 cm",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "blue",
+          "value": "Blue",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Main profile / explicit blue skin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "expectedValue": null,
+          "value": "Twi’lek",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Species / Twi’lek",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "official_name",
+          "expectedValue": null,
+          "value": "Aayla Secura",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Official heading / Aayla Secura",
+              "note": "Same retained legacy person people:46, titled Ayla Secura."
+            }
+          ]
+        },
+        {
+          "key": "occupation",
+          "expectedValue": null,
+          "value": "Jedi General during the Clone Wars",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Second direct history paragraph / Jedi General",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "fate",
+          "expectedValue": null,
+          "value": "Killed by her clone troops on Felucia during Order 66",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Third direct history paragraph / Felucia and Bly’s troops",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "55",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No personal mass is explicitly stated in the selected public references. No value is inferred from appearance, species averages or an actor.",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No personal mass is explicitly stated in the selected public references. No value is inferred from appearance, species averages or an actor."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "none",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal hair-colour or universal absence-of-hair statement established. The inherited none is not biological proof.",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal hair-colour or universal absence-of-hair statement established. The inherited none is not biological proof."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "hazel",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal eye-colour statement established in the selected references. Images and lighting alone do not verify the inherited colour.",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal eye-colour statement established in the selected references. Images and lighting alone do not verify the inherited colour."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "48BBY",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact personal birth year is explicitly established in the selected public references; the inherited year or unknown placeholder remains recoverable.",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No exact personal birth year is explicitly established in the selected public references; the inherited year or unknown placeholder remains recoverable."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "female",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish the inherited formal gender field; pronouns and actor identity alone are not used as its factual classification.",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "The selected sources do not explicitly establish the inherited formal gender field; pronouns and actor identity alone are not used as its factual classification."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Appearances / Attack of the Clones",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Appearances / The Clone Wars television series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:15",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Species / Twi’lek",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:11",
+          "relation": "visited",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "First direct history / Geonosis arena rescue",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:17",
+          "relation": "visited",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Third direct history / final Felucia mission",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ahsoka-tano",
+          "relation": "counseled",
+          "evidence": [
+            {
+              "sourceId": "profile11-aayla-secura",
+              "locator": "Second direct history / counseled Ahsoka after Anakin’s injury",
+              "note": "Counseling is not formal master–Padawan certification."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:54",
+      "summary": {
+        "text": "Eeth Koth is a Jedi Council member from Iridonia. During the Clone Wars he resists Grievous’s torture and secretly signals his location, enabling fellow Jedi to rescue him.",
+        "evidence": [
+          {
+            "sourceId": "profile11-eeth-koth",
+            "locator": "Main profile / Council service, capture and rescue",
+            "note": ""
+          },
+          {
+            "sourceId": "profile11-eeth-koth-iridonia",
+            "locator": "Eeth Koth section / Iridonia homeworld",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "profile11-eeth-koth",
+            "locator": "Official current character identity and selected screen-work context",
+            "note": "Era label describes selected screen contexts, not certification of every inherited field."
+          }
+        ]
+      },
+      "scope": "First scoped personal review: all seven inherited fields assessed, original short description, selected named roles, individual facts and work/place/species relationships. Not a complete biography, appearance inventory or end-credit review.",
+      "limitations": [
+        "The nominal published height is 1.87 m, replacing the old 171 cm. The Council article explicitly identifies Eeth’s own Iridonia homeworld and Iridonian Zabrak identity; this does not verify the homeworld of the entire Zabrak species.",
+        "The current work list names The Phantom Menace, Attack of the Clones and the television series. The inherited Revenge of the Sith row remains legacy; a similar horned Jedi or an omission from the current list is not an identity/absence proof. Later comic fate is not inferred from this shortened biography.",
+        "Coruscant is the explicitly described Council workplace, not a newly established birthplace. A brief captivity account does not certify an exact ship, world, duration or final life outcome.",
+        "Each inherited field is assessed separately. Nominal published dimensions are not actor measurements or every costume/configuration, and photographs do not establish unsourced colour, mass, gender or birth-year fields. Unknown or none is not converted into zero or proof of biological absence.",
+        "Named work-level links are selected evidence, not every episode, edition, voice-only role or deleted scene. The Clone Wars here means the television series, not an automatic appearance in the 2008 feature. Omitted links remain unestablished rather than proving absence.",
+        "No new identities, episode-register entries/reviews, dates, editions or credits are added. Original-USA launch scope and all earlier episode/profile evidence remain intact."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "expectedValue": "171",
+          "value": "187",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Dimensions / Height 1.87 m converted to 187 cm",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "expectedValue": null,
+          "value": "Iridonian Zabrak",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth-iridonia",
+              "locator": "Eeth Koth section / Species Iridonian Zabrak",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "occupation",
+          "expectedValue": null,
+          "value": "Jedi High Council member",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Main profile / explicitly member of the Jedi High Council",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No personal mass is explicitly stated in the selected public references. No value is inferred from appearance, species averages or an actor.",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No personal mass is explicitly stated in the selected public references. No value is inferred from appearance, species averages or an actor."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "black",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal hair-colour or universal absence-of-hair statement established. The inherited none is not biological proof.",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal hair-colour or universal absence-of-hair statement established. The inherited none is not biological proof."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal skin-colour statement established in the selected references. A species palette or illustration cannot certify the inherited individual value.",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal skin-colour statement established in the selected references. A species palette or illustration cannot certify the inherited individual value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "brown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal eye-colour statement established in the selected references. Images and lighting alone do not verify the inherited colour.",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal eye-colour statement established in the selected references. Images and lighting alone do not verify the inherited colour."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact personal birth year is explicitly established in the selected public references; the inherited year or unknown placeholder remains recoverable.",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No exact personal birth year is explicitly established in the selected public references; the inherited year or unknown placeholder remains recoverable."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish the inherited formal gender field; pronouns and actor identity alone are not used as its factual classification.",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "The selected sources do not explicitly establish the inherited formal gender field; pronouns and actor identity alone are not used as its factual classification."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Appearances / The Phantom Menace",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Appearances / Attack of the Clones",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Appearances / The Clone Wars television series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:45",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth-iridonia",
+              "locator": "Eeth Koth section / explicitly Homeworld Iridonia",
+              "note": "Individual claim, not the homeworld of every Zabrak."
+            }
+          ]
+        },
+        {
+          "targetId": "species:22",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth-iridonia",
+              "locator": "Eeth Koth section / Species Iridonian Zabrak",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:79",
+          "relation": "opposed",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Main profile / capture and torture by General Grievous",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:9",
+          "relation": "worked_on",
+          "evidence": [
+            {
+              "sourceId": "profile11-eeth-koth",
+              "locator": "Main profile / Council in the Coruscant Jedi Temple",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:63",
+      "summary": {
+        "text": "Poggle leads Geonosian hives and supplies droids and weapons to the Separatists. Republic victories do not end his support for Dooku, and he eventually dies with the Separatist leaders on Mustafar.",
+        "evidence": [
+          {
+            "sourceId": "profile11-poggle",
+            "locator": "Main profile and three direct history paragraphs / factories, return and death",
+            "note": ""
+          }
+        ]
+      },
+      "metadata": {
+        "era": "Lucas",
+        "continuity": "Canon",
+        "evidence": [
+          {
+            "sourceId": "profile11-poggle",
+            "locator": "Official current character identity and selected screen-work context",
+            "note": "Era label describes selected screen contexts, not certification of every inherited field."
+          }
+        ]
+      },
+      "scope": "First scoped personal review: all seven inherited fields assessed, original short description, selected named roles, individual facts and work/place/species relationships. Not a complete biography, appearance inventory or end-credit review.",
+      "limitations": [
+        "The published nominal height is 1.75 m, replacing 183 cm. His individual height does not revise the unestablished Geonosian species mean.",
+        "Leadership and factory activity on Geonosis establish a place of operation here, not independently a precise birthplace/homeworld. The inherited personal Geonosis homeworld row remains legacy; the species’ established origin is a separate claim.",
+        "The prose explicitly identifies Vader/Anakin as the killer on Mustafar. The two retained Anakin/Vader dossiers refer to the same person; only the Darth Vader relationship is added here, without inventing another attacker or applying that identity to every earlier scene.",
+        "First-Death-Star design history does not add a living Rogue One appearance. The separate twelve-image biography gallery and later prose beyond the selected direct history are not claimed as a full frame-level inventory.",
+        "Each inherited field is assessed separately. Nominal published dimensions are not actor measurements or every costume/configuration, and photographs do not establish unsourced colour, mass, gender or birth-year fields. Unknown or none is not converted into zero or proof of biological absence.",
+        "Named work-level links are selected evidence, not every episode, edition, voice-only role or deleted scene. The Clone Wars here means the television series, not an automatic appearance in the 2008 feature. Omitted links remain unestablished rather than proving absence.",
+        "No new identities, episode-register entries/reviews, dates, editions or credits are added. Original-USA launch scope and all earlier episode/profile evidence remain intact."
+      ],
+      "facts": [
+        {
+          "key": "height",
+          "expectedValue": "183",
+          "value": "175",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Dimensions / Height 1.75 m converted to 175 cm",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "classification",
+          "expectedValue": null,
+          "value": "Geonosian",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Species / Geonosian",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "occupation",
+          "expectedValue": null,
+          "value": "Archduke of the Geonosian hives and Separatist Council member",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "First and third direct history paragraphs / titles",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "key": "fate",
+          "expectedValue": null,
+          "value": "Killed by Darth Vader on Mustafar at the end of the Clone Wars",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Main profile and third direct history / Vader–Anakin identity and Mustafar",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "factAssessments": [
+        {
+          "key": "mass",
+          "expectedValue": "80",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No personal mass is explicitly stated in the selected public references. No value is inferred from appearance, species averages or an actor.",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No personal mass is explicitly stated in the selected public references. No value is inferred from appearance, species averages or an actor."
+            }
+          ]
+        },
+        {
+          "key": "hair_color",
+          "expectedValue": "none",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal hair-colour or universal absence-of-hair statement established. The inherited none is not biological proof.",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal hair-colour or universal absence-of-hair statement established. The inherited none is not biological proof."
+            }
+          ]
+        },
+        {
+          "key": "skin_color",
+          "expectedValue": "green",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal skin-colour statement established in the selected references. A species palette or illustration cannot certify the inherited individual value.",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal skin-colour statement established in the selected references. A species palette or illustration cannot certify the inherited individual value."
+            }
+          ]
+        },
+        {
+          "key": "eye_color",
+          "expectedValue": "yellow",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No explicit personal eye-colour statement established in the selected references. Images and lighting alone do not verify the inherited colour.",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No explicit personal eye-colour statement established in the selected references. Images and lighting alone do not verify the inherited colour."
+            }
+          ]
+        },
+        {
+          "key": "birth_year",
+          "expectedValue": "unknown",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "No exact personal birth year is explicitly established in the selected public references; the inherited year or unknown placeholder remains recoverable.",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "No exact personal birth year is explicitly established in the selected public references; the inherited year or unknown placeholder remains recoverable."
+            }
+          ]
+        },
+        {
+          "key": "gender",
+          "expectedValue": "male",
+          "expectedSourceId": "legacy-people",
+          "status": "unestablished",
+          "note": "The selected sources do not explicitly establish the inherited formal gender field; pronouns and actor identity alone are not used as its factual classification.",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Selected main profile and explicit metadata / field not established",
+              "note": "The selected sources do not explicitly establish the inherited formal gender field; pronouns and actor identity alone are not used as its factual classification."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Appearances / Attack of the Clones",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Appearances / Revenge of the Sith",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Appearances / The Clone Wars television series",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:28",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Species / Geonosian",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:11",
+          "relation": "operated_on",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "First/second direct history / hives, factories and Geonosis battles",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:13",
+          "relation": "died_on",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Third direct history / killed on Mustafar",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:4",
+          "relation": "killed_by",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "Main profile and third direct history / Vader and Anakin as the same killer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:67",
+          "relation": "allies",
+          "evidence": [
+            {
+              "sourceId": "profile11-poggle",
+              "locator": "First/second direct history / pledged armies and weapons to Count Dooku",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2345 @@
+{
+  "batch": "PROFILE-13",
+  "checkedAt": "2026-11-01T20:52:50.519Z",
+  "states": [
+    {
+      "label": "profile-at-at-1280",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "Height [3]",
+          "value": "22.5 mChecked with sources"
+        },
+        {
+          "label": "legs [3]",
+          "value": "FourChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "All Terrain Armored Transport (AT-AT)Checked with sources"
+        },
+        {
+          "label": "operational role [3]",
+          "value": "Ground transport, combat and intimidationChecked with sources"
+        },
+        {
+          "label": "Passengers [4]",
+          "value": "Up to 40 troops, depending on internal configurationChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Armored transport and combat walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Armored transport and combat walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Armored Transport (AT-AT)"
+        }
+      ],
+      "h1": "AT-AT",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "AT-AT — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-at",
+      "width": 1280
+    },
+    {
+      "label": "profile-at-st-1280",
+      "facts": [
+        {
+          "label": "Armament [2]",
+          "value": "Chin-mounted laser cannons and side-mounted weapon podsChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [2]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [2]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "ground speed [4]",
+          "value": "Up to 90 km/h on flat groundChecked with sources"
+        },
+        {
+          "label": "Height [2]",
+          "value": "9.04 mChecked with sources"
+        },
+        {
+          "label": "Length [2]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [4]",
+          "value": "Not establishedReviewed · unresolvedThe article supports up to 90 km/h on flat ground, recorded separately as ground_speed. It does not establish an atmospheric-speed measurement despite the inherited matching raw number 90."
+        },
+        {
+          "label": "Model [2]",
+          "value": "All Terrain Scout Transport (AT-ST)Checked with sources"
+        },
+        {
+          "label": "Passengers [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "variant scope [5][8]",
+          "value": "Marauders use a modified AT-ST raider on SorganChecked with sources"
+        },
+        {
+          "label": "Vehicle class [2]",
+          "value": "Scout walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Scout walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Scout Transport (AT-ST)"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "AT-ST",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "AT-ST — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-st",
+      "width": 1280
+    },
+    {
+      "label": "profile-snowspeeder-1280",
+      "facts": [
+        {
+          "label": "Armament [5]",
+          "value": "Two forward laser cannons; rear harpoon with tow cableChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "cold adaptation [5]",
+          "value": "Rebel T-47s modified for Hoth patrol and base defenseChecked with sources"
+        },
+        {
+          "label": "Consumables [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [5]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [5]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "crew roles [5]",
+          "value": "Pilot and rear-facing tail gunnerChecked with sources"
+        },
+        {
+          "label": "Length [5]",
+          "value": "5.3 mChecked with sources"
+        },
+        {
+          "label": "Manufacturer [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [5]",
+          "value": "T-47 airspeederChecked with sources"
+        },
+        {
+          "label": "Passengers [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "Vehicle class [5]",
+          "value": "AirspeederChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Airspeeder"
+        },
+        {
+          "label": "Model",
+          "value": "T-47 airspeeder"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "Snowspeeder",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Snowspeeder — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/snowspeeder",
+      "width": 1280
+    },
+    {
+      "label": "profile-imperial-speeder-bike-1280",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "historical use [3]",
+          "value": "Republic use during the Clone Wars; Imperial use in the Galactic Civil WarChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "Not establishedReviewed · unresolvedThe broad Speeder Bike page lists 3.2 m but covers multiple models and does not explicitly assign that dimension to every Aratech 74-Z. The inherited 3 m is not verified or silently replaced with a universal 3.2 m."
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "AratechChecked with sources"
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "74-Z speeder bikeChecked with sources"
+        },
+        {
+          "label": "Passengers [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "riding context [2]",
+          "value": "Luke and Leia share a commandeered 74-Z before Luke seizes anotherChecked with sources"
+        },
+        {
+          "label": "variant scope [3]",
+          "value": "Reviewed Aratech 74-Z; other speeder-bike models remain separateChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Speeder bikeChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Speeder bike"
+        },
+        {
+          "label": "Model",
+          "value": "74-Z speeder bike"
+        }
+      ],
+      "h1": "Imperial Speeder Bike",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Imperial Speeder Bike — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/imperial-speeder-bike",
+      "width": 1280
+    },
+    {
+      "label": "profile-sand-crawler-1280",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "cargo equipment [3]",
+          "value": "Magnetic suction tube for loading droids and scrapChecked with sources"
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "function [3]",
+          "value": "Transport, shelter and salvage storageChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "40 mChecked with sources"
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "Not establishedReviewed · unresolvedThe inherited exact Digger Crawler model designation is not explicitly established by the selected Sandcrawler reference. A generic object name is not proof of that model."
+        },
+        {
+          "label": "Passengers [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "users [3]",
+          "value": "JawasChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Tracked transportChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Tracked transport"
+        }
+      ],
+      "h1": "Sand Crawler",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Sand Crawler — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/sand-crawler",
+      "width": 1280
+    },
+    {
+      "label": "profile-at-at-390",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "Height [3]",
+          "value": "22.5 mChecked with sources"
+        },
+        {
+          "label": "legs [3]",
+          "value": "FourChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "All Terrain Armored Transport (AT-AT)Checked with sources"
+        },
+        {
+          "label": "operational role [3]",
+          "value": "Ground transport, combat and intimidationChecked with sources"
+        },
+        {
+          "label": "Passengers [4]",
+          "value": "Up to 40 troops, depending on internal configurationChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Armored transport and combat walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Armored transport and combat walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Armored Transport (AT-AT)"
+        }
+      ],
+      "h1": "AT-AT",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "AT-AT — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-at",
+      "width": 390
+    },
+    {
+      "label": "profile-at-st-390",
+      "facts": [
+        {
+          "label": "Armament [2]",
+          "value": "Chin-mounted laser cannons and side-mounted weapon podsChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [2]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [2]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "ground speed [4]",
+          "value": "Up to 90 km/h on flat groundChecked with sources"
+        },
+        {
+          "label": "Height [2]",
+          "value": "9.04 mChecked with sources"
+        },
+        {
+          "label": "Length [2]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [4]",
+          "value": "Not establishedReviewed · unresolvedThe article supports up to 90 km/h on flat ground, recorded separately as ground_speed. It does not establish an atmospheric-speed measurement despite the inherited matching raw number 90."
+        },
+        {
+          "label": "Model [2]",
+          "value": "All Terrain Scout Transport (AT-ST)Checked with sources"
+        },
+        {
+          "label": "Passengers [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "variant scope [5][8]",
+          "value": "Marauders use a modified AT-ST raider on SorganChecked with sources"
+        },
+        {
+          "label": "Vehicle class [2]",
+          "value": "Scout walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Scout walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Scout Transport (AT-ST)"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "AT-ST",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "AT-ST — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-st",
+      "width": 390
+    },
+    {
+      "label": "profile-snowspeeder-390",
+      "facts": [
+        {
+          "label": "Armament [5]",
+          "value": "Two forward laser cannons; rear harpoon with tow cableChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "cold adaptation [5]",
+          "value": "Rebel T-47s modified for Hoth patrol and base defenseChecked with sources"
+        },
+        {
+          "label": "Consumables [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [5]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [5]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "crew roles [5]",
+          "value": "Pilot and rear-facing tail gunnerChecked with sources"
+        },
+        {
+          "label": "Length [5]",
+          "value": "5.3 mChecked with sources"
+        },
+        {
+          "label": "Manufacturer [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [5]",
+          "value": "T-47 airspeederChecked with sources"
+        },
+        {
+          "label": "Passengers [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "Vehicle class [5]",
+          "value": "AirspeederChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Airspeeder"
+        },
+        {
+          "label": "Model",
+          "value": "T-47 airspeeder"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "Snowspeeder",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Snowspeeder — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/snowspeeder",
+      "width": 390
+    },
+    {
+      "label": "profile-imperial-speeder-bike-390",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "historical use [3]",
+          "value": "Republic use during the Clone Wars; Imperial use in the Galactic Civil WarChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "Not establishedReviewed · unresolvedThe broad Speeder Bike page lists 3.2 m but covers multiple models and does not explicitly assign that dimension to every Aratech 74-Z. The inherited 3 m is not verified or silently replaced with a universal 3.2 m."
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "AratechChecked with sources"
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "74-Z speeder bikeChecked with sources"
+        },
+        {
+          "label": "Passengers [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "riding context [2]",
+          "value": "Luke and Leia share a commandeered 74-Z before Luke seizes anotherChecked with sources"
+        },
+        {
+          "label": "variant scope [3]",
+          "value": "Reviewed Aratech 74-Z; other speeder-bike models remain separateChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Speeder bikeChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Speeder bike"
+        },
+        {
+          "label": "Model",
+          "value": "74-Z speeder bike"
+        }
+      ],
+      "h1": "Imperial Speeder Bike",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Imperial Speeder Bike — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/imperial-speeder-bike",
+      "width": 390
+    },
+    {
+      "label": "profile-sand-crawler-390",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "cargo equipment [3]",
+          "value": "Magnetic suction tube for loading droids and scrapChecked with sources"
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "function [3]",
+          "value": "Transport, shelter and salvage storageChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "40 mChecked with sources"
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "Not establishedReviewed · unresolvedThe inherited exact Digger Crawler model designation is not explicitly established by the selected Sandcrawler reference. A generic object name is not proof of that model."
+        },
+        {
+          "label": "Passengers [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "users [3]",
+          "value": "JawasChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Tracked transportChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Tracked transport"
+        }
+      ],
+      "h1": "Sand Crawler",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 390,
+      "title": "Sand Crawler — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/sand-crawler",
+      "width": 390
+    },
+    {
+      "label": "profile-at-at-320",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "Height [3]",
+          "value": "22.5 mChecked with sources"
+        },
+        {
+          "label": "legs [3]",
+          "value": "FourChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "All Terrain Armored Transport (AT-AT)Checked with sources"
+        },
+        {
+          "label": "operational role [3]",
+          "value": "Ground transport, combat and intimidationChecked with sources"
+        },
+        {
+          "label": "Passengers [4]",
+          "value": "Up to 40 troops, depending on internal configurationChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Armored transport and combat walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Armored transport and combat walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Armored Transport (AT-AT)"
+        }
+      ],
+      "h1": "AT-AT",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "AT-AT — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-at",
+      "width": 320
+    },
+    {
+      "label": "profile-at-st-320",
+      "facts": [
+        {
+          "label": "Armament [2]",
+          "value": "Chin-mounted laser cannons and side-mounted weapon podsChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [2]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [2]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "ground speed [4]",
+          "value": "Up to 90 km/h on flat groundChecked with sources"
+        },
+        {
+          "label": "Height [2]",
+          "value": "9.04 mChecked with sources"
+        },
+        {
+          "label": "Length [2]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [4]",
+          "value": "Not establishedReviewed · unresolvedThe article supports up to 90 km/h on flat ground, recorded separately as ground_speed. It does not establish an atmospheric-speed measurement despite the inherited matching raw number 90."
+        },
+        {
+          "label": "Model [2]",
+          "value": "All Terrain Scout Transport (AT-ST)Checked with sources"
+        },
+        {
+          "label": "Passengers [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "variant scope [5][8]",
+          "value": "Marauders use a modified AT-ST raider on SorganChecked with sources"
+        },
+        {
+          "label": "Vehicle class [2]",
+          "value": "Scout walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Scout walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Scout Transport (AT-ST)"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "AT-ST",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "AT-ST — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-st",
+      "width": 320
+    },
+    {
+      "label": "profile-snowspeeder-320",
+      "facts": [
+        {
+          "label": "Armament [5]",
+          "value": "Two forward laser cannons; rear harpoon with tow cableChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "cold adaptation [5]",
+          "value": "Rebel T-47s modified for Hoth patrol and base defenseChecked with sources"
+        },
+        {
+          "label": "Consumables [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [5]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [5]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "crew roles [5]",
+          "value": "Pilot and rear-facing tail gunnerChecked with sources"
+        },
+        {
+          "label": "Length [5]",
+          "value": "5.3 mChecked with sources"
+        },
+        {
+          "label": "Manufacturer [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [5]",
+          "value": "T-47 airspeederChecked with sources"
+        },
+        {
+          "label": "Passengers [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "Vehicle class [5]",
+          "value": "AirspeederChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Airspeeder"
+        },
+        {
+          "label": "Model",
+          "value": "T-47 airspeeder"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "Snowspeeder",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Snowspeeder — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/snowspeeder",
+      "width": 320
+    },
+    {
+      "label": "profile-imperial-speeder-bike-320",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "historical use [3]",
+          "value": "Republic use during the Clone Wars; Imperial use in the Galactic Civil WarChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "Not establishedReviewed · unresolvedThe broad Speeder Bike page lists 3.2 m but covers multiple models and does not explicitly assign that dimension to every Aratech 74-Z. The inherited 3 m is not verified or silently replaced with a universal 3.2 m."
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "AratechChecked with sources"
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "74-Z speeder bikeChecked with sources"
+        },
+        {
+          "label": "Passengers [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "riding context [2]",
+          "value": "Luke and Leia share a commandeered 74-Z before Luke seizes anotherChecked with sources"
+        },
+        {
+          "label": "variant scope [3]",
+          "value": "Reviewed Aratech 74-Z; other speeder-bike models remain separateChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Speeder bikeChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Speeder bike"
+        },
+        {
+          "label": "Model",
+          "value": "74-Z speeder bike"
+        }
+      ],
+      "h1": "Imperial Speeder Bike",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Imperial Speeder Bike — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/imperial-speeder-bike",
+      "width": 320
+    },
+    {
+      "label": "profile-sand-crawler-320",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "cargo equipment [3]",
+          "value": "Magnetic suction tube for loading droids and scrapChecked with sources"
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "function [3]",
+          "value": "Transport, shelter and salvage storageChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "40 mChecked with sources"
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "Not establishedReviewed · unresolvedThe inherited exact Digger Crawler model designation is not explicitly established by the selected Sandcrawler reference. A generic object name is not proof of that model."
+        },
+        {
+          "label": "Passengers [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "users [3]",
+          "value": "JawasChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Tracked transportChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Tracked transport"
+        }
+      ],
+      "h1": "Sand Crawler",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 320,
+      "title": "Sand Crawler — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/sand-crawler",
+      "width": 320
+    },
+    {
+      "label": "numeric-18",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "Height [3]",
+          "value": "22.5 mChecked with sources"
+        },
+        {
+          "label": "legs [3]",
+          "value": "FourChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "All Terrain Armored Transport (AT-AT)Checked with sources"
+        },
+        {
+          "label": "operational role [3]",
+          "value": "Ground transport, combat and intimidationChecked with sources"
+        },
+        {
+          "label": "Passengers [4]",
+          "value": "Up to 40 troops, depending on internal configurationChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Armored transport and combat walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Armored transport and combat walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Armored Transport (AT-AT)"
+        }
+      ],
+      "h1": "AT-AT",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "AT-AT — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-at",
+      "width": 1280
+    },
+    {
+      "label": "numeric-19",
+      "facts": [
+        {
+          "label": "Armament [2]",
+          "value": "Chin-mounted laser cannons and side-mounted weapon podsChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [2]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [2]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "ground speed [4]",
+          "value": "Up to 90 km/h on flat groundChecked with sources"
+        },
+        {
+          "label": "Height [2]",
+          "value": "9.04 mChecked with sources"
+        },
+        {
+          "label": "Length [2]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [4]",
+          "value": "Not establishedReviewed · unresolvedThe article supports up to 90 km/h on flat ground, recorded separately as ground_speed. It does not establish an atmospheric-speed measurement despite the inherited matching raw number 90."
+        },
+        {
+          "label": "Model [2]",
+          "value": "All Terrain Scout Transport (AT-ST)Checked with sources"
+        },
+        {
+          "label": "Passengers [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "variant scope [5][8]",
+          "value": "Marauders use a modified AT-ST raider on SorganChecked with sources"
+        },
+        {
+          "label": "Vehicle class [2]",
+          "value": "Scout walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Scout walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Scout Transport (AT-ST)"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "AT-ST",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "AT-ST — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-st",
+      "width": 1280
+    },
+    {
+      "label": "numeric-14",
+      "facts": [
+        {
+          "label": "Armament [5]",
+          "value": "Two forward laser cannons; rear harpoon with tow cableChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "cold adaptation [5]",
+          "value": "Rebel T-47s modified for Hoth patrol and base defenseChecked with sources"
+        },
+        {
+          "label": "Consumables [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [5]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [5]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "crew roles [5]",
+          "value": "Pilot and rear-facing tail gunnerChecked with sources"
+        },
+        {
+          "label": "Length [5]",
+          "value": "5.3 mChecked with sources"
+        },
+        {
+          "label": "Manufacturer [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [5]",
+          "value": "T-47 airspeederChecked with sources"
+        },
+        {
+          "label": "Passengers [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "Vehicle class [5]",
+          "value": "AirspeederChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Airspeeder"
+        },
+        {
+          "label": "Model",
+          "value": "T-47 airspeeder"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "Snowspeeder",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Snowspeeder — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/snowspeeder",
+      "width": 1280
+    },
+    {
+      "label": "numeric-30",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "historical use [3]",
+          "value": "Republic use during the Clone Wars; Imperial use in the Galactic Civil WarChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "Not establishedReviewed · unresolvedThe broad Speeder Bike page lists 3.2 m but covers multiple models and does not explicitly assign that dimension to every Aratech 74-Z. The inherited 3 m is not verified or silently replaced with a universal 3.2 m."
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "AratechChecked with sources"
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "74-Z speeder bikeChecked with sources"
+        },
+        {
+          "label": "Passengers [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "riding context [2]",
+          "value": "Luke and Leia share a commandeered 74-Z before Luke seizes anotherChecked with sources"
+        },
+        {
+          "label": "variant scope [3]",
+          "value": "Reviewed Aratech 74-Z; other speeder-bike models remain separateChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Speeder bikeChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Speeder bike"
+        },
+        {
+          "label": "Model",
+          "value": "74-Z speeder bike"
+        }
+      ],
+      "h1": "Imperial Speeder Bike",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Imperial Speeder Bike — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/imperial-speeder-bike",
+      "width": 1280
+    },
+    {
+      "label": "numeric-4",
+      "facts": [
+        {
+          "label": "Cargo capacity [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "cargo equipment [3]",
+          "value": "Magnetic suction tube for loading droids and scrapChecked with sources"
+        },
+        {
+          "label": "Consumables [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [3]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit normal crew complement for this reviewed type established. Visible operators or a related model do not certify the inherited count."
+        },
+        {
+          "label": "function [3]",
+          "value": "Transport, shelter and salvage storageChecked with sources"
+        },
+        {
+          "label": "Length [3]",
+          "value": "40 mChecked with sources"
+        },
+        {
+          "label": "Manufacturer [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [3]",
+          "value": "Not establishedReviewed · unresolvedThe inherited exact Digger Crawler model designation is not explicitly established by the selected Sandcrawler reference. A generic object name is not proof of that model."
+        },
+        {
+          "label": "Passengers [3]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "users [3]",
+          "value": "JawasChecked with sources"
+        },
+        {
+          "label": "Vehicle class [3]",
+          "value": "Tracked transportChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Tracked transport"
+        }
+      ],
+      "h1": "Sand Crawler",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Sand Crawler — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/sand-crawler",
+      "width": 1280
+    },
+    {
+      "label": "search-preview-snowspeeder",
+      "facts": [
+        {
+          "label": "Vehicle class",
+          "value": "Airspeeder"
+        },
+        {
+          "label": "Model",
+          "value": "T-47 airspeeder"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "CLOSER TOTHE GROUND.",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Vehicles — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles",
+      "width": 1280
+    },
+    {
+      "label": "search-preview-AT-AT",
+      "facts": [
+        {
+          "label": "Vehicle class",
+          "value": "Armored transport and combat walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Armored Transport (AT-AT)"
+        }
+      ],
+      "h1": "CLOSER TOTHE GROUND.",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Vehicles — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles",
+      "width": 1280
+    },
+    {
+      "label": "search-preview-AT-ST",
+      "facts": [
+        {
+          "label": "Vehicle class",
+          "value": "Scout walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Scout Transport (AT-ST)"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "CLOSER TOTHE GROUND.",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Vehicles — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles",
+      "width": 1280
+    },
+    {
+      "label": "search-preview-Imperial Speeder Bike",
+      "facts": [
+        {
+          "label": "Vehicle class",
+          "value": "Speeder bike"
+        },
+        {
+          "label": "Model",
+          "value": "74-Z speeder bike"
+        }
+      ],
+      "h1": "CLOSER TOTHE GROUND.",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Vehicles — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles",
+      "width": 1280
+    },
+    {
+      "label": "search-preview-Sand Crawler",
+      "facts": [
+        {
+          "label": "Vehicle class",
+          "value": "Tracked transport"
+        }
+      ],
+      "h1": "CLOSER TOTHE GROUND.",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Vehicles — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles",
+      "width": 1280
+    },
+    {
+      "label": "at-st-ground-speed-source-jump",
+      "facts": [
+        {
+          "label": "Armament [2]",
+          "value": "Chin-mounted laser cannons and side-mounted weapon podsChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [2]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [2]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "ground speed [4]",
+          "value": "Up to 90 km/h on flat groundChecked with sources"
+        },
+        {
+          "label": "Height [2]",
+          "value": "9.04 mChecked with sources"
+        },
+        {
+          "label": "Length [2]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [4]",
+          "value": "Not establishedReviewed · unresolvedThe article supports up to 90 km/h on flat ground, recorded separately as ground_speed. It does not establish an atmospheric-speed measurement despite the inherited matching raw number 90."
+        },
+        {
+          "label": "Model [2]",
+          "value": "All Terrain Scout Transport (AT-ST)Checked with sources"
+        },
+        {
+          "label": "Passengers [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "variant scope [5][8]",
+          "value": "Marauders use a modified AT-ST raider on SorganChecked with sources"
+        },
+        {
+          "label": "Vehicle class [2]",
+          "value": "Scout walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Scout walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Scout Transport (AT-ST)"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "AT-ST",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "AT-ST — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-st#source-profile13-empire-vehicles",
+      "width": 1280
+    },
+    {
+      "label": "at-st-ground-speed-source-evidence",
+      "facts": [
+        {
+          "label": "Armament [2]",
+          "value": "Chin-mounted laser cannons and side-mounted weapon podsChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [2]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [2]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "ground speed [4]",
+          "value": "Up to 90 km/h on flat groundChecked with sources"
+        },
+        {
+          "label": "Height [2]",
+          "value": "9.04 mChecked with sources"
+        },
+        {
+          "label": "Length [2]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [4]",
+          "value": "Not establishedReviewed · unresolvedThe article supports up to 90 km/h on flat ground, recorded separately as ground_speed. It does not establish an atmospheric-speed measurement despite the inherited matching raw number 90."
+        },
+        {
+          "label": "Model [2]",
+          "value": "All Terrain Scout Transport (AT-ST)Checked with sources"
+        },
+        {
+          "label": "Passengers [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "variant scope [5][8]",
+          "value": "Marauders use a modified AT-ST raider on SorganChecked with sources"
+        },
+        {
+          "label": "Vehicle class [2]",
+          "value": "Scout walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Scout walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Scout Transport (AT-ST)"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "AT-ST",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "AT-ST — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-st#source-profile13-empire-vehicles",
+      "width": 1280
+    },
+    {
+      "label": "snowspeeder-luke-source-jump",
+      "facts": [
+        {
+          "label": "Armament [5]",
+          "value": "Two forward laser cannons; rear harpoon with tow cableChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "cold adaptation [5]",
+          "value": "Rebel T-47s modified for Hoth patrol and base defenseChecked with sources"
+        },
+        {
+          "label": "Consumables [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [5]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [5]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "crew roles [5]",
+          "value": "Pilot and rear-facing tail gunnerChecked with sources"
+        },
+        {
+          "label": "Length [5]",
+          "value": "5.3 mChecked with sources"
+        },
+        {
+          "label": "Manufacturer [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [5]",
+          "value": "T-47 airspeederChecked with sources"
+        },
+        {
+          "label": "Passengers [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "Vehicle class [5]",
+          "value": "AirspeederChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Airspeeder"
+        },
+        {
+          "label": "Model",
+          "value": "T-47 airspeeder"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "Snowspeeder",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Snowspeeder — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/snowspeeder#source-profile03-luke-gallery",
+      "width": 1280
+    },
+    {
+      "label": "snowspeeder-luke-source-evidence",
+      "facts": [
+        {
+          "label": "Armament [5]",
+          "value": "Two forward laser cannons; rear harpoon with tow cableChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "cold adaptation [5]",
+          "value": "Rebel T-47s modified for Hoth patrol and base defenseChecked with sources"
+        },
+        {
+          "label": "Consumables [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [5]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [5]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "crew roles [5]",
+          "value": "Pilot and rear-facing tail gunnerChecked with sources"
+        },
+        {
+          "label": "Length [5]",
+          "value": "5.3 mChecked with sources"
+        },
+        {
+          "label": "Manufacturer [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit atmospheric-speed value for this reviewed type established in the selected references. Qualitative speed, ground speed and variants are separate quantities."
+        },
+        {
+          "label": "Model [5]",
+          "value": "T-47 airspeederChecked with sources"
+        },
+        {
+          "label": "Passengers [5]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "Vehicle class [5]",
+          "value": "AirspeederChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Airspeeder"
+        },
+        {
+          "label": "Model",
+          "value": "T-47 airspeeder"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "Snowspeeder",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Snowspeeder — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/snowspeeder#source-profile03-luke-gallery",
+      "width": 1280
+    },
+    {
+      "label": "prior/people/chewbacca",
+      "facts": [
+        {
+          "label": "Armament [2]",
+          "value": "BowcasterChecked with sources"
+        },
+        {
+          "label": "Birth year [2]",
+          "value": "Not establishedReviewed · unresolvedNo exact birth year is established by the reviewed sources. Story dates, teaching duration, an age spoken at one moment and performer ages are not converted into a birth year here."
+        },
+        {
+          "label": "Classification [2]",
+          "value": "WookieeChecked with sources"
+        },
+        {
+          "label": "Eyes [2]",
+          "value": "Not establishedReviewed · unresolvedThe reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata."
+        },
+        {
+          "label": "Gender [2]",
+          "value": "Not establishedReviewed · unresolvedThis review does not use pronouns or portrayal as independently sourced gender metadata. The inherited field remains unestablished."
+        },
+        {
+          "label": "Hair [2]",
+          "value": "Not establishedReviewed · unresolvedThe reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata."
+        },
+        {
+          "label": "Height [2]",
+          "value": "228 cmChecked with sources"
+        },
+        {
+          "label": "Mass [2]",
+          "value": "Not establishedReviewed · unresolvedThe reviewed public sources do not substantiate this inherited value. It remains unestablished, not disproved or zero. Performer measurements, image colours and general species traits are not substituted for character metadata."
+        },
+        {
+          "label": "Skin [2]",
+          "value": "Not establishedReviewed · unresolvedThe imported placeholder does not establish the characteristic. Unknown, not applicable and zero remain distinct."
+        },
+        {
+          "label": "Starship role [2]",
+          "value": "Millennium Falcon co-pilotChecked with sources"
+        },
+        {
+          "label": "Height",
+          "value": "228 cm"
+        }
+      ],
+      "h1": "Chewbacca",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Chewbacca — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/people/chewbacca",
+      "width": 1280
+    },
+    {
+      "label": "prior/people/luke-skywalker",
+      "facts": [
+        {
+          "label": "Birth year [9]",
+          "value": "Not establishedReviewed · unresolvedNo exact birth year is established by this selected source review. Relative story chronology, an age at one scene and performer ages are not converted into this inherited calendar value or its decimal precision."
+        },
+        {
+          "label": "Birthplace [12]",
+          "value": "Polis MassaChecked with sources"
+        },
+        {
+          "label": "Classification [9]",
+          "value": "HumanChecked with sources"
+        },
+        {
+          "label": "Eyes [9]",
+          "value": "Not establishedReviewed · unresolvedThe reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Family connection [9]",
+          "value": "Twin brother of Leia OrganaChecked with sources"
+        },
+        {
+          "label": "Gender [9]",
+          "value": "Not establishedReviewed · unresolvedThe reviewed pronouns and portrayal are not treated as an independently sourced gender metadata field. The inherited value remains unestablished in this scoped review."
+        },
+        {
+          "label": "Hair [9]",
+          "value": "Not establishedReviewed · unresolvedThe reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Height [9]",
+          "value": "172 cmChecked with sources"
+        },
+        {
+          "label": "Jedi rank [9]",
+          "value": "Jedi Knight in the Rebellion era; later Jedi MasterChecked with sources"
+        },
+        {
+          "label": "Mass [9]",
+          "value": "Not establishedReviewed · unresolvedThe reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Skin [9]",
+          "value": "Not establishedReviewed · unresolvedThe reviewed public sources do not establish this inherited value. Performer measurements, pronouns, image colours and general species traits are not substituted for independently sourced character metadata. Unestablished does not mean disproved or zero."
+        },
+        {
+          "label": "Height",
+          "value": "172 cm"
+        }
+      ],
+      "h1": "Luke Skywalker",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Luke Skywalker — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/people/luke-skywalker",
+      "width": 1280
+    },
+    {
+      "label": "prior/series/the-mandalorian",
+      "facts": [
+        {
+          "label": "Composer [6][26][32][30]",
+          "value": "Ludwig Göransson (Seasons 1–2); Joseph Shirley (Season 3)Checked with sources"
+        },
+        {
+          "label": "Creator [72]",
+          "value": "Jon Favreau — final Created by credit (WGA)Checked with sources"
+        },
+        {
+          "label": "Creator credit context [15][72]",
+          "value": "Lucasfilm’s current production overview labels Jon Favreau & Dave Filoni as Creator; WGA’s final Created by credit names Jon Favreau. These are different source statements.Checked with sources"
+        },
+        {
+          "label": "Episode counting rule [72]",
+          "value": "24 television chapters: three reviewed seasons of eight; related films and spin-offs excludedChecked with sources"
+        },
+        {
+          "label": "Episodes [29]",
+          "value": "24 numbered chapters through Season 3Checked with sources"
+        },
+        {
+          "label": "Executive producer [33]",
+          "value": "Jon Favreau, Dave Filoni, Kathleen Kennedy, Colin Wilson (launch production)Checked with sources"
+        },
+        {
+          "label": "Format [33]",
+          "value": "Live-action seriesChecked with sources"
+        },
+        {
+          "label": "Head writer [6]",
+          "value": "Jon Favreau (Season 3)Checked with sources"
+        },
+        {
+          "label": "Original US release [34]",
+          "value": "2019-11-12Checked with sources"
+        },
+        {
+          "label": "Release context [34]",
+          "value": "US Disney+ series premiere; later season launches are separate events. The 2026 feature is a separate work.Checked with sources"
+        },
+        {
+          "label": "Series run [6][34]",
+          "value": "2019–2023 (reviewed television seasons)Checked with sources"
+        },
+        {
+          "label": "Seasons [6]",
+          "value": "3 released seasons reviewedChecked with sources"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Dave Filoni [72]"
+        },
+        {
+          "label": "Teleplay by",
+          "value": "Christopher L. Yost and Rick Famuyiwa [72]"
+        },
+        {
+          "label": "Story by",
+          "value": "Christopher L. Yost [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Dave Filoni [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Rick Famuyiwa [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Noah Kloor & Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau & Dave Filoni [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau & Dave Filoni [72]"
+        },
+        {
+          "label": "Written by",
+          "value": "Jon Favreau [72]"
+        },
+        {
+          "label": "Format",
+          "value": "Live-action series"
+        },
+        {
+          "label": "Creator",
+          "value": "Jon Favreau — final Created by credit (WGA)"
+        }
+      ],
+      "h1": "The Mandalorian",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "The Mandalorian — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/series/the-mandalorian",
+      "width": 1280
+    },
+    {
+      "label": "home",
+      "facts": [
+        {
+          "label": "Archive records",
+          "value": "630"
+        },
+        {
+          "label": "Films & series",
+          "value": "24"
+        },
+        {
+          "label": "Connected collections",
+          "value": "7"
+        },
+        {
+          "label": "Recorded links",
+          "value": "2,274"
+        }
+      ],
+      "h1": "A GALAXYOF STORIES.",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1280,
+      "title": "Star Wars Universe — A Galaxy of Stories",
+      "url": "http://127.0.0.1:3100/",
+      "width": 1280
+    },
+    {
+      "label": "final-at-st",
+      "facts": [
+        {
+          "label": "Armament [2]",
+          "value": "Chin-mounted laser cannons and side-mounted weapon podsChecked with sources"
+        },
+        {
+          "label": "Cargo capacity [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit numerical cargo capacity established. Visible equipment, storage or transport use does not certify a mass limit."
+        },
+        {
+          "label": "Consumables [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit endurance/consumables period established. The inherited none or unknown is not evidence of zero endurance."
+        },
+        {
+          "label": "Cost [2]",
+          "value": "Not establishedReviewed · unresolvedNo sourced fictional purchase price established here. Toy, replica, production-budget and auction prices are not in-universe credits."
+        },
+        {
+          "label": "Crew [2]",
+          "value": "2Checked with sources"
+        },
+        {
+          "label": "ground speed [4]",
+          "value": "Up to 90 km/h on flat groundChecked with sources"
+        },
+        {
+          "label": "Height [2]",
+          "value": "9.04 mChecked with sources"
+        },
+        {
+          "label": "Length [2]",
+          "value": "Not establishedReviewed · unresolvedNo independently scoped length for this reviewed type established. A published height or a broad mixed-model page dimension is not substituted for the inherited length."
+        },
+        {
+          "label": "Manufacturer [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit manufacturer for this reviewed type established in the selected references. The inherited full company attribution is retained raw, not inferred from a related vehicle or product maker."
+        },
+        {
+          "label": "Atmospheric speed [4]",
+          "value": "Not establishedReviewed · unresolvedThe article supports up to 90 km/h on flat ground, recorded separately as ground_speed. It does not establish an atmospheric-speed measurement despite the inherited matching raw number 90."
+        },
+        {
+          "label": "Model [2]",
+          "value": "All Terrain Scout Transport (AT-ST)Checked with sources"
+        },
+        {
+          "label": "Passengers [2]",
+          "value": "Not establishedReviewed · unresolvedNo explicit maximum passenger capacity established for this reviewed type. A normal crew count or an actual extra rider does not independently certify a maximum."
+        },
+        {
+          "label": "variant scope [5][8]",
+          "value": "Marauders use a modified AT-ST raider on SorganChecked with sources"
+        },
+        {
+          "label": "Vehicle class [2]",
+          "value": "Scout walkerChecked with sources"
+        },
+        {
+          "label": "Vehicle class",
+          "value": "Scout walker"
+        },
+        {
+          "label": "Model",
+          "value": "All Terrain Scout Transport (AT-ST)"
+        },
+        {
+          "label": "Crew",
+          "value": "2"
+        }
+      ],
+      "h1": "AT-ST",
+      "missingAnchors": 0,
+      "notFound": false,
+      "overflow": [],
+      "scrollWidth": 1248,
+      "title": "AT-ST — Star Wars Universe",
+      "url": "http://127.0.0.1:3100/vehicles/at-st",
+      "width": 1248
+    }
+  ],
+  "previews": [
+    {
+      "title": "Snowspeeder",
+      "text": "SELECTED RECORD / 014\nVehicle dossier\nSnowspeeder\nSelected details checked\nVEHICLE CLASS\nAirspeeder\nMODEL\nT-47 airspeeder\nCREW\n2\n5 recorded connections\nOpen full record"
+    },
+    {
+      "title": "AT-AT",
+      "text": "SELECTED RECORD / 018\nVehicle dossier\nAT-AT\nSelected details checked\nVEHICLE CLASS\nArmored transport and combat walker\nMODEL\nAll Terrain Armored Transport (AT-AT)\n9 recorded connections\nOpen full record"
+    },
+    {
+      "title": "AT-ST",
+      "text": "SELECTED RECORD / 019\nVehicle dossier\nAT-ST\nSelected details checked\nVEHICLE CLASS\nScout walker\nMODEL\nAll Terrain Scout Transport (AT-ST)\nCREW\n2\n9 recorded connections\nOpen full record"
+    },
+    {
+      "title": "Imperial Speeder Bike",
+      "text": "SELECTED RECORD / 030\nVehicle dossier\nImperial Speeder Bike\nSelected details checked\nVEHICLE CLASS\nSpeeder bike\nMODEL\n74-Z speeder bike\n5 recorded connections\nOpen full record"
+    },
+    {
+      "title": "Sand Crawler",
+      "text": "SELECTED RECORD / 004\nVehicle dossier\nSand Crawler\nSelected details checked\nVEHICLE CLASS\nTracked transport\n5 recorded connections\nOpen full record"
+    }
+  ],
+  "logs": [],
+  "finishedAt": "2026-11-01T20:54:27.599Z",
+  "stateCount": 34
+}
