@@ -3,20 +3,20 @@
     "editions": 26,
     "releases": 82,
     "editionCredits": 10,
-    "supplementBatches": 17,
-    "episodeReviews": 96,
+    "supplementBatches": 21,
+    "episodeReviews": 114,
     "episodeEntries": 151,
     "episodeParts": 160,
     "episodeCredits": 65,
-    "episodeLinks": 1202,
-    "profileBatches": 13,
-    "reviewedLegacyProfiles": 65,
-    "unestablishedFields": 436,
+    "episodeLinks": 1509,
+    "profileBatches": 16,
+    "reviewedLegacyProfiles": 80,
+    "unestablishedFields": 521,
     "batches": 5,
     "primaryRecords": 24,
-    "supportingRecords": 417,
+    "supportingRecords": 498,
     "credits": 576,
-    "citations": 6467
+    "citations": 7860
   },
   "planning": {
     "id": "PLAN-01",
@@ -24,9 +24,9 @@
     "issueAdditions": 11,
     "deferred": 15
   },
-  "records": 630,
-  "facts": 2906,
-  "links": 2274,
+  "records": 696,
+  "facts": 3042,
+  "links": 2628,
   "categories": [
     {
       "category": "films",
@@ -34,11 +34,11 @@
     },
     {
       "category": "people",
-      "count": 268
+      "count": 302
     },
     {
       "category": "planets",
-      "count": 136
+      "count": 150
     },
     {
       "category": "series",
@@ -46,15 +46,15 @@
     },
     {
       "category": "species",
-      "count": 52
+      "count": 60
     },
     {
       "category": "starships",
-      "count": 94
+      "count": 98
     },
     {
       "category": "vehicles",
-      "count": 56
+      "count": 62
     }
   ],
   "skippedLinks": [],

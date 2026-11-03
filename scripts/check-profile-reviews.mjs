@@ -292,5 +292,80 @@ export function checkProfileReviews(root,db){
   assert.equal(relationship('vehicles:30','films:6','films'),undefined,'The official Stass Allie 74-Z/BARC conflict is not silently resolved');
   assert.ok(cites('vehicles:4','link','vehicles:4|series:mandalorian|appears_in').some(c=>c.source_id==='supp08-the-mandalorian-chapter-2-official-story-gallery'));
   for(const id of p13.records.map(r=>r.id))assert.equal(db.prepare('SELECT category FROM records WHERE id=?').get(id).category,'vehicles');
+  // Profile 14: a cyborg is not a droid; appearance and workplace are not origins.
+  const p14=batches.find(b=>b.id==='PROFILE-14');assert.ok(p14);
+  assert.deepEqual(p14.records.map(r=>r.id),['people:69','people:79','people:24','people:23','people:26']);
+  assert.equal(p14.records.reduce((n,r)=>n+r.factAssessments.length,0),27);
+  assert.equal(p14.records.reduce((n,r)=>n+r.facts.filter(f=>f.expectedValue!==null).length,0),8);
+  assert.equal(p14.records.reduce((n,r)=>n+r.facts.filter(f=>f.expectedValue===null).length,0),19);
+  for(const [id,height] of [['people:69','183'],['people:79','216'],['people:24','206'],['people:23','196'],['people:26','175']])assert.equal(value(id,'height'),height);
+  for(const id of p14.records.map(r=>r.id))for(const key of ['birth_year','mass','hair_color','skin_color'])assert.equal(value(id,key),'Not established');
+  assert.equal(value('people:24','eye_color'),'Red');assert.equal(value('people:79','eye_color'),'Yellow — cyborg design commentary');
+  assert.equal(value('people:23','gender'),'Not established');assert.equal(value('people:23','gender','facts'),'none');
+  assert.equal(value('people:23','skin_color','facts'),'metal');assert.equal(value('people:23','exterior_colour'),'Battered chrome finish');
+  assert.equal(value('people:26','gender'),'male');assert.equal(value('people:26','classification'),'Human');assert.equal(value('people:79','classification'),'Kaleesh cyborg');
+  assert.equal(value('people:69','mandalorian_status'),'Mandalorian foundling');assert.match(value('people:69','family_connection'),/unaltered clone raised as his son/);
+  for(const [id,target] of [['people:69','planets:53'],['people:79','planets:59'],['people:24','planets:29'],['people:23','planets:28'],['people:26','planets:6']])assert.equal(relationship(id,target,'homeworld'),'legacy','Culture, species, employment and unknown placeholders do not certify personal origin');
+  assert.equal(relationship('people:69','planets:10','resided_on'),'verified');assert.equal(relationship('people:26','planets:6','associated_with'),'verified');
+  assert.equal(relationship('people:26','species:2','species'),undefined);assert.equal(relationship('people:79','species:2','species'),undefined);
+  assert.equal(relationship('people:23','species:2','species'),'verified');assert.equal(relationship('people:79','species:36','species'),'verified');
+  assert.equal(relationship('people:24','people:ezra-bridger','hired_as_guide'),'verified');assert.equal(relationship('people:24','series:rebels','appears_in'),undefined,'A cross-media Lothal story is not a Rebels screen appearance');
+  assert.equal(relationship('people:23','series:mandalorian','appears_in'),undefined,'IG-88 is not IG-11');assert.equal(relationship('people:26','series:rebels','appears_in'),undefined,'A shared headgear type is not a wearer appearance');
+  for(const id of ['people:79','people:24'])assert.equal(relationship(id,'films:clone-wars-film','films'),undefined,'The television title is not the 2008 feature');
+  assert.equal(db.prepare("SELECT title FROM records WHERE id='starships:74'").get().title,'Belbullab-22 starfighter');
+  assert.equal(db.prepare("SELECT title FROM records WHERE id='vehicles:60'").get().title,'Tsmeu-6 personal wheel bike');
+  assert.ok(cites('people:79','link','people:79|starships:74|starships').some(c=>/type record/.test(c.note)));
+  for(const id of ['people:23','people:24']){assert.equal(relationship(id,'starships:10','pursued'),'verified');assert.equal(relationship(id,'starships:10','pilots'),undefined,'A capture contract is not piloting');}
+  const shipSource=db.prepare("SELECT * FROM sources WHERE id='supp09-boba-fett-s-starship-official-databank'").get();assert.equal(shipSource.checked_at,'2026-10-27');assert.match(shipSource.note,/PROFILE-14/);
+  // Profile 15: released cuts, deleted alternatives, visions and personal origin are separate claims.
+  const p15=batches.find(b=>b.id==='PROFILE-15');assert.ok(p15);
+  assert.deepEqual(p15.records.map(r=>r.id),['people:22','people:72','people:73','people:78','people:70']);
+  assert.equal(p15.records.reduce((n,r)=>n+r.factAssessments.length,0),30);
+  for(const [id,height] of [['people:22','183'],['people:72','229'],['people:73','213'],['people:78','187'],['people:70','168']])assert.equal(value(id,'height'),height);
+  for(const r of p15.records)for(const key of ['mass','birth_year','gender','hair_color','skin_color','eye_color'])assert.equal(value(r.id,key),'Not established');
+  assert.equal(value('people:22','birth_year','facts'),'31.5BBY','Clone genealogy does not supply a precise birth year');
+  assert.match(value('people:22','clone_origin'),/Unaltered clone.*raised as his son/);
+  assert.match(value('people:22','fate_survival'),/Survives the sarlacc/);
+  assert.match(value('people:22','appearance_scope'),/Special Edition/);
+  assert.ok(cites('people:22','link','people:22|films:1|films').every(c=>/Special Edition/.test(c.locator)&&/not the 1977/.test(c.note)));
+  for(const [id,target] of [['people:22','planets:10'],['people:72','planets:10'],['people:70','planets:54']])assert.equal(relationship(id,target,'homeworld'),'verified');
+  for(const [id,target] of [['people:73','planets:10'],['people:78','planets:58']])assert.equal(relationship(id,target,'homeworld'),'legacy','A workplace or species origin is not personal origin');
+  assert.match(value('people:72','imperial_captivity'),/Held at Mount Tantiss/);assert.equal(value('people:72','fate'),undefined,'Lama Su arrest is not a death');
+  assert.match(value('people:73','fate'),/Dies.*official retrospective/);assert.equal(relationship('people:73','people:fennec-shand','killed_by'),undefined,'A death-only reference does not identify the killer');
+  assert.equal(relationship('people:78','films:6','films'),'legacy','A listed work plus deleted scenes does not identify a released scene');
+  assert.match(value('people:78','deleted_death_scenes'),/Grievous and Anakin.*cut/);
+  assert.match(value('people:78','fate'),/2017 official account.*Voices vision/);
+  assert.ok(cites('people:78','link','people:78|people:4|killed_by').every(c=>/vision/.test(c.locator)&&/neither deleted film death nor game/.test(c.note)));
+  assert.equal(relationship('people:78','people:79','killed_by'),undefined);assert.equal(relationship('people:78','planets:17','died_on'),undefined);
+  assert.match(value('people:70','shapechanging'),/change outward appearance/);assert.equal(value('people:70','skin_color','facts'),'fair, green, yellow');
+  assert.equal(relationship('people:70','vehicles:45','vehicles'),'legacy','A chase does not identify an airspeeder model');
+  for(const id of p15.records.map(r=>r.id))assert.equal(relationship(id,'films:clone-wars-film','films'),undefined,'TV work lists do not establish the 2008 feature');
+  for(const [id,checked] of [['profile12-boba-fett-bib','2026-11-01'],['profile06-dagobah-deleted','2026-10-29']]){const source=db.prepare('SELECT checked_at,note FROM sources WHERE id=?').get(id);assert.equal(source.checked_at,checked);assert.match(source.note,/PROFILE-15/);}
+  // Profile 16: vertical height, length, textual identity and edition/vision scopes.
+  const p16=batches.find(b=>b.id==='PROFILE-16');assert.ok(p16);
+  assert.deepEqual(p16.records.map(r=>r.id),['people:6','people:7','people:15','people:16','people:43']);
+  assert.equal(p16.records.reduce((n,r)=>n+r.factAssessments.length,0),28);
+  for(const [id,height] of [['people:6','178'],['people:7','165'],['people:15','174'],['people:43','163']])assert.equal(value(id,'height'),height);
+  assert.equal(value('people:16','height'),'Not established');assert.equal(value('people:16','height','facts'),'175');assert.equal(value('people:16','length'),'3.9 m','Length must not overwrite a vertical-height field');
+  assert.equal(value('people:16','mass'),'Not established');assert.equal(value('people:16','mass','facts'),'1,358');assert.equal(value('people:16','gender'),'Not established');assert.equal(value('people:16','gender','facts'),'hermaphrodite','Hutt membership does not certify an inherited personal gender');
+  for(const id of p16.records.map(r=>r.id))for(const key of ['mass','birth_year','hair_color','eye_color'])assert.equal(value(id,key),'Not established');
+  assert.equal(value('people:7','gender'),'female');assert.equal(value('people:43','gender'),'female');assert.equal(value('people:6','gender'),'Not established');assert.equal(value('people:15','gender'),'Not established');
+  for(const id of ['people:7','people:43'])assert.ok(cites(id,'fact','gender').every(c=>/woman/.test(c.locator)&&/not.*pronouns/.test(c.note)),'An explicit personal description is distinct from pronoun inference');
+  assert.equal(value('people:15','skin_color'),'Pea-green');
+  for(const id of ['people:6','people:7'])assert.equal(relationship(id,'planets:1','homeworld'),'verified','The source explicitly calls both Tatooine natives');
+  for(const [id,target] of [['people:15','planets:23'],['people:16','planets:24'],['people:43','planets:1']])assert.equal(relationship(id,target,'homeworld'),'legacy');
+  assert.equal(relationship('people:43','planets:1','resided_on'),'verified');
+  assert.equal(value('people:7','official_name'),'Beru Lars; earlier named Beru Whitesun');assert.equal(db.prepare("SELECT title FROM records WHERE id='people:7'").get().title,'Beru Whitesun lars');
+  assert.equal(value('people:16','official_name'),'Jabba the Hutt');assert.equal(db.prepare("SELECT title FROM records WHERE id='people:16'").get().title,'Jabba Desilijic Tiure');
+  assert.equal(value('people:43','official_name'),'Shmi Skywalker Lars');assert.equal(db.prepare("SELECT title FROM records WHERE id='people:43'").get().title,'Shmi Skywalker');
+  assert.match(value('people:15','edition_scope'),/edition-sensitive.*Kasdan/);assert.match(value('people:15','deleted_material'),/Phantom Menace.*deleted/);assert.equal(relationship('people:15','films:4','films'),undefined,'A deleted childhood scene is not a released-film appearance');
+  assert.match(value('people:16','appearance_scope'),/1997 Special Edition/);assert.ok(cites('people:16','link','people:16|films:1|films').every(c=>/1997 Special Edition/.test(c.locator)&&/Absent from the original/.test(c.note)));
+  assert.equal(relationship('people:16','films:clone-wars-film','films'),'verified');assert.ok(cites('people:16','link','people:16|films:clone-wars-film|films').some(c=>c.source_id==='film02-film-clone-film'),'Distinct feature-film evidence, not a TV list');
+  for(const id of ['people:6','people:7','people:15','people:43'])assert.equal(relationship(id,'films:clone-wars-film','films'),undefined);
+  assert.match(value('people:43','later_portrayal'),/Overlords.*vision/);assert.ok(cites('people:43','link','people:43|series:clone-wars-series|appears_in').every(c=>/vision/.test(c.note)&&/not a living/.test(c.note)));
+  assert.equal(relationship('people:43','people:6','stepmother_of'),'verified');assert.equal(relationship('people:6','people:11','stepbrother_of'),'verified');assert.equal(relationship('people:6','people:1','guardian_of'),'verified');assert.equal(relationship('people:7','people:1','guardian_of'),'verified');
+  assert.equal(relationship('people:43','people:6','mother_of'),undefined,'Stepfamily must not become biological parentage');
+  assert.equal(representationInProfile16('series:bad-batch:s1e5','people:16'),undefined,'Jabba’s employer mention is not a physical Rampage visit');
+  function representationInProfile16(ep,target){return db.prepare('SELECT representation FROM episode_links WHERE episode_id=? AND target_id=?').get(ep,target)?.representation;}
   return {profiles,verified,unestablished};
 }

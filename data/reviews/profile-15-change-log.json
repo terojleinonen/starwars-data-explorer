@@ -1,0 +1,1950 @@
+{
+  "batch": "PROFILE-15",
+  "checkedAt": "2026-11-03",
+  "changes": [
+    {
+      "sourceId": "profile12-boba-fett-bib",
+      "field": "source_description",
+      "before": {
+        "note": "Only the final direct history paragraph on Boba/Fennec killing Bib Fortuna and taking the palace throne used. No review of Boba’s personal facts, ship specifications, full biography gallery or other appearances."
+      },
+      "after": {
+        "note": "Only the final direct history paragraph on Boba/Fennec killing Bib Fortuna and taking the palace throne used. No review of Boba’s personal facts, ship specifications, full biography gallery or other appearances. PROFILE-15 extension, checked 3 November 2026: Main profile, Human species, nominal 1.83 m height, selected named works and direct Kamino/Geonosis/Slave I/Cloud City/sarlacc/Tython/palace history read. Unaltered clone raised as Jango’s son and subsequent survival distinguished from inherited birth year and mass. No complete separate biography gallery or edition/episode inventory."
+      }
+    },
+    {
+      "sourceId": "profile06-dagobah-deleted",
+      "field": "source_description",
+      "before": {
+        "note": "Amy Richau, 4 May 2025, Yoda’s Journey: Exiled to Dagobah is a deleted scene available as a Disney+ extra. Used to explain why the inherited Dagobah/Sith film link is not verified as a released-film scene. No home-video release event added."
+      },
+      "after": {
+        "note": "Amy Richau, 4 May 2025, Yoda’s Journey: Exiled to Dagobah is a deleted scene available as a Disney+ extra. Used to explain why the inherited Dagobah/Sith film link is not verified as a released-film scene. No home-video release event added. PROFILE-15 extension, checked 3 November 2026: Death of a Jedi section read for both deleted Shaak Ti alternatives (Grievous and Anakin). Neither is a death scene in the finished film; this does not establish total absence from the film. Prior Dagobah scope and original source metadata retained."
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "profile",
+      "before": {
+        "id": "people:22",
+        "category": "people",
+        "legacy_id": "22",
+        "slug": "boba-fett",
+        "title": "Boba Fett",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "An unaltered clone raised as Jango Fett’s son, Boba becomes a bounty hunter and delivers the captured Han Solo to Jabba. He survives the sarlacc and later works with Fennec Shand to take control of Jabba’s former palace.",
+        "era": "Lucas + Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "height",
+      "before": {
+        "record_id": "people:22",
+        "key": "height",
+        "value": "183",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "183",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Dimensions / Height 1.83 m converted to 183 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Human",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "clone_origin",
+      "before": null,
+      "after": {
+        "value": "Unaltered clone of Jango Fett, raised as his son",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Main profile / genetic clone and family relationship",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "fate_survival",
+      "before": null,
+      "after": {
+        "value": "Survives the sarlacc and later takes Jabba’s former throne",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Main profile and direct later-history paragraphs",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Bounty hunter; later ruler at Jabba’s former palace",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Main profile and final direct history",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "appearance_scope",
+      "before": null,
+      "after": {
+        "value": "A New Hope — Special Edition docking-bay appearance",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-boba-special-edition",
+            "locator": "Boba Fett section / added Special Edition docking-bay scene",
+            "note": "Not an appearance in the 1977 original cut."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "mass",
+      "before": {
+        "record_id": "people:22",
+        "key": "mass",
+        "value": "78.2",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected sources. Actor measurements, species averages and armor weight do not establish the inherited value."
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:22",
+        "key": "hair_color",
+        "value": "black",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, image, disguise or species trait does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:22",
+        "key": "skin_color",
+        "value": "fair",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established. Lighting, species descriptions, disguise and shape-changing are not an exhaustive fixed personal palette."
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:22",
+        "key": "eye_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established. Species traits, actors and screen images do not certify this individual field."
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:22",
+        "key": "birth_year",
+        "value": "31.5BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established in the selected references. A clone relationship, historical era or apparent age does not verify the inherited year."
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "gender",
+      "before": {
+        "record_id": "people:22",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected references; pronouns or actor identity alone are not used to certify the field."
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile15-boba-special-edition",
+            "locator": "Boba Fett section / A New Hope Special Edition docking-bay scene",
+            "note": "Special Edition only; not the 1977 original cut."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": {
+        "record_id": "people:22",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": {
+        "record_id": "people:22",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Appearances / Return of the Jedi",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": {
+        "record_id": "people:22",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:mandalorian",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Appearances / The Mandalorian",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:1",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": {
+        "record_id": "people:22",
+        "target_id": "planets:10",
+        "relation": "homeworld",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "planets:10",
+        "relation": "homeworld",
+        "evidence": [
+          {
+            "sourceId": "profile15-boba-birth",
+            "locator": "Section 4 Boba Fett / explicitly born on Kamino",
+            "note": "Personal origin supported, not a precise date or a species-origin inference."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:1",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Direct history / Tatooine bounty posse and Jabba’s palace",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:6",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Direct history / Cloud City carbon-freezing and capture",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:tython",
+        "relation": "visited",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Direct history / Tython meeting with Din Djarin",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": {
+        "record_id": "people:22",
+        "target_id": "starships:21",
+        "relation": "starships",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "starships:21",
+        "relation": "starships",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Direct adult bounty-hunter history / pilots Slave I",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:69",
+        "relation": "clone_of",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Main profile / unaltered genetic clone of Jango",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:69",
+        "relation": "raised_by",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Main profile / raised as Jango’s son",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:4",
+        "relation": "hired_by",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Direct history / Vader hires bounty hunters to track the Falcon",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:16",
+        "relation": "worked_for",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Direct history / delivers captured Han to Jabba",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:14",
+        "relation": "captured",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Direct history / tracks Han and transports carbon-frozen captive",
+            "note": "Vader’s forces perform the carbon-freezing; not a claim of a single-handed arrest."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:fennec-shand",
+        "relation": "worked_with",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Final direct history / Tython and palace partnership",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:22",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:45",
+        "relation": "killed",
+        "evidence": [
+          {
+            "sourceId": "profile12-boba-fett-bib",
+            "locator": "Final direct history / palace takeover with Fennec",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "profile",
+      "before": {
+        "id": "people:72",
+        "category": "people",
+        "legacy_id": "72",
+        "slug": "lama-su",
+        "title": "Lama Su",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Lama Su leads Kamino’s government during the creation of the Republic clone army. After the Empire destroys Tipoca City, he is held at Mount Tantiss and offers information about Omega to his captors.",
+        "era": "Lucas + Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "height",
+      "before": {
+        "record_id": "people:72",
+        "key": "height",
+        "value": "229",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "229",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-lama-su",
+            "locator": "Dimensions / Height 2.29 m converted to 229 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Kaminoan",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-lama-su",
+            "locator": "Species / Kaminoan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "position",
+      "before": null,
+      "after": {
+        "value": "Prime Minister of Kamino during the Republic clone-army programme",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-lama-su",
+            "locator": "Main profile / government and clone-army role",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "imperial_captivity",
+      "before": null,
+      "after": {
+        "value": "Held at Mount Tantiss; identifies Omega as leverage over Nala Se",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-lama-su",
+            "locator": "Main profile / post-bombardment imprisonment",
+            "note": "Captivity, not a death claim."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "mass",
+      "before": {
+        "record_id": "people:72",
+        "key": "mass",
+        "value": "88",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected sources. Actor measurements, species averages and armor weight do not establish the inherited value."
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:72",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, image, disguise or species trait does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:72",
+        "key": "skin_color",
+        "value": "grey",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established. Lighting, species descriptions, disguise and shape-changing are not an exhaustive fixed personal palette."
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:72",
+        "key": "eye_color",
+        "value": "black",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established. Species traits, actors and screen images do not certify this individual field."
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:72",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established in the selected references. A clone relationship, historical era or apparent age does not verify the inherited year."
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "gender",
+      "before": {
+        "record_id": "people:72",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected references; pronouns or actor identity alone are not used to certify the field."
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "link",
+      "before": {
+        "record_id": "people:72",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile15-lama-su",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile15-lama-su",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:bad-batch",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile15-lama-su",
+            "locator": "Appearances / The Bad Batch",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "link",
+      "before": {
+        "record_id": "people:72",
+        "target_id": "species:32",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:32",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile15-lama-su",
+            "locator": "Species / Kaminoan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:72",
+      "field": "link",
+      "before": {
+        "record_id": "people:72",
+        "target_id": "planets:10",
+        "relation": "homeworld",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "planets:10",
+        "relation": "homeworld",
+        "evidence": [
+          {
+            "sourceId": "profile15-lama-su",
+            "locator": "Main profile / explicit personal homeworld",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "profile",
+      "before": {
+        "id": "people:73",
+        "category": "people",
+        "legacy_id": "73",
+        "slug": "taun-we",
+        "title": "Taun We",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Taun We serves as Lama Su’s administrative aide. She welcomes Obi-Wan Kenobi to Tipoca City and introduces him to Jango Fett. An official account of the early Imperial period records her death.",
+        "era": "Lucas + Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "height",
+      "before": {
+        "record_id": "people:73",
+        "key": "height",
+        "value": "213",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "213",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Dimensions / Height 2.13 m converted to 213 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Kaminoan",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Species / Kaminoan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "position",
+      "before": null,
+      "after": {
+        "value": "Administrative aide to Lama Su",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Main profile / explicit administrative role",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Dies in the early Imperial period — official retrospective account",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-kamino-fates",
+            "locator": "Section 5 Kamino lost / explicitly records Taun We’s death",
+            "note": "No killer, exact date or scene is assigned."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "mass",
+      "before": {
+        "record_id": "people:73",
+        "key": "mass",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected sources. Actor measurements, species averages and armor weight do not establish the inherited value."
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:73",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, image, disguise or species trait does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:73",
+        "key": "skin_color",
+        "value": "grey",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established. Lighting, species descriptions, disguise and shape-changing are not an exhaustive fixed personal palette."
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:73",
+        "key": "eye_color",
+        "value": "black",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established. Species traits, actors and screen images do not certify this individual field."
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:73",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established in the selected references. A clone relationship, historical era or apparent age does not verify the inherited year."
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "gender",
+      "before": {
+        "record_id": "people:73",
+        "key": "gender",
+        "value": "female",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected references; pronouns or actor identity alone are not used to certify the field."
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "link",
+      "before": {
+        "record_id": "people:73",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:bad-batch",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Appearances / The Bad Batch",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "link",
+      "before": {
+        "record_id": "people:73",
+        "target_id": "species:32",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:32",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Species / Kaminoan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:72",
+        "relation": "aide_to",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Main profile / Lama Su’s aide",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:10",
+        "relation": "met",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Main profile and direct history / greets Obi-Wan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:69",
+        "relation": "introduced_visitor_to",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Main profile and direct history / introduces Obi-Wan to Jango",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:73",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:10",
+        "relation": "worked_on",
+        "evidence": [
+          {
+            "sourceId": "profile15-taun-we",
+            "locator": "Main profile / Tipoca City duties",
+            "note": "Workplace, not a personal birthplace/homeworld."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "profile",
+      "before": {
+        "id": "people:78",
+        "category": "people",
+        "legacy_id": "78",
+        "slug": "shaak-ti",
+        "title": "Shaak Ti",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Shaak Ti is a Togruta Jedi Master and Council member who joins the Geonosis rescue mission. During the Clone Wars she supervises clone-cadet training on Kamino and helps defend the facilities.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "height",
+      "before": {
+        "record_id": "people:78",
+        "key": "height",
+        "value": "178",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "187",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Dimensions / Height 1.87 m converted to 187 cm",
+            "note": "Corrects inherited 178 cm."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Togruta",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Species / Togruta",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "jedi_rank",
+      "before": null,
+      "after": {
+        "value": "Jedi Master",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Main profile / explicit rank",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "council_role",
+      "before": null,
+      "after": {
+        "value": "Jedi Council member",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Main profile / Council membership",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "training_role",
+      "before": null,
+      "after": {
+        "value": "Supervises clone-cadet training on Kamino",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Main profile and direct Kamino cadet history",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Vader during Order 66 — 2017 official account of Yoda’s Voices vision",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-togruta-fates",
+            "locator": "Section 7 / canonical account and Yoda’s vision",
+            "note": "Attributed vision account, not a released Revenge of the Sith death scene."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "deleted_death_scenes",
+      "before": null,
+      "after": {
+        "value": "Revenge of the Sith: Grievous and Anakin death alternatives were cut",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile06-dagobah-deleted",
+            "locator": "Death of a Jedi / two deleted alternatives",
+            "note": ""
+          },
+          {
+            "sourceId": "profile15-togruta-fates",
+            "locator": "Section 7 / film alternatives distinguished from canonical account",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "mass",
+      "before": {
+        "record_id": "people:78",
+        "key": "mass",
+        "value": "57",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected sources. Actor measurements, species averages and armor weight do not establish the inherited value."
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:78",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, image, disguise or species trait does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:78",
+        "key": "skin_color",
+        "value": "red, blue, white",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established. Lighting, species descriptions, disguise and shape-changing are not an exhaustive fixed personal palette."
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:78",
+        "key": "eye_color",
+        "value": "black",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established. Species traits, actors and screen images do not certify this individual field."
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:78",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established in the selected references. A clone relationship, historical era or apparent age does not verify the inherited year."
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "gender",
+      "before": {
+        "record_id": "people:78",
+        "key": "gender",
+        "value": "female",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected references; pronouns or actor identity alone are not used to certify the field."
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "link",
+      "before": {
+        "record_id": "people:78",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Appearances / Attack of the Clones and direct Geonosis history",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "link",
+      "before": {
+        "record_id": "people:78",
+        "target_id": "species:35",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:35",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Species / Togruta",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:10",
+        "relation": "worked_on",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Direct history / clone-cadet instruction and Kamino defense",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:11",
+        "relation": "fought_on",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Main profile / Geonosis rescue mission",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:echo",
+        "relation": "mentored",
+        "evidence": [
+          {
+            "sourceId": "profile15-shaak-ti",
+            "locator": "Direct history / cadets Echo and Fives",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:78",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:4",
+        "relation": "killed_by",
+        "evidence": [
+          {
+            "sourceId": "profile15-togruta-fates",
+            "locator": "Section 7 / official canonical Order 66 account in Yoda’s Voices vision",
+            "note": "Qualified vision account; neither deleted film death nor game continuity."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "profile",
+      "before": {
+        "id": "people:70",
+        "category": "people",
+        "legacy_id": "70",
+        "slug": "zam-wesell",
+        "title": "Zam Wesell",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Zam Wesell is a shape-changing Clawdite assassin from Zolan. Hired by Jango Fett to kill Padmé Amidala on Coruscant, she is pursued by Obi-Wan and Anakin. Jango silences her with a Kaminoan saberdart.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "height",
+      "before": {
+        "record_id": "people:70",
+        "key": "height",
+        "value": "168",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "168",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Dimensions / Height 1.68 m converted to 168 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Clawdite",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Species / Clawdite",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Assassin",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Main profile / explicit profession",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "shapechanging",
+      "before": null,
+      "after": {
+        "value": "Can change outward appearance",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Main profile / explicit shape-shifting description",
+            "note": "No permanent disguise or personal colour palette inferred."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Killed by Jango Fett with a Kaminoan saberdart",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Main profile and final direct history / silenced before interrogation",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "mass",
+      "before": {
+        "record_id": "people:70",
+        "key": "mass",
+        "value": "55",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected sources. Actor measurements, species averages and armor weight do not establish the inherited value."
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:70",
+        "key": "hair_color",
+        "value": "blonde",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, image, disguise or species trait does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:70",
+        "key": "skin_color",
+        "value": "fair, green, yellow",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established. Lighting, species descriptions, disguise and shape-changing are not an exhaustive fixed personal palette."
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:70",
+        "key": "eye_color",
+        "value": "yellow",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established. Species traits, actors and screen images do not certify this individual field."
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:70",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established in the selected references. A clone relationship, historical era or apparent age does not verify the inherited year."
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "gender",
+      "before": {
+        "record_id": "people:70",
+        "key": "gender",
+        "value": "female",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected references; pronouns or actor identity alone are not used to certify the field."
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "link",
+      "before": {
+        "record_id": "people:70",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "link",
+      "before": {
+        "record_id": "people:70",
+        "target_id": "species:30",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:30",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Species / Clawdite",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "link",
+      "before": {
+        "record_id": "people:70",
+        "target_id": "planets:54",
+        "relation": "homeworld",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "planets:54",
+        "relation": "homeworld",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Main profile / explicitly from Zolan",
+            "note": "Personal origin; no exact birth coordinates."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:9",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Main profile / Coruscant assassination attempt and pursuit",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:69",
+        "relation": "hired_by",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Main profile / Jango’s assassination contract",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:69",
+        "relation": "killed_by",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Main profile and final direct history / Jango’s saberdart",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:35",
+        "relation": "targeted",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Main profile / Padmé assassination attempt",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:11",
+        "relation": "opposed",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Main profile and direct history / pursuit by Anakin",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:70",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:10",
+        "relation": "opposed",
+        "evidence": [
+          {
+            "sourceId": "profile15-zam-wesell",
+            "locator": "Main profile and direct history / pursuit and capture by Obi-Wan",
+            "note": ""
+          }
+        ]
+      }
+    }
+  ]
+}

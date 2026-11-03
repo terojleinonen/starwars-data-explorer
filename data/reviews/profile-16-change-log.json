@@ -1,0 +1,2089 @@
+{
+  "batch": "PROFILE-16",
+  "checkedAt": "2026-11-03",
+  "changes": [
+    {
+      "recordId": "people:6",
+      "field": "profile",
+      "before": {
+        "id": "people:6",
+        "category": "people",
+        "legacy_id": "6",
+        "slug": "owen-lars",
+        "title": "Owen Lars",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Owen farms on Tatooine with Beru and raises Luke Skywalker after Obi-Wan brings them the infant. Protective of his family, he tries to keep Luke away from danger. Imperial stormtroopers later kill Owen and Beru while searching for the missing droids.",
+        "era": "Lucas + Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "height",
+      "before": {
+        "record_id": "people:6",
+        "key": "height",
+        "value": "178",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "178",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Dimensions / Height 1.78 m converted to 178 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Moisture farmer",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Main profile / explicit farming role",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "guardian_role",
+      "before": null,
+      "after": {
+        "value": "Raises Luke Skywalker with Beru from infancy",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Main profile and direct infant arrival / guardianship",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "step_relationship",
+      "before": null,
+      "after": {
+        "value": "Anakin Skywalker’s stepbrother; Shmi’s stepson",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "First direct history / Cliegg marries Shmi",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Killed with Beru by Imperial stormtroopers at the Lars farm",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Final direct history / droid search and deaths",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "mass",
+      "before": {
+        "record_id": "people:6",
+        "key": "mass",
+        "value": "120",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected sources. Actor measurements, species averages and armor weight do not establish the inherited value."
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:6",
+        "key": "hair_color",
+        "value": "brown, grey",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, image, disguise or species trait does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:6",
+        "key": "skin_color",
+        "value": "light",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established. Lighting, species descriptions, disguise and shape-changing are not an exhaustive fixed personal palette."
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:6",
+        "key": "eye_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established. Species traits, actors and screen images do not certify this individual field."
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:6",
+        "key": "birth_year",
+        "value": "52BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established in the selected references. A clone relationship, historical era or apparent age does not verify the inherited year."
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "gender",
+      "before": {
+        "record_id": "people:6",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected references; pronouns or actor identity alone are not used to certify the field."
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": {
+        "record_id": "people:6",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Appearances / A New Hope",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": {
+        "record_id": "people:6",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": {
+        "record_id": "people:6",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:obi-wan",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Appearances / Obi-Wan Kenobi",
+            "note": ""
+          },
+          {
+            "sourceId": "profile16-owen-beru",
+            "locator": "Reva confrontation / current series context",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": {
+        "record_id": "people:6",
+        "target_id": "planets:1",
+        "relation": "homeworld",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "planets:1",
+        "relation": "homeworld",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen-beru",
+            "locator": "Opening narrative / explicitly both Tatooine natives",
+            "note": "Personal origin; no exact birthplace or date inferred."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:62",
+        "relation": "child_of",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Main and first direct history / father Cliegg",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:43",
+        "relation": "stepson_of",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "First direct history / explicitly stepmother Shmi",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:11",
+        "relation": "stepbrother_of",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "First direct history / explicitly stepbrother Anakin",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:7",
+        "relation": "spouse",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Main profile / explicitly wife Beru",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:1",
+        "relation": "guardian_of",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Main profile and infant-Luke history",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:10",
+        "relation": "entrusted_child_by",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Infant arrival history / Obi-Wan delivers Luke",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:reva",
+        "relation": "opposed",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen-beru",
+            "locator": "Reva confrontation / Owen and Beru defend Luke",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:2",
+        "relation": "purchased",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Droid purchase history / C-3PO",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:6",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:3",
+        "relation": "purchased",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "Droid purchase history / R2-D2",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "profile",
+      "before": {
+        "id": "people:7",
+        "category": "people",
+        "legacy_id": "7",
+        "slug": "beru-whitesun-lars",
+        "title": "Beru Whitesun lars",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Beru farms with Owen Lars and becomes Luke Skywalker’s guardian on Tatooine. She helps protect the boy when Reva attacks their home. Years later Imperial stormtroopers kill the couple during their search for R2-D2 and C-3PO.",
+        "era": "Lucas + Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "height",
+      "before": {
+        "record_id": "people:7",
+        "key": "height",
+        "value": "165",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "165",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Dimensions / Height 1.65 m converted to 165 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "gender",
+      "before": {
+        "record_id": "people:7",
+        "key": "gender",
+        "value": "female",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "female",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Main profile / explicitly described as a young woman",
+            "note": "Textual personal description, not an inference from pronouns."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "official_name",
+      "before": null,
+      "after": {
+        "value": "Beru Lars; earlier named Beru Whitesun",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Official heading and opening narrative / two explicit name forms",
+            "note": "Does not silently rewrite the inherited title or certify its compound styling."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Moisture farmer",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Main profile / explicit farming role",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "guardian_role",
+      "before": null,
+      "after": {
+        "value": "Surrogate mother and guardian to Luke Skywalker",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Main profile / explicit guardianship",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Killed with Owen by Imperial stormtroopers at the Lars farm",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen-beru",
+            "locator": "Final narrative / explicit deaths",
+            "note": "The unseen last fight is not reconstructed."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "mass",
+      "before": {
+        "record_id": "people:7",
+        "key": "mass",
+        "value": "75",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected sources. Actor measurements, species averages and armor weight do not establish the inherited value."
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:7",
+        "key": "hair_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, image, disguise or species trait does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:7",
+        "key": "skin_color",
+        "value": "light",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established. Lighting, species descriptions, disguise and shape-changing are not an exhaustive fixed personal palette."
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:7",
+        "key": "eye_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established. Species traits, actors and screen images do not certify this individual field."
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:7",
+        "key": "birth_year",
+        "value": "47BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established in the selected references. A clone relationship, historical era or apparent age does not verify the inherited year."
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "link",
+      "before": {
+        "record_id": "people:7",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Appearances / A New Hope",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "link",
+      "before": {
+        "record_id": "people:7",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "link",
+      "before": {
+        "record_id": "people:7",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:obi-wan",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Appearances / Obi-Wan Kenobi",
+            "note": ""
+          },
+          {
+            "sourceId": "profile16-owen-beru",
+            "locator": "Reva confrontation / protects Luke",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "link",
+      "before": {
+        "record_id": "people:7",
+        "target_id": "planets:1",
+        "relation": "homeworld",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "planets:1",
+        "relation": "homeworld",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen-beru",
+            "locator": "Opening narrative / explicitly both Tatooine natives",
+            "note": "Personal origin, not an exact birthplace."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:6",
+        "relation": "spouse",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Main profile / marries Owen",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:1",
+        "relation": "guardian_of",
+        "evidence": [
+          {
+            "sourceId": "profile16-beru",
+            "locator": "Main profile / surrogate mother and guardian",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:7",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:reva",
+        "relation": "opposed",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen-beru",
+            "locator": "Reva confrontation / Owen and Beru defend Luke",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "profile",
+      "before": {
+        "id": "people:15",
+        "category": "people",
+        "legacy_id": "15",
+        "slug": "greedo",
+        "title": "Greedo",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Greedo is a Rodian bounty hunter working for Jabba the Hutt. His confrontation with Han Solo in the Mos Eisley cantina ends with Han killing him. The firing sequence depends on the film edition, while a childhood encounter with Anakin belongs to deleted material.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "height",
+      "before": {
+        "record_id": "people:15",
+        "key": "height",
+        "value": "173",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "174",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo",
+            "locator": "Dimensions / Height 1.74 m converted to 174 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:15",
+        "key": "skin_color",
+        "value": "green",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Pea-green",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo",
+            "locator": "Main profile / explicitly pea-green skin",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Rodian",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo",
+            "locator": "Main profile and Species / Rodian",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Bounty hunter employed by Jabba the Hutt",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo",
+            "locator": "Main profile / profession and employer",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Killed by Han Solo in the Mos Eisley cantina",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo-fate",
+            "locator": "Item 2 / Han shoots Greedo through the table and Greedo dies",
+            "note": "Fate does not impose one edition-independent first-shot sequence."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "edition_scope",
+      "before": null,
+      "after": {
+        "value": "Cantina firing order is edition-sensitive — Kasdan interview account",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-kasdans",
+            "locator": "Opening answers / original movie contrasted with revised movie",
+            "note": "Attributed interpretation; no exhaustive later-master inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "deleted_material",
+      "before": null,
+      "after": {
+        "value": "The Phantom Menace childhood fight with Anakin was deleted",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo-deleted",
+            "locator": "Item 7 / explicitly deleted young-Greedo scene",
+            "note": "Not an appearance in the released film."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "mass",
+      "before": {
+        "record_id": "people:15",
+        "key": "mass",
+        "value": "74",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected sources. Actor measurements, species averages and armor weight do not establish the inherited value."
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:15",
+        "key": "hair_color",
+        "value": "n/a",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, image, disguise or species trait does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:15",
+        "key": "eye_color",
+        "value": "black",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established. Species traits, actors and screen images do not certify this individual field."
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:15",
+        "key": "birth_year",
+        "value": "44BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established in the selected references. A clone relationship, historical era or apparent age does not verify the inherited year."
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "gender",
+      "before": {
+        "record_id": "people:15",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected references; pronouns or actor identity alone are not used to certify the field."
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "link",
+      "before": {
+        "record_id": "people:15",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo",
+            "locator": "Appearances / A New Hope",
+            "note": ""
+          },
+          {
+            "sourceId": "profile16-kasdans",
+            "locator": "Opening answers / original and revised cantina scene",
+            "note": "Work-level appearance; firing order remains edition-sensitive."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "link",
+      "before": {
+        "record_id": "people:15",
+        "target_id": "species:4",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:4",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo",
+            "locator": "Species / Rodian",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:1",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo-fate",
+            "locator": "Item 2 / actual Mos Eisley cantina confrontation",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:14",
+        "relation": "killed_by",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo-fate",
+            "locator": "Item 2 / Han shoots Greedo and fatal outcome",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:15",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:16",
+        "relation": "worked_for",
+        "evidence": [
+          {
+            "sourceId": "profile16-greedo",
+            "locator": "Main profile / employed by Jabba",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "profile",
+      "before": {
+        "id": "people:16",
+        "category": "people",
+        "legacy_id": "16",
+        "slug": "jabba-desilijic-tiure",
+        "title": "Jabba Desilijic Tiure",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Jabba the Hutt controls a powerful criminal network from Tatooine. He holds Han Solo captive and rejects efforts to bargain for his release. During the rescue at the Great Pit of Carkoon, Leia turns her chains against him and kills him.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "official_name",
+      "before": null,
+      "after": {
+        "value": "Jabba the Hutt",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Official profile heading",
+            "note": "Long inherited name form remains unestablished, not silently corrected."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Hutt",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Species / Hutt",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "length",
+      "before": null,
+      "after": {
+        "value": "3.9 m",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Dimensions / explicitly Length 3.9 m",
+            "note": "Length, not vertical height or a species average."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Crime lord",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Main profile / criminal-underworld role",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Killed by Leia with her chains during the Carkoon rescue",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Final direct history / Leia’s chain attack",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "appearance_scope",
+      "before": null,
+      "after": {
+        "value": "A New Hope docking-bay scene — restored in the 1997 Special Edition",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba-edition",
+            "locator": "Item 9 Mingo / restored scene absent from original theatrical cut",
+            "note": "Not a 1977 original-cut appearance."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "height",
+      "before": {
+        "record_id": "people:16",
+        "key": "height",
+        "value": "175",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit vertical height established. The published 3.9 m is length and cannot certify or replace the inherited height; raw value retained."
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "mass",
+      "before": {
+        "record_id": "people:16",
+        "key": "mass",
+        "value": "1,358",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected sources. Actor measurements, species averages and armor weight do not establish the inherited value."
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:16",
+        "key": "hair_color",
+        "value": "n/a",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, image, disguise or species trait does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:16",
+        "key": "skin_color",
+        "value": "green-tan, brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established. Lighting, species descriptions, disguise and shape-changing are not an exhaustive fixed personal palette."
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:16",
+        "key": "eye_color",
+        "value": "orange",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established. Species traits, actors and screen images do not certify this individual field."
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:16",
+        "key": "birth_year",
+        "value": "600BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established in the selected references. A clone relationship, historical era or apparent age does not verify the inherited year."
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "gender",
+      "before": {
+        "record_id": "people:16",
+        "key": "gender",
+        "value": "hermaphrodite",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected references; pronouns or actor identity alone are not used to certify the field."
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": {
+        "record_id": "people:16",
+        "target_id": "films:1",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:1",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba-edition",
+            "locator": "Item 9 / Han-Jabba scene restored in the 1997 Special Edition",
+            "note": "Absent from the original theatrical cut; edition-specific link."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": {
+        "record_id": "people:16",
+        "target_id": "films:3",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Appearances / Return of the Jedi and direct rescue history",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": {
+        "record_id": "people:16",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Appearances / The Phantom Menace and direct podrace history",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:clone-wars-film",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "film02-film-clone-film",
+            "locator": "Film-specific official synopsis / rescue of Jabba’s son",
+            "note": ""
+          },
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Direct Rotta history / Anakin and Ahsoka return the child",
+            "note": "Distinct 2008 film context, not inferred from the television label."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": {
+        "record_id": "people:16",
+        "target_id": "species:5",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:5",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Species / Hutt",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:1",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Direct podrace, Mos Eisley and palace histories",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:5",
+        "relation": "killed_by",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Final direct history / Leia’s chains kill Jabba",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:14",
+        "relation": "held_captive",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Direct Return of the Jedi history / carbon-frozen Han",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:22",
+        "relation": "employed",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Direct Return of the Jedi history / Boba delivers Han",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:rotta",
+        "relation": "parent_of",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Direct Clone Wars history / explicitly infant son Rotta",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:11",
+        "relation": "child_returned_by",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Direct Rotta history / Anakin returns the child",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:ahsoka-tano",
+        "relation": "child_returned_by",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Direct Rotta history / Ahsoka returns the child",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "vehicles:24",
+        "relation": "vehicles",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Vehicles / Jabba’s Sail Barge",
+            "note": "Existing type record only; no unique-hull identity or specification review."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:16",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:rancor",
+        "relation": "kept",
+        "evidence": [
+          {
+            "sourceId": "profile16-jabba",
+            "locator": "Direct palace rescue history / Jabba’s unnamed rancor",
+            "note": "A species member; not identified as Muchi or assigned population-average dimensions."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "profile",
+      "before": {
+        "id": "people:43",
+        "category": "people",
+        "legacy_id": "43",
+        "slug": "shmi-skywalker",
+        "title": "Shmi Skywalker",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Shmi raises Anakin Skywalker while enslaved on Tatooine and lets him leave with Qui-Gon to train as a Jedi. Cliegg Lars later frees and marries her. Tusken Raiders abduct her, and Anakin reaches her too late to save her life.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "height",
+      "before": {
+        "record_id": "people:43",
+        "key": "height",
+        "value": "163",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "163",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Dimensions / Height 1.63 m converted to 163 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "gender",
+      "before": {
+        "record_id": "people:43",
+        "key": "gender",
+        "value": "female",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "female",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Main profile / explicitly described as a woman",
+            "note": "Textual personal description; not inferred merely from motherhood or pronouns."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "official_name",
+      "before": null,
+      "after": {
+        "value": "Shmi Skywalker Lars",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Official profile heading",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "family_connection",
+      "before": null,
+      "after": {
+        "value": "Mother of Anakin Skywalker; later wife of Cliegg Lars",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Main profile and second direct history / explicit family relationships",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "emancipation",
+      "before": null,
+      "after": {
+        "value": "Freed from slavery by Cliegg Lars before their marriage",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Second direct history / purchase, freedom and marriage",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Dies after abduction and torture by Tusken Raiders on Tatooine",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Main profile and second direct history / Anakin arrives too late",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "later_portrayal",
+      "before": null,
+      "after": {
+        "value": "The Clone Wars: Overlords — a vision seen by Anakin",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi-vision",
+            "locator": "Synopsis, analysis and Shmi visage / vision portrayal",
+            "note": "Not established as a living visit or a certified Force-spirit mechanism."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "mass",
+      "before": {
+        "record_id": "people:43",
+        "key": "mass",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected sources. Actor measurements, species averages and armor weight do not establish the inherited value."
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:43",
+        "key": "hair_color",
+        "value": "black",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, image, disguise or species trait does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:43",
+        "key": "skin_color",
+        "value": "fair",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established. Lighting, species descriptions, disguise and shape-changing are not an exhaustive fixed personal palette."
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:43",
+        "key": "eye_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established. Species traits, actors and screen images do not certify this individual field."
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:43",
+        "key": "birth_year",
+        "value": "72BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established in the selected references. A clone relationship, historical era or apparent age does not verify the inherited year."
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "link",
+      "before": {
+        "record_id": "people:43",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Appearances / The Phantom Menace",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "link",
+      "before": {
+        "record_id": "people:43",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi-vision",
+            "locator": "Analysis / Shmi’s ghostly visage encountered by Anakin",
+            "note": "Overlords vision portrayal; not a living visit or a certified Force spirit."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:1",
+        "relation": "resided_on",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "First and second direct histories / Mos Espa and Lars farm",
+            "note": "Residence, not independent personal origin."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:11",
+        "relation": "mother_of",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Main profile / mother of Anakin",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:62",
+        "relation": "spouse",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Second direct history / marries Cliegg",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:40",
+        "relation": "enslaved_by",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Second direct history / Cliegg buys her from Watto",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:32",
+        "relation": "met",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "First direct history / Qui-Gon frees Anakin",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:tusken-raiders",
+        "relation": "killed_by",
+        "evidence": [
+          {
+            "sourceId": "profile16-shmi",
+            "locator": "Main profile and second direct history / abduction and fatal torture",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:43",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:6",
+        "relation": "stepmother_of",
+        "evidence": [
+          {
+            "sourceId": "profile16-owen",
+            "locator": "First direct history / explicitly Owen’s stepmother",
+            "note": ""
+          }
+        ]
+      }
+    }
+  ]
+}

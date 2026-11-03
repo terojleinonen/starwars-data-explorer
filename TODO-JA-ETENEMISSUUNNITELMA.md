@@ -1,6 +1,6 @@
 # Star Wars Universe — to-do ja etenemissuunnitelma
 
-Päivitetty 1.11.2026. Tietokannan luvut on päivitetty 1.11.2026. Profiililiitteiden alkuperäinen tilannekuva on 27.10.2026; Mandalorianin kolmannen kauden 18 sekä Rebels-erien 22, 13, 10, 15, 22, 18, 16, 24, 15, 14 ja 15 uutta profiilia on lisätty omiksi liitteikseen. Tämä on projektin yhteinen työjono. Aiemmat eräraportit säilyvät historiallisina tarkastusmuistioina; tämä tiedosto määrittää nykyisen rajauksen ja seuraavat vaiheet.
+Päivitetty 3.11.2026. Tämä on projektin yhteinen työjono ja nykytilan yhteenveto. Aiemmat eräraportit ja jäljempänä olevat päivätyt tilannekuvat säilyvät historiallisina tarkastusmuistioina; tämän tiedoston nykytilataulukko ja viimeinen seuraavan tehtävän osio määrittävät tämänhetkisen tilanteen.
 
 ## 1. Sovittu lopputulos ja rajaukset
 
@@ -17,22 +17,22 @@ Päivitetty 1.11.2026. Tietokannan luvut on päivitetty 1.11.2026. Profiililiitt
 
 ## 2. Nykytilanne ja lukujen tulkinta
 
-| Aineisto | Tilanne 1.11.2026 |
+| Aineisto | Tilanne 3.11.2026 |
 |---|---|
 | Teosvalikoima | 13 elokuvaa ja 11 sarjaa; kaikilla ensimmäinen rajattu tarkastus |
-| Kaikki profiilit | 630 tietuetta; Anakin/Vader-profiilit ovat edelleen erillisiä, joten luku ei ole yksilöiden määrä |
-| Tallennetut faktakentät | 2 906: 840 vahvistettua, 436 arvioitua mutta vahvistamatta, 1 630 vielä tarkastamatta |
-| Elokuvien ja sarjojen nykyiset faktakentät | Kaikki 286 tarkastettu; ei tarkoita täydellistä tietosisältöä |
-| Vanhat tukiprofiilit | 189 ilman omaa profiilitarkastusta ja esittelytekstiä; 65 sai rajatun PROFILE-01–13-tarkastuksen |
-| Vanhat tarkastamattomat kentät | 1 630; näistä 347 on unknown/n/a/none/indefinite-merkintöjä |
-| Uudet tukiprofiilit | 352: lähteistetty esittely ja valittuja yhteyksiä, yhteensä vain 265 erillistä faktakenttää |
-| Teostason suhteet | 2 274 suunnattua riviä: 1 347 tarkastettu, 924 vanhaa tarkastamatta, 3 reference-tilassa |
+| Kaikki profiilit | 696 tietuetta; Anakin/Vader-profiilit ovat edelleen erillisiä, joten luku ei ole yksilöiden määrä |
+| Tallennetut faktakentät | 3 042: 996 vahvistettua, 521 arvioitua mutta vahvistamatta, 1 525 vielä tarkastamatta |
+| Elokuvien ja sarjojen nykyiset faktakentät | Kaikki 287 tarkastettu; ei tarkoita täydellistä tietosisältöä |
+| Vanhat tukiprofiilit | 174 ilman omaa profiilitarkastusta ja esittelytekstiä; 80 sai rajatun PROFILE-01–16-tarkastuksen |
+| Vanhat tarkastamattomat kentät | 1 525; näistä 330 on unknown/n/a/none/indefinite-merkintöjä |
+| Uudet tukiprofiilit | 418: lähteistetty esittely ja valittuja yhteyksiä, yhteensä vain 336 erillistä faktakenttää |
+| Teostason suhteet | 2 628 suunnattua riviä: 1 742 tarkastettu, 883 vanhaa tarkastamatta, 3 reference-tilassa |
 | Tavalliset tuotantokrediitit | 576 valittua krediittiä; kokonaiset lopputekstit eivät ole valmiit |
 | Versiot ja julkaisut | 26 versiota, 82 lähteistettyä julkaisutapahtumaa, 10 versiokohtaista krediittiä |
 | Jaksorekisteri | 151 opaskokonaisuutta / 160 numeroitua osaa viidestä sarjasta |
-| Rajatut jaksotarkastukset | 96; yhteensä 1 202 lähteistettyä jaksoyhteyttä |
+| Rajatut jaksotarkastukset | 114; yhteensä 1 509 lähteistettyä jaksoyhteyttä |
 | Jaksojen kirjoitusroolit | 65 henkilö–rooli-riviä; Mandalorianin 24, Obi-Wanin 6 ja Skeleton Crew’n 8 jakson lopulliset kirjoitusroolit |
-| Lähteet ja viitteet | 862 lähdettä, 6 467 viitettä |
+| Lähteet ja viitteet | 991 lähdettä, 7 860 viitettä |
 | Tutkimusrekisteri | 20 aktiivista avointa ja 15 siirrettyä; lisäksi 6 ratkaistua ja 1 selvennetty |
 
 Näistä ei lasketa koko projektin valmistumisprosenttia: tietokenttä, krediitti, jakso ja julkaisutapahtuma ovat eri yksiköitä. Yhden asian lähde ei vahvista koko profiilia. Sarjatason yhteys ei todista joka jakson esiintymistä. Puuttuva yhteys ei tarkoita poissaoloa.
@@ -74,7 +74,7 @@ Valitse ensimmäiset erät teosten päähenkilöistä, tärkeistä tapahtumapaik
 
 | Ryhmä | Tarkastamatta olevia vanhoja profiileja | Kenttiä | Keskeinen tarkennus |
 |---|---:|---:|---|
-| Hahmot | 51 | 357 | Identiteetti, syntymäaika, mitat ja muut fyysiset ominaisuudet |
+| Hahmot | 36 | 252 | Identiteetti, syntymäaika, mitat ja muut fyysiset ominaisuudet |
 | Maailmat | 47 | 376 | Planeetta/kuu/muu paikka, ilmasto, väkiluku, koko ja kiertoajat |
 | Lajit | 32 | 257 | Luokittelu, kielet, elinikä ja fyysiset ominaisuudet |
 | Avaruusalukset | 25 | 300 | Yksittäinen alus / alusluokka, malli, valmistaja, miehistö ja suoritusarvot |
@@ -84,9 +84,9 @@ Valitse ensimmäiset erät teosten päähenkilöistä, tärkeistä tapahtumapaik
 - [ ] Vahvista jatkuvuus: Canon / Outside canon / vielä arvioimatta. Merkitse Legends-konteksti, kun lähdetieto kuuluu siihen.
 - [ ] Tarkasta jokainen säilytettävä vanha kenttä erikseen. Tuntematon, soveltumaton ja lähteistämätön tieto pidetään erillään.
 - [ ] Jätä vahvistamattomat numerot avoimiksi tai poista ne julkaistavasta faktanäkymästä perustellulla muutoksella. Säilytä alkuperäinen tuonti ja muutoshistoria.
-- [ ] Käy läpi jäljellä olevat 924 vanhaa suunnattua suhderiviä. Yhdistä vastinparien todistusaineisto, älä laske niitä automaattisesti erillisiksi esiintymisiksi.
+- [ ] Käy läpi jäljellä olevat 883 vanhaa suunnattua suhderiviä. Yhdistä vastinparien todistusaineisto, älä laske niitä automaattisesti erillisiksi esiintymisiksi.
 - [ ] Sovita kolme reference-tilassa olevaa yhteyttä yhteen mahdollisen jo tarkastetun vastasuunnan kanssa.
-- [ ] Täydennä 352 uutta tukiprofiilia tarvittaessa erillisillä perustietokentillä. Esittelylähde ei vahvista kaikkia mahdollisia teknisiä tai elämäkerrallisia tietoja.
+- [ ] Täydennä 418 uutta tukiprofiilia tarvittaessa erillisillä perustietokentillä. Esittelylähde ei vahvista kaikkia mahdollisia teknisiä tai elämäkerrallisia tietoja.
 - [ ] Yhdistä näyttelijäkrediitit oikeisiin hahmoprofiileihin vasta henkilöllisyyden ja roolin vahvistamisen jälkeen.
 
 Eräkoko: 5–10 profiilia, yhdestä tai kahdesta samankaltaisesta ryhmästä. Vaikeita lähteettömiä numeroita ei pidetä erän valmistumisen esteenä: niille kirjataan avoin tila.
@@ -108,6 +108,8 @@ Eräkoko: 5–10 profiilia, yhdestä tai kahdesta samankaltaisesta ryhmästä. V
 1.11.2026 PROFILE-12 valmis rajatusti: Mon Mothma, Bib Fortuna, Aayla/Ayla Secura, Eeth Koth ja Poggle the Lesser. Kaikki 35 vanhaa kenttää arvioitu; kahdeksan vahvistettu/korjattu, 27 vahvistamatta, 16 uutta faktaa ja 43 tarkastettua suhdetta. [Eräraportti](docs/reviews/PROFILE-12.md).
 
 1.11.2026 PROFILE-13 valmis rajatusti: AT-AT, AT-ST, Snowspeeder, Imperial Speeder Bike ja Sand Crawler. Kaikki 50 vanhaa kenttää arvioitu; 15 vahvistettu/korjattu, 35 vahvistamatta, 16 uutta faktaa ja 32 tarkastettua suhdetta. [Eräraportti](docs/reviews/PROFILE-13.md).
+
+3.11.2026 PROFILE-14 valmis rajatusti: Jango Fett, Grievous, Bossk, IG-88 ja Lobot. Kaikki 35 vanhaa kenttää arvioitu: kahdeksan vahvistettu/tarkennettu, 27 vahvistamatta, 19 uutta faktaa ja 39 tarkastettua suhdetta. [Eräraportti](docs/reviews/PROFILE-14.md).
 
 ## 6. Vaihe 3 — nykyisten sarjojen jaksot
 
@@ -135,14 +137,15 @@ Eräkoko: 5–10 profiilia, yhdestä tai kahdesta samankaltaisesta ryhmästä. V
 - [x] Rebelsin kauden 3 oppaat 12–17 / kuusi osaa, Ghosts of Geonosis – Through Imperial Eyes: 226 profiilin kohdejoukko, 59 uutta jaksoyhteyttä, 14 tukiprofiilia ja 23 virallista lähdettä. Tekstivirhe/tyhjä kohta, historiallinen kuvitus, etäesitykset ja eri toimistot rajattu. [Eräraportti](docs/reviews/SUPPLEMENT-20.md).
 - [x] Rebelsin kauden 3 viimeiset neljä opasta /viisi osaa, Secret Cargo – Zero Hour: 76 yhteyttä, 15 johdantoa ja 21 lähdettä. [Eräraportti](docs/reviews/SUPPLEMENT-21.md).
 - [x] Rebelsin kauden 4 ensimmäiset viisi opasta /seitsemän osaa, Heroes of Mandalore – Kindred: 78 uutta yhteyttä, 19 johdantoa ja 26 lähdettä. [Eräraportti](docs/reviews/SUPPLEMENT-22.md).
-- [ ] Rebels: jäljellä kahdeksan opaskokonaisuutta / yhdeksän numeroitua osaa valittujen esiintymisten tarkastukseen. Koko rekisteri on 66 opaskokonaisuutta / 75 osaa. Tarkasta yhdistelmäjaksojen osat erikseen vain, jos lähde tukee jakoa.
+- [x] Rebelsin kauden 4 oppaat 8–12, Crawler Commandeers – Wolves and a Door: 66 uutta yhteyttä. [Eräraportti](docs/reviews/SUPPLEMENT-23.md).
+- [x] Rebelsin kolme viimeistä opasta /neljä osaa: A World Between Worlds, A Fool’s Hope ja Family Reunion – and Farewell. 76 uutta yhteyttä; kaikki 66 rekisteröityä opasta /75 osaa on nyt käsitelty rajatusti. [Eräraportti](docs/reviews/SUPPLEMENT-24.md). Aiemmat yksittäiset avoimet tunnistukset säilyvät; yhdistelmäopasta ei jaeta ilman lähdetukea.
 - [ ] Rebels: lopulliset jaksojen kirjoittaja- ja ohjaajaroolit. Lyhyet johdannot ja ABC:n muokattu pilotti pidetään erillisinä kokonaisuuksina.
 - [ ] Bad Batch: 47 jaksoa; kirjoittajat, ohjaajat ja valitut esiintymisyhteydet.
 - [ ] Bad Batch: jaksojen lopulliset musiikkikrediitit ja vastuut. Soundtrackin kappalerooli ei yksin vahvista TV-jakson krediittiä.
 - [ ] Obi-Wan ja Skeleton Crew: täydennä valittua kohdejoukkoa, sivurooleja ja kalustoa tarvittaessa. Nykyiset 14 rajattua jaksotarkastusta säilyvät.
 - [ ] Mandalorian, Obi-Wan ja Skeleton Crew: laajenna muuhun työryhmään; tarkastetut kirjoitusroolit eivät ole täydelliset lopputekstit.
 
-Jäljellä olevat **55 rekisterissä olevaa esiintymistarkastuskokonaisuutta** koostuvat Rebelsin kahdeksasta ja Bad Batchin 47:stä. Luku ei sisällä vielä rekisteristä puuttuvia jaksoja.
+Jäljellä olevat **47 rekisterissä olevaa esiintymistarkastuskokonaisuutta** ovat Bad Batchin jaksoja. Kaikki rekisteröidyt Rebels-oppaat on käsitelty rajatusti. Luku ei sisällä rekisteristä vielä puuttuvia jaksoja tai aiempien erien avoimien kohtausten lisätyötä.
 
 ### 3C. Kuuden muun sarjan jaksorekisterit
 
@@ -217,7 +220,7 @@ Nämä tehtävät säilyvät muistissa, mutta eivät estä rajatun perusarkiston
 2. **Valmis 28.10.2026:** puuttuvien teosten alustava kattavuusluettelo ja USA-linjauksen mukainen tehtävärekisteri. Katso `docs/catalogue/TEOSLUETTELO-01.md`.
 3. **Valmis rajatussa kohdejoukossa 28.10.2026:** Mandalorianin kolmas kausi (8 jaksoa); katso `docs/reviews/SUPPLEMENT-10.md`.
 4. **Valmis rajattuna profiilieränä 28.10.2026:** R5-D4, Tatooine, Coruscant, Naboo ja X-wing. Kaikki 43 vanhaa kenttää arvioitu: 13 vahvistettua/korjattua ja 30 vahvistamatta; lisäksi 7 uutta kenttää. Katso `docs/reviews/PROFILE-01.md`.
-5. **Valmis rajatussa kohdejoukossa 28.10.2026:** Rebelsin ensimmäiset viisi opaskokonaisuutta (6 numeroitua osaa): Spark of Rebellion, Droids in Distress, Fighter Flight, Rise of the Old Masters ja Breaking Ranks. Katso `docs/reviews/SUPPLEMENT-11.md`. **Valmis rajattuna profiilieränä 28.10.2026:** Obi-Wan Kenobi, Luminara Unduli, C-3PO, R2-D2 ja Bail Organa (PROFILE-02): 35 vanhaa kenttää arvioitu, 6 vahvistettua/korjattua, 29 vahvistamatta sekä 11 uutta kenttää. Katso `docs/reviews/PROFILE-02.md`. **Valmis rajatussa kohdejoukossa 28.10.2026:** Rebelsin seuraavat viisi opaskokonaisuutta, Out of Darkness – Idiot’s Array (SUPPLEMENT-12). **Valmis rajattuna profiilieränä 28.10.2026:** Lando Calrissian, Yoda, Palpatine, Han Solo ja Chewbacca (PROFILE-03): 35 vanhaa kenttää arvioitu, 5 vahvistettua/korjattua, 30 vahvistamatta ja 11 uutta kenttää. Katso `docs/reviews/PROFILE-03.md`. **Valmis rajatussa kohdejoukossa 28.10.2026:** Rebelsin ensimmäisen kauden neljä viimeistä opasta, Vision of Hope – Fire Across the Galaxy (SUPPLEMENT-13): 81 profiilin kohdejoukko, 70 yhteyttä ja 10 tukiprofiilia. Ensimmäinen kausi on nyt käsitelty rajatusti (14 opasta / 15 osaa / 217 yhteyttä). Katso `docs/reviews/SUPPLEMENT-13.md`. **Valmis rajattuna profiilieränä 28.10.2026:** Luke Skywalker, Leia Organa, Anakin Skywalker, Darth Vader ja Wilhuff Tarkin (PROFILE-04): 35 vanhaa kenttää arvioitu, viisi vahvistettua/korjattua, 30 vahvistamatta sekä 17 uutta faktaa ja 69 tarkastettua yhteyttä. Anakin/Vader ovat saman henkilön kaksi vanhaa profiilia. Katso `docs/reviews/PROFILE-04.md`. **Valmis rajatussa kohdejoukossa 29.10.2026:** Rebelsin toisen kauden ensimmäiset viisi opasta, The Siege of Lothal (osat 1–2) – Brothers of the Broken Horn (SUPPLEMENT-14): 100 profiilin kohdejoukko, 80 yhteyttä, 15 tukiprofiilia ja 22 uutta virallista lähdettä. Katso `docs/reviews/SUPPLEMENT-14.md`. **Valmis rajattuna profiilieränä 29.10.2026:** Padmé Amidala, Qui-Gon Jinn, Mace Windu, Dooku ja Darth Maul (PROFILE-05): 35 vanhaa kenttää arvioitu, viisi pituutta vahvistettu/päivitetty, 30 kenttää vahvistamatta sekä 14 uutta faktaa ja 45 tarkastettua yhteyttä. Katso `docs/reviews/PROFILE-05.md`. **Valmis rajatussa kohdejoukossa 29.10.2026:** Rebelsin kauden 2 oppaat 7–11, Wings of the Master – Legacy (SUPPLEMENT-15): 124 profiilin kohdejoukko, 80 yhteyttä, 22 tukiprofiilia ja 29 uutta virallista lähdettä. Kaksi näkyä, yksi etäyhteys ja Bailin avoin esitystapa erotettu. Katso `docs/reviews/SUPPLEMENT-15.md`. **Valmis rajattuna profiilieränä 29.10.2026:** Alderaan, Hoth, Dagobah, Bespin ja Endor (PROFILE-06): 40 vanhaa kenttää arvioitu, seitsemän vahvistettu/päivitetty, 33 vahvistamatta, 11 uutta faktaa ja 19 tarkastettua yhteyttä. Katso `docs/reviews/PROFILE-06.md`. **Valmis rajatussa kohdejoukossa 29.10.2026:** Rebelsin kauden 2 oppaat 12–16, A Princess on Lothal – Homecoming (SUPPLEMENT-16): 148 profiilin kohdejoukko, 66 tarkastettua yhteyttä (64 uutta ja kaksi aiempaa tarkennettu), 18 uutta tukiprofiilia, Nixusin lähderajauksen lisäys ja 29 uutta virallista lähdettä. Katso `docs/reviews/SUPPLEMENT-16.md`. **Valmis rajattuna profiilieränä 30.10.2026:** Millennium Falcon, Star Destroyer, Death Star, Imperial shuttle ja Executor (PROFILE-07): 60 vanhaa kenttää arvioitu, 14 vahvistettu/päivitetty, 46 vahvistamatta, 15 uutta kenttää ja 39 tarkastettua yhteyttä. Katso `docs/reviews/PROFILE-07.md`. **Valmis rajatussa kohdejoukossa 30.10.2026:** Rebelsin kauden 2 viimeiset viisi opasta / kuusi numeroitua osaa, The Honorable Ones – Twilight of the Apprentice (SUPPLEMENT-17): 165 profiilin kohdejoukko, 71 uutta jaksoyhteyttä, 16 tukiprofiilia, 26 virallista lähdettä ja 194 lisäviitettä. Koko toinen kausi on nyt käsitelty rajatusti: 20 opasta / 22 osaa / 297 yhteyttä. Katso `docs/reviews/SUPPLEMENT-17.md`. **Valmis rajattuna profiilieränä 30.10.2026:** Y-wing, A-wing, TIE Advanced x1, Slave 1 ja Naboo Royal Starship (PROFILE-08): 60 vanhaa kenttää arvioitu, 11 vahvistettu/päivitetty, 49 vahvistamatta, 20 uutta kenttää ja 35 tarkastettua yhteyttä. Katso `docs/reviews/PROFILE-08.md`. **Valmis rajatussa kohdejoukossa 30.10.2026:** Rebelsin kolmannen kauden viisi ensimmäistä opasta / kuusi osaa, Steps Into Shadow – The Last Battle (SUPPLEMENT-18): 82 uutta jaksoyhteyttä, 24 tukiprofiilia, 33 lähdettä ja 274 lisäviitettä. Katso `docs/reviews/SUPPLEMENT-18.md`. **Valmis rajattuna profiilieränä 30.10.2026:** Biggs Darklighter, Wedge Antilles, Jek Tono Porkins, Ackbar ja Nien Nunb (PROFILE-09): 35 vanhaa kenttää arvioitu, viisi pituutta vahvistettu, 30 vahvistamatta, 16 uutta faktaa ja 36 tarkastettua yhteyttä. Katso `docs/reviews/PROFILE-09.md`. **Valmis rajatussa kohdejoukossa 31.10.2026:** Rebelsin kauden 3 oppaat 7–11, Imperial Super Commandos – Visions and Voices (SUPPLEMENT-19): 65 jaksoyhteyttä, 15 tukiprofiilia, 24 lähdettä ja 199 lisäviitettä. Katso `docs/reviews/SUPPLEMENT-19.md`. **Valmis rajattuna profiilieränä 31.10.2026:** Corellia, Mon Cala, Sullust, Dathomir ja Concord Dawn (PROFILE-10): 40 vanhaa kenttää arvioitu, neljä kuvailevaa kenttää vahvistettu/korjattu, 36 vahvistamatta, 14 uutta faktaa, 24 tarkastettua yhteyttä, 11 lähdettä ja 107 viitettä. Katso `docs/reviews/PROFILE-10.md`. **Valmis rajatussa kohdejoukossa 31.10.2026:** Rebelsin kauden 3 viisi opasta / kuusi osaa Ghosts of Geonosis – Through Imperial Eyes (SUPPLEMENT-20): 59 jaksoyhteyttä, 14 tukiprofiilia, 23 lähdettä ja 191 lisäviitettä. Katso `docs/reviews/SUPPLEMENT-20.md`. **Valmis rajattuna profiilieränä 31.10.2026:** Geonosian, Mon Calamari, Sullustan, Zabrak ja Twi’lek (PROFILE-11): 40 vanhaa kenttää arvioitu, yhdeksän vahvistettu/korjattu, 31 vahvistamatta, 14 uutta faktaa, 38 tarkastettua yhteyttä, 13 lähdettä ja 119 viitettä. Katso `docs/reviews/PROFILE-11.md`. **Valmis rajatussa kohdejoukossa 31.10.2026:** Rebelsin kauden 3 viimeiset neljä opasta Secret Cargo, Double Agent Droid, Twin Suns ja Zero Hour (SUPPLEMENT-21, osat 18–22): 76 jaksoyhteyttä, 15 johdantoprofiilia, 21 lähdettä ja 213 lisäviitettä. Kaikki kauden 19 opasta on käsitelty rajatusti. Katso `docs/reviews/SUPPLEMENT-21.md`. **Valmis rajattuna profiilieränä 1.11.2026:** Mon Mothma, Bib Fortuna, Aayla Secura (vanha Ayla-tietue), Eeth Koth ja Poggle the Lesser (PROFILE-12): 35 kenttää arvioitu, kahdeksan vahvistettu/korjattu, 27 vahvistamatta, 16 uutta faktaa, 43 tarkastettua suhdetta, viisi uutta lähdettä ja 112 viitettä. Katso `docs/reviews/PROFILE-12.md`. **Valmis rajatussa kohdejoukossa 1.11.2026:** Heroes of Mandalore – Kindred (SUPPLEMENT-22), viisi opasta /seitsemän osaa: 78 jaksoyhteyttä, 19 johdantoprofiilia, 26 lähdettä ja 247 lisäviitettä. Katso `docs/reviews/SUPPLEMENT-22.md`. **Valmis rajattuna profiilieränä 1.11.2026:** AT-AT, AT-ST, Snowspeeder, Imperial Speeder Bike ja Sand Crawler (PROFILE-13): kaikki 50 vanhaa kenttää arvioitu, 15 vahvistettu/korjattu, 35 vahvistamatta, 16 uutta faktaa, 32 tarkastettua suhdetta, 11 lähdettä ja 127 viitettä. Katso `docs/reviews/PROFILE-13.md`. **Seuraava tehtävä: SUPPLEMENT-23**, Crawler Commandeers – Wolves and a Door, viisi Rebelsin kauden 4 opasta /osat 8–12. Vuorotellaan edelleen profiileja ja Rebels/Bad Batch -jaksoja.
+5. **Valmis rajatussa kohdejoukossa 28.10.2026:** Rebelsin ensimmäiset viisi opaskokonaisuutta (6 numeroitua osaa): Spark of Rebellion, Droids in Distress, Fighter Flight, Rise of the Old Masters ja Breaking Ranks. Katso `docs/reviews/SUPPLEMENT-11.md`. **Valmis rajattuna profiilieränä 28.10.2026:** Obi-Wan Kenobi, Luminara Unduli, C-3PO, R2-D2 ja Bail Organa (PROFILE-02): 35 vanhaa kenttää arvioitu, 6 vahvistettua/korjattua, 29 vahvistamatta sekä 11 uutta kenttää. Katso `docs/reviews/PROFILE-02.md`. **Valmis rajatussa kohdejoukossa 28.10.2026:** Rebelsin seuraavat viisi opaskokonaisuutta, Out of Darkness – Idiot’s Array (SUPPLEMENT-12). **Valmis rajattuna profiilieränä 28.10.2026:** Lando Calrissian, Yoda, Palpatine, Han Solo ja Chewbacca (PROFILE-03): 35 vanhaa kenttää arvioitu, 5 vahvistettua/korjattua, 30 vahvistamatta ja 11 uutta kenttää. Katso `docs/reviews/PROFILE-03.md`. **Valmis rajatussa kohdejoukossa 28.10.2026:** Rebelsin ensimmäisen kauden neljä viimeistä opasta, Vision of Hope – Fire Across the Galaxy (SUPPLEMENT-13): 81 profiilin kohdejoukko, 70 yhteyttä ja 10 tukiprofiilia. Ensimmäinen kausi on nyt käsitelty rajatusti (14 opasta / 15 osaa / 217 yhteyttä). Katso `docs/reviews/SUPPLEMENT-13.md`. **Valmis rajattuna profiilieränä 28.10.2026:** Luke Skywalker, Leia Organa, Anakin Skywalker, Darth Vader ja Wilhuff Tarkin (PROFILE-04): 35 vanhaa kenttää arvioitu, viisi vahvistettua/korjattua, 30 vahvistamatta sekä 17 uutta faktaa ja 69 tarkastettua yhteyttä. Anakin/Vader ovat saman henkilön kaksi vanhaa profiilia. Katso `docs/reviews/PROFILE-04.md`. **Valmis rajatussa kohdejoukossa 29.10.2026:** Rebelsin toisen kauden ensimmäiset viisi opasta, The Siege of Lothal (osat 1–2) – Brothers of the Broken Horn (SUPPLEMENT-14): 100 profiilin kohdejoukko, 80 yhteyttä, 15 tukiprofiilia ja 22 uutta virallista lähdettä. Katso `docs/reviews/SUPPLEMENT-14.md`. **Valmis rajattuna profiilieränä 29.10.2026:** Padmé Amidala, Qui-Gon Jinn, Mace Windu, Dooku ja Darth Maul (PROFILE-05): 35 vanhaa kenttää arvioitu, viisi pituutta vahvistettu/päivitetty, 30 kenttää vahvistamatta sekä 14 uutta faktaa ja 45 tarkastettua yhteyttä. Katso `docs/reviews/PROFILE-05.md`. **Valmis rajatussa kohdejoukossa 29.10.2026:** Rebelsin kauden 2 oppaat 7–11, Wings of the Master – Legacy (SUPPLEMENT-15): 124 profiilin kohdejoukko, 80 yhteyttä, 22 tukiprofiilia ja 29 uutta virallista lähdettä. Kaksi näkyä, yksi etäyhteys ja Bailin avoin esitystapa erotettu. Katso `docs/reviews/SUPPLEMENT-15.md`. **Valmis rajattuna profiilieränä 29.10.2026:** Alderaan, Hoth, Dagobah, Bespin ja Endor (PROFILE-06): 40 vanhaa kenttää arvioitu, seitsemän vahvistettu/päivitetty, 33 vahvistamatta, 11 uutta faktaa ja 19 tarkastettua yhteyttä. Katso `docs/reviews/PROFILE-06.md`. **Valmis rajatussa kohdejoukossa 29.10.2026:** Rebelsin kauden 2 oppaat 12–16, A Princess on Lothal – Homecoming (SUPPLEMENT-16): 148 profiilin kohdejoukko, 66 tarkastettua yhteyttä (64 uutta ja kaksi aiempaa tarkennettu), 18 uutta tukiprofiilia, Nixusin lähderajauksen lisäys ja 29 uutta virallista lähdettä. Katso `docs/reviews/SUPPLEMENT-16.md`. **Valmis rajattuna profiilieränä 30.10.2026:** Millennium Falcon, Star Destroyer, Death Star, Imperial shuttle ja Executor (PROFILE-07): 60 vanhaa kenttää arvioitu, 14 vahvistettu/päivitetty, 46 vahvistamatta, 15 uutta kenttää ja 39 tarkastettua yhteyttä. Katso `docs/reviews/PROFILE-07.md`. **Valmis rajatussa kohdejoukossa 30.10.2026:** Rebelsin kauden 2 viimeiset viisi opasta / kuusi numeroitua osaa, The Honorable Ones – Twilight of the Apprentice (SUPPLEMENT-17): 165 profiilin kohdejoukko, 71 uutta jaksoyhteyttä, 16 tukiprofiilia, 26 virallista lähdettä ja 194 lisäviitettä. Koko toinen kausi on nyt käsitelty rajatusti: 20 opasta / 22 osaa / 297 yhteyttä. Katso `docs/reviews/SUPPLEMENT-17.md`. **Valmis rajattuna profiilieränä 30.10.2026:** Y-wing, A-wing, TIE Advanced x1, Slave 1 ja Naboo Royal Starship (PROFILE-08): 60 vanhaa kenttää arvioitu, 11 vahvistettu/päivitetty, 49 vahvistamatta, 20 uutta kenttää ja 35 tarkastettua yhteyttä. Katso `docs/reviews/PROFILE-08.md`. **Valmis rajatussa kohdejoukossa 30.10.2026:** Rebelsin kolmannen kauden viisi ensimmäistä opasta / kuusi osaa, Steps Into Shadow – The Last Battle (SUPPLEMENT-18): 82 uutta jaksoyhteyttä, 24 tukiprofiilia, 33 lähdettä ja 274 lisäviitettä. Katso `docs/reviews/SUPPLEMENT-18.md`. **Valmis rajattuna profiilieränä 30.10.2026:** Biggs Darklighter, Wedge Antilles, Jek Tono Porkins, Ackbar ja Nien Nunb (PROFILE-09): 35 vanhaa kenttää arvioitu, viisi pituutta vahvistettu, 30 vahvistamatta, 16 uutta faktaa ja 36 tarkastettua yhteyttä. Katso `docs/reviews/PROFILE-09.md`. **Valmis rajatussa kohdejoukossa 31.10.2026:** Rebelsin kauden 3 oppaat 7–11, Imperial Super Commandos – Visions and Voices (SUPPLEMENT-19): 65 jaksoyhteyttä, 15 tukiprofiilia, 24 lähdettä ja 199 lisäviitettä. Katso `docs/reviews/SUPPLEMENT-19.md`. **Valmis rajattuna profiilieränä 31.10.2026:** Corellia, Mon Cala, Sullust, Dathomir ja Concord Dawn (PROFILE-10): 40 vanhaa kenttää arvioitu, neljä kuvailevaa kenttää vahvistettu/korjattu, 36 vahvistamatta, 14 uutta faktaa, 24 tarkastettua yhteyttä, 11 lähdettä ja 107 viitettä. Katso `docs/reviews/PROFILE-10.md`. **Valmis rajatussa kohdejoukossa 31.10.2026:** Rebelsin kauden 3 viisi opasta / kuusi osaa Ghosts of Geonosis – Through Imperial Eyes (SUPPLEMENT-20): 59 jaksoyhteyttä, 14 tukiprofiilia, 23 lähdettä ja 191 lisäviitettä. Katso `docs/reviews/SUPPLEMENT-20.md`. **Valmis rajattuna profiilieränä 31.10.2026:** Geonosian, Mon Calamari, Sullustan, Zabrak ja Twi’lek (PROFILE-11): 40 vanhaa kenttää arvioitu, yhdeksän vahvistettu/korjattu, 31 vahvistamatta, 14 uutta faktaa, 38 tarkastettua yhteyttä, 13 lähdettä ja 119 viitettä. Katso `docs/reviews/PROFILE-11.md`. **Valmis rajatussa kohdejoukossa 31.10.2026:** Rebelsin kauden 3 viimeiset neljä opasta Secret Cargo, Double Agent Droid, Twin Suns ja Zero Hour (SUPPLEMENT-21, osat 18–22): 76 jaksoyhteyttä, 15 johdantoprofiilia, 21 lähdettä ja 213 lisäviitettä. Kaikki kauden 19 opasta on käsitelty rajatusti. Katso `docs/reviews/SUPPLEMENT-21.md`. **Valmis rajattuna profiilieränä 1.11.2026:** Mon Mothma, Bib Fortuna, Aayla Secura (vanha Ayla-tietue), Eeth Koth ja Poggle the Lesser (PROFILE-12): 35 kenttää arvioitu, kahdeksan vahvistettu/korjattu, 27 vahvistamatta, 16 uutta faktaa, 43 tarkastettua suhdetta, viisi uutta lähdettä ja 112 viitettä. Katso `docs/reviews/PROFILE-12.md`. **Valmis rajatussa kohdejoukossa 1.11.2026:** Heroes of Mandalore – Kindred (SUPPLEMENT-22), viisi opasta /seitsemän osaa: 78 jaksoyhteyttä, 19 johdantoprofiilia, 26 lähdettä ja 247 lisäviitettä. Katso `docs/reviews/SUPPLEMENT-22.md`. **Valmis rajattuna profiilieränä 1.11.2026:** AT-AT, AT-ST, Snowspeeder, Imperial Speeder Bike ja Sand Crawler (PROFILE-13): kaikki 50 vanhaa kenttää arvioitu, 15 vahvistettu/korjattu, 35 vahvistamatta, 16 uutta faktaa, 32 tarkastettua suhdetta, 11 lähdettä ja 127 viitettä. Katso `docs/reviews/PROFILE-13.md`. **Valmis rajatussa kohdejoukossa 3.11.2026:** Crawler Commandeers – Wolves and a Door (SUPPLEMENT-23), viisi opasta /osat 8–12: 66 uutta jaksoyhteyttä, 12 johdantoa, 14 lisäfaktaa, 21 lähdettä ja 208 viitettä. Katso `docs/reviews/SUPPLEMENT-23.md`. **Valmis rajattuna profiilieränä 3.11.2026:** Jango Fett, Grievous, Bossk, IG-88 ja Lobot (PROFILE-14): 35 kenttää arvioitu, kahdeksan vahvistettu/tarkennettu, 27 vahvistamatta, 19 uutta faktaa, 39 suhdetta, 10 lähdettä ja 114 viitettä. Katso `docs/reviews/PROFILE-14.md`. **Valmis rajatussa kohdejoukossa 3.11.2026:** kolme viimeistä Rebels-opasta /neljä osaa (SUPPLEMENT-24): 76 jaksoyhteyttä, kahdeksan johdantoa, 12 lisäfaktaa, 14 lähdettä ja 186 viitettä. Kaikki 66 rekisteröityä Rebels-opasta on käsitelty rajatusti. Katso `docs/reviews/SUPPLEMENT-24.md`. **Valmis rajattuna profiilieränä 3.11.2026:** Boba Fett, Lama Su, Taun We, Shaak Ti ja Zam Wesell (PROFILE-15): 35 kenttää arvioitu, viisi pituutta vahvistettu/korjattu, 30 vahvistamatta, 21 uutta faktaa, 48 suhdetta, kahdeksan uutta lähdettä ja 121 viitettä. Katso `docs/reviews/PROFILE-15.md`. **Valmis rajatussa kohdejoukossa 3.11.2026:** Bad Batchin ensimmäiset viisi jaksoa (SUPPLEMENT-25): 82 jaksoyhteyttä, 25 johdantoprofiilia ja faktaa, 35 lähdettä ja 337 lisäviitettä. Katso `docs/reviews/SUPPLEMENT-25.md`. **Valmis rajattuna profiilieränä 3.11.2026:** Owen, Beru, Greedo, Jabba ja Shmi (PROFILE-16): 35 vanhaa kenttää arvioitu, seitsemän vahvistettu/korjattu, 28 vahvistamatta, 24 uutta faktaa, 53 suhdetta, 11 lähdettä ja 135 viitettä. Katso `docs/reviews/PROFILE-16.md`. **Seuraava tehtävä: SUPPLEMENT-26**, Bad Batchin jaksot 6–10. Vuorotellaan edelleen profiileja ja Rebels/Bad Batch -jaksoja.
 6. Lisää puuttuvia teoksia 3–5 teoksen erissä luettelon prioriteetin mukaan; tee kuuden puuttuvan sarjarekisterin jaksotyö kausi kerrallaan.
 7. Käsittele kesto- ja versioristiriidat erillisinä pieninä tutkimuserinä.
 8. Tee julkaisuvalmiuden katselmus, kun keskeinen teosluettelo ja tärkeimmät profiilit täyttävät yhteisen hyväksymiskäytännön.
@@ -843,7 +846,7 @@ Viisi olemassa ollutta tietuetta säilyi nimineen ja ID:ineen. Nykyiset virallis
 - [ ] Padmén vanhat H-type yacht / star skiff -kytkennät, Qui-Gonin bongo ja Maulin Scimitar-erisnimen vastaavuus tarvitsevat omat tarkennuksensa. Yleinen samankaltainen alustyyppi ei yksin ratkaise nimeä tai yksilöä.
 - [ ] Qui-Gonin ja Macen muut elokuvaääniesiintymiset: erillinen nimetty todiste ja ääni-/kuvakonteksti ennen uusia yhteyksiä. Puuttuva linkki ei tarkoita poissaoloa.
 
-Rebelsin kauden 2 oppaat 7–11 on tämän jälkeen käsitelty SUPPLEMENT-15-erässä. PROFILE-06-maailmaerä on myös valmis; Rebels-erä 12–16 on myös valmis. PROFILE-07-aluserä on myös valmis; SUPPLEMENT-17 on myös valmis; PROFILE-08 on myös valmis; SUPPLEMENT-18 on myös valmis; SUPPLEMENT-19 on myös valmis; PROFILE-10 on myös valmis; SUPPLEMENT-20 on myös valmis; PROFILE-11 on myös valmis; SUPPLEMENT-21 on myös valmis; PROFILE-12 on myös valmis; SUPPLEMENT-22 on myös valmis; PROFILE-13 on myös valmis; nykyinen seuraava tehtävä on kohdan 11 SUPPLEMENT-23. Uusia päivämääräkalentereita ei avata sivutyönä.
+Rebelsin kauden 2 oppaat 7–11 on tämän jälkeen käsitelty SUPPLEMENT-15-erässä. PROFILE-06-maailmaerä on myös valmis; Rebels-erä 12–16 on myös valmis. PROFILE-07-aluserä on myös valmis; SUPPLEMENT-17 on myös valmis; PROFILE-08 on myös valmis; SUPPLEMENT-18 on myös valmis; SUPPLEMENT-19 on myös valmis; PROFILE-10 on myös valmis; SUPPLEMENT-20 on myös valmis; PROFILE-11 on myös valmis; SUPPLEMENT-21 on myös valmis; PROFILE-12 on myös valmis; SUPPLEMENT-22 on myös valmis; PROFILE-13 on myös valmis; SUPPLEMENT-23 on myös valmis; PROFILE-14 on myös valmis; SUPPLEMENT-24 on myös valmis; PROFILE-15 on myös valmis; SUPPLEMENT-25 on myös valmis; PROFILE-16 on myös valmis; SUPPLEMENT-26 on valmis; nykyinen seuraava tehtävä on viimeisen osion PROFILE-17. Uusia päivämääräkalentereita ei avata sivutyönä.
 
 
 ## SUPPLEMENT-15 — Rebelsin kauden 2 oppaiden 7–11 tukiprofiilit, 29.10.2026
@@ -898,7 +901,7 @@ Alderaan, Hoth, Dagobah, Bespin ja Endor: 40 vanhaa kenttää arvioitu (seitsem�
 - [ ] Cloud car -nimen täsmällinen Storm IV -mallivastaavuus tarvitsee oman lähteen ennen vanhan ajoneuvon yhteyden vahvistamista.
 - [ ] Jäljellä olevat numerot ja ilmastot: mahdollinen tarkka lähde, jatkuvuus ja mittauksen kohde; avoin arvo ei tarkoita nollaa tai osoitettua virhettä.
 
-Rebelsin kauden 2 oppaat 12–16 (A Princess on Lothal – Homecoming) on tämän jälkeen käsitelty SUPPLEMENT-16-erässä. SUPPLEMENT-18:n aloituserä on myös valmis. Nykyinen jono: kahdeksan Rebels-opasta / yhdeksän osaa ja 47 Bad Batch -jaksoa; SUPPLEMENT-19 on valmis ja PROFILE-10 on valmis; SUPPLEMENT-20 on valmis ja PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; seuraava tehtävä on SUPPLEMENT-23 (ks. kohta 11). Alkuperäisen USA-julkaisun rajaus säilyy.
+Rebelsin kauden 2 oppaat 12–16 (A Princess on Lothal – Homecoming) on tämän jälkeen käsitelty SUPPLEMENT-16-erässä. SUPPLEMENT-18:n aloituserä on myös valmis. Nykyinen jono: kolme Rebels-opasta / neljä osaa ja 47 Bad Batch -jaksoa; SUPPLEMENT-19 on valmis ja PROFILE-10 on valmis; SUPPLEMENT-20 on valmis ja PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; SUPPLEMENT-23 on valmis; PROFILE-14 on valmis; SUPPLEMENT-24 on valmis; PROFILE-15 on valmis; SUPPLEMENT-25 on valmis; PROFILE-16 on valmis; SUPPLEMENT-26 on valmis; seuraava tehtävä on PROFILE-17 (ks. viimeinen osio). Alkuperäisen USA-julkaisun rajaus säilyy.
 
 
 ## SUPPLEMENT-16 — Rebelsin kauden 2 oppaat 12–16, 29.10.2026
@@ -952,7 +955,7 @@ Millennium Falcon, Star Destroyer, Death Star, Imperial shuttle ja Executor. 60 
 - [ ] Tarkat Imperial I/II-, Lambda T-4a- ja Executor-luokkamallit sekä valmistajaerittelyt täsmälähteistä; yleisen perheen dimensiot eivät ratkaise alatyyppiä.
 - [ ] Muut avoimet kustannus-, kapasiteetti-, nopeus-, kulutus- ja hyperajotiedot. Falconin valmistajaviitteenä on virallisen lifestyle-artikkelin nimenomainen johdantolause, ei tekninen tietolehti; vahvempi tekninen lisälähde on mahdollinen jatkotäydennys.
 
-SUPPLEMENT-17 on nyt tehty: The Honorable Ones – Twilight of the Apprentice, kauden 2 oppaat 17–21 / numeroidut osat 17–22. Finaali säilyy yhtenä yhdistelmäoppaana. SUPPLEMENT-18:n aloituserä on myös valmis. Nykyinen jono: kahdeksan Rebels-opasta / yhdeksän osaa ja 47 Bad Batch -jaksoa; SUPPLEMENT-19 on valmis ja PROFILE-10 on valmis; SUPPLEMENT-20 on valmis ja PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; seuraava tehtävä on SUPPLEMENT-23 (ks. kohta 11). Alkuperäisen USA-julkaisun rajaus säilyy.
+SUPPLEMENT-17 on nyt tehty: The Honorable Ones – Twilight of the Apprentice, kauden 2 oppaat 17–21 / numeroidut osat 17–22. Finaali säilyy yhtenä yhdistelmäoppaana. SUPPLEMENT-18:n aloituserä on myös valmis. Nykyinen jono: kolme Rebels-opasta / neljä osaa ja 47 Bad Batch -jaksoa; SUPPLEMENT-19 on valmis ja PROFILE-10 on valmis; SUPPLEMENT-20 on valmis ja PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; SUPPLEMENT-23 on valmis; PROFILE-14 on valmis; SUPPLEMENT-24 on valmis; PROFILE-15 on valmis; SUPPLEMENT-25 on valmis; PROFILE-16 on valmis; SUPPLEMENT-26 on valmis; seuraava tehtävä on PROFILE-17 (ks. viimeinen osio). Alkuperäisen USA-julkaisun rajaus säilyy.
 
 
 ## SUPPLEMENT-17 — Rebelsin toisen kauden loppu, 30.10.2026
@@ -990,7 +993,7 @@ Viisi opasta / kuusi numeroitua osaa, 165 profiilin kohdejoukko, 71 uutta jaksoy
 - [ ] Finaalin TIE-alusten tarkat tyypit/yksilöt ja mahdollisen convorin nimetty identiteetti vain omalla kohtausnäytöllä. Ei myöhempien tietojen siirtoa tai prototyyppien yhdistämistä.
 - [ ] Yhdistelmäoppaan osakohtainen erottelu vasta lähteen tukiessa sitä; nykyiset 17 finaaliyhteyttä koskevat kokonaisuutta 21–22.
 
-PROFILE-08 on nyt valmis. SUPPLEMENT-18:n aloituserä on myös valmis. Nykyinen jono: kahdeksan Rebels-opasta / yhdeksän osaa ja 47 Bad Batch -jaksoa; SUPPLEMENT-19 on valmis ja PROFILE-10 on valmis; SUPPLEMENT-20 on valmis ja PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; seuraava tehtävä on SUPPLEMENT-23 (ks. kohta 11). Alkuperäisen USA-julkaisun rajaus säilyy.
+PROFILE-08 on nyt valmis. SUPPLEMENT-18:n aloituserä on myös valmis. Nykyinen jono: kolme Rebels-opasta / neljä osaa ja 47 Bad Batch -jaksoa; SUPPLEMENT-19 on valmis ja PROFILE-10 on valmis; SUPPLEMENT-20 on valmis ja PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; SUPPLEMENT-23 on valmis; PROFILE-14 on valmis; SUPPLEMENT-24 on valmis; PROFILE-15 on valmis; SUPPLEMENT-25 on valmis; PROFILE-16 on valmis; SUPPLEMENT-26 on valmis; seuraava tehtävä on PROFILE-17 (ks. viimeinen osio). Alkuperäisen USA-julkaisun rajaus säilyy.
 
 
 ## PROFILE-08 — viisi vanhaa alusprofiilia, 30.10.2026
@@ -1009,7 +1012,7 @@ Y-wing, A-wing, TIE Advanced x1, Slave 1 ja Naboo Royal Starship: 60 vanhaa kent
 - [ ] Naboon kuninkaallisen aluksen tarkka valmistajayhdistelmä ja yacht-luokka sekä kaikkien viiden profiilin avoimet kapasiteetti-/suoritusarvot. Y-wingin `1000km` jää alkuperäisessä muodossa talteen, ei km/h-korjauksena.
 - [ ] Fettin aluksen historiagallerian kolme viimeistä kuvatekstiä tarvittaessa erillisenä lisätutkimuksena; tässä erässä ei väitetä niitä luetuiksi. Aurra ja muut puuttuvat tukiprofiilit tarvittaessa erikseen.
 
-Edellä kuvattu Rebelsin kolmannen kauden aloituserä on tehty SUPPLEMENT-18:ssa. PROFILE-09 ja SUPPLEMENT-19 ovat myös valmiit; PROFILE-10 on valmis; SUPPLEMENT-20 on valmis; PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; seuraavaksi SUPPLEMENT-23 (ks. kohta 11). Nykyinen jono: kahdeksan Rebels-opasta / yhdeksän osaa ja 47 Bad Batch -jaksoa. Alkuperäisen USA-julkaisun rajaus säilyy.
+Edellä kuvattu Rebelsin kolmannen kauden aloituserä on tehty SUPPLEMENT-18:ssa. PROFILE-09 ja SUPPLEMENT-19 ovat myös valmiit; PROFILE-10 on valmis; SUPPLEMENT-20 on valmis; PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; SUPPLEMENT-23 on valmis; PROFILE-14 on valmis; SUPPLEMENT-24 on valmis; PROFILE-15 on valmis; SUPPLEMENT-25 on valmis; PROFILE-16 on valmis; SUPPLEMENT-26 on valmis; seuraavaksi PROFILE-17 (ks. viimeinen osio). Nykyinen jono: kolme Rebels-opasta / neljä osaa ja 47 Bad Batch -jaksoa. Alkuperäisen USA-julkaisun rajaus säilyy.
 
 
 ## SUPPLEMENT-18 — Rebelsin kauden 3 aloitus, 30.10.2026
@@ -1058,7 +1061,7 @@ Biggs, Wedge, Porkins, Ackbar ja Nien Nunb: kaikki 35 vanhaa kenttää arvioitu,
 - [ ] Biggsin tapaamiskohtausten täsmälliset teatteriversiorajat tarvitsevat erikseen yksilöidyn lähteen. Poistettuja Tatooine-keskusteluja ei lasketa julkaistuksi alkuperäiselokuvan kohtaukseksi.
 - [ ] Nienin Tantive IV, Resistance X-wing ja Raddus: mahdolliset omat alustietueet myöhemmässä rajatussa erässä; ei nimettyjen runkojen arvaamista geneerisistä tyypeistä.
 
-Edellä suunnitellut Rebelsin kauden 3 oppaat 7–11 on tehty SUPPLEMENT-19-erässä. PROFILE-10 on valmis; SUPPLEMENT-20 on valmis; PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; seuraavaksi SUPPLEMENT-23 (ks. kohta 11). Jäljellä 22 Rebels-opasta / 27 osaa sekä 47 Bad Batch -jaksoa. Päivämäärien rajaus säilyy alkuperäisessä USA-julkaisussa.
+Edellä suunnitellut Rebelsin kauden 3 oppaat 7–11 on tehty SUPPLEMENT-19-erässä. PROFILE-10 on valmis; SUPPLEMENT-20 on valmis; PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; SUPPLEMENT-23 on valmis; PROFILE-14 on valmis; SUPPLEMENT-24 on valmis; PROFILE-15 on valmis; SUPPLEMENT-25 on valmis; PROFILE-16 on valmis; SUPPLEMENT-26 on valmis; seuraavaksi PROFILE-17 (ks. viimeinen osio). Jäljellä 22 Rebels-opasta / 27 osaa sekä 47 Bad Batch -jaksoa. Päivämäärien rajaus säilyy alkuperäisessä USA-julkaisussa.
 
 
 ## SUPPLEMENT-19 — Rebelsin kauden 3 oppaat 7–11, 31.10.2026
@@ -1092,7 +1095,7 @@ Imperial Super Commandos – Visions and Voices: 211 profiilin kohdejoukko, 65 u
 | TIE defender — design | starships | equipment |
 | Maul’s Dathomir sanctuary | planets | location |
 
-**PROFILE-10 on valmis:** Corellia, Mon Cala, Sullust, Dathomir ja Concord Dawn. Nämä Rebelsin kauden 3 viisi opasta on tehty SUPPLEMENT-20-erässä; PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; seuraavaksi SUPPLEMENT-23 (ks. kohta 11). Alkuperäisen USA-julkaisun rajaus säilyy.
+**PROFILE-10 on valmis:** Corellia, Mon Cala, Sullust, Dathomir ja Concord Dawn. Nämä Rebelsin kauden 3 viisi opasta on tehty SUPPLEMENT-20-erässä; PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; SUPPLEMENT-23 on valmis; PROFILE-14 on valmis; SUPPLEMENT-24 on valmis; PROFILE-15 on valmis; SUPPLEMENT-25 on valmis; PROFILE-16 on valmis; SUPPLEMENT-26 on valmis; seuraavaksi PROFILE-17 (ks. viimeinen osio). Alkuperäisen USA-julkaisun rajaus säilyy.
 
 
 ## PROFILE-10 — viisi maailmaprofiilia, 31.10.2026
@@ -1108,7 +1111,7 @@ Corellia, Mon Cala, Sullust, Dathomir ja Concord Dawn: kaikki 40 vanhaa kenttä�
 - [ ] Kuuden astronomisen kentän numerot (kiertoajat, halkaisija, painovoima, vesi ja väkiluku) kaikille viidelle: vain aidosti yksilöityjä mitta-/julkaisulähteitä, ei uusien numeroiden arvaamista. 36 avoimen kentän raakaarvot säilyvät auditissa.
 - [ ] Käyttöliittymän myöhempi tarkennus: maininta, fyysinen teosympäristö, kotimaailma ja asuminen näkyvät myös suhdekortin omassa tekstissä. Nykyinen summary, appearance_scope ja lähdeperusteet säilyttävät eron; tietomallin suhdelajia ei poisteta.
 
-Edellä suunnitellut viisi Rebels-opasta on tehty SUPPLEMENT-20-erässä. PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; seuraavaksi SUPPLEMENT-23 (ks. kohta 11). Nyt 87 rajattua tarkastusta / 1 048 yhteyttä; 17 Rebels-opasta / 21 osaa ja 47 Bad Batch -jaksoa odottaa, yhteensä 64 kokonaisuutta. Yhdistelmäoppaan yhteyksiä ei jaeta osien välille ilman lähdetukea. Alkuperäisen USA-julkaisun rajaus säilyy.
+Edellä suunnitellut viisi Rebels-opasta on tehty SUPPLEMENT-20-erässä. PROFILE-11 on valmis; SUPPLEMENT-21 on valmis; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; SUPPLEMENT-23 on valmis; PROFILE-14 on valmis; SUPPLEMENT-24 on valmis; PROFILE-15 on valmis; SUPPLEMENT-25 on valmis; PROFILE-16 on valmis; SUPPLEMENT-26 on valmis; seuraavaksi PROFILE-17 (ks. viimeinen osio). Nyt 87 rajattua tarkastusta / 1 048 yhteyttä; 17 Rebels-opasta / 21 osaa ja 47 Bad Batch -jaksoa odottaa, yhteensä 64 kokonaisuutta. Yhdistelmäoppaan yhteyksiä ei jaeta osien välille ilman lähdetukea. Alkuperäisen USA-julkaisun rajaus säilyy.
 
 
 ## SUPPLEMENT-20 — Rebelsin kauden 3 oppaat 12–17, 31.10.2026
@@ -1141,7 +1144,7 @@ Ghosts of Geonosis – Through Imperial Eyes: viisi opasta / kuusi numeroitua os
 | Wullf Yularen | people | rebels_role |
 | Thrawn’s shipboard office | planets | location |
 
-**PROFILE-11 on valmis:** Geonosian (species:28), Mon Calamari (8), Sullustan (10), Zabrak (22) ja Twi’lek (15). SUPPLEMENT-21 on nyt tehty; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; seuraavaksi SUPPLEMENT-23 (ks. kohta 11). Tehdyt Rebelsin kauden 3 viimeiset neljä opasta: Secret Cargo, Double Agent Droid, Twin Suns ja Zero Hour (21–22 yhdessä). Alkuperäisen USA-julkaisun rajaus säilyy.
+**PROFILE-11 on valmis:** Geonosian (species:28), Mon Calamari (8), Sullustan (10), Zabrak (22) ja Twi’lek (15). SUPPLEMENT-21 on nyt tehty; PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; SUPPLEMENT-23 on valmis; PROFILE-14 on valmis; SUPPLEMENT-24 on valmis; PROFILE-15 on valmis; SUPPLEMENT-25 on valmis; PROFILE-16 on valmis; SUPPLEMENT-26 on valmis; seuraavaksi PROFILE-17 (ks. viimeinen osio). Tehdyt Rebelsin kauden 3 viimeiset neljä opasta: Secret Cargo, Double Agent Droid, Twin Suns ja Zero Hour (21–22 yhdessä). Alkuperäisen USA-julkaisun rajaus säilyy.
 
 
 ## PROFILE-11 — viisi lajiprofiilia, 31.10.2026
@@ -1166,7 +1169,7 @@ Rebelsin kauden 3 viimeiset neljä virallista opasta:
 3. Twin Suns, osa 20.
 4. Zero Hour, osat 21–22 yhdessä.
 
-SUPPLEMENT-21 on tämän jälkeen tehty: 91 rajattua tarkastusta /1 124 yhteyttä. Jäljellä 13 Rebels-opasta /16 osaa sekä 47 Bad Batch -jaksoa, yhteensä 60 kokonaisuutta. PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; seuraavaksi SUPPLEMENT-23. Säilytä virallinen yhdistelmäopas; älä jaa yhteyksiä osien välille ilman lähdetukea. Vertaa käsikirjoitus-, tuotanto-, kuvitus- ja oikeita julkaistuja kohtauksia. Rajaa teoskohtaiset esiintymät aiemmin valittuun kohdejoukkoon ja lisää vain lähteistetyt uudet identiteetit. Julkaisupäivien tutkimus pysyy alkuperäisessä USA-julkaisussa. Tämän jälkeen palataan vanhojen profiilien erään ennen seuraavaa jaksoerää.
+SUPPLEMENT-21 on tämän jälkeen tehty: 91 rajattua tarkastusta /1 124 yhteyttä. Jäljellä 13 Rebels-opasta /16 osaa sekä 47 Bad Batch -jaksoa, yhteensä 60 kokonaisuutta. PROFILE-12 on valmis; SUPPLEMENT-22 on valmis; PROFILE-13 on valmis; SUPPLEMENT-23 on valmis; PROFILE-14 on valmis; SUPPLEMENT-24 on valmis; PROFILE-15 on valmis; SUPPLEMENT-25 on valmis; PROFILE-16 on valmis; SUPPLEMENT-26 on valmis; seuraavaksi PROFILE-17. Säilytä virallinen yhdistelmäopas; älä jaa yhteyksiä osien välille ilman lähdetukea. Vertaa käsikirjoitus-, tuotanto-, kuvitus- ja oikeita julkaistuja kohtauksia. Rajaa teoskohtaiset esiintymät aiemmin valittuun kohdejoukkoon ja lisää vain lähteistetyt uudet identiteetit. Julkaisupäivien tutkimus pysyy alkuperäisessä USA-julkaisussa. Tämän jälkeen palataan vanhojen profiilien erään ennen seuraavaa jaksoerää.
 
 
 ## SUPPLEMENT-21 — Rebelsin kolmannen kauden viimeiset oppaat, 31.10.2026
@@ -1323,7 +1326,7 @@ AT-AT, AT-ST, Snowspeeder, Imperial Speeder Bike ja Sand Crawler: 50 vanhaa kent
 
 Nykytila: 630 tietuetta, 2 906 faktaa (840 vahvistettua /436 arvioitua mutta vahvistamatta /1 630 vanhaa), 2 274 teos-/kontekstisuhdetta (1 347 vahvistettua /924 vanhaa /kolme reference), 862 lähdettä ja 6 467 viitettä. 352 uutta johdantoa +65 vanhaa rajatusti tarkastettua; 189 vanhaa tukiprofiilia ja 347 placeholder-kenttää odottaa. Ajoneuvoista 34 vanhaa profiilia /340 kenttää jäljellä. Jaksotilanne ennallaan: 96 arviota /1 202 yhteyttä, Rebels 58/66 opasta; kahdeksan Rebels-opasta /yhdeksän osaa sekä 47 Bad Batch -jaksoa, yhteensä 55 kokonaisuutta odottaa.
 
-### Seuraava tehtävä: SUPPLEMENT-23
+### Suunniteltu erä SUPPLEMENT-23 — nyt tehty
 
 Viisi seuraavaa rekisteröityä Rebelsin neljännen kauden opasta:
 
@@ -1334,3 +1337,231 @@ Viisi seuraavaa rekisteröityä Rebelsin neljännen kauden opasta:
 5. Wolves and a Door, osa 12.
 
 Määritä valittu henkilö-, maailma- ja kalustojoukko ennen yhteyksien lisäämistä. Lue viralliset oppaat ja tarinagalleriat sekä tarpeelliset nimetyt lisälähteet. Erota fyysiset kohtaukset, etäesitykset, tallenteet, näyt, muistot, suunnitelmat, konseptikuvat ja maininnat. Erityisesti kuollut henkilö, ääni ja Dume-susi eivät ole automaattisesti sama henkilöllisyys tai esitystapa. Lisää vain yksilöllisesti lähteistetyt uudet identiteetit, säilytä aiempi todistusaineisto ja alkuperäisen USA-julkaisun rajaus. Tämän jaksoerän jälkeen palataan vanhoihin profiileihin; tarkka seuraava profiilijoukko valitaan silloin.
+
+
+## SUPPLEMENT-23 — Rebelsin neljännen kauden oppaat 8–12, 3.11.2026
+
+Crawler Commandeers, Rebel Assault, Jedi Night, Dume ja Wolves and a Door: 284 valittua profiilia, 66 uutta jaksoyhteyttä (61 direct /kolme transmission /kaksi unspecified), 12 omaa johdantoa ja yksi fakta kullekin sekä kaksi lisäfaktaa Kananin/sarjan tietueille. 21 virallista lähdettä, 208 lisäviitettä ja 36 uutta teos-/kontekstisuhdetta. Kaikki 50 kertomuskuvatekstiä ja 30 trivia-kohtaa luettu. [Eräraportti](docs/reviews/SUPPLEMENT-23.md).
+
+- [x] Erota Ore Crawler, Jawojen Sand Crawler ja World Devastator -suunnitteluesikuva. Yksilöi Seevor/Proach ja Guildin droidityyppi nimetyistä lähteistä.
+- [x] Säilytä tekninen readout ja suunniteltu tehdasisku erillään oikeasta kalustoesiintymästä. Älä tuo Jedhaa/Kuolemantähteä vertailutekstistä.
+- [x] Lähteistä klassisen X-wingin Rebels-debyytti ja erota elite-tyyppi aiemmasta yksilörungosta. Pidä Phoenix Two/Four ja nimetön Lutrillian/käsikirjoitusvitsi erillään.
+- [x] Lähteistä Kananin kohtalo kahdesta tapahtumalähteestä. Säilytä Jedi Nightin kaksi vanhaa jaksoyhteyttä alkuperäisine viitteineen; älä päättele geneerisestä walker/gunship-sanasta tarkkaa mallia.
+- [x] Erota gliderin suunnittelijat rakentamista auttavista miehistön jäsenistä sekä Loth-bat-eläin valmistetusta ajoneuvosta.
+- [x] Pidä Dume-yksilö, Loth-wolf-laji ja Kananin henkilöllisyys erillisinä. Alkuperä/muoto jää tuntemattomaksi, eikä aiempi susi muutu samaksi yksilöksi.
+- [x] Erota Thrawnin hologrammi, vanha Zero Hour -tallenne, keisarin hologrammi, yksilöimättömät äänet ja maalatut Mortis-hahmot.
+- [x] Vahvista Hydanin oma identiteetti ja ei-Force-sensitive-luonne. Vaneé on hylätty aikaisempi idea. Yksi kaivauskoneen operaattori ei ole matkustajamaksimi.
+- [x] Kirjaa Crawler Commandeers/Rebel Assault -liveotsikoiden numeropoikkeama muuttamatta aiemmin lähteistettyä rekisteriä tai päivämääriä.
+- [x] Säilytä kaikki 6 467 aiempaa viitettä sisältöineen ja kertalukuineen, kaikki lähdemetadatat, vanhat kentät ja yhteydet, julkaisut, versiot ja krediitit. Varmista eheys, lähteet, semantiikka, lint, tyypit, 916 osoitetta ja 40 valmista selaintilaa.
+- [ ] Tarkista Cleatin yksilöllinen Rebel Assault -kohtaus ennen jaksoyhteyttä/kohtaloväitettä. Own-profile Phoenix Four -fakta ei yksin riitä.
+- [ ] Ratkaise tarvittaessa Martin kadonneen astromechin henkilöllisyys ja Crawler-kokouksen Senator Organan yksilöllinen muoto; älä arvaa R3-A3:ksi tai tuo koko Iron Squadronia mukaan.
+- [ ] Ratkaise Tarkinin Jedi Night -esitysmuoto sekä geneerisen rescue gunshipin ja Prycen walker-tyyppi nimetystä kohtauslähteestä. Nykyiset rajaukset säilyvät siihen asti.
+- [ ] Palaa Loth-batin aiempaan Flight of the Defender -esiintymiseen erillisenä lisäyksenä; uusi johdanto ei korvaa aiempaa jaksoarviota. Tunnista äänimontaasin puhujat vain yksilöllisistä lähteistä.
+- [ ] Laajenna uusien johdantojen teknisiä/biologisia kenttiä myöhemmin riittävin lähtein. Dumen tuntematon alkuperä on lähteen rajaama avoin asia.
+
+Nykytila 3.11.2026: 642 tietuetta, 2 920 faktaa (854 vahvistettua /436 arvioitua mutta vahvistamatta /1 630 vanhaa), 2 310 teos-/kontekstisuhdetta (1 383 vahvistettua /924 vanhaa /kolme reference), 883 lähdettä ja 6 675 viitettä. 364 uutta johdantoa +65 vanhaa rajatusti tarkastettua; 189 vanhaa tukiprofiilia odottaa. Uusilla johdannoilla 278 faktakenttää; teoksilla 287. Tarkastamattomia vanhoja placeholder-kenttiä 347. 101 jaksoarviota /1 268 yhteyttä, Rebels 63/66 opasta; kausien yhteydet 217/297/282/146. Jäljellä kolme Rebels-opasta /neljä numeroitua osaa ja 47 Bad Batch -jaksoa, yhteensä 50 rekisteröityä kokonaisuutta. Alkuperäisen USA-julkaisun rajaus säilyy.
+
+### Suunniteltu erä PROFILE-14 — nyt tehty
+
+Viisi olemassa olevaa henkilöprofiilia ilman ensimmäistä omaa tarkastusta, yhteensä 35 vanhaa kenttää:
+
+1. Jango Fett, people:69.
+2. Grievous, people:79.
+3. Bossk, people:24.
+4. IG-88, people:23.
+5. Lobot, people:26.
+
+Lähteistä oma lyhyt esittely ja arvioi jokainen vanha kenttä. Erota henkilö/laji, droidin malli/yksilö, luonnollinen ja kirurgisesti muutettu keho, aikakaudet sekä julkaistut kohtaukset, tallenteet, varhaiset suunnitelmat ja poistetut materiaalit. Älä johda syntymävuotta kokemuksesta, mitoista tai klooniyhteydestä. Säilytä alkuperäiset tunnisteet, slugit, vanhat numerot raakadatassa sekä aiempi todistusaineisto. Tarkista valitut teos-, henkilö-, maailma- ja kalustosuhteet yksilöllisesti.
+
+Tämän profiilierän jälkeen palataan kolmeen viimeiseen Rebels-oppaaseen: A World Between Worlds (13), A Fool’s Hope (14) ja Family Reunion – and Farewell (15–16 yhdessä), suunniteltu SUPPLEMENT-24. Sitä ei aloiteta ennen sovittua profiilierää. Sen jälkeen Bad Batchin 47 rekisteröityä jaksoa jatkavat jaksojonoa.
+
+
+## PROFILE-14 — viisi henkilöprofiilia, 3.11.2026
+
+Jango Fett, Grievous, Bossk, IG-88 ja Lobot: 35 vanhaa kenttää arvioitu, kahdeksan vahvistettu/tarkennettu ja 27 vahvistamatta alkuperäiset raakaarvot säilyttäen. Viisi omaa esittelyä, 19 uutta rajattua faktaa, 39 tarkastettua suhdetta (10 vanhaa /29 uutta), 10 virallista lähdettä, yksi aiemman lähteen note-laajennus ja 114 lisäviitettä. [Eräraportti](docs/reviews/PROFILE-14.md).
+
+- [x] Vahvista viisi nimellispituutta. Korjaa Bossk 190 →206 cm ja IG-88 200 →196 cm; Jango 183, Grievous 216 ja Lobot 175 cm vahvistuvat.
+- [x] Lähteistä Bosskin punaiset silmät, Grievousin keltaisen silmäkuvauksen design-rajaus ja Lobotin eksplisiittinen male-kenttä. Älä päättele muita värejä/gender-kenttiä kuvista tai pronomineista.
+- [x] Erota Kaleesh-kyborgi droidiarmeijan johtamisesta, Human-Lobot implantista ja IG-88:n kromipinta biologisesta ihosta.
+- [x] Lähteistä Jangon foundling-asema, geneettinen kloonipohja, Boba-suhde ja Kamino-asuminen eri väitteinä. Älä vahvista Concord Dawn -kotimaailmaa niistä.
+- [x] Erota Soulless One Belbullab-22-tyypistä ja tarkista wheel bike -käyttö muuttamatta kaluston vanhoja kenttiä tai otsikoita.
+- [x] Pidä Bosskin Ezra/Lothal-tausta poikkimediaisena; älä lisää Rebels-esiintymistä. Pidä IG-88/IG-11 ja Lobot/Tseebo/LT-319 erillään.
+- [x] Säilytä kaikki 6 675 aiempaa viitettä tunnisteineen, lähdemetadata yhden note-laajennuksen poikkeuksella, vanhat arvioinnit, julkaisut, versiot, krediitit ja jaksoaineisto. Varmista eheys, lähteet, semantiikka, lint, tyypit, 916 osoitetta ja 33 valmista selaintilaa.
+- [ ] Hae myöhemmin riittävät julkiset lähteet avoimille massoille, syntymä-/aktivointivuosille, väreille, sukupuoliluokituksille ja kotimaailmoille. Avoin ei tarkoita virheelliseksi todistettua.
+- [ ] Täydennä tarvittaessa Grievousin aiempi 2D-tuotanto sekä lähteiden teoslistoista puuttuvat roolit erillisinä konteksteina; TV-sarja ei todista vuoden 2008 elokuvaa.
+- [ ] Palaa Bosskin Return of the Jedi -ruutuun/versioon sekä Hound’s Tooth -aluksen intakeen erillisen rajauksen yhteydessä.
+
+Nykytila 3.11.2026: 642 tietuetta, 2 939 faktaa (881 vahvistettua /463 arvioitua mutta vahvistamatta /1 595 vanhaa), 2 339 teos-/kontekstisuhdetta (1 422 vahvistettua /914 vanhaa /kolme reference), 893 lähdettä ja 6 789 viitettä. 364 uutta johdantoa +70 vanhaa rajatusti tarkastettua; 184 vanhaa tukiprofiilia odottaa. Hahmoista jäljellä 46 profiilia /322 kenttää. Tarkastamattomia vanhoja placeholder-kenttiä 341. Uusien johdantojen 278 ja teosten 287 faktakenttää ennallaan. Jaksot 101 arviota /1 268 yhteyttä, Rebels 63/66 opasta; jäljellä kolme Rebels-opasta /neljä osaa sekä 47 Bad Batch -jaksoa, yhteensä 50 kokonaisuutta.
+
+### Suunniteltu erä SUPPLEMENT-24 — nyt tehty
+
+Rebelsin kolme viimeistä opaskokonaisuutta:
+
+1. A World Between Worlds (kausi 4, osa 13).
+2. A Fool’s Hope (osa 14).
+3. Family Reunion – and Farewell (osat 15–16 yhdessä).
+
+Säilytä virallinen yhdistelmäopas; älä jaa yhteyksiä osien välille ilman lähdetukea. Rajaa kohdejoukko ennen yhteyksien lisäämistä. Tarkista portaalien/tallenteiden/nykyisten fyysisten kohtausten erot sekä nimetyt sudet, henkilöt, alusyksilöt ja paikat. Aiempi tunnistamaton äänimontaasi ei varmista jokaista mahdollista puhujaa. Säilytä vanhat kaksi Jedi Night -riviä ja kaikki aiempi todistusaineisto. Uusi lähde voi tukea rajattua lisäystä mutta ei vanhan tarkastuksen hiljaista korvausta.
+
+Tämän jälkeen valitaan seuraava vanhojen profiilien erä ennen Bad Batchin 47 rekisteröidyn jakson jatkoa. Uusien teosten/jaksojen luettelointijono on erillinen. Päivämäärien tutkimus pysyy alkuperäisessä USA-julkaisussa.
+
+
+## SUPPLEMENT-24 — Rebelsin viimeiset oppaat, 3.11.2026
+
+A World Between Worlds, A Fool’s Hope ja yhdistetty Family Reunion – and Farewell: 293 valitun profiilin kohdejoukko, 76 uutta jaksoyhteyttä (65 direct /kolme flashback /kuusi unspecified /yksi force_communication /yksi transmission), kahdeksan omaa yhden faktan johdantoa, neljä lisäfaktaa vanhoille tukiprofiileille, 14 virallista lähdettä, 186 lisäviitettä ja 34 uutta teos-/kontekstisuhdetta. Kaikki 53 kertomuskuvatekstiä ja 16 trivia-kohtaa luettu. [Eräraportti](docs/reviews/SUPPLEMENT-24.md).
+
+- [x] Erota aikaisemmat portaalitapahtumat fyysisistä tilassa olevista henkilöistä, lainatut nimetyt äänet varmennetuista hengistä ja maaginen etäkontakti tavallisesta hologrammista.
+- [x] Lisää Morai/Convor ja World Between Worlds omiksi rajatuiksi identiteeteiksi; älä yhdistä Moraita Daughteriin tai Dumesta ehdotettua Kanan-yhteyttä vahvistettuun identiteettiin.
+- [x] Lisää Joopa Base nimettynä AT-AT-muunnoksena, erillään aikaisemmasta AT-TE:stä. Pidä geneeriset tai Legends-esikuvan saaneet alukset nimeämättöminä ilman tarkempaa tukea.
+- [x] Pidä yhdistelmäfinaali yhtenä oppaana; erota päätaistelu, tallenteet ja myöhempi epilogi. Älä päättele Endor-/Peridea-paikkakohtausta tai vanhempien ylösnousemusta.
+- [x] Lisää Chimaera, Jacen, Royal Guard -joukko ja Lothalin päämaja; rajaa siirretty temppeliosa, alusyksilö/tyyppi, nuori lapsi/myöhemmät mitat ja kollektiivi/yksilö.
+- [x] Lähteistä Gregorin, Rukhin ja Prycen kohtalot erikseen; säilytä Melchin selviytymisen ero ja aiemmat ehjät jaksoyhteydet.
+- [x] Säilytä kaikki 6 789 aiempaa viitettä sisältöineen/kertalukuineen, lähdemetadatat, vanhat faktat ja yhteydet, julkaisut, versiot ja krediitit. Varmista eheys, lähteet, semantiikka, lint, tyypit, 924 osoitetta ja 33 valmista selaintilaa.
+- [ ] Palaa myöhemmin aikaisempien Rebels-erien avoimiin yksilö-/esitysmuototunnistuksiin ja jaksojen ohjaaja-/kirjoittaja-/muuhun työryhmään. Kaikki oppaat käsitelty ei tarkoita täydellistä esiintymis- tai lopputekstiluetteloa.
+- [ ] Täydennä tarvittaessa geneerisiä gunship-/saartoalusmalleja, aiemman Temple-montaasin puhujia, nimeämätöntä toista temppeliä ja Dumen/Morain tarkkoja tulkintoja omilla riittävillä lähteillä. Nykyisiä avoimia tiloja ei ratkaista arvauksella.
+
+Nykytila 3.11.2026: 650 tietuetta, 2 951 faktaa (893 vahvistettua /463 arvioitua mutta vahvistamatta /1 595 vanhaa), 2 373 teos-/kontekstisuhdetta (1 456 vahvistettua /914 vanhaa /kolme reference), 907 lähdettä ja 6 975 viitettä. 372 uutta johdantoa +70 vanhaa rajatusti tarkastettua; 184 vanhaa tukiprofiilia odottaa. Johdannoilla 290 faktakenttää, teoksilla 287. Vanhoja tarkastamattomia placeholder-kenttiä 341. 104 jaksoarviota /1 344 yhteyttä; Rebels 66/66 opasta ja 1 018 yhteyttä (217/297/282/222). Rekisteröidyistä jaksoista jäljellä 47 Bad Batch -kokonaisuutta.
+
+### Suunniteltu erä PROFILE-15 — nyt tehty
+
+Viisi olemassa olevaa hahmoprofiilia ilman ensimmäistä omaa tarkastusta, yhteensä 35 vanhaa kenttää:
+
+1. Boba Fett, people:22.
+2. Lama Su, people:72.
+3. Taun We, people:73.
+4. Shaak Ti, people:78.
+5. Zam Wesell, people:70.
+
+Jatka Jangon lähipiirin ja kloonausajan henkilötietoihin ennen Bad Batchia. Lähteistä omat lyhyet esittelyt ja arvioi jokainen vanha kenttä erikseen. Erota kloonisuhde ja biologinen sukulaisuus, laji ja työpaikka/kotimaailma, luonnollinen ja muuttuva ulkoasu sekä poistetut kohtaukset ja eri jatkuvuuksien vaihtoehtoiset kohtalot. Nimellispituus ei ratkaise ikää, varusteita tai kaikkia näyttelijäversioita. Säilytä alkuperäiset tunnisteet, slugit, vanhat raakaarvot ja aiempi todistusaineisto.
+
+Tämän jälkeen SUPPLEMENT-25: Bad Batchin ensimmäiset viisi rekisteröityä jaksoa Aftermath, Cut and Run, Replacements, Cornered ja Rampage. Rajaa kohdejoukko ja tarkista varsinaiset kohtaukset erikseen sarjatason esittelyistä. Rekisteristä vielä puuttuvien sarjojen/jaksojen lisäysjono on erillinen. Julkaisupäivien uusi tutkimus pysyy alkuperäisessä USA-julkaisussa.
+
+
+## PROFILE-15 — viisi henkilöprofiilia, 3.11.2026
+
+Boba Fett, Lama Su, Taun We, Shaak Ti ja Zam Wesell: kaikki 35 vanhaa kenttää arvioitu. Viisi nimellispituutta vahvistettu/korjattu, 30 kenttää vahvistamatta alkuperäiset raakaarvot ja lähdetunnisteet säilyttäen. Viisi omaa esittelyä, 21 uutta faktaa, 48 tarkastettua suhdetta (15 vanhaa /33 uutta), kahdeksan uutta virallista lähdettä, kahden vanhan lähteen päivätty note-laajennus ja 121 lisäviitettä. [Eräraportti](docs/reviews/PROFILE-15.md).
+
+- [x] Vahvista nimellispituudet Boba 183, Lama Su 229, Taun We 213 ja Zam 168 cm; korjaa Shaak Ti 178 →187 cm.
+- [x] Lähteistä Boba Fettin muuttamaton kloonisuhde, sarlaccista selviytyminen, Human-laji ja henkilökohtainen Kamino-alkuperä. Rajaa A New Hope -esiintyminen Special Editioniin.
+- [x] Erota Taun Wen kuolema Lama Sun pidätyksestä ja myöhemmästä Mount Tantiss -vankeudesta. Älä päättele Taun Wen tappajaa tai tarkkaa päivää suppeasta kuolemalähteestä.
+- [x] Erota Shaak Tin kaksi poistettua elokuvakuolemaa, virallisen vuoden 2017 artikkelin kaanonkertomus/Yodan Voices-näky ja pelin eri jatkuvuus. Älä varmista vanhaa Revenge of the Sith -linkkiä ilman julkaistun kohtauksen yksilöintiä.
+- [x] Pidä Shaak Tin Shili ja Taun Wen Kamino-kotimaailmat avoimina; laji tai työpaikka eivät riitä henkilökohtaiseksi alkuperälähteeksi. Zam Wesellin Zolan-alkuperä sanotaan suoraan.
+- [x] Säilytä Zamin vaihtuva ulkoasu erillään pysyvästä väripaletista. Jätä vanha Koro-2-kalustosuhde avoimeksi; takaa-ajajien XJ-6 ei ole automaattisesti Zamin alus.
+- [x] Säilytä kaikki aiemmat 6 975 viitettä tunnisteineen ja aiempi julkaisu-, versio-, krediitti- ja jaksoaineisto. Päivitä README, dataohjeet, VERIFIED ja tämä työjono; peilaa työjono työtilaan.
+- [ ] Hae myöhemmin riittävät henkilökohtaiset lähteet avoimille massoille, väreille, muodollisille sukupuolikentille ja syntymävuosille. Avoin ei tarkoita vääräksi todistettua.
+- [ ] Tunnista Shaak Tin julkaistun Revenge of the Sith -esiintymisen täsmällinen kohtaus ja Zamin Koro-2-yhteyden mallikohtainen lähde.
+- [ ] Käsittele The Book of Boba Fettin puuttuva teossivu erillisessä luettelointijonossa; älä muuta henkilön myöhempää historiaa olemattomaksi teossivuksi tässä erässä.
+
+Nykytila 3.11.2026: 650 tietuetta, 2 972 faktaa (919 vahvistettua /493 arvioitua mutta vahvistamatta /1 560 vanhaa), 2 406 teos-/kontekstisuhdetta (1 504 vahvistettua /899 vanhaa /kolme reference), 915 lähdettä ja 7 096 viitettä. 372 uutta johdantoa +75 vanhaa rajatusti tarkastettua; 179 vanhaa tukiprofiilia odottaa ensimmäistä omaa tarkastusta. Hahmoista jäljellä 41 profiilia /287 kenttää. Vanhoja tarkastamattomia placeholder-kenttiä 333. Johdantojen 290 ja teosten 287 faktakenttää ennallaan. Jaksoaineisto ennallaan: 104 arviota /1 344 yhteyttä; Rebels 66/66 opasta /75 osaa ja 1 018 yhteyttä. Rekisteröidyistä jaksoista 47 Bad Batch -kokonaisuutta odottaa.
+
+### Suunniteltu erä SUPPLEMENT-25 — nyt tehty
+
+Bad Batchin ensimmäiset viisi rekisteröityä jaksoa:
+
+1. Aftermath (S1E1).
+2. Cut and Run (S1E2).
+3. Replacements (S1E3).
+4. Cornered (S1E4).
+5. Rampage (S1E5).
+
+Rajaa kohdejoukko ennen lähteiden keruuta. Tarkista nimettyjen henkilöiden, maailmojen, lajien ja kaluston varsinaiset kohtaukset; erota fyysinen läsnäolo, hologrammit ja tallenteet. Sarjatason esittely tai Related-kortti ei yksin vahvista jaksoyhteyttä. Säilytä kaikki aiemmat arvioinnit ja lähdemetadata. Puuttuvien sarjojen/jaksojen lisäämisjono pysyy erillisenä. Päivämäärien uusi tutkimus pysyy alkuperäisessä USA-julkaisussa. Tämän jälkeen valitaan seuraava viiden vanhan profiilin erä.
+
+
+## SUPPLEMENT-25 — Bad Batchin ensimmäiset viisi jaksoa, 3.11.2026
+
+Aftermath, Cut and Run, Replacements, Cornered ja Rampage: kaikki 113 kertovaa ja 40 trivia-kuvatekstiä luettu; 64 tietueen rajattu kohdejoukko. Lisätty 82 jaksoyhteyttä (80 suoraa /kaksi välitettyä), 25 yhden faktan johdantoprofiilia, 108 teos-/kontekstisuhdetta, 35 virallista lähdettä ja 337 viitettä. [Eräraportti](docs/reviews/SUPPLEMENT-25.md).
+
+- [x] Erota Aftermathin fyysinen nuori Caleb Dume aiemmasta/aikuisesta Kananista luomatta uutta henkilöidentiteettiä. Älä tulkitse Hunterin suojelevaa kuolinilmoitusta todelliseksi kuolemaksi.
+- [x] Erota keisarin holopuhe, aiempien tapahtumien maininnat ja fyysiset läsnäolot. Obi-Wan/Grievous, Rexin edellispäivän vierailu, Anakin ja Jangon geneettinen materiaali eivät yksin anna uusia esiintymiä.
+- [x] Lisää Lawquanen perhe, Nala Se, Depa, AZI-3, Gonky, Rampart, Elite Squad, Cid, Muchi ja Raney suppeina johdantoina. Älä päättele biologista vanhemmuutta, tarkkoja ikiä tai uusia henkilömittoja.
+- [x] Erota Pantora, Ordo Moon ja Orto Plutonia. Lisää nimetyt harjoitustila, parlor ja vanhan kaupungin rauniot paikkoina, erillään koko planeetasta.
+- [x] Erota Muchi-yksilö rancor-lajista ja aluksi väärin tunnistetusta Falleen-lapsesta. Älä yhdistä Muchia Return of the Jedin rancoriin tai anna sille aikuisen lajimittaa.
+- [x] Erota Fennecin fyysinen Cornered-takaa-ajo Rampagen tallennetusta holokuvasta. Echo on naamioitu orgaaninen klooni, ei droidi; työpöydän alusmalli ja lelut eivät ole oikeita aluksia tai eläviä hahmoja.
+- [x] Säilytä kaikki 7 096 aiempaa viitettä sisältöineen, kertalukuineen ja päivineen sekä lähdemetadata. Muuta vain Bad Batchin nykyisen teosarvion rajauksia/tarkistuspäivää; säilytä krediitit, jaksorekisteri, versiot ja julkaisut.
+- [ ] Täydennä Cut and Run -jakson Rampart-holopuheen täsmällinen kohtausviite erikseen. Vuoden 2023 virallinen retrospektiivi on rekisterissä, mutta valittu kertova kuva 5 näyttää Hunterin ja Cutin, eikä varmista fyysistä Rampart-vierailua.
+- [ ] Palaa nimettyihin sivuhahmoihin ja taustalajeihin (esim. Grey, Fauja, ES-01, voorpak/tooka) sekä tarkkoihin kalustomalleihin vain erikseen rajatulla lähdeaineistolla. Valittu kohdejoukko ei ole koko jakson inventaario.
+- [ ] Tarkista lopulliset jaksojen näyttelijä-, kirjoitus-, ohjaus- ja musiikkikrediitit erikseen; trivia-maininta ei täytä koko lopputekstityötä.
+
+Nykytila: 675 tietuetta (260 vanhaa /415 editorial), 2 997 faktaa (944 vahvistettua /493 arvioitua mutta vahvistamatta /1 560 vanhaa), 2 514 teos-/kontekstisuhdetta (1 612 vahvistettua /899 vanhaa /kolme reference), 950 lähdettä ja 7 433 viitettä. 397 uutta johdantoa +75 tarkastettua vanhaa tukiprofiilia; 179 vanhaa odottaa, joista 41 henkilöä /287 kenttää. Johdannoilla 315 ja teoksilla edelleen 287 faktakenttää; 333 vanhaa placeholder-kenttää odottaa. Jaksot: 109 arviota /1 426 yhteyttä. Bad Batch 5/47 jaksoa rajatusti käsitelty, 42 rekisteröityä jaksoa jäljellä. Rebelsin 66/66 opasta /75 osaa ennallaan. Näistä eri yksiköistä ei lasketa koko projektin valmistumisprosenttia.
+
+### Suunniteltu erä PROFILE-16 — nyt tehty
+
+Viisi olemassa olevaa Tatooineen liittyvää henkilöprofiilia ilman ensimmäistä omaa tarkastusta, yhteensä 35 vanhaa kenttää:
+
+1. Owen Lars (people:6).
+2. Beru Whitesun lars (people:7, vanha otsikko säilytetään ennen erikseen lähteistettyä nimiratkaisua).
+3. Greedo (people:15).
+4. Jabba Desilijic Tiure (people:16, pitkän nimen lähde tarkistettava erikseen).
+5. Shmi Skywalker (people:43).
+
+Lähteistä omat lyhyet esittelyt ja arvioi jokainen vanha kenttä erikseen. Erota koti, kasvatuspaikka ja syntymäpaikka sekä näytelty rooli, teos, versio ja poistetut kohtaukset. Greedon ja Jabban A New Hope -historia vaatii leikkaus-/versiorajaukset; henkilön myöhempi maininta tai tallenne ei ole elävä esiintyminen. Älä päättele sukulaisuudesta tarkkoja syntymävuosia tai biologisia mittoja. Säilytä identiteetit ja aiempi todistusaineisto.
+
+Tämän jälkeen Bad Batchin rekisteröidyt jaksot 6–10: Decommissioned, Battle Scars, Reunion, Bounty Lost ja Common Ground. Puuttuvien teosten/jaksojen luettelointijono pysyy erillään. Uusi julkaisupäivien tutkimus rajattu alkuperäiseen USA-julkaisuun.
+
+
+## PROFILE-16 — Owen, Beru, Greedo, Jabba ja Shmi, 3.11.2026
+
+Kaikki 35 vanhaa henkilökenttää arvioitu: seitsemän vahvistettu/korjattu, 28 vahvistamatta raakaarvot ja alkuperäiset lähdetunnisteet säilyttäen. Viisi omaa esittelyä, 24 uutta faktaa, 53 tarkastettua suhdetta (16 vanhaa /37 uutta), 11 uutta virallista lähdettä ja 135 viitettä. [Eräraportti](docs/reviews/PROFILE-16.md).
+
+- [x] Vahvista Owen 178, Beru 165 ja Shmi 163 cm. Korjaa Greedo 173 →174 cm ja lähteistä tekstin pea-green-ihokuvaus.
+- [x] Erota Jabban 3,9 m pituus vanhasta height-korkeuskentästä. Jätä kaikki seitsemän vanhaa Jabba-kenttää vahvistamatta; Hutt-laji ei vahvista hermaphrodite-arvoa, massaa tai syntymävuotta.
+- [x] Vahvista Berun ja Shmin female vain heidän omien profiiliensa woman-kuvauksista. Älä päättele muiden sukupuolia pronomineista, näyttelijöistä tai perherooleista.
+- [x] Lähteistä Owenin ja Berun henkilökohtainen Tatooine-alkuperä eksplisiittisestä natives-sanamuodosta. Pidä Shmin asuinpaikka, Greedon lajin alkuperä ja Jabban tukikohta erillään henkilökohtaisesta homeworld-väitteestä.
+- [x] Erota Lukea kasvattavat huoltajat biologisista vanhemmista sekä Owenin/Anakinin/Shmin uusperhesuhteet. Älä päättele niistä tarkkoja syntymävuosia tai ihmislajia ilman omaa lähdettä.
+- [x] Säilytä vanhat nimet ja slugit; lisää lähteistetyt nykyiset nimimuodot omiin faktoihin. Beru Lars/Beru Whitesun eivät tässä vahvista vanhan yhdistelmäotsikon tarkkaa asua, eikä Jabba the Hutt vahvista pitkää Desilijic Tiure -muotoa.
+- [x] Pidä Greedon ampumajärjestys versioriippuvaisena ja vuoden 2018 Kasdan-haastatteluun rajattuna. Älä lisää poistettua Phantom Menace -lapsuuskohtausta julkaistun elokuvan esiintymiseksi.
+- [x] Rajaa Jabban A New Hope -kohtaus vuoden 1997 Special Editioniin, erotuksena alkuperäisestä teatterileikkauksesta. Käytä Clone Wars -elokuvalle sen omaa filmisynopsista television teoslistan rinnalla.
+- [x] Rajaa Shmin Overlords-esiintyminen näkymäksi. Älä tee siitä elävää Mortis-vierailua, ylösnousemusta tai varmasti luokiteltua Force spirit -esiintymistä.
+- [x] Säilytä kaikki 7 433 vanhaa viitettä tunnisteineen, kaikki aiempi lähdemetadata ja jakso-, julkaisu-, versio- sekä krediittiaineisto. Päivitä README, dataohjeet, VERIFIED ja työjono.
+- [ ] Hae myöhemmin riittävät henkilökohtaiset lähteet avoimille massoille, hius-/silmäväreille, syntymävuosille, muille sukupuolikentille ja kolmelle avoimeksi jääneelle kotimaailmalle. Avoin ei tarkoita vääräksi todistettua.
+- [ ] Tarkista tarvittaessa Berun yhdistelmänimi ja Jabban pitkä nimi erikseen ennen otsikoiden muuttamista. Vanha tunniste ei ole uuden lähteen vahvistama faktaväite.
+- [ ] Täydennä Greedon kaikkien masterien tarkka laukaus-/dialogivertailu erillisessä versiotehtävässä. Tässä ei inventoitu 1997/2004/2011/2019 muutoksia ruutu ruudulta eikä laajennettu kotitallennepäiviin.
+
+Nykytila: 675 tietuetta, 3 021 faktaa (975 vahvistettua /521 arvioitua mutta vahvistamatta /1 525 vanhaa), 2 551 teos-/kontekstisuhdetta (1 665 vahvistettua /883 vanhaa /kolme reference), 961 lähdettä ja 7 568 viitettä. 397 uutta johdantoa +80 tarkastettua vanhaa tukiprofiilia; 174 vanhaa odottaa, joista 36 henkilöä /252 kenttää. Johdantojen 315 ja teosten 287 faktakenttää ennallaan; vanhoja tarkastamattomia placeholder-kenttiä 330. Jaksoaineisto ennallaan: 109 arviota /1 426 yhteyttä, Bad Batch 5/47 ja 42 odottavaa; Rebels 66/66 opasta /75 osaa.
+
+### Suunniteltu erä SUPPLEMENT-26 — nyt tehty
+
+Bad Batchin rekisteröidyt jaksot 6–10:
+
+1. Decommissioned (S1E6).
+2. Battle Scars (S1E7).
+3. Reunion (S1E8).
+4. Bounty Lost (S1E9).
+5. Common Ground (S1E10).
+
+Rajaa kohdejoukko ennen yhteyksien lisäämistä. Erota fyysiset henkilöt, hologrammit/tallenteet, aiemmat maininnat ja peitenimet. Tarkista nimettyjen droidien ja geneeristen mallien sekä vanhojen tasavalta-alusten/rungon hylyn ero. Älä päättele Tatooine-vierailua Jabba-maininnasta tai kaluston mittaa tyypin perusteella. Säilytä aiempi todistusaineisto ja jatka alkuperäisen USA-julkaisun päivämäärärajauksella. Tämän jälkeen valitaan seuraava viiden vanhan profiilin erä. Puuttuvien teosten/jaksojen luettelointijono pysyy erillään.
+
+
+## SUPPLEMENT-26 — Bad Batchin jaksot 6–10, 3.11.2026
+
+Decommissioned, Battle Scars, Reunion, Bounty Lost ja Common Ground: kaikki 103 kertovaa ja 25 trivia-kuvatekstiä luettu; 88 tietueen rajattu kohdejoukko. Lisätty 83 jaksoyhteyttä (82 suoraa /yksi välitetty), 21 yhden faktan johdantoprofiilia, 77 teos-/kontekstisuhdetta, 30 virallista lähdettä ja 292 viitettä. [Eräraportti](docs/reviews/SUPPLEMENT-26.md).
+
+- [x] Lisää Martez-sisaret, R7-A7, kaksi erillistä droidityyppiä, Cad Bane, Todo 360, Bolo, Ketch sekä Raxuksen kolme toimijaa lähteistettyinä suppeina johdantoina.
+- [x] Erota R7-A7:n Databank-/opasnimen ja trivia-kuvatekstin A7-R7-ristiriita. Säilytä yksi identiteetti ja Ahsoka-yhteys taustahistoriana.
+- [x] Erota irrotettu taktinen pää, aktivoidut B1-taisteludroidit ja Imperiumin poliisidroidit. Älä päättele T-series-alatyyppiä tai Kalani/Super Tactical -identiteettiä.
+- [x] Lisää Bracca, Bora Vio ja Raxus sekä Corellian droiditehdas erillisenä paikkatasona. Pidä Raxus Primen nimi-inspiraatio erillään maailmojen yhdistämisestä.
+- [x] Erota Braccan Venator-hylky vanhasta Republic attack cruiser -tyyppitietueesta. Älä kopioi tyypin mittoja, miehistöä tai lentokuntoa hylkyyn.
+- [x] Erota Rexin virheellinen KIA-rekisterimerkintä elävästä vierailusta; Rampartin Reunion-hologrammi fyysisestä Bracca-vierailusta.
+- [x] Erota Taun Wen fyysinen elävä tapaaminen myöhemmästä ruumiista; Nala Sen fyysinen tapaaminen myöhemmästä etäpuhelusta. Älä päättele geneettisestä selityksestä Jango-/Boba-esiintymää.
+- [x] Tunnista Justifier ja paikalliset lyhyen matkan flight podit. Älä sekoita Justifieria Xanadu Bloodiin tai toteutumattomaan Clone Wars -tarinaan.
+- [x] Säilytä kaikki 7 568 aiempaa viitettä sisältöineen, kertalukuineen ja päivineen sekä kaikki aiempi lähdemetadata, faktat, suhteet, julkaisut, versiot, jaksorekisteri ja krediitit. Vain Bad Batchin nykyiset rajausmuistiinpanot täydentyvät.
+- [ ] Palaa nimettömän Decommissioned-loppukontaktin täsmälliseen tunnistukseen erillisellä kohtausnäytöllä. Myöhempi Rex-maininta ei yksin paikanna tai luokittele kyseistä kohtausta.
+- [ ] Täydennä tarvittaessa myöhempien nimettömien parlor-asiakkaiden, Gonky-kohtausten, poliisi-/sukkulamallien ja Scrapper Guild/Rhokai-taustan tunnistukset. Puuttuva yhteys ei ole poissaoloväite.
+- [ ] Tarkista Taun Wen kuoleman tekijän oma täsmällinen lähde ennen uuden killer-faktan lisäämistä; ruumiin vieressä oleva palkkionmetsästäjä ei yksin riitä todistukseksi. Aiempi P15-fakta säilyy.
+- [ ] Tarkista lopulliset näyttelijä-, ohjaus-, kirjoitus- ja musiikkikrediitit erikseen. Trivia-maininta ei täytä koko lopputekstityötä. Aiempi Cut and Run -Rampart-kohtaustehtävä säilyy.
+
+Nykytila: 696 tietuetta (260 vanhaa /436 editorial); 3 042 faktaa (996 vahvistettua /521 arvioitua mutta vahvistamatta /1 525 vanhaa); 2 628 teos-/kontekstisuhdetta (1 742 vahvistettua /883 vanhaa /kolme reference); 991 lähdettä ja 7 860 viitettä. 418 uutta johdantoa /336 faktakenttää ja 80 tarkastettua vanhaa tukiprofiilia; 174 vanhaa odottaa, joista 36 henkilöä /252 kenttää. Teosten 287 faktakenttää ja 330 vanhaa placeholder-kenttää ennallaan. Jaksot: 114 arviota /1 509 yhteyttä; Bad Batch 10/47 jaksoa rajatusti käsitelty, 37 jäljellä. Rebels 66/66 opasta /75 osaa ennallaan. Eri yksiköistä ei lasketa koko projektin valmistumisprosenttia.
+
+### Seuraava tehtävä: PROFILE-17
+
+Viisi olemassa olevaa Naboo-/Gungan-kontekstin henkilöprofiilia ilman ensimmäistä omaa tarkastusta, yhteensä 35 vanhaa kenttää:
+
+1. Jar Jar Binks (people:36).
+2. Roos Tarpals (people:37).
+3. Rugor Nass (people:38).
+4. Ric Olié (people:39).
+5. Quarsh Panaka (people:42).
+
+Kirjoita lähteistetyt omat esittelyt ja arvioi jokainen vanha kenttä erikseen. Erota yksilömitat lajikeskiarvoista, kotimaailma työpaikasta ja Gunganin alaryhmä koko lajista. Tarkista nykyiset nimet, tehtävät ja nimetyt kalustoyhteydet; älä tee lajista, pronominista tai näyttelijästä automaattista henkilökentän lähdettä. Teoslista ei todista tiettyä jaksoa tai joka leikkausversiota. Säilytä aiempi todistusaineisto ja alkuperäisen USA-julkaisun rajaus.
+
+Tämän jälkeen Bad Batchin rekisteröidyt jaksot 11–15. Puuttuvien teosten ja jaksojen luettelointijono pysyy erillisenä.

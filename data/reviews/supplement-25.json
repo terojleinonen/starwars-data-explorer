@@ -1,0 +1,4724 @@
+{
+  "version": 1,
+  "id": "SUPPLEMENT-25",
+  "checkedAt": "2026-11-03",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "First five registered Bad Batch episodes: scoped selected-record connections and 25 introductory one-fact identities. No date, episode-register, end-credit or edition expansion; original-USA launch scope retained.",
+  "sources": [
+    {
+      "id": "supp25-aftermath-gallery",
+      "title": "Aftermath — official episode gallery",
+      "url": "https://www.starwars.com/aftermath-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 43 narrative captions read directly in the browser 3 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-aftermath-trivia",
+      "title": "Aftermath — official trivia gallery",
+      "url": "https://www.starwars.com/aftermath-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 12 trivia captions read directly in the browser 3 November 2026. Design callbacks, reused speech, earlier productions, toys and named identity context distinguished from current physical scenes. No full voice/end-credit inventory or source prose/media import.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-cut-and-run-gallery",
+      "title": "Cut and Run — official episode gallery",
+      "url": "https://www.starwars.com/cut-and-run-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 14 narrative captions read directly in the browser 3 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-cut-and-run-trivia",
+      "title": "Cut and Run — official trivia gallery",
+      "url": "https://www.starwars.com/cut-and-run-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 8 trivia captions read directly in the browser 3 November 2026. Design callbacks, reused speech, earlier productions, toys and named identity context distinguished from current physical scenes. No full voice/end-credit inventory or source prose/media import.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-replacements-gallery",
+      "title": "Replacements — official episode gallery",
+      "url": "https://www.starwars.com/replacements-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 17 narrative captions read directly in the browser 3 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-replacements-trivia",
+      "title": "Replacements — official trivia gallery",
+      "url": "https://www.starwars.com/replacements-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 5 trivia captions read directly in the browser 3 November 2026. Design callbacks, reused speech, earlier productions, toys and named identity context distinguished from current physical scenes. No full voice/end-credit inventory or source prose/media import.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-cornered-gallery",
+      "title": "Cornered — official episode gallery",
+      "url": "https://www.starwars.com/cornered-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 19 narrative captions read directly in the browser 3 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-cornered-trivia",
+      "title": "Cornered — official trivia gallery",
+      "url": "https://www.starwars.com/cornered-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 6 trivia captions read directly in the browser 3 November 2026. Design callbacks, reused speech, earlier productions, toys and named identity context distinguished from current physical scenes. No full voice/end-credit inventory or source prose/media import.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-rampage-gallery",
+      "title": "Rampage — official episode gallery",
+      "url": "https://www.starwars.com/rampage-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 20 narrative captions read directly in the browser 3 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-rampage-trivia",
+      "title": "Rampage — official trivia gallery",
+      "url": "https://www.starwars.com/rampage-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 9 trivia captions read directly in the browser 3 November 2026. Design callbacks, reused speech, earlier productions, toys and named identity context distinguished from current physical scenes. No full voice/end-credit inventory or source prose/media import.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-depa-billaba",
+      "title": "Depa Billaba — official Databank",
+      "url": "https://www.starwars.com/databank/depa-billaba",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / Council role and Caleb apprenticeship. Personal introductory scope; Chalactan label, film work list and published height do not certify a complete biological dossier, every edition or end credits. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-nala-se",
+      "title": "Nala Se — official Databank",
+      "url": "https://www.starwars.com/databank/nala-se",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / clone army and Omega assistant. Selected early-Imperial context only. Later captivity and cloning work are not new scenes in these first five episodes; no exact birth year, mass or personal colours inferred. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-azi-3",
+      "title": "AZI-3 — official Databank",
+      "url": "https://www.starwars.com/databank/azi-3",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit medical-droid function. Named droid distinct from all AZI units or generic medical droids. Aftermath still 18 and episode-guide AZI-3 identity are used together; no activation date or technical specification review. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-gonky",
+      "title": "Gonky — official Databank",
+      "url": "https://www.starwars.com/databank/gonky",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / named GNK droid and primary function. Named individual, not every GNK droid or a model-average personal measurement. Cut and Run trivia 8 explicitly names Gonky; Rampage still 9 corroborates the named shipboard individual. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-cut-lawquane",
+      "title": "Cut Lawquane — official Databank",
+      "url": "https://www.starwars.com/databank/cut-lawquane",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / army desertion and Saleucami farming. Family/household roles are not proof of biological parentage or an exact birth date. No inhibitor-chip removal claim is inferred from desertion. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-suu-lawquane",
+      "title": "Suu Lawquane — official Databank",
+      "url": "https://www.starwars.com/databank/suu-lawquane",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile and Species / Twi’lek. Refugee status and residence do not independently establish birthplace or homeworld. No genetics, personal colours or complete combat history inferred. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-shaeeah-lawquane",
+      "title": "Shaeeah Lawquane — official Databank",
+      "url": "https://www.starwars.com/databank/shaeeah-lawquane",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / eldest of two and named brother. Household identity, not proof of Cut’s biological paternity, exact age, birth year or a genetic mixture. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-jek-lawquane",
+      "title": "Jek Lawquane — official Databank",
+      "url": "https://www.starwars.com/databank/jek-lawquane",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / youngest child and named sister. Family language is not an independently verified biological lineage. Unrelated page-template labels are not Star Wars facts; no exact age or birth date assigned. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-rampart",
+      "title": "Vice Admiral Edmon Rampart — official Databank",
+      "url": "https://www.starwars.com/databank/vice-admiral-rampart",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / early-Imperial command role. Rank and role are scoped to the early Imperial account. Later arrest, prison and death history not added here. Replacements supplies physical command scenes; the chain-code announcement in Cut and Run needs its separately located scene evidence. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-elite-squad",
+      "title": "Elite Squad — force — official Databank",
+      "url": "https://www.starwars.com/databank/elite-squad",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / recruit programme; trivia 1 / non-clone conscription. A military group, not a species or one soldier. An ES-01 objection and death do not apply to every recruit; no full roster/credit or all-stormtrooper identity claim. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-cid",
+      "title": "Ciddarin “Cid” Scaleback — official Databank",
+      "url": "https://www.starwars.com/databank/cid",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile and Species / Trandoshan. Full name and species are explicitly sourced; former Jedi contacts do not mean Cid is a Jedi. No later betrayal/fate or exact personal measurements reviewed. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-muchi",
+      "title": "Muchi — official Databank",
+      "url": "https://www.starwars.com/databank/muchi",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicitly adolescent rancor. Named creature distinct from the Rancor species and the captive Falleen child initially mistaken for Muchi. No identity with Return of the Jedi’s rancor, adult species height or exact birth year asserted. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-raney",
+      "title": "Raney — official Databank",
+      "url": "https://www.starwars.com/databank/raney",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / named leader and camp. Selected role/identity only. A defeat by Hunter is not a verified death; a planned return to Kadavo is not a current Kadavo scene. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-kaller",
+      "title": "Kaller — official Databank",
+      "url": "https://www.starwars.com/databank/kaller",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile and Terrain / mountainous, forested setting. World distinct from one battle site. No coordinates, population, diameter, exact date or comic-to-screen shot equivalence inferred. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-onderon",
+      "title": "Onderon — official Databank",
+      "url": "https://www.starwars.com/databank/onderon",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile and Terrain / jungles and walled cities. The Bad Batch settings are verified by the episode galleries even though the own-profile work list only names The Clone Wars. Saw’s absence during the later attack is not a new appearance or death. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-ordo-moon",
+      "title": "Ordo Moon — official Databank",
+      "url": "https://www.starwars.com/databank/ordo-moon",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / breathing apparatus and caverns. A planetoid/moon in the Worlds collection; not Pantora’s primary Orto Plutonia. No invented parent planet, coordinates, gas percentages or species-wide respiration rule. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-pantora",
+      "title": "Pantora — official Databank",
+      "url": "https://www.starwars.com/databank/pantora",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicitly principal moon and orbit. Moon identity retained despite placement in Worlds. Orto Plutonia is not Ordo Moon. No new Orto Plutonia profile, system map or personal Pantoran homeworld inference. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-tipoca-city-training-facility",
+      "title": "Tipoca City Training Facility — official Databank",
+      "url": "https://www.starwars.com/databank/tipoca-city-training-facility",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / training site and Tarkin’s live-fire test. Site within Kamino, not an independent astronomical planet or the whole city. No new exact building dimensions, complete training history or automatic related-person episode links. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-cids-parlor",
+      "title": "Cid’s Parlor — official Databank",
+      "url": "https://www.starwars.com/databank/cid-s-parlor",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / underground parlor and gaming tables. A site distinct from Old Ord Mantell City and the planet. Displayed armor, helmets and toys do not identify their former wearers as living episode participants. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-old-ord-mantell-city",
+      "title": "Old Ord Mantell City — official Databank",
+      "url": "https://www.starwars.com/databank/old-ord-mantell-city",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / ruins and captives. A local site on Ord Mantell, distinct from Cid’s Parlor and the whole world. No exact population or coordinates assigned. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-ordo-moon-dragon",
+      "title": "Ordo Moon dragon — official Databank",
+      "url": "https://www.starwars.com/databank/ordo-moon-dragon",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit energy diet. Species distinct from an unnamed individual. No size, lifespan, sentience or invented named dragon assigned. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-nexu",
+      "title": "Nexu — official Databank",
+      "url": "https://www.starwars.com/databank/nexu",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit anatomy. The young Saleucami animal is not the same individual as the Geonosis arena beast. Published individual/type dimensions are not population averages or the young animal’s measured height. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-rancor",
+      "title": "Rancor — official Databank",
+      "url": "https://www.starwars.com/databank/rancor",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit general morphology. Species distinct from Muchi and other named or unnamed rancors. A generic 5 m height is not assigned to an adolescent individual; no Muchi/Return of the Jedi identity equivalence. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-brezak",
+      "title": "Brezak — official Databank",
+      "url": "https://www.starwars.com/databank/brezak",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicitly gliding lizard. The Bad Batch appearance comes from Rampage captions, not the own-profile list that names only The Clone Wars. Native Zygerria and design history are not current episode settings; no population-average dimensions assigned. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp25-zygerrian",
+      "title": "Zygerrian — official Databank",
+      "url": "https://www.starwars.com/databank/zygerrian",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicitly some groups and Old Ord Mantell. Species/cultural context, not an assertion that every individual is a slaver or morally identical. No shared numeric dimensions, lifespan or Raney death inference. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    }
+  ],
+  "sourceUpdates": [],
+  "records": [
+    {
+      "id": "people:depa-billaba",
+      "newRecord": {
+        "category": "people",
+        "slug": "depa-billaba",
+        "title": "Depa Billaba",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Depa Billaba trains Caleb Dume and serves on the Jedi Council. During Order 66 on Kaller she holds off the attacking clones so her apprentice can escape.",
+        "evidence": [
+          {
+            "sourceId": "supp25-depa-billaba",
+            "locator": "Main profile / Council role and Caleb apprenticeship",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-aftermath-gallery",
+            "locator": "Captions 1–8 / Depa and Caleb on Kaller",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Personal introductory scope; Chalactan label, film work list and published height do not certify a complete biological dossier, every edition or end credits.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "role",
+          "value": "Jedi Council member and Caleb Dume’s master",
+          "evidence": [
+            {
+              "sourceId": "supp25-depa-billaba",
+              "locator": "Main profile / Council role and Caleb apprenticeship",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-depa-billaba",
+              "locator": "Main profile / Council role and Caleb apprenticeship",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 1–8 / Depa and Caleb on Kaller",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:kanan-jarrus",
+          "relation": "master_of",
+          "evidence": [
+            {
+              "sourceId": "supp25-depa-billaba",
+              "locator": "Main profile / Caleb Dume apprenticeship",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:kaller",
+          "relation": "died_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-depa-billaba",
+              "locator": "Main profile / Order 66 on Kaller",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp25-depa-billaba",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp25-depa-billaba",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:nala-se",
+      "newRecord": {
+        "category": "people",
+        "slug": "nala-se",
+        "title": "Nala Se",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Nala Se directs medical science on Kamino and helps engineer the Republic clone army. Omega works as her assistant. During Clone Force 99’s escape she secretly opens the hangar doors.",
+        "evidence": [
+          {
+            "sourceId": "supp25-nala-se",
+            "locator": "Main profile / clone army and Omega assistant",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-aftermath-gallery",
+            "locator": "Captions 13, 35, 39, 41 / medical role and escape",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Selected early-Imperial context only. Later captivity and cloning work are not new scenes in these first five episodes; no exact birth year, mass or personal colours inferred.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "role",
+          "value": "Kamino’s chief medical scientist",
+          "evidence": [
+            {
+              "sourceId": "supp25-nala-se",
+              "locator": "Main profile / clone army and Omega assistant",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-nala-se",
+              "locator": "Main profile / clone army and Omega assistant",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 13, 35, 39, 41 / medical role and escape",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:32",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp25-nala-se",
+              "locator": "Species / Kaminoan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:omega",
+          "relation": "medical_supervisor_of",
+          "evidence": [
+            {
+              "sourceId": "supp25-nala-se",
+              "locator": "Main profile / Omega as medical assistant",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:10",
+          "relation": "worked_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-nala-se",
+              "locator": "Main profile / Kamino medical programme",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-nala-se",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:azi-3",
+      "newRecord": {
+        "category": "people",
+        "slug": "azi-3",
+        "title": "AZI-3",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "AZI-3 is a medical droid assigned to injured clone soldiers on Kamino. The Bad Batch encounter the droid when Echo wakes in the medical facility.",
+        "evidence": [
+          {
+            "sourceId": "supp25-azi-3",
+            "locator": "Main profile / explicit medical-droid function",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-aftermath-gallery",
+            "locator": "Caption and released image 18 / medical droid with Echo",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Named droid distinct from all AZI units or generic medical droids. Aftermath still 18 and episode-guide AZI-3 identity are used together; no activation date or technical specification review.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "function",
+          "value": "Medical assessment of injured clone soldiers",
+          "evidence": [
+            {
+              "sourceId": "supp25-azi-3",
+              "locator": "Main profile / explicit medical-droid function",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-azi-3",
+              "locator": "Main profile / explicit medical-droid function",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Caption and released image 18 / medical droid with Echo",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:2",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp25-azi-3",
+              "locator": "Main profile / medical droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:10",
+          "relation": "worked_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-azi-3",
+              "locator": "Main profile / clone patients on Kamino",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-azi-3",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:gonky",
+      "newRecord": {
+        "category": "people",
+        "slug": "gonky",
+        "title": "Gonky",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Gonky is the power droid carried aboard the Marauder. Wrecker also uses the droid in his exercise routine, and Omega spends time beside it on the ship.",
+        "evidence": [
+          {
+            "sourceId": "supp25-gonky",
+            "locator": "Main profile / named GNK droid and primary function",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-cut-and-run-trivia",
+            "locator": "Trivia 8 / explicitly named exercise droid",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Named individual, not every GNK droid or a model-average personal measurement. Cut and Run trivia 8 explicitly names Gonky; Rampage still 9 corroborates the named shipboard individual.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "function",
+          "value": "GNK power generator aboard the Marauder",
+          "evidence": [
+            {
+              "sourceId": "supp25-gonky",
+              "locator": "Main profile / named GNK droid and primary function",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-gonky",
+              "locator": "Main profile / named GNK droid and primary function",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cut-and-run-trivia",
+              "locator": "Trivia 8 / explicitly named exercise droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:2",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp25-gonky",
+              "locator": "Main profile / named GNK droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:marauder",
+          "relation": "aboard",
+          "evidence": [
+            {
+              "sourceId": "supp25-gonky",
+              "locator": "Main profile / shipboard power generator",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:wrecker",
+          "relation": "used_for_exercise_by",
+          "evidence": [
+            {
+              "sourceId": "supp25-gonky",
+              "locator": "Main profile / Wrecker exercise routine",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:cut-lawquane",
+      "newRecord": {
+        "category": "people",
+        "slug": "cut-lawquane",
+        "title": "Cut Lawquane",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Cut leaves the Republic army and farms on Saleucami with Suu, Jek and Shaeeah. At the start of Imperial rule, the Bad Batch help the family obtain the registration needed to leave.",
+        "evidence": [
+          {
+            "sourceId": "supp25-cut-lawquane",
+            "locator": "Main profile / army desertion and Saleucami farming",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-cut-and-run-gallery",
+            "locator": "Captions 2–14 / family and departure",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Family/household roles are not proof of biological parentage or an exact birth date. No inhibitor-chip removal claim is inferred from desertion.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Farmer; former Republic clone trooper",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-lawquane",
+              "locator": "Main profile / army desertion and Saleucami farming",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-lawquane",
+              "locator": "Main profile / army desertion and Saleucami farming",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Captions 2–14 / family and departure",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:suu-lawquane",
+          "relation": "spouse",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-lawquane",
+              "locator": "Main profile / explicitly wife Suu",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:19",
+          "relation": "resided_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-lawquane",
+              "locator": "Main profile / farm residence",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-lawquane",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:suu-lawquane",
+      "newRecord": {
+        "category": "people",
+        "slug": "suu-lawquane",
+        "title": "Suu Lawquane",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Suu lives with Cut and their children on Saleucami. She welcomes the Bad Batch and helps protect Omega when a nexu approaches the farm.",
+        "evidence": [
+          {
+            "sourceId": "supp25-suu-lawquane",
+            "locator": "Main profile and Species / Twi’lek",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-cut-and-run-gallery",
+            "locator": "Captions 3–13 / family, defense and departure",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Refugee status and residence do not independently establish birthplace or homeworld. No genetics, personal colours or complete combat history inferred.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "value": "Twi’lek",
+          "evidence": [
+            {
+              "sourceId": "supp25-suu-lawquane",
+              "locator": "Main profile and Species / Twi’lek",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-suu-lawquane",
+              "locator": "Main profile and Species / Twi’lek",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Captions 3–13 / family, defense and departure",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:15",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp25-suu-lawquane",
+              "locator": "Species / Twi’lek",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:19",
+          "relation": "resided_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-suu-lawquane",
+              "locator": "Main profile / family farm",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-suu-lawquane",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:shaeeah-lawquane",
+      "newRecord": {
+        "category": "people",
+        "slug": "shaeeah-lawquane",
+        "title": "Shaeeah Lawquane",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Shaeeah is the older of the Lawquane children living on Saleucami. She and Jek invite Omega to play while the adults arrange the family’s departure.",
+        "evidence": [
+          {
+            "sourceId": "supp25-shaeeah-lawquane",
+            "locator": "Main profile / eldest of two and named brother",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-cut-and-run-gallery",
+            "locator": "Captions 3, 13 / named children and departure",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Household identity, not proof of Cut’s biological paternity, exact age, birth year or a genetic mixture.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "family_position",
+          "value": "Older sibling of Jek Lawquane",
+          "evidence": [
+            {
+              "sourceId": "supp25-shaeeah-lawquane",
+              "locator": "Main profile / eldest of two and named brother",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-shaeeah-lawquane",
+              "locator": "Main profile / eldest of two and named brother",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Captions 3, 13 / named children and departure",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:jek-lawquane",
+          "relation": "sibling",
+          "evidence": [
+            {
+              "sourceId": "supp25-shaeeah-lawquane",
+              "locator": "Main profile / named brother",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:19",
+          "relation": "resided_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-shaeeah-lawquane",
+              "locator": "Main profile / family home",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-shaeeah-lawquane",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:jek-lawquane",
+      "newRecord": {
+        "category": "people",
+        "slug": "jek-lawquane",
+        "title": "Jek Lawquane",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Jek is the younger Lawquane child. He plays with his sister Shaeeah and their visitor Omega before leaving Saleucami with the family.",
+        "evidence": [
+          {
+            "sourceId": "supp25-jek-lawquane",
+            "locator": "Main profile / youngest child and named sister",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-cut-and-run-gallery",
+            "locator": "Captions 3, 13 / named children and departure",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Family language is not an independently verified biological lineage. Unrelated page-template labels are not Star Wars facts; no exact age or birth date assigned.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "family_position",
+          "value": "Younger sibling of Shaeeah Lawquane",
+          "evidence": [
+            {
+              "sourceId": "supp25-jek-lawquane",
+              "locator": "Main profile / youngest child and named sister",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-jek-lawquane",
+              "locator": "Main profile / youngest child and named sister",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Captions 3, 13 / named children and departure",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:shaeeah-lawquane",
+          "relation": "sibling",
+          "evidence": [
+            {
+              "sourceId": "supp25-jek-lawquane",
+              "locator": "Main profile / named sister",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:19",
+          "relation": "resided_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-jek-lawquane",
+              "locator": "Main profile / family home",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-jek-lawquane",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:rampart",
+      "newRecord": {
+        "category": "people",
+        "slug": "rampart",
+        "title": "Vice Admiral Edmon Rampart",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Rampart oversees clone forces on Kamino for the new Empire. He presents enlisted soldiers as an alternative to a force made entirely of clones and puts Crosshair in command of an experimental squad.",
+        "evidence": [
+          {
+            "sourceId": "supp25-rampart",
+            "locator": "Main profile / early-Imperial command role",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-replacements-gallery",
+            "locator": "Captions 3–7, 15 / recruit programme",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Rank and role are scoped to the early Imperial account. Later arrest, prison and death history not added here. Replacements supplies physical command scenes; the chain-code announcement in Cut and Run needs its separately located scene evidence.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "early_imperial_role",
+          "value": "Oversees clone forces on Kamino",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampart",
+              "locator": "Main profile / early-Imperial command role",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampart",
+              "locator": "Main profile / early-Imperial command role",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-replacements-gallery",
+              "locator": "Captions 3–7, 15 / recruit programme",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:10",
+          "relation": "worked_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampart",
+              "locator": "Main profile / early command on Kamino",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:elite-squad",
+      "newRecord": {
+        "category": "people",
+        "slug": "elite-squad",
+        "title": "Elite Squad — force",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Empire’s Elite Squad brings non-clone recruits under Crosshair’s command. The unit is tested against the remaining people at Saw Gerrera’s Onderon camp.",
+        "evidence": [
+          {
+            "sourceId": "supp25-elite-squad",
+            "locator": "Main profile / recruit programme; trivia 1 / non-clone conscription",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-replacements-gallery",
+            "locator": "Captions 3–4, 9, 12, 15 / actual squad",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "A military group, not a species or one soldier. An ES-01 objection and death do not apply to every recruit; no full roster/credit or all-stormtrooper identity claim.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "recruitment",
+          "value": "Non-clone enlisted recruits for the Empire",
+          "evidence": [
+            {
+              "sourceId": "supp25-elite-squad",
+              "locator": "Main profile / recruit programme; trivia 1 / non-clone conscription",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-elite-squad",
+              "locator": "Main profile / recruit programme; trivia 1 / non-clone conscription",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-replacements-gallery",
+              "locator": "Captions 3–4, 9, 12, 15 / actual squad",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:rampart",
+          "relation": "introduced_by",
+          "evidence": [
+            {
+              "sourceId": "supp25-elite-squad",
+              "locator": "Main profile / Rampart recruit programme",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:cid",
+      "newRecord": {
+        "category": "people",
+        "slug": "cid",
+        "title": "Ciddarin “Cid” Scaleback",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Cid runs an underground parlor on Ord Mantell and trades in information and paid assignments. She sends the Bad Batch to recover Muchi in exchange for intelligence about Fennec Shand.",
+        "evidence": [
+          {
+            "sourceId": "supp25-cid",
+            "locator": "Main profile and Species / Trandoshan",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-rampage-gallery",
+            "locator": "Captions 2–4, 17–20 / assignment and payment",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Full name and species are explicitly sourced; former Jedi contacts do not mean Cid is a Jedi. No later betrayal/fate or exact personal measurements reviewed.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "value": "Trandoshan",
+          "evidence": [
+            {
+              "sourceId": "supp25-cid",
+              "locator": "Main profile and Species / Trandoshan",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-cid",
+              "locator": "Main profile and Species / Trandoshan",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 2–4, 17–20 / assignment and payment",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:7",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp25-cid",
+              "locator": "Species / Trandoshan",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:cids-parlor",
+          "relation": "operates",
+          "evidence": [
+            {
+              "sourceId": "supp25-cid",
+              "locator": "Main profile / owns and runs the parlor",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:muchi",
+      "newRecord": {
+        "category": "people",
+        "slug": "muchi",
+        "title": "Muchi",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Muchi is the young rancor held by Zygerrian slavers in Old Ord Mantell City. Omega opens the cage, and the Bad Batch recover the creature for delivery to Bib Fortuna.",
+        "evidence": [
+          {
+            "sourceId": "supp25-muchi",
+            "locator": "Main profile / explicitly adolescent rancor",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-rampage-gallery",
+            "locator": "Captions 12–18 / true identity and recovery",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Named creature distinct from the Rancor species and the captive Falleen child initially mistaken for Muchi. No identity with Return of the Jedi’s rancor, adult species height or exact birth year asserted.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "value": "Adolescent rancor",
+          "evidence": [
+            {
+              "sourceId": "supp25-muchi",
+              "locator": "Main profile / explicitly adolescent rancor",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-muchi",
+              "locator": "Main profile / explicitly adolescent rancor",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 12–18 / true identity and recovery",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:rancor",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp25-muchi",
+              "locator": "Main profile / adolescent rancor",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:raney",
+      "newRecord": {
+        "category": "people",
+        "slug": "raney",
+        "title": "Raney",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Raney leads the Zygerrian slavers operating in the ruins of Old Ord Mantell City. His captives include Muchi until the Bad Batch disrupt the camp.",
+        "evidence": [
+          {
+            "sourceId": "supp25-raney",
+            "locator": "Main profile / named leader and camp",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-rampage-gallery",
+            "locator": "Captions 11, 15 / camp leader and fight",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Selected role/identity only. A defeat by Hunter is not a verified death; a planned return to Kadavo is not a current Kadavo scene.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "role",
+          "value": "Leader of the Ord Mantell Zygerrian slaver camp",
+          "evidence": [
+            {
+              "sourceId": "supp25-raney",
+              "locator": "Main profile / named leader and camp",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-raney",
+              "locator": "Main profile / named leader and camp",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 11, 15 / camp leader and fight",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:zygerrian",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp25-raney",
+              "locator": "Species / Zygerrian",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:old-ord-mantell-city",
+          "relation": "operated_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-raney",
+              "locator": "Main profile / camp in Ord Mantell ruins",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:kaller",
+      "newRecord": {
+        "category": "planets",
+        "slug": "kaller",
+        "title": "Kaller",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Kaller is a mountainous world where Depa Billaba and Caleb Dume fight near the end of the Clone Wars. Order 66 turns their clone soldiers against them during the battle.",
+        "evidence": [
+          {
+            "sourceId": "supp25-kaller",
+            "locator": "Main profile and Terrain / mountainous, forested setting",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-aftermath-gallery",
+            "locator": "Captions 1–8 / opening battle",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "World distinct from one battle site. No coordinates, population, diameter, exact date or comic-to-screen shot equivalence inferred.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "terrain",
+          "value": "Mountains and forests",
+          "evidence": [
+            {
+              "sourceId": "supp25-kaller",
+              "locator": "Main profile and Terrain / mountainous, forested setting",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-kaller",
+              "locator": "Main profile and Terrain / mountainous, forested setting",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 1–8 / opening battle",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:onderon",
+      "newRecord": {
+        "category": "planets",
+        "slug": "onderon",
+        "title": "Onderon",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Onderon has jungles and fortified cities. After the Republic falls, Saw Gerrera shelters fighters and civilians there; the Bad Batch refuse to attack them, but Crosshair’s later Imperial squad returns to the camp.",
+        "evidence": [
+          {
+            "sourceId": "supp25-onderon",
+            "locator": "Main profile and Terrain / jungles and walled cities",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-aftermath-gallery",
+            "locator": "Captions 24–29 / actual camp",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "The Bad Batch settings are verified by the episode galleries even though the own-profile work list only names The Clone Wars. Saw’s absence during the later attack is not a new appearance or death.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "terrain",
+          "value": "Jungles and urban settlements",
+          "evidence": [
+            {
+              "sourceId": "supp25-onderon",
+              "locator": "Main profile and Terrain / jungles and walled cities",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-onderon",
+              "locator": "Main profile and Terrain / jungles and walled cities",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 24–29 / actual camp",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-onderon",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:ordo-moon",
+      "newRecord": {
+        "category": "planets",
+        "slug": "ordo-moon",
+        "title": "Ordo Moon",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A damaged capacitor forces the Marauder to land on the Ordo Moon. Hunter and Omega use breathing equipment while searching its caverns for the creature that took the replacement part.",
+        "evidence": [
+          {
+            "sourceId": "supp25-ordo-moon",
+            "locator": "Main profile / breathing apparatus and caverns",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-replacements-gallery",
+            "locator": "Captions 1–2, 6, 8, 10–14 / crash and recovery",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "A planetoid/moon in the Worlds collection; not Pantora’s primary Orto Plutonia. No invented parent planet, coordinates, gas percentages or species-wide respiration rule.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "environment",
+          "value": "Atmosphere requires breathing equipment for the stranded squad",
+          "evidence": [
+            {
+              "sourceId": "supp25-ordo-moon",
+              "locator": "Main profile / breathing apparatus and caverns",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-ordo-moon",
+              "locator": "Main profile / breathing apparatus and caverns",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-replacements-gallery",
+              "locator": "Captions 1–2, 6, 8, 10–14 / crash and recovery",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:pantora",
+      "newRecord": {
+        "category": "planets",
+        "slug": "pantora",
+        "title": "Pantora",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Pantora is a moon orbiting Orto Plutonia. At the start of Imperial rule the Bad Batch stop there for repairs and supplies, and Fennec Shand pursues Omega through its city streets.",
+        "evidence": [
+          {
+            "sourceId": "supp25-pantora",
+            "locator": "Main profile / explicitly principal moon and orbit",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-cornered-gallery",
+            "locator": "Captions 1, 4–19 / current stop and pursuit",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Moon identity retained despite placement in Worlds. Orto Plutonia is not Ordo Moon. No new Orto Plutonia profile, system map or personal Pantoran homeworld inference.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "body_type",
+          "value": "Moon orbiting Orto Plutonia",
+          "evidence": [
+            {
+              "sourceId": "supp25-pantora",
+              "locator": "Main profile / explicitly principal moon and orbit",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-pantora",
+              "locator": "Main profile / explicitly principal moon and orbit",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cornered-gallery",
+              "locator": "Captions 1, 4–19 / current stop and pursuit",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-pantora",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:tipoca-city-training-facility",
+      "newRecord": {
+        "category": "planets",
+        "slug": "tipoca-city-training-facility",
+        "title": "Tipoca City Training Facility",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "This Kamino training facility tests Republic clone cadets. After the war, Tarkin turns the Bad Batch’s exercise into a live-fire assessment of their usefulness to the Empire.",
+        "evidence": [
+          {
+            "sourceId": "supp25-tipoca-city-training-facility",
+            "locator": "Main profile / training site and Tarkin’s live-fire test",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-aftermath-gallery",
+            "locator": "Captions 19–22 / live-fire training",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Site within Kamino, not an independent astronomical planet or the whole city. No new exact building dimensions, complete training history or automatic related-person episode links.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "function",
+          "value": "Clone training and Imperial assessment facility",
+          "evidence": [
+            {
+              "sourceId": "supp25-tipoca-city-training-facility",
+              "locator": "Main profile / training site and Tarkin’s live-fire test",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-tipoca-city-training-facility",
+              "locator": "Main profile / training site and Tarkin’s live-fire test",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 19–22 / live-fire training",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:10",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-tipoca-city-training-facility",
+              "locator": "Main profile and Locations / Kamino",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-tipoca-city-training-facility",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:cids-parlor",
+      "newRecord": {
+        "category": "planets",
+        "slug": "cids-parlor",
+        "title": "Cid’s Parlor",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Cid operates an underground bar and gaming parlor on Ord Mantell. The Bad Batch meet her there and negotiate their first paid assignment.",
+        "evidence": [
+          {
+            "sourceId": "supp25-cids-parlor",
+            "locator": "Main profile / underground parlor and gaming tables",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-rampage-gallery",
+            "locator": "Captions 2–4, 17–20 / actual parlor",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "A site distinct from Old Ord Mantell City and the planet. Displayed armor, helmets and toys do not identify their former wearers as living episode participants.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "location_type",
+          "value": "Underground bar and gaming parlor",
+          "evidence": [
+            {
+              "sourceId": "supp25-cids-parlor",
+              "locator": "Main profile / underground parlor and gaming tables",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-cids-parlor",
+              "locator": "Main profile / underground parlor and gaming tables",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 2–4, 17–20 / actual parlor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:27",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-cids-parlor",
+              "locator": "Main profile / underground site on Ord Mantell",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:old-ord-mantell-city",
+      "newRecord": {
+        "category": "planets",
+        "slug": "old-ord-mantell-city",
+        "title": "Old Ord Mantell City",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Zygerrian slavers hold captives among the ruins of Old Ord Mantell City. The Bad Batch’s rescue mission releases Muchi and the other prisoners from the camp.",
+        "evidence": [
+          {
+            "sourceId": "supp25-old-ord-mantell-city",
+            "locator": "Main profile / ruins and captives",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-rampage-gallery",
+            "locator": "Captions 6–16 / actual slaver ruins",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "A local site on Ord Mantell, distinct from Cid’s Parlor and the whole world. No exact population or coordinates assigned.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "condition",
+          "value": "Ruined city occupied by a Zygerrian slaver camp",
+          "evidence": [
+            {
+              "sourceId": "supp25-old-ord-mantell-city",
+              "locator": "Main profile / ruins and captives",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-old-ord-mantell-city",
+              "locator": "Main profile / ruins and captives",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 6–16 / actual slaver ruins",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:27",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "supp25-old-ord-mantell-city",
+              "locator": "Main profile / ruined city on Ord Mantell",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:ordo-moon-dragon",
+      "newRecord": {
+        "category": "species",
+        "slug": "ordo-moon-dragon",
+        "title": "Ordo Moon dragon",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Ordo Moon dragons are nocturnal scavengers that consume raw energy. One takes a capacitor from the stranded Marauder; Omega distracts it with a light to recover the part.",
+        "evidence": [
+          {
+            "sourceId": "supp25-ordo-moon-dragon",
+            "locator": "Main profile / explicit energy diet",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-replacements-gallery",
+            "locator": "Captions 6, 10–14 / energy scavenger",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Species distinct from an unnamed individual. No size, lifespan, sentience or invented named dragon assigned.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "diet",
+          "value": "Raw energy",
+          "evidence": [
+            {
+              "sourceId": "supp25-ordo-moon-dragon",
+              "locator": "Main profile / explicit energy diet",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-ordo-moon-dragon",
+              "locator": "Main profile / explicit energy diet",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-replacements-gallery",
+              "locator": "Captions 6, 10–14 / energy scavenger",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:ordo-moon",
+          "relation": "native_to",
+          "evidence": [
+            {
+              "sourceId": "supp25-ordo-moon-dragon",
+              "locator": "Main profile / explicitly native to Ordo Moon",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:nexu",
+      "newRecord": {
+        "category": "species",
+        "slug": "nexu",
+        "title": "Nexu",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Nexu are agile predators with four eyes, claws and a forked tail. A young animal threatens Omega outside the Lawquane farm on Saleucami.",
+        "evidence": [
+          {
+            "sourceId": "supp25-nexu",
+            "locator": "Main profile / explicit anatomy",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-cut-and-run-gallery",
+            "locator": "Caption 6 and trivia 5 / young animal",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "The young Saleucami animal is not the same individual as the Geonosis arena beast. Published individual/type dimensions are not population averages or the young animal’s measured height.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "anatomy",
+          "value": "Four eyes and a forked prehensile tail",
+          "evidence": [
+            {
+              "sourceId": "supp25-nexu",
+              "locator": "Main profile / explicit anatomy",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-nexu",
+              "locator": "Main profile / explicit anatomy",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Caption 6 and trivia 5 / young animal",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp25-nexu",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:rancor",
+      "newRecord": {
+        "category": "species",
+        "slug": "rancor",
+        "title": "Rancor",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Rancors are powerful creatures with long arms, large jaws and tough skin. The adolescent Muchi is one individual encountered by the Bad Batch.",
+        "evidence": [
+          {
+            "sourceId": "supp25-rancor",
+            "locator": "Main profile / explicit general morphology",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-rampage-gallery",
+            "locator": "Captions 12–18 / adolescent Muchi",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Species distinct from Muchi and other named or unnamed rancors. A generic 5 m height is not assigned to an adolescent individual; no Muchi/Return of the Jedi identity equivalence.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "anatomy",
+          "value": "Long arms and tough armored skin",
+          "evidence": [
+            {
+              "sourceId": "supp25-rancor",
+              "locator": "Main profile / explicit general morphology",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-rancor",
+              "locator": "Main profile / explicit general morphology",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 12–18 / adolescent Muchi",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:3",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp25-rancor",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-rancor",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:brezak",
+      "newRecord": {
+        "category": "species",
+        "slug": "brezak",
+        "title": "Brezak",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Brezaks are large lizards that glide using extended skin flaps. Zygerrian slavers keep one at their Ord Mantell camp, where it clashes with Muchi.",
+        "evidence": [
+          {
+            "sourceId": "supp25-brezak",
+            "locator": "Main profile / explicitly gliding lizard",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-rampage-gallery",
+            "locator": "Captions 7, 16 / named creature and fight",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "The Bad Batch appearance comes from Rampage captions, not the own-profile list that names only The Clone Wars. Native Zygerria and design history are not current episode settings; no population-average dimensions assigned.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "locomotion",
+          "value": "Glides on extended skin flaps",
+          "evidence": [
+            {
+              "sourceId": "supp25-brezak",
+              "locator": "Main profile / explicitly gliding lizard",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-brezak",
+              "locator": "Main profile / explicitly gliding lizard",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 7, 16 / named creature and fight",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-brezak",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:zygerrian",
+      "newRecord": {
+        "category": "species",
+        "slug": "zygerrian",
+        "title": "Zygerrian",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Some Zygerrians seek to revive a slave-trading empire once broken by the Jedi. Raney’s group holds prisoners in the ruins of Old Ord Mantell City.",
+        "evidence": [
+          {
+            "sourceId": "supp25-zygerrian",
+            "locator": "Main profile / explicitly some groups and Old Ord Mantell",
+            "note": ""
+          },
+          {
+            "sourceId": "supp25-rampage-gallery",
+            "locator": "Captions 4, 7, 11, 15 / actual slavers",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for the first five Bad Batch episodes; not a complete dossier.",
+      "limitations": [
+        "Species/cultural context, not an assertion that every individual is a slaver or morally identical. No shared numeric dimensions, lifespan or Raney death inference.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "historical_context",
+          "value": "Some groups revive slave trading after the Clone Wars",
+          "evidence": [
+            {
+              "sourceId": "supp25-zygerrian",
+              "locator": "Main profile / explicitly some groups and Old Ord Mantell",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-zygerrian",
+              "locator": "Main profile / explicitly some groups and Old Ord Mantell",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 4, 7, 11, 15 / actual slavers",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp25-zygerrian",
+              "locator": "Appearances / selected named work",
+              "note": "Work level only; no episode, edition, scene or 2008 feature inferred."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "series:bad-batch",
+      "scope": "First five registered Bad Batch episodes: selected additive appearance review against 64 records, 25 introductory one-fact identities, all 113 narrative and 40 trivia captions read plus individually cited stills. Existing episode identities, dates, credits and evidence retained.",
+      "limitations": [
+        "Five of 47 registered Bad Batch episodes now have scoped selected-record reviews; 42 remain. Cohort is 64 selected records, not all frames, background species, weapons, side characters or final credits.",
+        "Current opening scenes, reports of off-screen events, reused holobroadcasts, stored images, disguised organic people and design/toy callbacks retain distinct scopes. An omitted connection is unestablished, not an absence claim.",
+        "Muchi is an adolescent rancor, not the captive Falleen child; no identity with the Return of the Jedi creature is inferred. Pantora, Ordo Moon and Orto Plutonia remain distinct, and sites remain separate from planets.",
+        "The chain-code Rampart holobroadcast requires a separately located mediated-scene addition; no direct Cut and Run Rampart visit is certified from the selected narrative still. The unchanged retrospective source remains registered. Full earlier Clone Wars contexts and additional background/vehicle identities remain separate follow-ups.",
+        "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "47 episodes across three seasons (16/16/15), including the extended premiere as one. Selected additional music contributors are now sourced; final episode-by-episode music credits, recording/editing personnel and assignments remain pending. Album roles apply only to the named cues.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ],
+      "facts": [],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "people:depa-billaba",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 1–4 / physical battle and sacrifice",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:nala-se",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 13, 35, 39, 41 / physical scientist",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:72",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 14, 18, 23, 41 / physical prime minister",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:12",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 14, 19–24, 32, 35 / physical inspection",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:saw-gerrera",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 27–28 / actual Onderon leader",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:azi-3",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Caption and released image 18 / matching medical droid",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-azi-3",
+              "locator": "Main profile / selected named identity or classification",
+              "note": ""
+            },
+            {
+              "sourceId": "screen04-batch-aftermath",
+              "locator": "Databank / explicitly named AZI-3",
+              "note": "Identity corroboration alongside the inspected actual still, not work-list evidence alone."
+            }
+          ]
+        },
+        {
+          "targetId": "planets:kaller",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 1–8 / actual battle and escape",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:onderon",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 24–29 / actual camp mission",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:tipoca-city-training-facility",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 19–22 / actual live-fire test",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-tipoca-city-training-facility",
+              "locator": "Main profile / selected named identity or classification",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:imperial-probe-droid",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 28–29 / actual surveillance droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:32",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Captions 13–14, 35, 41 / named Kaminoans through Nala Se and Lama Su",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-nala-se",
+              "locator": "Main profile / selected named identity or classification",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:2",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Caption and released image 18 / medical-droid member",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-azi-3",
+              "locator": "Main profile / selected named identity or classification",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:21",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "Caption and released image 12; trivia 5 / actual holobroadcast of reused speech",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-aftermath-trivia",
+              "locator": "Trivia 5 / speech reused from Revenge of the Sith",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:cut-lawquane",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Captions 2–13 / named deserter and family",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:suu-lawquane",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Captions 3, 6–7, 10–13 / family and protection",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:shaeeah-lawquane",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Captions 3, 13 / named child and departure",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:jek-lawquane",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Captions 3, 13 / named child and departure",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:19",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Captions 1–14 / current Saleucami visit",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:nexu",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Caption 6 and trivia 5 / actual young predator",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cut-and-run-trivia",
+              "locator": "Trivia 5 / explicitly young nexu",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:15",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "Caption 3 / Suu Lawquane present",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-suu-lawquane",
+              "locator": "Species / Twi’lek",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:gonky",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-and-run-trivia",
+              "locator": "Trivia 8 / explicitly named Gonky in Wrecker’s exercise",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:rampart",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-replacements-gallery",
+              "locator": "Captions 3–4, 7, 15 / physical officer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:elite-squad",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-replacements-gallery",
+              "locator": "Captions 3–4, 9, 12, 15 / actual enlisted unit",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:ordo-moon",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-replacements-gallery",
+              "locator": "Captions 1–2, 5–6, 8, 10–14 / current crash setting",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:ordo-moon-dragon",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-replacements-gallery",
+              "locator": "Captions 6, 10–14 / actual scavenging animal",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:fennec-shand",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-cornered-gallery",
+              "locator": "Captions 2–3, 8–19 / remote opening and later physical pursuit",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:pantora",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-cornered-gallery",
+              "locator": "Captions 1, 4–19 / actual city stop",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:cid",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 2–4, 8, 17–20 / physical informant",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:muchi",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 12–18 / freed adolescent rancor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:raney",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 11, 15 / actual slaver leader",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-raney",
+              "locator": "Main profile / named identity, classification or location",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:45",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 17–18 / actual collector",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:rancor",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 12–18 / actual Muchi",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-muchi",
+              "locator": "Main profile / named identity, classification or location",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:brezak",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 7, 16 / actual named creature",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-brezak",
+              "locator": "Main profile / named identity, classification or location",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:zygerrian",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 4, 7, 11, 15 / actual slavers",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-raney",
+              "locator": "Main profile / named identity, classification or location",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:7",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 2–4 / actual Trandoshan Cid",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cid",
+              "locator": "Main profile / named identity, classification or location",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:27",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 1–20 / current Ord Mantell stop",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:cids-parlor",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 2–4, 17–20 / actual meeting place",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:old-ord-mantell-city",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "Captions 6–16 / actual ruined-city camp",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-old-ord-mantell-city",
+              "locator": "Main profile / named identity, classification or location",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "episodeReviews": [
+        {
+          "episodeId": "series:bad-batch:s1e1",
+          "scope": "All 43 narrative and 12 trivia captions checked against 64 selected records, with individually cited released stills. Not a complete background, weapons, frame or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian"
+          ],
+          "notes": [
+            "Caleb Dume is the younger Kanan Jarrus, not a second identity or a flashback within this episode. The Kaller action is its current opening sequence. Depa’s sacrifice is not the death of Caleb; Hunter’s report to Crosshair is a protective lie.",
+            "Palpatine’s speech appears as a holographic broadcast in released still 12; trivia 5 identifies reused Revenge of the Sith speech. One transmission row, not a physical visit to Kamino. The Order 66 instruction in caption 4 is also mediated.",
+            "Obi-Wan versus Grievous and reinforcements rerouted to Coruscant are reported events. Rex/Anakin training Saw is earlier history; Echo’s Skako Minor trauma and trivia’s Tup/Lola Sayu are callbacks. No bodily appearance or setting is inferred from these mentions.",
+            "AZI-3 is identified from released still 18 together with the guide’s named AZI-3 entry and own medical-droid profile, rather than a generic Related card alone. Named Nala Se and Lama Su are physically present.",
+            "Training and field droids are not all the same individual or a verified B1 model by generic wording. No AT-TE/LAAT subtype row is added without individually located model evidence. The overhead covered Jedi corpse is not assigned an unverified name.",
+            "Tooka and clone toys are objects, not living creatures. The full 70-minute premiere is one registered episode; no extra numbered parts, credits or dates. Crosshair’s early inhibitor account does not settle his entire later free-will/chip history."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp25-aftermath-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-aftermath-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e1",
+              "locator": "Registered official guide / episode identity and number retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 3–43 / actual squad leader",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 3, 16, 21–22, 36–43 / actual squad member",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 3, 6, 11, 22, 30, 36–43 / actual squad member",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 3, 18, 38–43 / actual squad member",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:crosshair",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 3–8, 11, 33–40 / actual squad member and opponent",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 12–43 / actual child and escape",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:kanan-jarrus",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 1–8 and trivia 1 / Caleb Dume on Kaller",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:depa-billaba",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 1–4 / physical battle and sacrifice",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:nala-se",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 13, 35, 39, 41 / physical scientist",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:72",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 14, 18, 23, 41 / physical prime minister",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:12",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 14, 19–24, 32, 35 / physical inspection",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:saw-gerrera",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 27–28 / actual Onderon leader",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:azi-3",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Caption and released image 18 / matching medical droid",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-azi-3",
+                  "locator": "Main profile / selected named identity or classification",
+                  "note": ""
+                },
+                {
+                  "sourceId": "screen04-batch-aftermath",
+                  "locator": "Databank / explicitly named AZI-3",
+                  "note": "Identity corroboration alongside the inspected actual still, not work-list evidence alone."
+                }
+              ]
+            },
+            {
+              "targetId": "planets:kaller",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 1–8 / actual battle and escape",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:10",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 9–25, 31–41 / actual Kamino facilities",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:onderon",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 24–29 / actual camp mission",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:tipoca-city-training-facility",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 19–22 / actual live-fire test",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-tipoca-city-training-facility",
+                  "locator": "Main profile / selected named identity or classification",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 9, 25–26, 30, 38–43 / actual squad shuttle",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:imperial-probe-droid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 28–29 / actual surveillance droid",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:32",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Captions 13–14, 35, 41 / named Kaminoans through Nala Se and Lama Su",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-nala-se",
+                  "locator": "Main profile / selected named identity or classification",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:2",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Caption and released image 18 / medical-droid member",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-azi-3",
+                  "locator": "Main profile / selected named identity or classification",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:21",
+              "relation": "appearance",
+              "representation": "transmission",
+              "note": "A projected address, not a physical Kamino visit.",
+              "evidence": [
+                {
+                  "sourceId": "supp25-aftermath-gallery",
+                  "locator": "Caption and released image 12; trivia 5 / actual holobroadcast of reused speech",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-aftermath-trivia",
+                  "locator": "Trivia 5 / speech reused from Revenge of the Sith",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e2",
+          "scope": "All 14 narrative and 8 trivia captions checked against 64 selected records, with individually cited released stills. Not a complete background, weapons, frame or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian"
+          ],
+          "notes": [
+            "All current squad members except Crosshair are individually identified in the captions. A Crosshair Related card does not add him to this episode. Rex visited yesterday according to Cut; that report is not a newly shown Rex scene.",
+            "Suu, Cut, Jek and Shaeeah are a family/household. No biological father, exact age, species mixture or inherited measurements are deduced from appearance or clone resemblance.",
+            "The nexu is explicitly a young Saleucami animal, not the Geonosis arena individual or a new Geonosis visit. Gonky is explicitly identified by trivia 8; unrelated 8D-series background droid and toy callbacks do not create their original film characters.",
+            "The chain-code announcement includes additional material beyond these selected narrative stills. No physical Rampart visit or individually located Rampart scene is certified by caption 5, whose inspected image shows Hunter and Cut. The separately registered 2023 Empire retrospective remains available for a future precisely located mediated-appearance addition.",
+            "Kamino is Omega’s prior home and a mention, not a current setting. Saleucami and the actual squad shuttle are current; unnamed passenger transport is not forced into a known craft model. Credits and dates unchanged."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp25-cut-and-run-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cut-and-run-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e2",
+              "locator": "Registered official guide / episode identity and number retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 2–14 / visit and departure",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 11–12; trivia 8 / impound battle and exercise",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 8–12 / registration plan",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 3, 8–12 / registration plan",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 1–14 / actual visit and return",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cut-lawquane",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 2–13 / named deserter and family",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:suu-lawquane",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 3, 6–7, 10–13 / family and protection",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:shaeeah-lawquane",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 3, 13 / named child and departure",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:jek-lawquane",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 3, 13 / named child and departure",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:19",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 1–14 / current Saleucami visit",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Captions 8–12, 14 / impounded squad shuttle and escape",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:nexu",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Caption 6 and trivia 5 / actual young predator",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-cut-and-run-trivia",
+                  "locator": "Trivia 5 / explicitly young nexu",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:15",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Caption 3 / Suu Lawquane present",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-suu-lawquane",
+                  "locator": "Species / Twi’lek",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:2",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-gallery",
+                  "locator": "Trivia 8 / actual Gonky",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-gonky",
+                  "locator": "Main profile / named GNK droid",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:gonky",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Named droid, not all gonk units.",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cut-and-run-trivia",
+                  "locator": "Trivia 8 / explicitly named Gonky in Wrecker’s exercise",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e3",
+          "scope": "All 17 narrative and 5 trivia captions checked against 64 selected records, with individually cited released stills. Not a complete background, weapons, frame or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian"
+          ],
+          "notes": [
+            "Crosshair, Tarkin, Rampart, Lama Su and Nala Se are physically present in the Imperial/Kamino strand. The other five squad members are stranded on Ordo Moon. The Elite Squad comprises non-clone recruits, distinct from Clone Force 99.",
+            "Saw Gerrera is the target but explicitly absent when the Imperial squad attacks the Onderon camp. Jango Fett’s degrading genetic sample is discussed, not a living Jango scene. A Darth/Jedi reference, design callback or series cast list does not create a new physical appearance.",
+            "Ordo Moon is the crash setting; it is not Orto Plutonia or Pantora. The nocturnal dragon is a species member, not an invented named character. Omega distracts it with a flashlight; one observed response does not establish universal docility or sentience.",
+            "One recruit’s refusal and killing is not the death of all members. Wrecker’s bedroom gift and head pain do not themselves prove the later chip outcome. Oxygen-mask design inspiration does not create Han/Leia/Chewbacca appearances. No new credits, versions or dates."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp25-replacements-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-replacements-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e3",
+              "locator": "Registered official guide / episode identity and number retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 1–2, 8, 10–14, 17 / actual stranded leader",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 1–2, 17 and trivia 5 / actual squad member and room gift",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 5–6 / actual repairs and creature identification",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Caption 5 / actual repairs",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 1–2, 6, 8, 11–14, 17 / actual recovery and room",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:crosshair",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 3–4, 9, 12, 15, 17 / physical Imperial soldier",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:12",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 3–4, 7, 15 / physical commander",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:rampart",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 3–4, 7, 15 / physical officer",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:72",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 7, 16 / physical prime minister",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:nala-se",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Caption 16 / physical scientist",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:elite-squad",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 3–4, 9, 12, 15 / actual enlisted unit",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:10",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 3–4, 7, 15–17 / current Imperial strand",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:ordo-moon",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 1–2, 5–6, 8, 10–14 / current crash setting",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:onderon",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 9, 12 / actual camp attack",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 1–2, 5–6, 17 / actual damaged shuttle",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:ordo-moon-dragon",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Captions 6, 10–14 / actual scavenging animal",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:32",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-replacements-gallery",
+                  "locator": "Caption 16 / Nala Se and Lama Su physically present",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-nala-se",
+                  "locator": "Species / Kaminoan",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e4",
+          "scope": "All 19 narrative and 6 trivia captions checked against 64 selected records, with individually cited released stills. Not a complete background, weapons, frame or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian"
+          ],
+          "notes": [
+            "Fennec’s initial remote contact in captions 2–3 is followed by actual physical pursuit in captions 8–19. The one Fennec row is direct and notes both forms. An unnamed final contact is not automatically Nala Se or Lama Su.",
+            "Echo is an organic clone with cybernetic reconstruction, disguised as a droid for the sale; the shopkeeper’s mistaken identification does not create a Droid species link for Echo. Unnamed shop droids are not all named Gonky.",
+            "The SoroSuub yacht is a desk model per trivia 2, not the actual Lady Luck/Fortune and Glory or a living Lando/Hondo appearance. Tooka/voorpak/toy backgrounds remain outside this selected introductory cohort. Pantoran inhabitants are not automatically every named Pantoran person.",
+            "Pantora is the actual current repair stop. Unnamed cargo craft, police vehicles and Hunter’s speeder bike are not forced into existing named hulls or models. Crosshair’s Related card alone does not certify his presence. No new end credits or dates."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp25-cornered-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-cornered-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e4",
+              "locator": "Registered official guide / episode identity and number retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cornered-gallery",
+                  "locator": "Captions 4–18 / supply run and rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cornered-gallery",
+                  "locator": "Captions 2, 4, 11–12 / repairs and fight",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cornered-gallery",
+                  "locator": "Captions 2, 4 / repairs",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cornered-gallery",
+                  "locator": "Captions 4, 6, 9–10 / disguised organic clone and droid assistance",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cornered-gallery",
+                  "locator": "Captions 4–18 / actual pursuit",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:fennec-shand",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Early mediated contact and later physical scenes; direct is the combined row’s stronger form.",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cornered-gallery",
+                  "locator": "Captions 2–3, 8–19 / remote opening and later physical pursuit",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:pantora",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cornered-gallery",
+                  "locator": "Captions 1, 4–19 / actual city stop",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-cornered-gallery",
+                  "locator": "Captions 2, 4, 10, 18 / repairs and escape",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e5",
+          "scope": "All 20 narrative and 9 trivia captions checked against 64 selected records, with individually cited released stills. Not a complete background, weapons, frame or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian"
+          ],
+          "notes": [
+            "The gallery initially repeats the squad’s mistaken identification of a captive Falleen girl as Muchi in captions 6/10, then explicitly corrects it in caption 13. Muchi is the adolescent rancor, not the captive girl. The named individual and Rancor species retain separate records.",
+            "Fennec is a holo shown to Cid in caption 4, not a fresh bodily visitor. Her actual Cornered pursuit is separately reviewed. Jabba is the employer/recipient named in context and trivia 9, not a shown physical visitor. Bib Fortuna physically arrives and collects Muchi.",
+            "The named Muchi is not automatically the Return of the Jedi rancor. No exact birth year or adult 5 m species height is assigned to her. Zygerria native context and a planned Kadavo return do not add current settings.",
+            "Raney’s camp-leader identity is supplied by his own profile alongside the actual caption 11/15 leader. Defeat is not a verified death. The brezak physically attacks and later flees, distinct from Muchi.",
+            "Gonky is the shipboard GNK in inspected released image 9, corroborated by its own named Marauder profile. Clone toys and displayed helmets are objects, not former owners or living creatures. Crosshair’s comm device is not a current Crosshair scene. Cid’s Parlor and Old Ord Mantell City are separate sites on the same world."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp25-rampage-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp25-rampage-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e5",
+              "locator": "Registered official guide / episode identity and number retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 1–20 / assignment, rescue and negotiation",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 5, 13, 16 / actual squad member and rancor fight",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 1, 10, 14, 16 / actual squad member",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 5, 7, 13 / actual squad member",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 1–18 / actual rescue and ride",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 2–4, 8, 17–20 / physical informant",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:muchi",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 12–18 / freed adolescent rancor",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:raney",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 11, 15 / actual slaver leader",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-raney",
+                  "locator": "Main profile / named identity, classification or location",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:45",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 17–18 / actual collector",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:gonky",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Caption and released image 9 / shipboard power droid",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-gonky",
+                  "locator": "Main profile / named identity, classification or location",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:rancor",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 12–18 / actual Muchi",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-muchi",
+                  "locator": "Main profile / named identity, classification or location",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:brezak",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 7, 16 / actual named creature",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-brezak",
+                  "locator": "Main profile / named identity, classification or location",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:zygerrian",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 4, 7, 11, 15 / actual slavers",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-raney",
+                  "locator": "Main profile / named identity, classification or location",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:7",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 2–4 / actual Trandoshan Cid",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-cid",
+                  "locator": "Main profile / named identity, classification or location",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:2",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Caption and released image 9 / actual Gonky",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-gonky",
+                  "locator": "Main profile / named identity, classification or location",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:27",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 1–20 / current Ord Mantell stop",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:cids-parlor",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 2–4, 17–20 / actual meeting place",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:old-ord-mantell-city",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 6–16 / actual ruined-city camp",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-old-ord-mantell-city",
+                  "locator": "Main profile / named identity, classification or location",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Captions 1, 5, 9 / actual squad ship",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:fennec-shand",
+              "relation": "appearance",
+              "representation": "transmission",
+              "note": "Stored displayed holo-image, not a current live call or bodily visit. Transmission is the archive’s mediated-image category.",
+              "evidence": [
+                {
+                  "sourceId": "supp25-rampage-gallery",
+                  "locator": "Caption 4 / explicitly holo shown to Cid",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

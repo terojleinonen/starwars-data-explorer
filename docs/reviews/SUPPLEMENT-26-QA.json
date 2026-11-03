@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-11-03",
+  "batch": "SUPPLEMENT-26",
+  "states": [
+    {
+      "label": "Decommissioned selected rows and spelling conflict",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "Selected episode connections (19)",
+        "A7-R7",
+        "R7-A7",
+        "Detached head",
+        "Silver Angel"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Battle Scars false KIA and wreck",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "Selected episode connections (15)",
+        "killed-in-action",
+        "Bracca Venator wreck",
+        "Dianoga"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Reunion projected Rampart",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "Selected episode connections (16)",
+        "Transmission",
+        "not physical presence on Bracca"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Bounty Lost body and remote call limits",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "Selected episode connections (18)",
+        "Alive in meeting 3; later motionless body",
+        "No physical Bora Vio visit",
+        "Justifier",
+        "Flight pod"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Common Ground separate settings and active walker",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "Selected episode connections (15)",
+        "Omega stays on Ord Mantell",
+        "Raxus Prime",
+        "AT-TE",
+        "GS-8"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Reunion claim-level source jump",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#source-supp26-reunion-gallery",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "No open content licence identified",
+        "released image 1 / projected Rampart",
+        "Evidence on this record (19)"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Named astromech introduction and spelling limitation",
+      "url": "http://127.0.0.1:3100/people/r7-a7#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "R7-A7",
+        "A7-R7",
+        "Astromech and co-pilot aboard the Silver Angel"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Descriptive wreck identity and limited specifications",
+      "url": "http://127.0.0.1:3100/starships/bracca-venator-wreck#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "Rusted and severely damaged",
+        "Descriptive editorial title",
+        "no type dimensions copied"
+      ],
+      "pass": true
+    },
+    {
+      "label": "320 px local flight-pod type",
+      "url": "http://127.0.0.1:3100/vehicles/flight-pod#attributes",
+      "width": 320,
+      "scrollWidth": 320,
+      "expected": [
+        "Short-distance transport around the Bora Vio facility",
+        "No hyperdrive"
+      ],
+      "pass": true
+    },
+    {
+      "label": "320 px Raxus identity boundary",
+      "url": "http://127.0.0.1:3100/planets/raxus#attributes",
+      "width": 320,
+      "scrollWidth": 320,
+      "expected": [
+        "Raxus Prime",
+        "Capital world of the Confederacy"
+      ],
+      "pass": true
+    },
+    {
+      "label": "320 px creature species profile",
+      "url": "http://127.0.0.1:3100/species/dianoga#attributes",
+      "width": 320,
+      "scrollWidth": 320,
+      "expected": [
+        "Dianoga",
+        "Tentacles and an eyestalk"
+      ],
+      "pass": true
+    },
+    {
+      "label": "320 px episode links and death/body distinction",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "width": 320,
+      "scrollWidth": 320,
+      "expected": [
+        "Selected episode connections (18)",
+        "Alive in meeting 3; later motionless body",
+        "Flight pod"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Collection search and explicit Cad Bane preview",
+      "url": "http://127.0.0.1:3100/people",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "Cad Bane",
+        "Selected details checked",
+        "4 recorded connections"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Cad Bane own published occupation",
+      "url": "http://127.0.0.1:3100/people/cad-bane#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "Bounty hunter"
+      ],
+      "pass": true
+    }
+  ],
+  "notes": [
+    "Initial QA navigation used the record ID suffix rather than the published slug and received the expected 404; corrected to /series/the-bad-batch. This was a test-navigation error.",
+    "One source-disclosure expectation initially looked for an episode-row note inside citation locators. Corrected to assert the actual projected-Rampart locator; row note verified separately.",
+    "The collection preview intentionally shows record status/connections, rather than the introductory occupation fact; full profile facts were tested separately."
+  ],
+  "consoleWarningsAndErrors": [],
+  "passedStates": 14,
+  "result": "pass",
+  "limitations": [
+    "Scoped smoke checks of affected UI only; no full-site browser coverage or field performance audit.",
+    "Viewport 1280×720 and 320×800.",
+    "Source prose and official media were inspected remotely, not copied to files."
+  ]
+}

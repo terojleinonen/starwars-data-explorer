@@ -1,0 +1,4067 @@
+{
+  "version": 1,
+  "id": "SUPPLEMENT-23",
+  "checkedAt": "2026-11-03",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "Five Rebels season-four guides 8–12: additive selected episode connections, twelve original introductory one-fact profiles, two additive facts and complete narrative/trivia-caption review. Original-USA date scope retained; no date, credit, edition or episode-register expansion.",
+  "sources": [
+    {
+      "id": "supp23-crawler-commandeers-gallery",
+      "title": "Crawler Commandeers — official episode gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/crawler-commandeers-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All ten narrative captions read directly in the browser 3 November 2026; separately selected released images inspected where individually cited. One-based gallery positions. No source prose, captions or media stored; not a complete frame/voice/credit inventory.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-crawler-commandeers-trivia",
+      "title": "Crawler Commandeers — official trivia gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/crawler-commandeers-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 6 nonempty trivia captions read directly in the browser 3 November 2026. Actual events kept separate from unused map statistics, early titles, discarded dialogue, artistic depictions and design/actor references. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-rebel-assault-gallery",
+      "title": "Rebel Assault — official episode gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/rebel-assault-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All ten narrative captions read directly in the browser 3 November 2026; separately selected released images inspected where individually cited. One-based gallery positions. No source prose, captions or media stored; not a complete frame/voice/credit inventory.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-rebel-assault-trivia",
+      "title": "Rebel Assault — official trivia gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/rebel-assault-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 5 nonempty trivia captions read directly in the browser 3 November 2026. Actual events kept separate from unused map statistics, early titles, discarded dialogue, artistic depictions and design/actor references. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-jedi-night-gallery",
+      "title": "Jedi Night — official episode gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/jedi-night-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All ten narrative captions read directly in the browser 3 November 2026; separately selected released images inspected where individually cited. One-based gallery positions. No source prose, captions or media stored; not a complete frame/voice/credit inventory.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-jedi-night-trivia",
+      "title": "Jedi Night — official trivia gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/jedi-night-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 6 nonempty trivia captions read directly in the browser 3 November 2026. Actual events kept separate from unused map statistics, early titles, discarded dialogue, artistic depictions and design/actor references. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-dume-gallery",
+      "title": "Dume — official episode gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/dume-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All ten narrative captions read directly in the browser 3 November 2026; separately selected released images inspected where individually cited. One-based gallery positions. No source prose, captions or media stored; not a complete frame/voice/credit inventory.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-dume-trivia",
+      "title": "Dume — official trivia gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/dume-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 5 nonempty trivia captions read directly in the browser 3 November 2026. Actual events kept separate from unused map statistics, early titles, discarded dialogue, artistic depictions and design/actor references. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-wolves-and-a-door-gallery",
+      "title": "Wolves and a Door — official episode gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/wolves-and-a-door-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All ten narrative captions read directly in the browser 3 November 2026; separately selected released images inspected where individually cited. One-based gallery positions. No source prose, captions or media stored; not a complete frame/voice/credit inventory.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-wolves-and-a-door-trivia",
+      "title": "Wolves and a Door — official trivia gallery",
+      "url": "https://www.starwars.com/series/star-wars-rebels/wolves-and-a-door-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 8 nonempty trivia captions read directly in the browser 3 November 2026. Actual events kept separate from unused map statistics, early titles, discarded dialogue, artistic depictions and design/actor references. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-ore-crawler",
+      "title": "Ore Crawler — official Databank",
+      "url": "https://www.starwars.com/databank/ore-crawler",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-mining-guild-security-droid",
+      "title": "Mining Guild Security Droid — official Databank",
+      "url": "https://www.starwars.com/databank/mining-guild-security-droid",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-seevor",
+      "title": "Seevor — official Databank",
+      "url": "https://www.starwars.com/databank/seevor",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-guild-slave-master-proach",
+      "title": "Guild Slave Master Proach — official Databank",
+      "url": "https://www.starwars.com/databank/guild-slave-master-proach",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-cleat",
+      "title": "Cleat — official Databank",
+      "url": "https://www.starwars.com/databank/cleat",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance. Own profile establishes Phoenix Four, but selected episode stills do not independently identify his individual scene.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-lothal-fuel-depot",
+      "title": "Lothal fuel depot — official Databank",
+      "url": "https://www.starwars.com/databank/lothal-fuel-depot",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-loth-bat-glider",
+      "title": "Loth-bat glider — official Databank",
+      "url": "https://www.starwars.com/databank/loth-bat-glider",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-loth-bat",
+      "title": "Loth-bat — official Databank",
+      "url": "https://www.starwars.com/databank/loth-bat",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-dume",
+      "title": "Dume — official Databank",
+      "url": "https://www.starwars.com/databank/dume",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance. The origin is explicitly unknown; shared name/marking does not certify identity with Kanan or a Force-spirit form.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-veris-hydan",
+      "title": "Veris Hydan — official Databank",
+      "url": "https://www.starwars.com/databank/veris-hydan",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp23-mining-guild-excavation-driller",
+      "title": "Mining Guild excavation driller — official Databank",
+      "url": "https://www.starwars.com/databank/mining-guild-excavation-driller",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Opening main profile and individually cited role, classification or affiliation read 3 November 2026 for an original introductory summary and one scoped fact. Not a complete biography, technical specification or media inventory. Related cards alone do not establish an episode appearance. Explicitly identifies the single-operator machine used for the Imperial Lothal Temple excavation.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    }
+  ],
+  "sourceUpdates": [],
+  "records": [
+    {
+      "id": "vehicles:ore-crawler",
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "ore-crawler",
+        "title": "Ore Crawler",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Mining Guild uses huge crawlers to extract resources, damaging the land as they work. Rebels seize one on Lothal to contact their allies, and its freed prisoners join the rebellion.",
+        "evidence": [
+          {
+            "sourceId": "supp23-ore-crawler",
+            "locator": "Main profile / explicit developer and extraction role",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-crawler-commandeers-gallery",
+            "locator": "Captions 2, 4–10 / actual crawler seizure",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "An ore crawler is not the Jawas’ Sand Crawler or a Dark Empire World Devastator. A design inspiration does not merge types, continuity or capabilities. No length, mass, speed or slave capacity is inferred.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "developer",
+          "value": "Mining Guild",
+          "evidence": [
+            {
+              "sourceId": "supp23-ore-crawler",
+              "locator": "Main profile / explicit developer and extraction role",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Captions 2, 4–10 / actual crawler seizure",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-ore-crawler",
+              "locator": "Main profile / explicit developer and extraction role",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Captions 2, 4–10 / actual crawler seizure",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:lothal",
+          "relation": "operated_on",
+          "evidence": [
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Captions 2–10 / actual crawler mission on Lothal",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-ore-crawler",
+              "locator": "Locations / Lothal",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:mining-guild-security-droid",
+      "newRecord": {
+        "category": "people",
+        "slug": "mining-guild-security-droid",
+        "title": "Mining Guild security droid — type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Guild posts security droids on its ore crawlers. Sabine neutralizes guards while her companions board the vehicle and take its control room.",
+        "evidence": [
+          {
+            "sourceId": "supp23-mining-guild-security-droid",
+            "locator": "Main profile / guards, not generic Imperial sentry droids",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-crawler-commandeers-gallery",
+            "locator": "Caption 4 / actual security-droid guards",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "This is a type, not an individually named robot or the Imperial sentry/E-XD model. No exact height or hearing threshold is inferred.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "role",
+          "value": "Guards Mining Guild ore crawlers",
+          "evidence": [
+            {
+              "sourceId": "supp23-mining-guild-security-droid",
+              "locator": "Main profile / guards, not generic Imperial sentry droids",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Caption 4 / actual security-droid guards",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-mining-guild-security-droid",
+              "locator": "Main profile / guards, not generic Imperial sentry droids",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Caption 4 / actual security-droid guards",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:ore-crawler",
+          "relation": "guards",
+          "evidence": [
+            {
+              "sourceId": "supp23-mining-guild-security-droid",
+              "locator": "Main profile / explicit guarded type",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:seevor",
+      "newRecord": {
+        "category": "people",
+        "slug": "seevor",
+        "title": "Seevor",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An ore-crawler captain loyal to the Mining Guild resists the rebel takeover. He sabotages the communications system, then falls into the reactor furnace during his confrontation with Ezra.",
+        "evidence": [
+          {
+            "sourceId": "supp23-seevor",
+            "locator": "Main profile / named captain and Guild loyalty",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-crawler-commandeers-trivia",
+            "locator": "Trivia 4 / named current Captain Seevor",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-crawler-commandeers-gallery",
+            "locator": "Captions 5, 8 / captive captain, sabotage and fall",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "The father is a family-history reference, not a second current participant. The selected text does not establish a species, birth world or a legal judgment about the confrontation.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Mining Guild ore-crawler captain",
+          "evidence": [
+            {
+              "sourceId": "supp23-seevor",
+              "locator": "Main profile / named captain and Guild loyalty",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-trivia",
+              "locator": "Trivia 4 / named current Captain Seevor",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Captions 5, 8 / captive captain, sabotage and fall",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-seevor",
+              "locator": "Main profile / named captain and Guild loyalty",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-trivia",
+              "locator": "Trivia 4 / named current Captain Seevor",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Captions 5, 8 / captive captain, sabotage and fall",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:ore-crawler",
+          "relation": "commands",
+          "evidence": [
+            {
+              "sourceId": "supp23-seevor",
+              "locator": "Main profile / explicit captain’s craft",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:proach",
+      "newRecord": {
+        "category": "people",
+        "slug": "proach",
+        "title": "Guild Slave Master Proach",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Proach supervises forced labor on the Guild’s crawlers on Lothal. He uses an electrified whip and fights Zeb when the rebels discover the prisoners.",
+        "evidence": [
+          {
+            "sourceId": "supp23-guild-slave-master-proach",
+            "locator": "Main profile / explicit Trandoshan and named role",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-crawler-commandeers-trivia",
+            "locator": "Trivia 5 / named foreman fighting Zeb",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-crawler-commandeers-gallery",
+            "locator": "Caption 6 / actual attack",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "The Pat Roach naming tribute does not create an Indiana Jones character, performer credit or real-world person in the story. No fate is inferred from a fight alone.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "value": "Trandoshan",
+          "evidence": [
+            {
+              "sourceId": "supp23-guild-slave-master-proach",
+              "locator": "Main profile / explicit Trandoshan and named role",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-trivia",
+              "locator": "Trivia 5 / named foreman fighting Zeb",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Caption 6 / actual attack",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-guild-slave-master-proach",
+              "locator": "Main profile / explicit Trandoshan and named role",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-trivia",
+              "locator": "Trivia 5 / named foreman fighting Zeb",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Caption 6 / actual attack",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:7",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp23-guild-slave-master-proach",
+              "locator": "Main profile and Species / Trandoshan",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:cleat",
+      "newRecord": {
+        "category": "people",
+        "slug": "cleat",
+        "title": "Cleat",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Cleat serves the Rebel Alliance as a Phoenix Squadron pilot. His official profile identifies his squadron call sign as Phoenix Four.",
+        "evidence": [
+          {
+            "sourceId": "supp23-cleat",
+            "locator": "Main profile / explicit call sign and pilot role",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "The official own profile establishes this introduction and series membership. A Related card or unnamed squadron scene does not independently identify Cleat in Rebel Assault; no episode link or death is asserted here. Phoenix Four is not Mart Mattin’s Phoenix Two.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "call_sign",
+          "value": "Phoenix Four",
+          "evidence": [
+            {
+              "sourceId": "supp23-cleat",
+              "locator": "Main profile / explicit call sign and pilot role",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-cleat",
+              "locator": "Main profile / explicit call sign and pilot role",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:lothal-fuel-depot",
+      "newRecord": {
+        "category": "planets",
+        "slug": "lothal-fuel-depot",
+        "title": "Lothal fuel depot",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Empire stores fuel here for its forces on Lothal. A rebel rescue ends in an explosion at the depot; the lost reserves disrupt the TIE defender program.",
+        "evidence": [
+          {
+            "sourceId": "supp23-lothal-fuel-depot",
+            "locator": "Main profile / Imperial fuel supply",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-jedi-night-gallery",
+            "locator": "Captions 8–10 / actual depot rescue and explosion",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-dume-gallery",
+            "locator": "Captions 1, 4 / consequences for Defender production",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "The fuel depot is not Governor Pryce’s office dome, the Lothal Imperial Factory or the older Lothal Depot logistics record. No exact reserve volume is inferred. Being an intended target in Rebel Assault does not by itself prove a visit or a particular depot frame.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "purpose",
+          "value": "Supplies fuel to the Imperial presence on Lothal",
+          "evidence": [
+            {
+              "sourceId": "supp23-lothal-fuel-depot",
+              "locator": "Main profile / Imperial fuel supply",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "Captions 8–10 / actual depot rescue and explosion",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-dume-gallery",
+              "locator": "Captions 1, 4 / consequences for Defender production",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-lothal-fuel-depot",
+              "locator": "Main profile / Imperial fuel supply",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "Captions 8–10 / actual depot rescue and explosion",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-dume-gallery",
+              "locator": "Captions 1, 4 / consequences for Defender production",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:lothal",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "supp23-lothal-fuel-depot",
+              "locator": "Main profile / Imperial presence on the named planet",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vehicles:loth-bat-glider",
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "loth-bat-glider",
+        "title": "Loth-bat glider",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Ezra and Sabine design gliders that resemble Loth-bats. The crew helps build them, and the rescuers use the disguise to approach Hera’s prison through a flock of the animals.",
+        "evidence": [
+          {
+            "sourceId": "supp23-loth-bat-glider",
+            "locator": "Main profile / named creators and animal-mimicking design",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-jedi-night-gallery",
+            "locator": "Captions 3–5, 8 / construction, flight and escape",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "Ezra/Sabine’s design and Zeb/Chopper’s construction assistance are compatible, distinct claims. Two-passenger wording does not independently establish two crew, length, cargo mass or every loaded configuration. The animal is a separate species.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "designers",
+          "value": "Ezra Bridger and Sabine Wren",
+          "evidence": [
+            {
+              "sourceId": "supp23-loth-bat-glider",
+              "locator": "Main profile / named creators and animal-mimicking design",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "Captions 3–5, 8 / construction, flight and escape",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-loth-bat-glider",
+              "locator": "Main profile / named creators and animal-mimicking design",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "Captions 3–5, 8 / construction, flight and escape",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ezra-bridger",
+          "relation": "designed_by",
+          "evidence": [
+            {
+              "sourceId": "supp23-loth-bat-glider",
+              "locator": "Main profile / named creators",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:sabine-wren",
+          "relation": "designed_by",
+          "evidence": [
+            {
+              "sourceId": "supp23-loth-bat-glider",
+              "locator": "Main profile / named creators",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:loth-bat",
+      "newRecord": {
+        "category": "species",
+        "slug": "loth-bat",
+        "title": "Loth-bat",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "These winged animals live on Lothal and travel together over long distances. Rebels exploit their presence near the Imperial city to conceal a rescue approach.",
+        "evidence": [
+          {
+            "sourceId": "supp23-loth-bat",
+            "locator": "Main profile / explicitly native world and flight behavior",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-jedi-night-gallery",
+            "locator": "Caption 3 / actual animals used to conceal gliders",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-jedi-night-trivia",
+            "locator": "Trivia 4–5 / ecological displacement and city scavenging",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "The species and the manufactured Loth-bat glider are separate records. An earlier mention in a book is not a screen appearance; no numeric wingspan, mass or lifespan is inferred.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "native_world",
+          "value": "Lothal",
+          "evidence": [
+            {
+              "sourceId": "supp23-loth-bat",
+              "locator": "Main profile / explicitly native world and flight behavior",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "Caption 3 / actual animals used to conceal gliders",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-jedi-night-trivia",
+              "locator": "Trivia 4–5 / ecological displacement and city scavenging",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-loth-bat",
+              "locator": "Main profile / explicitly native world and flight behavior",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "Caption 3 / actual animals used to conceal gliders",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-jedi-night-trivia",
+              "locator": "Trivia 4–5 / ecological displacement and city scavenging",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:lothal",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "supp23-loth-bat",
+              "locator": "Main profile / explicitly native species",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:dume-loth-wolf",
+      "newRecord": {
+        "category": "people",
+        "slug": "dume-loth-wolf",
+        "title": "Dume — Loth-wolf",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A huge Loth-wolf calling itself Dume speaks with Ezra after Kanan’s death. It urges the padawan to act with his friends, while another wolf brings a stone from the Jedi Temple.",
+        "evidence": [
+          {
+            "sourceId": "supp23-dume",
+            "locator": "Main profile / named wolf with explicitly unknown origin",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-dume-gallery",
+            "locator": "Captions 6, 8 / narrated encounter and separate stone-bearing wolf",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-dume-trivia",
+            "locator": "Trivia 4 / first appearance and shared name/marking",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "A named creature within the Characters collection, separate from the species dossier. Origin and exact nature remain unresolved; shared name/marking does not certify Kanan identity, resurrection, hallucination or a Force-spirit form. Earlier wolves saying Dume are not automatically this individual.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "value": "Loth-wolf",
+          "evidence": [
+            {
+              "sourceId": "supp23-dume",
+              "locator": "Main profile / named wolf with explicitly unknown origin",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-dume-gallery",
+              "locator": "Captions 6, 8 / narrated encounter and separate stone-bearing wolf",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-dume-trivia",
+              "locator": "Trivia 4 / first appearance and shared name/marking",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-dume",
+              "locator": "Main profile / named wolf with explicitly unknown origin",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-dume-gallery",
+              "locator": "Captions 6, 8 / narrated encounter and separate stone-bearing wolf",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-dume-trivia",
+              "locator": "Trivia 4 / first appearance and shared name/marking",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:loth-wolf",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp23-dume",
+              "locator": "Main profile and Creature / named Loth-wolf",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:veris-hydan",
+      "newRecord": {
+        "category": "people",
+        "slug": "veris-hydan",
+        "title": "Veris Hydan",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An Imperial adviser studies Jedi and Sith history for Palpatine. He oversees excavation at the Lothal Temple and tries to interpret the markings that guard its entrance.",
+        "evidence": [
+          {
+            "sourceId": "supp23-veris-hydan",
+            "locator": "Main profile / explicit non-Force-sensitive scholar and adviser",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-wolves-and-a-door-gallery",
+            "locator": "Captions 5–6, 9 / present overseer and contact",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "Hydan is not Vaneé: the earlier proposed identity was discarded. Shared actor references do not create other film characters or new credits. Lore scholarship is distinct from Force sensitivity.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "force_sensitive",
+          "value": "No — explicitly stated in the official profile",
+          "evidence": [
+            {
+              "sourceId": "supp23-veris-hydan",
+              "locator": "Main profile / explicit non-Force-sensitive scholar and adviser",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-wolves-and-a-door-gallery",
+              "locator": "Captions 5–6, 9 / present overseer and contact",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-veris-hydan",
+              "locator": "Main profile / explicit non-Force-sensitive scholar and adviser",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-wolves-and-a-door-gallery",
+              "locator": "Captions 5–6, 9 / present overseer and contact",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:lothal-jedi-temple",
+          "relation": "works_at",
+          "evidence": [
+            {
+              "sourceId": "supp23-veris-hydan",
+              "locator": "Main profile / specific excavation assignment",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vehicles:mining-guild-excavation-driller",
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "mining-guild-excavation-driller",
+        "title": "Mining Guild excavation driller",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Guild operates heavy excavation machines with a single operator. The Empire uses this equipment to uncover the Lothal Jedi Temple.",
+        "evidence": [
+          {
+            "sourceId": "supp23-mining-guild-excavation-driller",
+            "locator": "Main profile / explicit single-operator machine and Temple excavation",
+            "note": ""
+          },
+          {
+            "sourceId": "supp23-wolves-and-a-door-trivia",
+            "locator": "Trivia 5 / named machine designed for this episode",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "This is an excavation machine, not the ore crawler or Jawa sandcrawler. A single operator is not a certified maximum passenger count, and no dimensions or resemblance-based model name is inferred.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "operators",
+          "value": "1",
+          "evidence": [
+            {
+              "sourceId": "supp23-mining-guild-excavation-driller",
+              "locator": "Main profile / explicit single-operator machine and Temple excavation",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-wolves-and-a-door-trivia",
+              "locator": "Trivia 5 / named machine designed for this episode",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-mining-guild-excavation-driller",
+              "locator": "Main profile / explicit single-operator machine and Temple excavation",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-wolves-and-a-door-trivia",
+              "locator": "Trivia 5 / named machine designed for this episode",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:lothal-jedi-temple",
+          "relation": "used_at",
+          "evidence": [
+            {
+              "sourceId": "supp23-mining-guild-excavation-driller",
+              "locator": "Main profile / explicit excavation use",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:lutrillian",
+      "newRecord": {
+        "category": "species",
+        "slug": "lutrillian",
+        "title": "Lutrillian",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "An unnamed Lutrillian pilot takes part in the rebel assault on Lothal. The episode’s production notes identify the species and distinguish its provisional script nickname from a finished personal identity.",
+        "evidence": [
+          {
+            "sourceId": "supp23-rebel-assault-trivia",
+            "locator": "Trivia 4 / explicit species of the actual alien pilot",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one scoped fact accompanying Rebels season-four guides 8–12; not a complete dossier or automatic episode confirmation.",
+      "limitations": [
+        "Secon Daree is a joking script label, not a newly certified named character. A cantina design origin does not certify the same individual, a species-wide homeworld, population statistics or a new original-film scene.",
+        "Only an original introduction, one selected fact and individually cited connections are reviewed. Numerical specifications, complete biography, credits and other productions remain pending.",
+        "A whole world is distinct from a depot or excavation; a vehicle type is not a named hull; species membership is not population metadata. Omitted links are unestablished within this selected review, not absence."
+      ],
+      "facts": [
+        {
+          "key": "reviewed_member",
+          "value": "An unnamed rebel pilot in Rebel Assault",
+          "evidence": [
+            {
+              "sourceId": "supp23-rebel-assault-trivia",
+              "locator": "Trivia 4 / explicit species of the actual alien pilot",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:rebels",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp23-rebel-assault-trivia",
+              "locator": "Trivia 4 / explicit species of the actual alien pilot",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:kanan-jarrus",
+      "scope": "One additive personal fate fact from Jedi Night and Dume; prior introduction and facts retained.",
+      "limitations": [
+        "SUPPLEMENT-23: the death is explicitly sourced; the Dume wolf’s unknown origin/shared name does not establish a surviving Kanan body, resurrection or Force-spirit form. No birth/death date is added.",
+        "No complete biography, technical specification, episode inventory or continuity-wide history is claimed."
+      ],
+      "facts": [
+        {
+          "key": "fate",
+          "value": "Dies protecting his companions from the Lothal fuel-depot explosion",
+          "evidence": [
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "Caption 10 / sacrifice in the explosion",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-dume-gallery",
+              "locator": "Caption 1 / explicit report that Kanan was killed",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": []
+    },
+    {
+      "id": "series:rebels",
+      "scope": "Five Rebels season-four guides 8–12: additive selected episode review, twelve introductory one-fact profiles and two additive facts on Kanan and the series. All narrative/trivia captions and selected released images checked. Existing episode register, dates, credits and earlier evidence retained.",
+      "limitations": [
+        "Five further season-four guides (8–12) reviewed against 284 selected profiles. Rebels total: 63 of 66 guides; three remaining guides cover four numbered parts. All fifty narrative and thirty trivia captions read; no complete frame, voice or credit inventory.",
+        "Crawler Commandeers separates actual ore crawler, current named Guild personnel and physical Yavin briefing from elite readouts, a future factory target, World Devastator design ancestry and uncertain background identities. The current crawler/assault guide-number labels conflict with the retained register; no renumbering.",
+        "Rebel Assault establishes classic X-wing debut and actual elite fighter; Phoenix Two/Four, unnamed Lutrillian/script nickname and anonymous astromech/R3-A3 remain separate. The unused tower map is not an on-screen measured inventory. Cleat has only an introductory profile, without a selected episode-row identification.",
+        "Jedi Night retains its two inherited episode rows/evidence, adds individually cited rescue participants, gliders/animals and depot, and separately sources Kanan’s fate. Tarkin’s individual form remains unspecified. Generic walker/gunship words, Krennic mention and intended Coruscant travel do not certify extra type/person/world scenes.",
+        "Dume separates physical Rukh/Pryce, Thrawn’s hologram, reported death, wolf species and named giant of unknown nature. No Kanan spirit/identity merge, prior named-Dume appearance, Temple visit from a stone or physical factory from a shutdown report is inferred.",
+        "Wolves and a Door separates physical crew/Hydan, Emperor hologram, old Thrawn recording, unidentified voice montage, actual wolves and Mortis paintings. Hydan/Vaneé, animal/glider and driller/crawler identities remain distinct; no unreviewed interior-world entry or measured PA safety distance.",
+        "Heroes of Mandalore separates Tiber/Gar, surviving family, recording and current events; Thrawn’s form stays unresolved in the selected weapon-discussion still. Early draft motivations and the misleading Wren refusal wording are not new facts.",
+        "In the Name of the Rebellion separates Bail’s projection from the physical briefing, Saw’s remote/physical sequence, Edrio/Benthic/discarded Lorc, R4-C2’s real role/cut rivalry, Faos/Taos and current/old Titus ships. The cargo does not establish a present Death Star.",
+        "The Occupation separates reported Old Jho death, Rudor portrait/actual pursuit, Ryder transmission/actual rendezvous, Oleg alias and the hovering GAVr. Flight of the Defender separates elite prototype, salvaged components, actual probes/planned target use and blank trivia position 2.",
+        "Kindred preserves the unusual wolf journey without a spirit or later named-wolf claim. Rukh is Noghri, not the rejected Sith premise. Mothma’s form remains unspecified; physical Thrawn/Pryce bodies have selected released-image evidence; no exact final-base world, construction sphere or whole crashed Defender scene is inferred.",
+        "Secret Cargo has an actual E-XD-type infiltrator despite generic probe wording, a physical TIE defender, a Dantooine orbital meeting and unresolved individual forms for Pryce, Konstantine and Dodonna. Chandrila Mistress is sourced at series level without a forced episode hull.",
+        "Twin Suns distinguishes Kenobi’s recording/later body, Maul’s manipulation/physical duel, Kanan’s actual Atollon return/discarded Tatooine trip and Luke’s actual silhouette/reused Ezra model. Double Agent Droid separates Killun moon/station, baby neebrays and discarded Rishi concepts.",
+        "Zero Hour distinguishes Tarkin/Mon Mothma transmissions from physical officers, Kallus’s mixed remote/physical story and the named Krownest clan meeting. The blockade Interdictors are not Titus’s lost prototype. Phoenix Nest’s exact join to the captured carrier remains unresolved; no duplicate hull is invented. Yavin and Bendu’s prophecy remain future references.",
+        "Ghosts caption 7 misnames the surface companion as Rex; its image and captions 5/9 identify Zeb. Warhead has one blank narrative position. Production-scheduling trivia for Through Imperial Eyes does not replace its registered E17 identity. All discrepancies remain explicit.",
+        "Sato/Bail’s Ghost briefing and Hera’s training advice are remote. Kallus has remote warning plus a physical Warhead closing scene. Thrawn’s shipboard office is distinct from the Lothal factory room. Flash speeder is sourced at series level, while its Warhead scene, exact assassin-droid model and named shuttle/command hulls remain unresolved.",
+        "The Imperial Super Commandos gallery mislabels a destination Mandalore; the dedicated Protectors camp profile instead places its base on the third moon of the Concord Dawn system. Visions and Voices caption 7 misnames a possessed character; caption 9 and trivia 7 identify Kanan and Sabine. Both discrepancies remain explicit.",
+        "TIE defender plans do not establish a physical fighter appearance. Last Chance and Nightbrother need specifically identified episode hulls. Iron Squadron’s Sato participation is named, while his precise appearance form and named command hull remain unresolved. Maul’s early visions and later physical encounter are both described. Production numbers do not replace broadcast guide numbers.",
+        "Thrawn’s opener scenes are holographic transmissions; his Ryloth encounter is physical. Goran’s precise visible form and Hera’s final Agamar-related conversation remain unspecified. Original Phantom destruction and the recovered Phantom II stay separate, as do the RZ-1T trainer, generic A-wing and Sheathipede type/individual scopes.",
+        "Reklam’s salvaged Y-wings lack hyperdrives in that scene, without a universal Y-wing claim. Hobbie’s generic Biggs introduction conflicts with the released Wedge/Sabine-specific account; the discrepancy is explicit. Simulations, artwork, Legends origins and discarded outlines are not promoted to actual physical appearances.",
+        "Yoda’s remote Force contact, Anakin’s training recording plus vision, the Grand Inquisitor’s temple apparition and Vader’s separate physical arrival are explicitly distinguished. A combined guide never supplies unsourced per-part attribution.",
+        "Bahryn is a moon of Geonosis, the Lothal temple is distinct from Coruscant’s, and Malachor’s world and temple remain separate. Ketsu’s named participation has unspecified representation. Dicer has a sourced living scene before her disappearance; the finale’s closing Ahsoka image is retained without importing the later rescue.",
+        "Nixus Hub 218 has conflicting station/world descriptions across official trivia sources; this batch does not silently merge the current outpost with the existing station. Homecoming’s reinforcement is a light cruiser in the released narrative and Numa history but a Star Destroyer in Cham’s history; the discrepancy is visible and scoped.",
+        "Sato’s Homecoming appearance is a holographic transmission. Concord Dawn’s camp is on the third moon, separate from an unreviewed legacy planet. Lyste’s promotion retains one identity; Fang, Mining Guild fighters and the captured Quasar carrier do not inherit other hull or Legends specifications. Drawings, photos, memories and script-only labels are not promoted to living physical appearances.",
+        "Legacy parents are visions, Ryder and the tracked loth-cat have mixed vision/physical contexts, and Stealth Strike Kallus is a transmission. Blood Sisters names Bail at the rendezvous but the selected still does not establish physical versus holographic form; that row remains unspecified with a visible limitation.",
+        "The Blade Wing B6 prototype, GX1 starbus, Titus’s experimental Interdictor and Liberator remain distinct from production B-wings, old shuttles, generic/Legends models and the destroyed Phoenix Home. Chandel is a planned destination; Mustafar monitoring and decorative/design references do not establish visits.",
+        "Lando’s Siege hologram, the Emperor’s ending contact and Sato’s generator briefing are transmissions. Tua and Kallus retain direct rows when actual scenes accompany remote contact. Force sensing does not replace the actual physical scenes of Ahsoka, Kanan and Vader.",
+        "The modified Seelos walker, legacy AT-TE family, AT-AT family and distinct episode variant are scoped separately. The abandoned medical station shares a design with Kaliida Shoals but is not identified as that station. Nixus Hub 218, Tarkintown and the medical station are places, not additional planets. A single Ghost/Phantom caption inconsistency is explained, not copied into an unsupported ship location.",
+        "Trayvis’s vision, broadcast and physical meeting share one direct row with context. Alton/Trayvis interviews, Fulcrum’s remote conversation and Bail’s holographic greeting are transmissions. Ahsoka’s finale reveal and Vader’s Lothal arrival are direct scenes; later Kallus-Fulcrum biography is not assigned to the season-one contact.",
+        "The Sovereign, communications light-cruiser family, stolen rescue transport, Broken Horn and two distinct stolen/borrowed TIEs retain separate identities and scope. Mustafar is only a planned destination in Rebel Resolve but a system setting in the finale. No Gideon/Trask hull, generic Lambda, A-wing or technical metadata inferred.",
+        "Path of the Jedi distinguishes nightmare visions from direct scenes and Yoda’s remote communication through the Force. Mixed direct/vision contexts use one direct row with explanation; no real crew deaths or physical Yoda temple visit are asserted.",
+        "Fort Anaxes is the Rebels-era asteroid base. The displayed parade TIE and Inquisitor’s pursuit fighter are distinct. The Relentless has no assumed subclass and the landing shuttle has no assumed Lambda/Theta identity. No legacy technical fields inherited.",
+        "The combined Spark of Rebellion guide remains one review for parts 1–2. The later ABC Vader opening is excluded from original-pilot connections and remains a distinct documented version. No scene is assigned to an individual pilot part without evidence.",
+        "Obi-Wan’s holocron message, Trayvis’s broadcast and Luminara’s projected bait are transmissions. Luminara’s remains are also shown. Remote contacts followed by physical scenes use a single direct row with context; mentions, aliases and repeated names are not extra characters.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Normalized count: 75 numbered parts across four seasons (15/22/22/16), grouped into 66 official guide entries (14/20/19/13). This is an archive counting convention, not a universal count of playable streaming items. The four introductory shorts and the ABC revised pilot are excluded. Individual credits and appearances within combined parts are not inferred.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ],
+      "facts": [
+        {
+          "key": "classic_xwing_debut",
+          "value": "Rebel Assault — first classic X-wing fighter appearance in the series",
+          "evidence": [
+            {
+              "sourceId": "supp23-rebel-assault-trivia",
+              "locator": "Trivia 2 / explicit classic X-wing series debut",
+              "note": "Series debut, not every derivative, a named hull or a new film appearance."
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "people:seevor",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Captions 5, 8 / actual captive captain and reactor fall",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-seevor",
+              "locator": "Main profile / named ore-crawler captain",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-trivia",
+              "locator": "Trivia 4 / Captain Seevor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:proach",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Caption 6 / actual Trandoshan foreman fighting Zeb",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-guild-slave-master-proach",
+              "locator": "Main profile / named Trandoshan foreman",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-trivia",
+              "locator": "Trivia 5 / names Proach",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:mining-guild-security-droid",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Caption 4 / actual guards defeated by Sabine",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-mining-guild-security-droid",
+              "locator": "Main profile / crawler guards",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:ore-crawler",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Captions 2, 4–10 / actual crawler and takeover",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:7",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-guild-slave-master-proach",
+              "locator": "Main profile / explicit Trandoshan Proach",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "Caption 6 / actual foreman fight",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:12",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-rebel-assault-gallery",
+              "locator": "Captions 1, 4 and trivia 2 / actual classic X-wing squadron",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:lutrillian",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-rebel-assault-trivia",
+              "locator": "Trivia 4 / explicit actual alien pilot species",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:loth-bat-glider",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "Captions 3–5, 8 / actual disguise flight and crash",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:loth-bat",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "Caption 3 and trivia 4–5 / actual pack concealing the gliders",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:lothal-fuel-depot",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "Captions 8–10 / actual landing and explosion",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:dume-loth-wolf",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-dume-gallery",
+              "locator": "Captions 6, 8 and trivia 4 / named giant’s first encounter",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-dume",
+              "locator": "Main profile / explicit unknown origin",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:veris-hydan",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-wolves-and-a-door-gallery",
+              "locator": "Captions 5–6, 9 / actual overseer and capture",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:mining-guild-excavation-driller",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp23-mining-guild-excavation-driller",
+              "locator": "Main profile / explicitly used for Imperial Lothal Temple excavation",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-wolves-and-a-door-trivia",
+              "locator": "Trivia 5 / named excavation driller for the episode",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "episodeReviews": [
+        {
+          "episodeId": "series:rebels:s4e8",
+          "scope": "All narrative/trivia captions and individually cited official profile/released-image evidence checked against 284 selected records. Additive episode links; previous rows retained. Omitted targets are unestablished, not proven absent.",
+          "consideredTargets": [
+            "people:ezra-bridger",
+            "people:kanan-jarrus",
+            "people:hera-syndulla",
+            "people:sabine-wren",
+            "people:zeb-orrelios",
+            "people:chopper",
+            "people:10",
+            "people:64",
+            "people:2",
+            "people:3",
+            "people:68",
+            "people:grand-inquisitor",
+            "people:4",
+            "people:20",
+            "people:12",
+            "people:ahsoka-tano",
+            "people:captain-rex",
+            "people:44",
+            "planets:lothal",
+            "planets:3",
+            "planets:14",
+            "starships:ghost",
+            "vehicles:at-dp",
+            "vehicles:8",
+            "people:agent-kallus",
+            "people:cumberlayne-aresko",
+            "people:myles-grint",
+            "people:cikatro-vizago",
+            "people:wullffwarro",
+            "people:kitwarr",
+            "people:maketh-tua",
+            "people:amda-wabo",
+            "people:rx-24",
+            "people:morad-sumar",
+            "people:supply-master-lyste",
+            "people:gall-trayvis",
+            "people:zare-leonis",
+            "people:jai-kell",
+            "people:nazhros-oleg",
+            "planets:kessel",
+            "planets:garel",
+            "planets:stygeon-prime",
+            "starships:phantom-original",
+            "starships:ezra-zeb-tie-fighter",
+            "starships:star-commuter-shuttle",
+            "vehicles:imperial-troop-transport",
+            "people:tseebo",
+            "people:old-jho",
+            "people:azmorigan",
+            "people:kassius-konstantine",
+            "planets:fort-anaxes-asteroid",
+            "species:fyrnock",
+            "species:loth-cat",
+            "species:puffer-pig",
+            "starships:inquisitor-tie-prototype",
+            "starships:empire-day-parade-prototype",
+            "starships:relentless",
+            "starships:fort-anaxes-landing-shuttle",
+            "starships:merchant-one",
+            "people:25",
+            "people:21",
+            "starships:22",
+            "starships:13",
+            "people:alton-kastle",
+            "planets:lothal-senate-building",
+            "people:imperial-probe-droid",
+            "people:courier-droid",
+            "people:interrogation-droid",
+            "vehicles:patrol-transport",
+            "starships:imperial-light-cruiser",
+            "starships:sovereign",
+            "starships:broken-horn",
+            "starships:mustafar-rescue-transport",
+            "planets:13",
+            "starships:5",
+            "starships:2",
+            "starships:28",
+            "vehicles:sabine-speeder-bike",
+            "vehicles:30",
+            "vehicles:50",
+            "starships:3",
+            "people:jun-sato",
+            "people:willie-w1-le",
+            "starships:phoenix-home",
+            "people:commander-wolffe",
+            "people:gregor",
+            "planets:seelos",
+            "vehicles:modified-at-te",
+            "species:joopa",
+            "people:hondo-ohnaka",
+            "people:fifth-brother",
+            "people:seventh-sister",
+            "people:id9-seeker-droid",
+            "planets:abandoned-republic-medical-station",
+            "planets:nixus-hub-218",
+            "planets:tarkintown",
+            "vehicles:18",
+            "vehicles:53",
+            "people:11",
+            "planets:9",
+            "planets:shantipole",
+            "people:bg-81",
+            "planets:ibaar",
+            "people:eesh-fahm",
+            "starships:blade-wing-prototype",
+            "people:quarrie",
+            "people:ketsu-onyo",
+            "starships:shadow-caster",
+            "people:eg-86",
+            "starships:gx1-starbus",
+            "people:vaux",
+            "people:brom-titus",
+            "starships:titus-interdictor",
+            "planets:takobo",
+            "people:pypey",
+            "people:alora",
+            "people:darja",
+            "people:oora",
+            "people:ryder-azadi",
+            "people:ephraim-bridger",
+            "people:mira-bridger",
+            "starships:liberator",
+            "starships:29",
+            "people:16",
+            "starships:hammerhead-corvette",
+            "planets:lothal-depot",
+            "people:fenn-rau",
+            "planets:protectors-camp",
+            "starships:fang-fighter",
+            "people:gron",
+            "people:chava",
+            "planets:lira-san",
+            "species:lasat",
+            "species:purrgil",
+            "people:yushyn",
+            "planets:asteroid-belt-gas-refinery",
+            "starships:mining-guild-tie-fighter",
+            "people:cham-syndulla",
+            "people:numa",
+            "people:gobi-glie",
+            "people:mouse-droid",
+            "starships:captured-quasar-carrier",
+            "people:5",
+            "planets:2",
+            "planets:53",
+            "planets:37",
+            "species:4",
+            "vehicles:16",
+            "planets:bahryn",
+            "species:bonzami",
+            "planets:imperial-construction-module",
+            "planets:oosalon-mesa",
+            "people:ap-5",
+            "starships:imperial-cargo-ship",
+            "planets:horizon-base",
+            "planets:atollon",
+            "species:krykna",
+            "people:lieutenant-dicer",
+            "species:dokma",
+            "species:convor",
+            "planets:malachor",
+            "planets:malachor-sith-temple",
+            "people:eighth-brother",
+            "planets:lothal-jedi-temple",
+            "planets:11",
+            "people:governor-pryce",
+            "people:bendu",
+            "people:terba",
+            "people:dismantler-droid",
+            "planets:reklam-station",
+            "people:melch",
+            "starships:a-wing-trainer",
+            "starships:nightbrother",
+            "planets:vizsla-keep-09",
+            "people:hobbie-klivian",
+            "people:instructor-goran",
+            "people:vult-skerris",
+            "people:rake-gahree",
+            "planets:skystrike-academy",
+            "people:captain-slavin",
+            "planets:syndulla-residence",
+            "species:blurrg",
+            "people:general-kalani",
+            "planets:agamar",
+            "people:super-tactical-droid",
+            "starships:sheathipede-shuttle",
+            "starships:phantom-ii",
+            "people:b1-battle-droid",
+            "people:droideka",
+            "people:18",
+            "people:9",
+            "people:grand-admiral-thrawn",
+            "starships:11",
+            "starships:17",
+            "vehicles:26",
+            "people:gar-saxon",
+            "people:imperial-super-commandos",
+            "people:mart-mattin",
+            "people:jonner-jin",
+            "people:gooti-terez",
+            "people:r3-a3",
+            "starships:satos-hammer",
+            "planets:mykapo",
+            "people:imperial-sentry-droid",
+            "starships:last-chance",
+            "planets:wynkahthu",
+            "planets:lothal-imperial-factory",
+            "planets:thrawns-office",
+            "starships:tie-defender",
+            "planets:maul-dathomir-sanctuary",
+            "planets:36",
+            "people:saw-gerrera",
+            "people:klik-klak",
+            "people:captain-brunson",
+            "people:jumptroopers",
+            "people:e-xd-infiltrator-droid",
+            "starships:tactical-infiltration-pod",
+            "vehicles:flash-speeder",
+            "people:ursa-wren",
+            "people:tristan-wren",
+            "people:clan-wren",
+            "planets:krownest",
+            "planets:wren-stronghold",
+            "people:wullf-yularen",
+            "planets:thrawn-shipboard-office",
+            "species:28",
+            "people:erskin-semaj",
+            "people:jon-dutch-vander",
+            "planets:archeon-nebula",
+            "planets:killun-station",
+            "planets:killun-71",
+            "people:controller-lt-319",
+            "starships:imperial-listener-ship",
+            "species:neebray",
+            "people:tusken-raiders",
+            "species:dewback",
+            "people:jan-dodonna",
+            "people:imperial-death-troopers",
+            "starships:dornean-gunship",
+            "starships:atollon-blockade-interdictors",
+            "starships:chandrila-mistress",
+            "people:28",
+            "people:1",
+            "planets:1",
+            "planets:25",
+            "starships:27",
+            "starships:23",
+            "people:alrich-wren",
+            "people:tiber-saxon",
+            "people:captain-hark",
+            "planets:jalindi",
+            "planets:jalindi-station",
+            "planets:faos-station",
+            "people:mich-matt",
+            "people:dt-f16",
+            "people:edrio-two-tubes",
+            "people:r4-c2",
+            "starships:freighter-2716",
+            "people:valen-rudor",
+            "planets:old-jhos-pit-stop",
+            "vehicles:tx-225-gavr",
+            "planets:lothal-imperial-airfield",
+            "starships:tie-defender-elite",
+            "species:loth-wolf",
+            "people:rukh",
+            "species:noghri",
+            "people:bo-katan-kryze",
+            "planets:mandalore",
+            "starships:u-wing",
+            "vehicles:ore-crawler",
+            "people:mining-guild-security-droid",
+            "people:seevor",
+            "people:proach",
+            "people:cleat",
+            "planets:lothal-fuel-depot",
+            "vehicles:loth-bat-glider",
+            "species:loth-bat",
+            "people:dume-loth-wolf",
+            "people:veris-hydan",
+            "vehicles:mining-guild-excavation-driller",
+            "species:lutrillian",
+            "species:7",
+            "starships:12",
+            "vehicles:4"
+          ],
+          "notes": [
+            "Ten narrative and six trivia captions read. Released image 5 individually shows Ezra, Sabine, Kanan, Zeb and the captive captain; image 3 shows physical Hera, Mon Mothma, Chopper and Jan Dodonna at the Yavin briefing. The named Senator Organa is not individually resolved in the selected still; no additional Bail/Leia form is guessed.",
+            "The ore crawler has its own official type profile. It is not the Jawas’ Sand Crawler, a flying Dark Empire World Devastator or another named hull. Its long-range transmitter and former slaves do not establish engine power, passenger maximum or cargo tonnage.",
+            "Seevor is named in trivia 4 and his own profile; Proach is named in trivia 5 and explicitly Trandoshan in his own main text. A father, musical callback, Pat Roach tribute and Protocol 13/Jedha comparison are not extra present-day characters, locations or credits.",
+            "The elite fighter appears as technical readouts, and the Lothal factory is an intended attack target. Neither supplies a confirmed physical craft/factory scene in this selection. No new elite-hull or Death Star visit is inferred.",
+            "The live guide title currently says S4E9 for Crawler Commandeers, inconsistent with the inherited registered guide order. Episode id s4e8, title and existing sourced numbering are retained; this appearance batch does not renumber the register or add dates."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp23-crawler-commandeers-gallery",
+              "locator": "All ten narrative captions / selected record review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-crawler-commandeers-trivia",
+              "locator": "All trivia positions / actual events, limits and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-rebels-s4e8",
+              "locator": "Registered guide / retained episode identity",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:ezra-bridger",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Caption 8 and released image 5 / actual boarding and reactor confrontation",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:sabine-wren",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Captions 1, 4–5, 10 / actual infiltration and transmitter work",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:kanan-jarrus",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Captions 5–6 and released image 5 / actual boarding and prisoner discovery",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:zeb-orrelios",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Captions 5–7 and released image 5 / actual boarding, fight and disguise",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Physical scene plus subsequent communication remain on one row.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Captions 3, 6, 10 and released image 3 / physical Yavin briefing and later transmission",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Not inferred from crew membership alone.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Released image 3 / physical Chopper in front of Hera",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:28",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Separate from an earlier unresolved report recipient.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Released image 3 / physical Mon Mothma beside Hera",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:jan-dodonna",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "No other unnamed background officer identity is forced.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Released image 3 / physical Jan Dodonna at briefing",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cikatro-vizago",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Not a new Broken Horn ship scene.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Captions 6–7, 9 / actual prisoner, captain disguise and liberation",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:seevor",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Named separately by the official current Captain Seevor trivia.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Captions 5, 8 / actual captive captain and reactor fall",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp23-seevor",
+                  "locator": "Main profile / named ore-crawler captain",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp23-crawler-commandeers-trivia",
+                  "locator": "Trivia 4 / Captain Seevor",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:proach",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Named separately by trivia 5; no fate inferred.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Caption 6 / actual Trandoshan foreman fighting Zeb",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp23-guild-slave-master-proach",
+                  "locator": "Main profile / named Trandoshan foreman",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp23-crawler-commandeers-trivia",
+                  "locator": "Trivia 5 / names Proach",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:mining-guild-security-droid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Type identity supplied by its official crawler role.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Caption 4 / actual guards defeated by Sabine",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp23-mining-guild-security-droid",
+                  "locator": "Main profile / crawler guards",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "vehicles:ore-crawler",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "Not a Jawa sandcrawler.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Captions 2, 4–10 / actual crawler and takeover",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:lothal",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "Separate from intended future factory attack.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Captions 3–10 / actual planet context and crawler mission",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:3",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "The rebel base is named, not inferred from generic earlier continuity.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Captions 2–3, 6 and released image 3 / actual Yavin 4 briefing",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:7",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Presence through the named member; no species physical averages reviewed.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-guild-slave-master-proach",
+                  "locator": "Main profile / explicit Trandoshan Proach",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp23-crawler-commandeers-gallery",
+                  "locator": "Caption 6 / actual foreman fight",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:rebels:s4e9",
+          "scope": "All narrative/trivia captions and individually cited official profile/released-image evidence checked against 284 selected records. Additive episode links; previous rows retained. Omitted targets are unestablished, not proven absent.",
+          "consideredTargets": [
+            "people:ezra-bridger",
+            "people:kanan-jarrus",
+            "people:hera-syndulla",
+            "people:sabine-wren",
+            "people:zeb-orrelios",
+            "people:chopper",
+            "people:10",
+            "people:64",
+            "people:2",
+            "people:3",
+            "people:68",
+            "people:grand-inquisitor",
+            "people:4",
+            "people:20",
+            "people:12",
+            "people:ahsoka-tano",
+            "people:captain-rex",
+            "people:44",
+            "planets:lothal",
+            "planets:3",
+            "planets:14",
+            "starships:ghost",
+            "vehicles:at-dp",
+            "vehicles:8",
+            "people:agent-kallus",
+            "people:cumberlayne-aresko",
+            "people:myles-grint",
+            "people:cikatro-vizago",
+            "people:wullffwarro",
+            "people:kitwarr",
+            "people:maketh-tua",
+            "people:amda-wabo",
+            "people:rx-24",
+            "people:morad-sumar",
+            "people:supply-master-lyste",
+            "people:gall-trayvis",
+            "people:zare-leonis",
+            "people:jai-kell",
+            "people:nazhros-oleg",
+            "planets:kessel",
+            "planets:garel",
+            "planets:stygeon-prime",
+            "starships:phantom-original",
+            "starships:ezra-zeb-tie-fighter",
+            "starships:star-commuter-shuttle",
+            "vehicles:imperial-troop-transport",
+            "people:tseebo",
+            "people:old-jho",
+            "people:azmorigan",
+            "people:kassius-konstantine",
+            "planets:fort-anaxes-asteroid",
+            "species:fyrnock",
+            "species:loth-cat",
+            "species:puffer-pig",
+            "starships:inquisitor-tie-prototype",
+            "starships:empire-day-parade-prototype",
+            "starships:relentless",
+            "starships:fort-anaxes-landing-shuttle",
+            "starships:merchant-one",
+            "people:25",
+            "people:21",
+            "starships:22",
+            "starships:13",
+            "people:alton-kastle",
+            "planets:lothal-senate-building",
+            "people:imperial-probe-droid",
+            "people:courier-droid",
+            "people:interrogation-droid",
+            "vehicles:patrol-transport",
+            "starships:imperial-light-cruiser",
+            "starships:sovereign",
+            "starships:broken-horn",
+            "starships:mustafar-rescue-transport",
+            "planets:13",
+            "starships:5",
+            "starships:2",
+            "starships:28",
+            "vehicles:sabine-speeder-bike",
+            "vehicles:30",
+            "vehicles:50",
+            "starships:3",
+            "people:jun-sato",
+            "people:willie-w1-le",
+            "starships:phoenix-home",
+            "people:commander-wolffe",
+            "people:gregor",
+            "planets:seelos",
+            "vehicles:modified-at-te",
+            "species:joopa",
+            "people:hondo-ohnaka",
+            "people:fifth-brother",
+            "people:seventh-sister",
+            "people:id9-seeker-droid",
+            "planets:abandoned-republic-medical-station",
+            "planets:nixus-hub-218",
+            "planets:tarkintown",
+            "vehicles:18",
+            "vehicles:53",
+            "people:11",
+            "planets:9",
+            "planets:shantipole",
+            "people:bg-81",
+            "planets:ibaar",
+            "people:eesh-fahm",
+            "starships:blade-wing-prototype",
+            "people:quarrie",
+            "people:ketsu-onyo",
+            "starships:shadow-caster",
+            "people:eg-86",
+            "starships:gx1-starbus",
+            "people:vaux",
+            "people:brom-titus",
+            "starships:titus-interdictor",
+            "planets:takobo",
+            "people:pypey",
+            "people:alora",
+            "people:darja",
+            "people:oora",
+            "people:ryder-azadi",
+            "people:ephraim-bridger",
+            "people:mira-bridger",
+            "starships:liberator",
+            "starships:29",
+            "people:16",
+            "starships:hammerhead-corvette",
+            "planets:lothal-depot",
+            "people:fenn-rau",
+            "planets:protectors-camp",
+            "starships:fang-fighter",
+            "people:gron",
+            "people:chava",
+            "planets:lira-san",
+            "species:lasat",
+            "species:purrgil",
+            "people:yushyn",
+            "planets:asteroid-belt-gas-refinery",
+            "starships:mining-guild-tie-fighter",
+            "people:cham-syndulla",
+            "people:numa",
+            "people:gobi-glie",
+            "people:mouse-droid",
+            "starships:captured-quasar-carrier",
+            "people:5",
+            "planets:2",
+            "planets:53",
+            "planets:37",
+            "species:4",
+            "vehicles:16",
+            "planets:bahryn",
+            "species:bonzami",
+            "planets:imperial-construction-module",
+            "planets:oosalon-mesa",
+            "people:ap-5",
+            "starships:imperial-cargo-ship",
+            "planets:horizon-base",
+            "planets:atollon",
+            "species:krykna",
+            "people:lieutenant-dicer",
+            "species:dokma",
+            "species:convor",
+            "planets:malachor",
+            "planets:malachor-sith-temple",
+            "people:eighth-brother",
+            "planets:lothal-jedi-temple",
+            "planets:11",
+            "people:governor-pryce",
+            "people:bendu",
+            "people:terba",
+            "people:dismantler-droid",
+            "planets:reklam-station",
+            "people:melch",
+            "starships:a-wing-trainer",
+            "starships:nightbrother",
+            "planets:vizsla-keep-09",
+            "people:hobbie-klivian",
+            "people:instructor-goran",
+            "people:vult-skerris",
+            "people:rake-gahree",
+            "planets:skystrike-academy",
+            "people:captain-slavin",
+            "planets:syndulla-residence",
+            "species:blurrg",
+            "people:general-kalani",
+            "planets:agamar",
+            "people:super-tactical-droid",
+            "starships:sheathipede-shuttle",
+            "starships:phantom-ii",
+            "people:b1-battle-droid",
+            "people:droideka",
+            "people:18",
+            "people:9",
+            "people:grand-admiral-thrawn",
+            "starships:11",
+            "starships:17",
+            "vehicles:26",
+            "people:gar-saxon",
+            "people:imperial-super-commandos",
+            "people:mart-mattin",
+            "people:jonner-jin",
+            "people:gooti-terez",
+            "people:r3-a3",
+            "starships:satos-hammer",
+            "planets:mykapo",
+            "people:imperial-sentry-droid",
+            "starships:last-chance",
+            "planets:wynkahthu",
+            "planets:lothal-imperial-factory",
+            "planets:thrawns-office",
+            "starships:tie-defender",
+            "planets:maul-dathomir-sanctuary",
+            "planets:36",
+            "people:saw-gerrera",
+            "people:klik-klak",
+            "people:captain-brunson",
+            "people:jumptroopers",
+            "people:e-xd-infiltrator-droid",
+            "starships:tactical-infiltration-pod",
+            "vehicles:flash-speeder",
+            "people:ursa-wren",
+            "people:tristan-wren",
+            "people:clan-wren",
+            "planets:krownest",
+            "planets:wren-stronghold",
+            "people:wullf-yularen",
+            "planets:thrawn-shipboard-office",
+            "species:28",
+            "people:erskin-semaj",
+            "people:jon-dutch-vander",
+            "planets:archeon-nebula",
+            "planets:killun-station",
+            "planets:killun-71",
+            "people:controller-lt-319",
+            "starships:imperial-listener-ship",
+            "species:neebray",
+            "people:tusken-raiders",
+            "species:dewback",
+            "people:jan-dodonna",
+            "people:imperial-death-troopers",
+            "starships:dornean-gunship",
+            "starships:atollon-blockade-interdictors",
+            "starships:chandrila-mistress",
+            "people:28",
+            "people:1",
+            "planets:1",
+            "planets:25",
+            "starships:27",
+            "starships:23",
+            "people:alrich-wren",
+            "people:tiber-saxon",
+            "people:captain-hark",
+            "planets:jalindi",
+            "planets:jalindi-station",
+            "planets:faos-station",
+            "people:mich-matt",
+            "people:dt-f16",
+            "people:edrio-two-tubes",
+            "people:r4-c2",
+            "starships:freighter-2716",
+            "people:valen-rudor",
+            "planets:old-jhos-pit-stop",
+            "vehicles:tx-225-gavr",
+            "planets:lothal-imperial-airfield",
+            "starships:tie-defender-elite",
+            "species:loth-wolf",
+            "people:rukh",
+            "species:noghri",
+            "people:bo-katan-kryze",
+            "planets:mandalore",
+            "starships:u-wing",
+            "vehicles:ore-crawler",
+            "people:mining-guild-security-droid",
+            "people:seevor",
+            "people:proach",
+            "people:cleat",
+            "planets:lothal-fuel-depot",
+            "vehicles:loth-bat-glider",
+            "species:loth-bat",
+            "people:dume-loth-wolf",
+            "people:veris-hydan",
+            "vehicles:mining-guild-excavation-driller",
+            "species:lutrillian",
+            "species:7",
+            "starships:12",
+            "vehicles:4"
+          ],
+          "notes": [
+            "Ten narrative and five trivia captions read. Released image 2 shows physical Thrawn commanding the defense. The actual X-wing attack is explicit, and trivia 2 identifies the series debut of classic X-wings. The green livery is not a named individual hull, a T-70 model, Luke’s own fighter or a new Rogue One scene.",
+            "Mart is Phoenix Two; Cleat’s own profile identifies Phoenix Four. Cleat has an introductory profile but his individual episode scene/death is not certified from a Related card or anonymous squadron member. The Lutrillian pilot has explicit episode trivia evidence; the joking Secon Daree script label is not registered as a finished named person.",
+            "Mart’s destroyed astromech is anonymous in the selected caption; his Iron Squadron association does not prove it is R3-A3. Chopper is individually named and survives. Rukh’s Noghri species is established separately from his named actions.",
+            "Kanan meets an earlier Loth-wolf that says Dume; trivia for the following Dume story marks the named giant’s first appearance there. This earlier wolf is not automatically that individual or Kanan’s future spirit. Kanan remains alive during this search.",
+            "The nine-station/four-tower map was designed but not shown. It does not establish a 36-tower on-screen inventory or precise city layout. The depot is an intended target and described as secure; no depot-visit row is inferred from the objective alone. No unnamed blockade hull or generic speeder is assigned a precise model.",
+            "The live guide title currently says S4E15 for Rebel Assault; inherited s4e9 and source-backed register order remain unchanged. No release dates or numbering are rewritten in this appearance batch."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp23-rebel-assault-gallery",
+              "locator": "All ten narrative captions / selected record review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-rebel-assault-trivia",
+              "locator": "All trivia positions / actual events, limits and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-rebels-s4e9",
+              "locator": "Registered guide / retained episode identity",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 1–4, 6–7, 9 / actual assault, survival and capture",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Not the destroyed anonymous astromech.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 6–7, 9–10 / actual crash survival and escape",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:mart-mattin",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Trivia 1 identifies Phoenix Two.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 6, 9–10 / actual survivor and escape",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:vult-skerris",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Craft destruction is not expanded into an independently sourced full fate review.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 2–3 / actual opponent piloting the elite fighter",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:grand-admiral-thrawn",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "No named blockade hull inferred.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Caption and released image 2 / physical active defense commander",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:kanan-jarrus",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "The spoken name Dume is not the giant’s certified individual appearance.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 5, 8, 10 / actual search and wolf encounter",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:rukh",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 7, 9 / actual fight and capture",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:loth-wolf",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Not automatically the later named giant.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 8, 10 / actual earlier wolf encounter",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:12",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "Type-level connection, not Luke’s individual hull or every numerical specification.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 1, 4 and trivia 2 / actual classic X-wing squadron",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:tie-defender-elite",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "Specific design; the earlier stolen/crashed prototype is not certified as the same hull.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 2–3 / actual Skerris elite fighter",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:lothal",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "No inferred Yavin 4 arrival or Mykapo return.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 1, 4, 8–10 / actual space approach and city",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:noghri",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Actual member presence, not a population scene.",
+              "evidence": [
+                {
+                  "sourceId": "supp22-rukh",
+                  "locator": "Main profile / explicitly Noghri Rukh",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp23-rebel-assault-gallery",
+                  "locator": "Captions 7, 9 / named Rukh",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:lutrillian",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "An unnamed individual, not a named Secon Daree record.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-rebel-assault-trivia",
+                  "locator": "Trivia 4 / explicit actual alien pilot species",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:rebels:s4e10",
+          "scope": "All narrative/trivia captions and individually cited official profile/released-image evidence checked against 284 selected records. Additive episode links; previous rows retained. Omitted targets are unestablished, not proven absent.",
+          "consideredTargets": [
+            "people:ezra-bridger",
+            "people:kanan-jarrus",
+            "people:hera-syndulla",
+            "people:sabine-wren",
+            "people:zeb-orrelios",
+            "people:chopper",
+            "people:10",
+            "people:64",
+            "people:2",
+            "people:3",
+            "people:68",
+            "people:grand-inquisitor",
+            "people:4",
+            "people:20",
+            "people:12",
+            "people:ahsoka-tano",
+            "people:captain-rex",
+            "people:44",
+            "planets:lothal",
+            "planets:3",
+            "planets:14",
+            "starships:ghost",
+            "vehicles:at-dp",
+            "vehicles:8",
+            "people:agent-kallus",
+            "people:cumberlayne-aresko",
+            "people:myles-grint",
+            "people:cikatro-vizago",
+            "people:wullffwarro",
+            "people:kitwarr",
+            "people:maketh-tua",
+            "people:amda-wabo",
+            "people:rx-24",
+            "people:morad-sumar",
+            "people:supply-master-lyste",
+            "people:gall-trayvis",
+            "people:zare-leonis",
+            "people:jai-kell",
+            "people:nazhros-oleg",
+            "planets:kessel",
+            "planets:garel",
+            "planets:stygeon-prime",
+            "starships:phantom-original",
+            "starships:ezra-zeb-tie-fighter",
+            "starships:star-commuter-shuttle",
+            "vehicles:imperial-troop-transport",
+            "people:tseebo",
+            "people:old-jho",
+            "people:azmorigan",
+            "people:kassius-konstantine",
+            "planets:fort-anaxes-asteroid",
+            "species:fyrnock",
+            "species:loth-cat",
+            "species:puffer-pig",
+            "starships:inquisitor-tie-prototype",
+            "starships:empire-day-parade-prototype",
+            "starships:relentless",
+            "starships:fort-anaxes-landing-shuttle",
+            "starships:merchant-one",
+            "people:25",
+            "people:21",
+            "starships:22",
+            "starships:13",
+            "people:alton-kastle",
+            "planets:lothal-senate-building",
+            "people:imperial-probe-droid",
+            "people:courier-droid",
+            "people:interrogation-droid",
+            "vehicles:patrol-transport",
+            "starships:imperial-light-cruiser",
+            "starships:sovereign",
+            "starships:broken-horn",
+            "starships:mustafar-rescue-transport",
+            "planets:13",
+            "starships:5",
+            "starships:2",
+            "starships:28",
+            "vehicles:sabine-speeder-bike",
+            "vehicles:30",
+            "vehicles:50",
+            "starships:3",
+            "people:jun-sato",
+            "people:willie-w1-le",
+            "starships:phoenix-home",
+            "people:commander-wolffe",
+            "people:gregor",
+            "planets:seelos",
+            "vehicles:modified-at-te",
+            "species:joopa",
+            "people:hondo-ohnaka",
+            "people:fifth-brother",
+            "people:seventh-sister",
+            "people:id9-seeker-droid",
+            "planets:abandoned-republic-medical-station",
+            "planets:nixus-hub-218",
+            "planets:tarkintown",
+            "vehicles:18",
+            "vehicles:53",
+            "people:11",
+            "planets:9",
+            "planets:shantipole",
+            "people:bg-81",
+            "planets:ibaar",
+            "people:eesh-fahm",
+            "starships:blade-wing-prototype",
+            "people:quarrie",
+            "people:ketsu-onyo",
+            "starships:shadow-caster",
+            "people:eg-86",
+            "starships:gx1-starbus",
+            "people:vaux",
+            "people:brom-titus",
+            "starships:titus-interdictor",
+            "planets:takobo",
+            "people:pypey",
+            "people:alora",
+            "people:darja",
+            "people:oora",
+            "people:ryder-azadi",
+            "people:ephraim-bridger",
+            "people:mira-bridger",
+            "starships:liberator",
+            "starships:29",
+            "people:16",
+            "starships:hammerhead-corvette",
+            "planets:lothal-depot",
+            "people:fenn-rau",
+            "planets:protectors-camp",
+            "starships:fang-fighter",
+            "people:gron",
+            "people:chava",
+            "planets:lira-san",
+            "species:lasat",
+            "species:purrgil",
+            "people:yushyn",
+            "planets:asteroid-belt-gas-refinery",
+            "starships:mining-guild-tie-fighter",
+            "people:cham-syndulla",
+            "people:numa",
+            "people:gobi-glie",
+            "people:mouse-droid",
+            "starships:captured-quasar-carrier",
+            "people:5",
+            "planets:2",
+            "planets:53",
+            "planets:37",
+            "species:4",
+            "vehicles:16",
+            "planets:bahryn",
+            "species:bonzami",
+            "planets:imperial-construction-module",
+            "planets:oosalon-mesa",
+            "people:ap-5",
+            "starships:imperial-cargo-ship",
+            "planets:horizon-base",
+            "planets:atollon",
+            "species:krykna",
+            "people:lieutenant-dicer",
+            "species:dokma",
+            "species:convor",
+            "planets:malachor",
+            "planets:malachor-sith-temple",
+            "people:eighth-brother",
+            "planets:lothal-jedi-temple",
+            "planets:11",
+            "people:governor-pryce",
+            "people:bendu",
+            "people:terba",
+            "people:dismantler-droid",
+            "planets:reklam-station",
+            "people:melch",
+            "starships:a-wing-trainer",
+            "starships:nightbrother",
+            "planets:vizsla-keep-09",
+            "people:hobbie-klivian",
+            "people:instructor-goran",
+            "people:vult-skerris",
+            "people:rake-gahree",
+            "planets:skystrike-academy",
+            "people:captain-slavin",
+            "planets:syndulla-residence",
+            "species:blurrg",
+            "people:general-kalani",
+            "planets:agamar",
+            "people:super-tactical-droid",
+            "starships:sheathipede-shuttle",
+            "starships:phantom-ii",
+            "people:b1-battle-droid",
+            "people:droideka",
+            "people:18",
+            "people:9",
+            "people:grand-admiral-thrawn",
+            "starships:11",
+            "starships:17",
+            "vehicles:26",
+            "people:gar-saxon",
+            "people:imperial-super-commandos",
+            "people:mart-mattin",
+            "people:jonner-jin",
+            "people:gooti-terez",
+            "people:r3-a3",
+            "starships:satos-hammer",
+            "planets:mykapo",
+            "people:imperial-sentry-droid",
+            "starships:last-chance",
+            "planets:wynkahthu",
+            "planets:lothal-imperial-factory",
+            "planets:thrawns-office",
+            "starships:tie-defender",
+            "planets:maul-dathomir-sanctuary",
+            "planets:36",
+            "people:saw-gerrera",
+            "people:klik-klak",
+            "people:captain-brunson",
+            "people:jumptroopers",
+            "people:e-xd-infiltrator-droid",
+            "starships:tactical-infiltration-pod",
+            "vehicles:flash-speeder",
+            "people:ursa-wren",
+            "people:tristan-wren",
+            "people:clan-wren",
+            "planets:krownest",
+            "planets:wren-stronghold",
+            "people:wullf-yularen",
+            "planets:thrawn-shipboard-office",
+            "species:28",
+            "people:erskin-semaj",
+            "people:jon-dutch-vander",
+            "planets:archeon-nebula",
+            "planets:killun-station",
+            "planets:killun-71",
+            "people:controller-lt-319",
+            "starships:imperial-listener-ship",
+            "species:neebray",
+            "people:tusken-raiders",
+            "species:dewback",
+            "people:jan-dodonna",
+            "people:imperial-death-troopers",
+            "starships:dornean-gunship",
+            "starships:atollon-blockade-interdictors",
+            "starships:chandrila-mistress",
+            "people:28",
+            "people:1",
+            "planets:1",
+            "planets:25",
+            "starships:27",
+            "starships:23",
+            "people:alrich-wren",
+            "people:tiber-saxon",
+            "people:captain-hark",
+            "planets:jalindi",
+            "planets:jalindi-station",
+            "planets:faos-station",
+            "people:mich-matt",
+            "people:dt-f16",
+            "people:edrio-two-tubes",
+            "people:r4-c2",
+            "starships:freighter-2716",
+            "people:valen-rudor",
+            "planets:old-jhos-pit-stop",
+            "vehicles:tx-225-gavr",
+            "planets:lothal-imperial-airfield",
+            "starships:tie-defender-elite",
+            "species:loth-wolf",
+            "people:rukh",
+            "species:noghri",
+            "people:bo-katan-kryze",
+            "planets:mandalore",
+            "starships:u-wing",
+            "vehicles:ore-crawler",
+            "people:mining-guild-security-droid",
+            "people:seevor",
+            "people:proach",
+            "people:cleat",
+            "planets:lothal-fuel-depot",
+            "vehicles:loth-bat-glider",
+            "species:loth-bat",
+            "people:dume-loth-wolf",
+            "people:veris-hydan",
+            "vehicles:mining-guild-excavation-driller",
+            "species:lutrillian",
+            "species:7",
+            "starships:12",
+            "vehicles:4"
+          ],
+          "notes": [
+            "Ten narrative and six trivia captions read. The original two Kanan/Lothal episode rows and all their evidence are retained unchanged. The new scoped review supplies the rescue/sacrifice context and adds other selected targets without replacing those earlier links.",
+            "Kanan dies protecting his friends at the fuel depot: the sacrifice in narrative 10 and the explicit death report in the next story support a new personal fate fact. Dume’s shared name does not establish a surviving Kanan body or Force spirit.",
+            "Ezra/Sabine design and Zeb/Chopper help construct the gliders; published image 5 shows the actual flight. Loth-bats are real animals in this approach, separate from the gliders and earlier book mention.",
+            "Thrawn physically enters Hera’s chamber. Tarkin has episode-specific dialogue evidence in trivia 6, but this selected image set does not resolve his individual body/projection form; his new row remains unspecified. Krennic and Stardust are referenced, not certified physical characters or a present Death Star. A planned Coruscant meeting does not prove an actual Coruscant setting or Emperor scene.",
+            "Pryce’s walker and the stolen rescue gunship are described generically. Released image 9 is a close-up of Pryce and image 10 focuses on Kanan; neither independently identifies AT-AT/AT-DP or a precise gunship family. No LAAT/i, patrol-transport or named individual hull is guessed.",
+            "The actual interrogation droid is distinct from the rack and the datapad’s euphemistic apparatus label. Reuse of Kanan’s older interrogation rack does not create a season-one flashback in this episode. The fuel depot is separate from the office dome and older depot/factory records."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp23-jedi-night-gallery",
+              "locator": "All ten narrative captions / selected record review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-jedi-night-trivia",
+              "locator": "All trivia positions / actual events, limits and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-rebels-s4e10",
+              "locator": "Registered guide / retained episode identity",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:ezra-bridger",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Captions 1, 3–5, 8–10 / actual planning, construction and rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:sabine-wren",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Captions 4, 8–10 / actual construction and rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:zeb-orrelios",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Not inferred merely from the Ghost crew label.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Caption 4 / named actual construction assistance",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Caption 4 / named actual construction assistance",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Captions 2, 6–10 / actual imprisonment, escape and evacuation",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:governor-pryce",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Captions 2, 6, 9 and released image 9 / actual interrogation and firing order",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:grand-admiral-thrawn",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Later planned Coruscant travel is not a new world scene.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Caption 2 / physically enters Hera’s chamber",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:rukh",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Caption 7 / actual confrontation with Kanan",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:interrogation-droid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Not a probe droid or the reused rack.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Caption 6 / actual interrogation droid and injection",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "vehicles:loth-bat-glider",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "Separate from the animal species and the later rescue gunship.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Captions 3–5, 8 / actual disguise flight and crash",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:loth-bat",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Earlier literary mention and ecological context are separately scoped.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Caption 3 and trivia 4–5 / actual pack concealing the gliders",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:lothal-fuel-depot",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "The office dome is a different installation.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-gallery",
+                  "locator": "Captions 8–10 / actual landing and explosion",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:12",
+              "relation": "appearance",
+              "representation": "unspecified",
+              "note": "The selected source identifies his speech but not a body versus projection.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-jedi-night-trivia",
+                  "locator": "Trivia 6 / Tarkin’s actual Stardust dialogue",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:rebels:s4e11",
+          "scope": "All narrative/trivia captions and individually cited official profile/released-image evidence checked against 284 selected records. Additive episode links; previous rows retained. Omitted targets are unestablished, not proven absent.",
+          "consideredTargets": [
+            "people:ezra-bridger",
+            "people:kanan-jarrus",
+            "people:hera-syndulla",
+            "people:sabine-wren",
+            "people:zeb-orrelios",
+            "people:chopper",
+            "people:10",
+            "people:64",
+            "people:2",
+            "people:3",
+            "people:68",
+            "people:grand-inquisitor",
+            "people:4",
+            "people:20",
+            "people:12",
+            "people:ahsoka-tano",
+            "people:captain-rex",
+            "people:44",
+            "planets:lothal",
+            "planets:3",
+            "planets:14",
+            "starships:ghost",
+            "vehicles:at-dp",
+            "vehicles:8",
+            "people:agent-kallus",
+            "people:cumberlayne-aresko",
+            "people:myles-grint",
+            "people:cikatro-vizago",
+            "people:wullffwarro",
+            "people:kitwarr",
+            "people:maketh-tua",
+            "people:amda-wabo",
+            "people:rx-24",
+            "people:morad-sumar",
+            "people:supply-master-lyste",
+            "people:gall-trayvis",
+            "people:zare-leonis",
+            "people:jai-kell",
+            "people:nazhros-oleg",
+            "planets:kessel",
+            "planets:garel",
+            "planets:stygeon-prime",
+            "starships:phantom-original",
+            "starships:ezra-zeb-tie-fighter",
+            "starships:star-commuter-shuttle",
+            "vehicles:imperial-troop-transport",
+            "people:tseebo",
+            "people:old-jho",
+            "people:azmorigan",
+            "people:kassius-konstantine",
+            "planets:fort-anaxes-asteroid",
+            "species:fyrnock",
+            "species:loth-cat",
+            "species:puffer-pig",
+            "starships:inquisitor-tie-prototype",
+            "starships:empire-day-parade-prototype",
+            "starships:relentless",
+            "starships:fort-anaxes-landing-shuttle",
+            "starships:merchant-one",
+            "people:25",
+            "people:21",
+            "starships:22",
+            "starships:13",
+            "people:alton-kastle",
+            "planets:lothal-senate-building",
+            "people:imperial-probe-droid",
+            "people:courier-droid",
+            "people:interrogation-droid",
+            "vehicles:patrol-transport",
+            "starships:imperial-light-cruiser",
+            "starships:sovereign",
+            "starships:broken-horn",
+            "starships:mustafar-rescue-transport",
+            "planets:13",
+            "starships:5",
+            "starships:2",
+            "starships:28",
+            "vehicles:sabine-speeder-bike",
+            "vehicles:30",
+            "vehicles:50",
+            "starships:3",
+            "people:jun-sato",
+            "people:willie-w1-le",
+            "starships:phoenix-home",
+            "people:commander-wolffe",
+            "people:gregor",
+            "planets:seelos",
+            "vehicles:modified-at-te",
+            "species:joopa",
+            "people:hondo-ohnaka",
+            "people:fifth-brother",
+            "people:seventh-sister",
+            "people:id9-seeker-droid",
+            "planets:abandoned-republic-medical-station",
+            "planets:nixus-hub-218",
+            "planets:tarkintown",
+            "vehicles:18",
+            "vehicles:53",
+            "people:11",
+            "planets:9",
+            "planets:shantipole",
+            "people:bg-81",
+            "planets:ibaar",
+            "people:eesh-fahm",
+            "starships:blade-wing-prototype",
+            "people:quarrie",
+            "people:ketsu-onyo",
+            "starships:shadow-caster",
+            "people:eg-86",
+            "starships:gx1-starbus",
+            "people:vaux",
+            "people:brom-titus",
+            "starships:titus-interdictor",
+            "planets:takobo",
+            "people:pypey",
+            "people:alora",
+            "people:darja",
+            "people:oora",
+            "people:ryder-azadi",
+            "people:ephraim-bridger",
+            "people:mira-bridger",
+            "starships:liberator",
+            "starships:29",
+            "people:16",
+            "starships:hammerhead-corvette",
+            "planets:lothal-depot",
+            "people:fenn-rau",
+            "planets:protectors-camp",
+            "starships:fang-fighter",
+            "people:gron",
+            "people:chava",
+            "planets:lira-san",
+            "species:lasat",
+            "species:purrgil",
+            "people:yushyn",
+            "planets:asteroid-belt-gas-refinery",
+            "starships:mining-guild-tie-fighter",
+            "people:cham-syndulla",
+            "people:numa",
+            "people:gobi-glie",
+            "people:mouse-droid",
+            "starships:captured-quasar-carrier",
+            "people:5",
+            "planets:2",
+            "planets:53",
+            "planets:37",
+            "species:4",
+            "vehicles:16",
+            "planets:bahryn",
+            "species:bonzami",
+            "planets:imperial-construction-module",
+            "planets:oosalon-mesa",
+            "people:ap-5",
+            "starships:imperial-cargo-ship",
+            "planets:horizon-base",
+            "planets:atollon",
+            "species:krykna",
+            "people:lieutenant-dicer",
+            "species:dokma",
+            "species:convor",
+            "planets:malachor",
+            "planets:malachor-sith-temple",
+            "people:eighth-brother",
+            "planets:lothal-jedi-temple",
+            "planets:11",
+            "people:governor-pryce",
+            "people:bendu",
+            "people:terba",
+            "people:dismantler-droid",
+            "planets:reklam-station",
+            "people:melch",
+            "starships:a-wing-trainer",
+            "starships:nightbrother",
+            "planets:vizsla-keep-09",
+            "people:hobbie-klivian",
+            "people:instructor-goran",
+            "people:vult-skerris",
+            "people:rake-gahree",
+            "planets:skystrike-academy",
+            "people:captain-slavin",
+            "planets:syndulla-residence",
+            "species:blurrg",
+            "people:general-kalani",
+            "planets:agamar",
+            "people:super-tactical-droid",
+            "starships:sheathipede-shuttle",
+            "starships:phantom-ii",
+            "people:b1-battle-droid",
+            "people:droideka",
+            "people:18",
+            "people:9",
+            "people:grand-admiral-thrawn",
+            "starships:11",
+            "starships:17",
+            "vehicles:26",
+            "people:gar-saxon",
+            "people:imperial-super-commandos",
+            "people:mart-mattin",
+            "people:jonner-jin",
+            "people:gooti-terez",
+            "people:r3-a3",
+            "starships:satos-hammer",
+            "planets:mykapo",
+            "people:imperial-sentry-droid",
+            "starships:last-chance",
+            "planets:wynkahthu",
+            "planets:lothal-imperial-factory",
+            "planets:thrawns-office",
+            "starships:tie-defender",
+            "planets:maul-dathomir-sanctuary",
+            "planets:36",
+            "people:saw-gerrera",
+            "people:klik-klak",
+            "people:captain-brunson",
+            "people:jumptroopers",
+            "people:e-xd-infiltrator-droid",
+            "starships:tactical-infiltration-pod",
+            "vehicles:flash-speeder",
+            "people:ursa-wren",
+            "people:tristan-wren",
+            "people:clan-wren",
+            "planets:krownest",
+            "planets:wren-stronghold",
+            "people:wullf-yularen",
+            "planets:thrawn-shipboard-office",
+            "species:28",
+            "people:erskin-semaj",
+            "people:jon-dutch-vander",
+            "planets:archeon-nebula",
+            "planets:killun-station",
+            "planets:killun-71",
+            "people:controller-lt-319",
+            "starships:imperial-listener-ship",
+            "species:neebray",
+            "people:tusken-raiders",
+            "species:dewback",
+            "people:jan-dodonna",
+            "people:imperial-death-troopers",
+            "starships:dornean-gunship",
+            "starships:atollon-blockade-interdictors",
+            "starships:chandrila-mistress",
+            "people:28",
+            "people:1",
+            "planets:1",
+            "planets:25",
+            "starships:27",
+            "starships:23",
+            "people:alrich-wren",
+            "people:tiber-saxon",
+            "people:captain-hark",
+            "planets:jalindi",
+            "planets:jalindi-station",
+            "planets:faos-station",
+            "people:mich-matt",
+            "people:dt-f16",
+            "people:edrio-two-tubes",
+            "people:r4-c2",
+            "starships:freighter-2716",
+            "people:valen-rudor",
+            "planets:old-jhos-pit-stop",
+            "vehicles:tx-225-gavr",
+            "planets:lothal-imperial-airfield",
+            "starships:tie-defender-elite",
+            "species:loth-wolf",
+            "people:rukh",
+            "species:noghri",
+            "people:bo-katan-kryze",
+            "planets:mandalore",
+            "starships:u-wing",
+            "vehicles:ore-crawler",
+            "people:mining-guild-security-droid",
+            "people:seevor",
+            "people:proach",
+            "people:cleat",
+            "planets:lothal-fuel-depot",
+            "vehicles:loth-bat-glider",
+            "species:loth-bat",
+            "people:dume-loth-wolf",
+            "people:veris-hydan",
+            "vehicles:mining-guild-excavation-driller",
+            "species:lutrillian",
+            "species:7",
+            "starships:12",
+            "vehicles:4"
+          ],
+          "notes": [
+            "Ten narrative and five trivia captions read. Released image 4 shows Thrawn as a hologram speaking to physical Pryce with Rukh present. His connection is transmission, not an inferred present body.",
+            "The three earlier wolves chasing Ezra and the huge self-named Dume encounter are separately scoped. Trivia 4 explicitly places the giant’s first appearance here; name/marking similarity does not merge it with earlier wolves or Kanan. The origin and exact form stay unresolved, so Dume’s individual row is unspecified rather than declared physical resurrection or a Force spirit.",
+            "Kanan’s death is reported and mourned. No live Kanan or confirmed spirit row is added. Another wolf, not necessarily Dume, brings the Temple stone; the stone and a warning do not establish a current Temple visit.",
+            "The fuel loss and shut-down factories are reported consequences. They do not independently establish physical depot/factory visits or a whole TIE defender airframe. Cloaking similarities to a Clone Wars disguise matrix are tentative design comparisons, not shared equipment identity, invented specifications or another production appearance.",
+            "The discarded Kirk dialogue and retained Rear Window shot reference are production context, not Star Trek or Hitchcock characters in the current narrative. Rukh survives this confrontation in the selected text; no death is inferred from Zeb’s assault."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp23-dume-gallery",
+              "locator": "All ten narrative captions / selected record review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-dume-trivia",
+              "locator": "All trivia positions / actual events, limits and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-rebels-s4e11",
+              "locator": "Registered guide / retained episode identity",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:governor-pryce",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Captions 1, 4 and released image 4 / actual parade concealment and response",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:ezra-bridger",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Captions 3, 6, 8, 10 / actual departure, encounter and return",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Captions 5, 10 / actual mourning and renewed resolve",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Caption 5 / explicitly with Hera",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:sabine-wren",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Captions 5, 7, 9–10 / actual fight and restraint",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:zeb-orrelios",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Captions 5, 7, 9–10 / actual fight and return",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:rukh",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "The visual cloak does not make him a hologram or a different droid.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Captions 7, 9 and released image 4 / actual tracking, fight and return",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:loth-wolf",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Do not merge the stone-bearing wolf into the named giant.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Captions 3, 6, 8 / actual narrated wolves and separate individuals",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:lothal",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "No Temple visit inferred from the recovered stone alone.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Captions 1, 6 / current world and plains",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:grand-admiral-thrawn",
+              "relation": "appearance",
+              "representation": "transmission",
+              "note": "Pryce and Rukh are physical recipients in the selected still.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Caption and released image 4 / Thrawn’s visible hologram",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:dume-loth-wolf",
+              "relation": "appearance",
+              "representation": "unspecified",
+              "note": "Origin/exact nature unresolved; shared name is not Kanan identity or a certified spirit form.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Captions 6, 8 and trivia 4 / named giant’s first encounter",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp23-dume",
+                  "locator": "Main profile / explicit unknown origin",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:noghri",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Named actual member, not a population or old Legends scene.",
+              "evidence": [
+                {
+                  "sourceId": "supp22-rukh",
+                  "locator": "Main profile / explicitly Noghri Rukh",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp23-dume-gallery",
+                  "locator": "Captions 7, 9 / actual Rukh",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:rebels:s4e12",
+          "scope": "All narrative/trivia captions and individually cited official profile/released-image evidence checked against 284 selected records. Additive episode links; previous rows retained. Omitted targets are unestablished, not proven absent.",
+          "consideredTargets": [
+            "people:ezra-bridger",
+            "people:kanan-jarrus",
+            "people:hera-syndulla",
+            "people:sabine-wren",
+            "people:zeb-orrelios",
+            "people:chopper",
+            "people:10",
+            "people:64",
+            "people:2",
+            "people:3",
+            "people:68",
+            "people:grand-inquisitor",
+            "people:4",
+            "people:20",
+            "people:12",
+            "people:ahsoka-tano",
+            "people:captain-rex",
+            "people:44",
+            "planets:lothal",
+            "planets:3",
+            "planets:14",
+            "starships:ghost",
+            "vehicles:at-dp",
+            "vehicles:8",
+            "people:agent-kallus",
+            "people:cumberlayne-aresko",
+            "people:myles-grint",
+            "people:cikatro-vizago",
+            "people:wullffwarro",
+            "people:kitwarr",
+            "people:maketh-tua",
+            "people:amda-wabo",
+            "people:rx-24",
+            "people:morad-sumar",
+            "people:supply-master-lyste",
+            "people:gall-trayvis",
+            "people:zare-leonis",
+            "people:jai-kell",
+            "people:nazhros-oleg",
+            "planets:kessel",
+            "planets:garel",
+            "planets:stygeon-prime",
+            "starships:phantom-original",
+            "starships:ezra-zeb-tie-fighter",
+            "starships:star-commuter-shuttle",
+            "vehicles:imperial-troop-transport",
+            "people:tseebo",
+            "people:old-jho",
+            "people:azmorigan",
+            "people:kassius-konstantine",
+            "planets:fort-anaxes-asteroid",
+            "species:fyrnock",
+            "species:loth-cat",
+            "species:puffer-pig",
+            "starships:inquisitor-tie-prototype",
+            "starships:empire-day-parade-prototype",
+            "starships:relentless",
+            "starships:fort-anaxes-landing-shuttle",
+            "starships:merchant-one",
+            "people:25",
+            "people:21",
+            "starships:22",
+            "starships:13",
+            "people:alton-kastle",
+            "planets:lothal-senate-building",
+            "people:imperial-probe-droid",
+            "people:courier-droid",
+            "people:interrogation-droid",
+            "vehicles:patrol-transport",
+            "starships:imperial-light-cruiser",
+            "starships:sovereign",
+            "starships:broken-horn",
+            "starships:mustafar-rescue-transport",
+            "planets:13",
+            "starships:5",
+            "starships:2",
+            "starships:28",
+            "vehicles:sabine-speeder-bike",
+            "vehicles:30",
+            "vehicles:50",
+            "starships:3",
+            "people:jun-sato",
+            "people:willie-w1-le",
+            "starships:phoenix-home",
+            "people:commander-wolffe",
+            "people:gregor",
+            "planets:seelos",
+            "vehicles:modified-at-te",
+            "species:joopa",
+            "people:hondo-ohnaka",
+            "people:fifth-brother",
+            "people:seventh-sister",
+            "people:id9-seeker-droid",
+            "planets:abandoned-republic-medical-station",
+            "planets:nixus-hub-218",
+            "planets:tarkintown",
+            "vehicles:18",
+            "vehicles:53",
+            "people:11",
+            "planets:9",
+            "planets:shantipole",
+            "people:bg-81",
+            "planets:ibaar",
+            "people:eesh-fahm",
+            "starships:blade-wing-prototype",
+            "people:quarrie",
+            "people:ketsu-onyo",
+            "starships:shadow-caster",
+            "people:eg-86",
+            "starships:gx1-starbus",
+            "people:vaux",
+            "people:brom-titus",
+            "starships:titus-interdictor",
+            "planets:takobo",
+            "people:pypey",
+            "people:alora",
+            "people:darja",
+            "people:oora",
+            "people:ryder-azadi",
+            "people:ephraim-bridger",
+            "people:mira-bridger",
+            "starships:liberator",
+            "starships:29",
+            "people:16",
+            "starships:hammerhead-corvette",
+            "planets:lothal-depot",
+            "people:fenn-rau",
+            "planets:protectors-camp",
+            "starships:fang-fighter",
+            "people:gron",
+            "people:chava",
+            "planets:lira-san",
+            "species:lasat",
+            "species:purrgil",
+            "people:yushyn",
+            "planets:asteroid-belt-gas-refinery",
+            "starships:mining-guild-tie-fighter",
+            "people:cham-syndulla",
+            "people:numa",
+            "people:gobi-glie",
+            "people:mouse-droid",
+            "starships:captured-quasar-carrier",
+            "people:5",
+            "planets:2",
+            "planets:53",
+            "planets:37",
+            "species:4",
+            "vehicles:16",
+            "planets:bahryn",
+            "species:bonzami",
+            "planets:imperial-construction-module",
+            "planets:oosalon-mesa",
+            "people:ap-5",
+            "starships:imperial-cargo-ship",
+            "planets:horizon-base",
+            "planets:atollon",
+            "species:krykna",
+            "people:lieutenant-dicer",
+            "species:dokma",
+            "species:convor",
+            "planets:malachor",
+            "planets:malachor-sith-temple",
+            "people:eighth-brother",
+            "planets:lothal-jedi-temple",
+            "planets:11",
+            "people:governor-pryce",
+            "people:bendu",
+            "people:terba",
+            "people:dismantler-droid",
+            "planets:reklam-station",
+            "people:melch",
+            "starships:a-wing-trainer",
+            "starships:nightbrother",
+            "planets:vizsla-keep-09",
+            "people:hobbie-klivian",
+            "people:instructor-goran",
+            "people:vult-skerris",
+            "people:rake-gahree",
+            "planets:skystrike-academy",
+            "people:captain-slavin",
+            "planets:syndulla-residence",
+            "species:blurrg",
+            "people:general-kalani",
+            "planets:agamar",
+            "people:super-tactical-droid",
+            "starships:sheathipede-shuttle",
+            "starships:phantom-ii",
+            "people:b1-battle-droid",
+            "people:droideka",
+            "people:18",
+            "people:9",
+            "people:grand-admiral-thrawn",
+            "starships:11",
+            "starships:17",
+            "vehicles:26",
+            "people:gar-saxon",
+            "people:imperial-super-commandos",
+            "people:mart-mattin",
+            "people:jonner-jin",
+            "people:gooti-terez",
+            "people:r3-a3",
+            "starships:satos-hammer",
+            "planets:mykapo",
+            "people:imperial-sentry-droid",
+            "starships:last-chance",
+            "planets:wynkahthu",
+            "planets:lothal-imperial-factory",
+            "planets:thrawns-office",
+            "starships:tie-defender",
+            "planets:maul-dathomir-sanctuary",
+            "planets:36",
+            "people:saw-gerrera",
+            "people:klik-klak",
+            "people:captain-brunson",
+            "people:jumptroopers",
+            "people:e-xd-infiltrator-droid",
+            "starships:tactical-infiltration-pod",
+            "vehicles:flash-speeder",
+            "people:ursa-wren",
+            "people:tristan-wren",
+            "people:clan-wren",
+            "planets:krownest",
+            "planets:wren-stronghold",
+            "people:wullf-yularen",
+            "planets:thrawn-shipboard-office",
+            "species:28",
+            "people:erskin-semaj",
+            "people:jon-dutch-vander",
+            "planets:archeon-nebula",
+            "planets:killun-station",
+            "planets:killun-71",
+            "people:controller-lt-319",
+            "starships:imperial-listener-ship",
+            "species:neebray",
+            "people:tusken-raiders",
+            "species:dewback",
+            "people:jan-dodonna",
+            "people:imperial-death-troopers",
+            "starships:dornean-gunship",
+            "starships:atollon-blockade-interdictors",
+            "starships:chandrila-mistress",
+            "people:28",
+            "people:1",
+            "planets:1",
+            "planets:25",
+            "starships:27",
+            "starships:23",
+            "people:alrich-wren",
+            "people:tiber-saxon",
+            "people:captain-hark",
+            "planets:jalindi",
+            "planets:jalindi-station",
+            "planets:faos-station",
+            "people:mich-matt",
+            "people:dt-f16",
+            "people:edrio-two-tubes",
+            "people:r4-c2",
+            "starships:freighter-2716",
+            "people:valen-rudor",
+            "planets:old-jhos-pit-stop",
+            "vehicles:tx-225-gavr",
+            "planets:lothal-imperial-airfield",
+            "starships:tie-defender-elite",
+            "species:loth-wolf",
+            "people:rukh",
+            "species:noghri",
+            "people:bo-katan-kryze",
+            "planets:mandalore",
+            "starships:u-wing",
+            "vehicles:ore-crawler",
+            "people:mining-guild-security-droid",
+            "people:seevor",
+            "people:proach",
+            "people:cleat",
+            "planets:lothal-fuel-depot",
+            "vehicles:loth-bat-glider",
+            "species:loth-bat",
+            "people:dume-loth-wolf",
+            "people:veris-hydan",
+            "vehicles:mining-guild-excavation-driller",
+            "species:lutrillian",
+            "species:7",
+            "starships:12",
+            "vehicles:4"
+          ],
+          "notes": [
+            "Ten narrative and eight trivia captions read. Released image 1 individually shows Hera, Ezra, Sabine, Zeb and Chopper discussing the stone. Images 6 and caption 6 establish the Emperor’s hologram; this is transmission, not a physical visit to Lothal.",
+            "Trivia 4 explicitly identifies Chopper’s Thrawn recording as reused from Zero Hour. Thrawn’s row is transmission with a recorded-voice note, not current live command at the Temple. The tunnel montage reuses named earlier episodes, but the selected source does not identify every individual speaker; no whole former cast is imported.",
+            "The painted Mortis gods, bird and moving wolf images are distinct from the live wolves carrying the group. No living Father/Son/Daughter, Ahsoka, Yoda, convor or physical Kanan is inferred from art or unidentified voices. The named giant Dume is not inferred from a generic wolf group.",
+            "Hydan is a named present scholar and explicitly not Force-sensitive. Vaneé was a discarded earlier identity; they remain unrelated characters. Guest performers and cinematic inspirations do not create other franchise participants or new credit rows.",
+            "The own driller profile explicitly identifies the machine used at the Lothal Temple, and episode trivia 5 names the current design. Its single operator does not certify passengers or dimensions. It remains distinct from the ore crawler and sandcrawler.",
+            "The Temple is an excavation site on Lothal, not the Coruscant Jedi Archives merely referenced by Hydan. A portal entrance and Ezra’s final leap do not add a new named World Between Worlds dossier before its separate guide is reviewed. Sabine’s scout armor does not make her a separate trooper identity, and the PA joke is not a surveyed 25-metre safety specification."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp23-wolves-and-a-door-gallery",
+              "locator": "All ten narrative captions / selected record review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp23-wolves-and-a-door-trivia",
+              "locator": "All trivia positions / actual events, limits and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-rebels-s4e12",
+              "locator": "Registered guide / retained episode identity",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:ezra-bridger",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-gallery",
+                  "locator": "Captions 1–10 and released image 1 / actual journey and portal entry",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:sabine-wren",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Disguise does not create a second person.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-gallery",
+                  "locator": "Captions 1, 4–5, 7–9 and released image 1 / actual interpretation and capture",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Not inferred from a generic crew list.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-gallery",
+                  "locator": "Released image 1 / physical Hera at stone discussion",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:zeb-orrelios",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-gallery",
+                  "locator": "Released image 1 / physical Zeb at discussion",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "The projected/recorded Thrawn is a separate contextual link.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-gallery",
+                  "locator": "Released image 1 and trivia 4 / physical Chopper and distraction playback",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:veris-hydan",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Separate from discarded Vaneé identity.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-gallery",
+                  "locator": "Captions 5–6, 9 / actual overseer and capture",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:loth-wolf",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Mortis mural wolves are separately depicted art, not extra live individuals.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-gallery",
+                  "locator": "Captions 2–3 / current wolves transporting the rebels",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:lothal",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "No precise travel speed or mechanism inferred.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-gallery",
+                  "locator": "Captions 1–4 / actual northern journey",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:lothal-jedi-temple",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "Not the Coruscant Archives or an already reviewed interior beyond the portal.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-gallery",
+                  "locator": "Captions 4–10 / actual excavation, painting and entrance",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:21",
+              "relation": "appearance",
+              "representation": "transmission",
+              "note": "A remote Palpatine, not a present body at the excavation.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-gallery",
+                  "locator": "Caption and released image 6 / Emperor’s visible hologram",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:grand-admiral-thrawn",
+              "relation": "appearance",
+              "representation": "transmission",
+              "note": "Recorded voice playback by Chopper, not a current live command or physical Thrawn.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-wolves-and-a-door-trivia",
+                  "locator": "Trivia 4 / explicitly reused Zero Hour recording",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "vehicles:mining-guild-excavation-driller",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "Named by this episode’s current design list, not a resemblance-based ore-crawler substitution.",
+              "evidence": [
+                {
+                  "sourceId": "supp23-mining-guild-excavation-driller",
+                  "locator": "Main profile / explicitly used for Imperial Lothal Temple excavation",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp23-wolves-and-a-door-trivia",
+                  "locator": "Trivia 5 / named excavation driller for the episode",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

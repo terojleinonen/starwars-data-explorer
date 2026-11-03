@@ -670,8 +670,149 @@ assert.match(rebels22.episodeReviews[4].notes.join(' '),/Caleb Dume.*same|Caleb 
 for(const [id,start,end] of [['series:rebels:s4e1',1,2],['series:rebels:s4e3',3,4]])assert.deepEqual({...db.prepare('SELECT number_start,number_end FROM episodes WHERE id=?').get(id)},{number_start:start,number_end:end});
 assert.equal(db.prepare("SELECT COUNT(*) n FROM episodes WHERE id IN ('series:rebels:s4e2','series:rebels:s4e4')").get().n,0);
 assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_reviews WHERE batch_id='SUPPLEMENT-22'").get().n,5);assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_links WHERE id LIKE 'SUPPLEMENT-22:%'").get().n,78);
-assert.equal(db.prepare("SELECT COUNT(*) n FROM episodes e JOIN episode_reviews v ON v.episode_id=e.id WHERE e.record_id='series:rebels' AND e.season=4").get().n,5);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episodes e JOIN episode_reviews v ON v.episode_id=e.id WHERE e.record_id='series:rebels' AND e.season=4").get().n,13);
 for(const r of supplement22.records.filter(r=>r.newRecord))assert.equal(r.facts.length,1);
+
+// Supplement 23: named wolves, recorded speech, actual rescue and source-number conflicts.
+const supplement23=supplements.find(b=>b.id==='SUPPLEMENT-23');assert.ok(supplement23);
+const rebels23=supplement23.records.find(r=>r.id==='series:rebels');
+assert.deepEqual(rebels23.episodeReviews.map(r=>r.episodeId),[8,9,10,11,12].map(n=>`series:rebels:s4e${n}`));
+assert.deepEqual(rebels23.episodeReviews.map(r=>r.links.length),[16,13,13,12,12]);
+assert.equal(supplement23.records.filter(r=>r.newRecord).length,12);assert.equal(supplement23.sources.length,21);
+assert.equal(supplement23.records.reduce((n,r)=>n+r.facts.length,0),14);
+for(const r of rebels23.episodeReviews){assert.equal(r.consideredTargets.length,284);assert.equal(new Set(r.consideredTargets).size,284);}
+for(const [ep,target] of [['s4e8','vehicles:ore-crawler'],['s4e8','people:seevor'],['s4e8','people:proach'],['s4e8','species:7'],['s4e8','people:mining-guild-security-droid'],['s4e8','people:28'],['s4e8','planets:3'],['s4e9','starships:12'],['s4e9','starships:tie-defender-elite'],['s4e9','species:lutrillian'],['s4e9','people:mart-mattin'],['s4e10','vehicles:loth-bat-glider'],['s4e10','species:loth-bat'],['s4e10','planets:lothal-fuel-depot'],['s4e10','people:interrogation-droid'],['s4e11','people:rukh'],['s4e11','people:governor-pryce'],['s4e12','people:veris-hydan'],['s4e12','vehicles:mining-guild-excavation-driller'],['s4e12','planets:lothal-jedi-temple'],['s4e12','people:hera-syndulla']])assert.equal(representation('series:rebels:'+ep,target),'direct');
+assert.equal(representation('series:rebels:s4e10','people:kanan-jarrus'),'unspecified','The inherited row is preserved, not silently overwritten');
+assert.equal(representation('series:rebels:s4e10','planets:lothal'),'unspecified');
+assert.equal(representation('series:rebels:s4e10','people:12'),'unspecified','Dialogue does not independently identify a body versus projection');
+assert.equal(representation('series:rebels:s4e11','people:dume-loth-wolf'),'unspecified','A named encounter with unknown origin is not a certified Kanan spirit');
+for(const [ep,target] of [['s4e11','people:grand-admiral-thrawn'],['s4e12','people:21'],['s4e12','people:grand-admiral-thrawn']])assert.equal(representation('series:rebels:'+ep,target),'transmission');
+assert.match(rebels23.episodeReviews[4].links.find(l=>l.targetId==='people:grand-admiral-thrawn').note,/Recorded voice.*not a current live/);
+assert.ok(rebels23.episodeReviews[4].links.find(l=>l.targetId==='people:grand-admiral-thrawn').evidence.some(e=>e.sourceId==='supp23-wolves-and-a-door-trivia'&&e.locator.includes('Trivia 4')));
+assert.ok(rebels23.episodeReviews[3].links.find(l=>l.targetId==='people:grand-admiral-thrawn').evidence.some(e=>e.locator.includes('released image 4')));
+for(const [ep,target] of [['s4e8','vehicles:4'],['s4e8','starships:tie-defender-elite'],['s4e8','planets:lothal-imperial-factory'],['s4e9','people:cleat'],['s4e9','people:r3-a3'],['s4e9','people:dume-loth-wolf'],['s4e9','planets:lothal-fuel-depot'],['s4e10','vehicles:18'],['s4e10','vehicles:at-dp'],['s4e10','vehicles:patrol-transport'],['s4e10','people:21'],['s4e10','planets:9'],['s4e11','people:kanan-jarrus'],['s4e11','planets:lothal-jedi-temple'],['s4e11','planets:lothal-imperial-factory'],['s4e12','people:kanan-jarrus'],['s4e12','people:dume-loth-wolf'],['s4e12','species:convor'],['s4e12','people:ahsoka-tano']])assert.equal(representation('series:rebels:'+ep,target),undefined,'Plans, data, art, unclassified scene vehicles and unidentified voices are not certified selected appearances');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM records WHERE id IN ('people:secon-daree','people:vanee','starships:world-devastator')").get().n,0);
+assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='people:cleat' AND key='call_sign'").get().value,'Phoenix Four');
+assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='people:proach' AND key='classification'").get().value,'Trandoshan');
+assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='people:dume-loth-wolf' AND key='classification'").get().value,'Loth-wolf');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM links WHERE record_id='people:dume-loth-wolf' AND target_id='people:kanan-jarrus'").get().n,0);
+assert.match(supplement23.records.find(r=>r.id==='people:dume-loth-wolf').limitations.join(' '),/Origin and exact nature remain unresolved/);
+assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='vehicles:mining-guild-excavation-driller' AND key='operators'").get().value,'1');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM facts WHERE record_id='vehicles:mining-guild-excavation-driller' AND key='passengers'").get().n,0);
+assert.match(db.prepare("SELECT value FROM facts WHERE record_id='people:kanan-jarrus' AND key='fate'").get().value,/Dies protecting.*fuel-depot/);
+assert.match(db.prepare("SELECT value FROM facts WHERE record_id='series:rebels' AND key='classic_xwing_debut'").get().value,/Rebel Assault.*first classic/);
+for(const [id,n] of [['series:rebels:s4e8',8],['series:rebels:s4e9',9]])assert.equal(db.prepare('SELECT number_start FROM episodes WHERE id=?').get(id).number_start,n);
+assert.match(rebels23.episodeReviews[0].notes.join(' '),/S4E9.*s4e8/s);assert.match(rebels23.episodeReviews[1].notes.join(' '),/S4E15.*s4e9/s);
+for(const r of supplement23.records.filter(r=>r.newRecord))assert.equal(r.facts.length,1,'Introductions do not certify complete dossiers');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_reviews WHERE batch_id='SUPPLEMENT-23'").get().n,5);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_links WHERE id LIKE 'SUPPLEMENT-23:%'").get().n,66);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episodes e JOIN episode_reviews v ON v.episode_id=e.id WHERE e.record_id='series:rebels'").get().n,66);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_links l JOIN episodes e ON e.id=l.episode_id WHERE e.record_id='series:rebels' AND e.season=4").get().n,222);
+
+// Supplement 24: temporal views, magical remote contact and a separate later epilogue.
+const supplement24=supplements.find(b=>b.id==='SUPPLEMENT-24');assert.ok(supplement24);
+const rebels24=supplement24.records.find(r=>r.id==='series:rebels');
+assert.deepEqual(rebels24.episodeReviews.map(r=>r.episodeId),[13,14,15].map(n=>`series:rebels:s4e${n}`));
+assert.deepEqual(rebels24.episodeReviews.map(r=>r.links.length),[20,23,33]);
+assert.equal(supplement24.records.filter(r=>r.newRecord).length,8);assert.equal(supplement24.sources.length,14);
+assert.equal(supplement24.records.reduce((n,r)=>n+r.facts.length,0),12);
+for(const r of rebels24.episodeReviews){assert.equal(r.consideredTargets.length,293);assert.equal(new Set(r.consideredTargets).size,293);}
+for(const [ep,target] of [['s4e13','people:ahsoka-tano'],['s4e13','people:morai'],['s4e13','species:convor'],['s4e13','planets:world-between-worlds'],['s4e13','people:veris-hydan'],['s4e14','vehicles:joopa-base'],['s4e14','vehicles:18'],['s4e14','planets:seelos'],['s4e14','vehicles:ore-crawler'],['s4e14','people:gregor'],['s4e14','people:commander-wolffe'],['s4e14','people:ketsu-onyo'],['s4e15','starships:chimaera'],['s4e15','planets:lothal-imperial-headquarters'],['s4e15','people:jacen-syndulla'],['s4e15','people:imperial-royal-guard'],['s4e15','species:purrgil'],['s4e15','planets:lira-san'],['s4e15','people:ahsoka-tano']])assert.equal(representation('series:rebels:'+ep,target),'direct');
+for(const target of ['people:4','people:kanan-jarrus','planets:malachor'])assert.equal(representation('series:rebels:s4e13',target),'flashback','Earlier portal event, not a current visit or revived body');
+for(const target of ['people:20','people:10','people:32','people:dume-loth-wolf'])assert.equal(representation('series:rebels:s4e13',target),'unspecified');
+assert.equal(representation('series:rebels:s4e13','people:21'),'force_communication');assert.equal(representation('series:rebels:s4e15','people:21'),'transmission');
+for(const target of ['people:ephraim-bridger','people:mira-bridger'])assert.equal(representation('series:rebels:s4e15',target),'unspecified','Stored image plus tempting doorway does not certify resurrected parents');
+for(const [ep,target] of [['s4e13','people:maketh-tua'],['s4e13','vehicles:mobile-command-center'],['s4e14','vehicles:modified-at-te'],['s4e14','species:fyrnock'],['s4e14','starships:chimaera'],['s4e14','starships:10'],['s4e14','people:dume-loth-wolf'],['s4e15','planets:7'],['s4e15','planets:peridea'],['s4e15','planets:world-between-worlds'],['s4e15','people:kanan-jarrus']])assert.equal(representation('series:rebels:'+ep,target),undefined,'Narrated history, reused design, unspecified hulls and an unentered portal do not create selected current settings/participants');
+const ending24=rebels24.episodeReviews[2];
+assert.match(ending24.links.find(l=>l.targetId==='people:ezra-bridger').note,/recorded farewell.*not a second live/s);
+assert.match(ending24.links.find(l=>l.targetId==='people:ahsoka-tano').note,/Not at the main/);
+assert.match(ending24.links.find(l=>l.targetId==='planets:lira-san').note,/Epilogue trip/);
+assert.match(ending24.links.find(l=>l.targetId==='planets:lothal-jedi-temple').note,/Fragment.*not a new visit/);
+assert.ok(ending24.links.find(l=>l.targetId==='starships:chimaera').evidence.some(e=>e.sourceId==='supp24-family-reunion-and-farewell-trivia'&&e.locator.includes('Trivia 2')));
+assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='vehicles:joopa-base' AND key='base_vehicle'").get().value,'Repurposed AT-AT walker');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM facts WHERE record_id='vehicles:joopa-base' AND key IN ('height','crew','passengers')").get().n,0);
+assert.equal(db.prepare("SELECT category FROM records WHERE id='planets:world-between-worlds'").get().category,'planets');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM facts WHERE record_id='planets:world-between-worlds' AND key IN ('diameter','rotation_period')").get().n,0,'A realm in the Worlds collection is not an astronomical planet');
+assert.equal(db.prepare("SELECT value FROM facts WHERE record_id='people:morai' AND key='classification'").get().value,'Convor');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM links WHERE record_id='people:morai' AND relation='identity'").get().n,0);
+assert.match(db.prepare("SELECT value FROM facts WHERE record_id='people:dume-loth-wolf' AND key='attributed_interpretation'").get().value,/Ahsoka suggests/);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM links WHERE record_id='people:dume-loth-wolf' AND target_id='people:kanan-jarrus'").get().n,0);
+assert.match(db.prepare("SELECT value FROM facts WHERE record_id='people:gregor' AND key='fate'").get().value,/Dies.*injuries/);
+assert.match(db.prepare("SELECT value FROM facts WHERE record_id='people:rukh' AND key='fate'").get().value,/shield generator/);
+assert.match(db.prepare("SELECT value FROM facts WHERE record_id='people:governor-pryce' AND key='fate'").get().value,/refusing evacuation/);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM facts WHERE record_id='people:melch' AND key='fate'").get().n,0,'Do not confuse Melch’s survival with Gregor’s death');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM facts WHERE record_id='people:jacen-syndulla' AND key IN ('height','birth_year')").get().n,0,'An unqualified later dimension must not be assigned to the epilogue child');
+assert.deepEqual({...db.prepare("SELECT number_start,number_end FROM episodes WHERE id='series:rebels:s4e15'").get()},{number_start:15,number_end:16});
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episodes WHERE id='series:rebels:s4e16'").get().n,0);
+assert.equal(db.prepare("SELECT number_start FROM episodes WHERE id='series:rebels:s4e14'").get().number_start,14);
+assert.match(rebels24.episodeReviews[1].notes.join(' '),/S4E13.*s4e14/s);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_reviews WHERE batch_id='SUPPLEMENT-24'").get().n,3);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_links WHERE id LIKE 'SUPPLEMENT-24:%'").get().n,76);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episodes e LEFT JOIN episode_reviews v ON v.episode_id=e.id WHERE e.record_id='series:rebels' AND v.episode_id IS NULL").get().n,0);
+for(const r of supplement24.records.filter(r=>r.newRecord))assert.equal(r.facts.length,1);
+
+// Supplement 25: on-screen scenes differ from reports, stored holos and design callbacks.
+const supplement25=supplements.find(b=>b.id==='SUPPLEMENT-25');assert.ok(supplement25);
+const batch25=supplement25.records.find(r=>r.id==='series:bad-batch');
+assert.deepEqual(batch25.episodeReviews.map(r=>r.episodeId),[1,2,3,4,5].map(n=>`series:bad-batch:s1e${n}`));
+assert.deepEqual(batch25.episodeReviews.map(r=>r.links.length),[22,15,17,8,20]);
+for(const r of batch25.episodeReviews){assert.equal(r.consideredTargets.length,64);assert.equal(new Set(r.consideredTargets).size,64);}
+for(const [ep,target] of [[1,'people:kanan-jarrus'],[1,'people:depa-billaba'],[1,'people:nala-se'],[1,'people:azi-3'],[1,'people:saw-gerrera'],[1,'planets:kaller'],[1,'planets:onderon'],[1,'planets:tipoca-city-training-facility'],[2,'people:cut-lawquane'],[2,'people:suu-lawquane'],[2,'people:shaeeah-lawquane'],[2,'people:jek-lawquane'],[2,'people:gonky'],[2,'species:nexu'],[2,'planets:19'],[3,'people:rampart'],[3,'people:elite-squad'],[3,'people:crosshair'],[3,'planets:ordo-moon'],[3,'species:ordo-moon-dragon'],[4,'people:fennec-shand'],[4,'planets:pantora'],[5,'people:cid'],[5,'people:muchi'],[5,'people:raney'],[5,'people:45'],[5,'species:brezak'],[5,'species:rancor'],[5,'species:zygerrian'],[5,'planets:cids-parlor'],[5,'planets:old-ord-mantell-city']])assert.equal(representation('series:bad-batch:s1e'+ep,target),'direct');
+assert.equal(representation('series:bad-batch:s1e1','people:21'),'transmission');
+assert.equal(representation('series:bad-batch:s1e5','people:fennec-shand'),'transmission');
+assert.match(batch25.episodeReviews[4].links.find(l=>l.targetId==='people:fennec-shand').note,/Stored.*not a current live call/);
+assert.match(batch25.episodeReviews[3].links.find(l=>l.targetId==='people:fennec-shand').note,/later physical/);
+for(const [ep,target] of [[1,'people:10'],[1,'people:79'],[1,'people:captain-rex'],[1,'people:11'],[1,'planets:9'],[1,'planets:12'],[2,'people:captain-rex'],[2,'people:crosshair'],[2,'people:rampart'],[2,'planets:10'],[3,'people:saw-gerrera'],[3,'people:69'],[3,'planets:pantora'],[4,'people:nala-se'],[4,'people:72'],[4,'people:crosshair'],[5,'people:16'],[5,'people:crosshair']])assert.equal(representation('series:bad-batch:s1e'+ep,target),undefined,'A mention, reference, unidentified remote contact or unresolved scene is not a selected verified appearance');
+assert.match(batch25.episodeReviews[1].notes.join(' '),/Rex visited yesterday/);
+assert.match(batch25.episodeReviews[1].notes.join(' '),/separately registered 2023.*future precisely located/);
+assert.match(batch25.episodeReviews[2].notes.join(' '),/Saw Gerrera.*explicitly absent/);
+assert.match(batch25.episodeReviews[3].notes.join(' '),/Echo is an organic clone.*mistaken identification/);
+assert.match(batch25.episodeReviews[4].notes.join(' '),/mistaken identification.*corrects it in caption 13/);
+const fact25=(id,key)=>db.prepare('SELECT value FROM published_facts WHERE record_id=? AND key=?').get(id,key)?.value;
+assert.equal(fact25('people:muchi','classification'),'Adolescent rancor');
+assert.equal(fact25('planets:pantora','body_type'),'Moon orbiting Orto Plutonia');
+assert.equal(fact25('species:ordo-moon-dragon','diet'),'Raw energy');
+assert.equal(fact25('people:elite-squad','recruitment'),'Non-clone enlisted recruits for the Empire');
+assert.match(fact25('species:zygerrian','historical_context'),/^Some groups/);
+for(const r of supplement25.records.filter(r=>r.newRecord)){assert.equal(r.facts.length,1);assert.equal(r.credits.length,0);assert.equal(r.episodes.length,0);}
+assert.equal(db.prepare("SELECT COUNT(*) n FROM facts WHERE record_id='people:muchi' AND key IN ('height','birth_year','identity')").get().n,0,'A young named rancor is not given an adult species dimension or another individual’s identity');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM links WHERE record_id='people:echo' AND target_id='species:2'").get().n,0,'A disguised organic clone is not a droid');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_links WHERE id LIKE 'SUPPLEMENT-25:%'").get().n,82);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_reviews WHERE batch_id='SUPPLEMENT-25'").get().n,5);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episodes e LEFT JOIN episode_reviews r ON r.episode_id=e.id WHERE e.record_id='series:bad-batch' AND r.episode_id IS NULL").get().n,37);
+
+
+// Supplement 26: named astromech, detached head, wreck and physical/mediated boundaries.
+const supplement26=supplements.find(b=>b.id==='SUPPLEMENT-26');assert.ok(supplement26);
+const batch26=supplement26.records.find(r=>r.id==='series:bad-batch');
+assert.deepEqual(batch26.episodeReviews.map(r=>r.episodeId),[6,7,8,9,10].map(n=>`series:bad-batch:s1e${n}`));
+assert.deepEqual(batch26.episodeReviews.map(r=>r.links.length),[19,15,16,18,15]);
+for(const r of batch26.episodeReviews){assert.equal(r.consideredTargets.length,88);assert.equal(new Set(r.consideredTargets).size,88);}
+for(const [ep,target] of [[6,'people:rafa-martez'],[6,'people:trace-martez'],[6,'people:r7-a7'],[6,'people:imperial-police-droid'],[6,'people:tactical-droid'],[6,'starships:silver-angel'],[6,'planets:22'],[6,'planets:droid-decommissioning-facility'],[7,'people:captain-rex'],[7,'people:bolo'],[7,'people:ketch'],[7,'species:dianoga'],[7,'starships:bracca-venator-wreck'],[8,'people:crosshair'],[8,'people:cad-bane'],[8,'people:todo-360'],[8,'starships:bracca-venator-wreck'],[9,'people:crosshair'],[9,'people:73'],[9,'people:nala-se'],[9,'people:fennec-shand'],[9,'starships:justifier'],[9,'vehicles:flight-pod'],[9,'planets:bora-vio'],[10,'people:gs-8'],[10,'people:avi-singh'],[10,'people:captain-bragg'],[10,'planets:raxus'],[10,'vehicles:53']])assert.equal(representation('series:bad-batch:s1e'+ep,target),'direct');
+assert.equal(representation('series:bad-batch:s1e8','people:rampart'),'transmission');
+for(const [ep,target] of [[6,'people:ahsoka-tano'],[6,'people:captain-rex'],[6,'people:super-tactical-droid'],[6,'planets:11'],[7,'people:rafa-martez'],[7,'people:trace-martez'],[7,'people:crosshair'],[7,'starships:63'],[8,'people:captain-rex'],[8,'people:cid'],[9,'people:69'],[9,'people:22'],[9,'planets:27'],[9,'planets:cids-parlor'],[10,'people:crosshair'],[10,'people:bolo'],[10,'people:ketch']])assert.equal(representation('series:bad-batch:s1e'+ep,target),undefined,'History, hints, design callbacks, unclassified hulls and unnamed patrons are not certified selected scene rows');
+assert.match(batch26.episodeReviews[0].notes.join(' '),/transposes.*A7-R7/);
+assert.match(batch26.episodeReviews[0].links.find(l=>l.targetId==='people:tactical-droid').note,/Detached head/);
+assert.match(batch26.episodeReviews[1].notes.join(' '),/killed-in-action.*false/);
+assert.match(batch26.episodeReviews[2].links.find(l=>l.targetId==='people:rampart').note,/not physical/);
+assert.ok(batch26.episodeReviews[2].links.find(l=>l.targetId==='people:rampart').evidence.some(e=>e.locator.includes('released image 1')));
+assert.match(batch26.episodeReviews[3].links.find(l=>l.targetId==='people:73').note,/Alive.*later motionless body/);
+assert.match(batch26.episodeReviews[3].links.find(l=>l.targetId==='people:nala-se').note,/Physical meeting.*mediated call.*No physical Bora Vio/);
+assert.ok(batch26.episodeReviews[3].links.find(l=>l.targetId==='people:crosshair').evidence.some(e=>e.sourceId==='supp26-bounty-lost-declassified'));
+assert.match(batch26.episodeReviews[4].notes.join(' '),/Omega stays on Ord Mantell/);
+assert.match(batch26.episodeReviews[4].notes.join(' '),/Raxus Prime.*name inspiration/);
+assert.equal(fact25('people:r7-a7','function'),'Astromech and co-pilot aboard the Silver Angel');
+assert.equal(fact25('starships:silver-angel','class'),'Modified Nebula-class freighter');
+assert.equal(fact25('starships:bracca-venator-wreck','condition'),'Rusted and severely damaged cruiser wreck on Bracca');
+assert.equal(fact25('vehicles:flight-pod','intended_use'),'Short-distance transport around the Bora Vio facility');
+assert.equal(fact25('planets:bora-vio','system'),'Lido System');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM facts WHERE record_id='starships:bracca-venator-wreck' AND key IN ('length','crew','passengers')").get().n,0,'A wreck receives no copied ship-type specifications');
+assert.equal(db.prepare("SELECT COUNT(*) n FROM records WHERE id='people:a7-r7'").get().n,0,'One naming conflict does not create a second astromech');
+assert.equal(supplement26.records.filter(r=>r.newRecord).length,21);assert.equal(supplement26.sources.length,30);
+for(const r of supplement26.records.filter(r=>r.newRecord)){assert.equal(r.facts.length,1);assert.equal(r.credits.length,0);assert.equal(r.episodes.length,0);}
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_links WHERE id LIKE 'SUPPLEMENT-26:%'").get().n,83);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episode_reviews WHERE batch_id='SUPPLEMENT-26'").get().n,5);
+assert.equal(db.prepare("SELECT COUNT(*) n FROM episodes e LEFT JOIN episode_reviews r ON r.episode_id=e.id WHERE e.record_id='series:bad-batch' AND r.episode_id IS NULL").get().n,37);
 
 console.log('Legacy profile review checks passed',JSON.stringify(checkProfileReviews(root,db)));
 db.close();

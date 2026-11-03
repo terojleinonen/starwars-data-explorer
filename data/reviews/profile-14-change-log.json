@@ -1,0 +1,1769 @@
+{
+  "batch": "PROFILE-14",
+  "checkedAt": "2026-11-03",
+  "changes": [
+    {
+      "sourceId": "supp09-boba-fett-s-starship-official-databank",
+      "field": "source_description",
+      "before": {
+        "note": "Identifies the ship inherited from Jango and used by Boba. Local legacy profile retains its historical title; this review does not verify its technical specifications."
+      },
+      "after": {
+        "note": "Identifies the ship inherited from Jango and used by Boba. Local legacy profile retains its historical title; this review does not verify its technical specifications. PROFILE-14 extension, checked 3 November 2026: First direct history paragraph explicitly places Jango living on Kamino and owning the pursuit craft before Boba inherits it. Residence is not a birth/homeworld claim; no further ship specifications or full fifteen-image gallery review."
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "profile",
+      "before": {
+        "id": "people:69",
+        "category": "people",
+        "legacy_id": "69",
+        "slug": "jango-fett",
+        "title": "Jango Fett",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Jango Fett works as a bounty hunter and supplies the genetic template for the Republic’s clone army. He raises the unaltered clone Boba as his son. His encounter with Obi-Wan leads from Kamino to Geonosis, where Mace Windu kills him.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "height",
+      "before": {
+        "record_id": "people:69",
+        "key": "height",
+        "value": "183",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "183",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "Dimensions / Height 1.83 m converted to 183 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Bounty hunter",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "Main profile / explicit profession",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "clone_role",
+      "before": null,
+      "after": {
+        "value": "Genetic template for the Republic clone army",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "First direct history / Kamino clone-army origin",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "family_connection",
+      "before": null,
+      "after": {
+        "value": "Boba Fett — unaltered clone raised as his son",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "First direct history / unaltered clone and father–son context",
+            "note": ""
+          },
+          {
+            "sourceId": "profile14-boba-background",
+            "locator": "Growing Up Too Quickly / requested son",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "mandalorian_status",
+      "before": null,
+      "after": {
+        "value": "Mandalorian foundling",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-boba-background",
+            "locator": "Growing Up Too Quickly / explicit foundling description",
+            "note": "Cultural status is not a biological species or exact homeworld."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Killed by Mace Windu on Geonosis",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "Final direct history / Geonosis duel",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "mass",
+      "before": {
+        "record_id": "people:69",
+        "key": "mass",
+        "value": "79",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected public sources. The raw inherited value is retained; an actor, species average, armor or droid model cannot supply it."
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:69",
+        "key": "hair_color",
+        "value": "black",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal hair-colour statement established in the selected references. A bare head, illustration or mechanical body does not independently certify the inherited none/colour value."
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:69",
+        "key": "skin_color",
+        "value": "tan",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established here. Armor and chrome exterior are distinct from biological skin; general species colours or production drawings do not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:69",
+        "key": "eye_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established in the selected references. Lighting, an actor or a model’s optical-sensor appearance does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:69",
+        "key": "birth_year",
+        "value": "66BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth or activation year established in the selected sources. Clone relationships, relative historical periods, apparent age and model history do not establish the inherited year."
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "gender",
+      "before": {
+        "record_id": "people:69",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in the selected references. Pronouns, actor identity, organic species and mechanical construction alone are not used to certify this field."
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "link",
+      "before": {
+        "record_id": "people:69",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:22",
+        "relation": "raised_as_son",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "First direct history / Boba is the unaltered clone son",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:51",
+        "relation": "killed_by",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "Final direct history / Mace Windu kills Jango",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:70",
+        "relation": "killed",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "First direct history / silences Zam Wesell",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:67",
+        "relation": "worked_for",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "Direct Geonosis history / working with Dooku’s Separatists",
+            "note": ""
+          },
+          {
+            "sourceId": "profile14-boba-background",
+            "locator": "Growing Up Too Quickly / hired by Count Dooku",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:10",
+        "relation": "opposed",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "Direct history / confrontation, escape and starship pursuit",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:10",
+        "relation": "resided_on",
+        "evidence": [
+          {
+            "sourceId": "supp09-boba-fett-s-starship-official-databank",
+            "locator": "First direct history / Jango explicitly lived on Kamino",
+            "note": "Residence, not an exact birthplace or personal homeworld."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:9",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "First direct history / Coruscant assassination aftermath",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:11",
+        "relation": "died_on",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "Final direct history / Geonosis duel",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:69",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "starships:21",
+        "relation": "starships",
+        "evidence": [
+          {
+            "sourceId": "profile14-jango-fett",
+            "locator": "Main profile and direct Geonosis history / Slave I",
+            "note": ""
+          },
+          {
+            "sourceId": "supp09-boba-fett-s-starship-official-databank",
+            "locator": "Main and first direct history / Jango ownership before Boba",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "profile",
+      "before": {
+        "id": "people:79",
+        "category": "people",
+        "legacy_id": "79",
+        "slug": "grievous",
+        "title": "Grievous",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Grievous commands Separatist droid forces while retaining living tissue inside a heavily mechanical body. Trained to fight with lightsabers by Dooku, he hunts Jedi during the Clone Wars. Obi-Wan Kenobi ends his retreat on Utapau.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "height",
+      "before": {
+        "record_id": "people:79",
+        "key": "height",
+        "value": "216",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "216",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "Dimensions / Height 2.16 m converted to 216 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:79",
+        "key": "eye_color",
+        "value": "green, yellow",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Yellow — cyborg design commentary",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-cyborgs",
+            "locator": "General Grievous section / explicit yellow-pupil description",
+            "note": "Scoped textual design description; no image sampling or universal two-colour palette."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Kaleesh cyborg",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-cyborgs",
+            "locator": "General Grievous section / Kaleesh tissue and cybernetic reconstruction",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "military_role",
+      "before": null,
+      "after": {
+        "value": "Separatist droid-army commander",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "Main profile and first direct history / command role",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "combat_training",
+      "before": null,
+      "after": {
+        "value": "Lightsaber combat taught by Count Dooku",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "First direct history / explicit instructor",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Killed by Obi-Wan Kenobi on Utapau",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "Final direct history / blaster strike and organic remains",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "mass",
+      "before": {
+        "record_id": "people:79",
+        "key": "mass",
+        "value": "159",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected public sources. The raw inherited value is retained; an actor, species average, armor or droid model cannot supply it."
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:79",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal hair-colour statement established in the selected references. A bare head, illustration or mechanical body does not independently certify the inherited none/colour value."
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:79",
+        "key": "skin_color",
+        "value": "brown, white",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established here. Armor and chrome exterior are distinct from biological skin; general species colours or production drawings do not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:79",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth or activation year established in the selected sources. Clone relationships, relative historical periods, apparent age and model history do not establish the inherited year."
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "gender",
+      "before": {
+        "record_id": "people:79",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in the selected references. Pronouns, actor identity, organic species and mechanical construction alone are not used to certify this field."
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": {
+        "record_id": "people:79",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": {
+        "record_id": "people:79",
+        "target_id": "species:36",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:36",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile14-cyborgs",
+            "locator": "General Grievous section / explicitly Kaleesh organic tissue",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:67",
+        "relation": "trained_by",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "First direct history / Dooku lightsaber instruction",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:10",
+        "relation": "killed_by",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "Final direct history / Obi-Wan kills Grievous",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:21",
+        "relation": "served",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "Coruscant and Utapau direct history / orders of Darth Sidious",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:3",
+        "relation": "opposed",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "Coruscant direct history / R2-D2 aids captive Jedi escape",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:9",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "Coruscant direct history / Palpatine kidnapping",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:12",
+        "relation": "died_on",
+        "evidence": [
+          {
+            "sourceId": "profile14-grievous",
+            "locator": "Final direct history / Utapau confrontation",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": {
+        "record_id": "people:79",
+        "target_id": "starships:74",
+        "relation": "starships",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "starships:74",
+        "relation": "starships",
+        "evidence": [
+          {
+            "sourceId": "profile14-soulless-one",
+            "locator": "Main profile / Grievous pilots a customized Belbullab-22",
+            "note": "Existing type record is not renamed Soulless One or treated as a single hull."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:79",
+      "field": "link",
+      "before": {
+        "record_id": "people:79",
+        "target_id": "vehicles:60",
+        "relation": "vehicles",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "vehicles:60",
+        "relation": "vehicles",
+        "evidence": [
+          {
+            "sourceId": "profile14-wheel-bike",
+            "locator": "Main profile / named Grievous wheel-bike escape",
+            "note": "Operator identity only; old vehicle facts and title retained."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "profile",
+      "before": {
+        "id": "people:24",
+        "category": "people",
+        "legacy_id": "24",
+        "slug": "bossk",
+        "title": "Bossk",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "The Trandoshan bounty hunter Bossk works with young Boba Fett during the Clone Wars and later competes for Vader’s contract on the Millennium Falcon. His hunting career also brings him to Lothal, where he employs Ezra Bridger as a guide.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "height",
+      "before": {
+        "record_id": "people:24",
+        "key": "height",
+        "value": "190",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "206",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Dimensions / Height 2.06 m converted to 206 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:24",
+        "key": "eye_color",
+        "value": "red",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Red",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Main profile / explicitly red-eyed",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Trandoshan",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Species / Trandoshan and main description",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Bounty hunter",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Main profile / explicit profession",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "early_partnership",
+      "before": null,
+      "after": {
+        "value": "Works with young Boba Fett during the Clone Wars",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Main profile and first direct history / early partnership",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "mass",
+      "before": {
+        "record_id": "people:24",
+        "key": "mass",
+        "value": "113",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected public sources. The raw inherited value is retained; an actor, species average, armor or droid model cannot supply it."
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:24",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal hair-colour statement established in the selected references. A bare head, illustration or mechanical body does not independently certify the inherited none/colour value."
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:24",
+        "key": "skin_color",
+        "value": "green",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established here. Armor and chrome exterior are distinct from biological skin; general species colours or production drawings do not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:24",
+        "key": "birth_year",
+        "value": "53BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth or activation year established in the selected sources. Clone relationships, relative historical periods, apparent age and model history do not establish the inherited year."
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "gender",
+      "before": {
+        "record_id": "people:24",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in the selected references. Pronouns, actor identity, organic species and mechanical construction alone are not used to certify this field."
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "link",
+      "before": {
+        "record_id": "people:24",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:3",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Appearances / Return of the Jedi",
+            "note": "Work-level list only; no new individual shot, edition or fate assertion."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "link",
+      "before": {
+        "record_id": "people:24",
+        "target_id": "species:7",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:7",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Species / explicit Trandoshan identity",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:22",
+        "relation": "worked_with",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Main profile and first direct history / Boba partnership",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:4",
+        "relation": "hired_by",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Main profile and final direct history / Vader’s Falcon contract",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:ezra-bridger",
+        "relation": "hired_as_guide",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Second direct history / Lothal guide",
+            "note": "Cross-media relationship, not a Rebels screen appearance."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:9",
+        "relation": "imprisoned_on",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "First direct history / Republic prison on Coruscant",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:lothal",
+        "relation": "operated_on",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Second direct history / Lothal mission",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:24",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "starships:10",
+        "relation": "pursued",
+        "evidence": [
+          {
+            "sourceId": "profile14-bossk",
+            "locator": "Final direct history / assignment to find the Millennium Falcon",
+            "note": "Pursuit assignment is not boarding or piloting."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "profile",
+      "before": {
+        "id": "people:23",
+        "category": "people",
+        "legacy_id": "23",
+        "slug": "ig-88",
+        "title": "IG-88",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "IG-88 is an assassin droid working as an independent bounty hunter. During the hunt following the Battle of Hoth, he answers Darth Vader’s call to track the Millennium Falcon.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "height",
+      "before": {
+        "record_id": "people:23",
+        "key": "height",
+        "value": "200",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "196",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-ig-88",
+            "locator": "Dimensions / Height 1.96 m converted to 196 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Assassin droid",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-ig-88",
+            "locator": "Main profile / assassin-droid and named mechanical hunter context",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Independent bounty hunter",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-ig-88",
+            "locator": "Main profile / independent mechanical killer and bounty hunter",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "exterior_colour",
+      "before": null,
+      "after": {
+        "value": "Battered chrome finish",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-ig-88",
+            "locator": "Main profile / explicitly chrome exterior",
+            "note": "Mechanical exterior is separate from biological skin."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "commission",
+      "before": null,
+      "after": {
+        "value": "Vader’s contract to capture the Millennium Falcon after Hoth",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-ig-88",
+            "locator": "Main profile / assignment and historical context",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "mass",
+      "before": {
+        "record_id": "people:23",
+        "key": "mass",
+        "value": "140",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected public sources. The raw inherited value is retained; an actor, species average, armor or droid model cannot supply it."
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:23",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal hair-colour statement established in the selected references. A bare head, illustration or mechanical body does not independently certify the inherited none/colour value."
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:23",
+        "key": "skin_color",
+        "value": "metal",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established here. Armor and chrome exterior are distinct from biological skin; general species colours or production drawings do not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:23",
+        "key": "eye_color",
+        "value": "red",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established in the selected references. Lighting, an actor or a model’s optical-sensor appearance does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:23",
+        "key": "birth_year",
+        "value": "15BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth or activation year established in the selected sources. Clone relationships, relative historical periods, apparent age and model history do not establish the inherited year."
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "gender",
+      "before": {
+        "record_id": "people:23",
+        "key": "gender",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in the selected references. Pronouns, actor identity, organic species and mechanical construction alone are not used to certify this field."
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "link",
+      "before": {
+        "record_id": "people:23",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile14-ig-88",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "link",
+      "before": {
+        "record_id": "people:23",
+        "target_id": "species:2",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:2",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile14-ig-88",
+            "locator": "Main profile / explicit droid identity",
+            "note": "Retained broad archive classification; droid is not a biological species."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:4",
+        "relation": "hired_by",
+        "evidence": [
+          {
+            "sourceId": "profile14-ig-88",
+            "locator": "Main profile / answers Vader’s call",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:23",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "starships:10",
+        "relation": "pursued",
+        "evidence": [
+          {
+            "sourceId": "profile14-ig-88",
+            "locator": "Main profile / Falcon capture assignment",
+            "note": "Not a pilot or passenger claim."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "profile",
+      "before": {
+        "id": "people:26",
+        "category": "people",
+        "legacy_id": "26",
+        "slug": "lobot",
+        "title": "Lobot",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Lobot assists Lando Calrissian in Cloud City and serves as its computer liaison. A cybernetic device connects this Human directly with the city’s central computer.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "height",
+      "before": {
+        "record_id": "people:26",
+        "key": "height",
+        "value": "175",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "175",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-lobot",
+            "locator": "Dimensions / Height 1.75 m converted to 175 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "gender",
+      "before": {
+        "record_id": "people:26",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "male",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-lobot",
+            "locator": "Main profile / explicitly Human male",
+            "note": "Explicit classification, not inferred solely from pronouns or casting."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Human",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-lobot",
+            "locator": "Main profile and Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "occupation",
+      "before": null,
+      "after": {
+        "value": "Lando’s aide and Cloud City computer liaison",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-lobot",
+            "locator": "Main profile / explicitly named responsibilities",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "cybernetic_interface",
+      "before": null,
+      "after": {
+        "value": "Head implant links directly to Cloud City’s central computer",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile14-lobot",
+            "locator": "Main profile / explicit device function",
+            "note": ""
+          },
+          {
+            "sourceId": "profile14-headgear",
+            "locator": "Main profile / Lando’s aide is an identified user",
+            "note": "General technology is distinguished from the wearer."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "mass",
+      "before": {
+        "record_id": "people:26",
+        "key": "mass",
+        "value": "79",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal mass established in the selected public sources. The raw inherited value is retained; an actor, species average, armor or droid model cannot supply it."
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:26",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal hair-colour statement established in the selected references. A bare head, illustration or mechanical body does not independently certify the inherited none/colour value."
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:26",
+        "key": "skin_color",
+        "value": "light",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicitly scoped personal skin-colour field established here. Armor and chrome exterior are distinct from biological skin; general species colours or production drawings do not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:26",
+        "key": "eye_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour field established in the selected references. Lighting, an actor or a model’s optical-sensor appearance does not certify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:26",
+        "key": "birth_year",
+        "value": "37BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact birth or activation year established in the selected sources. Clone relationships, relative historical periods, apparent age and model history do not establish the inherited year."
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "link",
+      "before": {
+        "record_id": "people:26",
+        "target_id": "films:2",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:2",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile14-lobot",
+            "locator": "Appearances / The Empire Strikes Back",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "species:1",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile14-lobot",
+            "locator": "Species / Human",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:25",
+        "relation": "aide_to",
+        "evidence": [
+          {
+            "sourceId": "profile14-lobot",
+            "locator": "Main profile / Calrissian’s aide",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:26",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:6",
+        "relation": "associated_with",
+        "evidence": [
+          {
+            "sourceId": "profile14-lobot",
+            "locator": "Main profile / Cloud City computer liaison",
+            "note": "Cloud City’s Bespin location is established by the retained world review; employment is not homeworld evidence."
+          },
+          {
+            "sourceId": "profile06-bespin",
+            "locator": "Main profile / Cloud City in Bespin’s atmosphere",
+            "note": "Selected geographic context; does not certify personal birth or residence."
+          }
+        ]
+      }
+    }
+  ]
+}

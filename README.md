@@ -40,21 +40,21 @@ The interface is in English. The shared reading system uses amber for screen wor
 
 ## Data and review status
 
-Snapshot: **1 November 2026**, after SUPPLEMENT-22 and PROFILE-13.
+Snapshot: **3 November 2026**, after SUPPLEMENT-26 and PROFILE-16.
 
 | Dataset | Current scope |
 | --- | --- |
-| Records | 630: 260 preserved legacy records and 370 editorial additions |
+| Records | 696: 260 preserved legacy records and 436 editorial additions |
 | Screen works | 13 films and 11 series; each has a first scoped production review |
-| Fact fields | 2,906: 840 verified, 436 reviewed but unestablished, 1,630 legacy fields awaiting review |
-| Directed work/context links | 2,274: 1,347 verified, 924 legacy, 3 reference-only |
-| Sources and citations | 862 source records and 6,467 claim-level citations |
+| Fact fields | 3,042: 996 verified, 521 reviewed but unestablished, 1,525 legacy fields awaiting review |
+| Directed work/context links | 2,628: 1,742 verified, 883 legacy, 3 reference-only |
+| Sources and citations | 991 source records and 7,860 claim-level citations |
 | Selected production credits | 576 ordinary credits and 10 edition-specific credits |
 | Versions and releases | 26 editions and 82 sourced release-history events |
 | Episode register | 151 guide entries covering 160 numbered parts across five series |
-| Episode reviews | 96 scoped reviews and 1,202 selected episode connections |
+| Episode reviews | 114 scoped reviews and 1,509 selected episode connections |
 | Episode writing roles | 65 person–role rows |
-| Supporting profiles | 352 new introductory profiles and 65 reviewed legacy profiles; 189 legacy supporting profiles await their first own review |
+| Supporting profiles | 418 new introductory profiles and 80 reviewed legacy profiles; 174 legacy supporting profiles await their first own review |
 
 Counts describe different units, not a completion percentage. Anakin and Vader remain separate inherited records with a sourced identity connection, so record counts are not counts of unique individuals. The production selection is incomplete; the [production inventory](docs/catalogue/TEOSLUETTELO-01.md) and [master TODO](TODO-JA-ETENEMISSUUNNITELMA.md) track missing works and the intake queue.
 
@@ -64,15 +64,17 @@ Checked details have individual citations and visible review scopes. A source at
 
 ## Current research scope
 
+The latest seven research batches (SUPPLEMENT-23–26 and PROFILE-14–16) complete the selected-record Rebels episode reviews, cover the first ten Bad Batch episodes and assess 105 inherited fields across fifteen existing character profiles. Together they add 66 introductory supporting records, 307 episode connections, 129 official sources and 1,393 claim-level citations. Each batch includes its own evidence, limitations, change log, preservation audit and scoped browser checks.
+
 New release-date research is limited to each work's original US cinema, television or streaming launch. Documented distinct editions retain their identities and already sourced dates and credits. Earlier verified release-history events remain visible; further territory, platform, ordinary rerelease and home-media calendar expansion is deferred.
 
-All 24 current works have a first scoped review, but complete end-credit rolls, every edition and every episode appearance are not finished. Selected-profile episode reviews cover all registered Mandalorian, Obi-Wan Kenobi and Skeleton Crew episodes. Rebels has 58 of 66 guide entries reviewed; eight season-four guides covering nine numbered parts and 47 Bad Batch episodes remain in the registered appearance-review queue.
+All 24 current works have a first scoped review, but complete end-credit rolls, every edition and every episode appearance are not finished. Selected-profile episode reviews cover all registered Mandalorian, Obi-Wan Kenobi and Skeleton Crew episodes. All 66 registered Rebels guides covering 75 numbered parts now have a scoped selected-profile review; 37 Bad Batch episodes remain in the registered appearance-review queue. Earlier unresolved scene identifications and full episode credits remain open.
 
-The latest episode batch covers Rebels season four’s first five guides, Heroes of Mandalore through Kindred (numbered parts 1–7): 78 new episode connections, nineteen introductory profiles and 26 official sources. The opening two-part stories retain combined guides. Bail’s hologram, Saw’s remote/physical sequence, Edrio’s identity, Faos/Taos, the hovering GAVr, the elite Defender prototype and the unusual wolf journey keep explicit scopes; two individual scene forms remain unresolved.
+The latest episode batch covers registered Bad Batch episodes 6–10, Decommissioned through Common Ground: 83 episode connections, 21 introductory one-fact profiles, 30 official sources and 292 citations. All 103 narrative and 25 trivia captions were read against an 88-record selected cohort. R7-A7’s conflicting trivia spelling, a detached tactical-droid head, the damaged Bracca Venator, Rampart’s projected report, Taun We’s living meeting versus later body, Nala Se’s physical and remote scenes, and Raxus versus name inspiration retain their scopes. Ten of 47 Bad Batch episodes now have selected-record reviews; 37 remain. Omitted links are unestablished within that scope, not proven absences.
 
-PROFILE-13 reviews AT-AT, AT-ST, Snowspeeder, Imperial Speeder Bike and Sand Crawler: all fifty inherited fields assessed, fifteen verified/corrected, 35 unestablished, sixteen new facts and 32 checked connections. Height versus length, flat-ground versus atmospheric speed, standard crew versus actual riders and mixed-model source boundaries remain explicit.
+PROFILE-16 reviews Owen, Beru, Greedo, Jabba and Shmi: all 35 inherited fields assessed, seven verified/corrected, 28 unestablished, 24 new facts and 53 checked connections. Greedo’s nominal height is 174 cm. Jabba’s 3.9 m is length, not vertical height. Beru and Shmi have explicit textual woman descriptions; other gender fields are not inferred. Owen/Beru’s Tatooine origin, guardianship versus biological parenthood, current official names versus preserved legacy titles, edition-sensitive cantina action, Jabba’s Special Edition scene and Shmi’s vision portrayal retain separate scopes.
 
-The next planned batch is SUPPLEMENT-23: Crawler Commandeers, Rebel Assault, Jedi Night, Dume and Wolves and a Door (Rebels season-four parts 8–12). See the [master TODO](TODO-JA-ETENEMISSUUNNITELMA.md) for the current order and remaining limits.
+The next planned batch is PROFILE-17: Jar Jar Binks, Roos Tarpals, Rugor Nass, Ric Olié and Quarsh Panaka, 35 inherited fields awaiting first own review. Then continue with registered Bad Batch episodes 11–15. See the [master TODO](TODO-JA-ETENEMISSUUNNITELMA.md) for current order and remaining limits.
 
 ## Offline rebuild and verification
 
@@ -84,7 +86,7 @@ pnpm check      # data checks, ESLint, TypeScript and production build
 
 Rebuilds use local snapshots and editorial JSON. Run a production build after rebuilding data to refresh prerendered pages. The optional `scripts/capture-legacy.mjs` is the one-time online capture tool; it is never part of normal builds or visits and must not silently refresh the preserved dataset.
 
-The latest production build generated 904 routes, including named records, retained numeric redirects and the former overview redirect. Data integrity, provenance and semantic checks, ESLint and TypeScript passed. Individual research batches include preservation audits and scoped browser QA.
+The latest production build generated 970 routes, including named records, retained numeric redirects and the former overview redirect. Data integrity, provenance and semantic checks, ESLint and TypeScript passed. Individual research batches include preservation audits and scoped browser QA. The latest batch passed fourteen targeted browser states at 1280 px desktop and 320 px phone widths, covering episode disclosures, source locators, selected profiles and collection search/preview; no browser warnings or errors were recorded.
 
 The navigation refresh was checked at 320, 390, 760 and 761 px and desktop width: the Enter Archive destination, all nine mobile menu links, keyboard opening and Escape/focus return, outside dismissal, the desktop/mobile boundary, and Home/header/footer wordmark returns. Route transitions temporarily disable smooth scrolling; on-page section links retain their normal scrolling behavior. The SQLite database was byte-for-byte unchanged by this interface update. No full-site browser coverage or field Core Web Vitals measurement is claimed.
 
@@ -116,6 +118,6 @@ Current package pins: Next.js 16.4.3, React/React DOM 19.3.1, TypeScript 6.0.3 a
 - [Master TODO and phased plan](TODO-JA-ETENEMISSUUNNITELMA.md): current scope, counts and next tasks, in Finnish.
 - [Verification history](VERIFIED.md): completed checks and remaining limits; dated entries retain their historical counts.
 - [Review reports](docs/reviews/): evidence, corrections, limitations and preservation/QA logs for individual batches.
-- [Latest episode review — SUPPLEMENT-22](docs/reviews/SUPPLEMENT-22.md).
-- [Latest legacy-profile review — PROFILE-13](docs/reviews/PROFILE-13.md).
+- [Latest episode review — SUPPLEMENT-26](docs/reviews/SUPPLEMENT-26.md).
+- [Latest legacy-profile review — PROFILE-16](docs/reviews/PROFILE-16.md).
 - [Original design proposal](docs/ARCHIVE_PROPOSAL.md): historical starting proposal, superseded by the current implementation and master TODO.

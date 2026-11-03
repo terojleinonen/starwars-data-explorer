@@ -1,0 +1,4242 @@
+{
+  "version": 1,
+  "id": "SUPPLEMENT-26",
+  "checkedAt": "2026-11-03",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "Registered Bad Batch episodes 6–10: scoped selected-record connections and 21 introductory one-fact identities. No date, episode-register, end-credit or edition expansion; original-USA launch scope retained.",
+  "sources": [
+    {
+      "id": "supp26-decommissioned-gallery",
+      "title": "Decommissioned — official episode gallery",
+      "url": "https://www.starwars.com/decommissioned-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 17 narrative captions read directly in the browser 3 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-decommissioned-trivia",
+      "title": "Decommissioned — official trivia gallery",
+      "url": "https://www.starwars.com/decommissioned-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 5 trivia captions read directly in the browser 3 November 2026. Design callbacks, earlier productions and named identity context distinguished from current scenes. No full voice/end-credit inventory or source prose/media import.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-battle-scars-gallery",
+      "title": "Battle Scars — official episode gallery",
+      "url": "https://www.starwars.com/battle-scars-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 23 narrative captions read directly in the browser 3 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-battle-scars-trivia",
+      "title": "Battle Scars — official trivia gallery",
+      "url": "https://www.starwars.com/battle-scars-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 6 trivia captions read directly in the browser 3 November 2026. Design callbacks, earlier productions and named identity context distinguished from current scenes. No full voice/end-credit inventory or source prose/media import.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-reunion-gallery",
+      "title": "Reunion — official episode gallery",
+      "url": "https://www.starwars.com/reunion-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 24 narrative captions read directly in the browser 3 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-reunion-trivia",
+      "title": "Reunion — official trivia gallery",
+      "url": "https://www.starwars.com/reunion-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 5 trivia captions read directly in the browser 3 November 2026. Design callbacks, earlier productions and named identity context distinguished from current scenes. No full voice/end-credit inventory or source prose/media import.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-bounty-lost-gallery",
+      "title": "Bounty Lost — official episode gallery",
+      "url": "https://www.starwars.com/bounty-lost-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 25 narrative captions read directly in the browser 3 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-bounty-lost-trivia",
+      "title": "Bounty Lost — official trivia gallery",
+      "url": "https://www.starwars.com/bounty-lost-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 4 trivia captions read directly in the browser 3 November 2026. Design callbacks, earlier productions and named identity context distinguished from current scenes. No full voice/end-credit inventory or source prose/media import.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-common-ground-gallery",
+      "title": "Common Ground — official episode gallery",
+      "url": "https://www.starwars.com/common-ground-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 14 narrative captions read directly in the browser 3 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-common-ground-trivia",
+      "title": "Common Ground — official trivia gallery",
+      "url": "https://www.starwars.com/common-ground-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "All 5 trivia captions read directly in the browser 3 November 2026. Design callbacks, earlier productions and named identity context distinguished from current scenes. No full voice/end-credit inventory or source prose/media import.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-rafa-martez",
+      "title": "Rafa Martez — official Databank",
+      "url": "https://www.starwars.com/databank/rafa",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicitly older sister. Selected introduction; earlier Coruscant/Ahsoka history is not a new Decommissioned appearance. No full biography or personal measurements reviewed. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-trace-martez",
+      "title": "Trace Martez — official Databank",
+      "url": "https://www.starwars.com/databank/trace",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / mechanic, pilot and repaired ship. No invented birth date or genetic dossier. A sibling or former Jedi contact is not automatically present in every scene. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-r7-a7",
+      "title": "R7-A7 — official Databank",
+      "url": "https://www.starwars.com/databank/r7-a7",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit postwar shipboard role. Databank and episode guide use R7-A7. Trivia 5 transposes the name to A7-R7; identity is cross-checked against the explicit Ahsoka/Martez main profile and image, not split into two droids. The older inset is a production callback, not a current Ahsoka scene. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-imperial-police-droid",
+      "title": "Imperial police droid — type — official Databank",
+      "url": "https://www.starwars.com/databank/imperial-police-droids",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit security role. Droid type, not one named individual, a probe droid or every security droid. No designation or technical dimensions invented. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-cad-bane",
+      "title": "Cad Bane — official Databank",
+      "url": "https://www.starwars.com/databank/cad-bane",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / bounty-hunting role and Duro origin. Early-Imperial role and selected two-episode action only. No final Book of Boba Fett fate, all costumes or end credits reviewed. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-todo-360",
+      "title": "Todo 360 — official Databank",
+      "url": "https://www.starwars.com/databank/todo-360",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicitly techno-service droid. Named individual, not a generic butler or every service droid. Earlier destruction and reconstruction in trivia are history, not a new death or new identity. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-avi-singh",
+      "title": "Senator Avi Singh — official Databank",
+      "url": "https://www.starwars.com/databank/senator-avi-singh",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / separatist politics and Raxus. Political base is not independently a birthplace. Arrest and flight do not certify death, exact age or a complete Senate career. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-gs-8",
+      "title": "GS-8 — official Databank",
+      "url": "https://www.starwars.com/databank/gs-8",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit protocol-droid service. Named protocol droid, distinct from all RA-7 units. Trivia describes a design basis, not a C-3PO identity or an appearance by the original film droid. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-captain-bragg",
+      "title": "Captain Bragg — official Databank",
+      "url": "https://www.starwars.com/databank/captain-bragg",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit Imperial role and Raxus. Selected early-Imperial command role only; stun and later recovery are not a death. No exact personal measurements or full military record reviewed. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-bolo",
+      "title": "Bolo — official Databank",
+      "url": "https://www.starwars.com/databank/bolo",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / translator device. Named Ithorian patron, not a new Ithorian species dossier. No species-wide language/anatomy rule generalized from a single character. Later unnamed patrons are not automatically assigned this identity. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-ketch",
+      "title": "Ketch — official Databank",
+      "url": "https://www.starwars.com/databank/ketch",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Species / Weequay. Named patron; no new Weequay species profile, numeric personal facts or automatic identification of later background patrons. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-bracca",
+      "title": "Bracca — official Databank",
+      "url": "https://www.starwars.com/databank/bracca",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / salvage economy and medical facilities. World distinct from one cruiser wreck. Cal Kestis and Fallen Order history are not new Bad Batch appearances. No population, diameter or coordinates reviewed. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-bora-vio",
+      "title": "Bora Vio — official Databank",
+      "url": "https://www.starwars.com/databank/bora-vio",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit named system. World and its facility are described together without inventing a second named site. Failed experiments are not certified living people or a completed species roster. Unrelated page-template labels are not archive facts. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-raxus",
+      "title": "Raxus — official Databank",
+      "url": "https://www.starwars.com/databank/raxus",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit capital role. Do not equate the world with Raxus Prime because of name inspiration in trivia 3. Earlier Dooku/Padmé/Ventress history is not a Common Ground scene. No new formal alias or global numerics reviewed. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-droid-decommissioning-facility",
+      "title": "Droid decommissioning facility — official Databank",
+      "url": "https://www.starwars.com/databank/droid-decommissioning-facility",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicit facility and location. A site in the Worlds collection, not an astronomical planet or the Geonosis construction plant recalled by its design. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-silver-angel",
+      "title": "Silver Angel — official Databank",
+      "url": "https://www.starwars.com/databank/the-silver-angel",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / explicitly Nebula-class and speed modifications. Named hull distinct from every Nebula-class vessel. No manufacturer, length, speed or capacity inferred. Ahsoka’s earlier association does not create a current appearance. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-justifier",
+      "title": "Justifier — official Databank",
+      "url": "https://www.starwars.com/databank/justifier",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / named ship and captive hold. Named ship distinct from Xanadu Blood and from an unrealized earlier Clone Wars story arc. No size, builder or crew capacity inferred; flight sabotage is not permanent destruction. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-dianoga",
+      "title": "Dianoga — official Databank",
+      "url": "https://www.starwars.com/databank/dianoga",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / tentacled animal and eyestalk. Species profile, not a named individual or an identity with the Death Star trash-compactor animal. The guide’s named creature, main-profile Bracca location and actual released scene are used together. No 10 m population mean or young-animal measurement assigned. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-flight-pod",
+      "title": "Flight pod — Bora Vio type — official Databank",
+      "url": "https://www.starwars.com/databank/flight-pods",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Main profile and selected explicit metadata read 3 November 2026. Main profile / spherical craft for short-distance travel. Local craft type, not a named ship or every escape pod. No hyperdrive, long-range capability, manufacturer or dimensional specification inferred. No source prose, captions, gallery or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp26-bounty-lost-declassified",
+      "title": "Bounty Lost — official Declassified highlights",
+      "url": "https://www.starwars.com/news/bad-batch-declassified-bounty-lost",
+      "kind": "official",
+      "checkedAt": "2026-11-03",
+      "note": "Read 3 November 2026. Selected introductory continuation of Crosshair/Empire pursuit, Omega genetic revelation and failed experiments only. Not a full episode or final-credit inventory. No source prose/media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    }
+  ],
+  "sourceUpdates": [],
+  "records": [
+    {
+      "id": "people:rafa-martez",
+      "newRecord": {
+        "category": "people",
+        "slug": "rafa-martez",
+        "title": "Rafa Martez",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Rafa is the older Martez sister. She and Trace seek tactical-droid intelligence on Corellia and cooperate with the Bad Batch to escape the decommissioning facility.",
+        "evidence": [
+          {
+            "sourceId": "supp26-rafa-martez",
+            "locator": "Main profile / explicitly older sister",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-decommissioned-gallery",
+            "locator": "Captions 6–17 / named sister and mission",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Selected introduction; earlier Coruscant/Ahsoka history is not a new Decommissioned appearance. No full biography or personal measurements reviewed.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "family_position",
+          "value": "Older sister of Trace Martez",
+          "evidence": [
+            {
+              "sourceId": "supp26-rafa-martez",
+              "locator": "Main profile / explicitly older sister",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-rafa-martez",
+              "locator": "Main profile / explicitly older sister",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 6–17 / named sister and mission",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:trace-martez",
+          "relation": "sibling",
+          "evidence": [
+            {
+              "sourceId": "supp26-rafa-martez",
+              "locator": "Main profile / named younger sister",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-rafa-martez",
+              "locator": "Appearances / selected named work; work-level only",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:trace-martez",
+      "newRecord": {
+        "category": "people",
+        "slug": "trace-martez",
+        "title": "Trace Martez",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Trace is a mechanic and pilot who repaired the Silver Angel. On Corellia she helps Omega and uses a tactical droid’s head to turn the factory’s discarded battle droids against its guards.",
+        "evidence": [
+          {
+            "sourceId": "supp26-trace-martez",
+            "locator": "Main profile / mechanic, pilot and repaired ship",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-decommissioned-gallery",
+            "locator": "Captions 8, 11, 13–17 / named sister and escape",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "No invented birth date or genetic dossier. A sibling or former Jedi contact is not automatically present in every scene.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Mechanic and pilot",
+          "evidence": [
+            {
+              "sourceId": "supp26-trace-martez",
+              "locator": "Main profile / mechanic, pilot and repaired ship",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-trace-martez",
+              "locator": "Main profile / mechanic, pilot and repaired ship",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 8, 11, 13–17 / named sister and escape",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:rafa-martez",
+          "relation": "sibling",
+          "evidence": [
+            {
+              "sourceId": "supp26-trace-martez",
+              "locator": "Main profile / named sister",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:silver-angel",
+          "relation": "pilot_of",
+          "evidence": [
+            {
+              "sourceId": "supp26-trace-martez",
+              "locator": "Main profile / repaired and operated ship",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-trace-martez",
+              "locator": "Appearances / selected named work; work-level only",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:r7-a7",
+      "newRecord": {
+        "category": "people",
+        "slug": "r7-a7",
+        "title": "R7-A7",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "R7-A7 served Ahsoka during the Clone Wars. After the war the astromech assists Trace and Rafa aboard the Silver Angel.",
+        "evidence": [
+          {
+            "sourceId": "supp26-r7-a7",
+            "locator": "Main profile / explicit postwar shipboard role",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-decommissioned-trivia",
+            "locator": "Trivia 5 and inspected released image / Martez shipboard droid",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Databank and episode guide use R7-A7. Trivia 5 transposes the name to A7-R7; identity is cross-checked against the explicit Ahsoka/Martez main profile and image, not split into two droids. The older inset is a production callback, not a current Ahsoka scene.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "function",
+          "value": "Astromech and co-pilot aboard the Silver Angel",
+          "evidence": [
+            {
+              "sourceId": "supp26-r7-a7",
+              "locator": "Main profile / explicit postwar shipboard role",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-r7-a7",
+              "locator": "Main profile / explicit postwar shipboard role",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-decommissioned-trivia",
+              "locator": "Trivia 5 and inspected released image / Martez shipboard droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:2",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp26-r7-a7",
+              "locator": "Main profile / astromech",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:silver-angel",
+          "relation": "aboard",
+          "evidence": [
+            {
+              "sourceId": "supp26-r7-a7",
+              "locator": "Main profile / postwar astromech and co-pilot",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ahsoka-tano",
+          "relation": "formerly_assisted",
+          "evidence": [
+            {
+              "sourceId": "supp26-r7-a7",
+              "locator": "Main profile / explicit earlier Ahsoka assistance",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-r7-a7",
+              "locator": "Appearances / selected named work; work-level only",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:imperial-police-droid",
+      "newRecord": {
+        "category": "people",
+        "slug": "imperial-police-droid",
+        "title": "Imperial police droid — type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Imperial police droids guard facilities dismantling the former Separatist droid army. The Bad Batch and the Martez sisters confront them at the Corellia plant.",
+        "evidence": [
+          {
+            "sourceId": "supp26-imperial-police-droid",
+            "locator": "Main profile / explicit security role",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-decommissioned-gallery",
+            "locator": "Captions 3, 8, 12–14 / actual guards",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Droid type, not one named individual, a probe droid or every security droid. No designation or technical dimensions invented.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "function",
+          "value": "Security at Separatist droid decommissioning facilities",
+          "evidence": [
+            {
+              "sourceId": "supp26-imperial-police-droid",
+              "locator": "Main profile / explicit security role",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-imperial-police-droid",
+              "locator": "Main profile / explicit security role",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 3, 8, 12–14 / actual guards",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:2",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp26-imperial-police-droid",
+              "locator": "Main profile / Imperial security droids",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:droid-decommissioning-facility",
+          "relation": "guards",
+          "evidence": [
+            {
+              "sourceId": "supp26-imperial-police-droid",
+              "locator": "Main profile and Locations / decommissioning facilities",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:tactical-droid",
+      "newRecord": {
+        "category": "people",
+        "slug": "tactical-droid",
+        "title": "Separatist tactical droid — type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Separatist tactical droids hold information about fighting clone soldiers. On Corellia the Bad Batch and the Martez sisters compete for a surviving head before using its systems to aid their escape.",
+        "evidence": [
+          {
+            "sourceId": "supp26-decommissioned-gallery",
+            "locator": "Caption 2 / value of the tactical data",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-decommissioned-gallery",
+            "locator": "Captions 2, 5–14, 16 / head, activation and saved data",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Generic tactical-droid scope; no T-series submodel, Super Tactical Droid/Kalani identity, personal serial number or full-body specification certified. The scene includes a detached head, not an intact walking individual.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "selected_memory_content",
+          "value": "Tactical information about fighting clone soldiers",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Caption 2 / value of the tactical data",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Caption 2 / value of the tactical data",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 2, 5–14, 16 / head, activation and saved data",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:2",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 2, 5–14 / tactical-droid head",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:cad-bane",
+      "newRecord": {
+        "category": "people",
+        "slug": "cad-bane",
+        "title": "Cad Bane",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Cad Bane is a bounty hunter from Duro. He takes Omega after confronting Hunter on Bracca and later competes with Fennec Shand over the captive.",
+        "evidence": [
+          {
+            "sourceId": "supp26-cad-bane",
+            "locator": "Main profile / bounty-hunting role and Duro origin",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-reunion-gallery",
+            "locator": "Captions 19–23 / confrontation and capture",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Early-Imperial role and selected two-episode action only. No final Book of Boba Fett fate, all costumes or end credits reviewed.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "occupation",
+          "value": "Bounty hunter",
+          "evidence": [
+            {
+              "sourceId": "supp26-cad-bane",
+              "locator": "Main profile / bounty-hunting role and Duro origin",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-cad-bane",
+              "locator": "Main profile / bounty-hunting role and Duro origin",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-reunion-gallery",
+              "locator": "Captions 19–23 / confrontation and capture",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-cad-bane",
+              "locator": "Appearances / selected named work; work-level only",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:todo-360",
+      "newRecord": {
+        "category": "people",
+        "slug": "todo-360",
+        "title": "Todo 360",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Todo 360 is Cad Bane’s techno-service droid. After helping capture Omega on Bracca, Todo accepts her offer to repair a damaged leg, giving her a chance to escape.",
+        "evidence": [
+          {
+            "sourceId": "supp26-todo-360",
+            "locator": "Main profile / explicitly techno-service droid",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-bounty-lost-gallery",
+            "locator": "Captions 4, 6 / named droid and repair",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Named individual, not a generic butler or every service droid. Earlier destruction and reconstruction in trivia are history, not a new death or new identity.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "function",
+          "value": "Cad Bane’s techno-service droid",
+          "evidence": [
+            {
+              "sourceId": "supp26-todo-360",
+              "locator": "Main profile / explicitly techno-service droid",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-todo-360",
+              "locator": "Main profile / explicitly techno-service droid",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-bounty-lost-gallery",
+              "locator": "Captions 4, 6 / named droid and repair",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:2",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp26-todo-360",
+              "locator": "Main profile / explicitly techno-service droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:cad-bane",
+          "relation": "serves",
+          "evidence": [
+            {
+              "sourceId": "supp26-todo-360",
+              "locator": "Main profile / named employer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-todo-360",
+              "locator": "Appearances / selected named work; work-level only",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:avi-singh",
+      "newRecord": {
+        "category": "people",
+        "slug": "avi-singh",
+        "title": "Senator Avi Singh",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Avi Singh is a Separatist senator based on Raxus. When he publicly rejects Imperial occupation, he is arrested; GS-8 arranges help from the Bad Batch.",
+        "evidence": [
+          {
+            "sourceId": "supp26-avi-singh",
+            "locator": "Main profile / separatist politics and Raxus",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-common-ground-gallery",
+            "locator": "Captions 1–2, 8–12 / arrest and rescue",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Political base is not independently a birthplace. Arrest and flight do not certify death, exact age or a complete Senate career.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "political_role",
+          "value": "Separatist senator based on Raxus",
+          "evidence": [
+            {
+              "sourceId": "supp26-avi-singh",
+              "locator": "Main profile / separatist politics and Raxus",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-avi-singh",
+              "locator": "Main profile / separatist politics and Raxus",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-common-ground-gallery",
+              "locator": "Captions 1–2, 8–12 / arrest and rescue",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:raxus",
+          "relation": "based_on",
+          "evidence": [
+            {
+              "sourceId": "supp26-avi-singh",
+              "locator": "Main profile / political base",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:gs-8",
+      "newRecord": {
+        "category": "people",
+        "slug": "gs-8",
+        "title": "GS-8",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "GS-8 serves Senator Avi Singh on Raxus. The protocol droid seeks help after his arrest and guides the Bad Batch into the Imperial stronghold.",
+        "evidence": [
+          {
+            "sourceId": "supp26-gs-8",
+            "locator": "Main profile / explicit protocol-droid service",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-common-ground-gallery",
+            "locator": "Captions 1–2, 4, 6, 8 / request and rescue",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Named protocol droid, distinct from all RA-7 units. Trivia describes a design basis, not a C-3PO identity or an appearance by the original film droid.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "function",
+          "value": "Protocol droid serving Senator Avi Singh",
+          "evidence": [
+            {
+              "sourceId": "supp26-gs-8",
+              "locator": "Main profile / explicit protocol-droid service",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-gs-8",
+              "locator": "Main profile / explicit protocol-droid service",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-common-ground-gallery",
+              "locator": "Captions 1–2, 4, 6, 8 / request and rescue",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:avi-singh",
+          "relation": "serves",
+          "evidence": [
+            {
+              "sourceId": "supp26-gs-8",
+              "locator": "Main profile / named senator",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:2",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp26-gs-8",
+              "locator": "Main profile / protocol droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:raxus",
+          "relation": "worked_on",
+          "evidence": [
+            {
+              "sourceId": "supp26-gs-8",
+              "locator": "Main profile / service on Raxus",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:captain-bragg",
+      "newRecord": {
+        "category": "people",
+        "slug": "captain-bragg",
+        "title": "Captain Bragg",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Captain Bragg enforces the Empire’s occupation of Raxus. She arrests Senator Singh after his public opposition and orders troops to pursue his rescuers.",
+        "evidence": [
+          {
+            "sourceId": "supp26-captain-bragg",
+            "locator": "Main profile / explicit Imperial role and Raxus",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-common-ground-gallery",
+            "locator": "Captions 1–2, 8, 10 / occupation and response",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Selected early-Imperial command role only; stun and later recovery are not a death. No exact personal measurements or full military record reviewed.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "role",
+          "value": "Imperial enforcer on Raxus",
+          "evidence": [
+            {
+              "sourceId": "supp26-captain-bragg",
+              "locator": "Main profile / explicit Imperial role and Raxus",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-captain-bragg",
+              "locator": "Main profile / explicit Imperial role and Raxus",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-common-ground-gallery",
+              "locator": "Captions 1–2, 8, 10 / occupation and response",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:raxus",
+          "relation": "worked_on",
+          "evidence": [
+            {
+              "sourceId": "supp26-captain-bragg",
+              "locator": "Main profile / Imperial occupation",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:bolo",
+      "newRecord": {
+        "category": "people",
+        "slug": "bolo",
+        "title": "Bolo",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Bolo is a regular at Cid’s parlor on Ord Mantell and uses a translator to communicate in Basic. He and Ketch challenge the hooded visitor who turns out to be Rex.",
+        "evidence": [
+          {
+            "sourceId": "supp26-bolo",
+            "locator": "Main profile / translator device",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-battle-scars-gallery",
+            "locator": "Caption 4 / named Bolo and Ketch",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Named Ithorian patron, not a new Ithorian species dossier. No species-wide language/anatomy rule generalized from a single character. Later unnamed patrons are not automatically assigned this identity.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "equipment",
+          "value": "Translator device for communication in Basic",
+          "evidence": [
+            {
+              "sourceId": "supp26-bolo",
+              "locator": "Main profile / translator device",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-bolo",
+              "locator": "Main profile / translator device",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Caption 4 / named Bolo and Ketch",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:cids-parlor",
+          "relation": "frequents",
+          "evidence": [
+            {
+              "sourceId": "supp26-bolo",
+              "locator": "Main profile / named parlor",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:ketch",
+      "newRecord": {
+        "category": "people",
+        "slug": "ketch",
+        "title": "Ketch",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Ketch spends time with his friend Bolo at Cid’s parlor on Ord Mantell. The pair flee after confronting Rex before he removes his hood.",
+        "evidence": [
+          {
+            "sourceId": "supp26-ketch",
+            "locator": "Species / Weequay",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-battle-scars-gallery",
+            "locator": "Caption 4 / named pair and departure",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Named patron; no new Weequay species profile, numeric personal facts or automatic identification of later background patrons.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "value": "Weequay",
+          "evidence": [
+            {
+              "sourceId": "supp26-ketch",
+              "locator": "Species / Weequay",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-ketch",
+              "locator": "Species / Weequay",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Caption 4 / named pair and departure",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:cids-parlor",
+          "relation": "frequents",
+          "evidence": [
+            {
+              "sourceId": "supp26-ketch",
+              "locator": "Main profile / named parlor",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:bolo",
+          "relation": "friend",
+          "evidence": [
+            {
+              "sourceId": "supp26-ketch",
+              "locator": "Main profile / explicit friendship",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:bracca",
+      "newRecord": {
+        "category": "planets",
+        "slug": "bracca",
+        "title": "Bracca",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Bracca is a salvage world where the Scrapper Guild dismantles retired ships. Rex brings the Bad Batch to a wrecked cruiser there for access to its medical facilities.",
+        "evidence": [
+          {
+            "sourceId": "supp26-bracca",
+            "locator": "Main profile / salvage economy and medical facilities",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-battle-scars-gallery",
+            "locator": "Captions 8–23 / actual Bracca visit",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "World distinct from one cruiser wreck. Cal Kestis and Fallen Order history are not new Bad Batch appearances. No population, diameter or coordinates reviewed.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "industry",
+          "value": "Salvage of decommissioned starships",
+          "evidence": [
+            {
+              "sourceId": "supp26-bracca",
+              "locator": "Main profile / salvage economy and medical facilities",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-bracca",
+              "locator": "Main profile / salvage economy and medical facilities",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Captions 8–23 / actual Bracca visit",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:bora-vio",
+      "newRecord": {
+        "category": "planets",
+        "slug": "bora-vio",
+        "title": "Bora Vio",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Bora Vio is a fog-covered world in the Lido System. Its abandoned floating cloning facility becomes the setting for Omega’s escape from competing bounty hunters.",
+        "evidence": [
+          {
+            "sourceId": "supp26-bora-vio",
+            "locator": "Main profile / explicit named system",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-bounty-lost-gallery",
+            "locator": "Captions 7–23; trivia 3 / abandoned cloning facility",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "World and its facility are described together without inventing a second named site. Failed experiments are not certified living people or a completed species roster. Unrelated page-template labels are not archive facts.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "system",
+          "value": "Lido System",
+          "evidence": [
+            {
+              "sourceId": "supp26-bora-vio",
+              "locator": "Main profile / explicit named system",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-bora-vio",
+              "locator": "Main profile / explicit named system",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-bounty-lost-gallery",
+              "locator": "Captions 7–23; trivia 3 / abandoned cloning facility",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:raxus",
+      "newRecord": {
+        "category": "planets",
+        "slug": "raxus",
+        "title": "Raxus",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Raxus was the capital of the Confederacy of Independent Systems. Under Imperial occupation, the Bad Batch travel there to free Senator Avi Singh.",
+        "evidence": [
+          {
+            "sourceId": "supp26-raxus",
+            "locator": "Main profile / explicit capital role",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-common-ground-gallery",
+            "locator": "Captions 1–12 and trivia 2 / actual rescue setting",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Do not equate the world with Raxus Prime because of name inspiration in trivia 3. Earlier Dooku/Padmé/Ventress history is not a Common Ground scene. No new formal alias or global numerics reviewed.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "former_role",
+          "value": "Capital world of the Confederacy of Independent Systems",
+          "evidence": [
+            {
+              "sourceId": "supp26-raxus",
+              "locator": "Main profile / explicit capital role",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-raxus",
+              "locator": "Main profile / explicit capital role",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-common-ground-gallery",
+              "locator": "Captions 1–12 and trivia 2 / actual rescue setting",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-raxus",
+              "locator": "Appearances / selected named work; work-level only",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:droid-decommissioning-facility",
+      "newRecord": {
+        "category": "planets",
+        "slug": "droid-decommissioning-facility",
+        "title": "Droid decommissioning facility",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "This Corellia plant dismantles the former Separatist droid army. Conveyors carry parts toward molten disposal tanks while Imperial police droids guard the dockyards.",
+        "evidence": [
+          {
+            "sourceId": "supp26-droid-decommissioning-facility",
+            "locator": "Main profile / explicit facility and location",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-decommissioned-gallery",
+            "locator": "Captions 2–14 / actual factory mission",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "A site in the Worlds collection, not an astronomical planet or the Geonosis construction plant recalled by its design.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "location_type",
+          "value": "Droid disposal facility on Corellia",
+          "evidence": [
+            {
+              "sourceId": "supp26-droid-decommissioning-facility",
+              "locator": "Main profile / explicit facility and location",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-droid-decommissioning-facility",
+              "locator": "Main profile / explicit facility and location",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 2–14 / actual factory mission",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:22",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "supp26-droid-decommissioning-facility",
+              "locator": "Main profile and Locations / Corellia",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:silver-angel",
+      "newRecord": {
+        "category": "starships",
+        "slug": "silver-angel",
+        "title": "Silver Angel",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Silver Angel is Trace Martez’s modified Nebula-class freighter. She and Rafa use it as a base after the Empire rises, with R7-A7 serving aboard.",
+        "evidence": [
+          {
+            "sourceId": "supp26-silver-angel",
+            "locator": "Main profile / explicitly Nebula-class and speed modifications",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-decommissioned-gallery",
+            "locator": "Captions 14–17 / sisters’ ship and departure",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-r7-a7",
+            "locator": "Main profile / explicit service aboard the Silver Angel",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Named hull distinct from every Nebula-class vessel. No manufacturer, length, speed or capacity inferred. Ahsoka’s earlier association does not create a current appearance.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "class",
+          "value": "Modified Nebula-class freighter",
+          "evidence": [
+            {
+              "sourceId": "supp26-silver-angel",
+              "locator": "Main profile / explicitly Nebula-class and speed modifications",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-silver-angel",
+              "locator": "Main profile / explicitly Nebula-class and speed modifications",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 14–17 / sisters’ ship and departure",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-r7-a7",
+              "locator": "Main profile / explicit service aboard the Silver Angel",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-silver-angel",
+              "locator": "Appearances / selected named work; work-level only",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:justifier",
+      "newRecord": {
+        "category": "starships",
+        "slug": "justifier",
+        "title": "Justifier",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Justifier carries Cad Bane and Todo 360 between bounty assignments. Its prison hold contains Omega until she tricks Todo and escapes at Bora Vio.",
+        "evidence": [
+          {
+            "sourceId": "supp26-justifier",
+            "locator": "Main profile / named ship and captive hold",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-bounty-lost-gallery",
+            "locator": "Captions 1–9, 23 and trivia 1 / named actual craft",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Named ship distinct from Xanadu Blood and from an unrealized earlier Clone Wars story arc. No size, builder or crew capacity inferred; flight sabotage is not permanent destruction.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "function",
+          "value": "Bounty-hunting ship with a prison hold",
+          "evidence": [
+            {
+              "sourceId": "supp26-justifier",
+              "locator": "Main profile / named ship and captive hold",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-justifier",
+              "locator": "Main profile / named ship and captive hold",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-bounty-lost-gallery",
+              "locator": "Captions 1–9, 23 and trivia 1 / named actual craft",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:cad-bane",
+          "relation": "used_by",
+          "evidence": [
+            {
+              "sourceId": "supp26-justifier",
+              "locator": "Main profile / named hunter",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:todo-360",
+          "relation": "carries",
+          "evidence": [
+            {
+              "sourceId": "supp26-justifier",
+              "locator": "Main profile / named droid",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:bracca-venator-wreck",
+      "newRecord": {
+        "category": "starships",
+        "slug": "bracca-venator-wreck",
+        "title": "Bracca Venator wreck",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Rex leads the Bad Batch into a damaged Venator-class cruiser in Bracca’s ship graveyard. Its medical bay enables inhibitor-chip surgery; the squad later searches it for supplies and intelligence.",
+        "evidence": [
+          {
+            "sourceId": "supp26-battle-scars-gallery",
+            "locator": "Captions 9–10 / explicit Venator class and damaged condition",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-battle-scars-gallery",
+            "locator": "Captions 9–23 / wreck and medical bay",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Descriptive editorial title for the selected wreck, not a published hull name or a new functioning ship. Distinct from the legacy Republic attack cruiser type. Re-energizing machinery does not prove the whole vessel becomes flightworthy; no type dimensions copied.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "condition",
+          "value": "Rusted and severely damaged cruiser wreck on Bracca",
+          "evidence": [
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Captions 9–10 / explicit Venator class and damaged condition",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Captions 9–10 / explicit Venator class and damaged condition",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Captions 9–23 / wreck and medical bay",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:bracca",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Captions 8–10 / selected wreck in Bracca graveyard",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:dianoga",
+      "newRecord": {
+        "category": "species",
+        "slug": "dianoga",
+        "title": "Dianoga",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Dianoga are tentacled carnivores. A large creature on Bracca seizes Wrecker beneath a damaged cruiser before the squad frees him.",
+        "evidence": [
+          {
+            "sourceId": "supp26-dianoga",
+            "locator": "Main profile / tentacled animal and eyestalk",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-battle-scars-gallery",
+            "locator": "Captions and inspected released image 11–12; guide Databank / named creature",
+            "note": ""
+          },
+          {
+            "sourceId": "supp06-batch-s1e7",
+            "locator": "Databank / named Dianoga",
+            "note": "Identity corroboration with the actual released scene and own-profile Bracca location; not a Related work list alone."
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Species profile, not a named individual or an identity with the Death Star trash-compactor animal. The guide’s named creature, main-profile Bracca location and actual released scene are used together. No 10 m population mean or young-animal measurement assigned.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "anatomy",
+          "value": "Tentacles and an eyestalk",
+          "evidence": [
+            {
+              "sourceId": "supp26-dianoga",
+              "locator": "Main profile / tentacled animal and eyestalk",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-dianoga",
+              "locator": "Main profile / tentacled animal and eyestalk",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Captions and inspected released image 11–12; guide Databank / named creature",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e7",
+              "locator": "Databank / named Dianoga",
+              "note": "Identity corroboration with the actual released scene and own-profile Bracca location; not a Related work list alone."
+            }
+          ]
+        },
+        {
+          "targetId": "films:1",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp26-dianoga",
+              "locator": "Appearances / selected named work; work-level only",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vehicles:flight-pod",
+      "newRecord": {
+        "category": "vehicles",
+        "slug": "flight-pod",
+        "title": "Flight pod — Bora Vio type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Spherical flight pods served short trips around Bora Vio’s cloning facility. Omega uses one to escape, but Todo’s damage causes it to fail before the Bad Batch recover her.",
+        "evidence": [
+          {
+            "sourceId": "supp26-flight-pod",
+            "locator": "Main profile / spherical craft for short-distance travel",
+            "note": ""
+          },
+          {
+            "sourceId": "supp26-bounty-lost-gallery",
+            "locator": "Captions 18–21 / pod departure, damage and rescue",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 6–10; not a complete dossier.",
+      "limitations": [
+        "Local craft type, not a named ship or every escape pod. No hyperdrive, long-range capability, manufacturer or dimensional specification inferred.",
+        "Only the original short introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions, galleries and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "intended_use",
+          "value": "Short-distance transport around the Bora Vio facility",
+          "evidence": [
+            {
+              "sourceId": "supp26-flight-pod",
+              "locator": "Main profile / spherical craft for short-distance travel",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp26-flight-pod",
+              "locator": "Main profile / spherical craft for short-distance travel",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-bounty-lost-gallery",
+              "locator": "Captions 18–21 / pod departure, damage and rescue",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:bora-vio",
+          "relation": "used_on",
+          "evidence": [
+            {
+              "sourceId": "supp26-flight-pod",
+              "locator": "Main profile / Bora Vio facility",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "series:bad-batch",
+      "scope": "Registered Bad Batch episodes 6–10: selected additive appearance review against 88 records, 21 introductory one-fact identities, all 103 narrative and 25 trivia captions read plus individually cited stills. Existing episodes, dates, credits and evidence retained.",
+      "limitations": [
+        "Ten of 47 registered Bad Batch episodes now have scoped selected-record reviews; 37 remain. This batch considers 88 selected records, not all frames, background species, weapons, side characters or final credits.",
+        "R7-A7 naming conflict recorded without duplicate identity; unnamed contacts, historical mentions and design callbacks are not new bodily scenes. Generic tactical head is not certified as a Super Tactical Droid or a named individual.",
+        "Bracca’s selected wreck is distinct from a cruiser type or flightworthy hull; Raxus is not equated with Raxus Prime. Direct Taun We includes an earlier living meeting and later body, while Nala Se’s physical and mediated forms retain their locations.",
+        "No new date/end-credit research. Earlier open scene and credit tasks remain, including Cut and Run’s precise Rampart hologram evidence. Prior batch limitations below are historical scopes, not current overall counts.",
+        "Five of 47 registered Bad Batch episodes now have scoped selected-record reviews; 42 remain. Cohort is 64 selected records, not all frames, background species, weapons, side characters or final credits.",
+        "Current opening scenes, reports of off-screen events, reused holobroadcasts, stored images, disguised organic people and design/toy callbacks retain distinct scopes. An omitted connection is unestablished, not an absence claim.",
+        "Muchi is an adolescent rancor, not the captive Falleen child; no identity with the Return of the Jedi creature is inferred. Pantora, Ordo Moon and Orto Plutonia remain distinct, and sites remain separate from planets.",
+        "The chain-code Rampart holobroadcast requires a separately located mediated-scene addition; no direct Cut and Run Rampart visit is certified from the selected narrative still. The unchanged retrospective source remains registered. Full earlier Clone Wars contexts and additional background/vehicle identities remain separate follow-ups.",
+        "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "47 episodes across three seasons (16/16/15), including the extended premiere as one. Selected additional music contributors are now sourced; final episode-by-episode music credits, recording/editing personnel and assignments remain pending. Album roles apply only to the named cues.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ],
+      "facts": [],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "people:rafa-martez",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 6–17 / named sister",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:trace-martez",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 8–17 / named sister",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:imperial-police-droid",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 3, 8, 12–14 / actual guards",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-imperial-police-droid",
+              "locator": "Main profile / selected explicit identity",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:tactical-droid",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 2, 5–14 / actual detached head",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:b1-battle-droid",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Caption and inspected released image 13 / reactivated B1 battle droids; police-droid main profile corroborates disposal context",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-imperial-police-droid",
+              "locator": "Main profile / selected explicit identity",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:22",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 2–14 / Corellia mission",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:droid-decommissioning-facility",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 2–14 / actual disposal site",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:silver-angel",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "Captions 14–17 / called-in sisters’ ship and departure",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-silver-angel",
+              "locator": "Main profile / selected explicit identity",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:r7-a7",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-trivia",
+              "locator": "Trivia 5 and inspected released image / actual shipboard astromech",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-r7-a7",
+              "locator": "Main profile / explicit Martez service",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e6",
+              "locator": "Databank / named R7-A7",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:bolo",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Caption 4 / named patron",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ketch",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Caption 4 / named patron",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:bracca",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Captions 8–23 / actual graveyard visit",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:bracca-venator-wreck",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Captions 9–23 / damaged Venator and medical facility",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:dianoga",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "Captions and inspected released image 11–12 / actual tentacled creature",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-dianoga",
+              "locator": "Main profile and Locations / tentacled carnivore; Bracca",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e7",
+              "locator": "Databank / named Dianoga",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:cad-bane",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-reunion-gallery",
+              "locator": "Captions 19–23 / actual hunter and capture",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:todo-360",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-reunion-gallery",
+              "locator": "Caption 23 and trivia 3 / named actual companion",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-reunion-trivia",
+              "locator": "Trivia 3 / named Todo 360",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:73",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-bounty-lost-gallery",
+              "locator": "Caption and inspected released image 3; caption 10 / physical Taun We, then body",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:bora-vio",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-bounty-lost-gallery",
+              "locator": "Captions 7–23 and trivia 3 / actual abandoned facility world",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-bounty-lost-trivia",
+              "locator": "Trivia 3 / explicit Bora Vio",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:justifier",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-bounty-lost-gallery",
+              "locator": "Captions 1–9, 23 and trivia 1 / actual Bane ship",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-bounty-lost-trivia",
+              "locator": "Trivia 1 / explicitly named Justifier",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-justifier",
+              "locator": "Main profile / Bane and Todo aboard named ship",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "vehicles:flight-pod",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-bounty-lost-gallery",
+              "locator": "Captions 18–21 / actual escape pod and rescue",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-flight-pod",
+              "locator": "Main profile / short-distance Bora Vio craft",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:avi-singh",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-common-ground-gallery",
+              "locator": "Captions 1–2, 8–12 / arrest and rescue",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:gs-8",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-common-ground-gallery",
+              "locator": "Captions 1–2, 4, 6, 8 / actual protocol droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:captain-bragg",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-common-ground-gallery",
+              "locator": "Captions 1–2, 8, 10 / actual Imperial officer",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:raxus",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp26-common-ground-gallery",
+              "locator": "Captions 1–12 / actual occupation and rescue",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "episodeReviews": [
+        {
+          "episodeId": "series:bad-batch:s1e6",
+          "scope": "All 17 narrative and 5 trivia captions checked against 88 selected records, with individually cited released stills and selected own-profile identity evidence. Not a complete background, weapons, frame or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian",
+            "planets:22",
+            "starships:63",
+            "people:super-tactical-droid",
+            "people:rafa-martez",
+            "people:trace-martez",
+            "people:r7-a7",
+            "people:imperial-police-droid",
+            "people:tactical-droid",
+            "people:cad-bane",
+            "people:todo-360",
+            "people:avi-singh",
+            "people:gs-8",
+            "people:captain-bragg",
+            "people:bolo",
+            "people:ketch",
+            "planets:bracca",
+            "planets:bora-vio",
+            "planets:raxus",
+            "planets:droid-decommissioning-facility",
+            "starships:silver-angel",
+            "starships:justifier",
+            "starships:bracca-venator-wreck",
+            "species:dianoga",
+            "vehicles:flight-pod"
+          ],
+          "notes": [
+            "Rafa and Trace are physically present. Their unnamed final contact is not assigned Rex from the later report alone; no selected Rex scene row is certified here. Ahsoka is earlier history and an inset callback in trivia, not a current Decommissioned visitor.",
+            "R7-A7 is identified in trivia 5, its inspected released image, its own explicit postwar Ahsoka/Martez profile and the guide’s R7-A7 entry. Trivia transposes the designation to A7-R7. Keep one R7-A7 identity and record the spelling conflict rather than inventing a second unit.",
+            "The tactical droid is represented by a detached head that is reactivated, later destroyed after data are copied. No T-series subtype or identity with Super Tactical Droid/Kalani is certified here. Imperial police droids and B1 droids are separate types; initial scrap is not the same state as the reactivated droids in caption 13.",
+            "Corellia and its actual disposal facility are separate place levels. Geonosis and Solo/Attack of the Clones design references are not current visits. The Silver Angel is the actual sisters’ craft, identified by their own profiles with the escape narrative, not a generic ship Related card. No dimensions, credits or dates added."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp26-decommissioned-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-decommissioned-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e6",
+              "locator": "Registered official guide / episode identity and number retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 1–16 / briefing, mission and parting",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 4, 9–10, 12 / factory mission",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 3–5, 13, 16 / infiltration and data",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Caption 1, 5 / instruction and factory access",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 1, 7–14 / training and factory escape",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Caption 1 / actual briefing",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:rafa-martez",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 6–17 / named sister",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:trace-martez",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 8–17 / named sister",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:imperial-police-droid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 3, 8, 12–14 / actual guards",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-imperial-police-droid",
+                  "locator": "Main profile / selected explicit identity",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tactical-droid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Detached head, not a full walking individual.",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 2, 5–14 / actual detached head",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:b1-battle-droid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Caption and inspected released image 13 / reactivated B1 battle droids; police-droid main profile corroborates disposal context",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-imperial-police-droid",
+                  "locator": "Main profile / selected explicit identity",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:22",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 2–14 / Corellia mission",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:droid-decommissioning-facility",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 2–14 / actual disposal site",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:cids-parlor",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Caption 1 / actual parlor training and briefing",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:27",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Caption 1 / Cid’s parlor; own parlor profile locates it on Ord Mantell",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-cids-parlor",
+                  "locator": "Main profile / Cid’s parlor on Ord Mantell",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:silver-angel",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Captions 14–17 / called-in sisters’ ship and departure",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-silver-angel",
+                  "locator": "Main profile / selected explicit identity",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Caption 3 / squad arrival and landing",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:2",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-gallery",
+                  "locator": "Caption 13 and trivia 5 / actual droids",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:r7-a7",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "The trivia name is transposed; own profile and guide use R7-A7. Older inset is a callback.",
+              "evidence": [
+                {
+                  "sourceId": "supp26-decommissioned-trivia",
+                  "locator": "Trivia 5 and inspected released image / actual shipboard astromech",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-r7-a7",
+                  "locator": "Main profile / explicit Martez service",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp06-batch-s1e6",
+                  "locator": "Databank / named R7-A7",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e7",
+          "scope": "All 23 narrative and 6 trivia captions checked against 88 selected records, with individually cited released stills and selected own-profile identity evidence. Not a complete background, weapons, frame or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian",
+            "planets:22",
+            "starships:63",
+            "people:super-tactical-droid",
+            "people:rafa-martez",
+            "people:trace-martez",
+            "people:r7-a7",
+            "people:imperial-police-droid",
+            "people:tactical-droid",
+            "people:cad-bane",
+            "people:todo-360",
+            "people:avi-singh",
+            "people:gs-8",
+            "people:captain-bragg",
+            "people:bolo",
+            "people:ketch",
+            "planets:bracca",
+            "planets:bora-vio",
+            "planets:raxus",
+            "planets:droid-decommissioning-facility",
+            "starships:silver-angel",
+            "starships:justifier",
+            "starships:bracca-venator-wreck",
+            "species:dianoga",
+            "vehicles:flight-pod"
+          ],
+          "notes": [
+            "Rex physically visits Cid’s parlor and Bracca. The Empire’s killed-in-action record is false in this context; do not create a death fact. Trace and Rafa are named as the source of his information, not shown in new current scenes by these captions.",
+            "The medical destination is the actual rusted Venator wreck, not a new flightworthy cruiser. No legacy Republic attack cruiser dimensions or standard crew copied to the wreck. Clone Wars chip-removal and Fallen Order/Cal Kestis references are history and production context, not new appearances.",
+            "The creature’s Dianoga identity combines the guide’s named entry, own-profile Bracca location and tentacled released scene 11–12. It is not the Death Star individual. Rhokai pursuers, Scrapper Guild scouts and the delivered unnamed animal remain outside the named introductory cohort.",
+            "Wrecker’s activation, attack, surgery and recovery are current events; no death or permanent personality change is inferred. Omega says she lacks a chip; that is not a universal rule for every clone or an inferred biological birth date. Final credits and dates unchanged."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp26-battle-scars-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-battle-scars-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e7",
+              "locator": "Registered official guide / episode identity and number retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 2, 5–23 / leader and medical mission",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 3, 7–21 / actual surgery and recovery",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 6–8, 14, 20 / actual squad member",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 8–20 / team medical mission",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 3, 8, 13, 16–21 / actual friend and witness",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:captain-rex",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 4–22 / actual visitor and guide",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 2, 4–7 / actual employer and parlor",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:bolo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Caption 4 / named patron",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:ketch",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Caption 4 / named patron",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:27",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 2–7 / actual Ord Mantell stop",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:cids-parlor",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 4–7 / actual parlor meeting",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:bracca",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 8–23 / actual graveyard visit",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:bracca-venator-wreck",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "Existing damaged wreck; not a new intact cruiser.",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 9–23 / damaged Venator and medical facility",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions 1, 8 / actual squad shuttle",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:dianoga",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-battle-scars-gallery",
+                  "locator": "Captions and inspected released image 11–12 / actual tentacled creature",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-dianoga",
+                  "locator": "Main profile and Locations / tentacled carnivore; Bracca",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp06-batch-s1e7",
+                  "locator": "Databank / named Dianoga",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e8",
+          "scope": "All 24 narrative and 5 trivia captions checked against 88 selected records, with individually cited released stills and selected own-profile identity evidence. Not a complete background, weapons, frame or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian",
+            "planets:22",
+            "starships:63",
+            "people:super-tactical-droid",
+            "people:rafa-martez",
+            "people:trace-martez",
+            "people:r7-a7",
+            "people:imperial-police-droid",
+            "people:tactical-droid",
+            "people:cad-bane",
+            "people:todo-360",
+            "people:avi-singh",
+            "people:gs-8",
+            "people:captain-bragg",
+            "people:bolo",
+            "people:ketch",
+            "planets:bracca",
+            "planets:bora-vio",
+            "planets:raxus",
+            "planets:droid-decommissioning-facility",
+            "starships:silver-angel",
+            "starships:justifier",
+            "starships:bracca-venator-wreck",
+            "species:dianoga",
+            "vehicles:flight-pod"
+          ],
+          "notes": [
+            "Crosshair reports to Rampart through a projected image in inspected released still 1. Rampart is transmission, not a physical Bracca visit. Crosshair himself is physically present later; Lama Su and Nala Se have a separate physical conversation in caption 7.",
+            "Rex and Cid are discussed as alternatives or recipients, not established current visitors in these selected sources. Luke’s torpedo history, Todo’s earlier destruction/rebuild and Western influences are callbacks, not new bodily scenes.",
+            "The damaged Bracca Venator is the same selected wreck used for the prior medical mission, not a new named hull or a restored spaceworthy vessel. Its powered engines and weapons are actual machinery, not proof of flight. Unclassified Imperial shuttles and troopers are not forced into earlier exact models or the entire named Elite Squad roster.",
+            "Cad Bane captures Omega after shooting Hunter, who explicitly wakes later; a shot and unconsciousness are not a verified Hunter death. Todo 360 is named by trivia 3 alongside the actual companion in caption 23, not inferred from a generic droid card. No credits or dates added."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp26-reunion-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-reunion-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e8",
+              "locator": "Registered official guide / episode identity and number retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Captions 4–24 / actual confrontation and recovery",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Captions 2–5, 18 / actual demolition",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Captions 4–6, 10, 12, 16–18 / actual escape plan",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Captions 2–3, 12, 17 / actual squad member",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Captions 2, 5–6, 13, 19–23 / actual captive",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:crosshair",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Caption and inspected released image 1; captions 8–18, 23 / report and actual pursuit",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:72",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Captions 1, 7 / conversation with Nala Se",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:nala-se",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Caption 7 / physical conversation",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cad-bane",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Captions 19–23 / actual hunter and capture",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:todo-360",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Caption 23 and trivia 3 / named actual companion",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-reunion-trivia",
+                  "locator": "Trivia 3 / named Todo 360",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:bracca",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Captions 2–24 / actual salvage world",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:bracca-venator-wreck",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Captions 4–18 / same damaged cruiser and escape",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Captions 9, 19–24 / actual blocked shuttle and escape",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:2",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Caption 23 and trivia 3 / actual Todo 360",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-reunion-trivia",
+                  "locator": "Trivia 3 / named Todo 360",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:32",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Caption 7 / actual Lama Su and Nala Se",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-nala-se",
+                  "locator": "Species / Kaminoan",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:rampart",
+              "relation": "appearance",
+              "representation": "transmission",
+              "note": "Actual holographic transmission, not physical presence on Bracca.",
+              "evidence": [
+                {
+                  "sourceId": "supp26-reunion-gallery",
+                  "locator": "Caption and inspected released image 1 / projected Rampart",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e9",
+          "scope": "All 25 narrative and 4 trivia captions checked against 88 selected records, with individually cited released stills and selected own-profile identity evidence. Not a complete background, weapons, frame or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian",
+            "planets:22",
+            "starships:63",
+            "people:super-tactical-droid",
+            "people:rafa-martez",
+            "people:trace-martez",
+            "people:r7-a7",
+            "people:imperial-police-droid",
+            "people:tactical-droid",
+            "people:cad-bane",
+            "people:todo-360",
+            "people:avi-singh",
+            "people:gs-8",
+            "people:captain-bragg",
+            "people:bolo",
+            "people:ketch",
+            "planets:bracca",
+            "planets:bora-vio",
+            "planets:raxus",
+            "planets:droid-decommissioning-facility",
+            "starships:silver-angel",
+            "starships:justifier",
+            "starships:bracca-venator-wreck",
+            "species:dianoga",
+            "vehicles:flight-pod"
+          ],
+          "notes": [
+            "Cad Bane, Todo, Omega and Fennec are physically present on Bora Vio. Taun We is alive in the physical meeting in inspected released still 3 and later a motionless body in caption 10; direct does not mean alive in every scene. The selected caption does not itself independently name her killer, so no new killer fact is inferred.",
+            "Lama Su, Nala Se and Taun We physically meet in inspected released still 3. Nala Se also speaks remotely to Fennec in caption 24; one direct row records both forms. No automatic physical Nala Se visit to Bora Vio. Kamino is discussed as the destination and its location needs separately located setting evidence rather than a Related card.",
+            "Boba and Jango are named in Tech’s genetic explanation, not shown as current living visitors. Unaltered-clone language is retained in its source context and does not certify all genetics, universal ageing or a birth date. Unfinished tank bodies are not a completed living Kaminoan population or named clone roster.",
+            "The official Declassified introduction explicitly continues the squad’s escape from Crosshair and the Empire; it supplies the selected Crosshair row beyond the narrative gallery’s Omega-centered opening. No Cid/parlor/Ord Mantell scene is inferred from the guide’s Related cards.",
+            "Justifier is explicitly named in trivia 1 and its own profile; the ship is not Xanadu Blood. An unrealized older Bane/Boba story arc is not a released episode. Flight pods are short-distance Bora Vio craft, not certified hyperspace escape ships. Fennec’s unnamed craft remains unnamed; damage/sabotage is not total permanent destruction."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp26-bounty-lost-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-bounty-lost-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e9",
+              "locator": "Registered official guide / episode identity and number retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 5, 22, 25 / rescue and reassurance",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 5, 21 / squad member and recovery",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 5, 8 / analysis and communication",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Caption 5 / actual squad member",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 1–25 / capture, escape and reunion",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cad-bane",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 1–23 / actual hunter",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:todo-360",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 4–23 / actual droid",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:fennec-shand",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Physical fight followed by a cockpit call in 24.",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 10–24 / physical pursuit then remote call",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:72",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Caption and inspected released image 3 / physical prime minister",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:73",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Alive in meeting 3; later motionless body in 10. Direct is physical representation, not a claim of continued life.",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Caption and inspected released image 3; caption 10 / physical Taun We, then body",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:nala-se",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Physical meeting in 3 and mediated call in 24. No physical Bora Vio visit inferred.",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Caption and inspected released image 3; caption 24 / physical meeting then remote call",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:bora-vio",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 7–23 and trivia 3 / actual abandoned facility world",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-bounty-lost-trivia",
+                  "locator": "Trivia 3 / explicit Bora Vio",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:justifier",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 1–9, 23 and trivia 1 / actual Bane ship",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-bounty-lost-trivia",
+                  "locator": "Trivia 1 / explicitly named Justifier",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-justifier",
+                  "locator": "Main profile / Bane and Todo aboard named ship",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 5, 20–22, 25 / actual rescue ship",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "vehicles:flight-pod",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 18–21 / actual escape pod and rescue",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-flight-pod",
+                  "locator": "Main profile / short-distance Bora Vio craft",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:2",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Captions 4–23 / Todo 360",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:32",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-gallery",
+                  "locator": "Caption and inspected released image 3 / named living Kaminoans",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-nala-se",
+                  "locator": "Species / Kaminoan",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:crosshair",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Opening continuation of the Bracca escape; not inferred from a Related card.",
+              "evidence": [
+                {
+                  "sourceId": "supp26-bounty-lost-declassified",
+                  "locator": "Introduction / explicitly continues escape from Crosshair and the Empire",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e10",
+          "scope": "All 14 narrative and 5 trivia captions checked against 88 selected records, with individually cited released stills and selected own-profile identity evidence. Not a complete background, weapons, frame or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian",
+            "planets:22",
+            "starships:63",
+            "people:super-tactical-droid",
+            "people:rafa-martez",
+            "people:trace-martez",
+            "people:r7-a7",
+            "people:imperial-police-droid",
+            "people:tactical-droid",
+            "people:cad-bane",
+            "people:todo-360",
+            "people:avi-singh",
+            "people:gs-8",
+            "people:captain-bragg",
+            "people:bolo",
+            "people:ketch",
+            "planets:bracca",
+            "planets:bora-vio",
+            "planets:raxus",
+            "planets:droid-decommissioning-facility",
+            "starships:silver-angel",
+            "starships:justifier",
+            "starships:bracca-venator-wreck",
+            "species:dianoga",
+            "vehicles:flight-pod"
+          ],
+          "notes": [
+            "Raxus is the actual rescue world, distinct from Raxus Prime used as name inspiration. GS-8 is a named protocol droid, not automatically an original A New Hope RA-7 individual. Leia’s interrogation comparison is not a new Leia visit.",
+            "Omega stays on Ord Mantell with Cid while the four clones travel to Raxus. One episode-level setting row does not mean every participant visits every listed world. No Omega physical Raxus row, no current Crosshair scene from Related cards and no Jabba/Tatooine visit from a broader employer association.",
+            "AT-TE walkers are explicitly named in caption 2 and one is commandeered in 9–10. This establishes the model in the scene without certifying its legacy numeric technical fields or equating it with the Bracca cruiser wreck.",
+            "Bragg is stunned and then awakens; no death is inferred. Dejarik pieces are projections rather than living creatures. The two patrons in caption 7 are not independently named there, so no automatic new Bolo/Ketch appearance certified in this selected batch. Gonky and other unnamed droids/background inhabitants remain outside the selected identified scene rows. Full credits and dates unchanged."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp26-common-ground-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp26-common-ground-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e10",
+              "locator": "Registered official guide / episode identity and number retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 3–14 / mission and final game",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 4–12 / actual rescue team",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 6, 10 / actual infiltration and repair",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 4–12 / actual rescue team and reassurance",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 3–4, 7, 13–14 / Ord Mantell games",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 3–4, 7, 13 / actual employer and games",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:avi-singh",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 1–2, 8–12 / arrest and rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:gs-8",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 1–2, 4, 6, 8 / actual protocol droid",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:captain-bragg",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 1–2, 8, 10 / actual Imperial officer",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:raxus",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 1–12 / actual occupation and rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:27",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 3–4, 7, 13–14 / actual Ord Mantell strand",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:cids-parlor",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 3–4, 7, 13–14 / actual parlor",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Caption 12 / actual escape shuttle",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "vehicles:53",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 2, 9–10 / named AT-TE walkers and commandeering",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:2",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp26-common-ground-gallery",
+                  "locator": "Captions 1–2, 4, 6, 8 / named GS-8",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp26-gs-8",
+                  "locator": "Main profile / explicitly protocol droid",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
