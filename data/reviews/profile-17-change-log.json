@@ -1,0 +1,1718 @@
+{
+  "batch": "PROFILE-17",
+  "checkedAt": "2026-11-04",
+  "changes": [
+    {
+      "sourceId": "profile08-ric-olie",
+      "field": "source_description",
+      "before": {
+        "note": "Named Royal Starship pilot and Bravo Flight leader. Piloting a named vessel is not proof of the vessel’s full crew requirement, nor does this review assess Ric’s legacy character statistics."
+      },
+      "after": {
+        "note": "Named Royal Starship pilot and Bravo Flight leader. Piloting a named vessel is not proof of the vessel’s full crew requirement, nor does this review assess Ric’s legacy character statistics. PROFILE-17, 4 November 2026: the same public main profile and explicit metadata reread for Ric’s own 1.83 m nominal height, Bravo Flight leadership, direct reporting to Panaka and selected named craft/work. Other six inherited fields remain unestablished; no complete personal origin, species, credit or technical-model review. Original source identity, checked date and earlier scope retained."
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "profile",
+      "before": {
+        "id": "people:36",
+        "category": "people",
+        "legacy_id": "36",
+        "slug": "jar-jar-binks",
+        "title": "Jar Jar Binks",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Jar Jar is a Gungan from Naboo who helps bring his people and Queen Amidala together against the Trade Federation. He later represents the Gungans in Republic politics and proposes granting emergency powers to Chancellor Palpatine.",
+        "era": "Lucas + Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "height",
+      "before": {
+        "record_id": "people:36",
+        "key": "height",
+        "value": "196",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "196",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Dimensions / Height 1.96 m converted to 196 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:36",
+        "key": "skin_color",
+        "value": "orange",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "Orange-hued face — design commentary",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-gungans",
+            "locator": "Item 3 / settled facial design explicitly described as orange-hued",
+            "note": "Qualified facial design description; no universal full-body palette inferred."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Gungan",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Main profile and Species / Gungan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "political_role",
+      "before": null,
+      "after": {
+        "value": "Gungan representative in the Galactic Senate",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Main profile and direct political history / represents his people",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "emergency_motion",
+      "before": null,
+      "after": {
+        "value": "Proposes granting Chancellor Palpatine emergency powers",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Direct Senate history / explicit motion",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "home_city",
+      "before": null,
+      "after": {
+        "value": "Otoh Gunga",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "First direct history / explicitly his home city",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "temporary_disguise",
+      "before": null,
+      "after": {
+        "value": "Impersonates Boss Lyonie in Shadow Warrior",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-shadow-warrior",
+            "locator": "Synopsis and analysis / injured Lyonie and Jar Jar disguise",
+            "note": "Temporary impersonation, not the same identity or a permanent succession."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "later_context",
+      "before": null,
+      "after": {
+        "value": "Post-Endor performer in Theed — 2018 official article account",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-gungans",
+            "locator": "Jar Jar later-life paragraph / after Endor and Theed fountain performance",
+            "note": "Later narrative context, not a new screen appearance or death."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "mass",
+      "before": {
+        "record_id": "people:36",
+        "key": "mass",
+        "value": "66",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual mass established in the selected references; actor measurements, species averages and costume weight do not verify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:36",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, screen image or species trait is not proof of the inherited value."
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:36",
+        "key": "eye_color",
+        "value": "orange",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour statement established. Images, actors and species traits do not verify this individual field."
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:36",
+        "key": "birth_year",
+        "value": "52BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established; historical era, appearance, office or family context does not verify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "gender",
+      "before": {
+        "record_id": "people:36",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in the selected references; pronouns, actor identity and titles alone are not used to certify this field."
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": {
+        "record_id": "people:36",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Appearances / The Phantom Menace",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": {
+        "record_id": "people:36",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Appearances / Attack of the Clones",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": ""
+          },
+          {
+            "sourceId": "profile17-shadow-warrior",
+            "locator": "Synopsis/analysis / selected Shadow Warrior context",
+            "note": "No new episode register row or exhaustive series appearance review."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": {
+        "record_id": "people:36",
+        "target_id": "species:12",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:12",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Species / Gungan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": {
+        "record_id": "people:36",
+        "target_id": "planets:8",
+        "relation": "homeworld",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "planets:8",
+        "relation": "homeworld",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Selected indexed biography / final funeral paragraph explicitly calls Naboo their shared homeworld",
+            "note": "Personal homeworld wording; no exact birthplace or date inferred."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:9",
+        "relation": "worked_on",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Main profile / Republic representation on Coruscant",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:32",
+        "relation": "travelled_with",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "First direct history / travels with Qui-Gon",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:10",
+        "relation": "travelled_with",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "First direct history / travels with Obi-Wan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:35",
+        "relation": "represented",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Direct political history / serves in Padmé’s absence",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:21",
+        "relation": "proposed_powers_for",
+        "evidence": [
+          {
+            "sourceId": "profile17-jar-jar",
+            "locator": "Direct Senate history / Palpatine motion",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:36",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:38",
+        "relation": "negotiated_alliance_with",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "Direct alliance history / Jar Jar brings the queen to the Gungans",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "profile",
+      "before": {
+        "id": "people:37",
+        "category": "people",
+        "legacy_id": "37",
+        "slug": "roos-tarpals",
+        "title": "Roos Tarpals",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Tarpals serves as Otoh Gunga’s patrol chief and fights the Trade Federation alongside Jar Jar. Promoted to general during the Clone Wars, he sacrifices his life so Gungan troops can capture General Grievous.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "height",
+      "before": {
+        "record_id": "people:37",
+        "key": "height",
+        "value": "224",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "224",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-tarpals",
+            "locator": "Dimensions / Height 2.24 m converted to 224 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "official_name",
+      "before": null,
+      "after": {
+        "value": "General Tarpals",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-tarpals",
+            "locator": "Official current heading",
+            "note": "Inherited Roos name and slug retained without claiming that full form is confirmed."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "early_role",
+      "before": null,
+      "after": {
+        "value": "Patrol chief of Otoh Gunga",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-tarpals",
+            "locator": "Main profile / explicit patrol-chief role",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "later_rank",
+      "before": null,
+      "after": {
+        "value": "General and leader of the Gungan Grand Army during the Clone Wars",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-tarpals",
+            "locator": "Main profile / explicitly promoted by the Clone Wars",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Gungan",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-tarpals",
+            "locator": "Species / Gungan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "fate",
+      "before": null,
+      "after": {
+        "value": "Sacrifices his life so Gungan troops can capture Grievous in Shadow Warrior",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-shadow-warrior",
+            "locator": "Analysis / ultimate sacrifice enables Grievous’s capture",
+            "note": "Distinct from the separate Rish Loo/Dooku death; no exact death date inferred."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "mass",
+      "before": {
+        "record_id": "people:37",
+        "key": "mass",
+        "value": "82",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual mass established in the selected references; actor measurements, species averages and costume weight do not verify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:37",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, screen image or species trait is not proof of the inherited value."
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:37",
+        "key": "skin_color",
+        "value": "grey",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal skin-colour statement established. Lighting, images and descriptions of the species or subgroup do not certify the individual field."
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:37",
+        "key": "eye_color",
+        "value": "orange",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour statement established. Images, actors and species traits do not verify this individual field."
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:37",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established; historical era, appearance, office or family context does not verify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "gender",
+      "before": {
+        "record_id": "people:37",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in the selected references; pronouns, actor identity and titles alone are not used to certify this field."
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "link",
+      "before": {
+        "record_id": "people:37",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile17-tarpals",
+            "locator": "Appearances / The Phantom Menace",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile17-tarpals",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": ""
+          },
+          {
+            "sourceId": "profile17-shadow-warrior",
+            "locator": "Analysis / selected Shadow Warrior sacrifice",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "link",
+      "before": {
+        "record_id": "people:37",
+        "target_id": "species:12",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:12",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile17-tarpals",
+            "locator": "Species / Gungan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:8",
+        "relation": "worked_on",
+        "evidence": [
+          {
+            "sourceId": "profile17-tarpals",
+            "locator": "Main profile / Otoh Gunga and Battle of Naboo",
+            "note": "Duty and action setting, not independently a personal homeworld."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:36",
+        "relation": "served_under",
+        "evidence": [
+          {
+            "sourceId": "profile17-tarpals",
+            "locator": "Main profile / served under Jar Jar during the invasion",
+            "note": "Earlier command relationship, not the later general ranks."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:37",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:79",
+        "relation": "opposed",
+        "evidence": [
+          {
+            "sourceId": "profile17-shadow-warrior",
+            "locator": "Analysis / sacrifice while Gungans capture Grievous",
+            "note": "Capture is not Grievous’s death; no exact killer fact added here."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "profile",
+      "before": {
+        "id": "people:38",
+        "category": "people",
+        "legacy_id": "38",
+        "slug": "rugor-nass",
+        "title": "Rugor Nass",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Boss Nass leads the Gungans of Otoh Gunga. Initially refusing to help the Naboo, he later accepts Queen Amidala’s appeal and commits the Gungan army to fight the Trade Federation.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "height",
+      "before": {
+        "record_id": "people:38",
+        "key": "height",
+        "value": "206",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "206",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "Dimensions / Height 2.06 m converted to 206 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "official_name",
+      "before": null,
+      "after": {
+        "value": "Boss Nass",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "Official current heading",
+            "note": "Does not certify Rugor or rewrite the preserved title/slug."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "role",
+      "before": null,
+      "after": {
+        "value": "Leader of the Gungans of Otoh Gunga",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "Main profile / decrees on behalf of Otoh Gunga Gungans",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "gungan_group",
+      "before": null,
+      "after": {
+        "value": "Ankura — 2018 official article terminology",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-gungans",
+            "locator": "Item 1 / explicitly Gungans like Boss Nass are Ankura",
+            "note": "Scoped group label; no formal taxonomy, shared measurements or separate species identity inferred."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "alliance",
+      "before": null,
+      "after": {
+        "value": "Commits the Gungan Grand Army after Queen Amidala’s appeal",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "Main profile and direct alliance history / request accepted",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "mass",
+      "before": {
+        "record_id": "people:38",
+        "key": "mass",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual mass established in the selected references; actor measurements, species averages and costume weight do not verify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:38",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, screen image or species trait is not proof of the inherited value."
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:38",
+        "key": "skin_color",
+        "value": "green",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal skin-colour statement established. Lighting, images and descriptions of the species or subgroup do not certify the individual field."
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:38",
+        "key": "eye_color",
+        "value": "orange",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour statement established. Images, actors and species traits do not verify this individual field."
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:38",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established; historical era, appearance, office or family context does not verify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "gender",
+      "before": {
+        "record_id": "people:38",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in the selected references; pronouns, actor identity and titles alone are not used to certify this field."
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "link",
+      "before": {
+        "record_id": "people:38",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "Appearances / The Phantom Menace",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "Appearances / Revenge of the Sith",
+            "note": "Named work-level evidence, not every cut or a full scene inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "link",
+      "before": {
+        "record_id": "people:38",
+        "target_id": "species:12",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:12",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "Species / Gungan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:8",
+        "relation": "worked_on",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "Main and direct history / Otoh Gunga leadership on Naboo",
+            "note": "Leadership setting, not independently personal homeworld."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:35",
+        "relation": "allied_with",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "Direct alliance history / accepts Amidala’s request",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:36",
+        "relation": "received_envoy",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "First direct history / Jar Jar brings the Jedi",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:32",
+        "relation": "met",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "First direct history / Qui-Gon appeals for help",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:38",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:10",
+        "relation": "met",
+        "evidence": [
+          {
+            "sourceId": "profile17-nass",
+            "locator": "First direct history / Obi-Wan appeals for help",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "profile",
+      "before": {
+        "id": "people:39",
+        "category": "people",
+        "legacy_id": "39",
+        "slug": "ric-olie",
+        "title": "Ric Olié",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Ric Olié leads Bravo Flight in Naboo’s Space Fighter Corps and pilots Queen Amidala’s Royal Starship. Reporting to Captain Panaka, he leads N-1 fighters in the Battle of Naboo, where Anakin helps destroy the Droid Control Ship.",
+        "era": "Lucas",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "height",
+      "before": {
+        "record_id": "people:39",
+        "key": "height",
+        "value": "183",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "183",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile08-ric-olie",
+            "locator": "Dimensions / Height 1.83 m converted to 183 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "official_name",
+      "before": null,
+      "after": {
+        "value": "Ric Olie",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile08-ric-olie",
+            "locator": "Official heading and main text",
+            "note": "Source spelling; preserved Ric Olié title and slug unchanged."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "role",
+      "before": null,
+      "after": {
+        "value": "Leader of Bravo Flight in the Naboo Space Fighter Corps",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile08-ric-olie",
+            "locator": "Main profile / explicit unit and leadership",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "command_relationship",
+      "before": null,
+      "after": {
+        "value": "Reports directly to Captain Panaka",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile08-ric-olie",
+            "locator": "Main profile / explicitly answerable to Panaka",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "mass",
+      "before": {
+        "record_id": "people:39",
+        "key": "mass",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual mass established in the selected references; actor measurements, species averages and costume weight do not verify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:39",
+        "key": "hair_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, screen image or species trait is not proof of the inherited value."
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:39",
+        "key": "skin_color",
+        "value": "fair",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal skin-colour statement established. Lighting, images and descriptions of the species or subgroup do not certify the individual field."
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:39",
+        "key": "eye_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour statement established. Images, actors and species traits do not verify this individual field."
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:39",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established; historical era, appearance, office or family context does not verify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "gender",
+      "before": {
+        "record_id": "people:39",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in the selected references; pronouns, actor identity and titles alone are not used to certify this field."
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "link",
+      "before": {
+        "record_id": "people:39",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile08-ric-olie",
+            "locator": "Appearances / The Phantom Menace",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "link",
+      "before": {
+        "record_id": "people:39",
+        "target_id": "starships:40",
+        "relation": "starships",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "starships:40",
+        "relation": "starships",
+        "evidence": [
+          {
+            "sourceId": "profile08-ric-olie",
+            "locator": "Main profile and Vehicles / pilots Amidala’s Royal Starship",
+            "note": "Named piloting context, not its complete standard crew requirement."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "starships:39",
+        "relation": "led_squadron_of",
+        "evidence": [
+          {
+            "sourceId": "profile08-ric-olie",
+            "locator": "Main profile / leads squadron of N-1 starfighters",
+            "note": "Type-level squadron use, not ownership or piloting every hull."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:42",
+        "relation": "reports_to",
+        "evidence": [
+          {
+            "sourceId": "profile08-ric-olie",
+            "locator": "Main profile / explicitly answerable directly to Captain Panaka",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:11",
+        "relation": "assisted_by",
+        "evidence": [
+          {
+            "sourceId": "profile08-ric-olie",
+            "locator": "Main profile / Anakin helps destroy the control ship",
+            "note": "Battle assistance, not Anakin’s commanding role."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:39",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:8",
+        "relation": "worked_on",
+        "evidence": [
+          {
+            "sourceId": "profile08-ric-olie",
+            "locator": "Main profile / Naboo Space Fighter Corps and battle",
+            "note": "Military service, not independently personal origin."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "profile",
+      "before": {
+        "id": "people:42",
+        "category": "people",
+        "legacy_id": "42",
+        "slug": "quarsh-panaka",
+        "title": "Quarsh Panaka",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Panaka commands Queen Amidala’s guards and protects her during the Trade Federation invasion of Naboo. His later Imperial moff role belongs to the novel context discussed by author Claudia Gray, rather than his rank in The Phantom Menace.",
+        "era": "Lucas + Disney",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "height",
+      "before": {
+        "record_id": "people:42",
+        "key": "height",
+        "value": "183",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "183",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-panaka",
+            "locator": "Dimensions / Height 1.83 m converted to 183 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "official_name",
+      "before": null,
+      "after": {
+        "value": "Quarsh Panaka",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-panaka-novel",
+            "locator": "Item 7 / explicit full name for Amidala’s former security chief",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "role",
+      "before": null,
+      "after": {
+        "value": "Commander of Amidala’s Royal Palace Guards and Theed Security Troopers",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-panaka",
+            "locator": "Main profile / explicit guard and troop command",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "later_role",
+      "before": null,
+      "after": {
+        "value": "Imperial moff — Leia, Princess of Alderaan novel context",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile17-panaka-novel",
+            "locator": "Item 7 / Claudia Gray explains bringing the Imperial moff role into canon",
+            "note": "Qualified novel context, not the entire Legends biography or a new screen appearance."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "mass",
+      "before": {
+        "record_id": "people:42",
+        "key": "mass",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual mass established in the selected references; actor measurements, species averages and costume weight do not verify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:42",
+        "key": "hair_color",
+        "value": "black",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal hair-colour statement established. A bare head, screen image or species trait is not proof of the inherited value."
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:42",
+        "key": "skin_color",
+        "value": "dark",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit scoped personal skin-colour statement established. Lighting, images and descriptions of the species or subgroup do not certify the individual field."
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:42",
+        "key": "eye_color",
+        "value": "brown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal eye-colour statement established. Images, actors and species traits do not verify this individual field."
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:42",
+        "key": "birth_year",
+        "value": "62BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established; historical era, appearance, office or family context does not verify the inherited value."
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "gender",
+      "before": {
+        "record_id": "people:42",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in the selected references; pronouns, actor identity and titles alone are not used to certify this field."
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "link",
+      "before": {
+        "record_id": "people:42",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile17-panaka",
+            "locator": "Appearances / The Phantom Menace",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:35",
+        "relation": "protected",
+        "evidence": [
+          {
+            "sourceId": "profile17-panaka",
+            "locator": "Main profile / protects Queen Amidala",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:42",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:8",
+        "relation": "worked_on",
+        "evidence": [
+          {
+            "sourceId": "profile17-panaka",
+            "locator": "Main profile / Theed palace/security command on Naboo",
+            "note": "Assignment and action setting, not independently personal homeworld."
+          }
+        ]
+      }
+    }
+  ]
+}

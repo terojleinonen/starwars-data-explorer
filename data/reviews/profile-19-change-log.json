@@ -1,0 +1,1592 @@
+{
+  "batch": "PROFILE-19",
+  "checkedAt": "2026-11-04",
+  "changes": [
+    {
+      "recordId": "people:33",
+      "field": "profile",
+      "before": {
+        "id": "people:33",
+        "category": "people",
+        "legacy_id": "33",
+        "slug": "nute-gunray",
+        "title": "Nute Gunray",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Gunray leads the Trade Federation and collaborates with Sidious in the invasion of Naboo. He survives prosecution and continues supporting the Separatists, before the leadership is eliminated on Mustafar.",
+        "era": "Fall of the Jedi",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "height",
+      "before": {
+        "record_id": "people:33",
+        "key": "height",
+        "value": "191",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "191",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Dimensions / Height 1.91m converted to 191 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Neimoidian",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Species / explicit Neimoidian",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "political_role",
+      "before": null,
+      "after": {
+        "value": "Viceroy of the Trade Federation",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Main profile / explicit office",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "naboo_operation",
+      "before": null,
+      "after": {
+        "value": "Blockade and invasion in collaboration with Darth Sidious",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Main profile / explicitly blockade and invasion",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "mass",
+      "before": {
+        "record_id": "people:33",
+        "key": "mass",
+        "value": "90",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No individual mass established; actor or costume measurements and species averages do not certify the raw value."
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:33",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal hair-colour fact established; a bare head or species design does not certify none."
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:33",
+        "key": "skin_color",
+        "value": "mottled green",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual skin-colour statement established; images, lighting and general species appearance do not certify this value."
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:33",
+        "key": "eye_color",
+        "value": "red",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual eye-colour statement established; images and species traits alone do not certify this value."
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:33",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established; office, era and relative event chronology do not establish this value."
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "gender",
+      "before": {
+        "record_id": "people:33",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected sources; pronouns or role titles alone are not used."
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "link",
+      "before": {
+        "record_id": "people:33",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Appearances / explicitly named prequel 4",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "link",
+      "before": {
+        "record_id": "people:33",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Appearances / explicitly named prequel 5",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "link",
+      "before": {
+        "record_id": "people:33",
+        "target_id": "films:6",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Appearances / explicitly named prequel 6",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": "Work-level association, not every episode, the 2008 feature or a new episode inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "link",
+      "before": {
+        "record_id": "people:33",
+        "target_id": "species:11",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:11",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Species / Neimoidian",
+            "note": "Existing inherited species record uses the misspelling Neimodian; identity retained without a taxonomy-wide rename."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:8",
+        "relation": "invaded",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Main profile / explicit Naboo operation",
+            "note": "Military operation, not personal origin."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:21",
+        "relation": "conspired_with",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Main profile / explicit Darth Sidious alliance",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:33",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:35",
+        "relation": "targeted",
+        "evidence": [
+          {
+            "sourceId": "profile19-gunray",
+            "locator": "Direct history / repeated assassination attempts against Amidala",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "profile",
+      "before": {
+        "id": "people:34",
+        "category": "people",
+        "legacy_id": "34",
+        "slug": "finis-valorum",
+        "title": "Finis Valorum",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Valorum seeks Jedi help during the Naboo blockade but loses the Senate’s confidence and his office to Palpatine. Earlier, he assigns Sifo-Dyas and his aide Silman to negotiate with the Pykes.",
+        "era": "Fall of the Jedi",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "height",
+      "before": {
+        "record_id": "people:34",
+        "key": "height",
+        "value": "170",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "183",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-valorum",
+            "locator": "Dimensions / Height 1.83m converted to 183 cm",
+            "note": "Replaces inherited 170 cm using the character profile, not an actor measurement."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "political_role",
+      "before": null,
+      "after": {
+        "value": "Supreme Chancellor of the Galactic Republic",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-valorum",
+            "locator": "Heading and main profile / explicit chancellorship",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "succession",
+      "before": null,
+      "after": {
+        "value": "Removed after a no-confidence vote; succeeded by Palpatine",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-valorum",
+            "locator": "Main profile / explicit removal and successor",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "commissioned_mission",
+      "before": null,
+      "after": {
+        "value": "Sifo-Dyas and Silman sent to deal with the Pykes on Oba Diah",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-clone-army-intel",
+            "locator": "Paragraph naming Chancellor Finis Valorum / secret mission commission",
+            "note": "Does not establish Valorum as clone-army commissioner or a traveler on that mission."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "mass",
+      "before": {
+        "record_id": "people:34",
+        "key": "mass",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No individual mass established; actor or costume measurements and species averages do not certify the raw value."
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:34",
+        "key": "hair_color",
+        "value": "blond",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal hair-colour fact established; a bare head or species design does not certify none."
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:34",
+        "key": "skin_color",
+        "value": "fair",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual skin-colour statement established; images, lighting and general species appearance do not certify this value."
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:34",
+        "key": "eye_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual eye-colour statement established; images and species traits alone do not certify this value."
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:34",
+        "key": "birth_year",
+        "value": "91BBY",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established; office, era and relative event chronology do not establish this value."
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "gender",
+      "before": {
+        "record_id": "people:34",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected sources; pronouns or role titles alone are not used."
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "link",
+      "before": {
+        "record_id": "people:34",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-valorum",
+            "locator": "Appearances / explicitly named prequel 4",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile19-valorum",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": "Work-level association, not every episode, the 2008 feature or a new episode inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:34",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:21",
+        "relation": "succeeded_by",
+        "evidence": [
+          {
+            "sourceId": "profile19-valorum",
+            "locator": "Main profile / replaced by Palpatine",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "profile",
+      "before": {
+        "id": "people:59",
+        "category": "people",
+        "legacy_id": "59",
+        "slug": "mas-amedda",
+        "title": "Mas Amedda",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Amedda serves in Senate leadership under Valorum and Palpatine. Aware of Palpatine’s Sith identity, he helps the Chancellor consolidate power and later serves the Empire as Grand Vizier.",
+        "era": "Across eras",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "height",
+      "before": {
+        "record_id": "people:59",
+        "key": "height",
+        "value": "196",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "196",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Dimensions / Height 1.96m converted to 196 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Chagrian",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Species / explicit Chagrian",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "political_role",
+      "before": null,
+      "after": {
+        "value": "Vice Chair of the Galactic Senate under Valorum and Palpatine",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Main profile / office and continuity of service",
+            "note": "History also uses Vice Chancellor and Speaker; exact dates or formal equivalence not inferred."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "imperial_role",
+      "before": null,
+      "after": {
+        "value": "Grand Vizier of the Empire",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Direct history / later Imperial service",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "sith_knowledge",
+      "before": null,
+      "after": {
+        "value": "Knows that Palpatine is a Sith Lord",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Direct history / explicit knowledge and Senate assistance",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "mass",
+      "before": {
+        "record_id": "people:59",
+        "key": "mass",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No individual mass established; actor or costume measurements and species averages do not certify the raw value."
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:59",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal hair-colour fact established; a bare head or species design does not certify none."
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:59",
+        "key": "skin_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual skin-colour statement established; images, lighting and general species appearance do not certify this value."
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:59",
+        "key": "eye_color",
+        "value": "blue",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual eye-colour statement established; images and species traits alone do not certify this value."
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:59",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established; office, era and relative event chronology do not establish this value."
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "gender",
+      "before": {
+        "record_id": "people:59",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected sources; pronouns or role titles alone are not used."
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "link",
+      "before": {
+        "record_id": "people:59",
+        "target_id": "films:4",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:4",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Appearances / explicitly named prequel 4",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "link",
+      "before": {
+        "record_id": "people:59",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Appearances / explicitly named prequel 5",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Appearances / explicitly named prequel 6",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": "Work-level association, not every episode, the 2008 feature or a new episode inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:bad-batch",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Appearances / The Bad Batch",
+            "note": "Work-level only; no new scoped physical episode claim."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "link",
+      "before": {
+        "record_id": "people:59",
+        "target_id": "species:27",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:27",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Species / Chagrian",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:34",
+        "relation": "served_under",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Main profile / Valorum administration",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:59",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:21",
+        "relation": "served_under",
+        "evidence": [
+          {
+            "sourceId": "profile19-amedda",
+            "locator": "Main profile and direct history / Palpatine administration",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "profile",
+      "before": {
+        "id": "people:76",
+        "category": "people",
+        "legacy_id": "76",
+        "slug": "wat-tambor",
+        "title": "Wat Tambor",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Tambor commits Techno Union forces to Dooku’s cause. As emir of occupied Ryloth, he loots the world and suppresses its inhabitants; Republic forces capture him before he returns to the Separatist leadership.",
+        "era": "Fall of the Jedi",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "height",
+      "before": {
+        "record_id": "people:76",
+        "key": "height",
+        "value": "193",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "198",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Dimensions / Height 1.98m converted to 198 cm",
+            "note": "Replaces inherited 193 cm, without inferring body-only height or subtracting life-support equipment."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Skakoan",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Own biography gallery caption 7 / explicitly calls Tambor Skakoan",
+            "note": "Selected caption checked directly in browser; not inferred from suit or homeworld."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "political_role",
+      "before": null,
+      "after": {
+        "value": "Techno Union foreman and lead engineer",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Main profile and first direct history / explicit office wording",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "occupation_role",
+      "before": null,
+      "after": {
+        "value": "Emir during the Separatist occupation of Ryloth",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Main profile and direct history / explicit Ryloth emir",
+            "note": "Occupation title, not native origin or permanent leadership in every era."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "mass",
+      "before": {
+        "record_id": "people:76",
+        "key": "mass",
+        "value": "48",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No individual mass established; actor or costume measurements and species averages do not certify the raw value."
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:76",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal hair-colour fact established; a bare head or species design does not certify none."
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:76",
+        "key": "skin_color",
+        "value": "green, grey",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual skin-colour statement established; images, lighting and general species appearance do not certify this value."
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:76",
+        "key": "eye_color",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual eye-colour statement established; images and species traits alone do not certify this value."
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:76",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established; office, era and relative event chronology do not establish this value."
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "gender",
+      "before": {
+        "record_id": "people:76",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal gender classification established in these selected sources; pronouns or role titles alone are not used."
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "link",
+      "before": {
+        "record_id": "people:76",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Appearances / explicitly named prequel 5",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Appearances / explicitly named prequel 6",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "series:clone-wars-series",
+        "relation": "appears_in",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Appearances / The Clone Wars television series",
+            "note": "Work-level association, not every episode, the 2008 feature or a new episode inventory."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "link",
+      "before": {
+        "record_id": "people:76",
+        "target_id": "species:33",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:33",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Own biography gallery caption 7 / explicit Skakoan",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:11",
+        "relation": "pledged_forces_on",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Main profile / explicit Geonosis meeting",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:37",
+        "relation": "occupied",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Main profile / Ryloth occupation",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:12",
+        "relation": "took_refuge_on",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Direct history / explicit Utapau refuge",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "planets:13",
+        "relation": "transported_to",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Direct history / transported to Mustafar",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:76",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:67",
+        "relation": "pledged_forces_to",
+        "evidence": [
+          {
+            "sourceId": "profile19-tambor",
+            "locator": "Main profile / explicit Count Dooku pledge",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "profile",
+      "before": {
+        "id": "people:77",
+        "category": "people",
+        "legacy_id": "77",
+        "slug": "san-hill",
+        "title": "San Hill",
+        "summary": "",
+        "year": null,
+        "era": "Not classified",
+        "continuity": "Not assessed",
+        "review_status": "legacy"
+      },
+      "after": {
+        "summary": "Hill chairs the InterGalactic Banking Clan as the Clone Wars begin and joins Dooku’s treaty. He represents the banking organization on the Separatist Council and is later killed by Vader.",
+        "era": "Fall of the Jedi",
+        "continuity": "Canon"
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "height",
+      "before": {
+        "record_id": "people:77",
+        "key": "height",
+        "value": "191",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "191",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-hill",
+            "locator": "Dimensions / Height 1.91m converted to 191 cm",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "gender",
+      "before": {
+        "record_id": "people:77",
+        "key": "gender",
+        "value": "male",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "value": "male",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-hill",
+            "locator": "Main profile / explicitly male Muun",
+            "note": "Explicit source classification, not inferred from pronouns."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "classification",
+      "before": null,
+      "after": {
+        "value": "Muun",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-hill",
+            "locator": "Main profile and Species / Muun",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "political_role",
+      "before": null,
+      "after": {
+        "value": "InterGalactic Banking Clan chairman at the onset of the Clone Wars",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-hill",
+            "locator": "Main profile / explicit time-scoped chairmanship",
+            "note": "Not a claim he is sole leader of every banking body throughout the war."
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "treaty_role",
+      "before": null,
+      "after": {
+        "value": "Signs Dooku’s treaty and represents the Banking Clan on the Separatist Council",
+        "reviewStatus": "verified",
+        "evidence": [
+          {
+            "sourceId": "profile19-hill",
+            "locator": "Main profile / explicit signatory and representative",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "mass",
+      "before": {
+        "record_id": "people:77",
+        "key": "mass",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No individual mass established; actor or costume measurements and species averages do not certify the raw value."
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "hair_color",
+      "before": {
+        "record_id": "people:77",
+        "key": "hair_color",
+        "value": "none",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit personal hair-colour fact established; a bare head or species design does not certify none."
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "skin_color",
+      "before": {
+        "record_id": "people:77",
+        "key": "skin_color",
+        "value": "grey",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual skin-colour statement established; images, lighting and general species appearance do not certify this value."
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "eye_color",
+      "before": {
+        "record_id": "people:77",
+        "key": "eye_color",
+        "value": "gold",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No explicit individual eye-colour statement established; images and species traits alone do not certify this value."
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "birth_year",
+      "before": {
+        "record_id": "people:77",
+        "key": "birth_year",
+        "value": "unknown",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "reviewStatus": "unestablished",
+        "publishedValue": "Not established",
+        "rawValuePreserved": true,
+        "note": "No exact personal birth year established; office, era and relative event chronology do not establish this value."
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "link",
+      "before": {
+        "record_id": "people:77",
+        "target_id": "films:5",
+        "relation": "films",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "films:5",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-hill",
+            "locator": "Appearances / explicitly named prequel 5",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "films:6",
+        "relation": "films",
+        "evidence": [
+          {
+            "sourceId": "profile19-hill",
+            "locator": "Appearances / explicitly named prequel 6",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "link",
+      "before": {
+        "record_id": "people:77",
+        "target_id": "species:34",
+        "relation": "species",
+        "source_id": "legacy-people",
+        "review_status": "legacy"
+      },
+      "after": {
+        "targetId": "species:34",
+        "relation": "species",
+        "evidence": [
+          {
+            "sourceId": "profile19-hill",
+            "locator": "Main profile and Species / Muun",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:67",
+        "relation": "signed_treaty_with",
+        "evidence": [
+          {
+            "sourceId": "profile19-hill",
+            "locator": "Main profile / Dooku treaty",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "recordId": "people:77",
+      "field": "link",
+      "before": null,
+      "after": {
+        "targetId": "people:4",
+        "relation": "killed_by",
+        "evidence": [
+          {
+            "sourceId": "profile19-hill",
+            "locator": "Main profile / explicit killing by Darth Vader",
+            "note": "No new precise death date or inferred anatomical detail."
+          }
+        ]
+      }
+    }
+  ]
+}

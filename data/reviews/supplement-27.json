@@ -1,0 +1,3999 @@
+{
+  "version": 1,
+  "id": "SUPPLEMENT-27",
+  "checkedAt": "2026-11-04",
+  "reviewer": "Editorial source review assisted by Codex",
+  "scope": "Registered Bad Batch episodes 11–15: selected connections and 17 introductory one-fact identities; 113-record cohort. No date, episode-register, end-credit or edition expansion; original-USA launch scope retained.",
+  "sources": [
+    {
+      "id": "supp27-devil-s-deal-gallery",
+      "title": "Devil’s Deal — official episode gallery",
+      "url": "https://www.starwars.com/devil-s-deal-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "All 23 narrative captions read directly in the browser 4 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected 113-record cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-devil-s-deal-trivia",
+      "title": "Devil’s Deal — official trivia gallery",
+      "url": "https://www.starwars.com/devil-s-deal-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "All 6 trivia captions read directly in the browser 4 November 2026. Historical references and design resemblance distinguished from actual scenes and named identity. Not a full end-credit inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-rescue-on-ryloth-gallery",
+      "title": "Rescue on Ryloth — official episode gallery",
+      "url": "https://www.starwars.com/rescue-on-ryloth-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "All 27 narrative captions read directly in the browser 4 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected 113-record cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-rescue-on-ryloth-trivia",
+      "title": "Rescue on Ryloth — official trivia gallery",
+      "url": "https://www.starwars.com/rescue-on-ryloth-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "All 3 trivia captions read directly in the browser 4 November 2026. Historical references and design resemblance distinguished from actual scenes and named identity. Not a full end-credit inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-infested-gallery",
+      "title": "Infested — official episode gallery",
+      "url": "https://www.starwars.com/infested-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "All 24 narrative captions read directly in the browser 4 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected 113-record cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-infested-trivia",
+      "title": "Infested — official trivia gallery",
+      "url": "https://www.starwars.com/infested-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "All 5 trivia captions read directly in the browser 4 November 2026. Historical references and design resemblance distinguished from actual scenes and named identity. Not a full end-credit inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-war-mantle-gallery",
+      "title": "War-Mantle — official episode gallery",
+      "url": "https://www.starwars.com/war-mantle-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "All 27 narrative captions read directly in the browser 4 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected 113-record cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-war-mantle-trivia",
+      "title": "War-Mantle — official trivia gallery",
+      "url": "https://www.starwars.com/war-mantle-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "All 5 trivia captions read directly in the browser 4 November 2026. Historical references and design resemblance distinguished from actual scenes and named identity. Not a full end-credit inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-return-to-kamino-gallery",
+      "title": "Return To Kamino — official episode gallery",
+      "url": "https://www.starwars.com/return-to-kamino-episode-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "All 26 narrative captions read directly in the browser 4 November 2026, including all Show More expansions. One-based positions. Individually cited released stills inspected separately. Selected 113-record cohort only, not a full frame, background, weapon or credit inventory. No source prose, captions or media stored.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-return-to-kamino-trivia",
+      "title": "Return To Kamino — official trivia gallery",
+      "url": "https://www.starwars.com/return-to-kamino-trivia-gallery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "All 5 trivia captions read directly in the browser 4 November 2026. Historical references and design resemblance distinguished from actual scenes and named identity. Not a full end-credit inventory. No source prose or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-eleni-syndulla",
+      "title": "Eleni Syndulla — official Databank",
+      "url": "https://www.starwars.com/databank/eleni-syndulla",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit family relationships. A first on-screen appearance is distinct from an earlier photograph or production illustration. No death date, personal measurements or full biography reviewed. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-clone-captain-howzer",
+      "title": "Clone Captain Howzer — official Databank",
+      "url": "https://www.starwars.com/databank/clone-captain-howzer",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit Ryloth service and rank. Later rescue by Echo and service with Rex are background history, not new Rex scenes in these episodes. Refusal alone does not establish inhibitor-chip biology. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-orn-free-taa",
+      "title": "Orn Free Taa — official Databank",
+      "url": "https://www.starwars.com/databank/orn-free-taa",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit senator and homeworld. The subsequent episode calls the shooting an assassination attempt. Do not turn an injury into a certified death; trivia’s abbreviated spelling does not create another person. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-roland-durand",
+      "title": "Roland Durand — official Databank",
+      "url": "https://www.starwars.com/databank/roland-durand",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Species / explicit Devaronian. A lost horn is an individual injury, not a species-wide rule. Isa Durand is mentioned rather than established as physically present. No later Devaron visit inferred. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-ruby",
+      "title": "Ruby — official Databank",
+      "url": "https://www.starwars.com/databank/ruby",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / delivered creature and named companion. Named creature, not an invented biological species. Trivia explicitly identifies the earlier Battle Scars delivery; its separate episode review is preserved for a later targeted additive follow-up. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-pyke-syndicate",
+      "title": "Pyke Syndicate — official Databank",
+      "url": "https://www.starwars.com/databank/pyke-syndicate",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / spice distribution and mining interests. Organization entry in People, not a species or a named individual. The current scene does not establish a visit to Kessel or Oba Diah, nor an appearance by every named Pyke. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-tk-stormtrooper",
+      "title": "TK stormtrooper — early Imperial type — official Databank",
+      "url": "https://www.starwars.com/databank/tk-stormtrooper",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit recruitment and trainers. Military troop type, not an individual clone or every later stormtrooper. Narrative caption 8 calls some troops clones; the explicit replacement explanation in 14 and own profile supply the narrower identification. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-imperial-doonium-refinery",
+      "title": "Imperial doonium refinery — official Databank",
+      "url": "https://www.starwars.com/databank/imperial-doonium-refinery",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit function and Ryloth location. Industrial site in Worlds, not a separate planet or a claim about the whole planet’s economy. Related cards are not enough to assign every ship or person a visit. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-daro",
+      "title": "Daro — official Databank",
+      "url": "https://www.starwars.com/databank/daro",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit Outer Rim location. Thought uninhabited is a reported perception, not a zero-population fact. Mountain base and world are distinct place levels. No diameter, population or climate mean reviewed. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-imperial-base-on-daro",
+      "title": "Imperial base on Daro — official Databank",
+      "url": "https://www.starwars.com/databank/imperial-base-on-daro",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit mountain base and Daro. Site distinct from Daro as a world. An episode-level setting row does not place Omega and Wrecker inside the base. No named mountain or invented coordinates. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-nala-ses-private-lab",
+      "title": "Nala Se’s private lab — official Databank",
+      "url": "https://www.starwars.com/databank/nala-se-s-private-lab",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit secret lab and experimental purpose. Hidden laboratory, not all Kamino cloning facilities. No birth dates or universal genetic profile inferred from its role in the squad’s creation. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-tipoca-city",
+      "title": "Tipoca City — official Databank",
+      "url": "https://www.starwars.com/databank/tipoca-city",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / government and cloning functions. City distinct from Kamino as a whole. Destruction of its facilities is not destruction of the planet or proof that every Kaminoan dies. No population inferred. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-kamino-tube-system",
+      "title": "Kamino tube system — official Databank",
+      "url": "https://www.starwars.com/databank/kamino-tube-system",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit underwater transport. Infrastructure in Worlds, not a planet, a single vehicle, or a named submarine. A related creature card does not establish a living creature in this scene. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-irling",
+      "title": "Irling — official Databank",
+      "url": "https://www.starwars.com/databank/irlings",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit nocturnal behavior. Species entry distinct from Ruby, a named lizardlike companion. No body-size mean, universal intelligence score or named insect individual reviewed. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-orn-free-taas-shuttle",
+      "title": "Orn Free Taa’s shuttle — official Databank",
+      "url": "https://www.starwars.com/databank/orn-free-taa-s-shuttle",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / secret hangar and senator’s escape plan. Selected senator’s craft, distinct from Gobi’s earlier supply-run ship and the Rho shuttle stolen by Hera. No class or technical measurements inferred. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    },
+    {
+      "id": "supp27-rho-class-transport-shuttle",
+      "title": "Rho-class transport shuttle — type — official Databank",
+      "url": "https://www.starwars.com/databank/rho-class-transport-shuttle",
+      "kind": "official",
+      "checkedAt": "2026-11-04",
+      "note": "Main profile and selected explicit metadata read 4 November 2026. Main profile / explicit personnel transport and young Hera’s theft. Craft type, not one officially named hull. The own profile explicitly connects Hera’s theft to this class; it does not independently classify Gobi’s episode-11 supply ship. No source prose, galleries or media imported.",
+      "license": "No open content licence identified",
+      "reuseBasis": "Selected factual metadata, original short descriptions, attribution and links only. Public access is not an open licence for source prose, captions, images, audio or video.",
+      "attribution": "Lucasfilm / StarWars.com",
+      "revision": ""
+    }
+  ],
+  "sourceUpdates": [],
+  "records": [
+    {
+      "id": "people:eleni-syndulla",
+      "newRecord": {
+        "category": "people",
+        "slug": "eleni-syndulla",
+        "title": "Eleni Syndulla",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Eleni fought for Ryloth and protects her family as Imperial control grows. She and Cham are Hera’s parents; the occupation puts both her public commitments and her household at risk.",
+        "evidence": [
+          {
+            "sourceId": "supp27-eleni-syndulla",
+            "locator": "Main profile / explicit family relationships",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-devil-s-deal-gallery",
+            "locator": "Captions 1–23 / named family member",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "A first on-screen appearance is distinct from an earlier photograph or production illustration. No death date, personal measurements or full biography reviewed.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "family",
+          "value": "Mother of Hera Syndulla and spouse of Cham Syndulla",
+          "evidence": [
+            {
+              "sourceId": "supp27-eleni-syndulla",
+              "locator": "Main profile / explicit family relationships",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-eleni-syndulla",
+              "locator": "Main profile / explicit family relationships",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 1–23 / named family member",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:hera-syndulla",
+          "relation": "parent",
+          "evidence": [
+            {
+              "sourceId": "supp27-eleni-syndulla",
+              "locator": "Main profile / mother of Hera",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:cham-syndulla",
+          "relation": "spouse",
+          "evidence": [
+            {
+              "sourceId": "supp27-eleni-syndulla",
+              "locator": "Main profile / named spouse",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:15",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp27-eleni-syndulla",
+              "locator": "Species / Twi’lek",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:37",
+          "relation": "defends",
+          "evidence": [
+            {
+              "sourceId": "supp27-eleni-syndulla",
+              "locator": "Main profile / fight for Ryloth",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:clone-captain-howzer",
+      "newRecord": {
+        "category": "people",
+        "slug": "clone-captain-howzer",
+        "title": "Clone Captain Howzer",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Howzer serves on Ryloth through the transition from Republic to Empire. When Imperial orders threaten the Syndullas, he helps them escape and is arrested.",
+        "evidence": [
+          {
+            "sourceId": "supp27-clone-captain-howzer",
+            "locator": "Main profile / explicit Ryloth service and rank",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-rescue-on-ryloth-gallery",
+            "locator": "Captions 2, 9, 12, 21–23 / refusal and arrest",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Later rescue by Echo and service with Rex are background history, not new Rex scenes in these episodes. Refusal alone does not establish inhibitor-chip biology.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "early_posting",
+          "value": "Clone captain serving on Ryloth",
+          "evidence": [
+            {
+              "sourceId": "supp27-clone-captain-howzer",
+              "locator": "Main profile / explicit Ryloth service and rank",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-clone-captain-howzer",
+              "locator": "Main profile / explicit Ryloth service and rank",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-rescue-on-ryloth-gallery",
+              "locator": "Captions 2, 9, 12, 21–23 / refusal and arrest",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:37",
+          "relation": "served_on",
+          "evidence": [
+            {
+              "sourceId": "supp27-clone-captain-howzer",
+              "locator": "Main profile / service on Ryloth",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:orn-free-taa",
+      "newRecord": {
+        "category": "people",
+        "slug": "orn-free-taa",
+        "title": "Orn Free Taa",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Orn Free Taa represents Ryloth in the Senate and supports Imperial rule after the Republic falls. His alliance with Rampart brings him into conflict with the Syndullas.",
+        "evidence": [
+          {
+            "sourceId": "supp27-orn-free-taa",
+            "locator": "Main profile / explicit senator and homeworld",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-devil-s-deal-gallery",
+            "locator": "Captions 1–2, 8, 14, 20–22 / senator and shooting",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "The subsequent episode calls the shooting an assassination attempt. Do not turn an injury into a certified death; trivia’s abbreviated spelling does not create another person.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "political_role",
+          "value": "Senator representing Ryloth",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taa",
+              "locator": "Main profile / explicit senator and homeworld",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taa",
+              "locator": "Main profile / explicit senator and homeworld",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 1–2, 8, 14, 20–22 / senator and shooting",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:37",
+          "relation": "homeworld",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taa",
+              "locator": "Main profile / explicit personal homeworld",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:15",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taa",
+              "locator": "Species / Twi’lek",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:4",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taa",
+              "locator": "Appearances / selected named work only",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:5",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taa",
+              "locator": "Appearances / selected named work only",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:6",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taa",
+              "locator": "Appearances / selected named work only",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taa",
+              "locator": "Appearances / selected named work only",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:roland-durand",
+      "newRecord": {
+        "category": "people",
+        "slug": "roland-durand",
+        "title": "Roland Durand",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Roland tries to build a criminal enterprise by taking over Cid’s parlor. A failed spice deal with the Pykes costs him a horn, and Omega intervenes to spare his life.",
+        "evidence": [
+          {
+            "sourceId": "supp27-roland-durand",
+            "locator": "Species / explicit Devaronian",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-infested-gallery",
+            "locator": "Captions 2–24 / takeover, negotiation and survival",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "A lost horn is an individual injury, not a species-wide rule. Isa Durand is mentioned rather than established as physically present. No later Devaron visit inferred.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "classification",
+          "value": "Devaronian",
+          "evidence": [
+            {
+              "sourceId": "supp27-roland-durand",
+              "locator": "Species / explicit Devaronian",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-roland-durand",
+              "locator": "Species / explicit Devaronian",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-infested-gallery",
+              "locator": "Captions 2–24 / takeover, negotiation and survival",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:cids-parlor",
+          "relation": "temporarily_occupied",
+          "evidence": [
+            {
+              "sourceId": "supp27-roland-durand",
+              "locator": "Main profile / seizure of Cid’s parlor",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:ruby",
+      "newRecord": {
+        "category": "people",
+        "slug": "ruby",
+        "title": "Ruby",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Ruby is a small lizardlike creature delivered by the Bad Batch to Ord Mantell. The animal becomes Roland Durand’s companion and escapes while Cid’s associates try to use it as a distraction.",
+        "evidence": [
+          {
+            "sourceId": "supp27-ruby",
+            "locator": "Main profile / delivered creature and named companion",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-infested-gallery",
+            "locator": "Captions 8–10, 23–24; trivia 1 / named creature",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-infested-trivia",
+            "locator": "Trivia 1 / explicit identity of earlier delivered creature; no earlier review overwritten",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Named creature, not an invented biological species. Trivia explicitly identifies the earlier Battle Scars delivery; its separate episode review is preserved for a later targeted additive follow-up.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "association",
+          "value": "Companion of Roland Durand",
+          "evidence": [
+            {
+              "sourceId": "supp27-ruby",
+              "locator": "Main profile / delivered creature and named companion",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-ruby",
+              "locator": "Main profile / delivered creature and named companion",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-infested-gallery",
+              "locator": "Captions 8–10, 23–24; trivia 1 / named creature",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-infested-trivia",
+              "locator": "Trivia 1 / explicit identity of earlier delivered creature; no earlier review overwritten",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:roland-durand",
+          "relation": "companion_of",
+          "evidence": [
+            {
+              "sourceId": "supp27-ruby",
+              "locator": "Main profile / named companion",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:pyke-syndicate",
+      "newRecord": {
+        "category": "people",
+        "slug": "pyke-syndicate",
+        "title": "Pyke Syndicate",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Pyke Syndicate profits from the spice trade. Its representatives demand repayment after a shipment disappears during the dispute over Cid’s parlor.",
+        "evidence": [
+          {
+            "sourceId": "supp27-pyke-syndicate",
+            "locator": "Main profile / spice distribution and mining interests",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-infested-gallery",
+            "locator": "Captions 15–23 / actual Pyke representatives",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Organization entry in People, not a species or a named individual. The current scene does not establish a visit to Kessel or Oba Diah, nor an appearance by every named Pyke.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "trade",
+          "value": "Spice trafficking",
+          "evidence": [
+            {
+              "sourceId": "supp27-pyke-syndicate",
+              "locator": "Main profile / spice distribution and mining interests",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-pyke-syndicate",
+              "locator": "Main profile / spice distribution and mining interests",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-infested-gallery",
+              "locator": "Captions 15–23 / actual Pyke representatives",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:27",
+          "relation": "operates_on",
+          "evidence": [
+            {
+              "sourceId": "supp27-pyke-syndicate",
+              "locator": "Locations / Ord Mantell; selected current operation corroborated by Infested",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "films:solo",
+          "relation": "films",
+          "evidence": [
+            {
+              "sourceId": "supp27-pyke-syndicate",
+              "locator": "Appearances / selected named work only",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "series:clone-wars-series",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-pyke-syndicate",
+              "locator": "Appearances / selected named work only",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:tk-stormtrooper",
+      "newRecord": {
+        "category": "people",
+        "slug": "tk-stormtrooper",
+        "title": "TK stormtrooper — early Imperial type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "TK stormtroopers are naturally born human recruits replacing the clone army. At Daro, clone commandos train the new force while Gregor attempts to leave Imperial service.",
+        "evidence": [
+          {
+            "sourceId": "supp27-tk-stormtrooper",
+            "locator": "Main profile / explicit recruitment and trainers",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-war-mantle-gallery",
+            "locator": "Captions 11–18 / replacement troops and training",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Military troop type, not an individual clone or every later stormtrooper. Narrative caption 8 calls some troops clones; the explicit replacement explanation in 14 and own profile supply the narrower identification.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "recruitment",
+          "value": "Naturally born human recruits trained by clone commandos",
+          "evidence": [
+            {
+              "sourceId": "supp27-tk-stormtrooper",
+              "locator": "Main profile / explicit recruitment and trainers",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-tk-stormtrooper",
+              "locator": "Main profile / explicit recruitment and trainers",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 11–18 / replacement troops and training",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:1",
+          "relation": "species",
+          "evidence": [
+            {
+              "sourceId": "supp27-tk-stormtrooper",
+              "locator": "Main profile / explicitly naturally born humans",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "people:clone-commando",
+      "newRecord": {
+        "category": "people",
+        "slug": "clone-commando",
+        "title": "Clone commando — type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Clone commandos serve at the concealed Imperial base on Daro and train the troops intended to replace the clones. Their military role is distinct from the recruits’ TK designation.",
+        "evidence": [
+          {
+            "sourceId": "supp27-war-mantle-gallery",
+            "locator": "Captions 8, 14–18 / commandos and replacement training",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-war-mantle-gallery",
+            "locator": "Captions 8, 14–18; trivia 5 / commando role and design limits",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Generic military role, not a newly named individual or proof that a Scorch-like design is Scorch. No armor dimensions or full Republic Commando history reviewed.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "selected_role",
+          "value": "Training replacement troops at the Imperial base on Daro",
+          "evidence": [
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 8, 14–18 / commandos and replacement training",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 8, 14–18 / commandos and replacement training",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 8, 14–18; trivia 5 / commando role and design limits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:imperial-base-on-daro",
+          "relation": "serves_at",
+          "evidence": [
+            {
+              "sourceId": "supp27-imperial-base-on-daro",
+              "locator": "Main profile / explicitly clone commandos at Daro base",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:imperial-doonium-refinery",
+      "newRecord": {
+        "category": "planets",
+        "slug": "imperial-doonium-refinery",
+        "title": "Imperial doonium refinery",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "The Empire operates a doonium refinery on Ryloth. Hera and Chopper investigate it, and its defenses later become the distraction needed for the Syndullas’ rescue.",
+        "evidence": [
+          {
+            "sourceId": "supp27-imperial-doonium-refinery",
+            "locator": "Main profile / explicit function and Ryloth location",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-devil-s-deal-gallery",
+            "locator": "Captions 4, 10 / actual refinery",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Industrial site in Worlds, not a separate planet or a claim about the whole planet’s economy. Related cards are not enough to assign every ship or person a visit.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "location_type",
+          "value": "Imperial doonium refinery on Ryloth",
+          "evidence": [
+            {
+              "sourceId": "supp27-imperial-doonium-refinery",
+              "locator": "Main profile / explicit function and Ryloth location",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-imperial-doonium-refinery",
+              "locator": "Main profile / explicit function and Ryloth location",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 4, 10 / actual refinery",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:37",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "supp27-imperial-doonium-refinery",
+              "locator": "Main profile / Ryloth",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:daro",
+      "newRecord": {
+        "category": "planets",
+        "slug": "daro",
+        "title": "Daro",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Daro is a forested Outer Rim world thought to be uninhabited. A hidden Imperial base inside a mountain trains replacement troops; Gregor’s distress signal draws the Bad Batch there.",
+        "evidence": [
+          {
+            "sourceId": "supp27-daro",
+            "locator": "Main profile / explicit Outer Rim location",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-war-mantle-gallery",
+            "locator": "Captions 3, 6–24 / actual rescue world",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Thought uninhabited is a reported perception, not a zero-population fact. Mountain base and world are distinct place levels. No diameter, population or climate mean reviewed.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "region",
+          "value": "Outer Rim",
+          "evidence": [
+            {
+              "sourceId": "supp27-daro",
+              "locator": "Main profile / explicit Outer Rim location",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-daro",
+              "locator": "Main profile / explicit Outer Rim location",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 3, 6–24 / actual rescue world",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:imperial-base-on-daro",
+      "newRecord": {
+        "category": "planets",
+        "slug": "imperial-base-on-daro",
+        "title": "Imperial base on Daro",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A concealed mountain base on Daro houses clone commandos and TK stormtroopers. Hunter, Tech and Echo infiltrate it to free Gregor while Omega and Wrecker remain with the Marauder.",
+        "evidence": [
+          {
+            "sourceId": "supp27-imperial-base-on-daro",
+            "locator": "Main profile / explicit mountain base and Daro",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-war-mantle-gallery",
+            "locator": "Captions 7–24 / rescue and troop training",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Site distinct from Daro as a world. An episode-level setting row does not place Omega and Wrecker inside the base. No named mountain or invented coordinates.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "location_type",
+          "value": "Concealed Imperial mountain base on Daro",
+          "evidence": [
+            {
+              "sourceId": "supp27-imperial-base-on-daro",
+              "locator": "Main profile / explicit mountain base and Daro",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-imperial-base-on-daro",
+              "locator": "Main profile / explicit mountain base and Daro",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 7–24 / rescue and troop training",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:daro",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "supp27-imperial-base-on-daro",
+              "locator": "Main profile / Daro mountain",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:nala-ses-private-lab",
+      "newRecord": {
+        "category": "planets",
+        "slug": "nala-ses-private-lab",
+        "title": "Nala Se’s private lab",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Nala Se maintains a hidden laboratory below Kamino’s ocean. Omega knows a route into it through the underwater transport system and leads the squad there to seek Hunter.",
+        "evidence": [
+          {
+            "sourceId": "supp27-nala-ses-private-lab",
+            "locator": "Main profile / explicit secret lab and experimental purpose",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-return-to-kamino-gallery",
+            "locator": "Captions 4–10 / actual submerged access and lab",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Hidden laboratory, not all Kamino cloning facilities. No birth dates or universal genetic profile inferred from its role in the squad’s creation.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "function",
+          "value": "Hidden laboratory used in Clone Force 99’s creation and augmentation",
+          "evidence": [
+            {
+              "sourceId": "supp27-nala-ses-private-lab",
+              "locator": "Main profile / explicit secret lab and experimental purpose",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-nala-ses-private-lab",
+              "locator": "Main profile / explicit secret lab and experimental purpose",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-return-to-kamino-gallery",
+              "locator": "Captions 4–10 / actual submerged access and lab",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:10",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "supp27-nala-ses-private-lab",
+              "locator": "Main profile / below Kamino ocean",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:nala-se",
+          "relation": "operated_by",
+          "evidence": [
+            {
+              "sourceId": "supp27-nala-ses-private-lab",
+              "locator": "Main profile / named scientist",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:tipoca-city",
+      "newRecord": {
+        "category": "planets",
+        "slug": "tipoca-city",
+        "title": "Tipoca City",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Tipoca City houses Kamino’s government and cloning facilities. The Empire empties its facilities before bombarding the city, forcing the Bad Batch to seek a way out.",
+        "evidence": [
+          {
+            "sourceId": "supp27-tipoca-city",
+            "locator": "Main profile / government and cloning functions",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-return-to-kamino-gallery",
+            "locator": "Captions 4–26 / city, evacuation and bombardment",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "City distinct from Kamino as a whole. Destruction of its facilities is not destruction of the planet or proof that every Kaminoan dies. No population inferred.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "civic_role",
+          "value": "Government and cloning center on Kamino",
+          "evidence": [
+            {
+              "sourceId": "supp27-tipoca-city",
+              "locator": "Main profile / government and cloning functions",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-tipoca-city",
+              "locator": "Main profile / government and cloning functions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-return-to-kamino-gallery",
+              "locator": "Captions 4–26 / city, evacuation and bombardment",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:10",
+          "relation": "located_on",
+          "evidence": [
+            {
+              "sourceId": "supp27-tipoca-city",
+              "locator": "Main profile and Locations / Kamino",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "planets:kamino-tube-system",
+      "newRecord": {
+        "category": "planets",
+        "slug": "kamino-tube-system",
+        "title": "Kamino tube system",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "A submerged transport network links hidden access points around Tipoca City. Omega uses the route to reach Nala Se’s private laboratory with the squad.",
+        "evidence": [
+          {
+            "sourceId": "supp27-kamino-tube-system",
+            "locator": "Main profile / explicit underwater transport",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-return-to-kamino-gallery",
+            "locator": "Captions 5–6 / actual access route",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Infrastructure in Worlds, not a planet, a single vehicle, or a named submarine. A related creature card does not establish a living creature in this scene.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "infrastructure",
+          "value": "Underwater transport network around Tipoca City",
+          "evidence": [
+            {
+              "sourceId": "supp27-kamino-tube-system",
+              "locator": "Main profile / explicit underwater transport",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-kamino-tube-system",
+              "locator": "Main profile / explicit underwater transport",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-return-to-kamino-gallery",
+              "locator": "Captions 5–6 / actual access route",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:tipoca-city",
+          "relation": "located_at",
+          "evidence": [
+            {
+              "sourceId": "supp27-kamino-tube-system",
+              "locator": "Main profile / Tipoca City transport",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "species:irling",
+      "newRecord": {
+        "category": "species",
+        "slug": "irling",
+        "title": "Irling",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Irlings live in Ord Mantell’s abandoned mining tunnels. These nocturnal winged insects react to noise, while bright flashes give the Bad Batch a way to recover the missing cargo.",
+        "evidence": [
+          {
+            "sourceId": "supp27-irling",
+            "locator": "Main profile / explicit nocturnal behavior",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-infested-gallery",
+            "locator": "Captions 5–7, 13, 18–21 / hive, identification and light response",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Species entry distinct from Ruby, a named lizardlike companion. No body-size mean, universal intelligence score or named insect individual reviewed.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "activity",
+          "value": "Nocturnal",
+          "evidence": [
+            {
+              "sourceId": "supp27-irling",
+              "locator": "Main profile / explicit nocturnal behavior",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-irling",
+              "locator": "Main profile / explicit nocturnal behavior",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-infested-gallery",
+              "locator": "Captions 5–7, 13, 18–21 / hive, identification and light response",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:27",
+          "relation": "native_to",
+          "evidence": [
+            {
+              "sourceId": "supp27-irling",
+              "locator": "Main profile / native Ord Mantell tunnels",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:orn-free-taas-shuttle",
+      "newRecord": {
+        "category": "starships",
+        "slug": "orn-free-taas-shuttle",
+        "title": "Orn Free Taa’s shuttle",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Orn Free Taa keeps a shuttle in a concealed hangar beneath Ryloth’s capitol. The Syndullas and Gobi use that escape route after their rescue.",
+        "evidence": [
+          {
+            "sourceId": "supp27-orn-free-taas-shuttle",
+            "locator": "Main profile / secret hangar and senator’s escape plan",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-rescue-on-ryloth-gallery",
+            "locator": "Captions 22–24 / senator’s escape craft",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Selected senator’s craft, distinct from Gobi’s earlier supply-run ship and the Rho shuttle stolen by Hera. No class or technical measurements inferred.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "usual_berth",
+          "value": "Hidden hangar beneath Ryloth’s capitol",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taas-shuttle",
+              "locator": "Main profile / secret hangar and senator’s escape plan",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taas-shuttle",
+              "locator": "Main profile / secret hangar and senator’s escape plan",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-rescue-on-ryloth-gallery",
+              "locator": "Captions 22–24 / senator’s escape craft",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:orn-free-taa",
+          "relation": "owned_by",
+          "evidence": [
+            {
+              "sourceId": "supp27-orn-free-taas-shuttle",
+              "locator": "Main profile / senator’s private escape craft",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starships:rho-class-transport-shuttle",
+      "newRecord": {
+        "category": "starships",
+        "slug": "rho-class-transport-shuttle",
+        "title": "Rho-class transport shuttle — type",
+        "year": null,
+        "era": "Reign of the Empire",
+        "continuity": "Canon"
+      },
+      "summary": {
+        "text": "Rho-class shuttles carry personnel for Ryloth’s Imperial refinery. Hera steals one during the rescue plan and uses its weapons to free Chopper from the refinery’s defenses.",
+        "evidence": [
+          {
+            "sourceId": "supp27-rho-class-transport-shuttle",
+            "locator": "Main profile / explicit personnel transport and young Hera’s theft",
+            "note": ""
+          },
+          {
+            "sourceId": "supp27-rescue-on-ryloth-gallery",
+            "locator": "Captions 15–16 / stolen shuttle and attack",
+            "note": ""
+          }
+        ]
+      },
+      "scope": "Introductory supporting identity and one selected fact for Bad Batch episodes 11–15; not a complete dossier.",
+      "limitations": [
+        "Craft type, not one officially named hull. The own profile explicitly connects Hera’s theft to this class; it does not independently classify Gobi’s episode-11 supply ship.",
+        "Only this short original introduction, one fact and selected cited context links reviewed. Other biography, specifications, dates, editions and credits remain incomplete. Omitted episode links are unestablished, not proven absences."
+      ],
+      "facts": [
+        {
+          "key": "intended_use",
+          "value": "Personnel transport for the Imperial refinery on Ryloth",
+          "evidence": [
+            {
+              "sourceId": "supp27-rho-class-transport-shuttle",
+              "locator": "Main profile / explicit personnel transport and young Hera’s theft",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "series:bad-batch",
+          "relation": "appears_in",
+          "evidence": [
+            {
+              "sourceId": "supp27-rho-class-transport-shuttle",
+              "locator": "Main profile / explicit personnel transport and young Hera’s theft",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-rescue-on-ryloth-gallery",
+              "locator": "Captions 15–16 / stolen shuttle and attack",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:imperial-doonium-refinery",
+          "relation": "used_at",
+          "evidence": [
+            {
+              "sourceId": "supp27-rho-class-transport-shuttle",
+              "locator": "Main profile / personnel transport at refinery",
+              "note": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "series:bad-batch",
+      "scope": "Registered Bad Batch episodes 11–15: selected additive appearance review against 113 records and 17 introductory one-fact identities; all 127 narrative and 24 trivia captions read plus individually cited stills. Existing dates, credits, register and evidence retained.",
+      "limitations": [
+        "Fifteen of 47 registered Bad Batch episodes now have scoped selected-record reviews; 32 remain. This batch considers 113 records, not all frames, background species, weapons or final credits.",
+        "Young Hera, Chopper, Gobi and Gregor reuse existing identities. Orn Free Taa injury, Howzer arrest, wounded Gregor and stunned Crosshair are not new death facts. A Scorch-like commando design remains insufficient for a Scorch identity.",
+        "Rex and Tarkin are projected transmissions; city destruction is not planetary destruction. Troop replacements, trainers, private laboratory, city, tube system and mountain base retain separate scopes. Earlier records and reviews are preserved.",
+        "No new dates, register expansion, full credits or edition research. Original-USA launch scope retained. Prior limitations below describe historical batches, not current total counts.",
+        "Ten of 47 registered Bad Batch episodes now have scoped selected-record reviews; 37 remain. This batch considers 88 selected records, not all frames, background species, weapons, side characters or final credits.",
+        "R7-A7 naming conflict recorded without duplicate identity; unnamed contacts, historical mentions and design callbacks are not new bodily scenes. Generic tactical head is not certified as a Super Tactical Droid or a named individual.",
+        "Bracca’s selected wreck is distinct from a cruiser type or flightworthy hull; Raxus is not equated with Raxus Prime. Direct Taun We includes an earlier living meeting and later body, while Nala Se’s physical and mediated forms retain their locations.",
+        "No new date/end-credit research. Earlier open scene and credit tasks remain, including Cut and Run’s precise Rampart hologram evidence. Prior batch limitations below are historical scopes, not current overall counts.",
+        "Five of 47 registered Bad Batch episodes now have scoped selected-record reviews; 42 remain. Cohort is 64 selected records, not all frames, background species, weapons, side characters or final credits.",
+        "Current opening scenes, reports of off-screen events, reused holobroadcasts, stored images, disguised organic people and design/toy callbacks retain distinct scopes. An omitted connection is unestablished, not an absence claim.",
+        "Muchi is an adolescent rancor, not the captive Falleen child; no identity with the Return of the Jedi creature is inferred. Pantora, Ordo Moon and Orto Plutonia remain distinct, and sites remain separate from planets.",
+        "The chain-code Rampart holobroadcast requires a separately located mediated-scene addition; no direct Cut and Run Rampart visit is certified from the selected narrative still. The unchanged retrospective source remains registered. Full earlier Clone Wars contexts and additional background/vehicle identities remain separate follow-ups.",
+        "Only selected cast, crew and episode connections have been checked; an omitted appearance is unknown, not an assertion of absence.",
+        "Episode inventory and writing credits do not establish every language mix, supplied master or frame-level version. Public references are not open media licences.",
+        "Dates remain scoped to cinema, television and streaming. No physical-media, purchase-download or classification dates are added in this supplement.",
+        "47 episodes across three seasons (16/16/15), including the extended premiere as one. Selected additional music contributors are now sourced; final episode-by-episode music credits, recording/editing personnel and assignments remain pending. Album roles apply only to the named cues.",
+        "Current release-date research is restricted to the original US launch of each work and, when necessary to distinguish a documented version, its first US release. Existing sourced events are retained. Worldwide/Finland dates, later platform availability, routine rereleases and exhaustive master comparisons are deferred rather than factually resolved."
+      ],
+      "facts": [],
+      "credits": [],
+      "creditUpdates": [],
+      "resolutions": [],
+      "episodes": [],
+      "links": [
+        {
+          "targetId": "people:hera-syndulla",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 4–23 and inspected still 13 / young Hera",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:cham-syndulla",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 1–23 / actual leader and father",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:chopper",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 4, 16, 22 / actual droid",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:gobi-glie",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 5–7, 11–15 / named family friend",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:eleni-syndulla",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 1–23 / actual mother",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:clone-captain-howzer",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 6, 14, 21–23 / actual captain",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:orn-free-taa",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 1–2, 8, 14, 20–22 / actual senator, injured",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:37",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 1–23 / actual Ryloth strand",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:imperial-doonium-refinery",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "Captions 4, 10 / actual refinery",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:orn-free-taas-shuttle",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-rescue-on-ryloth-gallery",
+              "locator": "Captions 22–24 / senator’s actual escape craft",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-orn-free-taas-shuttle",
+              "locator": "Main profile / senator’s secret hangar craft",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "starships:rho-class-transport-shuttle",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-rescue-on-ryloth-gallery",
+              "locator": "Captions 15–16 / actual stolen craft",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-rho-class-transport-shuttle",
+              "locator": "Main profile / explicit young Hera theft identifies class",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:roland-durand",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-infested-gallery",
+              "locator": "Captions 2–24 / actual rival",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:ruby",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-infested-gallery",
+              "locator": "Captions 8–10, 23–24; trivia 1 / named companion",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-infested-trivia",
+              "locator": "Trivia 1 / explicitly named Ruby",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:pyke-syndicate",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-infested-gallery",
+              "locator": "Captions 15–23 / actual representatives",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "species:irling",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-infested-gallery",
+              "locator": "Captions 13, 18–21 / actual identified insects",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-irling",
+              "locator": "Main profile / native Ord Mantell nocturnal winged species",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:gregor",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 1, 12–21 / named prisoner, wounded survivor",
+              "note": ""
+            },
+            {
+              "sourceId": "supp14-gregor",
+              "locator": "Main profile / existing named Gregor identity; no code correction inferred",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:tk-stormtrooper",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 11–18 / explicit replacement recruits",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-tk-stormtrooper",
+              "locator": "Main profile / naturally born human replacement recruits",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "people:clone-commando",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 8, 14–18 / actual commandos",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-imperial-base-on-daro",
+              "locator": "Main profile / clone commandos and TK troops",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:daro",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 3, 6–24 / rescue world",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:imperial-base-on-daro",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "Captions 7–24 / mountain base",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:tipoca-city",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-return-to-kamino-gallery",
+              "locator": "Captions 4–26 / actual city",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-tipoca-city",
+              "locator": "Main profile / city on Kamino",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:nala-ses-private-lab",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-return-to-kamino-gallery",
+              "locator": "Captions 6, 9–10 / actual hidden lab",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-nala-ses-private-lab",
+              "locator": "Main profile / explicit hidden lab and access",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "targetId": "planets:kamino-tube-system",
+          "relation": "features",
+          "evidence": [
+            {
+              "sourceId": "supp27-return-to-kamino-gallery",
+              "locator": "Captions 5–6 / actual underwater access route",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-kamino-tube-system",
+              "locator": "Main profile / underwater transport around Tipoca City",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "episodeReviews": [
+        {
+          "episodeId": "series:bad-batch:s1e11",
+          "scope": "All 23 narrative and 6 trivia captions checked against 113 selected records, with individually cited released stills and selected own-profile identities. Not a complete frame, background, weapon or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian",
+            "planets:22",
+            "starships:63",
+            "people:super-tactical-droid",
+            "people:rafa-martez",
+            "people:trace-martez",
+            "people:r7-a7",
+            "people:imperial-police-droid",
+            "people:tactical-droid",
+            "people:cad-bane",
+            "people:todo-360",
+            "people:avi-singh",
+            "people:gs-8",
+            "people:captain-bragg",
+            "people:bolo",
+            "people:ketch",
+            "planets:bracca",
+            "planets:bora-vio",
+            "planets:raxus",
+            "planets:droid-decommissioning-facility",
+            "starships:silver-angel",
+            "starships:justifier",
+            "starships:bracca-venator-wreck",
+            "species:dianoga",
+            "vehicles:flight-pod",
+            "people:hera-syndulla",
+            "people:cham-syndulla",
+            "people:chopper",
+            "people:gregor",
+            "planets:37",
+            "people:imperial-sentry-droid",
+            "starships:75",
+            "people:gobi-glie",
+            "people:eleni-syndulla",
+            "people:clone-captain-howzer",
+            "people:orn-free-taa",
+            "people:roland-durand",
+            "people:ruby",
+            "people:pyke-syndicate",
+            "people:tk-stormtrooper",
+            "people:clone-commando",
+            "planets:imperial-doonium-refinery",
+            "planets:daro",
+            "planets:imperial-base-on-daro",
+            "planets:nala-ses-private-lab",
+            "planets:tipoca-city",
+            "planets:kamino-tube-system",
+            "species:irling",
+            "starships:orn-free-taas-shuttle",
+            "starships:rho-class-transport-shuttle"
+          ],
+          "notes": [
+            "Young Hera and Chopper reuse their existing identities. Gobi is an existing family friend; the own Databank says he treats Hera like a niece. The narrative’s uncle address does not establish biological kinship. Caption 5 inconsistently attributes an objection during Gobi’s conversation to Cham; no exact speaker fact is derived from that sentence.",
+            "Crosshair shoots Orn Free Taa; the next episode explicitly calls it an assassination attempt. No death fact is created. The trivia spelling Orn Free Ta is not another person. Eleni’s earlier photos/illustrations and Clone Wars production callbacks are not earlier living scenes certified by this batch.",
+            "Omega and Hera are individually identifiable in inspected still 13; the Marauder arrives in still 12. The generic Bad Batch arrival is not used to certify each of its four other named members without individual scene evidence. Cid is the source of a delivery, not a current bodily visitor.",
+            "Ryloth and its refinery are distinct place levels; Omega’s offworld supply meeting does not make her a physical Ryloth visitor. Gobi’s supply ship is not automatically Hera’s later Rho shuttle or the senator’s secret escape craft. Earlier Juggernaut use is a trivia comparison, not a named current hull. Full credits and dates unchanged."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp27-devil-s-deal-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-devil-s-deal-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e11",
+              "locator": "Registered official guide / episode number and identity retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 4–23 and inspected still 13 / young Hera",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cham-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 1–23 / actual leader and father",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 4, 16, 22 / actual droid",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:gobi-glie",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 5–7, 11–15 / named family friend",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:eleni-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 1–23 / actual mother",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:clone-captain-howzer",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 6, 14, 21–23 / actual captain",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:orn-free-taa",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Shot and injured; no death certified.",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 1–2, 8, 14, 20–22 / actual senator, injured",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:crosshair",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 1, 11, 14–15 / actual surveillance and attack",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:rampart",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 1–23 / actual commander",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Caption and inspected still 13 / physical meeting aboard Marauder",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:37",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 1–23 / actual Ryloth strand",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:imperial-doonium-refinery",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 4, 10 / actual refinery",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions and inspected stills 12–13 / arrival and cockpit",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:2",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 4, 16, 22 / Chopper",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:15",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-devil-s-deal-gallery",
+                  "locator": "Captions 1–23 / named Syndullas and senator",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-eleni-syndulla",
+                  "locator": "Species / explicitly Twi’lek",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e12",
+          "scope": "All 27 narrative and 3 trivia captions checked against 113 selected records, with individually cited released stills and selected own-profile identities. Not a complete frame, background, weapon or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian",
+            "planets:22",
+            "starships:63",
+            "people:super-tactical-droid",
+            "people:rafa-martez",
+            "people:trace-martez",
+            "people:r7-a7",
+            "people:imperial-police-droid",
+            "people:tactical-droid",
+            "people:cad-bane",
+            "people:todo-360",
+            "people:avi-singh",
+            "people:gs-8",
+            "people:captain-bragg",
+            "people:bolo",
+            "people:ketch",
+            "planets:bracca",
+            "planets:bora-vio",
+            "planets:raxus",
+            "planets:droid-decommissioning-facility",
+            "starships:silver-angel",
+            "starships:justifier",
+            "starships:bracca-venator-wreck",
+            "species:dianoga",
+            "vehicles:flight-pod",
+            "people:hera-syndulla",
+            "people:cham-syndulla",
+            "people:chopper",
+            "people:gregor",
+            "planets:37",
+            "people:imperial-sentry-droid",
+            "starships:75",
+            "people:gobi-glie",
+            "people:eleni-syndulla",
+            "people:clone-captain-howzer",
+            "people:orn-free-taa",
+            "people:roland-durand",
+            "people:ruby",
+            "people:pyke-syndicate",
+            "people:tk-stormtrooper",
+            "people:clone-commando",
+            "planets:imperial-doonium-refinery",
+            "planets:daro",
+            "planets:imperial-base-on-daro",
+            "planets:nala-ses-private-lab",
+            "planets:tipoca-city",
+            "planets:kamino-tube-system",
+            "species:irling",
+            "starships:orn-free-taas-shuttle",
+            "starships:rho-class-transport-shuttle"
+          ],
+          "notes": [
+            "Hera sends a message before meeting the squad physically. One direct row covers both forms; it does not mean all early communication was face to face. Tech and Wrecker operate the Marauder, Hunter and Echo free the prisoners, and Omega helps Hera steal the refinery shuttle.",
+            "Howzer’s refusal and arrest do not prove a universal rule about clone chips or a death. Orn Free Taa is the subject of an assassination-attempt announcement, not an independently established physical appearance here. His private shuttle is the actual escape craft, distinct from the stolen Rho class.",
+            "Own Rho profile explicitly identifies the young Hera theft; no inference from a generic ship card. The refinery and Ryloth are separate settings. Final rendezvous is not independently named as another world. Vader/Palpatine novel history and earlier chain-code comparisons are not current bodily scenes.",
+            "The spotted surveillance droid is called a probe in the narrative, but no exact Imperial probe model is certified from that name alone in this selected review. Full end credits and dates unchanged."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp27-rescue-on-ryloth-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-rescue-on-ryloth-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e12",
+              "locator": "Registered official guide / episode number and identity retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 5–26 / rescue leader",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Caption 17 / Marauder attack",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Caption 17 / actual pilot",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Caption 18 / prison rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 5–26 / rescue and farewell",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:hera-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Earlier mediated message; later physical presence.",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 3–26 / message then physical rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:chopper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 3, 13–16 / actual droid and escape",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cham-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 1, 12, 18–25 / prisoner and rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:eleni-syndulla",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 1, 12, 18–25 / prisoner and rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:gobi-glie",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 18, 22–24 / freed prisoner",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:clone-captain-howzer",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 2, 9, 12, 21–23 / refusal and arrest",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:crosshair",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 19–23, 27 / actual pursuit",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:rampart",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 1–2, 6, 9, 27 / actual command",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:elite-squad",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 3, 19–23 / Crosshair’s actual force",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:37",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 1–27 / actual Ryloth operation",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:imperial-doonium-refinery",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 13–17, 27 / actual refinery",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 5, 17 / squad arrival and attack",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:orn-free-taas-shuttle",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 22–24 / senator’s actual escape craft",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-orn-free-taas-shuttle",
+                  "locator": "Main profile / senator’s secret hangar craft",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:rho-class-transport-shuttle",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 15–16 / actual stolen craft",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-rho-class-transport-shuttle",
+                  "locator": "Main profile / explicit young Hera theft identifies class",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:2",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 3, 13–16 / Chopper",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:15",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-rescue-on-ryloth-gallery",
+                  "locator": "Captions 1–26 / Syndullas and Gobi",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-eleni-syndulla",
+                  "locator": "Species / Twi’lek",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e13",
+          "scope": "All 24 narrative and 5 trivia captions checked against 113 selected records, with individually cited released stills and selected own-profile identities. Not a complete frame, background, weapon or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian",
+            "planets:22",
+            "starships:63",
+            "people:super-tactical-droid",
+            "people:rafa-martez",
+            "people:trace-martez",
+            "people:r7-a7",
+            "people:imperial-police-droid",
+            "people:tactical-droid",
+            "people:cad-bane",
+            "people:todo-360",
+            "people:avi-singh",
+            "people:gs-8",
+            "people:captain-bragg",
+            "people:bolo",
+            "people:ketch",
+            "planets:bracca",
+            "planets:bora-vio",
+            "planets:raxus",
+            "planets:droid-decommissioning-facility",
+            "starships:silver-angel",
+            "starships:justifier",
+            "starships:bracca-venator-wreck",
+            "species:dianoga",
+            "vehicles:flight-pod",
+            "people:hera-syndulla",
+            "people:cham-syndulla",
+            "people:chopper",
+            "people:gregor",
+            "planets:37",
+            "people:imperial-sentry-droid",
+            "starships:75",
+            "people:gobi-glie",
+            "people:eleni-syndulla",
+            "people:clone-captain-howzer",
+            "people:orn-free-taa",
+            "people:roland-durand",
+            "people:ruby",
+            "people:pyke-syndicate",
+            "people:tk-stormtrooper",
+            "people:clone-commando",
+            "planets:imperial-doonium-refinery",
+            "planets:daro",
+            "planets:imperial-base-on-daro",
+            "planets:nala-ses-private-lab",
+            "planets:tipoca-city",
+            "planets:kamino-tube-system",
+            "species:irling",
+            "starships:orn-free-taas-shuttle",
+            "starships:rho-class-transport-shuttle"
+          ],
+          "notes": [
+            "Roland and actual Pyke representatives are physically present; Isa Durand is only mentioned. A criminal organization is not a biological species. Kessel, Oba Diah and later Devaron history do not become current travel settings from their association with those groups.",
+            "Ruby is a named lizardlike companion, distinct from the irling insect species. Trivia 1 explicitly identifies the earlier Battle Scars delivery as Ruby. That existing episode review is preserved; a targeted additive connection is queued separately rather than silently replacing its original scope.",
+            "Ketch, Bolo and Cid are named actual participants. Irlings are explicitly identified by Tech and by their own Ord Mantell main profile. Mine carts remain unnamed generic equipment, with no new unsupported vehicle model or ship name.",
+            "Roland loses one horn and survives; no death or species-wide horn loss is inferred. A flashbang response does not certify every biological parameter. Full end credits and dates unchanged.",
+            "Echo is not individually named in the selected narrative captions used for this batch. The initial group reference alone does not certify his separate row; this is unestablished within scope, not an absence claim."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp27-infested-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-infested-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e13",
+              "locator": "Registered official guide / episode number and identity retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 3–24 / actual squad leader",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 5–7, 14, 18–21 / tunnel operation",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 18, 21 / insect identification and flashbang",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 4, 12, 17–24 / hostage and negotiations",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:cid",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 3–24 / actual employer",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:roland-durand",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 2–24 / actual rival",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:ruby",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 8–10, 23–24; trivia 1 / named companion",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-infested-trivia",
+                  "locator": "Trivia 1 / explicitly named Ruby",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:bolo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 8–10, 15–16 / actual patron",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:ketch",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 8–10, 15–16 / actual patron",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:pyke-syndicate",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 15–23 / actual representatives",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:irling",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 13, 18–21 / actual identified insects",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-irling",
+                  "locator": "Main profile / native Ord Mantell nocturnal winged species",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:27",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 1–24 / actual Ord Mantell story",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:cids-parlor",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 1–3, 15–24 / actual parlor",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-infested-gallery",
+                  "locator": "Captions 3, 21 / actual squad shuttle",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e14",
+          "scope": "All 27 narrative and 5 trivia captions checked against 113 selected records, with individually cited released stills and selected own-profile identities. Not a complete frame, background, weapon or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian",
+            "planets:22",
+            "starships:63",
+            "people:super-tactical-droid",
+            "people:rafa-martez",
+            "people:trace-martez",
+            "people:r7-a7",
+            "people:imperial-police-droid",
+            "people:tactical-droid",
+            "people:cad-bane",
+            "people:todo-360",
+            "people:avi-singh",
+            "people:gs-8",
+            "people:captain-bragg",
+            "people:bolo",
+            "people:ketch",
+            "planets:bracca",
+            "planets:bora-vio",
+            "planets:raxus",
+            "planets:droid-decommissioning-facility",
+            "starships:silver-angel",
+            "starships:justifier",
+            "starships:bracca-venator-wreck",
+            "species:dianoga",
+            "vehicles:flight-pod",
+            "people:hera-syndulla",
+            "people:cham-syndulla",
+            "people:chopper",
+            "people:gregor",
+            "planets:37",
+            "people:imperial-sentry-droid",
+            "starships:75",
+            "people:gobi-glie",
+            "people:eleni-syndulla",
+            "people:clone-captain-howzer",
+            "people:orn-free-taa",
+            "people:roland-durand",
+            "people:ruby",
+            "people:pyke-syndicate",
+            "people:tk-stormtrooper",
+            "people:clone-commando",
+            "planets:imperial-doonium-refinery",
+            "planets:daro",
+            "planets:imperial-base-on-daro",
+            "planets:nala-ses-private-lab",
+            "planets:tipoca-city",
+            "planets:kamino-tube-system",
+            "species:irling",
+            "starships:orn-free-taas-shuttle",
+            "starships:rho-class-transport-shuttle"
+          ],
+          "notes": [
+            "Rex contacts the squad by hologram in inspected released still 2. He is transmission, not a physical Daro visitor. Hunter, Tech and Echo enter the base; Omega and Wrecker remain with the Marauder and later attempt extraction. A Daro episode setting does not place all five inside the mountain base.",
+            "The prisoner names himself Gregor in caption 12. The narrative signal code CC-576 differs from the own-profile CC-5576-39; retain one named Gregor identity and do not add a new code fact. The commando in trivia 5 is designed to resemble Scorch; design resemblance alone does not certify a Scorch appearance or create a new profile.",
+            "Caption 8’s clone wording is separated from the explicit non-clone replacement explanation in 14. TK recruits and clone-commando trainers have distinct identities and roles, corroborated by the base and TK own profiles. Massiffs and unnamed gunship models remain outside the selected cohort.",
+            "Kamino is a separate actual scene with Rampart, Crosshair, Nala Se and Lama Su. Gregor survives his wound, Hunter wakes and is captured, and troops approach Lama Su: no new death fact for any of them. Older Gregor Clone Wars/Rebels history and McQuarrie design influence are not current scenes. Full end credits and dates unchanged."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp27-war-mantle-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-war-mantle-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e14",
+              "locator": "Registered official guide / episode number and identity retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 2–27 / actual rescue and capture",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Inspected still 2; captions 19–22 / shipboard member and extraction",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Inspected still 2; captions 3, 7–21 / base infiltration",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Inspected still 2; captions 7–21 / actual infiltration",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 3, 10, 19–22 / shipboard member and extraction",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:gregor",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Stunned/captured then wounded but survives.",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 1, 12–21 / named prisoner, wounded survivor",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp14-gregor",
+                  "locator": "Main profile / existing named Gregor identity; no code correction inferred",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:crosshair",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 4, 27 / physical report and prison visit",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:rampart",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 4, 25–26 / actual commander",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:nala-se",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 4–5 / actual scientist",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:72",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 5, 25–26 / actual prime minister",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tk-stormtrooper",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 11–18 / explicit replacement recruits",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-tk-stormtrooper",
+                  "locator": "Main profile / naturally born human replacement recruits",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:clone-commando",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 8, 14–18 / actual commandos",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-imperial-base-on-daro",
+                  "locator": "Main profile / clone commandos and TK troops",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:daro",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 3, 6–24 / rescue world",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:imperial-base-on-daro",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 7–24 / mountain base",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:10",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 4–5, 25–26 / separate Kamino strand",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Inspected still 2; captions 10, 19–23 / actual squad shuttle",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:32",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Captions 4–5, 25–26 / Nala Se and Lama Su",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-nala-se",
+                  "locator": "Species / Kaminoan",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:captain-rex",
+              "relation": "appearance",
+              "representation": "transmission",
+              "note": "Holographic contact, not a physical Daro visit.",
+              "evidence": [
+                {
+                  "sourceId": "supp27-war-mantle-gallery",
+                  "locator": "Caption and inspected released still 2 / projected hooded Rex",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "episodeId": "series:bad-batch:s1e15",
+          "scope": "All 26 narrative and 5 trivia captions checked against 113 selected records, with individually cited released stills and selected own-profile identities. Not a complete frame, background, weapon or credit inventory.",
+          "consideredTargets": [
+            "people:hunter",
+            "people:wrecker",
+            "people:tech",
+            "people:echo",
+            "people:crosshair",
+            "people:omega",
+            "people:kanan-jarrus",
+            "people:captain-rex",
+            "people:saw-gerrera",
+            "people:fennec-shand",
+            "people:imperial-probe-droid",
+            "people:b1-battle-droid",
+            "people:21",
+            "people:12",
+            "people:72",
+            "people:73",
+            "people:69",
+            "people:22",
+            "people:10",
+            "people:79",
+            "people:45",
+            "people:16",
+            "people:11",
+            "people:ahsoka-tano",
+            "planets:10",
+            "planets:19",
+            "planets:27",
+            "planets:9",
+            "planets:12",
+            "planets:pabu",
+            "starships:marauder",
+            "vehicles:53",
+            "vehicles:50",
+            "species:1",
+            "species:2",
+            "species:7",
+            "species:15",
+            "species:32",
+            "species:35",
+            "people:depa-billaba",
+            "people:nala-se",
+            "people:azi-3",
+            "people:cut-lawquane",
+            "people:suu-lawquane",
+            "people:shaeeah-lawquane",
+            "people:jek-lawquane",
+            "people:rampart",
+            "people:elite-squad",
+            "people:cid",
+            "people:muchi",
+            "people:raney",
+            "people:gonky",
+            "planets:kaller",
+            "planets:onderon",
+            "planets:ordo-moon",
+            "planets:pantora",
+            "planets:tipoca-city-training-facility",
+            "planets:cids-parlor",
+            "planets:old-ord-mantell-city",
+            "species:ordo-moon-dragon",
+            "species:nexu",
+            "species:rancor",
+            "species:brezak",
+            "species:zygerrian",
+            "planets:22",
+            "starships:63",
+            "people:super-tactical-droid",
+            "people:rafa-martez",
+            "people:trace-martez",
+            "people:r7-a7",
+            "people:imperial-police-droid",
+            "people:tactical-droid",
+            "people:cad-bane",
+            "people:todo-360",
+            "people:avi-singh",
+            "people:gs-8",
+            "people:captain-bragg",
+            "people:bolo",
+            "people:ketch",
+            "planets:bracca",
+            "planets:bora-vio",
+            "planets:raxus",
+            "planets:droid-decommissioning-facility",
+            "starships:silver-angel",
+            "starships:justifier",
+            "starships:bracca-venator-wreck",
+            "species:dianoga",
+            "vehicles:flight-pod",
+            "people:hera-syndulla",
+            "people:cham-syndulla",
+            "people:chopper",
+            "people:gregor",
+            "planets:37",
+            "people:imperial-sentry-droid",
+            "starships:75",
+            "people:gobi-glie",
+            "people:eleni-syndulla",
+            "people:clone-captain-howzer",
+            "people:orn-free-taa",
+            "people:roland-durand",
+            "people:ruby",
+            "people:pyke-syndicate",
+            "people:tk-stormtrooper",
+            "people:clone-commando",
+            "planets:imperial-doonium-refinery",
+            "planets:daro",
+            "planets:imperial-base-on-daro",
+            "planets:nala-ses-private-lab",
+            "planets:tipoca-city",
+            "planets:kamino-tube-system",
+            "species:irling",
+            "starships:orn-free-taas-shuttle",
+            "starships:rho-class-transport-shuttle"
+          ],
+          "notes": [
+            "Tarkin is a projected transmission in inspected released still 23. Rampart is physically aboard the departing command ship while communicating remotely; no bodily Tarkin visit to Kamino is inferred. Securing the chief scientist is reported, not a separately established Nala Se bodily scene.",
+            "Crosshair claims his chip was removed long ago. This is an attributed statement, not a dated operation or proof about every earlier decision. Hunter stuns him and Wrecker carries him; unconsciousness is not death.",
+            "ES-02 survives the confrontation and reports later; the named individual is not a claim that every Elite Squad member survives. The narrative’s TK label in one squad scene is not silently treated as a complete cross-model identification. No separate current TK row is certified here from that wording alone.",
+            "Actual training droids are not automatically the Rebels Imperial sentry type from a Related card. V-wing and other background model links remain unestablished. Bombarding Tipoca City’s facilities does not destroy Kamino as an entire planet or establish every Kaminoan’s death.",
+            "Private laboratory, city, training facility and tube system are distinct place levels. AZI-3 reports evacuation and droid shutdown; historical Fives/chip and A New Hope attack comparisons are not new character or Death Star appearances. Aiwhas and unnamed craft remain outside this selected cohort. Full credits and dates unchanged.",
+            "The existing Republic attack cruiser record has a legacy raw model spelling Senator-class Star Destroyer. This review does not silently equate it with the Imperial Venator context or certify its old specifications. A separate own-profile review must resolve that identity and retain provenance."
+          ],
+          "evidence": [
+            {
+              "sourceId": "supp27-return-to-kamino-gallery",
+              "locator": "All narrative captions / selected cohort review",
+              "note": ""
+            },
+            {
+              "sourceId": "supp27-return-to-kamino-trivia",
+              "locator": "All trivia captions / context and exclusions",
+              "note": ""
+            },
+            {
+              "sourceId": "supp06-batch-s1e15",
+              "locator": "Registered official guide / episode number and identity retained",
+              "note": ""
+            }
+          ],
+          "links": [
+            {
+              "targetId": "people:hunter",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 1–26 / actual captive and escape",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:wrecker",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 9, 12, 25 / actual squad member",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:tech",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 4, 9, 12 / actual squad member",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:echo",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 2, 9, 12 / repairs and rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:omega",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 2–25 / actual guide and rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:crosshair",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 1, 3, 7–25 / actual commander and captive",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:rampart",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "Physical presence; later offworld transmission to Tarkin.",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 3, 22–23 / actual commander, later offworld call",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:elite-squad",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 3, 8, 13, 17–22 / actual squad including ES-02",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:azi-3",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 10, 12, 14 / actual surviving droid",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:27",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Caption 2 / actual Ord Mantell repair stop",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:10",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 3–26 / actual Kamino rescue",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:tipoca-city",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 4–26 / actual city",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-tipoca-city",
+                  "locator": "Main profile / city on Kamino",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:nala-ses-private-lab",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 6, 9–10 / actual hidden lab",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-nala-ses-private-lab",
+                  "locator": "Main profile / explicit hidden lab and access",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:kamino-tube-system",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 5–6 / actual underwater access route",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp27-kamino-tube-system",
+                  "locator": "Main profile / underwater transport around Tipoca City",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "planets:tipoca-city-training-facility",
+              "relation": "setting",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 12–21 / actual training room and droid battle",
+                  "note": ""
+                },
+                {
+                  "sourceId": "supp25-tipoca-city-training-facility",
+                  "locator": "Main profile / established city training site, with current training-room narrative",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "starships:marauder",
+              "relation": "featured_ship",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 2, 4–5 / actual repaired shuttle and landing",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "species:2",
+              "relation": "appearance",
+              "representation": "direct",
+              "note": "",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Captions 10, 12, 14 / actual AZI-3",
+                  "note": ""
+                }
+              ]
+            },
+            {
+              "targetId": "people:12",
+              "relation": "appearance",
+              "representation": "transmission",
+              "note": "Actual holographic transmission, not bodily presence at Kamino.",
+              "evidence": [
+                {
+                  "sourceId": "supp27-return-to-kamino-gallery",
+                  "locator": "Caption and inspected released still 23 / projected Tarkin",
+                  "note": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

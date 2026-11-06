@@ -1,0 +1,301 @@
+{
+  "batch": "SUPPLEMENT-29",
+  "checkedAt": "2026-11-04",
+  "states": [
+    {
+      "label": "desktop current series scope",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Twenty-five of 47",
+          "pass": true
+        },
+        {
+          "term": "22 remain",
+          "pass": true
+        },
+        {
+          "term": "172 registered records",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop S2E5",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Selected episode connections (12)",
+          "pass": true
+        },
+        {
+          "term": "MEL-222",
+          "pass": true
+        },
+        {
+          "term": "Hunter",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop S2E6",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Selected episode connections (17)",
+          "pass": true
+        },
+        {
+          "term": "Gungi",
+          "pass": true
+        },
+        {
+          "term": "Wyyyschokk was an unused idea",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop S2E7",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Selected episode connections (13)",
+          "pass": true
+        },
+        {
+          "term": "representation as unspecified",
+          "pass": true
+        },
+        {
+          "term": "Tynnra Pamlo",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop S2E8",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Selected episode connections (20)",
+          "pass": true
+        },
+        {
+          "term": "Physical remains in a body bag",
+          "pass": true
+        },
+        {
+          "term": "Transmission",
+          "pass": true
+        },
+        {
+          "term": "Archival bombardment footage",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop S2E9",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Selected episode connections (10)",
+          "pass": true
+        },
+        {
+          "term": "Remote communication",
+          "pass": true
+        },
+        {
+          "term": "Transmission",
+          "pass": true
+        },
+        {
+          "term": "Benni Baro",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop episode source locator",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "172-record",
+          "pass": true
+        },
+        {
+          "term": "Inspected released stills 3 and 16",
+          "pass": true
+        },
+        {
+          "term": "Checked 2026-11-04",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop MEL identity",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "MEL-221 memories later transferred",
+          "pass": true
+        },
+        {
+          "term": "MEL-222",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop Gungi introduction",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Jedi youngling and survivor of Order 66",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop unidentified assassin introduction",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Unidentified clone exposed when Rex removes",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop command ship operation",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Backup databanks hold a copy of the command log",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop ship identity scope",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Operational ship instance",
+          "pass": true
+        },
+        {
+          "term": "exact class",
+          "pass": true
+        },
+        {
+          "term": "no transferred technical numbers",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "phone Ordo Tera site level",
+      "documentWidth": 320,
+      "viewport": 320,
+      "contains": [
+        {
+          "term": "Spaceport used by the Vanguard Axis",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "phone netcaster introduction",
+      "documentWidth": 320,
+      "viewport": 320,
+      "contains": [
+        {
+          "term": "Kashyyyk’s trees and web nests",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "phone archival evidence and body note",
+      "documentWidth": 320,
+      "viewport": 320,
+      "contains": [
+        {
+          "term": "Selected episode connections (20)",
+          "pass": true
+        },
+        {
+          "term": "Physical remains in a body bag",
+          "pass": true
+        },
+        {
+          "term": "Archival bombardment footage",
+          "pass": true
+        },
+        {
+          "term": "Transmission",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "phone remote Cid and current party",
+      "documentWidth": 320,
+      "viewport": 320,
+      "contains": [
+        {
+          "term": "Selected episode connections (10)",
+          "pass": true
+        },
+        {
+          "term": "Remote communication",
+          "pass": true
+        },
+        {
+          "term": "Transmission",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "label": "desktop exact Gungi search preview",
+      "documentWidth": 1280,
+      "viewport": 1280,
+      "contains": [
+        {
+          "term": "Gungi",
+          "pass": true
+        },
+        {
+          "term": "Selected details checked",
+          "pass": true
+        },
+        {
+          "term": "Open full record",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "browserWarningsOrErrors": [],
+  "screenshot": "gungi-preview.png",
+  "scope": "Seventeen targeted desktop/320px states: all five episode reviews, current scope, source jump/locators, selected introductory facts and ship identity scope, mobile archival/body/remote notes and exact search/preview. Not full-site or field performance coverage.",
+  "automationNote": "An initial long browser batch timed out and reset its bindings. No app failure inferred. Rebound the same IAB tab after inventory and reran the targeted observations; measurements saved incrementally."
+}

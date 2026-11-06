@@ -1,0 +1,353 @@
+{
+  "checkedAt": "2026-11-04",
+  "scope": "18 targeted states at 1280px and 320px, not full-site coverage. The test’s first expected substring and preview field expectations were corrected after reading the rendered UI; no application defect or code change was needed.",
+  "states": [
+    {
+      "label": "Series current review scope",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Fifteen of 47"
+        },
+        {
+          "pass": true,
+          "text": "32 remain"
+        },
+        {
+          "pass": true,
+          "text": "113 records"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "THE BAD BATCH",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "viewport": 1280
+    },
+    {
+      "label": "Devils Deal scoped identities",
+      "contains": [
+        {
+          "pass": true,
+          "text": "15"
+        },
+        {
+          "pass": true,
+          "text": "like a niece"
+        },
+        {
+          "pass": true,
+          "text": "assassination attempt"
+        },
+        {
+          "pass": true,
+          "text": "physical Ryloth visitor"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "THE BAD BATCH",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "viewport": 1280
+    },
+    {
+      "label": "Episode 12 scoped connections",
+      "contains": [
+        {
+          "pass": true,
+          "text": "21"
+        },
+        {
+          "pass": true,
+          "text": "Rho-class"
+        },
+        {
+          "pass": true,
+          "text": "Howzer"
+        },
+        {
+          "pass": true,
+          "text": "assassination-attempt"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "THE BAD BATCH",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "viewport": 1280
+    },
+    {
+      "label": "Episode 13 scoped connections",
+      "contains": [
+        {
+          "pass": true,
+          "text": "14"
+        },
+        {
+          "pass": true,
+          "text": "Ruby"
+        },
+        {
+          "pass": true,
+          "text": "Irling"
+        },
+        {
+          "pass": true,
+          "text": "Battle Scars"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "THE BAD BATCH",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "viewport": 1280
+    },
+    {
+      "label": "Episode 14 scoped connections",
+      "contains": [
+        {
+          "pass": true,
+          "text": "18"
+        },
+        {
+          "pass": true,
+          "text": "Transmission"
+        },
+        {
+          "pass": true,
+          "text": "CC-576"
+        },
+        {
+          "pass": true,
+          "text": "CC-5576-39"
+        },
+        {
+          "pass": true,
+          "text": "Scorch"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "THE BAD BATCH",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "viewport": 1280
+    },
+    {
+      "label": "Episode 15 scoped connections",
+      "contains": [
+        {
+          "pass": true,
+          "text": "18"
+        },
+        {
+          "pass": true,
+          "text": "Transmission"
+        },
+        {
+          "pass": true,
+          "text": "Tarkin"
+        },
+        {
+          "pass": true,
+          "text": "does not destroy Kamino"
+        },
+        {
+          "pass": true,
+          "text": "Senator-class"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "THE BAD BATCH",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "viewport": 1280
+    },
+    {
+      "label": "Narrative source jump and locators",
+      "contains": [
+        {
+          "pass": true,
+          "text": "All 27"
+        },
+        {
+          "pass": true,
+          "text": "No open content licence"
+        },
+        {
+          "pass": true,
+          "text": "released still 2"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "THE BAD BATCH",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#source-supp27-war-mantle-gallery",
+      "viewport": 1280
+    },
+    {
+      "label": "people/eleni-syndulla fact",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Mother of Hera Syndulla and spouse of Cham Syndulla"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "ELENI SYNDULLA",
+      "url": "http://127.0.0.1:3100/people/eleni-syndulla#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "people/clone-captain-howzer fact",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Clone captain serving on Ryloth"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "CLONE CAPTAIN HOWZER",
+      "url": "http://127.0.0.1:3100/people/clone-captain-howzer#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "planets/imperial-base-on-daro fact",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Concealed Imperial mountain base on Daro"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "IMPERIAL BASE ON DARO",
+      "url": "http://127.0.0.1:3100/planets/imperial-base-on-daro#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "people/tk-stormtrooper fact",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Naturally born human recruits trained by clone commandos"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "TK STORMTROOPER — EARLY IMPERIAL TYPE",
+      "url": "http://127.0.0.1:3100/people/tk-stormtrooper#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "people/ruby fact",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Companion of Roland Durand"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "RUBY",
+      "url": "http://127.0.0.1:3100/people/ruby#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "species/irling fact",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Nocturnal"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "IRLING",
+      "url": "http://127.0.0.1:3100/species/irling#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "starships/rho-class-transport-shuttle fact",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Personnel transport for the Imperial refinery on Ryloth"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "RHO-CLASS TRANSPORT SHUTTLE — TYPE",
+      "url": "http://127.0.0.1:3100/starships/rho-class-transport-shuttle#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "Desktop search and exact selected preview",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Eleni Syndulla"
+        },
+        {
+          "pass": true,
+          "text": "Selected details checked"
+        },
+        {
+          "pass": true,
+          "text": "5"
+        },
+        {
+          "pass": true,
+          "text": "Open full record"
+        }
+      ],
+      "documentWidth": 1280,
+      "heading": "FACES OF\nTHE GALAXY.",
+      "url": "http://127.0.0.1:3100/people",
+      "viewport": 1280
+    },
+    {
+      "label": "320px Return To Kamino review",
+      "contains": [
+        {
+          "pass": true,
+          "text": "18"
+        },
+        {
+          "pass": true,
+          "text": "Transmission"
+        },
+        {
+          "pass": true,
+          "text": "does not destroy Kamino"
+        }
+      ],
+      "documentWidth": 320,
+      "heading": "THE BAD BATCH",
+      "url": "http://127.0.0.1:3100/series/the-bad-batch#episodes",
+      "viewport": 320
+    },
+    {
+      "label": "320px transport infrastructure profile",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Underwater transport network around Tipoca City"
+        }
+      ],
+      "documentWidth": 320,
+      "heading": "KAMINO TUBE SYSTEM",
+      "url": "http://127.0.0.1:3100/planets/kamino-tube-system#attributes",
+      "viewport": 320
+    },
+    {
+      "label": "320px search and exact Ruby preview",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Ruby"
+        },
+        {
+          "pass": true,
+          "text": "Selected details checked"
+        },
+        {
+          "pass": true,
+          "text": "Open full record"
+        }
+      ],
+      "documentWidth": 320,
+      "heading": "FACES OF\nTHE GALAXY.",
+      "url": "http://127.0.0.1:3100/people",
+      "viewport": 320
+    }
+  ],
+  "browserWarningsOrErrors": []
+}

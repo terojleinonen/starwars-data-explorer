@@ -1,0 +1,278 @@
+{
+  "batch": "PROFILE-17",
+  "checkedAt": "2026-11-04",
+  "states": [
+    {
+      "label": "Jar Jar published qualified facial design and withheld birth year",
+      "url": "http://127.0.0.1:3100/people/jar-jar-binks#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "196 cm",
+        "Orange-hued face — design commentary",
+        "Not established",
+        "Impersonates Boss Lyonie"
+      ],
+      "forbidden": [
+        "52BBY",
+        "66 kg"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Jar Jar homeworld and temporary disguise limits",
+      "url": "http://127.0.0.1:3100/people/jar-jar-binks#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "shared homeworld",
+        "not a complete body palette",
+        "not a new film/television appearance"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "Qualified colour source locator",
+      "url": "http://127.0.0.1:3100/people/jar-jar-binks#source-profile17-gungans",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "No open content licence identified",
+        "Item 3",
+        "no universal full-body palette"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "Tarpals preserved identity and chronological ranks",
+      "url": "http://127.0.0.1:3100/people/roos-tarpals#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "224 cm",
+        "General Tarpals",
+        "Patrol chief",
+        "during the Clone Wars",
+        "Sacrifices his life"
+      ],
+      "forbidden": [
+        "82 kg"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Tarpals unresolved origin and separate death context",
+      "url": "http://127.0.0.1:3100/people/roos-tarpals#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "legacy homeworld link remains legacy",
+        "Rish Loo’s separate death",
+        "Roos"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "Nass nominal height and scoped Ankura group",
+      "url": "http://127.0.0.1:3100/people/rugor-nass#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "206 cm",
+        "Boss Nass",
+        "Ankura — 2018 official article terminology",
+        "Not established"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "Nass identity is distinct from Lyonie",
+      "url": "http://127.0.0.1:3100/people/rugor-nass#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "not a new biological taxonomy",
+        "do not establish a Boss Nass Clone Wars appearance",
+        "Rugor"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "Ric published height and source spelling",
+      "url": "http://127.0.0.1:3100/people/ric-olie#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "183 cm",
+        "Ric Olie",
+        "Leader of Bravo Flight",
+        "Reports directly to Captain Panaka",
+        "Not established"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "Ric named craft and scope-date distinction",
+      "url": "http://127.0.0.1:3100/people/ric-olie#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "30 October",
+        "4 November 2026",
+        "the later Naboo star skiff",
+        "Ric Olié"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "Reused Ric source retains original date and new claim date",
+      "url": "http://127.0.0.1:3100/people/ric-olie#source-profile08-ric-olie",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "2026-10-30",
+        "PROFILE-17, 4 November 2026",
+        "Height 1.83 m"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "Panaka explicit name and novel-scoped role",
+      "url": "http://127.0.0.1:3100/people/quarsh-panaka#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "183 cm",
+        "Quarsh Panaka",
+        "Imperial moff — Leia, Princess of Alderaan novel context",
+        "Not established"
+      ],
+      "forbidden": [
+        "62BBY"
+      ],
+      "pass": true
+    },
+    {
+      "label": "Panaka canon novel is distinct from Legends and film rank",
+      "url": "http://127.0.0.1:3100/people/quarsh-panaka#attributes",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "nor a new Leia screen appearance",
+        "Panaka is distinct from Gregar Typho",
+        "not independently a personal homeworld"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "320 px Jar Jar qualified facts",
+      "url": "http://127.0.0.1:3100/people/jar-jar-binks#attributes",
+      "width": 320,
+      "scrollWidth": 320,
+      "expected": [
+        "196 cm",
+        "Orange-hued face",
+        "Not established"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "320 px Tarpals long fate row",
+      "url": "http://127.0.0.1:3100/people/roos-tarpals#attributes",
+      "width": 320,
+      "scrollWidth": 320,
+      "expected": [
+        "224 cm",
+        "capture Grievous",
+        "Not established"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "320 px Nass group row",
+      "url": "http://127.0.0.1:3100/people/rugor-nass#attributes",
+      "width": 320,
+      "scrollWidth": 320,
+      "expected": [
+        "206 cm",
+        "Ankura",
+        "Not established"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "320 px Ric role and withheld values",
+      "url": "http://127.0.0.1:3100/people/ric-olie#attributes",
+      "width": 320,
+      "scrollWidth": 320,
+      "expected": [
+        "183 cm",
+        "Bravo Flight",
+        "Not established"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "320 px Panaka long novel role",
+      "url": "http://127.0.0.1:3100/people/quarsh-panaka#attributes",
+      "width": 320,
+      "scrollWidth": 320,
+      "expected": [
+        "183 cm",
+        "Imperial moff",
+        "novel context",
+        "Not established"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "Retained numeric address redirects to named Jar Jar profile",
+      "url": "http://127.0.0.1:3100/people/jar-jar-binks",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "Jar Jar Binks",
+        "Gungan representative"
+      ],
+      "forbidden": [],
+      "pass": true
+    },
+    {
+      "label": "Collection search and explicit Ric preview",
+      "url": "http://127.0.0.1:3100/people",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "expected": [
+        "Ric Olié",
+        "Selected details checked"
+      ],
+      "forbidden": [],
+      "pass": true
+    }
+  ],
+  "notes": [
+    "A mistyped Ric QA address /people/ric-oli received the expected 404; corrected to the existing /people/ric-olie slug. No application route change.",
+    "Two scope assertions were corrected to match the existing prose wording (Ric later star skiff and Panaka neither/nor); no content or UI fix was needed."
+  ],
+  "consoleWarningsAndErrors": [],
+  "passedStates": 19,
+  "result": "pass",
+  "limitations": [
+    "Scoped browser checks of five affected profiles, claim locators, source reuse, numeric redirect and collection preview; not full-site browser coverage or field performance measurements.",
+    "Viewport 1280×720 and 320×800."
+  ]
+}

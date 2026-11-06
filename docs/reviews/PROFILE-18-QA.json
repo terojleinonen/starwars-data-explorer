@@ -1,0 +1,447 @@
+{
+  "checkedAt": "2026-11-04",
+  "scope": "Twenty targeted browser states at 1280px desktop and 320px phone width: all five published fact tables and review scopes, archived/current source evidence, numeric redirect and exact desktop/mobile search previews. Not full-site coverage or field performance measurement.",
+  "states": [
+    {
+      "label": "Republic cruiser corrected class and length",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Venator-class Star Destroyer"
+        },
+        {
+          "pass": true,
+          "text": "1,155 m"
+        },
+        {
+          "pass": true,
+          "text": "Not established"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [
+        {
+          "pass": true,
+          "text": "Senator-class Star Destroyer"
+        },
+        {
+          "pass": true,
+          "text": "1137"
+        }
+      ],
+      "heading": "REPUBLIC ATTACK CRUISER",
+      "url": "http://127.0.0.1:3100/starships/republic-attack-cruiser#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "Republic cruiser type and wreck limits",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Bracca wreck"
+        },
+        {
+          "pass": true,
+          "text": "not copied"
+        },
+        {
+          "pass": true,
+          "text": "LEGO model measurements"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "REPUBLIC ATTACK CRUISER",
+      "url": "http://127.0.0.1:3100/starships/republic-attack-cruiser#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "v-wing published facts",
+      "contains": [
+        {
+          "pass": true,
+          "text": "7.9 m"
+        },
+        {
+          "pass": true,
+          "text": "Cockpit between two ion engines"
+        },
+        {
+          "pass": true,
+          "text": "Not established"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "V-WING",
+      "url": "http://127.0.0.1:3100/starships/v-wing#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "v-wing review boundaries",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Alpha-3 Nimbus"
+        },
+        {
+          "pass": true,
+          "text": "Neither a 1.0 hyperdrive nor absence"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "V-WING",
+      "url": "http://127.0.0.1:3100/starships/v-wing#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "republic-assault-ship published facts",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Acclamator-class military transport"
+        },
+        {
+          "pass": true,
+          "text": "752 m (2007 film profile)"
+        },
+        {
+          "pass": true,
+          "text": "Rothana Heavy Engineering (2007 film profile)"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "REPUBLIC ASSAULT SHIP",
+      "url": "http://127.0.0.1:3100/starships/republic-assault-ship#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "republic-assault-ship review boundaries",
+      "contains": [
+        {
+          "pass": true,
+          "text": "exact I suffix"
+        },
+        {
+          "pass": true,
+          "text": "16,000 passengers"
+        },
+        {
+          "pass": true,
+          "text": "Expanded Universe tab"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "REPUBLIC ASSAULT SHIP",
+      "url": "http://127.0.0.1:3100/starships/republic-assault-ship#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "trade-federation-cruiser published facts",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Providence-class carrier/destroyer (2005 film profile)"
+        },
+        {
+          "pass": true,
+          "text": "1,088 m (2005 film profile)"
+        },
+        {
+          "pass": true,
+          "text": "Free Dac Volunteers, Pammant Docks"
+        },
+        {
+          "pass": true,
+          "text": "Invisible Hand"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "TRADE FEDERATION CRUISER",
+      "url": "http://127.0.0.1:3100/starships/trade-federation-cruiser#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "trade-federation-cruiser review boundaries",
+      "contains": [
+        {
+          "pass": true,
+          "text": "larger profile is not copied"
+        },
+        {
+          "pass": true,
+          "text": "Obi-Wan is aboard"
+        },
+        {
+          "pass": true,
+          "text": "old pilots link remains legacy"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "TRADE FEDERATION CRUISER",
+      "url": "http://127.0.0.1:3100/starships/trade-federation-cruiser#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "theta-class-t-2c-shuttle published facts",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Theta-class shuttle"
+        },
+        {
+          "pass": true,
+          "text": "18.5 m (2007 film profile)"
+        },
+        {
+          "pass": true,
+          "text": "Cygnus Spaceworks (2007 film profile)"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "THETA-CLASS T-2C SHUTTLE",
+      "url": "http://127.0.0.1:3100/starships/theta-class-t-2c-shuttle#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "theta-class-t-2c-shuttle review boundaries",
+      "contains": [
+        {
+          "pass": true,
+          "text": "T-2c suffix remains unsupported"
+        },
+        {
+          "pass": true,
+          "text": "Palpatine is a user/passenger"
+        },
+        {
+          "pass": true,
+          "text": "Expanded Universe tab"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "THETA-CLASS T-2C SHUTTLE",
+      "url": "http://127.0.0.1:3100/starships/theta-class-t-2c-shuttle#attributes",
+      "viewport": 1280
+    },
+    {
+      "label": "Archived Theta source jump and dated locators",
+      "contains": [
+        {
+          "pass": true,
+          "text": "5 December 2007"
+        },
+        {
+          "pass": true,
+          "text": "The Movies / Size sidebar: length"
+        },
+        {
+          "pass": true,
+          "text": "No open content licence"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "THETA-CLASS T-2C SHUTTLE",
+      "url": "http://127.0.0.1:3100/starships/theta-class-t-2c-shuttle#source-profile18-theta-film-2007",
+      "viewport": 1280,
+      "pinnedArchiveHref": "https://web.archive.org/web/20071205123212/http://www.starwars.com/databank/starship/thetaclassshuttle/"
+    },
+    {
+      "label": "Reused Republic source retains date and new scope",
+      "contains": [
+        {
+          "pass": true,
+          "text": "2026-10-26"
+        },
+        {
+          "pass": true,
+          "text": "Scope extension checked 4 November 2026"
+        },
+        {
+          "pass": true,
+          "text": "Length 1155m"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "REPUBLIC ATTACK CRUISER",
+      "url": "http://127.0.0.1:3100/starships/republic-attack-cruiser#source-pilot-republic-cruiser",
+      "viewport": 1280
+    },
+    {
+      "label": "Legacy numeric cruiser redirect",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Venator-class Star Destroyer"
+        },
+        {
+          "pass": true,
+          "text": "1,155 m"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [],
+      "heading": "REPUBLIC ATTACK CRUISER",
+      "url": "http://127.0.0.1:3100/starships/republic-attack-cruiser",
+      "viewport": 1280
+    },
+    {
+      "label": "Desktop Venator search and exact preview",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Republic attack cruiser"
+        },
+        {
+          "pass": true,
+          "text": "Venator-class Star Destroyer"
+        },
+        {
+          "pass": true,
+          "text": "Selected details checked"
+        }
+      ],
+      "documentWidth": 1280,
+      "excludes": [
+        {
+          "pass": true,
+          "text": "Senator-class"
+        }
+      ],
+      "heading": "BUILT FOR\nTHE UNKNOWN.",
+      "url": "http://127.0.0.1:3100/starships",
+      "viewport": 1280
+    },
+    {
+      "label": "320px republic-attack-cruiser facts",
+      "contains": [
+        {
+          "pass": true,
+          "text": "Venator-class Star Destroyer"
+        },
+        {
+          "pass": true,
+          "text": "1,155 m"
+        }
+      ],
+      "documentWidth": 320,
+      "excludes": [],
+      "heading": "REPUBLIC ATTACK CRUISER",
+      "url": "http://127.0.0.1:3100/starships/republic-attack-cruiser#attributes",
+      "viewport": 320
+    },
+    {
+      "label": "320px v-wing facts",
+      "contains": [
+        {
+          "pass": true,
+          "text": "7.9 m"
+        },
+        {
+          "pass": true,
+          "text": "Not established"
+        }
+      ],
+      "documentWidth": 320,
+      "excludes": [],
+      "heading": "V-WING",
+      "url": "http://127.0.0.1:3100/starships/v-wing#attributes",
+      "viewport": 320
+    },
+    {
+      "label": "320px republic-assault-ship facts",
+      "contains": [
+        {
+          "pass": true,
+          "text": "752 m (2007 film profile)"
+        },
+        {
+          "pass": true,
+          "text": "Acclamator-class military transport"
+        }
+      ],
+      "documentWidth": 320,
+      "excludes": [],
+      "heading": "REPUBLIC ASSAULT SHIP",
+      "url": "http://127.0.0.1:3100/starships/republic-assault-ship#attributes",
+      "viewport": 320
+    },
+    {
+      "label": "320px trade-federation-cruiser facts",
+      "contains": [
+        {
+          "pass": true,
+          "text": "1,088 m (2005 film profile)"
+        },
+        {
+          "pass": true,
+          "text": "Free Dac Volunteers"
+        }
+      ],
+      "documentWidth": 320,
+      "excludes": [],
+      "heading": "TRADE FEDERATION CRUISER",
+      "url": "http://127.0.0.1:3100/starships/trade-federation-cruiser#attributes",
+      "viewport": 320
+    },
+    {
+      "label": "320px theta-class-t-2c-shuttle facts",
+      "contains": [
+        {
+          "pass": true,
+          "text": "18.5 m (2007 film profile)"
+        },
+        {
+          "pass": true,
+          "text": "Theta-class shuttle"
+        }
+      ],
+      "documentWidth": 320,
+      "excludes": [],
+      "heading": "THETA-CLASS T-2C SHUTTLE",
+      "url": "http://127.0.0.1:3100/starships/theta-class-t-2c-shuttle#attributes",
+      "viewport": 320
+    },
+    {
+      "label": "320px V-wing search and withheld model preview",
+      "contains": [
+        {
+          "pass": true,
+          "text": "V-wing"
+        },
+        {
+          "pass": true,
+          "text": "Starfighter"
+        },
+        {
+          "pass": true,
+          "text": "Selected details checked"
+        }
+      ],
+      "documentWidth": 320,
+      "excludes": [
+        {
+          "pass": true,
+          "text": "Alpha-3 Nimbus"
+        },
+        {
+          "pass": true,
+          "text": "1.0"
+        }
+      ],
+      "heading": "BUILT FOR\nTHE UNKNOWN.",
+      "url": "http://127.0.0.1:3100/starships",
+      "viewport": 320
+    }
+  ],
+  "browserWarningsOrErrors": []
+}
