@@ -1,16 +1,26 @@
-# Star Wars Universe
+# The Galactic Memory — Star Wars Data Explorer
 
-An independent, cinematic Star Wars archive covering the Lucas and Disney creative eras. Explore films, series, characters, worlds, species and craft through connected records with traceable sources.
+An independent, cinematic Star Wars archive. Enter through the history of the galaxy, follow documented connections between records, and collect your own questions on a personal research desk.
 
-The application uses its own local SQLite database. Builds and page visits do not contact SWAPI, the original website or external content APIs. Preserved legacy data and reviewed editorial additions remain clearly distinguished; the archive is a work in progress, not a fully verified encyclopaedia.
+The Galactic Memory presents an unknown keeper with access to **Jedi archives**, **Imperial records** and **Holocron knowledge**. These are three visual reading perspectives on the same collection, not three separate source databases. Amber and gold, deep indigo, original archive interiors and cinematic typography define the interface. Dark/light themes and cinematic/classic headings are available in **Archive settings**.
+
+The application reads its own local SQLite database. Builds and page visits do not contact SWAPI or external content APIs. Legacy records, checked details, reference-only links and personal interpretations retain distinct meanings. This is a developing source-led archive, not a fully verified encyclopaedia.
 
 ## Run locally
 
-Use Node.js 22.13 or later (Node.js 24 recommended) and pnpm 12.15.0.
+Use Node.js **22.13 or later** and **pnpm 12.15.0**. Node.js 24 or later is suitable for the built-in SQLite support.
 
 ```sh
 pnpm install
 pnpm dev
+```
+
+Open [http://127.0.0.1:3000](http://127.0.0.1:3000). No environment variables or external content API credentials are required.
+
+For the development preview used during interface work:
+
+```sh
+pnpm exec next dev --hostname 127.0.0.1 --port 3100
 ```
 
 For a production preview:
@@ -20,104 +30,133 @@ pnpm check
 pnpm start
 ```
 
-Both development and the default production preview use [http://127.0.0.1:3000](http://127.0.0.1:3000). No environment variables or external content API are required. The application reads `data/archive.sqlite`; Next.js output tracing includes this file in server deployments. Keep it with the application when deploying.
+Keep `data/archive.sqlite` with the application when deploying. Next.js output tracing explicitly includes it. The app uses server rendering and prerendered pages; it is not a static HTML export.
 
-## Pages and navigation
+## Find a way into the archive
 
-- `/`: cinematic hero with a gold **Enter Archive** button linking to `/films`, followed by the archive overview, current collection counts, featured works, collection directory, creative eras and editorial approach. There is no homepage search field. The top bar contains only the logo and wordmark.
-- `/#archive`: the overview is part of the homepage. The old `/archive` address permanently redirects here.
-- `/films`, `/series`: individual SVG/CSS title cards, search, creative-era and collection/format filters, sorting and pagination.
-- `/people`, `/planets`, `/starships`, `/vehicles`, `/species`: themed collections with local search, filters, list/grid views and previews.
-- `/<category>/<slug>`: record descriptions, facts, connections, selected credits and source evidence. Film pages include documented versions and releases; selected series include episode guides. Original numeric addresses redirect to named pages.
-- `/timeline`: real-world release chronology, filterable by films and series.
-- `/sources`: source registry, attribution, reuse notes and import methodology.
+The homepage is a one-page portal with three entry paths: **Follow the history**, **Find a familiar name** and **Trace the connections**. Collection statistics sit at the bottom. The shared navigation groups destinations under **History**, **Galaxy**, **Connections** and **Archive**, alongside a name search, appearance settings and the recent-memory trail.
 
-Archive pages retain a Home link in the top bar. Home and both homepage wordmarks link to `/` without a section fragment and return to the beginning, including when already on the homepage. Breadcrumb links still return directly to the homepage overview.
+| Route | Purpose |
+| --- | --- |
+| `/` | Portal, history chapters, record search, starting connections and archive overview |
+| `/#archive` | Homepage overview; the former `/archive` address redirects here |
+| `/history` | Saga chapters and connected works, characters and worlds |
+| `/galaxy` | Schematic galactic atlas with reviewed location details and connections |
+| `/war-room` | Rebel war map of documented operational relationships |
+| `/investigate` | Full-archive connection explorer with graph/list views and source evidence |
+| `/compare` | Shared connections between two records, with evidence for each side |
+| `/compare?mode=path` | A shortest recorded connection path; `scope=checked` restricts it to checked links |
+| `/research` | Personal research desks, notes, groups, saved views and overview map |
+| `/films`, `/series` | Screen-work collections with individual SVG/CSS title cards and filters |
+| `/people`, `/planets`, `/starships`, `/vehicles`, `/species` | Themed record collections, search and previews |
+| `/<category>/<slug>` | Record workspace: connections, recorded details and sources; numeric legacy URLs redirect here |
+| `/timeline` | Real-world release chronology for films and series |
+| `/sources` | Source registry, attribution, reuse notes and review methodology |
 
-The desktop sidebar contains the seven collections, timeline and sources without a duplicate Home entry. At 760 px and below, a hamburger menu replaces the horizontal scrolling navigation. It provides the same nine destinations, indicates the current collection, and closes with Escape, an outside click, keyboard focus leaving the menu, or a destination selection. Escape returns focus to the menu button; switching back to the desktop layout resets the mobile menu.
+The history atlas uses saga/episode order where recorded; it does not invent a complete dated BBY/ABY chronology. Galactic positions are schematic, not measured coordinates or hyperspace routes. The war map combines relationships from different periods, not simultaneous front lines or territorial control.
 
-The interface is in English. The shared reading system uses amber for screen works, copper for personnel, turquoise for worlds and life, blue for craft, and lavender for sources. Text labels and symbols accompany the colours.
+## Explore connected memories
+
+Select a graph node to inspect its record and connection evidence. **Explore from here** moves that memory to the center; the trail lets you return through earlier centers. Filters, pagination and list views keep larger neighborhoods manageable. Supported browsers animate graph recentering; reduced-motion preferences and unsupported browsers retain a direct state update.
+
+Record constellations keep their exploration state in the URL. **Copy exploration link** includes the trail, selected memory, category filter and presentation. Comparison and path views can also be shared by URL, and record pages retain a return link to their originating comparison. Citations open the source workspace with a return to the cited passage.
+
+Shared neighbors and graph paths describe recorded relationships. They do not prove that two people met or participated in the same event. Imported relation labels remain visible; archive pairs use `↔` so the interface does not imply an unsupported direction. Read the source context to interpret a relationship.
+
+## Build a personal research desk
+
+1. Open **Add to research desk** in a graph inspector, select a desk and pin the memory without leaving the graph. Existing cards are recognized instead of duplicated. Record pages also provide an entry to the desk.
+2. Create and rename separate desks. Search for more records, add personal notes and drag cards by their headers. Checkboxes select multiple cards for grouping and movement.
+3. Name card groups and move them together. Add labeled **personal interpretation** links between cards; these remain separate from archive evidence.
+4. Pan empty space, zoom, use **Fit all**, or click/drag the **Overview** map. The overview supports arrow keys, Shift for a larger move and Enter to fit the desk.
+5. Save named views to remember position, zoom and graph/list presentation. Views use the current cards and content; they are navigation bookmarks, not historical copies of a desk.
+6. Use **Focus mode** for the full browser content area. **Tools** opens the editing panel; **Connections** opens recorded and personal relationships, including in list presentation. Opening a saved view clears the panels. Escape closes evidence, then the open panel, then focus mode.
+
+Gold marks checked archive connections; lavender dots indicate pending/reference links. Cyan diamonds mark personal interpretations. Labels and source disclosures accompany the colours. Undo restores recent desk edits, including removed cards, annotations and views.
+
+### Local storage and backups
+
+Research desks are saved in this browser's **IndexedDB**, separately from `data/archive.sqlite`. Notes, card positions, groups, personal connections and saved views never modify the archive. There is no account, server synchronization or multi-user collaboration. Appearance preferences use `localStorage`; the recent-memory trail uses `sessionStorage`.
+
+**Export all desks** downloads a JSON backup. **Import desks** adds imported desks as new copies rather than replacing existing research. Older single-desk backups are supported. Clearing site data or changing browser/origin can make local desks unavailable; export a backup before moving devices or hosting addresses. The development origins on ports 3000 and 3100 have separate browser storage. Browser test desks are not seeded into the repository.
+
+Limits per desk: 500 cards, 2,000 personal connections and 50 saved views; a collection can contain 100 desks. See [research workspace notes](docs/ui/RESEARCH_DESK.md) for implementation and preservation details.
 
 ## Data and review status
 
-Snapshot: **3 November 2026**, after SUPPLEMENT-26 and PROFILE-16.
+Dataset snapshot: **4 November 2026**, after SUPPLEMENT-29 and PROFILE-19. The Galactic Memory interface refresh preserves this dataset; it adds presentation and separately stored personal workspace state.
 
 | Dataset | Current scope |
 | --- | --- |
-| Records | 696: 260 preserved legacy records and 436 editorial additions |
+| Records | 758: 260 preserved legacy records and 498 editorial additions |
 | Screen works | 13 films and 11 series; each has a first scoped production review |
-| Fact fields | 3,042: 996 verified, 521 reviewed but unestablished, 1,525 legacy fields awaiting review |
-| Directed work/context links | 2,628: 1,742 verified, 883 legacy, 3 reference-only |
-| Sources and citations | 991 source records and 7,860 claim-level citations |
+| Fact fields | 3,161: 1,144 verified, 622 reviewed but unestablished, 1,395 legacy fields awaiting review |
+| Directed work/context links | 2,925: 2,068 verified, 854 legacy, 3 reference-only |
+| Sources and citations | 1,094 source records and 9,076 claim-level citations |
 | Selected production credits | 576 ordinary credits and 10 edition-specific credits |
 | Versions and releases | 26 editions and 82 sourced release-history events |
 | Episode register | 151 guide entries covering 160 numbered parts across five series |
-| Episode reviews | 114 scoped reviews and 1,509 selected episode connections |
+| Episode reviews | 129 scoped reviews and 1,744 selected episode connections |
 | Episode writing roles | 65 person–role rows |
-| Supporting profiles | 418 new introductory profiles and 80 reviewed legacy profiles; 174 legacy supporting profiles await their first own review |
+| Supporting profiles | 480 new introductory profiles and 95 reviewed legacy profiles; 159 legacy supporting profiles await their first own review |
 
-Counts describe different units, not a completion percentage. Anakin and Vader remain separate inherited records with a sourced identity connection, so record counts are not counts of unique individuals. The production selection is incomplete; the [production inventory](docs/catalogue/TEOSLUETTELO-01.md) and [master TODO](TODO-JA-ETENEMISSUUNNITELMA.md) track missing works and the intake queue.
+Counts describe different units, not a completion percentage. Anakin and Vader remain separate inherited records with a sourced identity connection. The [production inventory](docs/catalogue/TEOSLUETTELO-01.md) and [master TODO](TODO-JA-ETENEMISSUUNNITELMA.md) track missing works and the review queue.
 
-A one-time capture on 25 October 2026 preserved the original website's six actual collections. Their upstream was SWAPI. Local preservation removes that service dependency; it does not establish the original fact sources, accuracy or reuse terms. Imported fields retain their provenance and review status. Unestablished values are withheld from published fact values and previews while original raw values and assessment history remain recoverable.
+A one-time capture on 25 October 2026 preserved the original website's six collections, whose upstream was SWAPI. Local preservation removes the live service dependency; it does not establish original fact sources, accuracy or reuse terms. Imported fields retain provenance and review status. Unestablished values are withheld from published facts while raw values and assessment history remain recoverable.
 
-Checked details have individual citations and visible review scopes. A source attached to one fact does not verify an entire profile. A series-level connection does not prove an appearance in every episode. Omitted connections mean unestablished within the selected review scope, not proven absence. Physical scenes, transmissions, flashbacks, visions, remote Force contact and Force spirits retain their own context.
+Checked details have individual citations and scoped reviews. A source attached to one fact does not verify an entire profile. Series-level connections do not prove appearances in every episode, and omitted links are unestablished within the review scope rather than proven absences. Physical scenes, transmissions, flashbacks, visions, remote Force contact and Force spirits retain their contexts.
 
-## Current research scope
+All 24 current works have an initial scoped review; full credits and every edition/appearance remain incomplete. Registered selected-profile reviews cover The Mandalorian, Obi-Wan Kenobi, Skeleton Crew and all 66 Rebels guides. The latest episode batch covers Bad Batch S2E5–9; 25 of 47 registered episodes have selected-record reviews and 22 remain. PROFILE-18 reviews five craft profiles; PROFILE-19 reviews Nute Gunray, Finis Valorum, Mas Amedda, Wat Tambor and San Hill. The next planned data batch is PROFILE-20, covering Wookiee, Trandoshan, Kaminoan, Chagrian and Muun. Evidence, limitations and preservation audits live in [review reports](docs/reviews/).
 
-The latest seven research batches (SUPPLEMENT-23–26 and PROFILE-14–16) complete the selected-record Rebels episode reviews, cover the first ten Bad Batch episodes and assess 105 inherited fields across fifteen existing character profiles. Together they add 66 introductory supporting records, 307 episode connections, 129 official sources and 1,393 claim-level citations. Each batch includes its own evidence, limitations, change log, preservation audit and scoped browser checks.
-
-New release-date research is limited to each work's original US cinema, television or streaming launch. Documented distinct editions retain their identities and already sourced dates and credits. Earlier verified release-history events remain visible; further territory, platform, ordinary rerelease and home-media calendar expansion is deferred.
-
-All 24 current works have a first scoped review, but complete end-credit rolls, every edition and every episode appearance are not finished. Selected-profile episode reviews cover all registered Mandalorian, Obi-Wan Kenobi and Skeleton Crew episodes. All 66 registered Rebels guides covering 75 numbered parts now have a scoped selected-profile review; 37 Bad Batch episodes remain in the registered appearance-review queue. Earlier unresolved scene identifications and full episode credits remain open.
-
-The latest episode batch covers registered Bad Batch episodes 6–10, Decommissioned through Common Ground: 83 episode connections, 21 introductory one-fact profiles, 30 official sources and 292 citations. All 103 narrative and 25 trivia captions were read against an 88-record selected cohort. R7-A7’s conflicting trivia spelling, a detached tactical-droid head, the damaged Bracca Venator, Rampart’s projected report, Taun We’s living meeting versus later body, Nala Se’s physical and remote scenes, and Raxus versus name inspiration retain their scopes. Ten of 47 Bad Batch episodes now have selected-record reviews; 37 remain. Omitted links are unestablished within that scope, not proven absences.
-
-PROFILE-16 reviews Owen, Beru, Greedo, Jabba and Shmi: all 35 inherited fields assessed, seven verified/corrected, 28 unestablished, 24 new facts and 53 checked connections. Greedo’s nominal height is 174 cm. Jabba’s 3.9 m is length, not vertical height. Beru and Shmi have explicit textual woman descriptions; other gender fields are not inferred. Owen/Beru’s Tatooine origin, guardianship versus biological parenthood, current official names versus preserved legacy titles, edition-sensitive cantina action, Jabba’s Special Edition scene and Shmi’s vision portrayal retain separate scopes.
-
-The next planned batch is PROFILE-17: Jar Jar Binks, Roos Tarpals, Rugor Nass, Ric Olié and Quarsh Panaka, 35 inherited fields awaiting first own review. Then continue with registered Bad Batch episodes 11–15. See the [master TODO](TODO-JA-ETENEMISSUUNNITELMA.md) for current order and remaining limits.
-
-## Offline rebuild and verification
+## Verification
 
 ```sh
-pnpm data:build  # rebuild SQLite and import reports from local inputs
-pnpm data:check  # integrity, preservation, provenance and semantic checks
-pnpm check      # data checks, ESLint, TypeScript and production build
+pnpm data:check     # database integrity, preservation, provenance and review semantics
+pnpm test:research  # workspace migration, backup validation, saved views and map geometry
+pnpm lint          # ESLint
+pnpm typecheck     # route generation and TypeScript
+pnpm build         # production build
+pnpm check         # all checks above
 ```
 
-Rebuilds use local snapshots and editorial JSON. Run a production build after rebuilding data to refresh prerendered pages. The optional `scripts/capture-legacy.mjs` is the one-time online capture tool; it is never part of normal builds or visits and must not silently refresh the preserved dataset.
+The current production build reports 1,039 prerendered pages alongside dynamic routes. The interface was exercised through record/graph navigation, source jumps, comparison, path finding and personal research workflows. The [research-desk walkthrough](docs/ui/USABILITY-RESEARCH-DESK.md) records three tasks, findings and fixes. It is an assistant-operated browser walkthrough, not a study with external participants. No full-site browser coverage or field Core Web Vitals measurement is claimed.
 
-The latest production build generated 970 routes, including named records, retained numeric redirects and the former overview redirect. Data integrity, provenance and semantic checks, ESLint and TypeScript passed. Individual research batches include preservation audits and scoped browser QA. The latest batch passed fourteen targeted browser states at 1280 px desktop and 320 px phone widths, covering episode disclosures, source locators, selected profiles and collection search/preview; no browser warnings or errors were recorded.
+Data rebuilding is a separate maintenance operation, unnecessary for UI work:
 
-The navigation refresh was checked at 320, 390, 760 and 761 px and desktop width: the Enter Archive destination, all nine mobile menu links, keyboard opening and Escape/focus return, outside dismissal, the desktop/mobile boundary, and Home/header/footer wordmark returns. Route transitions temporarily disable smooth scrolling; on-page section links retain their normal scrolling behavior. The SQLite database was byte-for-byte unchanged by this interface update. No full-site browser coverage or field Core Web Vitals measurement is claimed.
+```sh
+pnpm data:build  # rebuild SQLite and import reports from existing local inputs
+```
 
-## Performance and accessibility
+Rebuilds use local snapshots and editorial JSON. Rebuild prerendered pages afterwards. The optional `scripts/capture-legacy.mjs` is the historical online capture tool; normal builds never run it or silently refresh the dataset.
 
-Pages are statically prerendered. Collection searches and filters operate locally in the browser, and database files remain on the server. The homepage overview is server-rendered without an additional background image or client-side data request.
+## Implementation, performance and accessibility
 
-Fonts are self-hosted. Original backgrounds use pre-encoded responsive AVIF/WebP variants; the homepage image is visible before client JavaScript and its AVIF sizes are approximately 9, 19 and 32 KB. No animation library, background video, canvas or WebGL is loaded. Decorative motion respects reduced-motion settings and can be paused.
+Next.js App Router and React render the archive over read-only SQLite. Record/collection pages are prerendered where possible; atlas, comparison and research routes use server rendering. Collection filters and desk interactions run locally. `/api/connections` reads the local archive for graph exploration; it does not proxy an external service.
 
-Controls have visible labels, keyboard focus and accessible review disclosures. Department colours are supplemented with names and symbols. The updated homepage has been checked from 320 px phone width through tablet and desktop sizes; its hero uses one primary archive link on every screen size.
+Cards and editable notes are HTML/React; graphs, connections and the overview map use SVG. There is no vector database, canvas renderer, WebGL engine, background video or added animation dependency. The research overview redraws on state/size changes, without a continuous animation loop. Fonts and decorative AVIF/WebP images are self-hosted, with responsive archive environments for each perspective and theme.
+
+Controls include visible labels and keyboard focus. Graph/list alternatives, source-return controls, keyboard map navigation, collapsible panels and Escape/focus restoration support exploration. Reduced-motion preferences disable graph transitions and influence scrolling. The interface is in English.
 
 ## Assets and rights
 
-Every current film and series has an original SVG/CSS title-card design. No official film posters or source images are redistributed. Narrative opening crawls were excluded from the legacy import; source prose and captions are not reproduced wholesale.
+Screen works use original SVG/CSS title-card designs. Decorative archive environments are generated artwork, not extracted film frames. No official film posters or source images are redistributed. Opening crawls were excluded from the legacy import; source prose and captions are not reproduced wholesale.
 
-- [Original hero artwork](artwork/README.md): provenance and generation prompt.
-- [Collection backgrounds](artwork/archive-backgrounds.md): original artwork, prompts and saved paths; [asset sizes](artwork/archive-background-sizes.json).
+- [Original hero artwork](artwork/README.md) and [collection backgrounds](artwork/archive-backgrounds.md): earlier artwork provenance and prompts.
+- [Galactic Memory environments](artwork/galactic-memory-environments.md): perspective/theme variants and asset sizes.
 - [Title-card designs](docs/TITLE_CARDS.md): individual designs for 13 films and 11 series.
-- `src/fonts/OFL-*.txt`: Barlow Condensed and DM Sans font licence notices.
-- `src/content/eras.ts`: sources for the creative-era introductions.
-- [Data documentation](data/README.md): local inputs, provenance and review overlays. Earlier batch counts there describe historical stages.
+- `src/fonts/OFL-*.txt`: Barlow Condensed and DM Sans font licences.
+- `src/content/eras.ts`: sources for creative-era introductions.
+- [Data documentation](data/README.md): preserved inputs, provenance and review overlays.
 
-The orbital mark and category insignia are original SVG. Application code is MIT-licensed; this does not grant rights to franchise material or external source content. Public availability is not an open text or image licence. Source records distinguish openly licensed data from reference-only use; imported data reuse terms remain a separate review task. This is an independent fan project, not affiliated with Lucasfilm or Disney.
+The wordmark, orbital mark and category insignia are original SVG. Application code is MIT-licensed; that does not grant rights to franchise material or external source content. Public availability is not an open text/image licence. Imported-data reuse terms remain a separate review task. This independent fan project is not affiliated with Lucasfilm or Disney.
 
-## Dependencies and documentation
+## Project documentation
 
-Current package pins: Next.js 16.4.3, React/React DOM 19.3.1, TypeScript 6.0.3 and ESLint 9.39.5, with pnpm 12.15.0. See [package.json](package.json) and the lockfile for the exact dependency set. These are the project's installed versions, not a claim about the latest upstream releases.
+Installed package pins: Next.js 16.4.3, React/React DOM 19.3.1, TypeScript 6.0.3 and ESLint 9.39.5, with pnpm 12.15.0. See [package.json](package.json) and the lockfile; these are project versions, not a claim about latest upstream releases.
 
-- [Master TODO and phased plan](TODO-JA-ETENEMISSUUNNITELMA.md): current scope, counts and next tasks, in Finnish.
-- [Verification history](VERIFIED.md): completed checks and remaining limits; dated entries retain their historical counts.
-- [Review reports](docs/reviews/): evidence, corrections, limitations and preservation/QA logs for individual batches.
-- [Latest episode review — SUPPLEMENT-26](docs/reviews/SUPPLEMENT-26.md).
-- [Latest legacy-profile review — PROFILE-16](docs/reviews/PROFILE-16.md).
-- [Original design proposal](docs/ARCHIVE_PROPOSAL.md): historical starting proposal, superseded by the current implementation and master TODO.
+- [Master TODO and phased plan](TODO-JA-ETENEMISSUUNNITELMA.md): data scope, counts and next review batches, in Finnish.
+- [Verification history](VERIFIED.md): historical checks and their scoped limits.
+- [Research desk](docs/ui/RESEARCH_DESK.md) and [usability walkthrough](docs/ui/USABILITY-RESEARCH-DESK.md).
+- [Latest episode review — SUPPLEMENT-29](docs/reviews/SUPPLEMENT-29.md).
+- [Latest legacy-profile review — PROFILE-19](docs/reviews/PROFILE-19.md).
+- [Original archive proposal](docs/ARCHIVE_PROPOSAL.md): historical starting point, superseded by the current interface.

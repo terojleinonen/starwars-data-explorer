@@ -14,9 +14,10 @@
     "start": "next start --hostname 127.0.0.1 --port 3000",
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit",
-    "check": "pnpm data:check && pnpm lint && pnpm typecheck && pnpm build",
+    "check": "pnpm data:check && pnpm test:research && pnpm lint && pnpm typecheck && pnpm build",
     "data:build": "node scripts/build-database.mjs",
-    "data:check": "node scripts/check-archive.mjs"
+    "data:check": "node scripts/check-archive.mjs",
+    "test:research": "node scripts/check-research-workspace.mjs"
   },
   "dependencies": {
     "next": "16.4.3",

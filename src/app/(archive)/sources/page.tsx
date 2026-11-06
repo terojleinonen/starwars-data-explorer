@@ -6,7 +6,7 @@ import { getSources, getStats } from "@/lib/archive/database";
 import { sourceKindLabel } from "@/lib/archive/types";
 import { Arrow } from "@/components/icons";
 
-export const metadata:Metadata={title:"Sources & Provenance — Star Wars Universe"};
+export const metadata:Metadata={title:"Sources & Provenance — The Galactic Memory"};
 export default function SourcesPage(){
   const stats=getStats(),sources=getSources();
   const date=new Intl.DateTimeFormat("en-GB",{dateStyle:"long",timeZone:"Europe/Helsinki"}).format(new Date(stats.importedAt));

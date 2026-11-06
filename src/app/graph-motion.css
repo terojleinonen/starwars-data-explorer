@@ -1,0 +1,18 @@
+/* React pairs the same record's named snapshots; no continuous animation loop. */
+::view-transition{pointer-events:none}
+::view-transition-old(root){display:none;animation:none}
+::view-transition-new(root){animation:none;mix-blend-mode:normal}
+::view-transition-group(.memory-node-move){animation-duration:440ms;animation-timing-function:cubic-bezier(.22,1,.36,1);z-index:5}
+::view-transition-old(.memory-node-move){animation:150ms ease-out both memory-fade-out;mix-blend-mode:normal}
+::view-transition-new(.memory-node-move){animation:240ms ease-out 90ms both memory-fade-in;mix-blend-mode:normal}
+::view-transition-group(.memory-node-enter){animation-duration:320ms;z-index:4}
+::view-transition-new(.memory-node-enter){animation:300ms cubic-bezier(.22,1,.36,1) 150ms both memory-node-reveal;mix-blend-mode:normal}
+::view-transition-group(.memory-node-exit){animation-duration:140ms;z-index:3}
+::view-transition-old(.memory-node-exit){animation:140ms ease-out both memory-fade-out;mix-blend-mode:normal}
+::view-transition-group(.memory-links){animation-duration:420ms;z-index:1}
+::view-transition-old(.memory-links){animation:120ms ease-out both memory-fade-out;mix-blend-mode:normal}
+::view-transition-new(.memory-links){animation:280ms ease-out 140ms both memory-fade-in;mix-blend-mode:normal}
+@keyframes memory-fade-in{from{opacity:0}to{opacity:1}}
+@keyframes memory-fade-out{from{opacity:1}to{opacity:0}}
+@keyframes memory-node-reveal{from{opacity:0;transform:translateY(6px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation-duration:0s!important;animation-delay:0s!important}}

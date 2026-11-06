@@ -13,7 +13,7 @@ import Link from "next/link";
 type Props={params:Promise<{category:string}>};
 export const dynamicParams=false;
 export function generateStaticParams(){return categoryKeys.map(category=>({category}));}
-export async function generateMetadata({params}:Props):Promise<Metadata>{const{category}=await params;return {title:`${categories[category as Category]?.label??"Archive"} — Star Wars Universe`};}
+export async function generateMetadata({params}:Props):Promise<Metadata>{const{category}=await params;return {title:`${categories[category as Category]?.label??"Archive"} — The Galactic Memory`};}
 export default async function CategoryPage({params}:Props){
   const{category:key}=await params;
   if(!categoryKeys.includes(key as Category))notFound();
