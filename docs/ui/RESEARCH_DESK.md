@@ -16,7 +16,9 @@ The research desk at `/research` stores personal state separately from the publi
 
 ## Interaction boundaries
 
-Archive relationships come from existing record links and retain review state and evidence. A pair uses `↔`; the stored relation label does not establish an inferred direction. Personal links use their author's explicit from/to endpoints, a cyan diamond pattern and a separate interpretation disclosure. Notes are personal, not published record summaries.
+Archive relationships come from existing record links and retain review state and evidence. Pair headings use `↔`; evidence shows every stored subject → relation → target, with original relation keys, status, citations and available check dates. Relations are grouped by unordered pair for drawing without discarding directed links. Catalogue fields remain catalogue links rather than inferred events. Personal links use their author's explicit from/to endpoints, a cyan diamond pattern and a separate interpretation disclosure. Notes are personal, not published record summaries.
+
+Relation-type and review-status filters intersect on each relation. Drawing, the index and evidence use the matching subset, while cards and personal links stay visible. Counters distinguish relation and pair totals; empty results retain reset controls. Only pairs whose displayed relations are all verified use the checked style. Filters are transient React state and do not change IndexedDB, archive records, saved views or backups. Focus mode exposes them in Tools.
 
 Named views save pan, zoom and graph/list presentation, not historical copies of cards. Focus mode fills the browser content area, retains the current world center and zoom, and restores focus/scrolling on exit. Its Tools and Connections panels are mutually exclusive; evidence can sit above the connection index. Opening a named view clears the panels. Escape closes evidence, then the open panel, then focus mode.
 

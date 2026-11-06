@@ -93,3 +93,15 @@ export function getEpisodes(recordId: string): ArchiveEpisode[] {
   const reviews=database().prepare("SELECT v.* FROM episode_reviews v JOIN episodes e ON e.id=v.episode_id WHERE e.record_id=?").all(recordId) as {episode_id:string;checked_at:string;scope:string;notes:string}[];
   return rows.map(row=>({id:row.id,season:row.season,start:row.number_start,end:row.number_end,title:row.title,sourceLabel:row.source_label,note:row.note,connectionReview:(()=>{const review=reviews.find(r=>r.episode_id===row.id);return review?{checkedAt:review.checked_at,scope:review.scope,notes:JSON.parse(review.notes) as string[],evidence:evidence("episode_review",row.id)}:null;})(),evidence:evidence("episode",row.id),credits:credits.filter(c=>c.episode_id===row.id).map((c):EpisodeCredit=>({id:c.id,person:c.name,role:c.role,creditLine:c.credit_line,evidence:evidence("episode_credit",c.id)})),links:links.filter(l=>l.episode_id===row.id).map(l=>({id:l.id,category:l.category,slug:l.slug,title:l.title,relation:l.relation,note:l.note,representation:l.representation,evidence:evidence("episode_link",l.id)}))}));
 }
+
+/** Uncollapsed, directed archive links for the record graph. Reads only. */
+export function getConnectionDetails(id: string) {
+  const rows = database().prepare("SELECT record_id,target_id,relation,source_id,review_status FROM links WHERE record_id=? OR target_id=? ORDER BY relation,record_id,target_id").all(id,id) as {record_id:string;target_id:string;relation:string;source_id:string;review_status:string}[];
+  const cache = new Map<string,Citation[]>();
+  return rows.map(row => {
+    if (!cache.has(row.record_id)) cache.set(row.record_id,getCitations(row.record_id));
+    const key = `${row.record_id}|${row.target_id}|${row.relation}`;
+    const evidence = cache.get(row.record_id)!.filter(c => c.subjectType === "link" && c.subjectKey === key);
+    return {fromId:row.record_id,toId:row.target_id,relation:row.relation,reviewStatus:row.review_status,evidence:evidence.length?evidence:[{sourceId:row.source_id,locator:"",note:"",checkedAt:""}]};
+  });
+}

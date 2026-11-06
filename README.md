@@ -61,7 +61,7 @@ Select a graph node to inspect its record and connection evidence. **Explore fro
 
 Record constellations keep their exploration state in the URL. **Copy exploration link** includes the trail, selected memory, category filter and presentation. Comparison and path views can also be shared by URL, and record pages retain a return link to their originating comparison. Citations open the source workspace with a return to the cited passage.
 
-Shared neighbors and graph paths describe recorded relationships. They do not prove that two people met or participated in the same event. Imported relation labels remain visible; archive pairs use `↔` so the interface does not imply an unsupported direction. Read the source context to interpret a relationship.
+Shared neighbors and graph paths describe recorded relationships. They do not prove that two people met or participated in the same event. Record graphs expose clickable relation labels and preserve every stored relation between a pair, rather than showing only one preferred link. The evidence panel shows each original subject → relation → target, its review status, source context and available check date. Pair headings use `↔`; directed statements follow stored endpoints. Catalogue fields are labelled as catalogue links, not inferred story events. Original relation keys remain visible. Read the source context to interpret a relationship.
 
 ## Build a personal research desk
 
@@ -73,6 +73,10 @@ Shared neighbors and graph paths describe recorded relationships. They do not pr
 6. Use **Focus mode** for the full browser content area. **Tools** opens the editing panel; **Connections** opens recorded and personal relationships, including in list presentation. Opening a saved view clears the panels. Escape closes evidence, then the open panel, then focus mode.
 
 Gold marks checked archive connections; lavender dots indicate pending/reference links. Cyan diamonds mark personal interpretations. Labels and source disclosures accompany the colours. Undo restores recent desk edits, including removed cards, annotations and views.
+
+**Archive connection filters** narrow the desk by relation type and review status (checked, pending or reference only). Both filters apply to individual relations, including multiple relations between the same two cards. The graph, pair index and evidence panel show matching relations; counters show matching relations and pairs against desk totals. Reset restores all archive links. Cards and personal interpretations remain visible. In focus mode, filters are available under **Tools**.
+
+A pair is gold only when all displayed relations are checked. Mixed or pending/reference pairs use the pending style; each relation retains its own status and citation. Filters are temporary interface state: they are not saved in named views or desk backups and reset on page reload.
 
 ### Local storage and backups
 
